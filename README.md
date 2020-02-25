@@ -55,7 +55,7 @@ Larges files are available to download.
 
 - Reviews titles in b2w
 
-  https://storage.googleapis.com/mtdnn_port/review_title.json
+  https://drive.google.com/file/d/1-1uj9IY9KiJMuW9j4qTxHrS6Pw_G6rDP/view?usp=sharing
   
 - Faquad
 
