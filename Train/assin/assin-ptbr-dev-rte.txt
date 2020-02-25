@@ -1,0 +1,501 @@
+id	label	premise	hipothesis
+2501	None	According to the report, 6,052 suspected cases of dengue were reported, of which 641 were discarded.	Of the total reported cases, 10,768 were confirmed as dengue and 15,202 discarded.
+2502	None	His brother George is third in the line of succession of the British crown.	Charlotte is fourth in the line of succession of the British crown.
+2503	None	In Campinas, in the interior of the state, there are already more than 30,000 confirmed cases of dengue.	There are 333 municipalities with notifications of the disease and 246 have confirmed cases of dengue.
+2504	Entailment	Brazil&#39;s Copa America debut is scheduled for June 14 against Peru.	The team debuts in the Copa America against Peru.
+2505	None	Normal operation, shops and food court from 10am to 10pm.	Already on Monday, the mall will open from 9am to 7pm.
+2506	None	According to the organizers, 2 million protesters took to the streets.	Across the country, protesters took to the streets in a peaceful climate.
+2507	None	The indictment was filed by the Federal Prosecutor (MPF) earlier this month.	All become defendants and begin to respond for crimes accused by the Federal Prosecutor (MPF).
+2508	Entailment	The Italian coastguard said 400 people were rescued and 25 died.	About 400 people were able to be rescued with sea life according to the Italian coastguard.
+2509	Entailment	The Brazilian team is in group 3 of the Copa America, along with Colombia, Peru and Venezuela.	Brazil is in Group 3, along with Colombia, Peru and Venezuela.
+2510	None	Last year, the honoree was Taylor Swift.	In previous years, the award was presented to Taylor Swift and Pink.
+2511	Entailment	Fernanda Lima showed on her Instagram account this Saturday, 12, her new haircut.	This Saturday (12) the host used her Instagram profile to show off her haircut.
+2512	None	According to Brazil&#39;s App Store, Uber was the most downloaded free app on Friday.	According to him, the polarization of taxis against Uber makes no sense.
+2513	None	At the end of 2016, the median of projections was maintained at 11.50% per year.	For 2016, the median of projections remained at 1% growth.
+2514	None	The forecast for the exchange rate in 2015 was $ 3.20.	For 2016, the forecast trade surplus remained at $ 9.95 billion.
+2515	None	You can keep Kátia Abreu, you can keep Eduardo Braga.	From the Senate are Eduardo Braga, in Minas and Energia, and Kátia Abreu, in Agriculture.
+2516	None	Year-to-date, services provided to households have a fall of 2.0% in gross revenue.	With the result of July, the sector&#39;s gross revenue accumulates high of 2.2% in the year.
+2517	Entailment	According to police, 56 agents and 12 protesters were injured.	At least 46 police officers and seven protesters were injured.
+2518	None	On her Instagram profile, the blonde showed off the new look with a selfie in the mirror.	Diego Américo, responsible for the new look, also showed his work with a photo on the social network.
+2519	None	Exports totaled US $ 57.931 billion in the first four months of this year and imports totaled US $ 62.977 billion.	Imports totaled $ 19.218 billion.
+2520	None	The Ares 3 mission landing sites are on the Martian plain called Acidalia Planitia.	Photographs show locations of the Ares 3 and Ares 4 mission landings.
+2521	Entailment	She had recently taken on a new challenge of weather forecasting on MSTV 2nd Edition.	She presented the weather forecast on MSTV 2nd Edition.
+2522	None	Imports totaled US $ 62.977 billion, retraction of 15.9% also by the daily average.	Brazilian exports totaled US $ 15.156 billion in April.
+2523	None	Directed by Robert Stevenson, the 1964 feature was based on the first of PL Travers&#39; eight children&#39;s books.	Mary Poppins was first inspired by the first of eight children&#39;s books written by PL Travers.
+2524	None	The Mega Sena will make an extra draw this week on Mother&#39;s Day.	The Mega Sena will have three draws this week because of Mother&#39;s Day.
+2525	Entailment	Steering wheel of origin, Nilton was improvised as a defender with Alan.	This way, Nilton will be improvised in defense alongside Alan Costa.
+2526	None	The Caixa Economica Federal does the Mega-Sena draws twice a week, on Wednesdays and Saturdays.	Mega-Sena will have three contests this week, according to the Caixa Econômica Federal.
+2527	None	Corinthians improved, reached the goal and after the expulsion of David Braz took over the classic.	It is explained the expulsion of David Braz in the 2-0 defeat of Santos to Corinthians.
+2528	None	On the Israeli side, there are four fatalities and about 20 injured.	Four Israelis were injured in a knife attack.
+2529	Entailment	The president is expected to announce administrative and ministerial reform on Thursday.	Ministerial reform is expected to be announced on Thursday.
+2530	None	The vaccine in 2015 protects against three types of viruses: Influenza B, H1N1 and H3N2.	The vaccine used in the Influenza campaign is safe and well tolerated.
+2531	None	The combined deficits of the 20 clubs reached R $ 598 million.	In the last four years the total deficits have reached R $ 1.3 billion.
+2532	Entailment	Compared to Samsung&#39;s Galaxy S6, which has 2,600 mAh of battery, the difference is really stark.	Compared to Samsung&#39;s Galaxy S6, the difference in battery is very large.
+2533	None	So far, only one Lava Jato lawsuit involving the state-owned company has been tried.	But Judge Sérgio Moro has been quick to judge Operation Lava Jato&#39;s actions.
+2534	None	According to Caixa Econômica Federal, 65 bets hit Quina and won R $ 45,507.40.	In all, 189 people hit the corner and earned $ 13,000.
+2535	None	The first batch of Lolla Pass (valid for both days) is already sold out.	The price of the 3rd lot will be Lolla Pass will be $ 800.
+2536	Entailment	Also according to the institute, GDP in the first quarter of the year totaled R $ 1.4 trillion.	In the first three months of this year, GDP stood at R $ 1.4 trillion.
+2537	Entailment	In 2013, before the arrest warrant was issued, Pizzolato fled to Italy to escape from prison.	Pizzolato fled Brazil in 2013 to escape from prison.
+2538	None	Earlier, he had poked when Santos had another goal canceled, again in offside position.	At 41, Gabriel had another goal canceled, also in an irregular position.
+2539	Entailment	In May this year, they resumed, but ended again on September 24.	In May this year, they resumed, ending again in September.
+2540	None	Microsoft strengthens its Azure cloud by creating its own Linux distribution.	Microsoft today announced its own distribution of Linux.
+2541	None	The financial turnover of the first trading session of the week was R $ 4.9 billion.	The financial turnover totaled only R $ 4,966 billion.
+2542	None	In addition to the presenter, she became a singer, praised even by the &quot;Queen of the Shorties&quot;.	The three were on the stage of the Queen of the Shorties and talked about their expectations.
+2543	None	The announcement of the referendum made yesterday was an unpleasant surprise.	The situation is now aggravated by the announcement of a referendum by the Greek government.
+2544	Entailment	The first problems with Skype were detected around 9:20 am in Lisbon, (5:20 am Brasília time).	The first problems with Skype started around 5:20 am Brasília time.
+2545	None	Without rest, the boy starts this Tuesday the dispute of Aquece Rio, test event for the Olympics.	The contest officially starts on Tuesday, with knockout rounds.
+2546	None	However, it will be difficult to convince Turkish President Recep Tayyip Erdogan to sign the deal.	In Istanbul, Merkel also met with Recep Tayyip Erdogan.
+2547	Entailment	Foul charged by Galhardo, who launched into the area but the defense pulled away once again.	Galhardo charged, but the defensive drove away once more.
+2548	None	Internet users criticized the musicians for statements to the magazine &#39;Sassy&#39;.	Along with the other members, the musician participated in a conversation with the magazine Atrevida about female behaviors.
+2549	None	Brazil came to the mobster from information from the Federal Police in Italy.	In Brasilia, the head of Interpol in Italy talked about the mobster.
+2550	None	The history of Flamengo did not start with the flag nor that of Fluminense with this current president.	Futebol do Rio is not restricted to the Flamengo and Fluminense duo.
+2551	Entailment	He will be detained at the prison of the PF Superintendence in Curitiba.	He will be taken to the Federal Police Superintendence in Curitiba.
+2552	None	Palavered with Kappa, President Modesto Roma Júnior still seeks a producer and distributor for uniforms.	President Modesto Roma Junior is agreed with Italian company.
+2553	None	One of the most angry after the classic held at the Corinthians Arena was David Braz.	Like David Braz, Werley was also sent off in the classic against Corinthians.
+2554	None	The new version brings interesting news: compatibility with the cloud-based Office 365 subscription.	The most affordable subscription option is Office 365 Personal.
+2555	Entailment	The first quarterfinal match is scheduled for Wednesday at 7:30 pm at the Beira-Rio stadium.	The match is scheduled for 19:30 on Wednesday, in Beira-Rio.
+2556	None	I&#39;ve been naked several times on TV and in the theater.	It&#39;s one thing to do a job, a nude in the theater, on TV, in the movies.
+2557	None	I speak here in the program, and I am available.	Gilmar Rinaldi challenged Senator Romário.
+2558	None	In the second half, Aspas&#39;s victim was Brazilian Daniel Alves.	Daniel Alves feels the lack of rhythm suffers with Nolito in his sector.
+2559	None	Deborah Secco is completely focused on the arrival of her daughter, Maria Flor.	Secco is pregnant with her first daughter, who will be called Maria Flor.
+2560	None	Deposits of 3.1 million were identified in the Vargas brothers&#39; company accounts.	Vargas&#39;s brothers and the agency&#39;s owner also denied the charges.
+2561	Entailment	As is already a tradition in the Two Wheel Show, another attraction will be the test-ride of high-displacement bikes.	The Two Wheel Show will have a test-ride space for high-displacement motorcycles.
+2562	Entailment	Johny Hendricks fell ill on Thursday night and the duel with Tyron Woodley was canceled.	The casualty was the cancellation of the duel between Americans Tyron Woodley and Johny Hendricks.
+2563	Entailment	To the police, the accused said he released the snake in the same location.	The man claimed that he released the snake in the same location as the one that occurred.
+2564	None	After Operation Lava Jet, one is &quot;confusing lobbying with corruption.&quot;	What was done in Operation Car Wash has nothing to do with lobbying.
+2565	None	Six young people were killed in an early April 12 morning slaughter in an inn.	Of the six youths murdered, four were under 20 years old.
+2566	None	Medina, seventh, will face Hawaiian John John Florence (18th).	Before beating Adriano de Souza, Medina eliminated Hawaiian John John Florence.
+2567	Entailment	On Tuesday, President Dilma Rousseff sanctioned, with vetoes, the Electoral Reform Law approved by the National Congress.	President Dilma Rousseff endorsed the electoral reform proposal on Tuesday.
+2568	None	But now it&#39;s more important to us because it drives the ball, it has the ability to turn the tables.	He knows how few turn the ball during the game.
+2569	None	She and her ex-husband are still friends, but Latino has never been and is not her manager.	That&#39;s because the model still keeps her ex-husband, Latino, as her manager.
+2570	None	Vote is the source of my legitimacy, and no one will take away from that legitimacy that the vote has given me.	The president stressed the legitimacy of the popular vote.
+2571	None	Iniesta is a key player for the team.	They also had chances, but the result gives the team strength.
+2572	Entailment	So far, only three ministers have voted - Edson Fachin also advocated releasing only marijuana use.	Minister Edson Fachin advocated decriminalizing the possession of cannabis for his own use.
+2573	None	Without Messi, Neymar and Suárez looked lost in the attack.	Barcelona lost their main reference in the attack.
+2574	None	The match will be valid for the First League, as for the Gaucho Championship.	The CBF authorized the holding of the First League, a championship belonging to the Liga Sul-Minas-Rio.
+2575	None	In 2013, the pilot was hired by McLaren.	He has 87 GPs played, including McLaren.
+2576	None	This is the second time the Serbian has won the US Open.	The only time the Serb won the American Grand Slam was in 2011.
+2577	None	Athena steals Romero&#39;s money, which accuses Ascânio and expels him from the Foundation.	Athena offers money to Ascânio in exchange for information about Romero.
+2578	None	The Rock City structure has impressive numbers.	Your arsenal of 80s hits will rock Rock City.
+2579	None	The biggest hurdle has been access to Valcke&#39;s various emails kept on a server within the entity.	Getty Images Fifa will allow access to emails from Jérôme Valcke.
+2580	None	Two months later, Russia granted political asylum to Snowden.	Currently Snowden lives in Moscow, which offered him asylum.
+2581	None	Pizzolato fled Brazil after being sentenced to 12 years and 7 months in prison in the trial of the monthly.	Brazilian fled to Italy after being convicted in the trial of the monthly.
+2582	Entailment	The scam was identified over the weekend by digital security company Kaspersky.	The scam was discovered by Russian digital security company Kaspersky Lab.
+2583	None	Zulu met his ex-wife, Cassiana Mallmann, while working as models in Paris.	The marriage of Paulo Zulu and Cassiana Mallmann was in 1992.
+2584	None	For a minute, Palmeiras found themselves out of the semifinal of the Brazilian Cup on Wednesday.	Palmeiras struggled to qualify for the semi-final of the Brazilian Cup on Wednesday night.
+2585	None	Defensive midfielder Maicon normally attended the Grêmio training this Friday.	Defensive midfielder Maicon is out of Grêmio&#39;s match against Atlético-PR.
+2586	None	From January to March this year, GDP fell by 0.7% (revised data).	The government has officially revised its forecast for this year&#39;s GDP retraction to fall by 2.44%.
+2587	None	Teachers and students believe the measure aims to cut spending.	The measure aims to reorganize the distribution of students in schools.
+2588	None	In addition to integrating with Skype, Windows 10 will also gain improvements in its browser, Microsoft Edge.	The flaw is not present in Microsoft Edge, the default Windows 10 browser.
+2589	None	To appoint a prime minister, a party must win 326 seats in parliament.	Ballot box says the Conservative Party has secured 316 seats in parliament.
+2590	Entailment	The first major upgrade of Windows 10 is already being developed by Microsoft with release scheduled for 2016.	Microsoft has already started development of the first major update of Windows 10.
+2591	None	They are parents of two children: Seraphina, 6 years old, and Samuel, 3 years old.	The two actors had been married for 10 years.
+2592	Entailment	Workers protest against the regulation of outsourcing, the withdrawal of labor rights and fiscal adjustment.	Workers protest the bill that regulates outsourcing in the country.
+2593	None	It is another selection that will fight for a vacancy and may surprise.	Italy were the first selection to secure the spot.
+2594	None	The injunctions were obtained from the Court of Justice, which led PGE to appeal to the Supreme Court.	Some unions obtained injunctions from the Rio Grande do Sul Court of Justice.
+2595	Entailment	In the feature, Marty McFly and Doc Brown traveled to the future on October 21, 2015.	In the movie, McFly and Doc Brown travel to 2015.
+2596	None	State Representative Leci Brandão (PCdoB) climbed into a sound car to defend Petrobras.	State Representative Leci Brandão (PCdoB) was among the politicians attending the demonstration.
+2597	None	In May, a person was killed by mortar fire that fell nearby.	Three others were injured in April when mortars fell inside the compound.
+2598	None	So far, 14 people have been arrested, including seven FIFA officials.	The seven arrested leaders could be extradited to the United States.
+2599	None	Minister Levy and Minister Barbosa&#39;s position in government is extremely stable.	No one can take it from Levy or Minister Barbosa.
+2600	None	In the agreement, Sabesp also donated three properties worth approximately 40 million reais.	The agreement also establishes the transfer of 130 million reais to the city.
+2601	None	Taylor Swift&#39;s advisor and Calvin dismissed the rumors.	It seems that the relationship between Calvin Harris and Taylor Swift remains firm and strong.
+2602	None	VEP&#39;s head judge, Eduardo Oberg, is also going to the scene.	Judge Eduardo Oberg, also from VEP, accompanied the magistrate on her return to the Battalion.
+2603	None	Lady Gaga, 29, will receive the award at the Billboard ceremony in New York in December.	Lady Gaga was named Woman of the Year by Billboard magazine.
+2604	None	Ricardinho took a free kick at the entrance and tied for Figueirense.	At 15 minutes, Figueirense tied with the goal of Ricardinho.
+2605	Entailment	The consultation of vacancies was opened this Tuesday, on the MEC website.	The Ministry of Education opened on Tuesday the consultation of vacancies.
+2606	Entailment	Because of the irregularities, she even temporarily suspended intimate and family visits.	She temporarily suspended intimate visits after checking for irregularities.
+2607	Entailment	Joseph Blatter was re-elected president of the International Football Federation (FIFA) on Friday afternoon.	Joseph Blatter was reelected Friday as FIFA president.
+2608	None	The other moons that orbit around the two bodies are called Styx, Kerberos and Hydra.	Nix is one of four moons orbiting Pluto and its largest moon, Charon.
+2609	None	In the first round, Blatter had 133 votes against 73 from Hussein.	It was the second time that Blatter did not win the election in the first round.
+2610	None	Two months after launching GoPro HERO4 Session, GoPro announces the arrival of Hero + in the market.	GoPro launches Hero + camera with wifi connectivity and Full HD shooting capability.
+2611	None	The attack left 26 dead and 227 wounded in Kuwait City&#39;s Al Imam A Sadeq mosque.	Kuwaiti police have already arrested two more people for alleged involvement in the attack.
+2612	None	Lars Rebien Sørensen has been running the Danish pharmacy Novo Nordsik since 2000.	First place was Dane Lars Rebien Sørensen from Novo Nordisk.
+2613	None	The index related to Finished Goods increased 0.87%.	The index related to Materials, Equipment and Services recorded a 0.47% change.
+2614	None	And in a special way, it concerns the fight against breast cancer.	You have to look at breast cancer in another way.
+2615	None	Publishing nude photos is totally out of date now.	Nude photos will give rise to provocative images of dressed women.
+2616	None	In 2015, the title goes to the singer Lady Gaga.	On Twitter, Lady Gaga celebrated the recognition.
+2617	None	The Atletico Paranaense crisis, which seems endless, won another chapter.	Atletico Paranaense is out of the Brazil Cup 2015.
+2618	None	The entire automotive industry declined this quarter, since light cars.	This is the first drop in the indicator since the third quarter of 2003.
+2619	None	Five of the eight expense categories comprising the index increased in their rates of change.	Six of the eight expense classes that make up the index rose in the rate.
+2620	None	About 3 million Muslims participate in the pilgrimage to Mecca.	Hajj is the name given to the Muslim pilgrimage to the holy city of Mecca.
+2621	None	The reporter confirmed that they were being carried in the trunk of one of the vehicles 240 kilograms of plaster dust.	In the trunk of one of the cars were 169 casings of plaster dust.
+2622	None	OAS is the second condemned contractor at Lava Jato.	The Lava Jato operation started just over a year ago.
+2623	Entailment	According to TMZ, the ex-girlfriend committed suicide and left a letter to the eternal beloved.	A suicide letter was allegedly left by his ex-girlfriend, TMZ said.
+2624	None	Already Filipe Toledo had an easier life compared to previous phases.	The first to secure presence in the next phase was Filipe Toledo.
+2625	Paraphrase	According to the TMZ website, singer Britney Spears bought a new home.	According to information released by the site TMZ, Britney Spears is new home.
+2626	None	In total, UNHCR says 514,193 immigrants and refugees arrived on the mainland by sea.	Syria was the source of 54% of refugees and immigrants who arrived by sea to the continent.
+2627	None	Among those with a family income below two minimum wages, 35 percent would vote if not obliged.	Among people with incomes over ten times the minimum wage, 62 percent would vote.
+2628	None	This first vote approved the end of reelection to executive positions: president, governor and mayor.	The House of Representatives yesterday approved the end of reelection to office in the Executive.
+2629	None	Pizzolato left Brazil in 2013, using a fake passport from his already dead brother.	Pizzolato fled to Italy in 2013 and was arrested there with a fake passport.
+2630	None	The purpose of “Health Action” is to show society how the pharmacist can help the population.	The population can look for a pharmacist to consult and evaluate their health.
+2631	Entailment	In all, 330 deputies voted in favor of the PEC, and 141 voted against.	The text was approved by 330 votes in favor and 141 against.
+2632	None	The Military Police estimates the number of people at 700.	According to the movement, about 500 people occupied the place.
+2633	None	They had their shirts torn and only managed to leave the meeting escorted by security.	Despite the bodyguard escort, they had their shirts torn and needed to jump over a fence.
+2634	None	Rafinha lost in the first trial and decided to file two appeals.	In the second trial, Rafinha had two votes against and one in favor.
+2635	None	Edson Ratinho entered the area and played over Cassio.	The Santa Catarina team had chances with Edson Ratinho, but Cássio saved Timon.
+2636	None	The phrase comes from Syrian President Bashar al-Assad in an interview with local state television.	Moscow supports the government of Syrian President Bashar al-Assad.
+2637	Entailment	For the exchange rate, forecasts were raised from R $ 3.95 to R $ 4.00 at the end of 2015.	The forecast for the exchange rate in 2015 was $ 4.00.
+2638	None	In this case, the increase was R $ 40.17 billion.	Regional governments had losses of $ 959 billion.
+2639	None	Playboy, more than a &quot;nude magazine&quot;, is a publication that discusses male behavior.	Playboy magazine will stop publishing images of naked women.
+2640	None	She had head trauma and even lost part of her ear.	A woman is still in the ICU because she had head trauma.
+2641	None	It seems that Bruna Marquezine has no vocation to maintain &quot;friendship&quot; after their relationships.	The ex girlfriend he referred to is global actress Bruna Marquezine.
+2642	Entailment	The Caixa Economica Federal also reported that 106 bets hit 5 numbers and brought with it $ 36,347.41 each.	The machine had 106 winning bets, which will receive $ 36,347.41 each.
+2643	None	For next year, the forecast was a deficit of $ 54.00 billion.	For 2016, the projection increased from US $ 23.50 billion to US $ 24 billion.
+2644	None	At 52, Paulo Zulu returned to the catwalks this week.	Paulo Zulu&#39;s (23) marriage of 23 years ended with former model Cassiana Mallman.
+2645	None	The next word now falls to President Aníbal Cavaco Silva.	President Aníbal Cavaco Silva should soon invite the party with the most votes to form a government.
+2646	None	Federal Police on Thursday launched the 13th phase of the Lava Jato operation.	This is not the first time Milton Pascowitch has been targeted by the Lava Jato operation.
+2647	None	All of them already have passage through the city police.	According to the delegate Laércio Evangelista, the population demands justice.
+2648	None	Coach Roger made his debut at Grêmio with a 1-1 draw against Goiás.	Roger Machado&#39;s Guild started the game well against Goiás.
+2649	None	According to press reports, Federal Police reports indicate that Meigan would participate in the corruption scheme.	Federal Police reports indicate that Banco Santander participated in the scheme.
+2650	Entailment	Tite, in the second half, exchanged Ralf for Mendoza.	The Mendoza striker entered the place of the Ralf steering wheel.
+2651	None	Julius Caesar also talked about the last World Cup.	During the last World Cup, Julius Caesar played in the American Football League.
+2652	None	The acclaimed playwright appears alongside his wife, Marilene Saade.	In one of the images, Marilene Saade appears with a cellphone in her hand.
+2653	None	Aedes aegypti is capable of transmitting up to 23 viruses.	The transmission capacity of the virus by a female can reach 60 people.
+2654	None	The decision could affect Senator Marta Suplicy.	Senator Marta Suplicy on Wednesday celebrated the Supreme Court&#39;s decision.
+2655	None	In addition to the title, the author earns 8 million SEK (about R $ 3.75 million).	The winners will split 8 million SEK, the equivalent of R $ 3.8 million.
+2656	None	Contingency is a step in the four-year fiscal rebalancing.	The government has proposed a fiscal rebalancing that is gradual.
+2657	None	Flamengo, in turn, aware of the interest of the club from São Paulo, suggested switching to Elias.	Aware of the interest of the Paulistas, the vulture even tried Elias again.
+2658	None	Last time Barcelona and Bayer Leverkusen met at Camp Nou, Lionel Messi was the star.	It was Barcelona&#39;s first match after injury to star Lionel Messi.
+2659	Paraphrase	Other public agents will be allocated to the economy class.	All the rest of the civil servants will have to board the economy class.
+2660	Entailment	The divergence opened by Toffoli was followed by the ministers Gilmar Mendes, Marco Aurélio Mello and Teori Zavascki.	Accompanying the position defended by Dias Toffoli were ministers Gilmar Mendes and Marco Aurélio.
+2661	None	President Dilma Rousseff swears in this Monday (5), the new ministers, in ceremony at the Planalto Palace.	Ten ministers took office on Monday (5) in a ceremony at the Planalto Palace.
+2662	None	Six stations marked temperatures above 45 degrees.	In New Delhi, temperatures have reached 45 degrees Celsius.
+2663	None	In total, the amounts reach 22.6 million reais.	The total fines amount to R $ 22.7 million.
+2664	None	We have to analyze and that is what is being done.	As long as he offends me, I will sue.
+2665	None	The popular movement internationally known as October Rose is celebrated around the world.	Not just October Pink, we are remembering this month.
+2666	None	Del Nero denied knowledge of any case of bribery payment.	Del Nero has denied being a suspect in the investigations.
+2667	Paraphrase	So there is no violation of the LRF in this regard.	There is no violation of the LRF (Fiscal Responsibility Law).
+2668	None	President Renan Calheiros adjourned the session on two occasions due to protests.	Senate President Renan Calheiros also voted against.
+2669	Entailment	The BBC Three has announced the development of a derivative series on the origin of Doctor Who, entitled Class.	The BBC has announced that it will release a series derived from &quot;Doctor Who.&quot;
+2670	Paraphrase	From then on, the cover was passed to the eldest son of each generation.	From this day forward, the cover was passed to the oldest of each new generation.
+2671	None	These are the first devices that came with Windows 10 from the factory.	Windows 10, however, requires devices to have good internal storage capacity.
+2672	None	This is the lowest value for May since 2010, when it totaled $ 1.15 billion.	The loans totaled $ 1 billion outflows.
+2673	None	With 22 goals in the season, Alexandre Pato is in his best phase and makes the best year of his career.	Alexandre Pato, Rogério and Everton scored the goals of the match.
+2674	None	The former received only 21 votes in favor, 402 against and two abstentions.	267 members voted against the proposal, and 210 had voted in favor.
+2675	None	Salaries range from $ 788 to $ 9,627.44.	The monthly allowance is in the gross amount of R $ 1,017.00.
+2676	None	The result leads Palmeiras to 18 points, in seventh place.	Palmeiras jumped to seventh place, three points behind the G4.
+2677	Entailment	Neymar also spoke about the renewal of the contract with Barcelona, a topic that is much commented on in Europe.	Neymar commented on the contract with Barcelona.
+2678	None	The veto must be published tomorrow (22) in the Official Gazette.	The veto of the president will be published in the Official Gazette this Wednesday.
+2679	None	The president devoted part of the speech to talk about economics.	At the end of the speech, Dilma spoke of corruption.
+2680	None	All of these issues are addressed in the soap opera &#39;Truths Secret&#39; by Rede Globo.	It will air today (17/09), in Globo, the 59th chapter of the novel Secret Truths.
+2681	None	Salaries range from $ 788 to $ 4,000, with the highest salaries being offered to doctors.	The salary offered for the teacher vacancies is R $ 1,273.20.
+2682	Paraphrase	The court had 2,143 winning bets, which took prize money of $ 6,133.01 each.	Another 2,143 bets hit four numbers and took $ 6,133.01.
+2683	None	In the afternoon, he will address Cuban President Raúl Castro.	But the statement that should draw the most attention this Monday is that of Cuban leader Raúl Castro.
+2684	None	The worse the country is, the worse for the entire Brazilian population.	We face a moment that many people consider the worse the better.
+2685	Entailment	Dilma added that Brazil cannot accept intolerance and defended policies aimed at different social groups.	According to Dilma, intolerance cannot be accepted in Brazil.
+2686	None	This time, the highlight was the Bolsa Familia.	His proposal generated around the Family Grant Program.
+2687	None	In September last year, the Brazilian trade balance had registered a deficit of US $ 943 million.	In the first nine months of last year, the balance accumulated a deficit of $ 742 million.
+2688	Entailment	The other spot is between Slovakia second-placed due to direct confrontation, and Ukraine third with 19 points each.	The other spot is between Slovakia and Ukraine, both with 19 points.
+2689	None	In addition to Petrobras, Standard &amp; Poor&#39;s downgraded the ratings of 30 companies as a result of Brazil&#39;s downgrade.	Vale was not affected by the downgrade of Brazil&#39;s sovereign rating.
+2690	None	Second generation ethanol reuses sugarcane bagasse and straw used in first generation ethanol.	Second generation ethanol has a very strong niche in the export market.
+2691	Paraphrase	For Rio, sales begin on November 12 this year.	Ticket sales to Rio begin on November 12 this year.
+2692	None	Lionel Messi&#39;s injury has hampered Barcelona&#39;s plans.	Barcelona will have to deal with the absence of Lionel Messi for the coming weeks.
+2693	Entailment	Mayor Lidiane Leite was revoked by the Chamber of Bom Jardim on September 4.	In early September, the Bom Jardim City Council revoked Lidiane Leite&#39;s mandate.
+2694	None	Vice world champion, the Brazilian competes in the category up to 75 kg of the sport.	Last year she was world runner-up and world military champion.
+2695	None	However, at least for now, it is Luis Suárez who leads Barcelona.	This role, so far, has been by Luis Suárez.
+2696	Entailment	In the semifinals, an expected defeat for the big beast of the category, Adeline Gray of the USA, by 10 to 2.	In the semifinal, however, she lost to American Adeline Gray.
+2697	None	On Saturday, Grêmio returns to the field to face Palmeiras, at Pacaembu Stadium, in São Paulo.	In the next round, Grêmio faces Palmeiras at Pacaembu.
+2698	Entailment	For the first time, NASA researchers have found liquid water on the surface of Mars.	NASA has stated that there is liquid water on the surface of Mars.
+2699	None	The second dose of the vaccine is available to girls who received the first dose in March.	After the first, the girl receives the second dose six months later.
+2700	None	President Dilma Rousseff spent Wednesday meeting with leaders of the PT, PMDB and PDT.	President Dilma is willing to hand over five or six ministries to the PMDB.
+2701	Entailment	Moto X Style allows for many customizations through Moto Maker, which can guarantee up to 126 customization options.	Moto X Style customization by Moto Maker offers over 100 options.
+2702	None	Gulistan Qasani said hostility between the two groups involved in the shooting has been around for many years.	At least two of the injured are under 18.
+2703	None	The operation was authorized and accompanied by President Barack Obama.	This foray into Syria had to receive prior green light from President Barack Obama.
+2704	None	In 2012, only 16,000 chose Tunisia as a holiday destination.	At least 60 people die in attacks in France, Tunisia and Kuwait.
+2705	None	There are 19 wins of the gauchos, against nine of Paraná, besides 12 draws.	In the weekend gauchos and paranaenses return to the field by Brasileirão.
+2706	None	With 20 plays, the game became a ride and Götze finally made his, Bayern&#39;s fifth.	Bayern started as they always do in games at Allianz Arena.
+2707	None	The couple has a 13-year-old daughter and would be in the process of separation.	According to information from the corporation, the couple was in the process of separation.
+2708	None	Grêmio has a classic against Internacional, at home, at 6.30 pm on Sunday.	Grêmio is in seventh place, with 27 points.
+2709	None	Players have been in the National Team for a longer time, so there is a longer maturity.	Players who have passed the World Cup have a longer maturity for the Copa America.
+2710	Entailment	It is undoubtedly the best restart we could have, because we beat big opponents.	Without a doubt, it was the best start we could ever have.
+2711	None	The government said it granted a 45% readjustment in four years.	They stood for 92 days and ended the shutdown without the claimed readjustment.
+2712	None	Egypt&#39;s first elected president in 30 years, Morsi was overthrown by the military in July 2013.	Morsi, the first democratically elected president in Egypt, can appeal.
+2713	None	On Friday (9) the Nobel Peace Prize will be announced by the Norwegian committee responsible for the prize.	The Medical Prize was the first Nobel Prize this year to be announced.
+2714	None	An accident happened on Sunday in a shopping mall in China.	The case happened in China and touched the population.
+2715	None	Judge Shaaban el-Shami scheduled a new hearing for the trial on June 2.	On June 2, the fate of the former dictator will be announced.
+2716	Entailment	In 2001 he received the Order of the British Empire and in 2009 was armed Knight.	In 2009, he earned the title of Royal Knight of the British Empire.
+2717	None	Gaeco wants to know, among other things, if it was a confrontation or an execution.	In addition to him, eight other civil police were arrested by Gaeco.
+2718	None	Brazil cannot live with a high rate of inflation.	Inflation was a highlight on Good Morning Brazil.
+2719	None	He has 30 days to appeal the ruling by the Swiss Federal Court authorizing extradition.	The Venezuelan top hat has 30 days to appeal the Swiss government&#39;s decision.
+2720	None	One family was beaten until it died: the father, the mother and the son.	One family was beaten to death with wooden planks.
+2721	Entailment	Died this Friday (12) the musician and composer Fernando Brant, 68 years old, in Minas Gerais.	This Friday died the composer Fernando Brant.
+2722	None	A new shooting left two more people dead on Sunday morning.	On Monday, two other people were killed in the area.
+2723	None	However, in the last years of the dictatorship, Pinochet and Contreras fell out.	But when Pinochet&#39;s dictatorship came to an end, it fled.
+2724	None	The ball came out chewed and left for shirt 9, which kicked first.	After batting inside the area the ball was left for Biro Biro who kicked.
+2725	Entailment	The funeral is scheduled for today at 4.30 pm at the Bonfim Cemetery.	The funeral will be this afternoon, Bonfim Cemetery.
+2726	Entailment	The fire spread quickly because the houses are made of wood and are close to each other.	The fire spread quickly because the houses were made of wood.
+2727	None	The authorization was granted this Friday by STF Minister Luís Roberto Barroso.	The decision was made by Minister Luis Roberto Barroso, rapporteur of the monthly in the Supreme.
+2728	None	Today, August 1st, begins World Breastfeeding Week.	Fifty-four days is the Brazilian average of exclusive breastfeeding.
+2729	None	The expectation is that this cut in the budget of the Union oscillate between $ 60 billion and $ 80 billion.	He said the cut could range from $ 70 billion to $ 80 billion.
+2730	None	The disease was detected in 2012 in Saudi Arabia.	The country was the biggest focus of the epidemic after Saudi Arabia.
+2731	None	The Intermediate Goods group index recorded a 1.06% change.	The index related to Materials, Equipment and Services registered a 0.72% change.
+2732	None	The conversation will be aired in a special edition of the Job Program.	The conversation between Jo and Dilma will be recorded on Friday.
+2733	None	At her side were her husband, former President Bill Clinton, and daughter Chelsea.	The audience shouted the name of Hillary, wife of former President Bill Clinton.
+2734	None	The information is from the newspaper Folha de S.Paulo.	This is our governor who takes care of Sao Paulo.
+2735	None	Ten people were reported to have died and their bodies were thrown overboard.	Ten people died during the trip.
+2736	None	An armed thief entered the trade, surrendered a child under 17 and stole 300 reais and little gold chain.	Armed with a revolver, he surrendered two gas station attendants and stole 144 reais.
+2737	None	Nations with a history of rivalry, Iraq and Saudi Arabia once again vie for the international market.	Iraq and Saudi Arabia account for three quarters of this growth.
+2738	None	King was admitted to Las Vegas in early May for dehydration.	King passed away at 89 in Las Vegas.
+2739	Entailment	Santos announced on Friday the return of defender Leonardo, 29, who was in Ituano.	Santos officially announced the hiring of defender Leonardo on Friday.
+2740	None	We can&#39;t have a president in the House who takes revenge.	Of course he as president is in a more delicate position.
+2741	None	It will be the third time the automaker has used the measure to adjust production to demand this year alone.	The company said the measures are to adjust production to demand.
+2742	None	To apply, you must have the support of five state federations and three clubs.	The 27 state federations and 20 First Division clubs are part of it.
+2743	None	Petistas mock the departure of Tarsus by proposing exchange for Luciana Genro, daughter of the former governor.	Petistas take for granted the departure of former Gaucho governor Tarso Genro from PT.
+2744	None	The center forward has not yet been made official but should be presented tomorrow at the Football Academy.	Palmeiras&#39; new center forward is already training at the Football Academy.
+2745	None	According to the prosecutor, Luiz Argôlo was the parliamentarian with the closest relationship to moneymaker Alberto Youssef.	According to the Public Prosecutor&#39;s Office, Argôlo visited 78 times the money changer Alberto Youssef.
+2746	None	Italian courts had denied Henrique Pizzolato&#39;s extradition request in October.	Henrique Pizzolato&#39;s extradition to Brazil is already scheduled.
+2747	None	If it were champion, Corinthians would earn more than $ 15 million with the tournament prize.	Currently, Corinthians payroll exceeds R $ 10 million per month.
+2748	None	He was eventually arrested in Maranello in February 2014.	Last year he was arrested in the city of Maranello.
+2749	Paraphrase	Lula soon introduced Marcelo to Dilma, who at the time was the Minister of Mines and Energy.	Soon Lula introduced Marcelo to Dilma, then Minister of Energy.
+2750	Entailment	Petrobras closed January, February and March with R $ 68.2 billion in cash.	The state-owned company ended the quarter with R $ 68.2 billion in cash.
+2751	None	You can see the alligator&#39;s body perfectly, with the head on the left side of the x-ray.	On X-ray you can see that only the hardest parts of the prey remain.
+2752	None	Increase investment and machine spending cuts.	Lower interest rates to ease spending.
+2753	None	Dinner is served from 20h.	For dinner, the operation is from 19h to midnight.
+2754	None	Rio de Janeiro Governor Luiz Fernando Pezão has 15 days to sanction.	After the session, the project goes to the sanction of the governor Luiz Fernando Pezão.
+2755	None	Marcelinho Paraíba, rookie of the night, ventured from outside the area and the ball passed near the post.	JEC&#39;s first clear chance came from the feet of rookie Marcelinho Paraíba.
+2756	Paraphrase	In the same period, the Brazilian population grew by 61%.	By way of comparison, the Brazilian population grew 61% in this same period.
+2757	None	Honda unveiled the 2016 Fit line.	The Fit is a kind of Honda golden egg hen.
+2758	None	This will be possible because from July 20 the diplomatic representations of both countries will open.	The two countries have had diplomatic representations since 1974 as &quot;sections of interests&quot;.
+2759	Entailment	By posting the click on his Instagram account, the singer did not disclose if he actually got the tattoo.	The singer, however, did not make it clear whether he actually got the tattoo.
+2760	None	The Executive can only relax when approving all proposals that make up the fiscal adjustment.	The government runs out of time to approve the fiscal adjustment measures.
+2761	None	From 2019, the program foresees investments of 129.2 billion.	Concessions program foresees investments of R $ 198.4 billion in infrastructure.
+2762	Entailment	Treatment is based on the use of acetaminophen for fever and pain.	Treatment is with pain-reducing medications such as acetaminophen.
+2763	None	The owner of Azul will get 61% of TAP.	The new owner of TAP has already done his math.
+2764	None	The three countries are part of the BRICS block of emerging countries.	The method consisted of the assessment of 100 developed and emerging countries.
+2765	None	The lowest relative humidity reported on Thursday was 15%.	The thermometers range from 26 ° C to 33 ° C and 18% air humidity.
+2766	None	In the second quarter, nominal gross revenue grew 1.6% over the same period last year.	Nominal revenue does not take into account the effects of inflation in the period.
+2767	None	According to MTE, FAT&#39;s economy in this case is 51%.	The MTE estimates nearly R $ 6 million in savings for FAT.
+2768	None	Badly in the match, Grêmio left everything equal to 20 minutes thanks to another defensive failure of Palmeiras.	Palmeiras and Grêmio made this Saturday another great match of the Brazilian Championship.
+2769	Entailment	If approved, the readjustment could generate $ 1.9 billion for state coffers from next year.	The modification would inject $ 1.9 billion per year into the state coffers.
+2770	Entailment	The “gaucho of the World Cup” was a Grêmio fan and had been fighting cancer for over 9 years.	The “gaucho of the World Cup” was fighting cancer.
+2771	None	The iPhone 6S has a 4.7 inch screen with a resolution of 1334 x 750 pixels.	The Plus version comes with 1920 x 1080 pixels, on a 5.5 inch screen.
+2772	None	What no one expected was to see a person standing in line remotely.	Meanwhile, Lucy interacts remotely with people in line via the iPad.
+2773	None	In health care, the outage was partial.	In all, more than 40 unions joined the strike.
+2774	None	His death was confirmed by the Santa Casa Hospital, where he was hospitalized.	Clovis had been interned at the Santa Casa de Misericórdia in Porto Alegre since July.
+2775	None	The Ministry of Health confirmed on Thursday (24) the end of the measles outbreak in Ceará.	From Thursday (24), no more cases have been confirmed in Ceará, completing 10 weeks without cases of measles.
+2776	Paraphrase	He said he was available, so I brought him here.	He said he was available and so we brought it here.
+2777	Entailment	In the past, there were 450,000 overdue statements and 550,000 rectifiers.	On-time deliveries amount to about 450,000.
+2778	None	According to reports from residents, there were several cases of robbery in Ipanema, Copacabana and Botafogo.	Other establishments in Botafogo were also robbed and residents reported that there were trawlers.
+2779	None	In the early hours, some vehicles of the Military Brigade circulated in the streets of Porto Alegre.	According to the Military Brigade, the act brought together 30,000 people.
+2780	None	The vice governor earns R $ 20,743.83 per month, the secretaries R $ 18,038.12, and the administrators R $ 14,430.49.	Today, the salary of the DF governor is $ 23,449.55.
+2781	Paraphrase	For rapporteur, current law is very strict with the good citizen.	In the rapporteur&#39;s assessment, the current legislation is &quot;very harsh&quot; with the good citizen.
+2782	None	For the minister Arthur Chioro, the eradication of the disease was something fundamental in Ceará.	The announcement was made in Brasilia by minister Arthur Chioro and the governor of Ceará, Camilo Santana.
+2783	None	Ney Franco did not count on 13 players.	Disjointed, Ney Franco&#39;s team suffered.
+2784	Entailment	In May, domestic and foreign indebtedness totaled R $ 2.49 trillion.	In May, the debt was valued at 2.49 trillion reais.
+2785	Entailment	The mood in the city is tense and a war between bandits and vigilantes has been declared by social networks.	Via social networks, troublemakers and vigilantes have already declared war publicly.
+2786	None	Ozzy Osbourne was the first artist to confirm a Rock in Rio presence.	In 2011, Rock in Rio returned to Brazil after ten years.
+2787	None	And that is precisely what happened to Luana Piovani.	Luana Piovani is happy with life.
+2788	None	In July, without extraordinary revenues, the federal revenue is $ 102.531 billion.	For the year to date, the result would be $ 702.076 billion.
+2789	None	October Rose has come and with it several breast cancer awareness campaigns.	October marks the importance of breast cancer awareness.
+2790	None	The case was eventually overturned and Peter Greste deported to Australia in February this year.	Greste was deported in February this year after spending 400 days in prison.
+2791	None	Therefore, he considers the strategy of the deal with smart automotive companies and aggregator.	Let&#39;s reproduce the automotive sector model with other sectors.
+2792	None	However, getting a Super Like can influence your decision.	That is, the person who gets a Super Like will be more aware of it.
+2793	Paraphrase	We need to find a solution to a crisis that affects all states and municipalities in the country.	We need to find a way out of the crisis that affects the states and municipalities of the country.
+2794	Entailment	The result, released today by the BC, shows that the economy is in recession.	The indicator reveals, however, that the economy is in recession.
+2795	None	In June, prices had risen by 0.68%.	In July 2014, the IPCA-15 had been 0.17%.
+2796	Entailment	For the vote to be completed, it will be necessary to review the four highlights at the next collegiate meeting.	Thus, the highlights should be appreciated at an upcoming collegiate meeting.
+2797	None	The ratings of these institutions were reduced from BBB- to BB +, with negative outlook.	Sul América&#39;s rating went from BB to BB-, maintaining the negative outlook.
+2798	None	The day of the patron saint of Brazil, Our Lady Aparecida is on Monday (12).	Four Parishes of the Archdiocese of Paraíba have Our Lady Aparecida as Patroness.
+2799	None	ANCINE&#39;s objective is to clear the liability for rendering of accounts pending consideration.	Some benefits have been under review since 1998, before Ancine.
+2800	None	The earthquake in Chile even had a reflection in the state of Sao Paulo on Wednesday night.	Chile has the most relevant building standards for earthquakes in the world.
+2801	None	The improvement only happened after Cunha&#39;s statements to the press.	It is our habit to talk regularly.
+2802	None	He set a deadline of five sessions for any parliamentarian to appeal against the rejection.	Cunha has set a time limit of five sessions for the appeal to be filed in the event of rejection.
+2803	None	Miley Cyrus posed topless and beauty mask for selfies.	Who follows Miley Cyrus on Instagram has a surprise every day.
+2804	None	Scorer of the Brasileirão, with 17 goals, Ricardo Oliveira has not been called since March 2007.	Ricardo Oliveira, 35, is the top scorer of the Brazilian Championship, with 17 goals.
+2805	None	Modern Family will probably win their sixth best comedy Emmy.	It was taking a long time for Modern Family to appear on this list.
+2806	None	One should not ignore the commemorative element of Super Mario Maker.	Also, the brand new Super Mario Maker could be something totally different.
+2807	None	Veep won four of the top awards, Best Comedy Series, Actress, Supporting Actor and Screenplay.	The other four series are supporting the best drama contest.
+2808	None	According to the study, about 15% of respondents said they had suffered spontaneous boarding in 2013.	About 45% of women delivered normally.
+2809	None	Anne Hathaway also said that Mariah&#39;s favorite song is &quot;We Belong Together&quot;.	Anne still says she was listening to We Belong Together before the premiere.
+2810	None	Like Live Photos, the 3D Touch feature is open to developers.	3D Touch gets even cooler when you open apps.
+2811	None	Investigations indicate that the death was accidental.	Everything leads to the indictment for manslaughter.
+2812	None	HPV immunization consists of three doses.	The vaccination scheme adopted by the Ministry of Health consists of three doses.
+2813	None	Every game for the Brazilian team is for real.	Recently we had a game against them in England.
+2814	None	The World of Tribes has gathered detailed information about New office 2016, releases and pricing.	Microsoft has not yet said how much it will cost Office 2016.
+2815	None	Types 16 and 18 cause about 70% of cervical cancer cases.	HPV, when untreated, is the leading cause of cervical cancer.
+2816	None	The 10km race will start later at 8:15.	The start and end of the race will be held in front of the Municipal Palace.
+2817	None	It will be the first time the trial will be held with the acronym having 500,000 court-validated signatures.	There were over one million signatures collected and almost 500,000 validated signatures.
+2818	None	The host drew applause from the audience as she dubbed &quot;Love Of My Life,&quot; a hit on Freddie Mercury&#39;s voice.	With a mustache, Fatima dubbed the song Love Of My Life.
+2819	None	Valcke played a controversial role during preparations for the 2014 World Cup in Brazil.	On April 2, 2013, Valcke confirmed the agreement by email.
+2820	None	The demarches take place in the cities of São Paulo, Rio de Janeiro and Florianópolis.	The action of the PF occurs in three states: São Paulo, Santa Catarina and Rio de Janeiro.
+2821	None	The Audi Q6 could be Audi&#39;s second electric car.	The Audi Q6 e-tron will be a direct rival of Tesla Model X.
+2822	None	Until 12:01 am on Tuesday, Codesal received 184 occurrences.	The last rescue at the scene took place on Tuesday afternoon.
+2823	None	The 5th edition of Marcha das Margaridas brings together approximately 35,000 women in Brasilia.	The Daisy March is held every four years in Brasilia.
+2824	None	The excitement filled the third day of Rock in Rio.	On the third day of Rock in Rio, the audience felt like a big family.
+2825	None	Dilma also mentioned that in her first term the minimum wage grew 14.8% above inflation.	In the first, Dilma dealt with the policy of readjusting the minimum wage.
+2826	None	With this, about $ 9 billion that would be paid this year were for 2016.	The initial forecast was for all benefits to be paid by October 2015.
+2827	None	Sending and receiving direct SMS messages will continue to the original limit.	Twitter has broken the 140-character limit on direct messages.
+2828	None	We don&#39;t regret making the picture.	Because we will do a play.
+2829	Entailment	The rat, scientifically named Hyorhinomys stuempkei, was discovered by scientists in Indonesia.	A group of scientists have discovered a new species of rat in Indonesia.
+2830	None	Professionals follow the guidelines of the National Association of Resident Physicians, which lists nine claims.	The National Movement for Valorization of Medical Residency is organized by the National Association of Resident Physicians (ANMR).
+2831	Paraphrase	Gerd Müller is one of the greatest soccer players in the world.	Gerd Müller is one of the big names in world football.
+2832	None	The singer is Claudia Leitte&#39;s new assistant.	Remember that Claudia Leitte is in a great phase in music.
+2833	None	The registration confirmation card can be printed stating the CPF and password on the INEP Participant Page.	You must enter your social security number and password to view the data.
+2834	Entailment	Jorge Horacio Messi&#39;s situation, however, is worse, and the MP calls for 18-year imprisonment.	There is situation of the player&#39;s father, Jorge Horacio Messi, is much worse.
+2835	None	The Swedish Felix Kjellberg is 25 years old and lives making videos for Youtube.	The difference is that every new Felix video reaches 40 million people via email.
+2836	Entailment	Another very important tip from Apple is to back up your device before starting the update.	Apple recommends backing up before starting the upgrade.
+2837	None	Throughout 2014, fraud resulted in the diversion of 2.58 billion liters.	Between January and July 2015, there are 2.46 billion liters of irregular consumption.
+2838	None	The actor will perform with the band Hollywood Vampires this Thursday, 24th, at the World Stage.	Hollywood Vampires guitars arranged for this Thursday&#39;s concert (24) at the World Stage.
+2839	None	Edinho said he did not know the directors of Petrobras and would not have any influence on that area.	During the testimony, Edinho said he did not remember exactly the dates of the meetings.
+2840	None	The $ 700 million will be paid to public companies that had damage with corruption.	Even with this discount, the value may reach R $ 104 million.
+2841	Entailment	The 21.5-inch, 4K-screen model is new, starting at $ 1,499.	New is a version with 4K screen with size 21.5 inches.
+2842	None	In Paris, the CAC-40 index fell 3.19% to 4,630 points.	The Nasdaq technological thermometer dropped 3.52% to 4,706.04.
+2843	None	It gets a feeling of bitterness for the match.	It was meters away and it was clear that he was soloing.
+2844	Entailment	Instagram completed five years of existence last Tuesday (6).	The social network Instagram has just completed five years of life.
+2845	None	Fourth, comes Kim Kardashian herself, with 2.4 million likes.	Soon after comes Kim, who has 48.1 million fans.
+2846	None	By this time United were already lost on the pitch.	United&#39;s nightmare didn&#39;t end there.
+2847	Entailment	At the embassy in Port-au-Prince, the MRE issues monthly about 2,000 visas for Haitian immigrants.	The embassy in Port-au-Prince issues 2,000 such visas per month.
+2848	None	The numbers were stapled at the beginning of President Dilma Rousseff&#39;s government.	At the time, Dilma Rousseff canceled the visit that was scheduled for that year.
+2849	None	In all, truck production reached 5,819 units in the ninth month of the year.	In the ninth month of the year, 174,240 vehicles were produced in the country.
+2850	None	The announcement of the final was on the night of Tuesday, 15.	The channel prepared for tonight&#39;s night as big people.
+2851	None	Afterwards, Melo and Klaasen, as well as the Colombians, confirmed their services and forced the tie-break.	And Colombians are well-known rivals of Melo.
+2852	Paraphrase	Brazil is one of the countries that most added users to the network, along with Japan and Indonesia.	The countries that brought the most new profiles to the network are Brazil, Japan and Indonesia.
+2853	None	Not only is your family&#39;s request, but it is also Bayern&#39;s request.	At Bayern Munich, it will always take place.
+2854	None	Hours later, Augusto Nardes spoke in a note published on the TCU website.	Nardes is a person who has been with TCU for many years.
+2855	None	We remained at 60.5% for &quot;no&quot; versus 39.4% for &quot;yes&quot;.	The Greeks will have to choose between two answers: no or yes.
+2856	None	Trucks will have reduced maximum limit to 60 km / h.	Already in place, it will decrease from 70 km / h to 50 km / h.
+2857	None	Nearly 30 suspected thefts were arrested in Botafogo and on the fringe of Ipanema and Arpoador on Saturday.	The crimes were verified on the edge of Leblon, Ipanema, Arpoador and Copacabana, in the South Zone.
+2858	Paraphrase	If he were alive, Lennon would be 75 today.	Lennon would be 75 years old today.
+2859	None	The goals were scored by Téo Gutiérrez in the first half and Cardona in the last move of the match.	That is how Téo Gutiérrez&#39;s goal came in the first half.
+2860	None	On the Peru side, coach Ricardo Gareca promises a bold posture as a visitor.	Peru returned with another stance in the second half.
+2861	None	The coach commanded the first training on the morning of Thursday.	In the first training command by him, by the way, this could be observed.
+2862	None	Then he got a pass on the left, dribbled Réver and kicked almost without an angle.	In rebound, Lucas kicked and the ball went into the angle.
+2863	None	In the early hours of the morning, the buses did not leave the garages.	STS buses operate from early in the morning.
+2864	None	The funkeiro Mr. Catra announced on his Facebook the birth of his 32nd son.	Catra has also ensured that she knows the names of all the children.
+2865	Entailment	Road vehicle testing is due to start soon and we will soon see images of the Apple vehicle.	Apple&#39;s car tests should not take long to happen.
+2866	Paraphrase	No player hit the six dozen of the Mega-Sena prize, contest 1744 this Wednesday (23).	No one hit the six dozen of the 1744 Mega Sena contest drawn on Wednesday night (23).
+2867	None	The first and most ambitious, which has been developed since 2013, is the Fear the walking dead series.	The second product is the Fear the walking dead: flight 462 web series.
+2868	None	The change was rejected by 236 deputies and had 206 votes in favor.	Only 210 MPs were in favor of the proposal, and 267 voted against.
+2869	None	The Premier League is one of the most difficult championships in the world.	In the Premier League, the Reds have 12 points in eight rounds.
+2870	None	In May, Petrobras had already obtained the return of R $ 157 million.	The Federal Court ordered the return of more than R $ 69 million to Petrobras.
+2871	None	This will be the first recession for the Latin American and Caribbean region since 2009.	As for Latin America and the Caribbean, the entity forecasts a recession of 0.3%.
+2872	None	Firstly, it is important to remember that Sergipe produced two great paintings, Marcelo Déda and José Eduardo Dutra.	A native of Rio de Janeiro, José Eduardo Dutra made a political career in Sergipe.
+2873	None	They chanted protests against President Recep Tayyip Erdogan.	Turkish President Recep Tayyip Erdogan condemned the attack.
+2874	Paraphrase	The machine had 65 winning bets and each will receive $ 45,507.40.	The corner was hit by 65 players, who each took $ 45,507.40.
+2875	Paraphrase	Aldo Rebelo, Minister of Science and Technology, is expected to take over the Ministry of Defense in place of Wagner.	Aldo Rebelo will leave the Ministry of Science and Technology to occupy the Ministry of Defense in place of Wagner.
+2876	None	Anyone who has not yet settled with Leo needs to be aware.	About 44% of taxpayers have not yet reported to the Lion.
+2877	None	Already Valdivia showed to have evolved during the week after not playing in the arena for a left knee edema.	Already Valdivia, with an edema in the left knee, should be available.
+2878	None	The operations mobilized Italian ships of the Coast Guard, Navy, Customs Police.	The Italian coastguard has other operations underway.
+2879	None	Guaraní&#39;s goal came on 14 minutes into the second half.	The Paraguayan goal came out the next move.
+2880	None	Góes has been arrested since February 8 in Curitiba, the basis of Lava Jato investigations.	He is a defendant in two Lava Jato lawsuits and is in prison in Curitiba.
+2881	Entailment	The Chamber concluded on Wednesday the vote on the project that regulates outsourcing in the country.	The Federal Chamber has finished voting on the outsourcing regulation project.
+2882	None	For Dias Toffoli, the rule goes against what is desirable, which is the shrinking of political parties.	Minister Dias Toffoli was the only one to differ from the rapporteur.
+2883	None	Hospital figures show that 70% of families refuse to donate.	You can sign up to donate to bone marrow life, for example.
+2884	Entailment	The exhibition will have free admission, with daily distribution of passwords for three visitation shifts.	Admission is free, but you will need to get a password to gain access to the exhibit.
+2885	None	The show of the fenders on the Sunset stage was at 19h this Sunday (20).	Legend was the last artist cast for Sunset this Sunday.
+2886	None	On board the aircraft, which had to make an emergency landing, were 18 military personnel.	The aircraft made an emergency landing and three military personnel were reported missing.
+2887	Entailment	Vaccination does not exclude the need for periodic examinations such as Pap smears.	Therefore, the preventive test should also be done even on vaccinated women.
+2888	None	The fine for those who delay filing the income tax return is $ 165.74.	The process should be done via the income tax return system.
+2889	Paraphrase	And he said that in the rush he doesn&#39;t know where he left the murder weapon.	He claims he doesn&#39;t know where the gun was due to the rush.
+2890	Entailment	The piece was all pleated with velvet accents and was paired with Saint Laurent sandals and Bvlgari earrings.	To complete the look, she chose Saint Laurent sandals and Bvlgari earrings.
+2891	None	The good phase of Vasco da Gama continues.	Vasco da Gama cooled and began to act sleepily.
+2892	None	In Russia, more than 150,000 people attended Red Square in the center of the capital, Moscow.	Already in Moscow, 140,000 workers and students attended Red Square.
+2893	None	The game came back balanced in the second half and Manchester United got the goal early on.	Less than ten minutes into the second half Manchester United turned the game around with a Smalling goal.
+2894	None	The Colorado team also hope to meet their opponent in the Libertadores round of 16.	The opponent of colorado will be set late on Wednesday night.
+2895	Paraphrase	Daimler argues that the decision is based on a difficult context for the automotive market in the country.	Daimler explains its decision because the Brazilian automotive sector is difficult.
+2896	None	In a championship like this we cannot afford to play this way.	We played one of our worst games in the Brazilian Championship.
+2897	None	Brazilian Arthur Zanetti secured the gold in the ring test at the gymnastics World Cup.	Brazilian double in the World Cup gymnastics ring dispute.
+2898	None	Students must register on the Fies website.	The government has set new rules for students to access Fies.
+2899	None	Early at 4:30 pm, the Sunset Stage will meet Baby do Brasil and Pepeu Gomes.	The reunion of Baby do Brasil and Pepeu Gomes after 27 years is another attraction of this stage.
+2900	None	It will also be disclosed if shareholders should receive dividends.	Petrobras will not pay dividends to shareholders this year.
+2901	None	In the last week of the deadline, at least 208,000 Pernambucans filed the income tax.	The IRS received 27,895,994 tax returns.
+2902	None	Teachers claim 13.01% increase for the entire category.	In São Paulo, the category wants a 75% increase.
+2903	Entailment	The commission investigates reports of sexual abuse and exploitation in girls from the quilombola community.	The group investigates reports of abuse and sexual exploitation of children from the Quilombola Community.
+2904	None	Felipe Massa had his front tire punctured during the start when he collided with Red Bull from Australian Daniel Ricciardo.	Felipe Massa, after suffering a touch in the start, came in 17th.
+2905	None	Two people died and 75 were injured, including three critically ill children.	Among the 120 injured, there are at least three critically ill children.
+2906	None	The tricolor, on the same day and time, receives Flamengo in Morumbi.	São Paulo, still in Morumbi, receives Flamengo on Saturday.
+2907	Paraphrase	Zelada succeeded Nestor Cerveró in the Petrobras International area in 2008.	Zelada replaced Nestor Cerveró on the Petrobras International Board in 2008.
+2908	None	Today is the big day for Santos and Palmeiras.	This Sunday, Santos and Palmeiras will know if he was right or not.
+2909	None	The presenter&#39;s Instagram followers agreed with her and spared no praise for Sasha.	The host posted a photo of Sasha on Instagram and melted.
+2910	None	CUT fights the project that regulates outsourcing.	CUT had a different role in the discussion of outsourcing.
+2911	None	Barcelona who missed many passes and arrived shortly only improved at the end of the stage.	Leverkusen surprised and were better in the first stage at Camp Nou.
+2912	None	Even so, Barcelona&#39;s two best chances came from Neymar&#39;s feet.	Neymar&#39;s turn to become a protagonist at Barcelona has come.
+2913	None	With a tight budget, the government had to sacrifice priority areas.	Will be $ 40.5 billion for the areas considered priority.
+2914	Entailment	José Mourinho led Chelsea again to the title of English football champion.	At the final whistle party: Chelsea once again English champion.
+2915	None	In an interview with DW, researcher Ralf Jaumann analyzes the finding.	The discovery came after research on dark lines on Mars.
+2916	Entailment	The STR rider skidded on the track and landed at a high speed on the protective barrier.	The STR rider crashed into a protective barrier of the track.
+2917	None	Pay television is another example of services that are already provided by religious institutions.	It is not new that religious institutions have commercial products with their brands.
+2918	None	As a result, the miner suffered a loss of $ 3.019 billion in the first quarter.	Recently, however, Vale posted losses of US $ 3.118 billion.
+2919	None	The discovery came after years of research into recurring linear slopes.	The water we are seeing within the recurring linear slopes is salty.
+2920	None	Teachers have been on strike in the state for six days.	Public school teachers are on strike in five states.
+2921	Entailment	Before the break, at 47 minutes, Douglas took a free kick, Rhodolfo headed for Alisson&#39;s great save.	Douglas took a free kick in the area, Rhodolfo nodded and saw Alisson save.
+2922	None	A municipality may have more than one Guardianship Council, according to its population.	In 2016, the number of tutelage councils will reach 8.
+2923	None	According to the minister, negotiations are advanced with the Federal Supreme Court (STF).	The Supreme Court says the impact would be $ 10.5 billion.
+2924	Entailment	After Chelsea won the game 2-0 and reached seven points, José Mourinho provoked Arsenal again.	Chelsea had only to win 2-0 for Mourinho to provoke Arsenal again.
+2925	None	The controversy involving Gabriel Paulista and Diego Costa seems to be endless.	Diego Costa and Gabriel Paulista disagreed and the referee yellowed both.
+2926	None	The survey shows that 31.2 million households had internet access in 2013.	The survey shows that half of Brazilians are connected to the internet.
+2927	Entailment	Kenyans Eliud Kipchoge, on the male side, and Gladys Cherono, on the female side, were the winners of the race.	In women, the victory went to the Kenyan Gladys Cherono.
+2928	None	In March 2014, there was a surplus of R $ 3.580 billion.	Last month, there was a surplus of $ 1.463 billion.
+2929	None	This is the balance in Operation Aparecida, released this morning by the Federal Highway Police (PRF).	The balance was released on Tuesday (13), by the Federal Highway Police.
+2930	None	I lost a few games, but by blow, little thing.	I lost games by blow, but the last injury was in 2013.
+2931	Entailment	In addition to the players, the FA decided to report Arsenal and Chelsea for not being able to control their athletes.	Both Chelsea and Arsenal were also accused by the FA of being unable to control their players.
+2932	None	The Ibovespa, the main indicator of the São Paulo Stock Exchange, fell 3.03%, to 44,336 points.	Last Friday, the Ibovespa retreated 1.99%, to 45,719 points.
+2933	None	In February, public accounts registered a primary deficit of R $ 2,300 billion, the worst result since 2013.	The state-owned companies registered a primary deficit of R $ 97 million.
+2934	None	In the measures of the minister Joaquim Levy has none that penalizes the banks.	Perhaps Minister Levy is not informed.
+2935	None	In May, these inflows totaled $ 1.069 billion.	Until the 18th of this month, were at $ 1.027 billion.
+2936	Entailment	In total, there are 2,555 homes, with investment of $ 211 million.	In total, R $ 211 million were invested for the construction of the houses.
+2937	None	Today we share the mourning with the Armenian people.	Sargsyan also thanked the guests for their international solidarity with the Armenian people.
+2938	None	Andrés Sanchez spoke with ESPN and said the hiring will not be made.	There is no financial condition to do this.
+2939	None	Prior to that, he was also state champion as a coach in 1991.	At Flamengo, he was twice Rio&#39;s champion: 1963 and 1965.
+2940	None	Received four hook matches, so is out of the Copa America even if Brazil reaches the final.	The hook is valid for Copa America games only.
+2941	None	The return game will take place at Arena Condá in Chapecó a week later.	The support we received at Conda Arena was awesome.
+2942	None	Preferred shares advanced 0.69% and common shares 1.28%, according to preliminary data.	At the same time, common shares fell 0.67% to R $ 13.15.
+2943	Entailment	Jaguar Land Rover is the first British car company to invest in a manufacturing plant in Brazil.	This will be the first Jaguar Land Rover factory in Brazil.
+2944	None	There was no boom or small field to hold Cristiano Ronaldo.	That was the 500th goal of Cristiano Ronaldo&#39;s career.
+2945	None	For next year, the forecast was a deficit of $ 76.00 billion.	And the expectation for 2016 was $ 65 billion.
+2946	None	These include an unprecedented partnership with UNHCR, the UN refugee arm.	Here in Brazil, the partnership with UNHCR is already in force.
+2947	None	The goal scored 4 minutes into the first half was canceled.	The goal cheered the cariocas, which almost widened the next minute.
+2948	None	In total, there were about 450 deaths in a year, a rate of 53.06 per 100,000 inhabitants.	The city has a rate of 5.3 deaths per 100 thousand inhabitants.
+2949	None	For this year, the median estimate of 8.90% has been replaced by 8.83%.	For 2016, the median of forecasts went from 0.90% to 0.70%.
+2950	Entailment	According to Brazilian team coach Guilherme Pussieldi, the athlete needs to undergo surgery.	According to the Brazilian team coach, the athlete must undergo surgery.
+2951	Entailment	On Wednesday, the governor also went to Congress, where he closely watched the resistance to CPMF approval.	The CPMF return proposal ran into strong resistance in Congress.
+2952	Entailment	Later, at 19, the footballer pulled midfielder Douglas to the entrance of striker Yuri Mamute.	The Guild replaced Douglas with Yuri Mammoth.
+2953	Entailment	Suspended, defender Felipe will be replaced by Edu Dracena.	Defender Felipe is suspended and will need to be replaced.
+2954	None	Already the liter of diesel currently sells for around $ 3.48 and should reach $ 3.63.	Already the price of diesel can jump from $ 2.89 to $ 3.04.
+2955	None	With this formation, Daniel Alves went from the right side to the middle and Marquinhos made the side.	Then he took Robinho and placed Marquinhos on the right side.
+2956	Entailment	There was a very severe storm with conditions for tornado in that region.	The atmospheric conditions in the region made possible the formation of the tornado.
+2957	None	The German Markus Kattner, one of the directors of the institution, will take the vacancy left by Valcke.	Who takes over in his place is Markus Kattner, one of the directors of the entity.
+2958	None	After leading some controversy, the American singer Miley Cyrus is ready for one more.	Singer Miley Cyrus does not seem to tire of controversy.
+2959	None	The couple confirmed the civil marriage to Marie Claire magazine.	Recently, Marie Claire said that they are getting married in the civil.
+2960	None	According to the survey, 82% disapprove and 14% approve of the president&#39;s way of governing.	Disapproval, on the other hand, fell from 75% to 70%.
+2961	Entailment	Bragantino, who dreamed of pasting in the classification zone, is in ninth place with 42 points.	Bragantino, on the other hand, comes in ninth place with 42.
+2962	None	The International Challenge was threatened, but it began partially this afternoon.	On Friday, some of them considered not competing in the International Challenge, which would take place between Saturday and Sunday.
+2963	None	The classification was only guaranteed because Israel lost to Cyprus 2-1 at home.	Israel is right behind with 13 and Cyprus has 12.
+2964	None	The carving began in the morning and lasted about eight hours.	The petting at the Federal Police in Curitiba lasted over eight hours.
+2965	None	If the balance sheet does not come with transparent data, it could damage the company&#39;s credibility.	The company&#39;s problems are not solved by the publication of the balance sheet.
+2966	Paraphrase	Euro 2016 had two more participants confirmed on Saturday afternoon.	Two more participants were qualified directly for Euro 2016 on Saturday afternoon.
+2967	None	LG has officially launched the V10, its first dual-screen smartphone.	LG announced on Thursday, 1, the V10.
+2968	Entailment	Pato made a legitimate goal, annulled by the flag claiming offside.	Alexandre Pato received in legal position, made the goal, but the offside was scored.
+2969	Entailment	The definition of the key occurs next Tuesday, at 15:45 (from Brasilia).	The key will be set next Tuesday.
+2970	None	Blatter&#39;s reaction comes shortly after FIFA confirms his suspension for 90 days.	Blatter has been FIFA&#39;s president since 1998 and has worked for FIFA for 40 years.
+2971	None	In my view it was a very even game with chances on both sides.	The game started off fairly evenly and with little chance for the teams.
+2972	Paraphrase	The decision was published in the Tuesday edition (9) of the Official Gazette.	The measure was published in the Official Gazette on Tuesday (9).
+2973	Entailment	So far, LG has not commented on the price of the V10 nor its release date.	LG has not yet announced the price of the device.
+2974	None	Turkey has been on the alert since the start of its &quot;synchronized war on terror&quot; in July.	The head of EU diplomacy has called for only one Turkey against terror.
+2975	None	Who is considered the best by the jury will be elected the queen of the Cultural Turn.	There are 16 drags vying for the post of queen of Virada Cultural.
+2976	None	The survey heard 2,840 people in 184 municipalities last Wednesday (17) and Thursday (18).	Institute heard 2,840 people in 174 municipalities on June 17 and 18.
+2977	None	The lowest rating is in the Northeast, where 14% of respondents considered government good or great.	Only 10% of respondents consider the Dilma government good or great.
+2978	Entailment	Caio underwent surgery but unfortunately died at Getúlio Vargas State Hospital.	Gaius was still taken to hospital Getúlio Vargas, but could not resist.
+2979	None	The state closed May with a balance of 21,255 admissions against 20,721 layoffs.	The total number of layoffs reached 28,080 and admissions to 26,881.
+2980	None	Brazilians Felipe Nasr and Felipe Massa were 12th and 15th, respectively.	Among them, Felipe Massa led the free practice.
+2981	None	Last week, the criminal investigation into passive corruption and money laundering was transferred to Brazil.	The mayor was charged in August with passive corruption and money laundering.
+2982	Entailment	Maldonado also said about 125 houses were affected by the landslide.	According to Maldonado, more than 100 homes may have been hit.
+2983	None	After the surgery, the actress needed to put silicone to recompose the area removed.	When she removed her breasts, the actress put on silicone, but did not like the result very much.
+2984	None	The first was São Paulo, with 23,000 closed posts.	Last month, 115,599 jobs were closed.
+2985	None	The Homicide Division is interrogating two employees who worked at his house.	The case was referred to the homicide division of the capital.
+2986	None	Foods added 0.30 percentage points to the 0.99% increase registered by the IPCA-15 in June.	In June 2014, the IPCA-15 had been 0.47%.
+2987	None	The lowest index was registered in Amazonas and Ceará, with less than 0.5 kg / ha each.	In 2012, it was 6.9 kg / ha: an increase of 155%.
+2988	None	If the dog or cat is sick, do not vaccinate and schedule another date for immunization.	We are currently vaccinating dogs and cats and a rural campaign is underway.
+2989	None	Refis refers to Law 12,996 of 2014, which provides for the refinancing of corporate debts.	In the same month of 2014, there was extraordinary revenue from Refis.
+2990	Entailment	Until April, 183 cases - or 83% of them - remained open with the Civil Police.	As of April this year, 183 investigations remained open.
+2991	None	Dilma Rousseff has always considered using veto power against this decision.	Dilma may use the ministers&#39; decision to veto the House-approved bill, which is held to be unconstitutional.
+2992	Entailment	The data were released by the Federal Highway Police (PRF) at the end of Operation Aparecida 2015.	The Federal Highway Police (PRF) closed Operation Aparecida 2015.
+2993	Paraphrase	The fines provided for in the contracts can reach 23 million reais together.	Together, the fines provided for in the contracts can reach R $ 23 million.
+2994	None	The 1.6 gained a cold start system without six pack.	The infamous cold-start tank was over.
+2995	None	Soon after came the draw, with Andreas Pereira.	Shortly after, the Brazilians sought the draw with Andreas Pereira.
+2996	Entailment	Pepsi has just confirmed the production of its first smartphone.	We&#39;ll have a smartphone created by the big soda company Pepsi.
+2997	None	Neymar went for a shot and scored, even though Sergio Rico hit the side.	However, the big names of the match were Neymar and Sergio Rico.
+2998	Paraphrase	The operating system used on the device should be Android 5.1 Lollipop.	Probably the operating system of the device was due to Android 5.1 Lollipop.
+2999	None	Even dominated in the game, Serbia opened the scoring at 25 thanks to Zivkovic&#39;s talent.	After 24 minutes, Mandic opened the scoring for Serbia.
+3000	None	The draw will be held on Wednesday (26), at 20:25, in Osasco (SP).	The draw will be held from 8 pm in São Paulo.
