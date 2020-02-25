@@ -5,7 +5,7 @@ This repository evaluates [MT-DNN initial release](https://github.com/namisan/mt
 
 The input is translated to English to feed MT-DNN, using the Google Cloud API.
 
-The translation process is shown  in Jupyter notebooks for each task.
+The translation process is shown in Jupyter notebooks for each task.
 
 ## Procedure
 
@@ -15,16 +15,26 @@ Install requirements for mt-dnn
 sh requirements.sh
 ```
 
-Since b2w is a raw dataset, only embedding extractor is applied to it.
+Extractor embedding is applied to raw datasets: b2w and faquad (dataset.json).
 
 ### Embeddings
+Files faquad_txt.ipynb and b2w_txt.ipynb convert raw dataset in input for embbeding extractor.
+However, input data are provided in folders.
 
-1. Move input embeddings for B2W  in mt-dnn folder
+
+#### FaQuad
+
+ Run Embedding/faquad/faquad_embedding.ipynb
+
+#### B2W
+Colab doesn't support B2W extractor embbedings.
+
+1. Move input embeddings for B2W to mt-dnn folder
    ```bash
-   mv Embeddings mt-dnn/b2w
+   mv Embeddings/b2w mt-dnn/b2w
    ```
 
-2. Go to folder  
+2. Enter folder  
     ```bash
    cd b2w
    ```
@@ -35,9 +45,7 @@ Since b2w is a raw dataset, only embedding extractor is applied to it.
    python extractor.py --do_lower_case --finput b2w/review_title.txt --foutput b2w/review_title.json --bert_model bert-base-uncased --checkpoint mt_dnn_models/mt_dnn_base_uncased.pt
    ```
 
-###  Training
-
-
+### Training
 
 ## Results
 
@@ -48,3 +56,7 @@ Larges files are available to download.
 - Reviews titles in b2w
 
   https://storage.googleapis.com/mtdnn_port/review_title.json
+  
+- Faquad
+
+https://drive.google.com/file/d/184KIIcW3GzfODW7CWdMiEDT_mHPHtXNt/view?usp=sharing
