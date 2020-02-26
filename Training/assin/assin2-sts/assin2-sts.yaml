@@ -1,0 +1,10 @@
+assin2-sts:
+  data_format: PremiseAndOneHypothesis
+  encoder_type: BERT
+  dropout_p: 0.01  
+  enable_san: false
+  metric_meta:
+  - Pearson
+  loss: MseCriterion
+  n_class: 2
+  task_type: Regression

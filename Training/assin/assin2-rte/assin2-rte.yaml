@@ -1,0 +1,13 @@
+assin2-rte:
+  data_format: PremiseAndOneHypothesis
+  labels:
+  -  Entailment
+  -  None 
+  encoder_type: BERT
+  dropout_p: 0.03   
+  enable_san: true
+  metric_meta:
+  - EmF1
+  loss: CeCriterion
+  n_class: 2
+  task_type: Classification
