@@ -1,24 +1,21 @@
 # mtdnn_port
 This repository evaluates [MT-DNN initial release](https://github.com/namisan/mt-dnn/tree/v0.1 "MT-DNN repository") on the NLP tasks available on the following datasets: [Assin](http://nilc.icmc.usp.br/assin/ "Assin dataset"), [B2W-Reviews01](https://github.com/b2wdigital/b2w-reviews01 "B2W repository"), [FaQuAD](https://github.com/liafacom/faquad "faquad repository"), and [MilkQA](http://nilc.icmc.usp.br/nilc/index.php/milkqa/ "MilkQA page"). 
 
+Most procedures were executed in Google Colaboratory. 
+
+B2W review_title embedding was extracted on Google Cloud VM: n1-standard-8 (8 CPU, memory 30 GB) Ubuntu 16.04.
+
 ## Translation
 
 The input is translated to English to feed MT-DNN, using the Google Cloud API.
 
 The translation process is shown in Jupyter notebooks for each task.
 
-## Procedure
-
-Install requirements for mt-dnn
-
-```bash
-sh requirements.sh
-```
+## Embeddings
 
 Extractor embedding is applied to raw datasets: b2w and faquad (dataset.json).
 
-### Embeddings
-Files faquad_txt.ipynb and b2w_txt.ipynb convert raw dataset in input for embbeding extractor.
+Files faquad_txt.ipynb and b2w_txt.ipynb convert raw dataset in input for embedding extractor.
 However, input data are provided in folders.
 
 
@@ -29,17 +26,24 @@ However, input data are provided in folders.
 #### B2W
 Colab doesn't support B2W extractor embbedings.
 
-1. Move input embeddings for B2W to mt-dnn folder
+1. Install requirements for mt-dnn
+   
+   ```bash
+   sh requirements.sh
+```
+   
+2. Move input embeddings for B2W to mt-dnn folder
+
    ```bash
    mv Embeddings/b2w mt-dnn/b2w
    ```
 
-2. Enter folder  
-    ```bash
+3. Enter folder  
+   ```bash
    cd b2w
    ```
-   
-3. Run extractor
+
+4. Run extractor
 
    ```bash
    python extractor.py --do_lower_case --finput b2w/review_title.txt --foutput b2w/review_title.json --bert_model bert-base-uncased --checkpoint mt_dnn_models/mt_dnn_base_uncased.pt
