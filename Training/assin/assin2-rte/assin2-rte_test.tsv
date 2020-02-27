@@ -1,12 +1,12 @@
 0	None	The caramel dog is watching a brown dog that is swimming in a pond	A pet dog is standing on the bench and is looking at another dog, which is brown, in the pond.
 1	Entailment	The guy is doing floor exercises	A guy is doing exercises
 2	Entailment	A big dog and a little dog are standing by the kitchen counter and are investigating.	A big dog and a little dog are standing at the kitchen counter and investigating
-3	None	A young boy wearing a red swimsuit is jumping in a blue kids pool	A young boy is wearing a red swimsuit and jumping out of a child&#39;s pool
+3	None	A young boy wearing a red swimsuit is jumping in a blue kids pool	A young boy is wearing a red swimsuit and jumping out of a child's pool
 4	Entailment	An old guy with a gray beard is riding a bicycle	An old guy with a gray beard is riding a bicycle
 5	Entailment	A bottle is being licked by the cat	The cat is licking an object
 6	None	People are not walking on the road beside a beautiful waterfall	A waterfall is flowing into a shallow pool.
 7	Entailment	A guy on a bike is riding a lonely wheel	A guy is riding a bicycle with one wheel
-8	None	A woman is riding a horse	There&#39;s no woman riding a horse
+8	None	A woman is riding a horse	There's no woman riding a horse
 9	None	A person is not peeling a banana	A man is reading an email
 10	Entailment	A young black child is waiting on the edge of a body of water near some buckets.	A young black child is standing on the edge of a puddle near some buckets.
 11	None	The mound of men is playing with mud in a rugby field	Some men are playing rugby.
@@ -28,15 +28,15 @@
 27	Entailment	A group of people are sitting relaxed near a red stone monument.	A group of people are sitting next to a red stone structure.
 28	Entailment	Two boys are lying in the ocean near the beach	Two boys are lying in the water near the beach
 29	Entailment	A small child is outdoors climbing outdoor steps in a grassy area	A little child is outdoors climbing steps in a grassy area.
-30	None	There&#39;s no rabbit playing with a toy rabbit	A rabbit is playing with a stuffed rabbit
+30	None	There's no rabbit playing with a toy rabbit	A rabbit is playing with a stuffed rabbit
 31	Entailment	A rabbit is eating a piece of bamboo	The rabbit is eating bamboo
 32	Entailment	A person is jumping high in the air on a board	Someone is jumping in the air on a board
 33	None	A group of dogs are competing and have muzzles on their noses.	A group of dogs bred for running are wearing striped uniforms and are running along the way.
 34	None	A boy and a girl are naked	The boy and the girl are playing and wearing arm floats
-35	None	There&#39;s no man singing and playing guitar	The man is singing and playing the guitar
+35	None	There's no man singing and playing guitar	The man is singing and playing the guitar
 36	None	A man and woman are driving down the road in a homeless vehicle	Two men are driving down a road in a convertible vehicle
-37	None	There&#39;s no boy mowing lawn with shears	A boy is mowing the lawn with shears
-38	None	A man is slicing a potato into pieces	There&#39;s no man slicing a potato into pieces
+37	None	There's no boy mowing lawn with shears	A boy is mowing the lawn with shears
+38	None	A man is slicing a potato into pieces	There's no man slicing a potato into pieces
 39	None	The man is cracking eggs in a bowl	The lady is breaking an egg in a bowl
 40	Entailment	The guy is carefully feeding the snake with a mouse	A guy is feeding a rat to the snake
 41	None	A brown dog is jumping over a red obstacle	A young man is running away from the fishing line
@@ -47,12 +47,12 @@
 46	Entailment	A dog, which is large and gray, is carrying a ball in its mouth with difficulty and running through the grass.	A large dog is carrying a ball in its mouth and running through the grass.
 47	Entailment	A clown is singing on the stage and people are dancing	A person in a clown costume is singing
 48	None	A big white dog is running across the lawn	A little white dog is running across the lawn
-49	None	A man is slicing a fish	There&#39;s no man chopping a fish
+49	None	A man is slicing a fish	There's no man chopping a fish
 50	Entailment	A soda is being opened and taken by a girl	A person is opening a soda and drinking
 51	None	A brown dog and a black dog are far from the grass	A brown dog and a black dog are in the grass
 52	None	The guy is walking happily in the woods	The guy is climbing in the woods
 53	None	A woman is riding a horse	Something is being fried by a woman
-54	None	A man is cutting an onion	There&#39;s no woman slicing an onion
+54	None	A man is cutting an onion	There's no woman slicing an onion
 55	Entailment	A child is singing and playing a guitar happily	A child is playing the guitar
 56	Entailment	Two boys are carrying colorful baskets and blankets and walking near a building	Two people are carrying colorful baskets and blankets.
 57	Entailment	A person is standing in a vast field of glacial ice	Someone is standing in a vast ice field
@@ -64,24 +64,24 @@
 63	None	A man in a white hat is leaving the stage	Four people are doing an outdoor music performance
 64	Entailment	A person is pouring cooking oil into a pan	A person is pouring cooking oil into a pan
 65	Entailment	A big man is sitting in a military accessory store	A big man is sitting in a military accessories store
-66	None	Chunks of butter are being added to the mixer	There&#39;s no man slicing butter in a mixing bowl
+66	None	Chunks of butter are being added to the mixer	There's no man slicing butter in a mixing bowl
 67	Entailment	A panda bear is eating some bamboo	Some bamboo is being eaten by a panda bear
 68	None	A baby elephant is not eating a wee tree	A small girl is negotiating a scooter
 69	Entailment	A young child with black hair is taking a picture with a camera	A black haired child is taking a picture with a camera
 70	None	Rugby players are facing each other	An opponent is attacking a soccer player
 71	Entailment	A man in a white hat and a brown shirt stands behind a woman in red and is looking to the left.	A man in a white hat and brown t-shirt stands behind a woman in red and is looking to the side.
-72	None	There&#39;s no rabbit playing with a toy rabbit	A rabbit is playing with a toy rabbit
+72	None	There's no rabbit playing with a toy rabbit	A rabbit is playing with a toy rabbit
 73	Entailment	An animal with a blue dyed blanket is running across the grass	An animal with a blue blanket is running through the grass
 74	Entailment	A bulldog is being brushed by the monkey	The monkey is brushing a bulldog
 75	Entailment	A young couple is laying on the grass	The couple is lying on the grass together
-76	None	There&#39;s no man riding a motorcycle	The men are playing soccer
+76	None	There's no man riding a motorcycle	The men are playing soccer
 77	Entailment	A guy is running down the road	A guy is running
 78	Entailment	A person is playing a flute	An individual is playing the flute
 79	Entailment	A girl is cutting a butter carrot in two pieces	A girl is cutting the carrot in two pieces
 80	None	The man is giving an interview	A white car is being driven by a man
 81	Entailment	A dog is running across a field and chasing a ball	An animal is going towards a toy
 82	Entailment	Green vegetables are being mixed in a pan by a man	A guy is mixing vegetables in a pan
-83	None	A lemur is licking a person&#39;s finger	A lemur is biting a person&#39;s finger
+83	None	A lemur is licking a person's finger	A lemur is biting a person's finger
 84	Entailment	A rabbit is running tiredly in circles	An animal is running in circles.
 85	Entailment	A man and a girl are shaking hands	Two people are shaking hands
 86	None	A woman is cutting a lemon.	A man is cutting a lemon.
@@ -95,7 +95,7 @@
 94	Entailment	A guy is petting two dogs	Two dogs are being petted by a guy
 95	None	A man is not cutting an onion	A man is opening a door.
 96	None	The man is not standing on a rocky mountain and gray clouds are not in the background.	A topless person with a backpack stands in front of a pile of rocks and clouds are in the background.
-97	None	A young boy is singing and playing the guitar	There&#39;s no young boy singing and playing guitar
+97	None	A young boy is singing and playing the guitar	There's no young boy singing and playing guitar
 98	Entailment	The ball is being buried by a guy in a team shirt at a basketball game	A guy in a team shirt is burying a ball in a basketball game
 99	None	The crowd is watching two race cars that are leaving the starting line	Some people in a drag race are looking at the flames coming out of the cars.
 100	Entailment	A girl is showing a very longhaired dog in a dog show	A very long-haired dog is being displayed by a girl at a dog show
@@ -108,12 +108,12 @@
 107	Entailment	A black and white dog is playing with a wrecked volleyball in a brown field.	A black and white dog is playing with a tattered volleyball
 108	None	A man and a woman are driving down the road in a car	A man and woman are driving down the road in a homeless vehicle
 109	None	A man is playing the drums	A man is playing the guitar
-110	Entailment	A guy is squirting a white dog&#39;s mouth water with a water pistol	Water is being squirted by a guy in the mouth of a white dog with a water gun
+110	Entailment	A guy is squirting a white dog's mouth water with a water pistol	Water is being squirted by a guy in the mouth of a white dog with a water gun
 111	None	A brown puppy is pulling a metal pole that is stuck to the floor	A puppy is biting a post.
 112	Entailment	The outdoor skating rink is full of people	Many people are in a skating park
-113	None	A woman is cutting potatoes	There&#39;s no woman cutting potatoes
+113	None	A woman is cutting potatoes	There's no woman cutting potatoes
 114	Entailment	An old girl is sitting on a bench and is wearing a gray jacket and black pants	The girl is sitting on a bench and is wearing a gray jacket and black pants
-115	None	A rabbit is playing with a stuffed rabbit	There&#39;s no rabbit playing with a stuffed bunny
+115	None	A rabbit is playing with a stuffed rabbit	There's no rabbit playing with a stuffed bunny
 116	Entailment	A man on a yellow sports bike is prancing and a friend on a black bike is approaching	A cyclist on a yellow sports bike is prancing and his friend on a black bike is approaching
 117	Entailment	A dog is swimming in a lake and the sun is shining on it	The dog is swimming and the sun is shining on him
 118	None	No one is cooking okra in a frying pan	Someone is cooking okra in a pan
@@ -125,7 +125,7 @@
 124	None	A woman is dancing near a fire.	There are no women dancing near a bonfire
 125	Entailment	The boy is being trained in martial arts	The boy is practicing martial arts
 126	Entailment	The drums are being played by the guy	The guy is playing the drums
-127	None	There&#39;s no girl communicating with sign language	A girl is communicating with sign language
+127	None	There's no girl communicating with sign language	A girl is communicating with sign language
 128	None	Someone is playing the guitar	Someone is playing a piano
 129	Entailment	Three women are dancing	A person is dancing
 130	None	A man is playing the guitar	A woman is cooking something in a frying pan.
@@ -139,21 +139,21 @@
 138	None	A man in a red uniform is jumping on a mountain bike race	A man is participating in a bmxs race
 139	Entailment	A fish is being sliced by a man	A person is slicing fish
 140	None	A boy is tapping his nails	A dog is running on the floor
-141	None	There&#39;s no young lady with light brown hair wearing a red necklace, a sweater and earrings and smiling	A young lady with light brown hair is wearing a red necklace, sweatshirt and earrings and is smiling
+141	None	There's no young lady with light brown hair wearing a red necklace, a sweater and earrings and smiling	A young lady with light brown hair is wearing a red necklace, sweatshirt and earrings and is smiling
 142	None	A brown dog is jumping in the air	A seemingly malnourished dog is standing on its hind legs and getting ready to jump.
-143	None	There&#39;s no woman frying something	A woman is riding a horse
+143	None	There's no woman frying something	A woman is riding a horse
 144	Entailment	The boy is eating cereal	Cereal is being eaten by a boy
 145	Entailment	Okra is being cooked in a frying pan	Someone is cooking okra in a pan
 146	Entailment	A guy is folding a tortilla	A tortilla is being folded by one person
 147	None	A person is slicing a potato	A person is playing a piano
 148	Entailment	The black and white dog is running in a green yard	A black and white dog is running outdoors.
-149	None	There&#39;s no man playing guitar next to a drummer	A bald man in a band is playing guitar in the light.
+149	None	There's no man playing guitar next to a drummer	A bald man in a band is playing guitar in the light.
 150	None	A dog is running up the grassy hill	A dog is quickly running uphill
 151	Entailment	A guy is strumming a guitar	A guy is playing the guitar
 152	None	A dog is swimming behind a tennis ball	An animal is barking at a ball
 153	Entailment	A man is carelessly spreading butter on a garlic bread.	Someone is spreading butter on a slice of garlic bread.
 154	Entailment	Three people are walking across a rope and steel bridge over a river.	People are walking across a rope bridge over a rocky creek.
-155	None	There&#39;s no man chopping onion	A woman is slicing an onion
+155	None	There's no man chopping onion	A woman is slicing an onion
 156	None	A couple of female cops are singing	Two women are dancing
 157	None	A girl who is small with blond hair is smiling and sitting on a swing	A blond boy in green is sitting on a swing
 158	None	A woman is taking eggs from a bowl	A woman is cracking eggs in a bowl
@@ -166,7 +166,7 @@
 165	Entailment	The guy is pouring some oil on the tomatoes	Some oil is being poured over the tomatoes by a guy
 166	None	The boy and the girl are not playing and wearing buoys of arms	A boy and a girl in swimsuits are wearing arm floats.
 167	Entailment	An elephant is wandering aimlessly	An elephant is walking aimlessly
-168	None	A man is running	There&#39;s no man running down the road
+168	None	A man is running	There's no man running down the road
 169	None	A woman is slicing butter	Tofu is being sliced by a woman
 170	Entailment	The woman is cooking eggs in a red pan	The woman is cooking something
 171	None	Two men are rafting on the coast near an orange biker	Two men are driving an orange dinghy along the coast
@@ -209,7 +209,7 @@
 208	Entailment	A girl is peeling a potato	Someone is peeling a potato
 209	Entailment	A boy is playing a game with wooden blocks.	A boy is playing a game with blocks made of wood
 210	Entailment	A man in a black team shirt is standing in a gym	A man in a black team shirt is standing in a gym
-211	None	A cyclist is holding a bicycle over his head in a group of people.	There&#39;s no cold cyclist celebrating
+211	None	A cyclist is holding a bicycle over his head in a group of people.	There's no cold cyclist celebrating
 212	None	A woman is putting a baby in a trash can	The woman is sticking a potato
 213	Entailment	A man is practicing drums	The guy is touching
 214	None	A man is playing a flute	A man is riding a motorcycle
@@ -223,7 +223,7 @@
 222	Entailment	A person is playing the guitar and singing	A person is playing a guitar and singing
 223	None	A large group of cheerleaders are walking in a parade.	Cheerleaders are parading and wearing black, pink and white uniforms
 224	Entailment	A cat is jumping in a box	An animal is jumping into a container
-225	None	The boy is playing in the mud	There&#39;s no cat playing with a device
+225	None	The boy is playing in the mud	There's no cat playing with a device
 226	Entailment	Potato is being peeled by a lady	A lady is peeling the potato
 227	Entailment	A black animal in the snow is jumping off the ground and catching a stick	An animal in the snow is jumping off the ground and picking up a stick
 228	Entailment	A badger is digging the earth fast	The badger is digging a hole
@@ -231,7 +231,7 @@
 230	Entailment	A lady in a black hat is wearing a bikini at the beach	The woman in the hat is wearing a bikini on the beach
 231	Entailment	A black dog in the snow is jumping off the ground and picking up a small twig	A dog is jumping and catching a stick
 232	None	A man is playing the trumpet	Someone is playing with a frog
-233	None	The man is playing the guitar and has the guitar cover open for donations.	There&#39;s no man in a purple suit standing in front of a purple box and playing the guitar
+233	None	The man is playing the guitar and has the guitar cover open for donations.	There's no man in a purple suit standing in front of a purple box and playing the guitar
 234	None	Two kids are bouncing on colorful balls	Some kids are wearing black pants and jumping
 235	None	A white man is deftly dancing break on the floor	A white man is dancing break on the sidewalk
 236	Entailment	A woman and a girl are riding horses	A horse is being ridden by someone
@@ -250,7 +250,7 @@
 249	Entailment	A man is climbing, pausing and calculating the route.	A man is climbing, stopping and calculating the route.
 250	Entailment	The panda is running	A panda bear is moving fast
 251	Entailment	The guy is playing an acoustic guitar	A guy is playing the guitar
-252	None	There&#39;s no young boy jumping in the air with bent knees and open arms	A person in a green shirt is jumping high over the grass
+252	None	There's no young boy jumping in the air with bent knees and open arms	A person in a green shirt is jumping high over the grass
 253	Entailment	A dog is running on the beach and chasing a ball	A dog is running in the sand and chasing a ball
 254	None	One person, who is topless and with a backpack, stands in front of a pile of rocks and clouds in the background.	The man is standing on a rocky mountain and gray clouds are in the background.
 255	None	A woman is wearing a shirt, which is blue, with a white vest and a white cap, and is talking and walking.	A woman in a blue-and-white uniform with a white-and-blue hat is holding her mouth open and standing close to other people dressed in the same way.
@@ -260,9 +260,9 @@
 259	None	A girl is tapping her nails	A big dog is running on the floor
 260	Entailment	A lady is frying some food	The food is being fried by a lady
 261	None	A picture of himself and another guy is being taken by the man	A man is holding an electronic device.
-262	None	There&#39;s no man walking a path through nature	A man is peeling an onion
+262	None	There's no man walking a path through nature	A man is peeling an onion
 263	Entailment	A man is skiing downhill and over a red obstacle	A man is skiing downhill and jumping over a red obstacle
-264	Entailment	A rabbit is biting a person&#39;s finger	An animal is biting someone&#39;s finger
+264	Entailment	A rabbit is biting a person's finger	An animal is biting someone's finger
 265	Entailment	A boy in a hat is wearing sunglasses	A boy is wearing sunglasses
 266	None	A boy is saying a word	A baby is talking
 267	None	A person in a pink jacket is not running to the field	A person in a pink jacket is running to the field
@@ -273,7 +273,7 @@
 272	None	The black bird is not sitting on a leafless tree	The black bird is sitting on a leafless tree
 273	Entailment	A girl is tapping her fingers on a desk	This girl is tapping her fingers
 274	Entailment	Snowboarder is jumping off a snow covered hill	A snowboarder is jumping from the snow.
-275	None	There&#39;s no man standing next to a big colorful bird cage	A man is standing next to a bird cage.
+275	None	There's no man standing next to a big colorful bird cage	A man is standing next to a bird cage.
 276	Entailment	A girl is riding on a watercraft	A watercraft is being ridden by one person
 277	Entailment	The man is riding a horse near a stream	A horse is being ridden by one person
 278	None	Motocross rider is wearing blue and black pants	A biker with a blue jacket, black pants and a white helmet is parking on the ground and people are not looking
@@ -289,10 +289,10 @@
 288	None	A person is peeling a potato	There is no person peeling a potato
 289	Entailment	A guy is pouring oil into a sautese	A guy is pouring oil into a frying pan.
 290	None	A woman is slicing an onion	A man is cutting an onion
-291	Entailment	A lemur is biting a person&#39;s finger	An animal is biting someone&#39;s hand
+291	Entailment	A lemur is biting a person's finger	An animal is biting someone's hand
 292	Entailment	A person is standing dangerously on white ice.	A person is standing in a vast field of glacial ice
 293	Entailment	A monkey is teasing a dog at the zoo	A dog is being teased by the monkey at the zoo
-294	None	A man is sprinkling grated cheese on a pizza.	There&#39;s no man sprinkling grated cheese on a pizza
+294	None	A man is sprinkling grated cheese on a pizza.	There's no man sprinkling grated cheese on a pizza
 295	Entailment	Two dogs run fast through the park	Dogs are running through the park
 296	Entailment	A dog is running towards a ball	An animal is running
 297	Entailment	The girl in blue is chasing the orange and yellow ball	Girl in blue clothes is chasing the colorful ball
@@ -342,7 +342,7 @@
 341	Entailment	Several boys are jumping on a trampoline	Several kids are jumping on a trampoline
 342	None	The man is making a big leap	A person in a blue jacket is jumping over a high cement wall
 343	Entailment	A girl is frying something in a frying pan	A person is cooking something in a frying pan.
-344	None	There&#39;s no woman with black hair standing in front of a wooden wall	Two women with black hair are standing in front of a plywood wall
+344	None	There's no woman with black hair standing in front of a wooden wall	Two women with black hair are standing in front of a plywood wall
 345	Entailment	A guy is dancing	Some guy is dancing
 346	Entailment	Two dogs are playing outdoors	There are animals playing
 347	Entailment	The panda is drinking water from the fountain	A panda bear is drinking some water
@@ -352,7 +352,7 @@
 351	None	A soccer player in red and white uniform is being knocked down by two teammates	A soccer player in red and white uniform is being held up by two teammates
 352	Entailment	Some food is being prepared by a mexican chef	A chef is preparing food
 353	None	A caramel dog is resting in the snow	A yellow dog is running in the white snow on a sunny day.
-354	None	There&#39;s nobody climbing the cave with a pink interior	Four Middle Eastern children, three girls and one boy, are climbing into the cave with a pink interior.
+354	None	There's nobody climbing the cave with a pink interior	Four Middle Eastern children, three girls and one boy, are climbing into the cave with a pink interior.
 355	None	A person is riding a bicycle	A black cyclist in a red bicycle uniform is standing in the dirt.
 356	Entailment	A guy is removing the skin of an onion	A guy is peeling an onion
 357	None	A cow is eating hay	A cow is not eating grass
@@ -366,7 +366,7 @@
 365	None	The panda bear is lying on the trunks	A cute panda is not lying down
 366	None	A guitar is being played by a girl	A man is playing a guitar
 367	Entailment	A dog is jumping to catch a frisbee in the snow	The dog is jumping to get the toy outdoors
-368	None	The sun is shining on the face of the girl in the yellow dress	There&#39;s no girl in a brown dress being surrounded by children and closing their eyes
+368	None	The sun is shining on the face of the girl in the yellow dress	There's no girl in a brown dress being surrounded by children and closing their eyes
 369	None	A child is smiling at the camera and swimming under water	A child is swimming under water in a pool
 370	None	A man is playing keyboards	A man is falling from a mechanical bull
 371	None	A group of race dogs are wearing striped uniforms and are running down the track.	A group of dogs are competing furiously and have muzzles on their noses.
@@ -382,9 +382,9 @@
 381	Entailment	The man is shouting at the recruits	The man is shouting at the recruits
 382	None	A naked girl is riding beside her bike at night	A woman in purple clothes is taking a bicycle between two stone columns
 383	Entailment	A hiker is on top of the mountain and is doing a cheerful dance.	A hiker is on top of the mountain and is dancing
-384	None	There&#39;s no monkey pulling a dog&#39;s tail	A monkey is teasing a dog at the zoo
+384	None	There's no monkey pulling a dog's tail	A monkey is teasing a dog at the zoo
 385	Entailment	A distant person with a blue backpack is walking in a rocky area.	A distant person with a blue backpack is climbing an area full of rocks.
-386	Entailment	A man is squirting a white dog&#39;s mouth water with a water pistol	A man is sneezing with a cup of water in the dog&#39;s mouth
+386	Entailment	A man is squirting a white dog's mouth water with a water pistol	A man is sneezing with a cup of water in the dog's mouth
 387	Entailment	The girl is cooking eggs	The woman is cooking something
 388	None	A horse and his rider are jumping over a barrier	A horse and rider are not jumping over an obstacle
 389	Entailment	People in a drag race are looking at the flames coming out of the cars.	Some people in a drag race are watching the flames coming out of the cars.
@@ -419,7 +419,7 @@
 418	Entailment	Men are sawing logs	The men are chopping wood
 419	None	A man is fishing in the river	A man is fishing in the stream
 420	Entailment	A guy is using a knife to open a box	A guy is opening a box with a knife
-421	None	A man is breaking a concrete slab with a sledgehammer	There&#39;s no man breaking a concrete slab with a sledgehammer
+421	None	A man is breaking a concrete slab with a sledgehammer	There's no man breaking a concrete slab with a sledgehammer
 422	Entailment	Kittens are eating ration in trays	The cats are eating
 423	Entailment	A person on the motorcycle is raising an arm	Someone on a motorcycle is raising his arm
 424	None	A skateboarder is jumping off a ramp	A woman dressed in black is wearing roller skates and performing a trick on a rail
@@ -428,7 +428,7 @@
 427	Entailment	A girl is shooting a practice target	A person is shooting a practice target
 428	Entailment	A guy is dancing on the ceiling.	A person is dancing on the ceiling.
 429	None	A woman is putting pasta on a plate	Some sticky slime is being taken from a bowl by a woman
-430	None	There&#39;s no girl applying makeup on your face	A girl is applying makeup on her face
+430	None	There's no girl applying makeup on your face	A girl is applying makeup on her face
 431	Entailment	A girl in uniform is playing the flute with a band	A girl in a band is playing the flute
 432	Entailment	A man is standing in the water at the base of a waterfall	The man is standing in a body of water near a waterfall
 433	Entailment	Two girls and one teenager are dancing	Three women are dancing
@@ -441,7 +441,7 @@
 440	Entailment	Someone is standing in a vast glacial ice field	A person is standing in an ice field
 441	None	Two kids are crouching under some metal bars	Two kids are stretching on top of some metal bars
 442	Entailment	A little girl is playing a grand piano on stage	A girl is playing grand piano on stage
-443	Entailment	The girl is doing makeup on man	A man&#39;s face is being painted by a girl
+443	Entailment	The girl is doing makeup on man	A man's face is being painted by a girl
 444	Entailment	A kitten is playing with a toy.	The cat is playing with an object
 445	None	The cyclist is looking at an accident of another cyclist	One person is ignoring the motocross bike that is lying on its side and no one is running around
 446	None	A man in a blue suit is standing near a purple box and is playing guitar	The man is playing the guitar and has the guitar cover open for donations.
@@ -456,14 +456,14 @@
 455	None	A girl is sanding her nails	A girl is doing a manicure
 456	None	Someone is folding a piece of paper.	A person is not folding a piece of paper
 457	None	A white dog is standing on top of fallen leaves.	There are no white dogs standing in the leaves on the ground
-458	None	There&#39;s no woman putting a child in a trash can	A woman is putting a baby in a trash can
+458	None	There's no woman putting a child in a trash can	A woman is putting a baby in a trash can
 459	Entailment	A guy in a dyed purple shirt is looking at the guy in the black shirt who is making a funny face	A guy in a purple-dyed shirt is looking at a guy in a black shirt who is making a face that looks funny
 460	None	The baby is not laughing and crawling	The baby is laughing and crawling
 461	Entailment	A lady is showing a very longhaired dog in a dog show	A very long-haired dog is being displayed by a lady at a dog show
 462	Entailment	A black dog is running on the grass and its tongue is sticking out of its mouth	The black dog is walking the grass and running with his tongue out
 463	None	A man is hiding a wee monkey	A man is showing a wee monkey
 464	Entailment	A group of people are standing around a soundboard.	Several people are standing around a stereo
-465	None	The dog is chasing a ball in the grass	There&#39;s no dog chasing a ball in the grass
+465	None	The dog is chasing a ball in the grass	There's no dog chasing a ball in the grass
 466	None	A yellow dog is not drinking tap water	A yellow dog is drinking tap water
 467	None	A cat is crawling under a piece of furniture	A cat is sliding upside down on a couch
 468	Entailment	The drums are being played by the boy	A boy is playing the drums
@@ -474,10 +474,10 @@
 473	None	A young boy is jumping in a chair	A young boy is jumping from a chair
 474	Entailment	The lady is catching and holding a kangaroo baby	A lady is catching and holding a kangaroo baby in her arms.
 475	Entailment	A woman is marching with a pair of dogs.	A woman is walking with a pair of dogs
-476	None	A man is dancing on the ceiling.	There&#39;s no famous singer dancing on the ceiling
+476	None	A man is dancing on the ceiling.	There's no famous singer dancing on the ceiling
 477	None	The sun is shining on the face of the girl in the yellow dress	The children are surrounding a girl in a brown dress who is closing her eyes
 478	None	The man is not seasoning the sausages	The man is seasoning the sausages
-479	None	A baby is playing with a doll	There&#39;s no tiger cub playing with a ball
+479	None	A baby is playing with a doll	There's no tiger cub playing with a ball
 480	None	A dog is running with a ball	The black dog is carrying a blue and white ball in its mouth
 481	Entailment	Three women are sitting together near fabric walls	Some women are sitting together.
 482	Entailment	The girl is passing shadow	A girl is passing shadow
@@ -487,7 +487,7 @@
 486	Entailment	Five martial arts practitioners are sitting around a campfire at night	Several women are gathered around the fire at night
 487	None	A man is drilling a hole in a piece of wood	Someone is drilling a hole in a wood strip with a drill
 488	None	A girl is wearing jeans and a pink shirt and is running	A small girl in a pink shirt is running under a tree in the desert.
-489	None	A little child is outdoors climbing steps in a grassy area.	There&#39;s no little child in a pink sweater climbing a concrete ladder.
+489	None	A little child is outdoors climbing steps in a grassy area.	There's no little child in a pink sweater climbing a concrete ladder.
 490	Entailment	Some students in uniform are listening intently in front of the classroom	A group of students are listening in front of the class.
 491	Entailment	People are clustered around a campfire at night	Some people are gathered around the fire.
 492	Entailment	A girl is practicing the piano	A girl is playing the piano
@@ -509,7 +509,7 @@
 508	Entailment	A girl is combing her hair	The girl is brushing hair
 509	Entailment	A man is cutting a ticket.	A man is cutting a paper.
 510	Entailment	A girl in uniform is playing the flute with a marching band	A girl in a band is playing an instrument
-511	None	A monkey is teasing a dog at the zoo	There&#39;s no monkey teasing a dog at the zoo
+511	None	A monkey is teasing a dog at the zoo	There's no monkey teasing a dog at the zoo
 512	None	A cyclist is jumping on a pyramid-shaped ramp	The bicycle person is jumping from a pyramid
 513	Entailment	A small boy is showing his tongue at the camera and another boy is looking at him	Two young boys are looking at the camera and one is sticking out his tongue
 514	None	A girl is wearing an orange shirt and a striped tie	One woman is in an orange shirt and clown makeup is standing in a park and the others are looking
@@ -526,8 +526,8 @@
 525	None	A person with a red hooded top and a black backpack is walking next to a rocky wall.	A person in a red jacket and khaki pants is walking around an American state
 526	None	Some cyclists are flying over the track near the water and the skyline.	Two bmx cyclists are jumping off ramps in front of the water
 527	None	Motocross rider is wearing blue and black pants	Motocross rider is standing naked
-528	None	The man is doing exercise	There&#39;s no man doing barbell raises
-529	Entailment	A young girl is combing a cat&#39;s fur	A cat&#39;s hair is being brushed by a person
+528	None	The man is doing exercise	There's no man doing barbell raises
+529	Entailment	A young girl is combing a cat's fur	A cat's hair is being brushed by a person
 530	Entailment	A guy is playing the guitar	A guy is playing a guitar
 531	Entailment	A guy is chopping a log with an ax	A guy is chopping a log with an ax
 532	None	Some bearded man is standing near a shopping cart and is holding a cardboard sign.	A man is holding a sign and is seeking money
@@ -541,20 +541,20 @@
 540	Entailment	Four dogs are playing and running in a grassy area	Four dogs are playing in a grassy area
 541	Entailment	Two dogs are playing near a tree	Two dogs are playing near a plant
 542	None	A dog is running downhill	A dog is running up the grassy hill
-543	None	There&#39;s no woman chopping an onion	A horse is standing
+543	None	There's no woman chopping an onion	A horse is standing
 544	Entailment	Snowboarder is jumping off a snow covered hill	Snowboarder is jumping off a snowy hill.
 545	None	A police officer is sitting on a motorcycle	A biker is sitting next to a policeman man
 546	None	A man on a bike is riding on the coast	A person is riding a bicycle on the sand beside the ocean
 547	Entailment	Three men are staring at the large green hills in the distance.	Men are looking into the distance
 548	Entailment	A brown dog is running in the snow	A dog is running through the snow
-549	None	There&#39;s no Asian young woman with pink gloves standing in the snow	A young Asian woman with pink gloves is standing in the snow
+549	None	There's no Asian young woman with pink gloves standing in the snow	A young Asian woman with pink gloves is standing in the snow
 550	None	A group of race dogs are wearing striped uniforms and are running down the track.	A group of dogs are competing and have muzzles on their noses.
 551	Entailment	A man is talking to a girl using an internet camera.	A man is talking to a girl over the internet
 552	Entailment	A small boy is sitting in a green tunnel with a smile on his face.	A small boy is sitting in a green tunnel with a smile on his face.
 553	Entailment	A brown dog is attacking the cat in front of the man in his pants	A brown dog is attacking a cat in front of the man in pants
 554	None	A person is riding a mountain bike downhill	A person is riding a bike along a muddy trail
 555	None	A man is skipping rope in a field	A woman is slicing a cucumber
-556	None	A boy wearing red shorts is jumping in a kiddie pool	There&#39;s no boy wearing red shorts jumping into a kiddie pool
+556	None	A boy wearing red shorts is jumping in a kiddie pool	There's no boy wearing red shorts jumping into a kiddie pool
 557	None	A man in a white hat is playing guitar on the stage.	Four people are doing an outdoor music performance
 558	Entailment	The young boy is singing and playing guitar	A guitar is being played by a child
 559	Entailment	A person is peeling a potato	A potato is being peeled by one person
@@ -588,13 +588,13 @@
 587	None	A woman is looking curiously at a man.	A man and woman are in a beige room, wearing dark colored shirts and a monitor is in the background.
 588	None	A man is holding a tiny animal in one hand	A man is showing a wee monkey
 589	Entailment	The young man is sitting on a policeman bike	A person is sitting on the police bike
-590	None	You are measuring another woman&#39;s ankle	The woman is measuring a man
+590	None	You are measuring another woman's ankle	The woman is measuring a man
 591	None	A girl in a black hat is wearing a bikini at the beach	A black girl without a bikini is wearing a hat on the beach
 592	None	A man is wearing a sports uniform and is running down the field.	The purple, white and black player is playing near the end of the field.
 593	None	Two little children are playing with a toy car on the street.	Two little children are unoccupied in the street
 594	Entailment	A girl is talking	A girl is in the middle of a conversation
 595	Entailment	A motorcyclist in a blue jacket, black pants and a white helmet is driving recklessly on the ground and people watch	A biker with a blue jacket, black pants and a white helmet is driving and people are watching
-596	None	There&#39;s no cat walking on a wooden floor	A baby is crawling happily
+596	None	There's no cat walking on a wooden floor	A baby is crawling happily
 597	Entailment	Orange juice is being drunk by a guy who is walking on a sunny day	A guy is drinking orange juice and walking
 598	None	People are walking on the road beside a beautiful waterfall	People are not walking on the road beside a beautiful waterfall
 599	None	A dog is jumping into a box	A cat is jumping in a box
@@ -645,10 +645,10 @@
 644	None	A woman is not putting makeup on the man	The woman is applying makeup on the man
 645	None	Paper and scissors both cut	The paper is being cut with scissors
 646	Entailment	A girl is dancing beautifully on the stage	A girl is dancing
-647	None	There&#39;s no man cleaning the rim of a bowl	A boss is cleaning a soup bowl
+647	None	There's no man cleaning the rim of a bowl	A boss is cleaning a soup bowl
 648	Entailment	A guy is carrying a tree.	A guy is carrying a plant
 649	None	Some people are sitting on a low cement railing.	The group of people are sitting on the edge of a rock and a scenic view is behind them.
-650	None	A man is singing and playing a guitar	There&#39;s no man singing and playing a guitar
+650	None	A man is singing and playing a guitar	There's no man singing and playing a guitar
 651	None	The little dog is running in the sand	No small dogs are running in the sand
 652	Entailment	Garlic is being chopped by a woman	A woman is chopping garlic
 653	Entailment	The lady is breaking two eggs in a bowl made of glass	A lady is breaking an egg in a bowl
@@ -666,10 +666,10 @@
 665	Entailment	The person is slicing onions	Onions are being sliced by one person
 666	Entailment	The guy is slicing a potato	Or face is tiring sweet potato
 667	None	A dog is chasing a ball in the grass	A dog is missing a ball in the grass
-668	None	There&#39;s no man playing a keyboard	A man is playing a harp
+668	None	There's no man playing a keyboard	A man is playing a harp
 669	Entailment	A guy is tying a shoe	A guy is tying his shoe
 670	Entailment	The man is playing a violin	A violin is being played by a guy
-671	None	A dog is catching a ball	There&#39;s no dog catching a ball
+671	None	A dog is catching a ball	There's no dog catching a ball
 672	Entailment	A guy is shooting with a shotgun	A guy is firing a gun
 673	None	A person is holding a skunk	A person is frying meat in a frying pan
 674	Entailment	Five people are floating in a dinghy	Some people are floating in a dinghy
@@ -678,7 +678,7 @@
 677	Entailment	A lady is catching and holding a kangaroo baby	A lady is catching and holding a kangaroo baby in her arms.
 678	Entailment	The guy is standing in the water at the base of the waterfall	A guy is standing in the water at the base of a waterfall
 679	Entailment	A boy under an umbrella is being held by his father who is wearing a blue dyed coat	A boy under an umbrella is being held by his father
-680	None	A man is playing guitar near a drummer.	There&#39;s no man playing guitar next to a drummer
+680	None	A man is playing guitar near a drummer.	There's no man playing guitar next to a drummer
 681	None	A man is adding pieces of butter to a mixing bowl.	Chunks of butter are being added to the mixer
 682	None	A group of people are dancing at a concert.	A group of people are marching
 683	None	A rock is being climbed by a person with a rope, which is pink	A person is climbing a colorful rock.
@@ -695,8 +695,8 @@
 694	Entailment	A man and a woman are driving down the street in a jeep.	Two people are in a vehicle driving
 695	Entailment	A man and a woman are walking through the woods together	A man and a woman are walking through a wooded area.
 696	None	Two young men are playing outdoors near a golden statue	Two people are ignoring the nearby golden statue
-697	None	A man is cutting a boot with a sword.	There&#39;s no man cutting a boot with a sword
-698	None	A man is diving off a cliff	There&#39;s no man riding a motorcycle
+697	None	A man is cutting a boot with a sword.	There's no man cutting a boot with a sword
+698	None	A man is diving off a cliff	There's no man riding a motorcycle
 699	Entailment	The lady is slicing garlic quickly	The lady is chopping garlic
 700	None	A guy is cutting pieces of butter in a mixing bowl	Chunks of butter are being added to the mixer
 701	Entailment	Eggs are being boiled by the lady	A lady is boiling eggs
@@ -707,7 +707,7 @@
 706	None	A dog is barking at a ball	A cat is swimming behind a tennis ball
 707	None	People are not sitting on a bench in front of a restaurant.	People are sitting on a bench in front of a restaurant.
 708	None	A young boy wearing a red swimsuit is jumping in a blue kids pool	A child is wearing red shorts and is jumping in a kiddie pool
-709	None	There&#39;s no man putting a silencer on a pistol	A man is fixing a silencer for a gun
+709	None	There's no man putting a silencer on a pistol	A man is fixing a silencer for a gun
 710	Entailment	A guy is standing on top of a roof and playing a violin	A guy is standing on the roof top and is playing a violin
 711	None	A little dog is lying in a bed	A wee cat is lying on a bed
 712	None	A man on a motorcycle is riding on a wheel.	The artist is fooling a person on a motorcycle
@@ -730,7 +730,7 @@
 729	Entailment	A couple is standing on the sidewalk	A man and a woman are standing on the sidewalk.
 730	Entailment	The boy is abruptly knocked off a horse	The boy is being knocked off the horse
 731	Entailment	A lady is cutting potatoes	A lady is cutting the potatoes
-732	None	There&#39;s no man chopping onion	A man is cutting an onion
+732	None	There's no man chopping onion	A man is cutting an onion
 733	None	There are no seabirds on some rocks	A seabird is flying over some rocks
 734	None	Young boy in a blue shirt is jumping into the water	A young boy is jumping in a tranquil lake
 735	None	A dog is swimming in a lake and the sun is shining on it	A golden-haired dog is coming out of the water
@@ -748,7 +748,7 @@
 747	Entailment	A dog is standing beside a mountain	A dog is standing on a mountain
 748	None	A group of students in uniform are ignoring the front of the class	A classroom full of students is looking in the same direction within a bamboo structure.
 749	Entailment	A lady is frying something in a frying pan	A lady is cooking something in a frying pan.
-750	None	A little child in a pink sweater is climbing a concrete staircase.	There&#39;s no little child in a pink sweater climbing a concrete ladder.
+750	None	A little child in a pink sweater is climbing a concrete staircase.	There's no little child in a pink sweater climbing a concrete ladder.
 751	None	The boy is trotting on the horse	The girl is trotting on the horse
 752	None	The dog is swimming in a lake and the sun is shining on it	A golden-haired dog is swimming by the water
 753	None	A dog with long hair and a red outfit is running on the grass	A dog in a red outfit is not running in the field
@@ -756,8 +756,8 @@
 755	None	A young girl is dancing	A young girl is standing still
 756	None	A black guy is walking near a store in a big city	A black guy is walking next to a building in a big city
 757	Entailment	A father is launching his daughter into a kiddie pool	A father is playing his daughter in the pool
-758	None	Two sumo wrestlers are fighting	There&#39;s no man driving a water toy in the water
-759	None	There&#39;s no woman being kissed by a man	A woman is being kissed by a man
+758	None	Two sumo wrestlers are fighting	There's no man driving a water toy in the water
+759	None	There's no woman being kissed by a man	A woman is being kissed by a man
 760	None	Two boys are lying in the ocean near the beach	Two kids are rolling in dirty water
 761	None	A yellow shirt hockey player is protecting the goal	There is no yellow shirt hockey player guarding the goal
 762	None	A man is spitting	A man is talking
@@ -767,31 +767,31 @@
 766	None	There are no dogs of dogs wearing striped uniforms and running down the track	A group of dogs are competing and have muzzles on their noses.
 767	None	A group of dogs are resting without their muzzles.	A group of race dogs are wearing striped uniforms and are running down the track.
 768	None	A black dog is carrying a blue and white toy in its mouth.	A dog is running with a volleyball
-769	None	There&#39;s no man sharpening a knife	A man is sharpening a knife
+769	None	There's no man sharpening a knife	A man is sharpening a knife
 770	Entailment	The woman is squeezing juice from a lemon	A woman is squeezing the juice of a lemon.
 771	Entailment	A flute is being played by a woman	A woman is playing a wind instrument
 772	Entailment	A man is cutting a thick rope with a sharp sword.	A man is cutting a cord with a sword.
 773	None	A dog is away from the red ball in the air	A small dog is playing in the green grass
-774	Entailment	The sun is shining on the face of the girl in the yellow-dyed dress	The sun is shining on the girl&#39;s face
+774	Entailment	The sun is shining on the face of the girl in the yellow-dyed dress	The sun is shining on the girl's face
 775	Entailment	The girl is slicing an onion with a knife	An onion is being sliced with a knife by the girl
 776	Entailment	Two little boys dressed in tuxedos are sitting	Two little children are wearing tuxedos
-777	None	A woman is seasoning the oil	There&#39;s no woman pouring ingredients into a bowl
+777	None	A woman is seasoning the oil	There's no woman pouring ingredients into a bowl
 778	Entailment	The man is sitting outdoors under a purple umbrella	The man is sitting outside under an umbrella
 779	None	A player in purple, white and black is playing near the end of the field.	A man is wearing a sports uniform and is running down the field.
 780	None	A couple is sitting on a patio and looking at the ocean.	Two adults are sitting on chairs and are watching the ocean.
-781	None	There&#39;s no young girl in winter coat jumping from a rock to the sand on the beach.	A young girl in winter coat is jumping from a rock to the sand on the beach.
+781	None	There's no young girl in winter coat jumping from a rock to the sand on the beach.	A young girl in winter coat is jumping from a rock to the sand on the beach.
 782	Entailment	Two boys are playing on a trampoline near the water	Some boys are playing on the trampoline
 783	None	The policeman is sitting on a policeman bike	A police officer is sitting on a motorcycle
 784	None	The man is sitting in a covered area	A barefoot woman is sitting on a blanket under a lilac umbrella
 785	Entailment	The cat is playing with a container made of plastic	The animal is playing with a plastic container
-786	None	There&#39;s no man slicing tomatoes	A man is cutting tomatoes
+786	None	There's no man slicing tomatoes	A man is cutting tomatoes
 787	Entailment	A lady is cutting meat	A lady is cutting some meat
 788	Entailment	A lady is playing a guitar	A guitar is being played by a lady
 789	Entailment	A lady is slicing a carrot	Carrot is being sliced by a lady
 790	Entailment	The owner is feeding his animal	Someone is feeding an animal
 791	None	Two dogs are playing on the beach	Two dogs are resting on the beach
 792	None	A brown and black dog is running through the leaves	A brown and black dog is resting on the leaves.
-793	None	A baby tiger is playing with a ball	There&#39;s no tiger cub playing with a ball
+793	None	A baby tiger is playing with a ball	There's no tiger cub playing with a ball
 794	Entailment	A yellow shirt hockey player is protecting the goal	The goal is being saved by a hockey player
 795	Entailment	A guy is participating in a bmx race	A guy is participating in a bmx race
 796	None	A person is climbing a rock with a rope, which is pink.	A man is climbing a cliff with a rope.
@@ -842,7 +842,7 @@
 841	Entailment	Two dogs are playing on a sandy beach	Two dogs are playing on the beach
 842	Entailment	People are carrying several baskets.	Some individuals are walking with many objects.
 843	None	The dog is running through the gravel	The little dog is running in the sand
-844	None	There&#39;s no man riding a motorcycle	A man is riding a motorcycle
+844	None	There's no man riding a motorcycle	A man is riding a motorcycle
 845	Entailment	Some little rolls are being eaten by two young children who are in a stroller, which is very tiny	Two little kids are eating curled up in a cart that is very tiny
 846	None	The dark-skinned man is on one hand in front of a yellow building	A black man is deftly dancing break on the floor
 847	Entailment	A lady is shooting a practice target	A lady is shooting a practice target
@@ -869,7 +869,7 @@
 868	Entailment	A girl in a T-shirt is keeping her mouth open.	A girl is wearing a t-shirt and has her mouth open.
 869	Entailment	A guy is dancing on the road.	A guy is dancing
 870	None	A big duck is flying above a rocky stream	A seabird is flying over some rocks
-871	Entailment	A fish is biting a person&#39;s finger	The animal is biting someone&#39;s finger
+871	Entailment	A fish is biting a person's finger	The animal is biting someone's finger
 872	Entailment	The guy surrounded by photographers is wearing a gray suit and (wearing) glasses	A guy in a suit is being surrounded by photographers
 873	None	A banana is being peeled by one person	A man is reading an email
 874	None	A dog is swimming in a lake and the sun is shining on it	There are no dogs swimming in a lake with sunlight reflecting on it
@@ -930,14 +930,14 @@
 929	None	A man is doing a card trick	A man is playing with water
 930	Entailment	Four people are wading through the water	A group of people are wading through the water.
 931	Entailment	A boy next to some rag buckets is holding something	A boy near some rag buckets is holding an object
-932	None	There&#39;s no man cutting a boot with a sword	A man is cutting the toe of an empty leather boot with a sword.
+932	None	There's no man cutting a boot with a sword	A man is cutting the toe of an empty leather boot with a sword.
 933	None	The child is playing with toys outdoors	The child is playing with toys in a covered area.
 934	Entailment	A girl is frying some food	A person is frying food
 935	None	The men are not playing soccer	The men are playing soccer
 936	Entailment	A brown dog is running after a black dog on a rocky shore.	A brown dog is running after a dark dog on a rocky shore.
 937	None	The blonde girl is dancing in front of the stereo	There is no girl in white dancing
 938	Entailment	A cat is taking a nap in the park	The cat is resting in the park
-939	None	There&#39;s no small boy running on earth and playing with a girl	A small boy is running on the floor and playing with the small girl
+939	None	There's no small boy running on earth and playing with a girl	A small boy is running on the floor and playing with the small girl
 940	Entailment	The man is standing in a lake near a waterfall	The man is standing in a body of water near a waterfall
 941	None	Two young men are playing outdoors near a golden statue	Two people are looking at a statue made of gold.
 942	Entailment	A woman is putting two eggs into a pan of water	A woman is putting two eggs in a pan of water
@@ -950,7 +950,7 @@
 949	None	A woman is pouring ingredients into a bowl.	A woman is seasoning the oil
 950	Entailment	A lady is absently peeling a potato	A lady is peeling a potato
 951	Entailment	Soccer players are kicking a soccer ball	Some people playing soccer are kicking a soccer ball
-952	None	A cat is walking on a wooden floor	There&#39;s no cat walking on a wooden floor
+952	None	A cat is walking on a wooden floor	There's no cat walking on a wooden floor
 953	Entailment	A light-colored child stands with his arms outstretched.	A child in light colored clothes is standing with his arms open
 954	Entailment	Three girls are dancing	Three women are dancing
 955	Entailment	The biker is riding a motorcycle on a sandy track	The woman is driving a motorcycle on a sand trail
@@ -965,10 +965,10 @@
 964	None	A man is playing a guitar passionately in front of an audience.	A woman is peeling a potato
 965	Entailment	A Middle Eastern man is leaning against a lamppost near other people.	A man is leaning against a pole and is surrounded by people.
 966	None	A man is riding a horse	A horse is being ridden by a woman
-967	None	There&#39;s no girl riding a horse	A girl is riding a horse
-968	None	a man is cutting a potato	There&#39;s no man slicing a potato into pieces
+967	None	There's no girl riding a horse	A girl is riding a horse
+968	None	a man is cutting a potato	There's no man slicing a potato into pieces
 969	Entailment	Someone is strumming the guitar	Someone is playing the guitar
-970	None	A band is playing some instruments	There&#39;s no man playing an electronic keyboard
+970	None	A band is playing some instruments	There's no man playing an electronic keyboard
 971	Entailment	A man, two women and a girl are walking on the beach	Four people are walking on the beach
 972	Entailment	A guy is playing the keyboard with his nose	The keyboard is being played with a nose by a guy
 973	None	A woman is frying fish	There are no women cooking fish
@@ -991,13 +991,13 @@
 990	Entailment	A veteran is showing different things from a war to some people.	Some things from a war are being shown to some people by a veteran.
 991	Entailment	Or face is tiring sweet potato	The person is slicing the potato
 992	Entailment	A bunny rabbit is playing with a toy made of blue rope	A bunny rabbit is playing with a toy
-993	None	There&#39;s no man working on the laptop	A man is working on the laptop
+993	None	There's no man working on the laptop	A man is working on the laptop
 994	Entailment	A player is being pushed by an angry opponent	An opponent is attacking a player
-995	None	There&#39;s no man playing the guitar	A man is playing the drums
-996	None	There&#39;s no man holding a mask in his raised hand	A man is holding a mask in his raised hand.
+995	None	There's no man playing the guitar	A man is playing the drums
+996	None	There's no man holding a mask in his raised hand	A man is holding a mask in his raised hand.
 997	Entailment	Cowboy hat guy is walking around the market and putting a hand in his pocket	The guy in the cowboy hat is walking around a market and putting a hand in his pocket
 998	None	A man is participating in a bmx race	A man in a red uniform is running and jumping on a bicycle on the ground.
-999	None	There&#39;s no man crouching in the bush and taking a picture	A man is crouching and holding a camera
+999	None	There's no man crouching in the bush and taking a picture	A man is crouching and holding a camera
 1000	None	The brown dog is smelling the tail of a little black dog	There are no big brown dogs and little gray dogs standing on a rocky surface
 1001	Entailment	A white dog with beige spots is shooting across a field.	A spotted dog is running across a field
 1002	None	A black dog is running in the grass	A black dog is lying in the grass
@@ -1025,7 +1025,7 @@
 1024	Entailment	Two sumo fighters are fighting	Two sumo wrestlers are fighting
 1025	None	The guy is using a sledgehammer to break a concrete block that is on someone else	A guy is breaking a concrete slab with a sledgehammer
 1026	Entailment	A dog, which is black, is running in the grass	A black dog is running in the grass
-1027	None	Some kids aren&#39;t playing in the playground	The boy and the girl are playing at outdoor gym
+1027	None	Some kids aren't playing in the playground	The boy and the girl are playing at outdoor gym
 1028	Entailment	The man is lifting dumbbells	The man is lifting weights
 1029	Entailment	Four people are walking along the city sidewalk and the one in the green hat is phoning someone	Four people are walking along a city sidewalk and the one in the green hat is talking on a cellphone
 1030	Entailment	A guy in a dyed purple shirt is looking at the guy in the black shirt who is making a funny face	A guy in a pose is being playfully assisted by another guy
@@ -1052,21 +1052,21 @@
 1051	Entailment	A person is throwing a kitten at the ceiling.	A cat is thrown on the ceiling by one person
 1052	None	A man is drilling a hole in a piece of wood	A man is drilling a hole with a piece of wood
 1053	None	The group of people are sitting on the floor outside a monument	A group of people are standing on either side of a red stone structure.
-1054	None	There&#39;s no woman slicing tofu	A woman is slicing tofu
+1054	None	There's no woman slicing tofu	A woman is slicing tofu
 1055	None	People are riding on two camels on the beach	Two men are sitting on a camel and another camel is in the foreground
 1056	None	The little child is wading through the water and being guided by someone else	There are no young children splashing water
 1057	Entailment	The cat perched on the table is curiously looking at the bottle.	The cat perched on the table is looking at the bottle
 1058	None	Two women with dogs are walking on a path in a woods	Two dogs and two people are walking in a forest
 1059	None	A boss is cleaning a soup bowl	A man is cleaning the rim of the bowl
-1060	None	A man is riding a bicycle	There&#39;s no man riding an electric bike
+1060	None	A man is riding a bicycle	There's no man riding an electric bike
 1061	None	A wee dog is lying in bed	A wee dog is lying under the bed
 1062	None	A cold cyclist is celebrating	A cyclist is being held over the heads of a group of people with the bicycle.
-1063	None	A walker is in a men&#39;s hat shop	A man in a hat is walking through a store.
+1063	None	A walker is in a men's hat shop	A man in a hat is walking through a store.
 1064	None	Two teen girls are wearing fancy dresses at an event	Two ladies are wearing worn dresses at home
 1065	None	A group of children are playing in a colorful structure.	A group of children are staring at a colorful structure.
 1066	None	A person is slicing some onions	A person is not slicing some onions
 1067	Entailment	A girl is cutting potatoes	A woman is cutting the potatoes
-1068	None	A big dog is running on the grass with a tennis ball in its mouth	There&#39;s no big dog running over the grass with a tennis ball in its mouth
+1068	None	A big dog is running on the grass with a tennis ball in its mouth	There's no big dog running over the grass with a tennis ball in its mouth
 1069	None	A man and a child are kayaking through the calm waters	A yellow kayak is being sailed by a man and a young boy
 1070	Entailment	A guy is riding a motorcycle	This face is riding a motorcycle
 1071	None	The dog is jumping to catch a frisbee in the snow	A dog nearby in the snow is jumping off the ground and picking up a stick
@@ -1079,7 +1079,7 @@
 1078	None	Some kids are playing in the playground	Boy and girl are not playing in the playground
 1079	Entailment	Snowboarder is spinning in the air over a snowdrift	Someone is jumping in the air on a board
 1080	None	The black and white dog is running outdoors	A climber is holding a rock and another man is stringing a wall
-1081	Entailment	A guy is playing with a sock ball	There&#39;s a guy playing with a sock ball
+1081	Entailment	A guy is playing with a sock ball	There's a guy playing with a sock ball
 1082	None	A couple is sitting on a patio and is facing the ocean.	Two adults are sitting on chairs and are watching the ocean.
 1083	Entailment	The lady is stirring eggs in a bowl	The woman is stirring food in a bowl
 1084	Entailment	The man is seasoning sausages	A man is seasoning meat
@@ -1102,7 +1102,7 @@
 1101	Entailment	The guy is cracking eggs in a bowl	The person is breaking eggs in a bowl
 1102	Entailment	Sign language is being used by a young woman	A young woman is using sign language
 1103	Entailment	The ladies are dancing outside the house	A group of people are dancing.
-1104	None	There&#39;s no woman peeling a potato	The man is slicing potatoes
+1104	None	There's no woman peeling a potato	The man is slicing potatoes
 1105	None	A woman is slicing potatoes	A woman is slicing carrots
 1106	Entailment	Some horses are competing furiously on the green grass and jumping over obstacles.	Some horses are competing furiously on the green grass and jumping obstacles.
 1107	None	Two men, one woman, and two young boys are sitting in front of a large group of people outside a building.	A large crowd of warm clothes is posing for a camera.
@@ -1168,7 +1168,7 @@
 1167	Entailment	The fish are swimming fast	Some fish are swimming.
 1168	Entailment	An image is being drawn by a guy	The person is drawing
 1169	None	A man is riding a horse	A woman is riding a horse
-1170	None	There&#39;s no small boy running on earth and playing with a girl	The kids are chasing each other in the sand
+1170	None	There's no small boy running on earth and playing with a girl	The kids are chasing each other in the sand
 1171	Entailment	Kids are playing in a fountain that is splashing water from the ground	Kids are playing in ground fountains
 1172	None	No one is sitting on the chairs and watching the ocean	Two adults are sitting on chairs and are watching the ocean.
 1173	None	The girl in blue is chasing the base runner with a number on the team shirt	A woman in blue holds a yellow ball in her hand.
@@ -1184,9 +1184,9 @@
 1183	None	A black animal is jumping from a dock to the water	A black dog is jumping from a dock into the water
 1184	Entailment	An individual is boiling okra in a pan	Someone is boiling food in a pan
 1185	Entailment	A boy in a blue shirt is looking at his hand near a stack of blocks on a table.	The boy in the blue shirt is looking at his hand near the stack of blocks on the table
-1186	None	A girl is wearing jeans and a pink shirt and is running	There&#39;s no girl wearing jeans and a pink shirt running
+1186	None	A girl is wearing jeans and a pink shirt and is running	There's no girl wearing jeans and a pink shirt running
 1187	None	A young man is drilling a hole in a piece of wood	Someone is drilling a hole in a piece of wood with a drill
-1188	Entailment	A girl is combing the cat&#39;s fur	A person is brushing a cat
+1188	Entailment	A girl is combing the cat's fur	A person is brushing a cat
 1189	None	Two kids are looking over a rusty railing	Two kids are crouching under some metal bars
 1190	Entailment	Soccer players are kicking a soccer ball into the goal	A soccer player is scoring a goal
 1191	None	A person wearing jeans is sitting on top of a horse saddle	A woman in jeans is standing near a horse with a cell
@@ -1212,7 +1212,7 @@
 1211	Entailment	A couple is sitting on a patio and is facing the ocean.	A couple is looking at the ocean.
 1212	None	A black bird is sitting on a dead tree.	The black bird is sitting comfortably in a leafless tree
 1213	Entailment	A guy is slowly dancing on the road.	A guy is dancing
-1214	None	The man is slicing the potato	There&#39;s no man slicing potatoes
+1214	None	The man is slicing the potato	There's no man slicing potatoes
 1215	Entailment	A guy is washing a big steak	A guy is washing a big piece of meat
 1216	None	A golden retriever is running	A golden retriever is not running
 1217	Entailment	A guy is emptying a plastic container	A guy is emptying a container made of plastic
@@ -1222,7 +1222,7 @@
 1221	None	Two people in two chairs are reading	Some people are sitting on lawn chairs and are reading books.
 1222	Entailment	A lady is wearing a long black coat and a brown hat and is walking through a park with a lot of blooming trees.	A lady who is wearing a long black jacket and a brown hat is walking through a park with many blooming trees.
 1223	Entailment	A lady is cooking empanada pork chop	A lady is cooking a pork chop that is breaded
-1224	None	A man is diving off a cliff	There&#39;s no man diving off a cliff
+1224	None	A man is diving off a cliff	There's no man diving off a cliff
 1225	None	A guy is holding a guitar	Someone is playing the guitar
 1226	Entailment	A cyclist is riding a bike in a snowy forest in the dark.	A cyclist is pedaling in a snowy forest at night.
 1227	None	A woman in a blue-and-white uniform with a white-and-blue hat is holding her mouth open and standing close to other people dressed in the same way.	There is no woman wearing a blue t-shirt with a white vest and white cap talking and marching
@@ -1285,7 +1285,7 @@
 1284	Entailment	Two white puppies are playing near a pool	Two white puppies are playing near the water.
 1285	None	A brown and black dog is running through the leaves	A colored coat dog is running through the yard
 1286	Entailment	A black dog and a light brown dog are playing in the yard.	A dark dog and a light dog are playing in the yard.
-1287	None	A man is praying	There&#39;s no dancing man
+1287	None	A man is praying	There's no dancing man
 1288	Entailment	A keyboard is being played by a boy	The boy is playing keyboard
 1289	None	People are rowing and rowing	Four people are floating in a dinghy
 1290	Entailment	The guy is carefully feeding a snake with a mouse.	The guy is carefully feeding the snake with a mouse
@@ -1298,9 +1298,9 @@
 1297	Entailment	Two kids and their mother are standing next to a tree branch	Three people stand beside a tree branch
 1298	None	Someone is not reading the email	A man is reading the email
 1299	None	A woman is wearing a blue shirt with a white vest and a white hood and is talking and marching	People are sitting against a wall.
-1300	None	A tiger cub is making a sound	There&#39;s no tiger cub making a sound
+1300	None	A tiger cub is making a sound	There's no tiger cub making a sound
 1301	None	A child is walking down the street and a jeep is approaching	A man in a car is leaning near a woman standing along a road
-1302	None	There&#39;s no famous singer dancing on the ceiling	A famous singer is dancing on the ceiling
+1302	None	There's no famous singer dancing on the ceiling	A famous singer is dancing on the ceiling
 1303	Entailment	Two boys on the couch are playing video games	The boys are playing video games
 1304	Entailment	A man is having dinner	A man is eating
 1305	None	A young child is riding a bicycle on a bumpy dirt track	A young boy is riding a mountain bike through the mud
@@ -1312,7 +1312,7 @@
 1311	Entailment	A dog, which is black, and a white are staring at each other in the street.	A dog, which is black, and a white are looking at each other in the street.
 1312	Entailment	Potatoes are being sliced by a girl	Someone is slicing potatoes
 1313	Entailment	A group of four brown dogs are playing in a brown grass field	Four dogs are playing in a grassy area
-1314	None	The baby is laughing and crawling	There&#39;s no man playing the violin
+1314	None	The baby is laughing and crawling	There's no man playing the violin
 1315	None	A group of people are not dancing at a concert.	A group of people are marching
 1316	Entailment	A guy is drinking orange juice and walking	A person is drinking orange juice and walking
 1317	Entailment	The skateboarder is jumping in the air	A skateboarder is jumping in the air
@@ -1326,7 +1326,7 @@
 1325	Entailment	A little monkey is walking by the water	A monkey is walking in the water
 1326	None	A man is not drawing on a digital whiteboard.	A man is drawing on a digital whiteboard
 1327	None	A woman is pouring eggs into a frying pan.	A man is petting two cats
-1328	None	A man is riding a motorcycle	There&#39;s no man diving off a cliff
+1328	None	A man is riding a motorcycle	There's no man diving off a cliff
 1329	None	A girl is eating a cupcake	A woman is eating a cake
 1330	None	A black dog is walking across a rocky terrain	A black dog is running through a rocky landscape
 1331	None	The children are wearing black pants and jumping	Children are not wearing black tights and are not jumping
@@ -1344,9 +1344,9 @@
 1343	Entailment	A shirtless man is holding a soccer ball	A soccer ball is being held by a shirtless man
 1344	None	People are on a sandy beach near the ocean and are enjoying a sunny day.	A lot of people are on the sea coast
 1345	Entailment	A guy in a purple dyed hat is operating a camera that makes videos	The guy in the purple hat is operating a camera that makes videos
-1346	None	There&#39;s no woman peeling a potato	Potato is being peeled by a woman
+1346	None	There's no woman peeling a potato	Potato is being peeled by a woman
 1347	Entailment	A lady is exercising	A person is exercising
-1348	None	There&#39;s no man chopping a fish	A man is cutting a fish
+1348	None	There's no man chopping a fish	A man is cutting a fish
 1349	Entailment	A man is jumping in the air on a board	Someone is jumping in the air on a board
 1350	None	A man is sitting in the rain.	A man is dancing in the rain.
 1351	None	A dog nearby in the snow is jumping off the ground and picking up a stick	A dog is jumping to catch a frisbee in the snow
@@ -1360,19 +1360,19 @@
 1359	Entailment	A guy is speedily chopping some mushrooms with a knife	A guy is quickly mincing some mushrooms with a knife
 1360	Entailment	A white dog and a black dog are running side by side on the green grass.	A dog, which has black fur, and a white dog are running on the grass.
 1361	Entailment	A black and white dog is carrying a large stick in the green grass	A black and white dog with a big branch is running in the field.
-1362	None	There&#39;s no young boy riding a mountain bike through the mud	A young child is riding a bicycle on a bumpy dirt path
-1363	None	A dog is chasing an animal&#39;s tail in the grass	A dog, which is small, is chasing a big brown cow
+1362	None	There's no young boy riding a mountain bike through the mud	A young child is riding a bicycle on a bumpy dirt path
+1363	None	A dog is chasing an animal's tail in the grass	A dog, which is small, is chasing a big brown cow
 1364	None	The man is taking a picture of himself and another guy	An electronic man is kept as a device
-1365	None	There&#39;s no man singing and playing a guitar	A man is playing a guitar
+1365	None	There's no man singing and playing a guitar	A man is playing a guitar
 1366	None	A woman is skiing downhill and over a red obstacle	A man is skiing downhill and over a red obstacle
-1367	None	Some kids are playing in the playground	Some kids aren&#39;t playing in the playground
+1367	None	Some kids are playing in the playground	Some kids aren't playing in the playground
 1368	Entailment	Some people are singing into the microphone.	A group of people are singing
-1369	None	There&#39;s no woman riding an elephant	A woman is opening a soda and drinking
+1369	None	There's no woman riding an elephant	A woman is opening a soda and drinking
 1370	Entailment	A man and a woman are walking through the wooded area.	Two people are walking through a wooded area
 1371	Entailment	A dog is jumping on a bright blue soccer ball in a field of dry leaves.	An animal is bouncing on a ball in a field of dry leaves.
 1372	Entailment	A guy is holding a frog carelessly	A frog is being carelessly held by a guy
 1373	Entailment	The black dog is biting a few drops of water	The dog is snapping a few drops of water
-1374	None	A young man with brown hair and sunglasses is sitting in front of some soda cans	There&#39;s no young man with brown hair and sunglasses sitting in front of some soda cans
+1374	None	A young man with brown hair and sunglasses is sitting in front of some soda cans	There's no young man with brown hair and sunglasses sitting in front of some soda cans
 1375	Entailment	A barefoot man in pajamas is looking at the stars and is walking on the tennis court	A barefoot man in pajamas is looking at the sky and is walking on the tennis court
 1376	Entailment	A guy is talking on the phone	A guy is making a phone call
 1377	None	Meat is being sewn by a woman	A lady is cutting meat into pieces
@@ -1385,8 +1385,8 @@
 1384	None	Red and white soccer players are jumping and hugging	No red and white soccer players jumping and hugging
 1385	Entailment	Some instruments are being played by a band.	A band is playing some instruments
 1386	None	A man is playing the guitar	A man is not playing the guitar
-1387	None	The lady is catching the kangaroo	A kangaroo is catching the lady&#39;s baby
-1388	None	A dog is chasing a ball through the dirt	There&#39;s no dog catching a ball
+1387	None	The lady is catching the kangaroo	A kangaroo is catching the lady's baby
+1388	None	A dog is chasing a ball through the dirt	There's no dog catching a ball
 1389	Entailment	A yellow dog is running down a sandy path	An animal is running down a sand-covered path.
 1390	Entailment	A lady is adding ingredients in a large bowl.	A lady is adding ingredients to a bowl.
 1391	Entailment	An asian lady is putting on makeup	The lady is putting on makeup
@@ -1401,8 +1401,8 @@
 1400	Entailment	A guy is having lunch	A guy is eating
 1401	Entailment	A paper plate is being painted by a woman	A person is painting a board
 1402	Entailment	The black bird is sitting comfortably in a leafless tree	The black animal is sitting on a leafless tree
-1403	None	The man is playing the guitar	There&#39;s no man playing with a skull
-1404	None	There&#39;s no man playing with a skull	The man is playing with a skull
+1403	None	The man is playing the guitar	There's no man playing with a skull
+1404	None	There's no man playing with a skull	The man is playing with a skull
 1405	Entailment	A baby is being put in a bin by a lady	A lady is putting the baby in a trash can
 1406	None	A big city is begging for men and money holders	A man in a big city is holding a sign and asking for money
 1407	Entailment	A lady is using a sewing machine.	A lady is sewing with a machine
@@ -1430,13 +1430,13 @@
 1429	None	The man is sitting in a covered area	The man is sitting outside under a purple umbrella
 1430	Entailment	A white hat is being worn by a boy running on the beach	A boy is wearing a white hat and is running on the beach
 1431	Entailment	A kitten is drinking fresh milk.	A little cat is drinking milk
-1432	Entailment	A man&#39;s face is being painted by a lady	A lady is painting a man&#39;s face
+1432	Entailment	A man's face is being painted by a lady	A lady is painting a man's face
 1433	Entailment	A dog, which is white, is standing in the fallen leaves.	A dog is standing over fallen leaves
 1434	None	An oriental man and two women are turning their backs to the camera	A group of people are standing together and looking at the camera.
 1435	None	An onion is not being sliced	Someone is holding a hedgehog
 1436	Entailment	The players are maneuvering the soccer ball	The players are maneuvering the ball
 1437	None	A wee toy girl is in a toy car	A child is sitting in a red and yellow toy car
-1438	None	There&#39;s nobody jumping in the air with a board	Someone is jumping in the air on a board
+1438	None	There's nobody jumping in the air with a board	Someone is jumping in the air on a board
 1439	Entailment	A white rally car is throwing mud in the air and is approaching a bend	A white racing vehicle is going through a muddy puddle
 1440	Entailment	Snowboarder is jumping from the snow.	A snowboarder is jumping from the snow.
 1441	Entailment	The animal is catching a ball	An animal is catching a ball
@@ -1455,7 +1455,7 @@
 1454	None	The sun is not shining on the face of the girl in the yellow dress	The sun is shining on the face of the girl in the yellow dress
 1455	Entailment	A guy is sitting on a train and resting his hand against his face.	The guy is sitting on the train and rests his hand against his face
 1456	Entailment	A man in green is hitting a soccer ball and a man in purple and white is falling	A man in green is kicking a soccer ball and a man in purple and white is falling
-1457	None	There&#39;s no young boy riding a mountain bike through the mud	A young boy is riding a mountain bike through the mud
+1457	None	There's no young boy riding a mountain bike through the mud	A young boy is riding a mountain bike through the mud
 1458	Entailment	The bull is grazing in the grass	An animal is grazing in a field
 1459	Entailment	A shirtless man is posing with open arms next to a woman	A shirtless man is posing with his arms wide open next to a woman
 1460	Entailment	The woman is slicing cooked octopus	A woman is poking an octopus
@@ -1480,7 +1480,7 @@
 1479	None	Three boys are jumping off a platform	One boy is jumping off a platform and two other boys are standing and watching
 1480	Entailment	A lady is cracking eggs	A lady is breaking eggs
 1481	None	People are sitting on a bench in front of a restaurant.	Three people are sitting on a bench under some palm trees.
-1482	None	A man is carrying a rifle with bullets.	There&#39;s no man carrying a bullet rifle
+1482	None	A man is carrying a rifle with bullets.	There's no man carrying a bullet rifle
 1483	Entailment	A guy is preparing some dish	A guy is preparing a plate
 1484	Entailment	A man is climbing a rope	A man is climbing upwards on a rope.
 1485	Entailment	Different teams are playing soccer on the field	The teams are playing soccer
@@ -1514,13 +1514,13 @@
 1513	None	A happy-looking family is posing by the fireplace	A family is posing by the fireplace and the Christmas tree
 1514	None	A man is chopping a tree with an ax	The man is felling a tree
 1515	Entailment	Three kids are running down a grassy slope	Three kids are running down the hill
-1516	None	There&#39;s no man putting some cheese on a pizza	The man is sprinkling cheese on pizza
+1516	None	There's no man putting some cheese on a pizza	The man is sprinkling cheese on pizza
 1517	Entailment	Two dogs are in a kennel and are facing each other	Two animals are in a kennel facing each other
 1518	None	A woman in a white dress and a woman in a blue dress are standing beside a stage.	A woman in a white dress and a woman in a blue dress are standing on a stage.
 1519	Entailment	A guy is riding a motorcycle at a motocross-related event.	A person is riding a motorbike at a motocross-related event.
-1520	None	There&#39;s no baby talking	A baby is talking
+1520	None	There's no baby talking	A baby is talking
 1521	Entailment	A wee boy in a striped shirt is slipping out of a green tube	A small boy in a striped shirt is slipping out of a green tube
-1522	None	There&#39;s no soccer player kicking a soccer ball in the goal	Soccer players are kicking a soccer ball in the goal
+1522	None	There's no soccer player kicking a soccer ball in the goal	Soccer players are kicking a soccer ball in the goal
 1523	None	There are no young children standing in front of some trees	A young child is standing in front of some trees.
 1524	Entailment	A dog is playing on the lawn.	The dog is playing on the green grass
 1525	Entailment	A baby is crawling happily	A baby is crawling
@@ -1530,27 +1530,27 @@
 1529	None	A dog with golden fur is out of the water	A brown dog is standing in the water
 1530	Entailment	A lady is pouring eggs into a frying pan.	A lady is pouring eggs into a pan
 1531	Entailment	A guy is cutting an onion	An onion is being cut by a guy
-1532	None	A woman is frying something in a frying pan	There&#39;s no woman frying something in a frying pan
+1532	None	A woman is frying something in a frying pan	There's no woman frying something in a frying pan
 1533	None	A man is dancing	There are no women exercising
 1534	None	A woman cheerleader is jumping on the knee of a man cheerleader	Some cheerleaders are taking a break
 1535	Entailment	A watercraft is being ridden by a lady	A lady is riding on a watercraft
 1536	Entailment	A young girl is running outside over some fallen leaves	A child is running outdoors on the fallen leaves.
-1537	None	There&#39;s no man carrying a woman	A man is carrying a woman
+1537	None	There's no man carrying a woman	A man is carrying a woman
 1538	Entailment	A lady is peeling a potato	A potato is being peeled by a lady
 1539	None	A man is playing a violin	The baby is laughing and walking
-1540	None	There&#39;s no orange kid playing with a snowball outdoors	An orange child is playing with a snowball
+1540	None	There's no orange kid playing with a snowball outdoors	An orange child is playing with a snowball
 1541	None	The young man is practicing climbing	A rocky wall is climbed by a man in a purple hat with his bare hands.
 1542	None	A man and a woman are outside and are wearing light colored shirts.	A man and woman are in a beige room, wearing dark colored shirts and a monitor is in the background.
 1543	Entailment	Oil is being poured into a sautese by a guy	A guy is pouring oil into a frying pan
 1544	Entailment	The student is writing with a pencil	A person is writing
 1545	Entailment	Someone is feeding a fish	Someone is feeding an animal
-1546	None	A man is shooting with a shotgun.	There&#39;s no man shooting with a shotgun
+1546	None	A man is shooting with a shotgun.	There's no man shooting with a shotgun
 1547	None	There is no person playing a piano	A person is playing a piano
 1548	None	A man is singing to a woman	A man is singing to a girl
 1549	None	Military officer is shouting at recruits	The military officer is not shouting at the recruits
 1550	Entailment	A set of four brown dogs are playing in a brown grass field.	Four dogs are playing in a grassy area
 1551	None	A child is slipping in the snow	A sleigh is full of children
-1552	Entailment	A man&#39;s face is being painted by a girl	A girl is painting a man&#39;s face
+1552	Entailment	A man's face is being painted by a girl	A girl is painting a man's face
 1553	Entailment	A small baby is walking on the club floor	A baby is walking on a wooden floor
 1554	None	One girl is jumping from a rock and another is standing on the rock	One girl is jumping on a rock and another is sitting on her
 1555	Entailment	A couple of female cops are singing in a karaoke	A couple of women are singing
@@ -1560,7 +1560,7 @@
 1559	Entailment	A couple is sitting on a patio and is facing the ocean.	Two people are looking at the ocean
 1560	Entailment	A truck is speeding down a highway	A truck is fast down a road
 1561	Entailment	A harp is being played by a guy	A guy is playing a harp
-1562	None	A girl wearing a brown dress is being surrounded by children and is closing her eyes.	There&#39;s no girl in a brown dress being surrounded by children and closing their eyes
+1562	None	A girl wearing a brown dress is being surrounded by children and is closing her eyes.	There's no girl in a brown dress being surrounded by children and closing their eyes
 1563	None	A woman is dancing near a fire.	A woman is dancing near a fireplace
 1564	Entailment	A man is massaging a blonde woman	A man is massaging a woman
 1565	None	Someone is putting ingredients in the frying pan	A person is cutting garlic into pieces with a knife.
@@ -1570,7 +1570,7 @@
 1569	None	A dog is catching a ball	A dog is leaving a ball in the dirt
 1570	Entailment	A girl is riding a horse	A horse is being ridden by one person
 1571	None	A group of people are sitting relaxed on either side of a red stone monument.	The group of people are sitting on the floor outside a monument
-1572	None	There&#39;s no girl playing a flute	A girl is playing a wind instrument
+1572	None	There's no girl playing a flute	A girl is playing a wind instrument
 1573	Entailment	A trick is being performed by a skater on a ramp.	A skater is performing a trick on a ramp.
 1574	None	A soccer player in red and white uniform is being held up by two teammates	A soccer player in red and white uniform is being knocked down by two teammates
 1575	Entailment	A lemon is being squeezed by a lady	A lady is squeezing a lemon
@@ -1580,7 +1580,7 @@
 1579	Entailment	Tennis player with a green headband is hitting the ball	A tennis player is hitting the ball
 1580	None	A man is singing and walking down the sidewalk	A man is fishing in the stream
 1581	Entailment	A teenager is swimming in the pool	The teenager is wet
-1582	None	The man is pouring sliced cucumbers into the water	There&#39;s no man cooking a snake
+1582	None	The man is pouring sliced cucumbers into the water	There's no man cooking a snake
 1583	None	A dog in the yard is running through the colorful coats	A colored coat dog is running through the yard
 1584	Entailment	A woman is putting pasta on a plate	A pasta is being placed on a plate by a woman
 1585	None	The man is not playing the drums	Someone is boiling okra in a pan
@@ -1588,18 +1588,18 @@
 1587	Entailment	A group of people are equipped with safety equipment.	A group of people are equipped with equipment used for protection.
 1588	None	A black and white dog is holding a baseball in its mouth.	A brown and white dog is dropping the baseball from his mouth
 1589	Entailment	A dog is in an area full of sand, with sand being stirred in the air and several plants are in the background.	A dog is in the sand being blown by the wind
-1590	None	A man is riding a water toy in the water	There&#39;s no man driving a water toy in the water
+1590	None	A man is riding a water toy in the water	There's no man driving a water toy in the water
 1591	Entailment	A guy is typing on a machine used for shorthand	The guy is operating a shorthand machine
 1592	Entailment	The dog has its head in a red and green gift bag	A dog has its head in a red and green gift bag.
 1593	Entailment	A surfer is catching a big wave	The surfer is surfing
-1594	Entailment	The woman is handing volleyball balls to another woman	One woman is receiving another woman&#39;s volleyballs
+1594	Entailment	The woman is handing volleyball balls to another woman	One woman is receiving another woman's volleyballs
 1595	None	A woman is shooting a practice target	A man is shooting a practice target
 1596	Entailment	A guy is playing a flute	A guy is playing an instrument
 1597	Entailment	A girl is cooking eggs	The girl is cooking
 1598	None	A man is playing a flute	The man is riding a scooter
 1599	None	Orange rescue boat is running through the water	Two men are rafting on the coast near an orange biker
 1600	Entailment	The man is throwing knives in a tree	The man is throwing knives at the tree.
-1601	None	There&#39;s no tiger cub making a sound	A tiger is walking around
+1601	None	There's no tiger cub making a sound	A tiger is walking around
 1602	Entailment	Several people are singing	There are people singing
 1603	None	A young girl in a green shirt is walking on the sidewalk and holding a pink sign	The girl is carrying a board and is being followed by a group of people.
 1604	Entailment	A distant person with a blue backpack is walking in a rocky area.	The person is walking
@@ -1623,14 +1623,14 @@
 1622	None	One boy is jumping off a platform and two other boys are standing and watching	One boy is jumping on a platform and two other boys are sitting absently.
 1623	Entailment	A man is doing barbell raises	Someone is doing exercise
 1624	None	A black animal is approaching a golden dog on the pebble beach	A black dog is approaching a golden dog on a gravel beach
-1625	Entailment	Someone is scratching an animal&#39;s belly	A person is caressing an animal&#39;s belly
+1625	Entailment	Someone is scratching an animal's belly	A person is caressing an animal's belly
 1626	Entailment	Two dogs are playing in the snow	Two animals are frolicking in the snow
 1627	None	A cat is jumping into a container	A young man is talking with a leaf
 1628	None	A young boy is riding a mountain bike through the mud	A young child is riding a bicycle on a bumpy dirt path
 1629	None	A young boy in a helmet is riding a bicycle on the road	A bicycle is being pedaled by a small boy in a race
 1630	Entailment	A black dog is catching a ball	The dog is catching a ball
 1631	Entailment	A boy is passionately playing a guitar	Some boy is playing
-1632	None	A rabbit is playing with a toy rabbit	There&#39;s no rabbit playing with a stuffed bunny
+1632	None	A rabbit is playing with a toy rabbit	There's no rabbit playing with a stuffed bunny
 1633	None	A woman is slicing an onion	A woman is slicing a potato
 1634	None	A person is writing	The writings are about a person drawing
 1635	None	A golden-haired dog is swimming by the water	There are no dogs swimming in a lake with sunlight reflecting on it
@@ -1651,12 +1651,12 @@
 1650	Entailment	A potato is being sliced by the guy	Or face is tiring sweet potato
 1651	Entailment	A man is dancing on the ceiling of a room.	The man is dancing upside down on the ceiling
 1652	Entailment	A horse and his rider are jumping over a barrier	The horse is jumping over the hurdle and has a rider on his back.
-1653	None	Man in cowboy hat is walking around the market and putting a hand in his pocket	A walker is in a men&#39;s hat shop
+1653	None	Man in cowboy hat is walking around the market and putting a hand in his pocket	A walker is in a men's hat shop
 1654	None	A horse is jumping over the hurdle and has a rider on his back.	A horse without rider is falling over the obstacle
 1655	None	Two girls are jumping inside a toy house	A child in light colored clothes is standing with his arms open
 1656	Entailment	Garlic is being minced by a woman	A woman is cutting garlic
-1657	None	There&#39;s no woman slicing potatoes	A woman is slicing potatoes
-1658	None	The kids aren&#39;t chasing each other in the sand	A small boy is running on the floor and playing with the small girl
+1657	None	There's no woman slicing potatoes	A woman is slicing potatoes
+1658	None	The kids aren't chasing each other in the sand	A small boy is running on the floor and playing with the small girl
 1659	None	A person is frying meat in a frying pan	A skunk is being held by a person
 1660	Entailment	A guy and a boy are standing under some outdoor stairs	The guy and the boy are standing under the stairs, which is outdoors
 1661	Entailment	A man in a blue cowboy hat is riding a white horse	A horse is being ridden by a man in a blue cowboy hat
@@ -1673,18 +1673,18 @@
 1672	Entailment	The woman is measuring the other woman	A woman is being measured by another woman
 1673	None	There are no boys kneeling next to each other in front of a ball	Young boys are posing with a green soccer ball in the park
 1674	Entailment	A group of cooks are walking through the grass	People are walking
-1675	None	Man is making a handstand in the wet sand at the water&#39;s edge on the beach.	The man on the beach is not making a handstand on the wet sand at the water&#39;s edge
+1675	None	Man is making a handstand in the wet sand at the water's edge on the beach.	The man on the beach is not making a handstand on the wet sand at the water's edge
 1676	Entailment	A big cat is opening a drawer with its paws and jumping in.	A cat is opening a drawer and jumping in.
 1677	Entailment	This man is running down the road	A man is running
 1678	None	A blond boy is walking up a sand dune with a skateboard	A blond boy is sliding down a sand dune on a skateboard
 1679	None	A cat is playing with a tiny bottle	The dog is licking a bottle
-1680	None	Little girl in a pink shirt is running under a tree in the desert	There&#39;s no girl wearing jeans and a pink shirt running
+1680	None	Little girl in a pink shirt is running under a tree in the desert	There's no girl wearing jeans and a pink shirt running
 1681	None	A man is not riding a scooter	A man is playing a flute
 1682	Entailment	A young girl is wearing a blue print swimsuit, a black and yellow swim cap and has blue swim goggles on her head.	A small girl is wearing a blue print swimwear, a black and yellow swim cap and has blue swim goggles on her head.
 1683	Entailment	A lady is tapping her fingers on a desk	A lady is tapping her fingers
 1684	Entailment	A guy is mowing grass	The grass is being cut by a guy
 1685	None	A golden retriever is running	A yellow dog is running down a sandy path
-1686	None	A woman is painting a man&#39;s face	A man is painting a woman&#39;s face
+1686	None	A woman is painting a man's face	A man is painting a woman's face
 1687	Entailment	A guy is eating some canned food	A guy is eating food
 1688	Entailment	A man and a woman are driving down the street in a jeep.	Two people are in a jeep driving down the street
 1689	None	A man is looking at the horizon and people are walking through buildings behind him.	A white man is walking near a building in a large city.
@@ -1696,7 +1696,7 @@
 1695	None	A small girl is playing a guitar	A small boy is playing the guitar
 1696	Entailment	The guy and the kid are kayaking through the calm waters	A guy and a kid are kayaking through the calm waters
 1697	Entailment	The woman is frying a breaded pork chop in a pan	A woman is cooking a pork chop that is breaded
-1698	None	There&#39;s no woman chopping an onion	A man is chopping onions
+1698	None	There's no woman chopping an onion	A man is chopping onions
 1699	None	An officer is talking to the recruits	The military officer is not shouting at the recruits
 1700	Entailment	An onion is being sliced by you	The lady is slicing an onion
 1701	Entailment	The child is playing with toys outdoors	Some child is playing with toys outdoors.
@@ -1705,12 +1705,12 @@
 1704	Entailment	A boy and a girl in swimsuits are wearing buoys on their arms.	A boy and a girl in swimsuits are wearing arm floats.
 1705	Entailment	A black helmet is being worn by a man pushing a bike	A man is wearing black helmet
 1706	Entailment	A young boy is sitting in a bathing suit and waiting for the next competition.	A young swimmer is sitting in a bathing suit and is waiting for the next competition.
-1707	None	A man dressed in black is wearing an elaborate black mask	There&#39;s no man holding a mask in his raised hand
+1707	None	A man dressed in black is wearing an elaborate black mask	There's no man holding a mask in his raised hand
 1708	None	A guy is wearing a red jacket and standing next to a red canoe on some rocks with water in the background.	A guy is wearing a red jacket and standing next to a yellow canoe over boulders with water in the background.
 1709	Entailment	Someone is pouring meat into a frying pan	Meat is being poured into a frying pan
 1710	Entailment	The guy is chopping a potato	A guy is cutting a potato
 1711	None	A man is jumping rope outside	A woman is skipping rope outside
-1712	None	The kids are chasing each other in the sand	There&#39;s no small boy running on earth and playing with a girl
+1712	None	The kids are chasing each other in the sand	There's no small boy running on earth and playing with a girl
 1713	None	A wee boy in a yellow shirt is laughing at the beach	Small boy is wearing a yellow tank top and is laughing
 1714	Entailment	The dog is catching a ball	A dog is catching a ball
 1715	None	A man is holding an electronic device.	The man is not taking a picture of himself and another guy
@@ -1735,12 +1735,12 @@
 1734	None	A woman is slicing a fish	Garlic is being chopped by a woman
 1735	Entailment	Potatoes are being sliced by a lady	A lady is slicing potatoes
 1736	Entailment	A cigarette is being smoked by the man in the straw hat	A man is wearing a straw hat and smoking a cigarette.
-1737	Entailment	A cat is biting someone&#39;s hand	A cat is biting someone
+1737	Entailment	A cat is biting someone's hand	A cat is biting someone
 1738	Entailment	A lady is cutting broccoli	A lady is cutting vegetables
 1739	None	A woman is slicing tofu	A woman is cutting butter
 1740	Entailment	A guy is doing a skateboard trick on an outdoor porch	A guy is doing a trick with a skateboard
 1741	None	A man is riding a bicycle	A man is not riding a bicycle
-1742	None	A man is playing the piano	There&#39;s no man playing the piano
+1742	None	A man is playing the piano	There's no man playing the piano
 1743	Entailment	A guy is reading an email	An email is being read by a guy
 1744	Entailment	A band is screaming on stage	A band is screaming on the stage
 1745	Entailment	A couple is getting in a car	A couple is getting in a car
@@ -1767,12 +1767,12 @@
 1766	Entailment	The tiger is walking outside the cage	The tiger is not walking inside the cage
 1767	None	There are no white dogs running and jumping on the beach	Two white dogs are running and jumping along the beach
 1768	None	A woman is cooking fish	There are no women cooking fish
-1769	None	Chunks of butter are being added to the mixer	There&#39;s no man slicing butter in a mixing bowl
+1769	None	Chunks of butter are being added to the mixer	There's no man slicing butter in a mixing bowl
 1770	None	A dog is chasing a ball through the dirt	The dog is catching a ball
 1771	None	A man is cutting a big rope with a sword.	A man is cutting a thick rope with a sword.
 1772	None	The boy and the girl are playing at outdoor gym	Some kids are playing in the playground
 1773	None	A man is cutting a fish	A woman is slicing a fish
-1774	None	A young girl in a green shirt is walking on the sidewalk and holding a pink sign	There&#39;s no young girl in a blue shirt walking on the sidewalk and holding a pink sign
+1774	None	A young girl in a green shirt is walking on the sidewalk and holding a pink sign	There's no young girl in a blue shirt walking on the sidewalk and holding a pink sign
 1775	Entailment	A tiny guinea pig is gnawing and eating a piece of carrot on the ground.	A little guinea pig is gnawing and eating a piece of carrot on the ground.
 1776	Entailment	A lady is cutting a white onion	A lady is cutting an onion
 1777	None	A man is playing with water	A man is doing a magic trick
@@ -1791,14 +1791,14 @@
 1790	None	A woman is buttering a slice of bread	A man is buttering a loaf of bread
 1791	Entailment	A horse is being ridden by one person	A person is riding a horse
 1792	None	A man is massaging a woman	There is no man screwing a piece of wood to a wall
-1793	None	A woman is frying some food	There&#39;s no woman frying food
+1793	None	A woman is frying some food	There's no woman frying food
 1794	Entailment	A guy is dancing in the rain	A person is dancing in the rain.
 1795	None	A group of Asian girls are standing together.	Two girls are laughing and other girls are looking at them
-1796	None	There&#39;s no young girl in winter coat jumping from a rock to the sand on the beach.	One girl is jumping from a rock and another is standing on the rock
+1796	None	There's no young girl in winter coat jumping from a rock to the sand on the beach.	One girl is jumping from a rock and another is standing on the rock
 1797	Entailment	A distant person with a blue backpack is walking in a rocky area.	The person is walking
 1798	Entailment	A brown and white dog is jumping in the air with a tennis ball in its mouth.	A dog is jumping with a tennis ball in its mouth
 1799	None	A man is singing and standing on the sidewalk	A man is singing and walking down the sidewalk
-1800	None	There&#39;s no room full of students looking in the same direction inside a bamboo structure.	A classroom full of students is looking in the same direction within a bamboo structure.
+1800	None	There's no room full of students looking in the same direction inside a bamboo structure.	A classroom full of students is looking in the same direction within a bamboo structure.
 1801	None	A woman is slicing carrots	A woman is not slicing carrots
 1802	None	Some men are fighting	There are no men fighting
 1803	None	The brown dog is smelling the tail of a little black dog	The brown dog is not smelling the tail of a tiny black dog
@@ -1809,10 +1809,10 @@
 1808	Entailment	The lady is playing a guitar that is electric	The lady is playing an electric guitar
 1809	None	A person is frying some food	A person is peeling a potato
 1810	Entailment	Two black bears are lying together.	Two animals are lying down
-1811	None	A man is mowing grass	There&#39;s no guy mowing the lawn
+1811	None	A man is mowing grass	There's no guy mowing the lawn
 1812	Entailment	Adults and children are standing and playing in front of a staircase near a wooded area	People are playing in front of steps near a wooded area
 1813	None	A family is watching a small boy who is hitting a baseball	A family is watching a small boy who is losing a baseball
-1814	None	There&#39;s no man sneezing with a water pistol inside a dog&#39;s mouth	A person is chopping an onion
+1814	None	There's no man sneezing with a water pistol inside a dog's mouth	A person is chopping an onion
 1815	None	Several boys are jumping on a trampoline	A man is giving mortals on a trampoline
 1816	None	A man is rowing a boat	A woman is rowing a boat
 1817	None	Orange rescue boat is running through the water	The orange rescue boat is not running through the water
@@ -1834,13 +1834,13 @@
 1833	Entailment	A boy is passionately playing a guitar	The boy is playing
 1834	Entailment	Someone is peeling an onion	An individual is peeling a vegetable
 1835	Entailment	The drums are being played by the little boy	A boy is playing the drums
-1836	None	A little bee is landing on a bunch of yellow flowers.	There&#39;s no wee bee landing on a bunch of yellow flowers
-1837	None	A man is playing the keyboard	There&#39;s no man playing a harp
+1836	None	A little bee is landing on a bunch of yellow flowers.	There's no wee bee landing on a bunch of yellow flowers
+1837	None	A man is playing the keyboard	There's no man playing a harp
 1838	None	The boy and the girl are playing at outdoor gym	Some kids are playing in the playground
 1839	None	A caramel dog is splashing water on the bank of a river	A light brown dog is running in the water
 1840	None	The man is not playing the guitar	The man is playing the guitar
 1841	Entailment	The drums are being played by the boy	A boy is playing the drums
-1842	None	Rhino is grazing in the grass	There&#39;s no man playing a game on the grass
+1842	None	Rhino is grazing in the grass	There's no man playing a game on the grass
 1843	None	A person is throwing a cat at the ceiling	A person is pulling a cat from the ceiling
 1844	None	A man is emptying a plastic container	A container is being shaken over a sink in the kitchen by a man
 1845	Entailment	The girl is applying makeup on her face	A person is applying makeup on their face.
@@ -1849,9 +1849,9 @@
 1848	Entailment	The dog is jumping to catch a yellow frisbee in the snow	A dog is jumping to catch a frisbee
 1849	None	A man is drilling a hole in a piece of wood	A young man is drilling a hole in a piece of wood
 1850	None	A brown dog and a red dog are having fun on the beach.	Brown dogs are playfully fighting on the beach sand
-1851	None	A little dog is chasing a big brown cow	There&#39;s no wee dog chasing a big brown cow
+1851	None	A little dog is chasing a big brown cow	There's no wee dog chasing a big brown cow
 1852	None	A woman is frying meat	A woman is putting food in a pan with hot water
-1853	None	There&#39;s no woman peeling a potato	A man is playing a guitar passionately in front of an audience.
+1853	None	There's no woman peeling a potato	A man is playing a guitar passionately in front of an audience.
 1854	Entailment	The old lady is waiting anxiously on the stone pavement	The old lady is waiting on the sidewalk
 1855	Entailment	You are slowly adding sugar to the meat	The woman is adding sugar to the meat
 1856	Entailment	One person has flowing blond hair and is playing guitar	One person has flowing blond hair
@@ -1861,7 +1861,7 @@
 1860	Entailment	A brown dog is jumping in the air	The brown animal is jumping in the air
 1861	Entailment	A man and a woman are walking through the woods together	A man and a woman are walking through the wooded area.
 1862	Entailment	Two girls are lying under some metal bars	Two kids are lying under some bars made of metal.
-1863	None	There&#39;s no boy in a white t-shirt splashing in the shallows	A boy in a white t-shirt is splashing water in the shallows
+1863	None	There's no boy in a white t-shirt splashing in the shallows	A boy in a white t-shirt is splashing water in the shallows
 1864	None	The sun is shining on the face of the girl in the yellow dress	A girl is surrounding brown dressed children who are closing their eyes
 1865	Entailment	A girl is cooking empanada pork chop	The girl is cooking a pork chop that is breaded
 1866	None	A big brown dog is not running outside in the dirt	A dog is running beside a fence along a dirt path.
@@ -1876,7 +1876,7 @@
 1875	Entailment	An old man is sitting on a bench and is wearing a gray jacket with black pants	An old man is sitting on a bench
 1876	None	A group of men are playing field soccer at the beach	A group of boys are not playing soccer on the beach
 1877	Entailment	The cook is sprinkling cheese on pizza	The man is sprinkling cheese on pizza
-1878	None	The man is feeding the snake with a mouse	There&#39;s no man working on the laptop
+1878	None	The man is feeding the snake with a mouse	There's no man working on the laptop
 1879	Entailment	A lady is holding and holding a baby kangaroo in her arms.	The lady is catching and holding a kangaroo baby
 1880	Entailment	The woman is playing the sweet flute	The flute is being played by the woman
 1881	Entailment	Two little-looking boys in tuxedos are sitting on a red carpet floor	Two little boys are wearing tuxedos
@@ -1890,11 +1890,11 @@
 1889	Entailment	A woman in a bikini is pulling a dog collar by the sea	A woman in a bikini is pulling a dog on a leash on the beach
 1890	Entailment	A cat is eagerly eating an ear	A cat is eating some corn
 1891	None	A little brown and white dog is running on the road	A little brown and white dog is running on the sidewalk
-1892	None	A little black dog is chasing a little brown dog	There&#39;s no little black dog chasing a little brown dog
+1892	None	A little black dog is chasing a little brown dog	There's no little black dog chasing a little brown dog
 1893	None	The man is not playing the drums	A man is pouring cleaning product into the sink
 1894	None	Two people are standing in the ocean and watching the sunset	A group of people are wading through the water.
 1895	Entailment	Three women are dancing	Someone is moving
-1896	None	The woman is sticking a potato	There&#39;s no woman putting a child in a trash can
+1896	None	The woman is sticking a potato	There's no woman putting a child in a trash can
 1897	None	A man is putting food in a container	A young boy wearing a red swimsuit is jumping in a blue kids pool
 1898	None	A woman in a black dress is dragging a stroller and stands in front of two men who are sitting on a park bench.	A lady is dressed in black and is carrying a white cross
 1899	Entailment	A man is walking in the rain	Someone is walking in the rain.
@@ -1907,7 +1907,7 @@
 1906	None	Some onions are being cut by one person	A hamster is singing
 1907	None	Three little dogs are smelling something	Three dogs are resting on the sidewalk
 1908	Entailment	Two race cars are on a road in front of a grassy parking area	Two race cars are on the road in front of a grassy parking area
-1909	None	There&#39;s no woman wearing a blue helmet and riding a bicycle in a parking lot	The cyclist is riding a bicycle on a city street.
+1909	None	There's no woman wearing a blue helmet and riding a bicycle in a parking lot	The cyclist is riding a bicycle on a city street.
 1910	None	A couple is standing in a courtyard and looking to the sky	Two adults are sitting on chairs and are watching the ocean.
 1911	None	A man dressed in black is wearing an elaborate black mask	A mask is being held by a man in his raised hand.
 1912	Entailment	Three people are driving quad bikes in a field	Some people are driving ATVs
@@ -1918,7 +1918,7 @@
 1917	Entailment	Vegetables are being put in a pan by a man	Someone is pouring ingredients into a pan
 1918	Entailment	A tennis player is jumping left	A tennis player is jumping left
 1919	Entailment	Some bamboo is being eaten by a panda bear	A panda is eating
-1920	None	There&#39;s no man breaking a concrete slab with a sledgehammer	A man is using a sledgehammer to break a concrete block that is in another man.
+1920	None	There's no man breaking a concrete slab with a sledgehammer	A man is using a sledgehammer to break a concrete block that is in another man.
 1921	Entailment	A woman is slicing a pepper that is green	A woman is slicing a green pepper
 1922	Entailment	A guy is playing the guitar	The guy is playing the guitar
 1923	Entailment	A man is being curiously observed by a lady	A lady is looking curiously at a man
@@ -1929,7 +1929,7 @@
 1928	Entailment	Three friends are making faces for the camera	Three friends are making faces for a photo
 1929	Entailment	A ball is being chased by a yellow dog	A yellow dog is chasing a ball
 1930	Entailment	Several people are singing	People are singing
-1931	None	A child is making a snowball	There&#39;s no orange kid playing with a snowball outdoors
+1931	None	A child is making a snowball	There's no orange kid playing with a snowball outdoors
 1932	None	Two police officers are standing on a motorcycle	Two people are riding a bike
 1933	Entailment	A lady is wearing a black dress and is carrying a white cross	A lady is dressed in black and is carrying a white cross
 1934	Entailment	A dog with caramel coat is jumping up and catching a tennis ball	A caramel dog is jumping up
@@ -1942,28 +1942,28 @@
 1941	None	A man in a red uniform is jumping on a mountain bike race	A man in a red uniform is running and jumping on a bicycle on the ground.
 1942	Entailment	A group of children in the basement of a church are playing maracas and tambourines	Tambourines are being played by a group of children
 1943	Entailment	The girl is pouring oil into the frying pan	Oil is being poured into a frying pan
-1944	None	There&#39;s no boy wearing red shorts jumping into a kiddie pool	A young boy wearing a red swimsuit is jumping in a blue kids pool
+1944	None	There's no boy wearing red shorts jumping into a kiddie pool	A young boy wearing a red swimsuit is jumping in a blue kids pool
 1945	None	Two white dogs are running and jumping along the beach	Two dogs are happily playing on the beach
 1946	Entailment	Two dogs run fast through the park	Two dogs are running fast through a park
 1947	Entailment	A person is frying some food in the pan	A person is cooking some food
 1948	None	The golden dog is crossing a field of tall grass	A brown dog is running across the tall green grass
 1949	None	A brown and white dog with a brown and black bandana is running very fast	A brown and white cat with a black and brown bandana is running very fast
-1950	Entailment	It&#39;s snowing a lot in two dogs that play	Two animals are playing in the snow
+1950	Entailment	It's snowing a lot in two dogs that play	Two animals are playing in the snow
 1951	Entailment	Mexican chef is carefully pouring oil into a frying pan	Some liquid is being poured into a frying pan by a man.
 1952	Entailment	Two boys are doing martial arts on a blue rug	Two kids are doing martial art
 1953	None	A white dog is wearing a Christmas reindeer tiara and is playing with a brown dog in the grass.	There are no white dogs wearing a Christmas reindeer tiara and playing with a brown dog in the grass
-1954	None	A young girl is using sign language	There&#39;s no girl communicating with sign language
+1954	None	A young girl is using sign language	There's no girl communicating with sign language
 1955	Entailment	An afraid little boy is on a climbing wall.	A boy who looks scared is on a climbing wall
 1956	None	A child is crushing a snowball	An orange child is playing with a snowball
 1957	None	A police officer is sitting on a motorcycle	A policeman is dismounting a motorcycle
-1958	None	Two young women with arms crossed are looking at the screen	There&#39;s no woman with black hair standing in front of a wooden wall
+1958	None	Two young women with arms crossed are looking at the screen	There's no woman with black hair standing in front of a wooden wall
 1959	Entailment	A teenager is taking a nap in the park	The teenager is resting in the park
 1960	Entailment	A black dog on a leash is walking in the water.	The dog is on a leash and is walking in the water
 1961	Entailment	Some cameras are being burned by a person with a blowtorch	The person is setting the cameras on fire
 1962	None	A person is wrapping an onion	A person is cutting an onion
 1963	Entailment	A bird, which is large and white, is flying near the water.	A big white bird is flying near the water
 1964	None	A man with brown hair is not wearing glasses and is not sitting at a table with soda cans and other drinks.	A young man with brown hair and sunglasses is sitting in front of some soda cans
-1965	None	A little child in a pink sweater is climbing a concrete staircase.	There&#39;s no little child in a pink sweater climbing a concrete ladder.
+1965	None	A little child in a pink sweater is climbing a concrete staircase.	There's no little child in a pink sweater climbing a concrete ladder.
 1966	None	The woman is not holding a frog	The woman is thumbing a frog
 1967	Entailment	A sheepdog is herding a flock of sheep	The sheepdog is herding a herd of animals
 1968	None	A young topless woman is covered in paint.	A naked crowd with body paintings is walking in front of a lady.
@@ -1971,9 +1971,9 @@
 1970	None	Ice hockey goalkeeper is not wearing a yellow team jersey and is not defending the goal	A yellow shirt hockey player is protecting the goal
 1971	Entailment	A guy is cutting a potato into pieces	A guy is cutting a potato
 1972	Entailment	Two little children are playing with a toy car on the street.	Two kids are playing with a toy car
-1973	None	There&#39;s no panda bear eating some bamboo	A panda bear is eating some bamboo
+1973	None	There's no panda bear eating some bamboo	A panda bear is eating some bamboo
 1974	None	A colored coat dog is running through the yard	A brown and black dog is resting on the leaves.
-1975	None	A man is talking	There&#39;s no man talking
+1975	None	A man is talking	There's no man talking
 1976	Entailment	People are sitting at square tables in a red room.	People are sitting at the table.
 1977	None	Three opponents are making faces at the camera	Three friends are making faces for the camera
 1978	None	There are no dogs running with a volleyball	A dog is running with a volleyball
@@ -2021,7 +2021,7 @@
 2020	Entailment	A young guy with brown hair and dark glasses is sitting in front of some soda cans	A young guy with brown hair and sunglasses is sitting in front of some soda cans
 2021	Entailment	A pizza is being eaten by a guy	A guy is eating a pizza
 2022	None	Several young people are posing for a photo and holding beers	Drinks are being held by people pointing at the camera.
-2023	None	There&#39;s no man singing and playing a guitar	A boy is playing a piano
+2023	None	There's no man singing and playing a guitar	A boy is playing a piano
 2024	None	A man is having lunch	A woman is dancing
 2025	None	The class is being attended by a class of students.	A classroom is full of students
 2026	Entailment	A guy is playing the keyboard	A person is playing the keyboard
@@ -2051,8 +2051,8 @@
 2050	None	The bearded man is sitting in the train	The man is sitting on the train and rests his hand against his face
 2051	Entailment	A guy is holding an electronic gadget	A person is holding an electronic device.
 2052	Entailment	A cat is sliding upside down on a couch	A cat is sliding upside down on a piece of furniture
-2053	None	A man in a blue suit is standing near a purple box and is playing guitar	There&#39;s no man in a purple suit standing in front of a purple box and playing the guitar
-2054	None	A man is playing the piano	There&#39;s no woman playing the violin
+2053	None	A man in a blue suit is standing near a purple box and is playing guitar	There's no man in a purple suit standing in front of a purple box and playing the guitar
+2054	None	A man is playing the piano	There's no woman playing the violin
 2055	Entailment	A shrewd badger is digging the earth	A badger is digging in the ground
 2056	None	A caramel dog is splashing water on the bank of a river	A caramel dog is splashing water on the shore of a pond.
 2057	Entailment	The girl, who is small, is carefully doing a ponytail in her hair	The little girl is combing her hair in a ponytail
@@ -2073,8 +2073,8 @@
 2072	None	Two dogs are playing together in the grass	A big dog and a little white dog are walking towards each other.
 2073	None	The boy and the girl are playing happily and wearing arm floats	A boy and a girl in swimsuits are wearing arm floats.
 2074	None	A biker with a blue jacket, black pants and a white helmet is parking on the ground and people are not looking	A biker with a blue jacket, black pants and a white helmet is driving on the ground and people are watching
-2075	Entailment	A cat&#39;s hair is being combed by a girl	A person is combing a cat&#39;s fur
-2076	None	There&#39;s no woman slicing an onion	A woman is cutting a potato
+2075	Entailment	A cat's hair is being combed by a girl	A person is combing a cat's fur
+2076	None	There's no woman slicing an onion	A woman is cutting a potato
 2077	Entailment	A man is doing a trick with a skateboard.	A person is doing a trick on a skateboard.
 2078	Entailment	A light brown dog is running in the water	A light brown dog is shooting the water
 2079	None	Two pandas are not lying together	Two pandas are lying together.
@@ -2095,7 +2095,7 @@
 2094	Entailment	A man and two girls are walking on the beach	Three guys are walking on the beach
 2095	None	A woman is opening a soda and drinking	A woman is riding an elephant
 2096	Entailment	A guy is riding a motorcycle dangerously through a city	A guy is riding a motorcycle
-2097	None	A boy in a blue shirt has dirt on his face	There&#39;s no blonde child holding a yellow bottle
+2097	None	A boy in a blue shirt has dirt on his face	There's no blonde child holding a yellow bottle
 2098	None	A soccer player in red and white uniform is being held up by two teammates	Some red and white soccer players are jumping and hugging
 2099	None	This group of people are practicing water rescue and wearing life jackets.	The stream is being sailed by a group of friends in a dinghy
 2100	None	A person is tearing sheets	A person is tearing paper
@@ -2134,38 +2134,38 @@
 2133	Entailment	The guy is cautiously operating a shorthand machine	The guy is operating a shorthand machine
 2134	None	The woman is using a sledgehammer to break a concrete block that is in another man	A man is using a sledgehammer to break a concrete block that is in another man.
 2135	None	A man is shooting with a bow	A man is shooting with a firearm.
-2136	None	A child is playing the guitar	There&#39;s no young boy singing and playing guitar
+2136	None	A child is playing the guitar	There's no young boy singing and playing guitar
 2137	Entailment	A man is putting tomatoes and onions in a pan	Vegetables are being put in a pan by a man
 2138	None	Two dogs are playing in a forest	A brown dog is running after a black dog on a rocky shore.
 2139	None	Recruits are talking to an officer	Military officer is shouting at recruits
-2140	None	There&#39;s no woman riding an elephant	A woman is riding an elephant
+2140	None	There's no woman riding an elephant	A woman is riding an elephant
 2141	Entailment	A shirtless guy is driving a horse pulling a cart	A shirtless guy is driving a cart being pulled by a horse
 2142	None	A man is jumping out of the pool	A man is diving in a pool
 2143	Entailment	The guy is slicing bread	Bread is being sliced by a guy
 2144	None	No one is stirring a pot of pepper with a spoon	Someone is stirring pepper in a kettle
 2145	Entailment	Some fish are swimming	An animal is in the water
-2146	None	There&#39;s no man slicing potatoes	A man is slicing potatoes
+2146	None	There's no man slicing potatoes	A man is slicing potatoes
 2147	None	A girl is wearing jeans and a pink shirt and is excitedly running	Little girl in a pink shirt is running under a tree in the desert
 2148	Entailment	A girl is taking off a cloak, which is too large, and revealing a fancy dress	Someone is taking off a cover, which is too big, and revealing fancy clothes
 2149	Entailment	A woman is poking an octopus	The woman is cutting octopus
-2150	None	There&#39;s no lemur hanging on a string	A lemur is hanging on a rope.
+2150	None	There's no lemur hanging on a string	A lemur is hanging on a rope.
 2151	None	The lady is breaking an egg in a plate	The man is cracking eggs in a bowl
 2152	None	A man is jumping rope outside	A person is slicing a cucumber
 2153	None	Pasta is being boiled in water by a woman	Someone is stirring noodles in the water
-2154	None	There&#39;s no young man with brown hair and sunglasses sitting in front of some soda cans	The man with brown hair is wearing sunglasses and is sitting at a table with soda cans and other drinks.
+2154	None	There's no young man with brown hair and sunglasses sitting in front of some soda cans	The man with brown hair is wearing sunglasses and is sitting at a table with soda cans and other drinks.
 2155	Entailment	A woman in a red dress is playing an instrument	An instrument is being played by a woman wearing a red dress
-2156	None	There&#39;s no man pouring cleaning product into the sink	The man is playing the drums
+2156	None	There's no man pouring cleaning product into the sink	The man is playing the drums
 2157	None	There are no white dogs with beige spots running across a field	A white dog with beige spots is running across a field.
 2158	None	A blond boy in green is sitting on a swing	A blond boy in green is standing on a swing
 2159	Entailment	The guy is screaming at the recruits	The guy is shouting at the recruits
 2160	None	Two teen girls are wearing fancy dresses at an event	A woman in a white dress and a woman in a blue dress are standing beside a stage.
 2161	Entailment	A skateboarder is doing tricks on a track.	A guy is skateboarding on a track
 2162	Entailment	An individual is folding a piece of paper noisily	Someone is folding paper
-2163	Entailment	It&#39;s raining on a man on foot	A man is walking in the rain.
+2163	Entailment	It's raining on a man on foot	A man is walking in the rain.
 2164	None	Two men are competing in a tire competition	Men are competing in a tire race
 2165	Entailment	Eggs are being boiled by the girl	A girl is boiling eggs
 2166	Entailment	A lady wearing a blue and white uniform with a white and blue hat is keeping her mouth open and is standing close to other people dressed in the same way.	The lady wearing the blue and white uniform with a white and blue hat is keeping her mouth open and is close to others who are dressed the same way.
-2167	None	There&#39;s no man on a boat in front of the sunset	A man is sitting on a boat facing the sunset near a flag
+2167	None	There's no man on a boat in front of the sunset	A man is sitting on a boat facing the sunset near a flag
 2168	Entailment	A guy is wearing a hat and is dancing	A man with a hat is dancing
 2169	None	Someone is pouring ingredients into a pan	A man is removing vegetables from a pan
 2170	Entailment	Three people are wading through the water	A group of people are wading through the water.
@@ -2173,7 +2173,7 @@
 2172	Entailment	A guy is thinking	The guy is thinking
 2173	None	A man is playing a harp	A man is playing the keyboard
 2174	None	A man in a white hat is playing guitar on the stage.	The music is being performed by four people outdoors
-2175	None	There&#39;s no man mowing the grass	A man is mowing grass
+2175	None	There's no man mowing the grass	A man is mowing grass
 2176	None	An onion is being sliced by one person	An onion is not being sliced
 2177	None	A guitar is being played by a man	A man is opening a box with a knife.
 2178	Entailment	A woman is slicing a piece of butter	The woman is cutting butter
@@ -2186,7 +2186,7 @@
 2185	None	A man is making a bed	A person is eating at a table.
 2186	None	The sun is shining on the face of the girl in the yellow dress	A girl wearing a brown dress is being surrounded by children and is closing her eyes.
 2187	Entailment	A guy is chopping mushrooms with a knife	A man is chopping some mushrooms with a knife
-2188	None	A man is cutting pieces of butter into a mixing bowl.	There&#39;s no man slicing butter in a mixing bowl
+2188	None	A man is cutting pieces of butter into a mixing bowl.	There's no man slicing butter in a mixing bowl
 2189	Entailment	A teenage boy is talking to a girl with a webcam	A girl is talking to a boy with an internet camera
 2190	None	A motorcycle is being ridden by a man	A man is diving off a cliff
 2191	None	Two people are sitting on a park bench on a sunny day.	Two women dressed in white and black are relaxing on a bench.
@@ -2213,7 +2213,7 @@
 2212	Entailment	A teenage boy is talking to a girl with an internet camera	A teenager is talking to a girl using a webcam
 2213	None	Two kids are crouching under some metal bars	Two kids are peering over a rusty ledge
 2214	None	Two people are walking two dogs with golden fur in the snow	Some people are in the snow wearing camouflage clothing
-2215	None	There&#39;s no man holding a sign and looking for a monkey	A man is holding a sign and is seeking money
+2215	None	There's no man holding a sign and looking for a monkey	A man is holding a sign and is seeking money
 2216	None	A man is putting an electronic device	A man is holding an electronic device.
 2217	None	The little dog is dropping the slipper from his mouth	The little dog is grabbing the slipper with its mouth
 2218	None	The man is sitting outdoors under a purple umbrella	A barefoot woman is sitting on a blanket under a lilac umbrella
@@ -2245,7 +2245,7 @@
 2244	Entailment	A potato is being peeled by a girl	Someone is peeling a potato
 2245	None	A bee is clinging to a yellow flower.	The little bee is landing on a bunch of yellow flowers.
 2246	None	A woman in jeans is standing in front of a group of children next to a stone house.	A lady is standing on the street and is surrounded by school children.
-2247	None	There&#39;s no girl sanding your nails	A girl is combing her hair
+2247	None	There's no girl sanding your nails	A girl is combing her hair
 2248	None	A person in a blue jacket is jumping off a tall concrete wall	A person in a blue jacket is jumping over a high cement wall
 2249	Entailment	The boy is standing near the entrance of a fountain	A boy is standing beside the opening of a fountain
 2250	Entailment	The small boy with brown hair is jumping from a brown chair to the floor	A boy is jumping out of a chair
@@ -2254,7 +2254,7 @@
 2253	Entailment	The guy is dancing wildly	The guy is dancing
 2254	None	A blond boy is sliding down sand dune on a skateboard	One woman is snowboarding downhill and another woman is standing behind her
 2255	Entailment	Paper is being cut with scissors	The piece of paper is being cut
-2256	None	There&#39;s no man walking a path through nature	A man is walking along a path in nature.
+2256	None	There's no man walking a path through nature	A man is walking along a path in nature.
 2257	Entailment	A woman is slicing carrots	The woman is cutting a carrot
 2258	None	A child is walking down the street and a jeep is approaching	A man in a car is leaning next to a woman who is walking along the street
 2259	None	A woman wearing pink gloves and brown jacket is not smiling in the snow	A woman wearing pink gloves and brown jacket is smiling in the snow.
@@ -2284,8 +2284,8 @@
 2283	Entailment	Kittens are eating food in bowls.	Some kittens are eating.
 2284	None	Someone is stirring noodles in the water	No one is stirring noodles in the water
 2285	Entailment	A big flute is being played by a man	A man is playing a flute
-2286	None	There&#39;s no girl sanding your nails	A girl is sanding her nails
-2287	None	Boy is mowing the sidewalk grass with scissors	There&#39;s no boy mowing lawn with shears
+2286	None	There's no girl sanding your nails	A girl is sanding her nails
+2287	None	Boy is mowing the sidewalk grass with scissors	There's no boy mowing lawn with shears
 2288	Entailment	A boy is preparing a tasty dish	A boy is preparing some dish
 2289	Entailment	A man is putting tomatoes in a pan	Vegetables are being put in a pan by a man
 2290	None	A group of women are playing with a ball at the beach	A group of boys are playing field soccer at the beach
@@ -2300,17 +2300,17 @@
 2299	None	A homeless man is holding a sign and is begging mercifully for money.	A man in a big city is holding a sign and asking for money
 2300	Entailment	A cat is playing with a watermelon	The cat is playing with a fruit
 2301	Entailment	A man is breaking his hand against a board	A man is breaking his hand
-2302	None	A woman is slicing carrots	There&#39;s no woman cutting potatoes
+2302	None	A woman is slicing carrots	There's no woman cutting potatoes
 2303	Entailment	A boy is skateboarding on a track	A man is skateboarding on a track
-2304	None	There&#39;s no snowboarder spinning around a snowdrift	Someone is jumping in the air on a board
+2304	None	There's no snowboarder spinning around a snowdrift	Someone is jumping in the air on a board
 2305	None	People in costumes are walking down the street.	People in costumes are sitting on the street.
 2306	Entailment	The person is slicing a garlic clove into pieces	Someone is slicing a garlic clove into pieces
 2307	Entailment	Small boy is wearing a yellow tank top and is laughing	A small boy is wearing a tank top
-2308	Entailment	A smiling boy wearing a red swimsuit is jumping in a blue kids pool	A boy, who looks smiling and is wearing a swimsuit, is jumping into a blue children&#39;s pool
+2308	Entailment	A smiling boy wearing a red swimsuit is jumping in a blue kids pool	A boy, who looks smiling and is wearing a swimsuit, is jumping into a blue children's pool
 2309	None	Two kids are leaning against a rusty railing	Two kids are looking over a rusty railing
 2310	Entailment	A lady is poking an octopus	The woman is cutting an octopus
 2311	None	A blond boy in green is sitting on a swing	A little girl with blond hair is smiling and sitting on a swing
-2312	Entailment	The woman is holding the brush next to the artist&#39;s easel	The lady is holding the brush next to the artist easel
+2312	Entailment	The woman is holding the brush next to the artist's easel	The lady is holding the brush next to the artist easel
 2313	None	A dog is standing on the concrete and is holding a blue ball	A dog is running on the concrete and is holding a blue ball
 2314	Entailment	Or face is tiring sweet potato	A guy is slicing a potato
 2315	Entailment	Many people are sitting around a campfire at night.	Several people are gathered around the fire at night
@@ -2345,10 +2345,10 @@
 2344	Entailment	People are clustered around a campfire at night	Several people are together around the fire
 2345	Entailment	A dirty caramel dog is rolling in the dirt and looking straight into the camera	A dog is rolling on the floor
 2346	None	The purple, white and black player is playing near the end of the field.	The black player is making a move for the white player near the end of a purple field.
-2347	None	A woman is putting skewers on a shelf.	There&#39;s no woman putting skewers on a shelf
+2347	None	A woman is putting skewers on a shelf.	There's no woman putting skewers on a shelf
 2348	Entailment	A man in a black hat is trying to reach a box	A person in a black hat is reaching for a box
 2349	None	A man is not participating in a bmx race	A man in a red uniform is jumping on a mountain bike race
-2350	None	The man is sprinkling cheese on pizza	There&#39;s no man sprinkling cheese on pizza
+2350	None	The man is sprinkling cheese on pizza	There's no man sprinkling cheese on pizza
 2351	Entailment	Two people are riding a motorcycle	The bikes are being ridden by two people
 2352	None	A pet dog is standing on the bench and is looking at another brown dog in the pond.	The caramel dog is watching a brown dog that is swimming in a pond
 2353	Entailment	The man is entering the water	The person is entering the water
@@ -2362,7 +2362,7 @@
 2361	None	A black man is dancing break on the sidewalk	A yellow palm tree is in front of a building and a dark-skinned man is standing near it.
 2362	None	A man is holding a mask in his raised hand.	There is no man dressed in black wearing an elaborate black mask
 2363	Entailment	The baby is splashing water inside a blue kiddie pool	A small child is splashing water inside a blue kiddie pool
-2364	None	A small girl is playing the violin on a beach	There&#39;s no girl playing the violin on the beach
+2364	None	A small girl is playing the violin on a beach	There's no girl playing the violin on the beach
 2365	Entailment	An old man is screwing a piece of wood into a wall	A piece of wood is being screwed to a wall by a man
 2366	None	The cat is looking at a store counter	A dog is looking at a store counter
 2367	Entailment	A cyclist is performing a trick on a very graffiti wall.	A cyclist is doing a trick on a graffiti wall
@@ -2376,9 +2376,9 @@
 2375	None	A woman is wearing costume and paint and is riding a bicycle on a busy street.	A woman is wearing costume and paint and is riding a bicycle on an empty street.
 2376	None	A woman is putting pasta on a plate	A woman is pulling a sticky goo out of a bowl
 2377	Entailment	Motocross rider is wearing blue and black pants	The blue and black pants are being worn by the pilot
-2378	None	There&#39;s no lemur hanging on a string	A man is buttering a loaf of bread
+2378	None	There's no lemur hanging on a string	A man is buttering a loaf of bread
 2379	None	A man is jumping rope outside	A woman is slicing a cucumber
-2380	None	A dog is chasing an animal&#39;s tail in the grass	A little dog is chasing a big brown cow
+2380	None	A dog is chasing an animal's tail in the grass	A little dog is chasing a big brown cow
 2381	Entailment	A person on a clean yellow bike is jumping	A cyclist on a yellow motorcycle is in the air.
 2382	Entailment	A dog is running after a ball in the grass	The dog is chasing the ball
 2383	None	Someone is dirtying an animal	Someone is cleaning an animal
@@ -2387,10 +2387,10 @@
 2386	Entailment	Some guy is standing on top of the clouded rocks behind	A guy is standing on top of the clouded rocks behind
 2387	Entailment	A lady is playing an electric guitar	A lady is playing an electric guitar
 2388	Entailment	A lady is slicing an onion	An onion is being sliced by a lady
-2389	None	A small boy is wearing a yellow tank top and is laughing	There&#39;s no wee boy in a yellow shirt laughing on the beach
+2389	None	A small boy is wearing a yellow tank top and is laughing	There's no wee boy in a yellow shirt laughing on the beach
 2390	None	A guy in a red jacket is standing near a yellow kayak on some rocks near the ocean.	A guy is wearing a red jacket and standing next to a red canoe on some rocks with water in the background.
 2391	None	A young girl near a pink sign is holding a blue shirt and walking on the sidewalk	The girl is carrying a sign and a group of people are following her
-2392	None	There&#39;s no man eating food	A man is eating some food
+2392	None	There's no man eating food	A man is eating some food
 2393	None	A man is carrying a rifle with bullets.	A woman is seasoning a piece of meat
 2394	None	A monkey is practicing martial arts	There is no monkey practicing martial arts
 2395	Entailment	A dog with a blue collar is playing with the ball in the garden.	A dog with a blue collar is playing with the ball outside
@@ -2403,7 +2403,7 @@
 2402	None	A man is breaking eggs	A woman is cracking eggs
 2403	Entailment	An egg is being cracked in a bowl by a lady	A lady is breaking an egg in a bowl
 2404	Entailment	The cat is playing with a watermelon	This animal is playing with a watermelon
-2405	None	The girl is carrying a sign and a group of people are following her	There&#39;s no young girl in a blue shirt walking on the sidewalk and holding a pink sign
+2405	None	The girl is carrying a sign and a group of people are following her	There's no young girl in a blue shirt walking on the sidewalk and holding a pink sign
 2406	None	Broccoli are being cut by a woman	A man is cutting tomatoes
 2407	Entailment	Young woman is blowing a bubble that is big	The woman, who is young, is blowing a bubble
 2408	Entailment	One woman is in an orange shirt and clown makeup is standing in a park and the others are looking	One girl in orange shirt and clown makeup is standing in the park and others are looking
@@ -2419,10 +2419,10 @@
 2418	None	There are no tanned children looking at the camera	A tanned child is looking at the camera
 2419	None	A person in a blue jacket is jumping off a tall concrete wall	The man is making a big leap
 2420	Entailment	The lady is riding elephant	The elephant is being ridden by the lady
-2421	None	There&#39;s no woman frying something in a frying pan	A man is playing the guitar
+2421	None	There's no woman frying something in a frying pan	A man is playing the guitar
 2422	Entailment	An old lady is shaking hands with a man	Two people are shaking hands
 2423	Entailment	A black dog is jumping and playing on the ground.	A black dog is jumping and playing
-2424	Entailment	A cat is biting someone&#39;s finger	A cat is biting someone&#39;s hand
+2424	Entailment	A cat is biting someone's finger	A cat is biting someone's hand
 2425	None	A woman is cutting tofu	A woman is not cutting tofu
 2426	Entailment	A man is massaging a blonde woman	The man is massaging a blonde woman
 2427	Entailment	A guy and a woman are walking through the woods together	A guy and a woman walk through wooded areas together
@@ -2438,11 +2438,11 @@
 2437	Entailment	A little child is greedily drinking water from the glass.	A little child is drinking water.
 2438	None	A little bee is landing on a bunch of yellow flowers.	A bee is clinging to a yellow flower.
 2439	Entailment	A group of guitarists are walking down the road	People are walking
-2440	None	A woman is seasoning a piece of meat	There&#39;s no man carrying a bullet rifle
+2440	None	A woman is seasoning a piece of meat	There's no man carrying a bullet rifle
 2441	None	A boy and a girl in swimsuits are wearing buoys on their arms.	The boy and the girl are playing and wearing arm floats
 2442	Entailment	A presentation is being attended by a student class	The presentation is being attended by a class of students.
 2443	Entailment	Some panda is climbing	A bear is climbing
 2444	None	A topless person with a backpack stands in front of a pile of rocks and clouds are in the background.	The man is standing on a rocky mountain and gray clouds are in the background.
-2445	None	There&#39;s no man cutting a box	A man is cutting a box.
+2445	None	There's no man cutting a box	A man is cutting a box.
 2446	None	A black dog is sitting on the grass and keeping its mouth shut	A black dog is running in the grass
 2447	None	A brown dog is looking closely at a brown and white dog	The little dog is grabbing the slipper with its mouth
