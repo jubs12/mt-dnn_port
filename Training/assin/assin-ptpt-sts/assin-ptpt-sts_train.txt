@@ -1,4 +1,3 @@
-id	label	premise	hipothesis
 1	3.5	Remember that the athlete has been away from the pitch since May, when he contracted a left leg injury.	André Gomes enters the pitch four months after a left leg injury knocked him out of the pitch.
 2	3.5	Sporting lost today with a much more experienced team.	Sporting lose again with a Russian team, this time with Lokomotiv.
 3	2.5	Cédric crosses to James, who is not in time.	For their seats, Cédric, Bruno Alves, Coentrão, Moutinho and Tiago.
