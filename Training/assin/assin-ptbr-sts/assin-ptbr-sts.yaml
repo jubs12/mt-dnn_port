@@ -1,4 +1,4 @@
-assin2-sts:
+assin-ptbr-sts:
   data_format: PremiseAndOneHypothesis
   encoder_type: BERT
   dropout_p: 0.01  
