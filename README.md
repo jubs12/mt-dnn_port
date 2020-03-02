@@ -51,6 +51,11 @@ Colab doesn't support B2W extractor embbedings.
 
 ### Training
 
+#### Assin
+
+ Run Training/assin/assin_train.ipynb
+
+
 ## Results
 
 Larges files are available to download.
