@@ -30,9 +30,11 @@ Colab doesn't support B2W extractor embbedings.
    
    ```bash
    sh requirements.sh
-```
+   ```
+
    
 2. Move input embeddings for B2W to mt-dnn folder
+
 
    ```bash
    mv Embeddings/b2w mt-dnn/b2w
@@ -50,6 +52,10 @@ Colab doesn't support B2W extractor embbedings.
    ```
 
 ### Training
+
+#### Assin
+ Run Training/assin/assin_train.ipynb
+
 
 ## Results
 
