@@ -1,0 +1,11 @@
+milkqa:
+  data_format: PremiseAndMultiHypothesis
+  encoder_type: BERT
+  dropout_p: 0.01
+  enable_san: false
+  metric_meta:
+  - F1
+  - EmF1
+  loss: RankCeCriterion
+  n_class: 50
+  task_type: Ranking
