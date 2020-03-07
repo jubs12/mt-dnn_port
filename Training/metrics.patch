@@ -1,47 +1,39 @@
 --- metrics_old.py	2020-03-06 19:38:55.434809370 -0300
-+++ metrics.py	2020-03-06 19:48:32.648555640 -0300
-@@ -3,6 +3,7 @@
- 
- from sklearn.metrics import matthews_corrcoef
- from sklearn.metrics import accuracy_score, f1_score
-+from sklearn.metrics import recall_score
- from sklearn.metrics import roc_auc_score
- from scipy.stats import pearsonr, spearmanr
- from seqeval.metrics import classification_report
-@@ -14,6 +15,9 @@
++++ metrics.py	2020-03-06 23:42:05.354060434 -0300
+@@ -14,6 +14,9 @@
  def compute_f1(predicts, labels):
      return 100.0 * f1_score(labels, predicts)
  
-+def compute_recall(predicts, labels):
-+    return 100.0 * recall_score(labels, predicts)
++def compute_f1macro(predicts, labels):
++    return 100.0 * f1_score(labels, predicts, average='macro')
 +
  def compute_mcc(predicts, labels):
      return 100.0 * matthews_corrcoef(labels, predicts)
  
-@@ -62,6 +66,7 @@
+@@ -62,6 +65,7 @@
      AUC = 5
      SeqEval = 7
      EmF1 = 8
-+    Recall = 9
++    F1macro = 9
  
  
  
-@@ -73,7 +78,8 @@
+@@ -73,7 +77,8 @@
   Metric.Spearman: compute_spearman,
   Metric.AUC: compute_auc,
   Metric.SeqEval: compute_seqacc,
 - Metric.EmF1: compute_emf1
 + Metric.EmF1: compute_emf1,
-+ Metric.Recall: compute_recall
++ Metric.F1macro: compute_f1macro
  }
  
  
-@@ -85,7 +91,7 @@
+@@ -85,7 +90,7 @@
      for mm in metric_meta:
          metric_name = mm.name
          metric_func = METRIC_FUNC[mm]
 -        if mm in (Metric.ACC, Metric.F1, Metric.MCC):
-+        if mm in (Metric.ACC, Metric.F1, Metric.MCC, Metric.Recall):
++        if mm in (Metric.ACC, Metric.F1, Metric.MCC, Metric.F1macro):
              metric = metric_func(predictions, golds)
          elif mm == Metric.SeqEval:
              metric = metric_func(predictions, golds, label_mapper)

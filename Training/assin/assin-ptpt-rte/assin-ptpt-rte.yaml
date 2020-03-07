@@ -8,8 +8,8 @@ assin-ptpt-rte:
   dropout_p: 0.03   
   enable_san: true
   metric_meta:
-  - EmF1
-  - Recall
+  - F1macro
+  - Accuracy
   loss: CeCriterion
   n_class: 3
   task_type: Classification
