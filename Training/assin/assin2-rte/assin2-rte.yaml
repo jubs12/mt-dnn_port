@@ -8,7 +8,7 @@ assin2-rte:
   enable_san: true
   metric_meta:
   - F1macro
-  - Accuracy
+  - ACC
   loss: CeCriterion
   n_class: 2
   task_type: Classification

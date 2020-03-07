@@ -9,7 +9,7 @@ assin-ptpt-rte:
   enable_san: true
   metric_meta:
   - F1macro
-  - Accuracy
+  - ACC
   loss: CeCriterion
   n_class: 3
   task_type: Classification

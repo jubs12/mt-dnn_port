@@ -7,8 +7,8 @@ faketweet:
   dropout_p: 0.03   
   enable_san: true
   metric_meta:
-  - F1
-  - Recall
+  - F1macro
+  - ACC
   loss: CeCriterion
   n_class: 2
   task_type: Classification
