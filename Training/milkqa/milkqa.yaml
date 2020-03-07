@@ -4,8 +4,7 @@ milkqa:
   dropout_p: 0.01
   enable_san: false
   metric_meta:
-  - F1
   - EmF1
-  loss: RankCeCriterion
+  loss: SpanCeCriterion
   n_class: 50
-  task_type: Ranking
+  task_type: Span
