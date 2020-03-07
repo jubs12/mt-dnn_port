@@ -1,16 +1,18 @@
 --- metrics_old.py	2020-03-06 19:38:55.434809370 -0300
-+++ metrics.py	2020-03-06 23:42:05.354060434 -0300
-@@ -14,6 +14,9 @@
++++ metrics.py	2020-03-06 23:56:20.328902885 -0300
+@@ -14,6 +14,11 @@
  def compute_f1(predicts, labels):
      return 100.0 * f1_score(labels, predicts)
  
++#https://github.com/erickrf/assin/blob/master/assin-eval.py
 +def compute_f1macro(predicts, labels):
-+    return 100.0 * f1_score(labels, predicts, average='macro')
++    label_set = set(labels)
++    return 100.0 * f1_score(labels, predicts, average='macro', labels=list(label_set))
 +
  def compute_mcc(predicts, labels):
      return 100.0 * matthews_corrcoef(labels, predicts)
  
-@@ -62,6 +65,7 @@
+@@ -62,6 +67,7 @@
      AUC = 5
      SeqEval = 7
      EmF1 = 8
@@ -18,7 +20,7 @@
  
  
  
-@@ -73,7 +77,8 @@
+@@ -73,7 +79,8 @@
   Metric.Spearman: compute_spearman,
   Metric.AUC: compute_auc,
   Metric.SeqEval: compute_seqacc,
@@ -28,7 +30,7 @@
  }
  
  
-@@ -85,7 +90,7 @@
+@@ -85,7 +92,7 @@
      for mm in metric_meta:
          metric_name = mm.name
          metric_func = METRIC_FUNC[mm]
