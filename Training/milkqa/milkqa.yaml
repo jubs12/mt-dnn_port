@@ -1,5 +1,5 @@
 milkqa:
-  data_format: PremiseAndMultiHypothesis
+  data_format: MRC
   encoder_type: BERT
   dropout_p: 0.01
   enable_san: false
