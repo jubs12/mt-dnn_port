@@ -4,6 +4,7 @@ assin2-sts:
   enable_san: false
   metric_meta:
   - Pearson
+  - MSE
   loss: MseCriterion
   n_class: 1
   task_type: Regression
