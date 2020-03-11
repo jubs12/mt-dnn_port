@@ -1,5 +1,5 @@
 --- metrics_old.py	2020-03-06 19:38:55.434809370 -0300
-+++ metrics.py	2020-03-10 20:48:03.972123777 -0300
++++ metrics.py	2020-03-10 22:57:01.476823358 -0300
 @@ -4,6 +4,7 @@
  from sklearn.metrics import matthews_corrcoef
  from sklearn.metrics import accuracy_score, f1_score
@@ -25,8 +25,8 @@
      return evaluate_func(labels, predicts)
  
 +def compute_mse(predicts, labels):
-+    mse = pearsonr(labels, predicts)
-+    return 100.0 * mse
++    mse = mean_squared_error(labels, predicts)
++    return mse
  
  class Metric(Enum):
      ACC = 0
@@ -55,7 +55,7 @@
          metric_name = mm.name
          metric_func = METRIC_FUNC[mm]
 -        if mm in (Metric.ACC, Metric.F1, Metric.MCC):
-+        if mm in (Metric.ACC, Metric.F1, Metric.MCC, Metric.F1macro):
++        if mm in (Metric.ACC, Metric.F1, Metric.MCC, Metric.F1macro, Metric.MSE):
              metric = metric_func(predictions, golds)
          elif mm == Metric.SeqEval:
              metric = metric_func(predictions, golds, label_mapper)
