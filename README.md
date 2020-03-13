@@ -51,9 +51,17 @@ Colab doesn't support B2W extractor embbedings.
    ```
 
 ### Training
+For all tasks run train.ipynb to get output files.
 
- Run train.ipynb
-
+#### Assin
+ 1. Run Training/train.ipynb for rte and sst
+ 2. Get output files from mtdnn model
+   ```bash
+   !mv mt-dnn/checkpoint/{corpus_name}-rte_test_scores_4.json ./results/{corpus_name}-rte_test_scores_4.json
+   !mv mt-dnn/checkpoint/{corpus_name}-sts_test_scores_4.json ./results/{corpus_name}-sts_test_scores_4.json
+   ```
+ 3. Run Training/assin/assin_result.ipynb, filling corpus = {corpus_name}
+ 4. Get official scores
 
 ## Results
 
