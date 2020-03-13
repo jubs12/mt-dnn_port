@@ -1,15 +1,14 @@
-assin-ptpt-rte:
+assin2-rte:
   data_format: PremiseAndOneHypothesis
   labels:
   -  Entailment
-  -  None
-  -  Paraphrase 
-  encoder_type: BERT  
+  -  None 
+  encoder_type: BERT
+  dropout_p: 0.03   
   enable_san: true
   metric_meta:
   - F1macro
   - ACC
   loss: CeCriterion
-  n_class: 3
+  n_class: 2
   task_type: Classification
-  kd_loss: MseCriterion

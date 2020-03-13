@@ -4,8 +4,7 @@ assin-ptbr-rte:
   -  Entailment
   -  None
   -  Paraphrase 
-  encoder_type: BERT
-  dropout_p: 0.03   
+  encoder_type: BERT   
   enable_san: true
   metric_meta:
   - F1macro
@@ -13,3 +12,4 @@ assin-ptbr-rte:
   loss: CeCriterion
   n_class: 3
   task_type: Classification
+  kd_loss: MseCriterion
