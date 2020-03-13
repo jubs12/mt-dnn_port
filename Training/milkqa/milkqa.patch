@@ -1,0 +1,9 @@
+--- milkqa_old.yaml	2020-03-07 09:01:35.063602646 -0300
++++ milkqa.yaml	2020-03-07 09:03:32.337252108 -0300
+@@ -1,5 +1,5 @@
+ milkqa:
+-  data_format: PremiseAndMultiHypothesis
++  data_format: MRC
+   encoder_type: BERT
+   dropout_p: 0.01
+   enable_san: false
