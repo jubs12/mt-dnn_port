@@ -57,8 +57,8 @@ For all tasks run train.ipynb to get output files.
  1. Run Training/train.ipynb for rte and sst
  2. Get output files from mtdnn model
    ```bash
-   !mv mt-dnn/checkpoint/{corpus_name}-rte_test_scores_4.json ./results/{corpus_name}-rte_test_scores_4.json
-   !mv mt-dnn/checkpoint/{corpus_name}-sts_test_scores_4.json ./results/{corpus_name}-sts_test_scores_4.json
+   mv mt-dnn/checkpoint/{corpus_name}-rte_test_scores_4.json ./results/{corpus_name}-rte_test_scores_4.json
+   mv mt-dnn/checkpoint/{corpus_name}-sts_test_scores_4.json ./results/{corpus_name}-sts_test_scores_4.json
    ```
  3. Run Training/assin/assin_result.ipynb, filling corpus = {corpus_name}
  4. Get official scores
@@ -76,3 +76,21 @@ Larges files are available to download.
 - Faquad
 
   https://drive.google.com/file/d/184KIIcW3GzfODW7CWdMiEDT_mHPHtXNt/view?usp=sharing
+  
+### Trained mtdnn
+  
+ - Trained assin-ptbr-rte mtdnn
+ 
+  https://drive.google.com/file/d/1dzAe1FNVXyaw9gnpqNmXUCD1zvBqPbi8/view?usp=sharing
+ 
+ - Trained assin-ptbr-sts mtdnn
+
+  https://drive.google.com/file/d/1HQkieRBBLS2K9_xE5GJIkPj0LqIJ_xA2/view?usp=sharing
+ 
+ - Trained assin-ptpt-rte mtdnn
+ 
+  https://drive.google.com/open?id=1cv3Mfk_sPwnjV5dq3wqCQgTDAlnTK8ft
+ 
+ - Trained assin2-rte mtdnn
+ 
+  https://drive.google.com/file/d/1lGJ4lwyBPpdt04c8KrtSNEm9ztkoFAn4/view?usp=sharing
