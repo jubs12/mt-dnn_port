@@ -82,18 +82,22 @@ Larges files are available to download.
   
 ### Trained mtdnn
   
- - Trained assin-ptbr-rte mtdnn
+- Trained assin-ptbr-rte mtdnn
  
   https://drive.google.com/file/d/1dzAe1FNVXyaw9gnpqNmXUCD1zvBqPbi8/view?usp=sharing
  
- - Trained assin-ptbr-sts mtdnn
+- Trained assin-ptbr-sts mtdnn
 
   https://drive.google.com/file/d/1HQkieRBBLS2K9_xE5GJIkPj0LqIJ_xA2/view?usp=sharing
  
- - Trained assin-ptpt-rte mtdnn
+- Trained assin-ptpt-rte mtdnn
  
   https://drive.google.com/open?id=1cv3Mfk_sPwnjV5dq3wqCQgTDAlnTK8ft
  
- - Trained assin2-rte mtdnn
+- Trained assin2-rte mtdnn
  
   https://drive.google.com/file/d/1lGJ4lwyBPpdt04c8KrtSNEm9ztkoFAn4/view?usp=sharing
+
+- Trained assin2-sts mtdnn
+
+  https://drive.google.com/file/d/1-Ny1lJb96bI8iXncT8v0IatLX8QjII3U/view?usp=sharing
