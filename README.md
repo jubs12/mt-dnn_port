@@ -1,5 +1,5 @@
 # mtdnn_port
-This repository evaluates [MT-DNN initial release](https://github.com/namisan/mt-dnn/tree/v0.1 "MT-DNN repository") on the NLP Portuguese tasks available on the following datasets: [Assin](http://nilc.icmc.usp.br/assin/ "Assin dataset"), [B2W-Reviews01](https://github.com/b2wdigital/b2w-reviews01 "B2W repository"), [FaQuAD](https://github.com/liafacom/faquad "faquad repository"), and [MilkQA](http://nilc.icmc.usp.br/nilc/index.php/milkqa/ "MilkQA page").
+This repository evaluates [MT-DNN in f444fe9109d version](https://github.com/namisan/mt-dnn/tree/f444fe9109d5a9980c9d825a24576c8d873bdf33 "MT-DNN repository") on the NLP Portuguese tasks available on the following datasets: [Assin](http://nilc.icmc.usp.br/assin/ "Assin dataset"), [B2W-Reviews01](https://github.com/b2wdigital/b2w-reviews01 "B2W repository"), [FaQuAD](https://github.com/liafacom/faquad "faquad repository"), and [MilkQA](http://nilc.icmc.usp.br/nilc/index.php/milkqa/ "MilkQA page").
 
 Most procedures were executed in Google Colaboratory. 
 
