@@ -73,9 +73,6 @@ For all tasks run train.ipynb to get output files.
 
 ## Results
 
-### Training
- - Assin
-
 Large files are available to download.
 
 ### Embeddings
