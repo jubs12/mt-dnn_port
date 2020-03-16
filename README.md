@@ -56,7 +56,7 @@ For all tasks run train.ipynb to get output files.
 #### Assin
  1. Run Training/train.ipynb for rte and sst
  
-  Get mtdnn calculated scores
+    Get mtdnn calculated scores
  
  2. Get output files from mtdnn model
    ```bash
@@ -65,11 +65,11 @@ For all tasks run train.ipynb to get output files.
    ```
  3. Run Training/assin/assin_result.ipynb, filling corpus = {corpus_name}
    
-   Get assin-formated test output files
+    Get assin-formated test output files
  
  4. Run Training/assin/get_benchmarks.ipynb
    
-   Get official scores
+    Get official scores
 
 ## Results
 
