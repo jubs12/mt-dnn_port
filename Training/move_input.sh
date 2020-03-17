@@ -2,9 +2,9 @@
 
 if [[ $1 =~ assin ]];
 then
-    mv ../Training/assin/$1/*.tsv data/canonical_data/
-    mv ../Training/assin/$1/*.yaml ./
+    mv ../assin/$1/*.tsv data/canonical_data/
+    mv ../assin/$1/*.yaml ./
 else
-    mv ../Training/$1/*.tsv data/canonical_data/
-    mv ../Training/$1/*.yaml ./
+    mv ../$1/*.tsv data/canonical_data/
+    mv ../$1/*.yaml ./
 fi
