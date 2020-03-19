@@ -1,0 +1,17 @@
+tweetsent:
+  data_format: PremiseOnly
+  enable_san: false
+  labels:
+  - Negative
+  - Neutral
+  - Positive
+  metric_meta:
+  - ACC
+  - NoMeanF1
+  split_names:
+  - train
+  - test
+  loss: CeCriterion
+  kd_loss: MseCriterion
+  n_class: 3
+  task_type: Classification

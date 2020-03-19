@@ -1,5 +1,5 @@
 # mt-dnn_port
-This repository evaluates MT-DNN in [specific version](https://github.com/namisan/mt-dnn/tree/f444fe9109d5a9980c9d825a24576c8d873bdf33 "MT-DNN repository") on the NLP Portuguese tasks available on the following datasets: [Assin](http://nilc.icmc.usp.br/assin/ "Assin dataset"), [B2W-Reviews01](https://github.com/b2wdigital/b2w-reviews01 "B2W repository"), [FaQuAD](https://github.com/liafacom/faquad "faquad repository"), and [MilkQA](http://nilc.icmc.usp.br/nilc/index.php/milkqa/ "MilkQA page").
+This repository evaluates MT-DNN in [specific version](https://github.com/namisan/mt-dnn/tree/f444fe9109d5a9980c9d825a24576c8d873bdf33 "MT-DNN repository") on the NLP Portuguese tasks available on the following datasets: [Assin](http://nilc.icmc.usp.br/assin/ "Assin dataset"),  [tweetSentBR](https://bitbucket.org/HBrum/tweetsentbr/ "tweetSentBR repository"),  [B2W-Reviews01](https://github.com/b2wdigital/b2w-reviews01 "B2W repository") , and [FaQuAD](https://github.com/liafacom/faquad "faquad repository").
 
 Most procedures were executed in Google Colaboratory. 
 
@@ -55,9 +55,9 @@ For all tasks run train.ipynb to get output files.
 
 #### Assin
  1. Run Training/train.ipynb for rte and sst
- 
+
     - mtdnn calculated scores
- 
+
  2. Get output files from mtdnn model
    ```bash
    mv mt-dnn/checkpoint/{corpus_name}-rte_test_scores_4.json ./results/{corpus_name}-rte_test_scores_4.json
@@ -66,7 +66,7 @@ For all tasks run train.ipynb to get output files.
  3. Run Training/assin/assin_result.ipynb, filling corpus = {corpus_name}
    
     - assin-formated test output files
- 
+
  4. Run Training/assin/get_benchmarks.ipynb
    
     - official scores
@@ -86,21 +86,21 @@ Large files are available to download.
   https://drive.google.com/file/d/184KIIcW3GzfODW7CWdMiEDT_mHPHtXNt/view?usp=sharing
   
 ### Trained mtdnn
-  
+
 - Trained assin-ptbr-rte mtdnn
- 
+
   https://drive.google.com/file/d/1dzAe1FNVXyaw9gnpqNmXUCD1zvBqPbi8/view?usp=sharing
- 
+
 - Trained assin-ptbr-sts mtdnn
 
   https://drive.google.com/file/d/1HQkieRBBLS2K9_xE5GJIkPj0LqIJ_xA2/view?usp=sharing
- 
+
 - Trained assin-ptpt-rte mtdnn
- 
+
   https://drive.google.com/open?id=1cv3Mfk_sPwnjV5dq3wqCQgTDAlnTK8ft
- 
+
 - Trained assin2-rte mtdnn
- 
+
   https://drive.google.com/file/d/1lGJ4lwyBPpdt04c8KrtSNEm9ztkoFAn4/view?usp=sharing
 
 - Trained assin2-sts mtdnn
