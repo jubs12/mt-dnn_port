@@ -1,6 +1,7 @@
 tweetsent:
   data_format: PremiseOnly
   enable_san: false
+  encoder_type: BERT
   labels:
   - Negative
   - Neutral
