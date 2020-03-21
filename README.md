@@ -1,9 +1,11 @@
 # mt-dnn_port
 This repository evaluates MT-DNN in [specific version](https://github.com/namisan/mt-dnn/tree/f444fe9109d5a9980c9d825a24576c8d873bdf33 "MT-DNN repository") on the NLP Portuguese tasks available on the following datasets: [Assin](http://nilc.icmc.usp.br/assin/ "Assin dataset"),  [tweetSentBR](https://bitbucket.org/HBrum/tweetsentbr/ "tweetSentBR repository"),  [B2W-Reviews01](https://github.com/b2wdigital/b2w-reviews01 "B2W repository") , and [FaQuAD](https://github.com/liafacom/faquad "faquad repository").
 
-Most procedures were executed in Google Colaboratory. 
+Most procedures were developed in Google Colaboratory. 
 
-B2W review_title embedding was extracted on Google Cloud VM: n1-standard-8 (8 CPU, memory 30 GB) Ubuntu 16.04.
+B2W review_title embedding was extracted on Google Cloud VM: n1-standard-8 (8 CPU, memory 30 GB) Ubuntu 16.04 using Anaconda.
+
+Thus, the code was tested on Google Cloud VM, n1-standard-8, using [mt-dnn container on Docker](https://github.com/namisan/mt-dnn/tree/f444fe9109d5a9980c9d825a24576c8d873bdf33 "MT-DNN repository").
 
 ## Translation
 
