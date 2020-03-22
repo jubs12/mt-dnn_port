@@ -108,3 +108,7 @@ Large files are available to download.
 - Trained assin2-sts mtdnn
 
   https://drive.google.com/file/d/1-Ny1lJb96bI8iXncT8v0IatLX8QjII3U/view?usp=sharing
+  
+- Trained tweetsent mtdnn
+  
+  https://drive.google.com/file/d/1xJcVceTZe9flknaySdsfOaGXBvVBbyMt/view?usp=sharing
