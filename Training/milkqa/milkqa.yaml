@@ -1,10 +1,11 @@
 milkqa:
-  data_format: MRC
+  data_format: PremiseAndMultiHypothesis
   encoder_type: BERT
-  dropout_p: 0.01
   enable_san: false
   metric_meta:
-  - EmF1
-  loss: SpanCeCriterion
+  - F1
+  - ACC
+  loss: CeCriterion
+  kd_loss: MseCriterion
   n_class: 50
-  task_type: Span
+  task_type: Classification
