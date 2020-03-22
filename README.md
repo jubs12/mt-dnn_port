@@ -72,6 +72,19 @@ For all tasks run train.ipynb to get output files.
  4. Run Training/assin/get_benchmarks.ipynb
    
     - official scores
+    
+#### Tweetsent
+ 1. Run Training/train.ipynb
+
+    - mtdnn calculated scores
+    
+ 2. Run Training/tweetsent/tweet_result.ipynb
+ 
+    -  test output files
+
+ 3. Run Training/tweetsent/get_benchmarks.ipynb
+   
+    - official scores
 
 ## Results
 
