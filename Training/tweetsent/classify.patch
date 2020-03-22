@@ -1,0 +1,16 @@
+--- classify.py	2020-03-22 03:08:59.115473267 +0000
++++ classify_new.py	2020-03-22 03:08:24.689466843 +0000
+@@ -5,8 +5,13 @@
+ 
+ import os, sys
+ import numpy as np
++import nlpnet
+ from random import shuffle as shuffle_list
+ 
++from utils import vectorize
++from model import get_model
++from features import FeatureExtractor
++
+ from sklearn.metrics import f1_score
+ from sklearn.metrics import accuracy_score
+ from sklearn.model_selection import StratifiedKFold
