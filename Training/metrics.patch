@@ -3,7 +3,7 @@
 @@ -1,9 +1,11 @@
  # Copyright (c) Microsoft. All rights reserved.
  from enum import Enum
-+from numpy as np
++import numpy as np
  
  from sklearn.metrics import matthews_corrcoef
  from sklearn.metrics import accuracy_score, f1_score
