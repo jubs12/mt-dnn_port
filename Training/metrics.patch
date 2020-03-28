@@ -1,10 +1,19 @@
 --- metrics.py	2020-03-28 13:34:38.496343274 -0300
-+++ metrics_new.py	2020-03-28 14:11:52.847399624 -0300
++++ metrics_new.py	2020-03-28 18:29:04.480755359 -0300
+@@ -2,7 +2,7 @@
+ from enum import Enum
+ 
+ from sklearn.metrics import matthews_corrcoef
+-from sklearn.metrics import accuracy_score, f1_score
++from sklearn.metrics import accuracy_score, f1_score, mean_squared_error
+ from sklearn.metrics import roc_auc_score
+ from scipy.stats import pearsonr, spearmanr
+ from seqeval.metrics import classification_report
 @@ -58,6 +58,11 @@
  def compute_emf1(predicts, labels):
      return evaluate_func(labels, predicts)
  
-+def compute_mse(predicts, labels):
++def compute_mse(predicts, labels)
 +    return mean_squared_error(labels, predicts)
 +
 +def compute_f1nomean(predicts, labels):

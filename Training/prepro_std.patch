@@ -1,0 +1,12 @@
+--- prepro_std.py	2020-03-28 13:34:38.524343491 -0300
++++ prepro_std_new.py	2020-03-28 18:33:16.260202463 -0300
+@@ -248,7 +248,8 @@
+     root = args.root_dir
+     assert os.path.exists(root)
+ 
+-    literal_model_type = args.model.split('-')[0].upper()
++    model_name = args.model.split('/')[-1]
++    literal_model_type = model_name.split('-')[0].upper()
+     encoder_model = EncoderModelType[literal_model_type]
+     literal_model_type = literal_model_type.lower()
+     mt_dnn_suffix = literal_model_type
