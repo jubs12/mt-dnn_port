@@ -56,6 +56,7 @@ Colab doesn't support B2W extractor embbedings.
 For all tasks run train.ipynb to get output files.
 
 #### Assin
+ #### ASSIN transfer learning
  1. Run Training/train.ipynb for rte and sst
 
     - mtdnn calculated scores
@@ -72,7 +73,66 @@ For all tasks run train.ipynb to get output files.
  4. Run Training/assin/get_benchmarks.ipynb
    
     - official scores
-    
+
+##### ASSIN Multitasking
+Colab doesn't support B2W extractor embbedings.
+
+1. Enter MT-DNN container
+   
+   ```bash
+   sudo docker pull allenlao/pytorch-mt-dnn:v0.5
+   sudo docker run -it  --mount type=bind,source="$(pwd)",target=/container allenlao/pytorch-mt-dnn:v0.5 bash
+   cd /container
+   ```
+   
+2. Enter MT-DNN repository
+
+   ```bash
+   git clone https://github.com/namisan/mt-dnn
+   git checkout f444fe9109d
+   ```
+
+3. Download models and Get task data
+   
+   ```bash
+   bash download.sh
+   mv ../move_assin.sh move_assin.sh
+   mkdir data/canonical_data
+   sh move_assin.sh
+   ```
+4. Enable Tests scores
+   
+   ```bash
+   patch train.py < ../train.patch
+   ```
+5. Preprocess data
+ 
+ ```bash
+   mv ../prepro_all.sh .
+   bash prepro_all.sh --do_lower_case
+ ```
+ 
+ 6. Train task
+
+```bash
+  mv ../train_all.sh .
+  bash train_all.sh  mt_dnn_models/mt_dnn_base_uncased.pt --do_lower_case
+  ```
+ 
+ 7. Get output files from mtdnn model
+   ```bash
+   mv mt-dnn/checkpoint/*_test_scores_4.json ./result/
+   ```
+ 8. Run Training/assin/assin_result.ipynb, filling corpus = {corpus_name}
+   
+    - assin-formated test output files
+
+ 9. Run Training/assin/get_benchmarks.ipynb
+   
+    - official scores
+
+
+
 #### Tweetsent
  1. Run Training/train.ipynb
 
