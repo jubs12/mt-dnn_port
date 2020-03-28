@@ -4,7 +4,7 @@
  def compute_emf1(predicts, labels):
      return evaluate_func(labels, predicts)
  
-+def compute_mse(predicts, labels)
++def compute_mse(predicts, labels):
 +    return mean_squared_error(labels, predicts)
 +
 +def compute_f1nomean(predicts, labels):

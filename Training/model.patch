@@ -1,0 +1,11 @@
+--- model.py	2020-03-28 13:34:38.524343491 -0300
++++ model_new.py	2020-03-28 16:00:06.041107327 -0300
+@@ -30,7 +30,7 @@
+         self.initial_from_local = True if state_dict else False
+         self.network = SANBertNetwork(opt, initial_from_local=self.initial_from_local)
+         if state_dict:
+-            missing_keys, unexpected_keys = self.network.load_state_dict(state_dict['state'], strict=False)
++            self.network.load_state_dict(state_dict['state'], strict=False)
+         self.mnetwork = nn.DataParallel(self.network) if opt['multi_gpu_on'] else self.network
+         self.total_param = sum([p.nelement() for p in self.network.parameters() if p.requires_grad])
+         if opt['cuda']:
