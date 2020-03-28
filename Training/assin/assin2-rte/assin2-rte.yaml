@@ -6,7 +6,7 @@ assin2-rte:
   encoder_type: BERT 
   enable_san: true
   metric_meta:
-  - F1macro
+  - F1MAC
   - ACC
   loss: CeCriterion
   n_class: 2

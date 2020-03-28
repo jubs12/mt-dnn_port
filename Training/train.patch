@@ -1,11 +1,11 @@
---- train.py	2020-02-26 10:20:33.965203000 -0300
-+++ train_new.py	2020-03-10 18:01:42.507980838 -0300
-@@ -380,7 +380,7 @@
+--- train.py	2020-03-28 13:34:38.528343522 -0300
++++ train_new.py	2020-03-28 14:04:52.215469580 -0300
+@@ -337,7 +337,7 @@
                  with torch.no_grad():
                      test_metrics, test_predictions, scores, golds, test_ids= eval_model(model, test_data,
-                                                                                         metric_meta=task_defs.metric_meta_map[prefix],
+                                                                                         metric_meta=task_def.metric_meta,
 -                                                                                        use_cuda=args.cuda, with_label=False,
 +                                                                                        use_cuda=args.cuda, with_label=True,
                                                                                          label_mapper=label_dict,
-                                                                                         task_type=task_defs.task_type_map[prefix])
+                                                                                         task_type=task_def.task_type)
                  score_file = os.path.join(output_dir, '{}_test_scores_{}.json'.format(dataset, epoch))

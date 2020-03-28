@@ -1,71 +1,42 @@
---- metrics.py	2020-03-21 15:55:38.242873974 -0300
-+++ metrics_new.py	2020-03-21 20:02:19.747079446 -0300
-@@ -1,9 +1,11 @@
- # Copyright (c) Microsoft. All rights reserved.
- from enum import Enum
-+import numpy as np
- 
- from sklearn.metrics import matthews_corrcoef
- from sklearn.metrics import accuracy_score, f1_score
- from sklearn.metrics import roc_auc_score
-+from sklearn.metrics import mean_squared_error
- from scipy.stats import pearsonr, spearmanr
- from seqeval.metrics import classification_report
- from data_utils.squad_eval import evaluate_func
-@@ -14,6 +16,14 @@
- def compute_f1(predicts, labels):
-     return 100.0 * f1_score(labels, predicts)
- 
-+#https://github.com/erickrf/assin/blob/master/assin-eval.py
-+def compute_f1macro(predicts, labels):
-+    label_set = set(labels)
-+    return 100.0 * f1_score(labels, predicts, average='macro', labels=list(label_set))
-+
-+def compute_nomeanf1(predicts, labels):
-+    return f1_score(labels, predicts, average=None).tolist()
-+
- def compute_mcc(predicts, labels):
-     return 100.0 * matthews_corrcoef(labels, predicts)
- 
-@@ -52,6 +62,9 @@
+--- metrics.py	2020-03-28 13:34:38.496343274 -0300
++++ metrics_new.py	2020-03-28 14:11:52.847399624 -0300
+@@ -58,6 +58,11 @@
  def compute_emf1(predicts, labels):
      return evaluate_func(labels, predicts)
  
-+def compute_mse(predicts, labels):
-+    mse = mean_squared_error(labels, predicts)
-+    return mse
++def compute_mse(predicts, labels)
++    return mean_squared_error(labels, predicts)
++
++def compute_f1nomean(predicts, labels):
++    return f1_score(labels, predicts, average=None).tolist()
  
  class Metric(Enum):
      ACC = 0
-@@ -62,6 +75,10 @@
-     AUC = 5
-     SeqEval = 7
+@@ -70,7 +75,8 @@
      EmF1 = 8
-+    F1macro = 9
-+    MSE = 10
-+    NoMeanF1 = 11
-+
+     F1MAC = 9
+     F1MIC = 10
+-
++    MSE = 11
++    NoMeanF1 = 12
  
  
- 
-@@ -73,7 +90,10 @@
-  Metric.Spearman: compute_spearman,
-  Metric.AUC: compute_auc,
-  Metric.SeqEval: compute_seqacc,
-- Metric.EmF1: compute_emf1
-+ Metric.EmF1: compute_emf1,
-+ Metric.F1macro: compute_f1macro,
-+ Metric.MSE: compute_mse,
-+ Metric.NoMeanF1: compute_nomeanf1,
+ METRIC_FUNC = {
+@@ -84,6 +90,8 @@
+     Metric.EmF1: compute_emf1,
+     Metric.F1MAC: compute_f1mac,
+     Metric.F1MIC: compute_f1mic,
++    Metric.MSE: compute_mse,
++    Metric.NoMeanF1: compute_f1nomean,
  }
  
  
-@@ -85,7 +105,7 @@
+@@ -95,7 +103,7 @@
      for mm in metric_meta:
          metric_name = mm.name
          metric_func = METRIC_FUNC[mm]
--        if mm in (Metric.ACC, Metric.F1, Metric.MCC):
-+        if mm in (Metric.ACC, Metric.F1, Metric.MCC, Metric.F1macro, Metric.MSE, Metric.NoMeanF1):
+-        if mm in (Metric.ACC, Metric.F1, Metric.MCC, Metric.F1MAC, Metric.F1MIC):
++        if mm in (Metric.ACC, Metric.F1, Metric.MCC, Metric.F1MAC, Metric.F1MIC, Metric.MSE, Metric.NoMeanF1):
              metric = metric_func(predictions, golds)
          elif mm == Metric.SeqEval:
              metric = metric_func(predictions, golds, label_mapper)
