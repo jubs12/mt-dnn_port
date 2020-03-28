@@ -55,8 +55,8 @@ Colab doesn't support B2W extractor embbedings.
 ### Training
 For all tasks run train.ipynb to get output files.
 
-#### Assin
- #### ASSIN transfer learning
+#### ASSIN
+ ##### ASSIN transfer learning
  1. Run Training/train.ipynb for rte and sst
 
     - mtdnn calculated scores
@@ -124,7 +124,6 @@ Colab doesn't support B2W extractor embbedings.
    mv mt-dnn/checkpoint/*_test_scores_4.json ./result/
    ```
  8. Run Training/assin/assin_result.ipynb, filling corpus = {corpus_name}
-   
     - assin-formated test output files
 
  9. Run Training/assin/get_benchmarks.ipynb
