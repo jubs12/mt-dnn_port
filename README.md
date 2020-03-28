@@ -1,5 +1,5 @@
 # mt-dnn_port
-This repository evaluates MT-DNN in [specific version](https://github.com/namisan/mt-dnn/tree/60aa9dc4ec1a31532c3f5fb4305c325942c263ce"MT-DNN repository") on the NLP Portuguese tasks available on the following datasets: [Assin](http://nilc.icmc.usp.br/assin/ "Assin dataset"),  [tweetSentBR](https://bitbucket.org/HBrum/tweetsentbr/ "tweetSentBR repository"),  [B2W-Reviews01](https://github.com/b2wdigital/b2w-reviews01 "B2W repository") , and [FaQuAD](https://github.com/liafacom/faquad "faquad repository").
+This repository evaluates MT-DNN in [specific version](https://github.com/namisan/mt-dnn/tree/60aa9dc4ec1a31532c3f5fb4305c325942c263ce "MT-DNN repository") on the NLP Portuguese tasks available on the following datasets: [Assin](http://nilc.icmc.usp.br/assin/ "Assin dataset"),  [tweetSentBR](https://bitbucket.org/HBrum/tweetsentbr/ "tweetSentBR repository"),  [B2W-Reviews01](https://github.com/b2wdigital/b2w-reviews01 "B2W repository") , and [FaQuAD](https://github.com/liafacom/faquad "faquad repository").
 
 Most procedures were developed in Google Colaboratory. 
 
