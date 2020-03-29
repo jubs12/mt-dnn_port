@@ -13,46 +13,8 @@ The input is translated to English to feed MT-DNN, using the Google Cloud API.
 
 The translation process is shown in Jupyter notebooks for each task.
 
-## Embeddings
+## Training
 
-Extractor embedding is applied to raw datasets: b2w and faquad (dataset.json).
-
-Files faquad_txt.ipynb and b2w_txt.ipynb convert raw dataset in input for embedding extractor.
-However, input data are provided in folders.
-
-
-#### FaQuad
-
- Run Embedding/faquad/faquad_embedding.ipynb
-
-#### B2W
-Colab doesn't support B2W extractor embbedings.
-
-1. Install requirements for mt-dnn
-   
-   ```bash
-   sh requirements.sh
-   ```
-
-2. Move input embeddings for B2W to mt-dnn folder
-
-
-   ```bash
-   mv Embeddings/b2w mt-dnn/b2w
-   ```
-
-3. Enter folder  
-   ```bash
-   cd b2w
-   ```
-
-4. Run extractor
-
-   ```bash
-   python extractor.py --do_lower_case --finput b2w/review_title.txt --foutput b2w/review_title.json --bert_model bert-base-uncased --checkpoint mt_dnn_models/mt_dnn_base_uncased.pt
-   ```
-
-### Training
 For all tasks run train.ipynb to get output files.
 
 #### Assin
