@@ -7,6 +7,8 @@ B2W review_title embedding was extracted on Google Cloud VM: n1-standard-8 (8 CP
 
 The code was also tested on Google Cloud VM, n1-standard-8, using [mt-dnn container on Docker](https://github.com/namisan/mt-dnn/tree/f444fe9109d5a9980c9d825a24576c8d873bdf33 "MT-DNN repository").
 
+*For Portuguese BERT related code, please access mt-dnn-updated branch.*
+
 ## Translation
 
 The input is translated to English to feed MT-DNN, using the Google Cloud API.
