@@ -68,11 +68,11 @@ For all tasks run train.ipynb to get output files.
    mv mt-dnn/checkpoint/{corpus_name}-rte_test_scores_4.json ./results/{corpus_name}-rte_test_scores_4.json
    mv mt-dnn/checkpoint/{corpus_name}-sts_test_scores_4.json ./results/{corpus_name}-sts_test_scores_4.json
    ```
- 3. Run Training/assin/assin_result.ipynb, filling corpus = {corpus_name}
+ 3. Run Training/assin/assin_result.ipynb, filling corpus = {corpus_name} and model = {model_name}
    
     - assin-formated test output files
 
- 4. Run Training/assin/get_benchmarks.ipynb
+ 4. Run Training/assin/get_benchmarks.ipynb, filling model = {model_name}
    
     - official scores
 
