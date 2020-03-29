@@ -185,6 +185,10 @@ Large files are available to download.
 
   https://drive.google.com/file/d/1-9wMA1aC-pq_VrTDi5l1QYmcA60jyQaK/view?usp=sharing
   
+- Trained assin using multitasking with Portuguese BERT
+  
+  https://drive.google.com/file/d/1Fcu3f5lGk1WwLk4jdUszqEpR0BpckcF-/view?usp=sharing
+  
 - Trained tweetsent mtdnn
   
   https://drive.google.com/file/d/1xJcVceTZe9flknaySdsfOaGXBvVBbyMt/view?usp=sharing
