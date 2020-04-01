@@ -78,6 +78,7 @@ For all tasks run train.ipynb to get output files.
 
 ##### ASSIN Multi-tasking
 Colab doesn't support ASSIN Multi-tasking.
+For more flexible version, see readme in mt-dnn-updated branch.
 
 1. Enter MT-DNN container
    
