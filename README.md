@@ -161,3 +161,6 @@ Large files are available to download.
 
   https://drive.google.com/file/d/184KIIcW3GzfODW7CWdMiEDT_mHPHtXNt/view?usp=sharing
   
+## Trained Model
+
+Links in Trained models.md
