@@ -3,7 +3,7 @@ task_list=""
 
 if test -f "task_defs.yaml"
 then
-    echo "Removing previous task_defs"
+    echo "Removing previous task_defs.yml file"
     rm -f task_defs.yml
 fi
 
