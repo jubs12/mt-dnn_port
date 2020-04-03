@@ -44,27 +44,31 @@ For that propose please use master branch.
    ```bash
    patch train.py < ../train.patch
    ```
-5. Preprocess data
+5. Concatenate yamls to task_defs.yaml
  
  ```bash
-   mv ../prepro_all.sh .
-   bash prepro_all.sh {you can add prepro_std.py options here. eg. ---model neuralmind/bert-base-portuguese-cased}
+   cp ../task_defs.sh
+   #copy task_list
  ```
  
- 6. Train task
+6. Preprocess Data
+ ```bash
+   python prepro_std.py --do_lower_case --root_dir data/canonical_data --task_def task_defs.yaml
+ ```
+ 
+7. Train task
 
 ```bash
-  mv ../train_all.sh .
-  bash train_all.sh {you can add train.py options here. eg. ---model bert-base-uncased --do_lower_case --data_dir data/canonical_data/bert_base_uncased_lower}
+  python train.py --do_lower_case --init_checkpoint mt_dnn_models/mt_dnn_base_uncased.pt --task_defs.yaml --train_datasets {copied tasklist} --test_datasets {copied tasklist} --tensorboard
   ```
  
- 7. Get output files from mtdnn model
+8. Get output files from mtdnn model
    ```bash
-   mv mt-dnn/checkpoint/*_test_scores_4.json ./result/
+   cp mt-dnn/checkpoint/*_test_scores_4.json ./result/
    ```
- 8. Run Training/assin/assin_result.ipynb, filling corpus = {corpus_name}
+9. Run Training/assin/assin_result.ipynb, filling corpus = {corpus_name}
     - assin-formated test output files
 
- 9. Run Training/assin/get_benchmarks.ipynb
+10. Run Training/assin/get_benchmarks.ipynb
    
     - official scores
