@@ -14,7 +14,7 @@ do
     
 shift;done
 
-if test $typo
+if [[ $typo == true ]]
 then
     echo "No option named $typo" >&2
     exit 127
@@ -22,14 +22,14 @@ fi
 
 for folder in `find ../assin -maxdepth 1  -name "assin*-*"`
 do
-    mv ../assin/$folder$original/*.tsv data/canonical_data/
-    mv ../assin/$folder/*.yaml ./
+    cp ../assin/$folder$original/*.tsv data/canonical_data/
+    cp ../assin/$folder/*.yaml ./
     echo "Getting $folder data"
 done
 
-if test $tweetsent  
+if [[ $tweetsent == true ]] 
 then
-    mv ../tweetsent$original/*.tsv data/canonical_data/
-    mv ../tweetsent/*.yaml ./
+    #cp ../tweetsent$original/*.tsv data/canonical_data/
+    cp ../tweetsent/*.yaml ./
     echo "Getting tweetsent data"
 fi

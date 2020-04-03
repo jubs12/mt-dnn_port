@@ -4,7 +4,7 @@ task_list=""
 if test -f "task_defs.yaml"
 then
     echo "Removing previous task_defs.yml file"
-    rm -f task_defs.yml
+    rm -f task_defs.yaml
 fi
 
 for task in `find . -maxdepth 1  -name "*.yaml"`
@@ -29,5 +29,5 @@ do
     
 done
 
-python train.py --task_def task_defs.yaml --train_datasets $task_list --test_datasets $task_list --tensorboard "$*"
-
+echo "Copy task_list for training"
+cat $task_list
