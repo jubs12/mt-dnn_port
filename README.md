@@ -40,7 +40,7 @@ Colab doesn't support B2W extractor embbedings.
 
 
    ```bash
-   mv Embeddings/b2w mt-dnn/b2w
+   cp Embeddings/b2w mt-dnn/b2w
    ```
 
 3. Enter folder  
@@ -65,8 +65,8 @@ For all tasks run train.ipynb to get output files.
 
  2. Get output files from mtdnn model
    ```bash
-   mv mt-dnn/checkpoint/{corpus_name}-rte_test_scores_4.json ./results/{corpus_name}-rte_test_scores_4.json
-   mv mt-dnn/checkpoint/{corpus_name}-sts_test_scores_4.json ./results/{corpus_name}-sts_test_scores_4.json
+   cp mt-dnn/checkpoint/{corpus_name}-rte_test_scores_4.json ./results/{corpus_name}-rte_test_scores_4.json
+   cp mt-dnn/checkpoint/{corpus_name}-sts_test_scores_4.json ./results/{corpus_name}-sts_test_scores_4.json
    ```
  3. Run Training/assin/assin_result.ipynb, filling corpus = {corpus_name} and model = {model_name}
    
@@ -99,7 +99,7 @@ For more flexible version, see readme in mt-dnn-updated branch.
    
    ```bash
    bash download.sh
-   mv ../move_assin.sh move_assin.sh
+   cp ../move_assin.sh move_assin.sh
    mkdir data/canonical_data
    sh move_assin.sh
    ```
@@ -108,28 +108,32 @@ For more flexible version, see readme in mt-dnn-updated branch.
    ```bash
    patch train.py < ../train.patch
    ```
-5. Preprocess data
+5. Concatenate yamls to task_defs.yaml
  
  ```bash
-   mv ../prepro_all.sh .
-   bash prepro_all.sh --do_lower_case
+   cp ../task_defs.sh
+   #copy task_list
  ```
  
- 6. Train task
+6. Preprocess Data
+ ```bash
+   python prepro_std.py --do_lower_case --root_dir data/canonical_data --task_def task_defs.yaml
+ ```
+ 
+7. Train task
 
 ```bash
-  mv ../train_all.sh .
-  bash train_all.sh  mt_dnn_models/mt_dnn_base_uncased.pt --do_lower_case
+  python train.py --do_lower_case --init_checkpoint mt_dnn_models/mt_dnn_base_uncased.pt --task_defs.yaml --train_datasets {copied tasklist} --test_datasets {copied tasklist} --tensorboard
   ```
  
- 7. Get output files from mtdnn model
+8. Get output files from mtdnn model
    ```bash
-   mv mt-dnn/checkpoint/*_test_scores_4.json ./result/
+   cp mt-dnn/checkpoint/*_test_scores_4.json ./result/
    ```
- 8. Run Training/assin/assin_result.ipynb, filling corpus = {corpus_name}
+9. Run Training/assin/assin_result.ipynb, filling corpus = {corpus_name}
     - assin-formated test output files
 
- 9. Run Training/assin/get_benchmarks.ipynb
+10. Run Training/assin/get_benchmarks.ipynb
    
     - official scores
 
