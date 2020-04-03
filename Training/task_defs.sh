@@ -30,4 +30,4 @@ do
 done
 
 echo "Copy task_list for training"
-cat $task_list
+echo $task_list
