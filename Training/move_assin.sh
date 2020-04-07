@@ -22,7 +22,7 @@ fi
 
 for folder in `find ../assin -maxdepth 1  -name "assin*-*"`
 do
-    cp ../assin/$folder$original/*.tsv data/canonical_data/
+    cp ../assin/$folder/$original/*.tsv data/canonical_data/
     cp ../assin/$folder/*.yaml ./
     echo "Getting $folder data"
 done
