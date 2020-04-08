@@ -28,7 +28,7 @@
 
   https://drive.google.com/file/d/1aowtAr-BipZr_jcbgPtW2VWK9sl2BeIm/view?usp=sharing
 
-## ASSIN - PTPT st-dnn
+### ASSIN - PTPT st-dnn
 
 - Trained assin-ptpt-rte st-dnn using mt-dnn base
 
@@ -92,7 +92,7 @@
   
 - Trained assin mt-dnn using bert base 
 
- https://drive.google.com/file/d/11Pvn3HgfDv_wujVbkWU4yiEK3cMLtPMF/view?usp=sharing
+  https://drive.google.com/file/d/11Pvn3HgfDv_wujVbkWU4yiEK3cMLtPMF/view?usp=sharing
 
 - Trained assin mt-dnn using Portuguese bert base
   
