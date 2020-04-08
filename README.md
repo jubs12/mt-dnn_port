@@ -11,7 +11,7 @@ For that propose please use master branch.
 
 
 
-### ASSIN Multitasking
+### ASSIN MT-DNN
 
 1. Enter MT-DNN container and mt-dnn_port/Training folder
    
