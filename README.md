@@ -108,9 +108,9 @@ Colab doesn't support ASSIN MT-DNN.
    
     - official scores
  
-##### Tweetsent
- 
-###### TweetSent ST-DNN
+##### TweetSentBR
+
+###### TweetSentBR ST-DNN
 
  1. Run Training/train.ipynb
 
