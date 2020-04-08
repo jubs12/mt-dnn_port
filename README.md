@@ -13,25 +13,29 @@ For that propose please use master branch.
 
 ### ASSIN Multitasking
 
-1. Enter MT-DNN container
+1. Enter MT-DNN container and mt-dnn_port/Training folder
    
    ```bash
    sudo docker pull allenlao/pytorch-mt-dnn:v0.5
    sudo docker run -it  --mount type=bind,source="$(pwd)",target=/container allenlao/pytorch-mt-dnn:v0.5 bash
    cd /container
+   git clone -b mt-dnn-updated https://github.com/jubs12/mt-dnn_port.git
+   cd mt-dnn_port/Training
    ```
    
 2. Enter MT-DNN repository
 
    ```bash
    git clone https://github.com/namisan/mt-dnn
-   git checkout f444fe9109d
+   git checkout 60aa9dc4ec
+   cd mt-dnn
+   
    ```
 
 3. Download models and Get task data
    
    ```bash
-   bash download.sh
+   bash download.sh #skip for bert and Portuguese bert
    mv ../move_assin.sh move_assin.sh
    mkdir data/canonical_data
    sh move_assin.sh
@@ -39,28 +43,42 @@ For that propose please use master branch.
    - for portuguese dataset, use --original option in move_assin.sh
    - to include tweetsent, use --tweetsent option in move_assin.sh
    
-4. Enable Tests scores
+4. Patch corrections
    
    ```bash
+   patch data_utils/metrics.py < ../metrics.patch
+   patch mt_dnn/model.py < ../model.patch
+   patch prepro_std.py < ../prepro_std.patch
    patch train.py < ../train.patch
    ```
 5. Concatenate yamls to task_defs.yaml
  
  ```bash
    cp ../task_defs.sh
+   bash task_defs.sh
    #copy task_list
  ```
  
 6. Preprocess Data
- ```bash
-   python prepro_std.py --do_lower_case --root_dir data/canonical_data --task_def task_defs.yaml
- ```
+    ```bash
+      python prepro_std.py --do_lower_case --root_dir data/canonical_data --task_def task_defs.yaml
+    ```
+      - For portuguese bert,
+      ```bash
+         python prepro_std.py --root_dir data/canonical_data --task_def task_defs.yaml --model neuralmind/bert-base-portuguese-cased
+      ```
+      - For bert,
+        ```bash
+         python prepro_std.py --do_lower_case --root_dir data/canonical_data --task_def task_defs.yaml --model bert-base-uncased
+        ```
  
 7. Train task
 
-```bash
-  python train.py --do_lower_case --init_checkpoint mt_dnn_models/mt_dnn_base_uncased.pt --task_defs.yaml --train_datasets {copied tasklist} --test_datasets {copied tasklist} --tensorboard
-  ```
+   ```bash
+     python train.py --init_checkpoint mt_dnn_models/mt_dnn_base_uncased.pt --task_defs.yaml --train_datasets {copied tasklist} --test_datasets {copied tasklist} --tensorboard
+     ```
+     - For Portuguese BERT, please replace  --init_checkpoint neuralmind/bert-base-portuguese-cased
+     - For BERT, please replace  --init_checkpoint bert-base-uncased
  
 8. Get output files from mtdnn model
    ```bash
