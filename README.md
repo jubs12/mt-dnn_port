@@ -33,7 +33,7 @@ Colab doesn't support B2W extractor embbedings.
 1. Install requirements for mt-dnn
    
    ```bash
-   sh requirements.sh
+   bash requirements.sh
    ```
 
 2. Move input embeddings for B2W to mt-dnn folder
@@ -104,7 +104,7 @@ For more flexible version, see readme in mt-dnn-updated branch.
    bash download.sh
    cp ../move_assin.sh move_assin.sh
    mkdir data/canonical_data
-   sh move_assin.sh
+   bash move_assin.sh
    ```
 4. Enable Tests scores and ASSIN metrics
    
@@ -142,9 +142,8 @@ For more flexible version, see readme in mt-dnn-updated branch.
    
     - official scores
 
-
-
-#### Tweetsent
+##### TweetsentBR
+###### TweetSentBR ST-DNN
  1. Run Training/train.ipynb
 
     - mtdnn calculated scores
@@ -156,6 +155,81 @@ For more flexible version, see readme in mt-dnn-updated branch.
  3. Run Training/tweetsent/get_benchmarks.ipynb
    
     - official scores
+    
+###### TweetSentBR + ASSIN MT-DNN
+Colab doesn't support ASSIN MT-DNN.
+For more flexible version, see readme in mt-dnn-updated branch.
+
+1. Enter MT-DNN container and mt-dnn_port/Training folder
+   
+   ```bash
+   sudo docker pull allenlao/pytorch-mt-dnn:v0.5
+   sudo docker run -it  --mount type=bind,source="$(pwd)",target=/container allenlao/pytorch-mt-dnn:v0.5 bash
+   cd /container
+   git clone https://github.com/jubs12/mt-dnn_port.git
+   cd mt-dnn_port/Training
+   ```
+   
+2. Enter MT-DNN repository
+
+   ```bash
+   git clone https://github.com/namisan/mt-dnn
+   git checkout f444fe9109d
+   cd mt-dnn
+   ```
+
+3. Download models and Get task data
+   
+   ```bash
+   bash download.sh
+   cp ../move_assin.sh move_assin.sh
+   mkdir data/canonical_data
+   bash move_assin.sh --tweetsent
+   ```
+4. Enable Tests scores and ASSIN metrics
+   
+   ```bash
+   patch train.py < ../train.patch
+   patch data_utils/metrics.py < ../metrics.patch
+   ```
+5. Concatenate yamls to task_defs.yaml
+ 
+ ```bash
+   cp ../task_defs.sh
+   bash task_defs.sh 
+   #copy task_list
+ ```
+ 
+6. Preprocess Data
+ ```bash
+   python prepro_std.py --do_lower_case --root_dir data/canonical_data --task_def task_defs.yaml
+ ```
+ 
+7. Train task
+
+```bash
+  python train.py  --init_checkpoint mt_dnn_models/mt_dnn_base_uncased.pt --task_defs.yaml --train_datasets {copied tasklist} --test_datasets {copied tasklist} --tensorboard
+  ```
+ 
+8. Get output files from mt-dnn model
+   ```bash
+   cp mt-dnn/checkpoint/*_test_scores_4.json ./result/
+   ```
+9. Run Training/assin/assin_result.ipynb, filling corpus = {corpus_name}
+    - assin-formated test output files
+
+10. Run Training/assin/get_benchmarks.ipynb
+   
+    - official scores
+    
+11. Run Training/tweetsent/tweet_result.ipynb
+ 
+    -  test output files
+
+12. Run Training/tweetsent/get_benchmarks.ipynb
+   
+    - official scores
+
 
 ## Results
 
