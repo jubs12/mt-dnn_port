@@ -58,12 +58,12 @@ Colab doesn't support B2W extractor embbedings.
 For all tasks run train.ipynb to get output files.
 
 #### ASSIN
- ##### ASSIN transfer learning
+ ##### ASSIN ST-DNN
  1. Run Training/train.ipynb for rte and sst
 
     - mtdnn calculated scores
 
- 2. Get output files from mtdnn model
+ 2. Get output files from st-dnn model
    ```bash
    cp mt-dnn/checkpoint/{corpus_name}-rte_test_scores_4.json ./results/{corpus_name}-rte_test_scores_4.json
    cp mt-dnn/checkpoint/{corpus_name}-sts_test_scores_4.json ./results/{corpus_name}-sts_test_scores_4.json
@@ -76,16 +76,18 @@ For all tasks run train.ipynb to get output files.
    
     - official scores
 
-##### ASSIN Multi-tasking
-Colab doesn't support ASSIN Multi-tasking.
+##### ASSIN MT-DNN
+Colab doesn't support ASSIN MT-DNN.
 For more flexible version, see readme in mt-dnn-updated branch.
 
-1. Enter MT-DNN container
+1. Enter MT-DNN container and mt-dnn_port/Training folder
    
    ```bash
    sudo docker pull allenlao/pytorch-mt-dnn:v0.5
    sudo docker run -it  --mount type=bind,source="$(pwd)",target=/container allenlao/pytorch-mt-dnn:v0.5 bash
    cd /container
+   git clone -b mt-dnn-updated https://github.com/jubs12/mt-dnn_port.git
+   cd mt-dnn_port/Training
    ```
    
 2. Enter MT-DNN repository
@@ -103,15 +105,17 @@ For more flexible version, see readme in mt-dnn-updated branch.
    mkdir data/canonical_data
    sh move_assin.sh
    ```
-4. Enable Tests scores
+4. Enable Tests scores and ASSIN metrics
    
    ```bash
    patch train.py < ../train.patch
+   patch data_utils/metrics.py < ../metrics.patch
    ```
 5. Concatenate yamls to task_defs.yaml
  
  ```bash
    cp ../task_defs.sh
+   bash task_defs.sh 
    #copy task_list
  ```
  
@@ -123,10 +127,10 @@ For more flexible version, see readme in mt-dnn-updated branch.
 7. Train task
 
 ```bash
-  python train.py --do_lower_case --init_checkpoint mt_dnn_models/mt_dnn_base_uncased.pt --task_defs.yaml --train_datasets {copied tasklist} --test_datasets {copied tasklist} --tensorboard
+  python train.py  --init_checkpoint mt_dnn_models/mt_dnn_base_uncased.pt --task_defs.yaml --train_datasets {copied tasklist} --test_datasets {copied tasklist} --tensorboard
   ```
  
-8. Get output files from mtdnn model
+8. Get output files from mt-dnn model
    ```bash
    cp mt-dnn/checkpoint/*_test_scores_4.json ./result/
    ```
