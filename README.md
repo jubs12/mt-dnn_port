@@ -142,7 +142,7 @@ For more flexible version, see readme in mt-dnn-updated branch.
    
     - official scores
 
-##### TweetsentBR
+##### TweetSentBR
 ###### TweetSentBR ST-DNN
  1. Run Training/train.ipynb
 
