@@ -95,6 +95,7 @@ For more flexible version, see readme in mt-dnn-updated branch.
    ```bash
    git clone https://github.com/namisan/mt-dnn
    git checkout f444fe9109d
+   cd mt-dnn
    ```
 
 3. Download models and Get task data
