@@ -113,9 +113,9 @@ Colab doesn't support ASSIN MT-DNN.
          python prepro_std.py --root_dir data/canonical_data --task_def task_defs.yaml --model neuralmind/bert-base-portuguese-cased
       ```
       - For bert,
-        ```bash
+      ```bash
          python prepro_std.py --do_lower_case --root_dir data/canonical_data --task_def task_defs.yaml --model bert-base-uncased
-        ```
+      ```
  
 3. Train task
 
