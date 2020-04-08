@@ -89,6 +89,8 @@ For more flexible version, see readme in mt-dnn-updated branch.
    git clone https://github.com/jubs12/mt-dnn_port.git
    cd mt-dnn_port/Training
    ```
+ 
+   After this step, run prepare.sh and skip to step 6.    
    
 2. Enter MT-DNN repository
 
@@ -177,6 +179,8 @@ For more flexible version, see readme in mt-dnn-updated branch.
    git checkout f444fe9109d
    cd mt-dnn
    ```
+  
+   After this step, run prepare.sh --tweetsent and skip to step 6.
 
 3. Download models and Get task data
    
