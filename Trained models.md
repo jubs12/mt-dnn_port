@@ -2,13 +2,15 @@
 
 ## ASSIN 1 st-dnn
 
+### ASSIN PT-BR st-dnn
+
 - Trained assin-ptbr-rte st-dnn using mt-dnn base
 
   https://drive.google.com/file/d/1dzAe1FNVXyaw9gnpqNmXUCD1zvBqPbi8/view?usp=sharing
   
 - Trained assin-ptbr-rte st-dnn using bert based
 
-
+  https://drive.google.com/file/d/1gTdqC1QJjeBfKhTPq9e_ZqrOLlo4Dzem/view?usp=sharing
 
 - Trained assin-ptbr-rte st-dnn using Portuguese bert base
 
@@ -20,15 +22,13 @@
   
 - Trained assin-ptbr-sts st-dnn using bert base
 
-  
+  https://drive.google.com/file/d/1i39AcoF5geUcaSINHoPjDko1X9TfUjM5/view?usp=sharing
 
 - Trained assin-ptbr-sts st-dnn using Portuguese bert base
 
   https://drive.google.com/file/d/1aowtAr-BipZr_jcbgPtW2VWK9sl2BeIm/view?usp=sharing
 
-
-
-
+## ASSIN - PTPT st-dnn
 
 - Trained assin-ptpt-rte st-dnn using mt-dnn base
 
@@ -36,7 +36,7 @@
 
 - Trained assin-ptpt-rte st-dnn using bert base
 
-  
+   https://drive.google.com/file/d/1tH6Q__452Bj85C373zHUBS2dc899p2lu/view?usp=sharing 
 
 - Trained assin-ptpt-rte st-dnn using Portuguese bert base
 
@@ -48,7 +48,7 @@
   
 - Trained assin-ptpt-sts st-dnn using bert base
 
-
+  https://drive.google.com/file/d/16dtxB2egRO7F8OU74Qg-N-b_6A9-xTlb/view?usp=sharing
 
 - Trained assin-ptpt-sts st-dnn using Portuguese bert base
 
@@ -64,7 +64,7 @@
 
 - Trained assin2-rte st-dnn using bert base
 
-
+  https://drive.google.com/file/d/1oTkS3R16pY6LAsoJFZnKlfUO2OLL5lOb/view?usp=sharing
   
 - Trained assin2-rte st-dnn using Portuguese bert base
   
@@ -76,7 +76,7 @@
   
 - Trained assin2-sts st-dnn using bert base
 
-
+  https://drive.google.com/file/d/1FYQljoEv80TP8N1-kAA8PuqKJbrKas10/view?usp=sharing
  
 - Trained assin2-sts st-dnn using Portuguese bert base 
 
