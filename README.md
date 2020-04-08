@@ -59,7 +59,7 @@ For all tasks run train.ipynb to get output files.
 
 #### ASSIN
  ##### ASSIN ST-DNN
- 1. Run Training/train.ipynb for rte and sst
+ 1. Run Training/train.ipynb for rte and sts
 
     - mtdnn calculated scores
 
