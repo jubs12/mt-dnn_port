@@ -23,13 +23,13 @@ For that propose please use master branch.
    cd mt-dnn_port/Training
    ```
    
-2. Enter MT-DNN repository
+2. Enter MT-DNN repository and install transformers
 
    ```bash
    git clone https://github.com/namisan/mt-dnn
    git checkout 60aa9dc4ec
    cd mt-dnn
-   
+   pip install transformers
    ```
 
 3. Download models and Get task data
