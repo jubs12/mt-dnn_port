@@ -86,7 +86,7 @@ For more flexible version, see readme in mt-dnn-updated branch.
    sudo docker pull allenlao/pytorch-mt-dnn:v0.5
    sudo docker run -it  --mount type=bind,source="$(pwd)",target=/container allenlao/pytorch-mt-dnn:v0.5 bash
    cd /container
-   git clone -b mt-dnn-updated https://github.com/jubs12/mt-dnn_port.git
+   git clone https://github.com/jubs12/mt-dnn_port.git
    cd mt-dnn_port/Training
    ```
    
