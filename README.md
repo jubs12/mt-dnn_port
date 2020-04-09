@@ -76,6 +76,7 @@ Colab doesn't support ASSIN MT-DNN.
     - official scores
  
 ##### TweetSentBR
+Tweetsent formatted data is not available due to Twitter Policy.
 
 ###### TweetSentBR ST-DNN
 
