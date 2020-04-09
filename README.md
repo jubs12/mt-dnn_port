@@ -74,6 +74,9 @@ For more flexible version, see readme in mt-dnn-updated branch.
     - official scores
 
 ##### TweetSentBR
+
+Tweetsent formatted data is not available due to Twitter Policy. 
+
 ###### TweetSentBR ST-DNN
  1. Run Training/train.ipynb
 
