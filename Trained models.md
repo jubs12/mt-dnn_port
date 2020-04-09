@@ -14,7 +14,7 @@
 
 - Trained assin-ptbr-rte st-dnn using Portuguese bert base
 
-  https://drive.google.com/file/d/1bwrzOFIWvgW9OuoYiZTMqfy1GpW2Lf9D/view?usp=sharing
+  https://drive.google.com/file/d/1by74wEPbS1FQMoQH3aP4GYw8bWDVGYj0/view?usp=sharing
 
 - Trained assin-ptbr-sts st-dnn using mt-dnn base
 
