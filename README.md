@@ -55,20 +55,21 @@ For more flexible version, see readme in mt-dnn-updated branch.
  ```bash
    python prepro_std.py --do_lower_case --root_dir data/canonical_data --task_def task_defs.yaml
  ```
- 
+
 3. Train task
 
 ```bash
   python train.py  --init_checkpoint mt_dnn_models/mt_dnn_base_uncased.pt --task_defs.yaml --train_datasets {copied tasklist} --test_datasets {copied tasklist} --tensorboard
-  ```
- 
+```
+
 4. Get output files from mt-dnn model
    ```bash
    cp mt-dnn/checkpoint/*_test_scores_4.json ./result/
    ```
 5. Run Training/assin/assin_result.ipynb, filling corpus = {corpus_name}
-    - assin-formated test output files
-
+   
+- assin-formated test output files
+  
 6. Run Training/assin/get_benchmarks.ipynb
    
     - official scores
@@ -83,7 +84,7 @@ Tweetsent formatted data is not available due to Twitter Policy.
     - mtdnn calculated scores
     
  2. Run Training/tweetsent/tweet_result.ipynb
- 
+
     -  test output files
 
  3. Run Training/tweetsent/get_benchmarks.ipynb
@@ -104,38 +105,46 @@ For more flexible version, see readme in mt-dnn-updated branch.
    cd mt-dnn_port/Training
    bash prepare.sh --tweetsent
    ```
- 
+
 2. Preprocess Data
  ```bash
    python prepro_std.py --do_lower_case --root_dir data/canonical_data --task_def task_defs.yaml
  ```
- 
+
 3. Train task
 
 ```bash
   python train.py  --init_checkpoint mt_dnn_models/mt_dnn_base_uncased.pt --task_defs.yaml --train_datasets {copied tasklist} --test_datasets {copied tasklist} --tensorboard
-  ```
- 
+```
+
 4. Get output files from mt-dnn model
    ```bash
    cp mt-dnn/checkpoint/*_test_scores_4.json ./result/
    ```
 5. Run Training/assin/assin_result.ipynb, filling corpus = {corpus_name}
-    - assin-formated test output files
-
+   
+- assin-formated test output files
+  
 6. Run Training/assin/get_benchmarks.ipynb
    
     - official scores
     
 7. Run Training/tweetsent/tweet_result.ipynb
- 
+
     -  test output files
 
 8. Run Training/tweetsent/get_benchmarks.ipynb
    
     - official scores
-  
+
 # Results
 
-## Trained Models
-Links in Trained models.md
+- Trained Models 
+
+  In Trained models.md
+
+  
+
+- ASSIN formatted output 
+
+  In all_results/assin
