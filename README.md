@@ -140,6 +140,6 @@ For more flexible version, see readme in mt-dnn-updated branch.
 
 # Results
 
-- Trained Models in Trained models.md
+- Trained Models are available in Trained models.md
 
-- ASSIN formatted output in all_results/assin
+- ASSIN formatted outputs are available in all_results/assin
