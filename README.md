@@ -47,9 +47,11 @@ For more flexible version, see readme in mt-dnn-updated branch.
    sudo docker pull allenlao/pytorch-mt-dnn:v0.5
    sudo docker run -it  --mount type=bind,source="$(pwd)",target=/container allenlao/pytorch-mt-dnn:v0.5 bash
    cd /container
+   
    git clone https://github.com/jubs12/mt-dnn_port.git
    cd mt-dnn_port/Training
    bash prepare.sh
+   cd mt-dnn
    ```
    
 2. Preprocess Data
@@ -60,7 +62,7 @@ For more flexible version, see readme in mt-dnn-updated branch.
 3. Train task
 
 ```bash
-  python train.py  --init_checkpoint mt_dnn_models/mt_dnn_base_uncased.pt --task_defs.yaml --train_datasets {copied tasklist} --test_datasets {copied tasklist} --tensorboard
+  python train.py  --init_checkpoint mt_dnn_models/mt_dnn_base_uncased.pt --task_def task_defs.yaml --train_datasets assin2-sts,assin2-rte,assin-ptbr-rte,assin-ptpt-rte,assin-ptpt-sts,assin-ptbr-sts --test_datasets assin2-sts,assin2-rte,assin-ptbr-rte,assin-ptpt-rte,assin-ptpt-sts,assin-ptbr-sts --tensorboard
 ```
 
 4. Get output files from mt-dnn model
@@ -115,7 +117,7 @@ For more flexible version, see readme in mt-dnn-updated branch.
 3. Train task
 
 ```bash
-  python train.py  --init_checkpoint mt_dnn_models/mt_dnn_base_uncased.pt --task_defs.yaml --train_datasets {copied tasklist} --test_datasets {copied tasklist} --tensorboard
+  python train.py  --init_checkpoint mt_dnn_models/mt_dnn_base_uncased.pt --task_def task_defs.yaml --train_datasets assin2-sts,assin2-rte,assin-ptbr-rte,assin-ptpt-rte,assin-ptpt-sts,assin-ptbr-sts,tweetsent --test_datasets assin2-sts,assin2-rte,assin-ptbr-rte,assin-ptpt-rte,assin-ptpt-sts,assin-ptbr-sts,tweetsent --tensorboard
 ```
 
 4. Get output files from mt-dnn model
