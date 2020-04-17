@@ -28,7 +28,7 @@ allenlao/pytorch-mt-dnn:v0.5 bash
 2. Clone this repository
 ```bash
 cd /container
-git clone -b mt-dnn-updated https://github.com/jubs12/mt-dnn_port.git
+git clone -b organize https://github.com/jubs12/mt-dnn_port.git
 cd mt-dnn_port/
 ```
 
