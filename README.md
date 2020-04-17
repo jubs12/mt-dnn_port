@@ -21,7 +21,8 @@ Run stdnn.ipynb chosing:
 1. Enter Docker Container
 ```bash
 sudo docker pull allenlao/pytorch-mt-dnn:v0.5
-sudo docker run -it --rm --mount type=bind,source="$(pwd)",target=/container allenlao/pytorch-mt-dnn:v0.5 bash
+sudo docker run -it --rm --mount type=bind,source="$(pwd)",target=/container \
+allenlao/pytorch-mt-dnn:v0.5 bash
 ```
 
 2. Clone this repository
