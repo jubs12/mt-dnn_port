@@ -37,41 +37,55 @@ Colab doesn't support ASSIN MT-DNN.
    sudo docker pull allenlao/pytorch-mt-dnn:v0.5
    sudo docker run -it  --mount type=bind,source="$(pwd)",target=/container allenlao/pytorch-mt-dnn:v0.5 bash
    cd /container
+   
    git clone -b mt-dnn-updated https://github.com/jubs12/mt-dnn_port.git
    cd mt-dnn_port/Training
    bash prepare.sh
+   cd mt-dnn/
    ``` 
    - for portuguese dataset, use --original option in prepare.sh
  
-2. Preprocess Data
-    ```bash
-      python prepro_std.py --do_lower_case --root_dir data/canonical_data --task_def task_defs.yaml
-    ```
-      - For portuguese bert,
+2. Train
+    - For mt-dnn,
       ```bash
-         python prepro_std.py --root_dir data/canonical_data --task_def task_defs.yaml --model neuralmind/bert-base-portuguese-cased
+      python prepro_std.py --do_lower_case --root_dir data/canonical_data --task_def task_defs.yaml; \
+      python train.py --task_def task_defs.yaml\
+      --train_datasets assin2-sts,assin2-rte,assin-ptbr-rte,assin-ptpt-rte,assin-ptpt-sts,assin-ptbr-sts \
+      --test_datasets assin2-sts,assin2-rte,assin-ptbr-rte,assin-ptpt-rte,assin-ptpt-sts,assin-ptbr-sts \
+      --tensorboard \
+      --data_dir data/canonical_data/bert_base_uncased_lower \
+      --init_checkpoint mt_dnn_models/mt_dnn_base_uncased.pt
       ```
-      - For bert,
-        ```bash
-         python prepro_std.py --do_lower_case --root_dir data/canonical_data --task_def task_defs.yaml --model bert-base-uncased
-        ```
+    - For portuguese bert,
+         ```bash
+         python prepro_std.py --root_dir data/canonical_data --task_def task_defs.yaml  \
+         --model neuralmind/bert-base-portuguese-cased; \
+         python train.py --task_def task_defs.yaml \
+         --train_datasets assin-ptbr-rte,assin-ptpt-rte,assin-ptpt-sts,assin-ptbr-sts,assin2-sts,assin2-rte \
+         --test_datasets assin-ptbr-rte,assin-ptpt-rte,assin-ptpt-sts,assin-ptbr-sts,\
+         assin2-sts,assin2-rte \
+         --data_dir data/canonical_data/bert_base_cased \
+         --init_checkpoint neuralmind/bert-base-portuguese-cased
+         ```
+    - For bert,
+       ```bash
+      python prepro_std.py --do_lower_case --root_dir data/canonical_data --task_def task_defs.yaml; \
+      python train.py --task_def task_defs.yaml \
+      --train_datasets assin2-sts,assin2-rte,assin-ptbr-rte,assin-ptpt-rte,assin-ptpt-sts,assin-ptbr-sts \
+      --test_datasets assin2-sts,assin2-rte,assin-ptbr-rte,assin-ptpt-rte,assin-ptpt-sts,assin-ptbr-sts \
+      --tensorboard \
+      --data_dir data/canonical_data/bert_base_uncased_lower \
+      --init_checkpoint bert-base-uncased
+      ```
  
-3. Train task
-
-   ```bash
-     python train.py --init_checkpoint mt_dnn_models/mt_dnn_base_uncased.pt --task_defs.yaml --train_datasets {copied tasklist} --test_datasets {copied tasklist} --tensorboard
-     ```
-     - For Portuguese BERT, please replace  --init_checkpoint neuralmind/bert-base-portuguese-cased
-     - For BERT, please replace  --init_checkpoint bert-base-uncased
- 
-4. Get output files from mtdnn model
+3. Get output files from mtdnn model
    ```bash
    cp mt-dnn/checkpoint/*_test_scores_4.json ./result/
    ```
-5. Run Training/assin/assin_result.ipynb, filling corpus = {corpus_name}
+4. Run Training/assin/assin_result.ipynb, filling corpus = {corpus_name}
     - assin-formated test output files
 
-6. Run Training/assin/get_benchmarks.ipynb
+5. Run Training/assin/get_benchmarks.ipynb
    
     - official scores
  
@@ -105,41 +119,53 @@ Tweetsent formatted data is not available due to Twitter Policy.
    ``` 
    - for portuguese dataset, use --original option in prepare.sh
   
-2. Preprocess Data
-    ```bash
-      python prepro_std.py --do_lower_case --root_dir data/canonical_data --task_def task_defs.yaml
-    ```
-      - For portuguese bert,
+2. Train
+    - For mt-dnn,
       ```bash
-         python prepro_std.py --root_dir data/canonical_data --task_def task_defs.yaml --model neuralmind/bert-base-portuguese-cased
+      python prepro_std.py --do_lower_case --root_dir data/canonical_data --task_def task_defs.yaml; \
+      python train.py --task_def task_defs.yaml\
+      --train_datasets assin2-sts,assin2-rte,assin-ptbr-rte,assin-ptpt-rte,assin-ptpt-sts,assin-ptbr-sts,tweetsent \
+      --test_datasets assin2-sts,assin2-rte,assin-ptbr-rte,assin-ptpt-rte,assin-ptpt-sts,assin-ptbr-sts,tweetsent \
+      --tensorboard \
+      --data_dir data/canonical_data/bert_base_uncased_lower \
+      --init_checkpoint mt_dnn_models/mt_dnn_base_uncased.pt
       ```
-      - For bert,
-      ```bash
-         python prepro_std.py --do_lower_case --root_dir data/canonical_data --task_def task_defs.yaml --model bert-base-uncased
+    - For portuguese bert,
+         ```bash
+         python prepro_std.py --root_dir data/canonical_data --task_def task_defs.yaml  \
+         --model neuralmind/bert-base-portuguese-cased; \
+         python train.py --task_def task_defs.yaml \
+         --train_datasets assin-ptbr-rte,assin-ptpt-rte,assin-ptpt-sts,assin-ptbr-sts,assin2-sts,assin2-rte,tweetsent \
+         --test_datasets assin-ptbr-rte,assin-ptpt-rte,assin-ptpt-sts,assin-ptbr-sts,assin2-sts,assin2-rte,tweetsent\
+         --data_dir data/canonical_data/bert_base_cased \
+         --init_checkpoint neuralmind/bert-base-portuguese-cased
+         ```
+    - For bert,
+       ```bash
+      python prepro_std.py --do_lower_case --root_dir data/canonical_data --task_def task_defs.yaml; \
+      python train.py --task_def task_defs.yaml \
+      --train_datasets assin2-sts,assin2-rte,assin-ptbr-rte,assin-ptpt-rte,assin-ptpt-sts,assin-ptbr-sts,tweetsent \
+      --test_datasets assin2-sts,assin2-rte,assin-ptbr-rte,assin-ptpt-rte,assin-ptpt-sts,assin-ptbr-sts,tweetsent \
+      --tensorboard \
+      --data_dir data/canonical_data/bert_base_uncased_lower \
+      --init_checkpoint bert-base-uncased
+      ```
       ```
  
-3. Train task
-
-   ```bash
-     python train.py --init_checkpoint mt_dnn_models/mt_dnn_base_uncased.pt --task_defs.yaml --train_datasets {copied tasklist} --test_datasets {copied tasklist} --tensorboard
-     ```
-     - For Portuguese BERT, please replace  --init_checkpoint neuralmind/bert-base-portuguese-cased
-     - For BERT, please replace  --init_checkpoint bert-base-uncased
- 
-4. Get output files from mtdnn model
+3. Get output files from mtdnn model
    ```bash
    cp mt-dnn/checkpoint/*_test_scores_4.json ./result/
    ```
-5. Run Training/assin/assin_result.ipynb, filling corpus = {corpus_name}
+4. Run Training/assin/assin_result.ipynb, filling corpus = {corpus_name}
     - assin-formated test output files
-6. Run Training/assin/get_benchmarks.ipynb
+5. Run Training/assin/get_benchmarks.ipynb
    
     - official scores
     
-7. Run Training/tweetsent/tweet_result.ipynb
+6. Run Training/tweetsent/tweet_result.ipynb
  
     -  test output files
 
-8. Run Training/tweetsent/get_benchmarks.ipynb
+7. Run Training/tweetsent/get_benchmarks.ipynb
    
     - official scores
