@@ -1,5 +1,5 @@
 #!bin/bash
-task_list=""
+started=true
 
 if test -f "task_defs.yaml"
 then
@@ -9,19 +9,12 @@ fi
 
 for task in `find . -maxdepth 1  -name "*.yaml"`
 do
-    #remove suffix and prefix
-    task_name=${task%.yaml}
-    task_name=${task_name#"./"}
-    
      
-    if  [[ $task_list  == "" ]]
-    then
-        task_list=$task_name
-        
+    if  [[ $started  == true ]]
+    then        
         echo "Creating task_defs.yaml with all tasks defs"
         cp $task task_defs.yaml
-    else
-        task_list="$task_list,$task_name"
+        started=false
     fi
     
     cat $task >> task_defs.yaml
@@ -29,5 +22,3 @@ do
     
 done
 
-echo "Copy task_list for training"
-echo $task_list
