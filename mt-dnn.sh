@@ -39,16 +39,16 @@ TRAIN_BERT_PT="--data_dir $INPUT_PT/bert_base_cased \
                --init_checkpoint neuralmind/bert-base-portuguese-cased"
 
 if [ "$MODEL" = "bert" ]; then
-   PREPRO=PREPRO_BERT
-   TRAIN=TRAIN_BERT
+   PREPRO=$PREPRO_BERT
+   TRAIN=$TRAIN_BERT
 elif [ "$MODEL" =  "mt-dnn" ]; then
    echo "running mt-dnn download script ...wait"
-   !bash download.sh
-   PREPRO=PREPRO_BERT
-   TRAIN=TRAIN_MT_DNN
+   bash download.sh
+   PREPRO=$PREPRO_BERT
+   TRAIN=$TRAIN_MT_DNN
 elif [ "$MODEL" = "bert-pt" ]; then
-   PREPRO=PREPRO_BERT_PT
-   TRAIN=TRAIN_BERT_PT
+   PREPRO=$PREPRO_BERT_PT
+   TRAIN=$TRAIN_BERT_PT
 else
    echo "invalid option">&2
    exit 127
@@ -64,5 +64,5 @@ fi
 
 TASK="--train_datasets $TASK_LIST --test_datasets $TASK_LIST"
 
-python prepro_std.py "$PREPRO" "$TASK_DEF" 
-python train.py "$TRAIN" "$TASK" "$TASK_DEF" --tensorboard
+python prepro_std.py $PREPRO $TASK_DEF 
+python train.py $TRAIN $TASK $TASK_DEF --tensorboard
