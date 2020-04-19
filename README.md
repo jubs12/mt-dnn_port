@@ -48,7 +48,7 @@ Assin dataset translation was  imported from [ruanchaves/assin](https://github.c
 
 ##  Results
 
-- Reports with scores and answers in reports folder
+- Evaluations and scores in reports folder
 - Evaluation scripts eval_assin.ipynb and  eval_tensorboard.ipynb
 - Model output in output folder
 - Assin_xml and tweetsent_json convert model output to answers for evaluation scripts.
