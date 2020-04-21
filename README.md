@@ -2,6 +2,7 @@
 This repository evaluates ST-DNN and MT-DNN in [specific version](https://github.com/namisan/mt-dnn/tree/60aa9dc4ec1a31532c3f5fb4305c325942c263ce "MT-DNN repository") on the NLP Portuguese tasks available on [Assin](http://nilc.icmc.usp.br/assin/ "Assin dataset") and  [tweetSentBR](https://bitbucket.org/HBrum/tweetsentbr/ "tweetSentBR repository") datasets. 
 
 Please note that Tweetsent formatted data is not available due to Twitter Policy.
+You may be interested in [Assin RTE and TweetSentBR evaluation using HuggingFace](https://github.com/jubs12/transformers).
 
 ## Training
 
