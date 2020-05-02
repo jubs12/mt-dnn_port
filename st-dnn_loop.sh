@@ -1,7 +1,10 @@
 #!/bin/bash
 
-declare -a tasks=("assin-ptbr-rte" "assin-ptpt-rte" "assin2-rte" "assin-ptbr-sts" "assin-ptpt-sts" "assin2-sts", "tweetsent")
+MODEL=$1
+TYPE=$2
+
+declare -a tasks=("assin-ptbr-rte" "assin-ptpt-rte" "assin2-rte" "assin-ptbr-sts" "assin-ptpt-sts" "assin2-sts" "tweetsent")
 
 for TASK in "${tasks[@]}"; do
-    echo bash st-dnn.sh bert-multilingual base $TASK
+    bash st-dnn.sh $MODEL $TYPE $TASK
 done
