@@ -65,5 +65,5 @@ TASK="--train_datasets $TASK_LIST --test_datasets $TASK_LIST"
 python prepro_std.py $PREPRO $TASK_DEF 
 python train.py $TRAIN $TASK $TASK_DEF --tensorboard
 
-mkdir output/$OUTPUT_FOLDER/{$MODEL}_{$TYPE}
+mkdir ../output/$OUTPUT_FOLDER/{$MODEL}_{$TYPE}
 cp checkpoint/* ../output/$OUTPUT_FOLDER/{$MODEL}_{$TYPE}/

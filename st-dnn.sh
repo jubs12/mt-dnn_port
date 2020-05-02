@@ -48,5 +48,5 @@ fi
 python prepro_std.py --task_def ../data/task-def/$TASK.yaml $PREPRO
 python train.py  --task_def ../data/task-def/$TASK.yaml --train_datasets $TASK --test_datasets $TASK --tensorboard $TRAIN
 
-mkdir output/st-dnn/$TASK/${MODEL}_${TYPE}
+mkdir ../output/st-dnn/$TASK/${MODEL}_${TYPE}
 cp checkpoint/* ../output/st-dnn/$TASK/${MODEL}_${TYPE}/
