@@ -21,3 +21,6 @@ mt-dnn/
 
 #Tweetsent datasets
 data/input/*/tweetsent*
+
+#Dataset
+data/dataset
