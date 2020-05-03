@@ -14,7 +14,7 @@ PREPRO_BERT_PT="--model neuralmind/bert-$TYPE-portuguese-cased --root_dir $INPUT
 PREPRO_MULTILINGUAL="--model bert-$TYPE-multilingual-cased --root_dir $INPUT_PT"
 PREPRO_BERT=" --model bert-$TYPE-uncased --do_lower_case --root_dir $INPUT_EN"
 
-TRAIN_MT_DNN="--init_checkpoint mt_dnn_models/mt_dnn_$TYPE_uncased.pt \
+TRAIN_MT_DNN="--init_checkpoint mt_dnn_models/mt_dnn_${TYPE}_uncased.pt \
               --data_dir $INPUT_EN/bert_${TYPE}_uncased_lower"
 
 TRAIN_BERT="--init_checkpoint bert-$TYPE-uncased \
@@ -31,7 +31,7 @@ if [ "$MODEL" = "bert" ]; then
    TRAIN=$TRAIN_BERT
 elif [ "$MODEL" =  "mt-dnn" ]; then
    echo "running mt-dnn download script ...wait"
-   bash download.sh
+   #bash download.sh
    PREPRO=$PREPRO_BERT
    TRAIN=$TRAIN_MT_DNN
 elif [ "$MODEL" = "bert-pt" ]; then
@@ -45,8 +45,7 @@ else
    exit 127
 fi
 
+rm -rf /root/.cache/torch
 python prepro_std.py --task_def ../data/task-def/$TASK.yaml $PREPRO
-python train.py  --task_def ../data/task-def/$TASK.yaml --train_datasets $TASK --test_datasets $TASK --tensorboard $TRAIN
 
-mkdir ../output/st-dnn/$TASK/${MODEL}_${TYPE}
-cp checkpoint/* ../output/st-dnn/$TASK/${MODEL}_${TYPE}/
+python train.py  --task_def ../data/task-def/$TASK.yaml --train_datasets $TASK --test_datasets $TASK --tensorboard $TRAIN --output_dir ../output/st-dnn/$TASK/${MODEL}_${TYPE}/
