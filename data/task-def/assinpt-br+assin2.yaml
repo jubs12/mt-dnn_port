@@ -1,0 +1,54 @@
+assin-ptbr-rte:
+  data_format: PremiseAndOneHypothesis
+  labels:
+  -  Entailment
+  -  None
+  -  Paraphrase 
+  encoder_type: BERT   
+  enable_san: true
+  metric_meta:
+  - F1MAC
+  - ACC
+  loss: CeCriterion
+  n_class: 3
+  task_type: Classification
+  kd_loss: MseCriterion
+
+assin-ptbr-sts:
+  data_format: PremiseAndOneHypothesis
+  encoder_type: BERT
+  enable_san: false
+  metric_meta:
+  - Pearson
+  - MSE
+  loss: MseCriterion
+  n_class: 1
+  task_type: Regression
+  kd_loss: MseCriterion
+
+assin2-rte:
+  data_format: PremiseAndOneHypothesis
+  labels:
+  -  Entailment
+  -  None 
+  encoder_type: BERT 
+  enable_san: true
+  metric_meta:
+  - F1MAC
+  - ACC
+  loss: CeCriterion
+  n_class: 2
+  task_type: Classification
+  kd_loss: MseCriterion
+
+assin2-sts:
+  data_format: PremiseAndOneHypothesis
+  encoder_type: BERT
+  enable_san: false
+  metric_meta:
+  - Pearson
+  - MSE
+  loss: MseCriterion
+  n_class: 1
+  task_type: Regression
+  kd_loss: MseCriterion

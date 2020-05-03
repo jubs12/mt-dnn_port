@@ -1,0 +1,16 @@
+#Previous scores and checkpoints
+output/mt-dnn*/*/*0*
+output/mt-dnn*/*/*1*
+output/mt-dnn*/*/*2*
+output/mt-dnn*/*/*3*
+
+output/st-dnn*/*/*/*0*
+output/st-dnn*/*/*/*1*
+output/st-dnn*/*/*/*2*
+output/st-dnn*/*/*/*3*
+
+#Last checkpoint
+output/mt-dnn*/*/model_4.pt
+output/st-dnn*/*/*/model_4.pt
+
+bash mt-dnn.sh bert large;bash mt-dnn.sh bert large --tweetsent
