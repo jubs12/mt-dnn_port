@@ -19,6 +19,9 @@ output/st-dnn*/*/*/*test_scores_3.json
 #mt-dnn repo
 mt-dnn/
 
+#assin repo
+assin
+
 #Tweetsent datasets
 data/input/*/tweetsent*
 
