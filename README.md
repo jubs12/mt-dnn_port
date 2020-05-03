@@ -1,7 +1,24 @@
 # mt-dnn_port
-This repository evaluates ST-DNN and MT-DNN in [specific version](https://github.com/namisan/mt-dnn/tree/60aa9dc4ec1a31532c3f5fb4305c325942c263ce "MT-DNN repository") on the NLP Portuguese tasks available on [Assin](http://nilc.icmc.usp.br/assin/ "Assin dataset") and  [tweetSentBR](https://bitbucket.org/HBrum/tweetsentbr/ "tweetSentBR repository") datasets. 
+This repository evaluates ST-DNN and MT-DNN in [specific version](https://github.com/namisan/mt-dnn/tree/60aa9dc4ec1a31532c3f5fb4305c325942c263ce "MT-DNN repository") on the NLP Portuguese tasks available on [ASSIN](http://nilc.icmc.usp.br/assin/ "ASSIN dataset") and  [tweetSentBR](https://bitbucket.org/HBrum/tweetsentbr/ "tweetSentBR repository") datasets. 
 
 Please note that Tweetsent formatted data is not available due to Twitter Policy.
+
+## Installation
+1. Enter Docker Container
+```bash
+sudo docker pull allenlao/pytorch-mt-dnn:v0.5
+sudo docker run -it --rm --mount type=bind,source="$(pwd)",target=/container \
+allenlao/pytorch-mt-dnn:v0.5 bash
+```
+
+2. Clone this repository and run prepare.sh
+```bash
+cd /container
+git clone -b organize https://github.com/jubs12/mt-dnn_port.git
+cd mt-dnn_port/
+bash prepare.sh
+```
+
 
 ## Training
 
@@ -10,32 +27,27 @@ MT-DNN was trained on Google Cloud VM, n1-standard-8, using [mt-dnn container on
 ST-DNN was executed in Google Colaboratory.
 
 ###  ST-DNN
+Run st-dnn.ipynb chosing: 
 
-Run stdnn.ipynb chosing: 
-
-- MODEL from bert-pt, bert or mt-dnn 
+- MODEL from bert-pt, bert, bert-multilingual or mt-dnn
+- TYPE from base, large (note that is only bert-base-multilingual)
 - TASK from assin2-rte, assin2-sts, assin-ptpt-rte, assin-ptpt-sts, assin-ptbr-rte, assin-ptpt-sts or tweetsent
 
+Or run st-dnn.sh 
+
+```bash
+bash st-dnn.sh {MODEL} {TYPE} {TASK}
+```
+
 ### MT-DNN
+Run mt-dnn.sh chosing: 
 
-1. Enter Docker Container
-```bash
-sudo docker pull allenlao/pytorch-mt-dnn:v0.5
-sudo docker run -it --rm --mount type=bind,source="$(pwd)",target=/container \
-allenlao/pytorch-mt-dnn:v0.5 bash
-```
-
-2. Clone this repository
-```bash
-cd /container
-git clone -b organize https://github.com/jubs12/mt-dnn_port.git
-cd mt-dnn_port/
-```
-
-3. Run mt-dnn .sh replacing  {model} = bert-pt, bert or mt-dnn
+- MODEL from bert-pt, bert, bert-multilingual or mt-dnn
+- TYPE from base, large (note that is only bert-base-multilingual)
+- TASK from assin, assin+tweetsent, assin-ptbr+assin2, assin2
 
 ```bash
-bash mt-dnn.sh {model} # --tweetsent To include TweetSentBr in training
+bash mt-dnn.sh {MODEL} {TYPE} {TASK}
 ```
 
 ## Translation
