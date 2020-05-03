@@ -30,8 +30,10 @@ if [ "$MODEL" = "bert" ]; then
    PREPRO=$PREPRO_BERT
    TRAIN=$TRAIN_BERT
 elif [ "$MODEL" =  "mt-dnn" ]; then
-   echo "running mt-dnn download script ...wait"
-   #bash download.sh
+   if [ ! -f "mt_dnn_models/mt_dnn_${TYPE}_uncased.pt" ]; then
+      echo "running mt-dnn download script ...wait"
+      bash download.sh
+   fi
    PREPRO=$PREPRO_BERT
    TRAIN=$TRAIN_MT_DNN
 elif [ "$MODEL" = "bert-pt" ]; then

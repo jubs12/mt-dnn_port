@@ -2,12 +2,7 @@
 
 MODEL=$1
 TYPE=$2
-
-if [ "$3" = "--tweetsent" ]; then
-    tweetsent=true
-else
-    tweetsent=false
-fi
+TASKS=$3
 
 cd mt-dnn
 
@@ -35,8 +30,10 @@ if [ "$MODEL" = "bert" ]; then
    PREPRO=$PREPRO_BERT
    TRAIN=$TRAIN_BERT
 elif [ "$MODEL" =  "mt-dnn" ]; then
-   echo "running mt-dnn download script ...wait"
-   #bash download.sh
+   if [ ! -f "mt_dnn_models/mt_dnn_${TYPE}_uncased.pt" ]; then
+      echo "running mt-dnn download script ...wait"
+      bash download.sh
+   fi
    PREPRO=$PREPRO_BERT
    TRAIN=$TRAIN_MT_DNN
 elif [ "$MODEL" = "bert-pt" ]; then
@@ -50,19 +47,24 @@ else
    exit 127
 fi
 
-TASK_LIST=assin-ptbr-sts,assin-ptbr-rte,assin-ptpt-sts,assin2-rte,assin-ptpt-rte,assin2-sts
-TASK_DEF="--task_def ../data/task-def/assin.yaml"
-OUTPUT_FOLDER="mt-dnn_assin"
-
-if [ "$tweetsent" == true ]; then
-    TASK_LIST=$TASK_LIST,tweetsent
-    TASK_DEF="--task_def ../data/task-def/assin+tweetsent.yaml"
-    OUTPUT_FOLDER=$OUTPUT_FOLDER+tweetsent
+if [ "$TASKS" = "assin" ]; then
+    TASK_LIST=assin-ptbr-sts,assin-ptbr-rte,assin-ptpt-sts,assin2-rte,assin-ptpt-rte,assin2-sts
+elif [ "$TASKS" = "assin+tweetsent" ]; then
+    TASK_LIST=assin-ptbr-sts,assin-ptbr-rte,assin-ptpt-sts,assin2-rte,assin-ptpt-rte,assin2-sts,tweetsent
+elif [ "$TASKS" = "assin2" ]; then
+    TASK_LIST=assin2-rte,assin2-sts
+elif [ "$TASKS" = "assin-ptbr+assin2" ]; then
+    TASK_LIST=assin-ptbr-rte,assin-ptbr-sts,assin2-rte,assin2-sts
+else
+   echo "invalid option">&2
+   exit 127
 fi
 
 TASK="--train_datasets $TASK_LIST --test_datasets $TASK_LIST"
+TASK_DEF="--task_def ../data/task-def/$TASKS.yaml"
+OUTPUT="--output_dir ../output/mt-dnn_$TASKS/${MODEL}_${TYPE}/"
 
 rm -rf /root/.cache/torch
 python prepro_std.py $PREPRO $TASK_DEF
-python train.py $TRAIN $TASK $TASK_DEF --tensorboard --output_dir ../output/$OUTPUT_FOLDER/${MODEL}_${TYPE}/
+python train.py $TRAIN $TASK $TASK_DEF $OUTPUT --tensorboard
 rm -rf /root/.cache/torch
