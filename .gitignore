@@ -13,4 +13,9 @@ output/st-dnn*/*/*/*3*
 output/mt-dnn*/*/model_4.pt
 output/st-dnn*/*/*/model_4.pt
 
+#Dev scores
+output/mt-dnn*/*/*dev*.pt
+output/st-dnn*/*/*/*dev*.pt
+
+
 bash mt-dnn.sh bert large;bash mt-dnn.sh bert large --tweetsent
