@@ -27,3 +27,6 @@ data/input/*/tweetsent*
 
 #Dataset
 data/dataset
+
+#Preprocessed data
+data/input/*/bert*
