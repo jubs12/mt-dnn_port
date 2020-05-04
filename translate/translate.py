@@ -1,16 +1,13 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# #Biblioteca auxiliar para traduzir as frases dos banco de dados
+# Translate sentences to English and save mapping dicitionary as json.
 
-# Baseado no código de Ruan Chaves https://github.com/ruanchaves/assin/blob/master/sources/translate.py
+# Based on https://github.com/ruanchaves/assin/blob/master/sources/translate.py
 
-# Parâmetros:
-# 
-# 
-# *   lst = lista de frases do banco de dados
-# *   to_language = linguagem para ser traduzida
-# *   dct = nome do arquivo json de saída com dicionário com texto original e traduzido
+# Parameters:
+# *   sentences =
+# *   dictpath =  json dictionary file mapping original sentence with translation
 # 
 # 
 
