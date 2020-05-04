@@ -1,0 +1,15 @@
+assin-ptbr+2-rte:
+  data_format: PremiseAndOneHypothesis
+  labels:
+  -  Entailment
+  -  None
+  -  Paraphrase 
+  encoder_type: BERT  
+  enable_san: true
+  metric_meta:
+  - F1MAC
+  - ACC
+  loss: CeCriterion
+  n_class: 3
+  task_type: Classification
+  kd_loss: MseCriterion
