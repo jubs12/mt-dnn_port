@@ -1,4 +1,4 @@
-assin-ptbr+2-rte:
+assin-ptbr+2-sts:
   data_format: PremiseAndOneHypothesis
   encoder_type: BERT
   enable_san: false
