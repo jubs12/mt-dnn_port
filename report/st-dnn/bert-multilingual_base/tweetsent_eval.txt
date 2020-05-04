@@ -1,0 +1,10 @@
+Acc: 0.6836
+F1. neg: 0.651 neu: 0.543 post: 0.788
+Acc dist min: 0.2920
+Acc dist max: 0.2920
+Acc dist min equal: 0.1075
+Acc dist max equal: 0.1846
+/content/tweetsentbr
+tar: mt-dnn_port: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+/content/tweetsentbr/sent-analysis
