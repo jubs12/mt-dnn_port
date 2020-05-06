@@ -30,8 +30,10 @@ ST-DNN was executed in Google Colaboratory.
 Run st-dnn.ipynb chosing: 
 
 - MODEL from bert-pt, bert, bert-multilingual or mt-dnn
-- TYPE from base, large (there is not bert-large-multilingual)
+- TYPE from base, large (there is no bert-large-multilingual)
 - TASK from assin2-rte, assin2-sts, assin-ptpt-rte, assin-ptpt-sts, assin-ptbr-rte, assin-ptpt-sts or tweetsent
+
+assin-ptbr+2, assin-1+2 (data augmentation tasks) are available only for Portuguese embeddings: bert-pt and bert-multilingual
 
 Or run st-dnn.sh 
 
@@ -43,8 +45,10 @@ bash st-dnn.sh {MODEL} {TYPE} {TASK}
 Run mt-dnn.sh chosing: 
 
 - MODEL from bert-pt, bert, bert-multilingual or mt-dnn
-- TYPE from base, large (there is not bert-large-multilingual)
+- TYPE from base, large (there is no bert-large-multilingual)
 - TASK from assin, assin+tweetsent, assin-ptbr+assin2, assin2
+
+assin-ptbr+assin2, assin2 are available only for Portuguese embeddings: bert-pt and bert-multilingual
 
 ```bash
 bash mt-dnn.sh {MODEL} {TYPE} {TASK}
