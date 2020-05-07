@@ -1,3 +1,0 @@
-Preparing train arguments
-05/07/2020 01:47:54 Task assin-ptbr-sts
-05/07/2020 01:47:54 ../data/input/en/bert_base_uncased_lower/assin-ptbr-sts_train.json
