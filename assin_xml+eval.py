@@ -1,4 +1,4 @@
-from os import path, mkdir
+from os import path, makedirs
 from subprocess import run, PIPE
 import json
 import sys
@@ -9,6 +9,9 @@ import xmltodict
 mode = sys.argv[1]
 dataset = sys.argv[2]
 pretrained = sys.argv[3]
+seed = sys.argv[4]
+
+download_folder = 'data/dataset' if len(sys.argv) < 6 else sys.argv[5]
 
 modes = [
     'st-dnn',
@@ -66,22 +69,23 @@ if len(sys.argv)  == 3:
     rte_filepath = sys.argv[4]
 else: 
     rte_filepath = \
-    f'output/{mode}/{dataset}-rte/{pretrained}/{dataset}-rte_test_scores_4.json' if mode == 'st-dnn' \
-    else  f'output/{mode}/{pretrained}/{dataset}-rte_test_scores_4.json'
+    f'output/{mode}/{dataset}-rte/{pretrained}/seed/{seed}/{dataset}-rte_test_scores_4.json' if mode == 'st-dnn' \
+    else  f'output/{mode}/{pretrained}/seed/{seed}/{dataset}-rte_test_scores_4.json'
 
 if len(sys.argv) == 3:
     rte_filepath = sys.argv[5]
 else: 
     sts_filepath = \
-    f'output/{mode}/{dataset}-sts/{pretrained}/{dataset}-sts_test_scores_4.json' if mode == 'st-dnn' \
-    else  f'output/{mode}/{pretrained}/{dataset}-sts_test_scores_4.json'
+    f'output/{mode}/{dataset}-sts/{pretrained}/seed/{seed}/{dataset}-sts_test_scores_4.json' if mode == 'st-dnn' \
+    else  f'output/{mode}/{pretrained}/seed/{seed}/{dataset}-sts_test_scores_4.json'
 
 filepaths = {
     'rte': rte_filepath,
     'sts': sts_filepath,
 }
 
-output_dir = f'report/{mode}/{pretrained}'
+
+output_dir = f'report/{mode}/{pretrained}/seed/{seed}'
 
 tasks = ['rte', 'sts']
 scores = dict()
@@ -96,7 +100,7 @@ else:
 def is_data_augmentation(corpora, mode):
     return len(corpora) >= 2 and mode == 'st-dnn'
 
-print('Saving generating XMLs...')
+print('Saving generated XMLs...')
 for corpus in corpora:
     for task in tasks:
         filepath = filepaths[task]
@@ -104,7 +108,7 @@ for corpus in corpora:
             scores[task] = json.load(f)
 
     goldfile = 'assin2-blind-test.xml' if corpus == 'assin2' else f'{corpus}-test.xml'
-    with open(f'data/dataset/{goldfile}') as f:
+    with open(f'{download_folder}/{goldfile}') as f:
         xml = xmltodict.parse(f.read())
 
     for idx, item in enumerate(xml['entailment-corpus']['pair']):
@@ -127,18 +131,18 @@ for corpus in corpora:
         xml['entailment-corpus']['pair'][idx]['@entailment'] = entailment
 
     result = xmltodict.unparse(xml, pretty = True)
-    if not is_data_augmentation(corpora, mode):
-        outpath = output_dir
-    else: 
-        if not path.exists(f'{output_dir}/{dataset}'):
-            mkdir(f'{output_dir}/{dataset}')
-        outpath = f'{output_dir}/{dataset}'
+    outpath = f'{output_dir}/{dataset}' if is_data_augmentation(corpora, mode) \
+    else output_dir 
+         
     
+    if not path.exists(outpath):
+        makedirs(outpath)
+
     xml_file = f'{outpath}/{corpus}-test.xml'
     with open(xml_file, 'w') as f:
         f.write(result)
 
-    gold_file = f'data/dataset/{corpus}-test.xml'
+    gold_file = f'{download_folder}/{corpus}-test.xml'
     system_file = xml_file
     cmd = ['python', 
            'assin/assin-eval.py', 

@@ -1,6 +1,11 @@
 #!/bin/bash
 
-download_folder=data/dataset
+if [ $1 = "" ]; then
+    download_folder=data/dataset
+else
+    download_folder=$1
+fi
+
 mkdir $download_folder
 
 pip install xmltodict

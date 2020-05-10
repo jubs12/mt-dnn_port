@@ -11,8 +11,11 @@ import importlib
 sys.path.append('tweetsentbr/sent-analysis')
 from classify import report
 
-mode = sys.argv[1] #'st-dnn', 'mt-dnn_assin+tweetsent'
+mode = sys.argv[1]
 pretrained = sys.argv[2]
+seed = sys.argv[3]
+
+download_folder = 'data/dataset' if len(sys.argv) < 5 else sys.argv[4]
 
 modes = [
     'st-dnn',
@@ -35,11 +38,11 @@ if mode not in modes:
 if pretrained not in pretraineds:
     raise ValueError(f'Incorrect pretrained argument: not in {pretrained}')
 
-output_dir = f'report/{mode}/{pretrained}'
+output_dir = f'report/{mode}/{pretrained}/seed/{seed}'
 
 filepath = \
-f'output/{mode}/tweetsent/{pretrained}/tweetsent_test_scores_4.json' if mode == 'st-dnn' \
-else  f'output/{mode}/{pretrained}/tweetsent_test_scores_4.json'
+f'output/{mode}/tweetsent/{pretrained}/seed/{seed}/tweetsent_test_scores_4.json' if mode == 'st-dnn' \
+else  f'output/{mode}/{pretrained}/seed/{seed}/tweetsent_test_scores_4.json'
 
 with open(filepath) as f:
     output = json.load(f)
@@ -56,11 +59,11 @@ for idx, answer in enumerate(output['predictions']):
 
 result = pd.DataFrame(rows, columns = headers)
 
-corpora = [f for f in os.listdir('data/dataset/tweetSentBR_extracted') if 'testTT' in f]
+corpora = [f for f in os.listdir(f'{download_folder}/tweetSentBR_extracted') if 'testTT' in f]
 
 tabbed = dict()
 for goldpath in corpora:
-    with open("data/dataset/tweetSentBR_extracted/{}".format(goldpath)) as f:
+    with open(f"{download_folder}/tweetSentBR_extracted/{goldpath}") as f:
         text = f.read()
 
     assert '\t' not in text 
@@ -92,20 +95,25 @@ for corpus_idx, corpus_row in corpus.iterrows():
     prediction = result_row.iloc[0]['prediction']
     predictions.append(number[prediction])
 
+print('Saving generated JSON...')
+if not os.path.exists(output_dir):
+        os.makedirs(output_dir)
+
 with open(f'{output_dir}/tweetsent.json', 'w') as f:
    json.dump(predictions, f) 
 
 number = {'Negative': 0, 'Neutral': 1, 'Positive': 2}
 y_test = corpus['label'].map(number)
 
+eval_file = f'{output_dir}/tweetsent_eval.txt'
 
 orig_stdout = sys.stdout
-sys.stdout = open(f'{output_dir}/tweetsent_eval.txt', 'w')
+sys.stdout = open(eval_file, 'w')
 report(None, predictions, y_test)
+
 sys.stdout.close()
 sys.stdout=orig_stdout
-
-with open(f'{output_dir}/tweetsent_eval.txt') as f:
-    print('\n')
-    print('tweetsent')
+with open(eval_file) as f:
+    print('corpus: TweetSentBR')
     print(f.read())
+    print(f'Saved evaluation: {eval_file}\n')
