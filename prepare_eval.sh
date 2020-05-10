@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [ $1 = "" ]; then
+if [ "$1" = "" ]; then
     download_folder=data/dataset
 else
     download_folder=$1
