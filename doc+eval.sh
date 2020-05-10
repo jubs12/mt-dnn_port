@@ -7,7 +7,9 @@ declare -a assin=("assin-ptbr" "assin-ptpt" "assin2")
 declare -a assin_ptbr_2=("assin-ptbr" "assin2")
 declare -a assin2=("assin2")
 
-if [ "$MODE" = "mt-dnn_assin" ]; then
+if [ "$MODE" = "mt-dnn_assin+tweetsent" ]; then
+    DATASETS=("${assin[@]}")
+elif [ "$MODE" = "mt-dnn_assin" ]; then
     DATASETS=("${assin[@]}")
 elif [ "$MODE" = "mt-dnn_assin-ptbr+assin2" ]; then
     DATASETS=("${assin_ptbr_2[@]}")
@@ -23,3 +25,9 @@ fi
 for DATASET in "${DATASETS[@]}"; do
     python assin_xml+eval.py $MODE $DATASET $PRETRAINED
 done
+
+tweetsent_modes=("st-dnn" "mt-dnn_assin+tweetsent")
+
+if [[ " ${tweetsent_modes[@]} " =~ " ${MODE} " ]]; then
+    python tweetsent_json+eval.py $MODE $PRETRAINED
+fi
