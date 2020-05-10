@@ -58,7 +58,6 @@ result = pd.DataFrame(rows, columns = headers)
 
 corpora = [f for f in os.listdir('data/dataset/tweetSentBR_extracted') if 'testTT' in f]
 
-print('Separating lines in tabs...')
 tabbed = dict()
 for goldpath in corpora:
     with open("data/dataset/tweetSentBR_extracted/{}".format(goldpath)) as f:
@@ -68,9 +67,6 @@ for goldpath in corpora:
     
     outtext = re.sub(r'(.+?) (.+)',r'\1\t\2', text)
     tabbed.update({goldpath:StringIO(outtext)})
-    print(goldpath)
-    
-print('Unifying..')
 
 header = ['id', 'premise']
 abbr = {'neg': 'Negative', 'neu': 'Neutral', 'pos': 'Positive'} 
@@ -98,9 +94,6 @@ for corpus_idx, corpus_row in corpus.iterrows():
 
 with open(f'{output_dir}/tweetsent.json', 'w') as f:
    json.dump(predictions, f) 
-
-with open(f'{output_dir}/tweetsent.json') as f:
-    predictions = json.load(f)
 
 number = {'Negative': 0, 'Neutral': 1, 'Positive': 2}
 y_test = corpus['label'].map(number)
