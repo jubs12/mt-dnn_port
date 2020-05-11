@@ -33,20 +33,20 @@ output/mt-dnn*/*/seed/*/*test_scores_3.json
 output/st-dnn*/*/*/seed/*/*test_scores_3.json
 
 
-#mt-dnn repo
-mt-dnn/
-
-#assin repo
+#repos
+mt-dnn
 assin
+tweetsentbr
 
-#tweetsentbr datasets
+#raw assin1 temporary files
+data/dataset/._assin*
+
+#Tweetsent raw dataset
+data/dataset/tweetSentBR*
+
+#tweetsentbr formatted datasets
 data/input/*/tweetsent*
 
-#dataset
-data/dataset
-
-#colab temporary files
-._assin*
 
 #Preprocessed data
 data/input/*/bert*
