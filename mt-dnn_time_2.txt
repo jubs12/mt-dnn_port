@@ -1,0 +1,912 @@
+Preparing train arguments
+I0511 01:15:05.845891 140352685381376 file_utils.py:38] PyTorch version 1.1.0a0+be364ac available.
+I0511 01:15:06.721114 140352685381376 filelock.py:274] Lock 140352356557880 acquired on /root/.cache/torch/transformers/26bc1ad6c0ac742e9b52263248f6d0f00068293b33709fae12320c0e35ccfbbb.542ce4285a40d23a559526243235df47c5f75c197f04f37d1a0c124c32c9a084.lock
+I0511 01:15:06.721837 140352685381376 file_utils.py:444] https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased-vocab.txt not found in cache or force_download set to True, downloading to /root/.cache/torch/transformers/tmpi9bk0ri7
+Downloading:   0%|          | 0.00/232k [00:00<?, ?B/s]Downloading:   0%|          | 1.02k/232k [00:00<00:27, 8.50kB/s]Downloading:  15%|█▌        | 34.8k/232k [00:00<00:16, 12.0kB/s]Downloading:  38%|███▊      | 87.0k/232k [00:00<00:08, 16.9kB/s]Downloading:  90%|█████████ | 209k/232k [00:00<00:00, 24.0kB/s] Downloading: 100%|██████████| 232k/232k [00:00<00:00, 473kB/s] 
+I0511 01:15:07.727345 140352685381376 file_utils.py:448] storing https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased-vocab.txt in cache at /root/.cache/torch/transformers/26bc1ad6c0ac742e9b52263248f6d0f00068293b33709fae12320c0e35ccfbbb.542ce4285a40d23a559526243235df47c5f75c197f04f37d1a0c124c32c9a084
+I0511 01:15:07.727555 140352685381376 file_utils.py:451] creating metadata file for /root/.cache/torch/transformers/26bc1ad6c0ac742e9b52263248f6d0f00068293b33709fae12320c0e35ccfbbb.542ce4285a40d23a559526243235df47c5f75c197f04f37d1a0c124c32c9a084
+I0511 01:15:07.728307 140352685381376 filelock.py:318] Lock 140352356557880 released on /root/.cache/torch/transformers/26bc1ad6c0ac742e9b52263248f6d0f00068293b33709fae12320c0e35ccfbbb.542ce4285a40d23a559526243235df47c5f75c197f04f37d1a0c124c32c9a084.lock
+I0511 01:15:07.728428 140352685381376 tokenization_utils.py:1011] loading file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased-vocab.txt from cache at /root/.cache/torch/transformers/26bc1ad6c0ac742e9b52263248f6d0f00068293b33709fae12320c0e35ccfbbb.542ce4285a40d23a559526243235df47c5f75c197f04f37d1a0c124c32c9a084
+05/11/2020 01:15:07 Task assin-ptbr-sts
+05/11/2020 01:15:07 ../data/input/en/bert_base_uncased_lower/assin-ptbr-sts_train.json
+05/11/2020 01:15:11 ../data/input/en/bert_base_uncased_lower/assin-ptbr-sts_dev.json
+05/11/2020 01:15:11 ../data/input/en/bert_base_uncased_lower/assin-ptbr-sts_test.json
+05/11/2020 01:15:14 Task assin-ptbr-rte
+05/11/2020 01:15:14 ../data/input/en/bert_base_uncased_lower/assin-ptbr-rte_train.json
+05/11/2020 01:15:18 ../data/input/en/bert_base_uncased_lower/assin-ptbr-rte_dev.json
+05/11/2020 01:15:18 ../data/input/en/bert_base_uncased_lower/assin-ptbr-rte_test.json
+05/11/2020 01:15:21 Task assin-ptpt-sts
+05/11/2020 01:15:21 ../data/input/en/bert_base_uncased_lower/assin-ptpt-sts_train.json
+05/11/2020 01:15:25 ../data/input/en/bert_base_uncased_lower/assin-ptpt-sts_dev.json
+05/11/2020 01:15:26 ../data/input/en/bert_base_uncased_lower/assin-ptpt-sts_test.json
+05/11/2020 01:15:28 Task assin2-rte
+05/11/2020 01:15:28 ../data/input/en/bert_base_uncased_lower/assin2-rte_train.json
+05/11/2020 01:15:34 ../data/input/en/bert_base_uncased_lower/assin2-rte_dev.json
+05/11/2020 01:15:34 ../data/input/en/bert_base_uncased_lower/assin2-rte_test.json
+05/11/2020 01:15:36 Task assin-ptpt-rte
+05/11/2020 01:15:36 ../data/input/en/bert_base_uncased_lower/assin-ptpt-rte_train.json
+05/11/2020 01:15:40 ../data/input/en/bert_base_uncased_lower/assin-ptpt-rte_dev.json
+05/11/2020 01:15:41 ../data/input/en/bert_base_uncased_lower/assin-ptpt-rte_test.json
+05/11/2020 01:15:44 Task assin2-sts
+05/11/2020 01:15:44 ../data/input/en/bert_base_uncased_lower/assin2-sts_train.json
+05/11/2020 01:15:50 ../data/input/en/bert_base_uncased_lower/assin2-sts_dev.json
+05/11/2020 01:15:50 ../data/input/en/bert_base_uncased_lower/assin2-sts_test.json
+I0511 01:15:54.254721 140465941767936 file_utils.py:38] PyTorch version 1.1.0a0+be364ac available.
+Namespace(adam_eps=1e-06, answer_att_hidden_size=128, answer_att_type='bilinear', answer_dropout_p=0.1, answer_mem_drop_p=0.1, answer_mem_type=1, answer_merge_opt=1, answer_num_turn=5, answer_opt=0, answer_rnn_type='gru', answer_sum_att_type='bilinear', answer_weight_norm_on=False, batch_size=8, batch_size_eval=8, bert_dropout_p=0.1, bert_l2norm=0.0, bert_model_type='bert-base-uncased', cuda=True, data_dir='../data/input/en/bert_base_uncased_lower', data_sort_on=False, do_lower_case=False, dropout_p=0.1, dropout_w=0.0, dump_state_on=False, embedding_opt=0, encode_mode=False, encoder_type=<EncoderModelType.BERT: 1>, epochs=5, fp16=True, fp16_opt_level='O2', freeze_layers=-1, global_grad_clipping=1.0, glue_format_on=False, grad_accumulation_step=1, grad_clipping=0, have_lr_scheduler=True, init_checkpoint='bert-base-uncased', init_ratio=1, learning_rate=5e-05, log_file='mt-dnn-train.log', log_per_updates=500, lr_gamma=0.5, masked_lm_prob=0.15, max_answer_len=5, max_predictions_per_seq=128, max_seq_len=512, mem_cum_type='simple', mix_opt=0, mkd_opt=0, model_ckpt='checkpoints/model_0.pt', momentum=0, mtl_opt=0, multi_gpu_on=False, multi_step_lr='10,20,30', name='farmer', num_hidden_layers=-1, optimizer='adamax', output_dir='../output/mt-dnn_assin/bert_base/seed/2018', ratio=0, resume=False, save_per_updates=10000, save_per_updates_on=False, scheduler_type='ms', seed=2018, short_seq_prob=0.2, task_def='../data/task-def/assin.yaml', tensorboard=True, tensorboard_logdir='tensorboard_logdir', test_datasets=['assin-ptbr-sts', 'assin-ptbr-rte', 'assin-ptpt-sts', 'assin2-rte', 'assin-ptpt-rte', 'assin2-sts'], train_datasets=['assin-ptbr-sts', 'assin-ptbr-rte', 'assin-ptpt-sts', 'assin2-rte', 'assin-ptpt-rte', 'assin2-sts'], update_bert_opt=0, vb_dropout=True, warmup=0.1, warmup_schedule='warmup_linear', weight_decay=0)
+05/11/2020 01:15:55 0
+05/11/2020 01:15:55 Launching the MT-DNN training
+05/11/2020 01:15:55 Loading ../data/input/en/bert_base_uncased_lower/assin-ptbr-sts_train.json as task 0
+Loaded 2500 samples out of 2500
+05/11/2020 01:15:55 Loading ../data/input/en/bert_base_uncased_lower/assin-ptbr-rte_train.json as task 1
+Loaded 2500 samples out of 2500
+05/11/2020 01:15:55 Loading ../data/input/en/bert_base_uncased_lower/assin-ptpt-sts_train.json as task 2
+Loaded 2500 samples out of 2500
+05/11/2020 01:15:55 Loading ../data/input/en/bert_base_uncased_lower/assin2-rte_train.json as task 3
+Loaded 6500 samples out of 6500
+05/11/2020 01:15:55 Loading ../data/input/en/bert_base_uncased_lower/assin-ptpt-rte_train.json as task 4
+Loaded 2500 samples out of 2500
+05/11/2020 01:15:55 Loading ../data/input/en/bert_base_uncased_lower/assin2-sts_train.json as task 5
+Loaded 6500 samples out of 6500
+Loaded 500 samples out of 500
+Loaded 2000 samples out of 2000
+Loaded 500 samples out of 500
+Loaded 2000 samples out of 2000
+Loaded 500 samples out of 500
+Loaded 2000 samples out of 2000
+Loaded 500 samples out of 500
+Loaded 2448 samples out of 2448
+Loaded 500 samples out of 500
+Loaded 2000 samples out of 2000
+Loaded 500 samples out of 500
+Loaded 2448 samples out of 2448
+05/11/2020 01:15:56 ####################
+05/11/2020 01:15:56 {'log_file': 'mt-dnn-train.log', 'tensorboard': True, 'tensorboard_logdir': 'tensorboard_logdir', 'init_checkpoint': 'bert-base-uncased', 'data_dir': '../data/input/en/bert_base_uncased_lower', 'data_sort_on': False, 'name': 'farmer', 'task_def': '../data/task-def/assin.yaml', 'train_datasets': ['assin-ptbr-sts', 'assin-ptbr-rte', 'assin-ptpt-sts', 'assin2-rte', 'assin-ptpt-rte', 'assin2-sts'], 'test_datasets': ['assin-ptbr-sts', 'assin-ptbr-rte', 'assin-ptpt-sts', 'assin2-rte', 'assin-ptpt-rte', 'assin2-sts'], 'glue_format_on': False, 'mkd_opt': 0, 'update_bert_opt': 0, 'multi_gpu_on': False, 'mem_cum_type': 'simple', 'answer_num_turn': 5, 'answer_mem_drop_p': 0.1, 'answer_att_hidden_size': 128, 'answer_att_type': 'bilinear', 'answer_rnn_type': 'gru', 'answer_sum_att_type': 'bilinear', 'answer_merge_opt': 1, 'answer_mem_type': 1, 'max_answer_len': 5, 'answer_dropout_p': 0.1, 'answer_weight_norm_on': False, 'dump_state_on': False, 'answer_opt': 0, 'mtl_opt': 0, 'ratio': 0, 'mix_opt': 0, 'max_seq_len': 512, 'init_ratio': 1, 'encoder_type': <EncoderModelType.BERT: 1>, 'num_hidden_layers': -1, 'bert_model_type': 'bert-base-uncased', 'do_lower_case': False, 'masked_lm_prob': 0.15, 'short_seq_prob': 0.2, 'max_predictions_per_seq': 128, 'cuda': True, 'log_per_updates': 500, 'save_per_updates': 10000, 'save_per_updates_on': False, 'epochs': 5, 'batch_size': 8, 'batch_size_eval': 8, 'optimizer': 'adamax', 'grad_clipping': 0, 'global_grad_clipping': 1.0, 'weight_decay': 0, 'learning_rate': 5e-05, 'momentum': 0, 'warmup': 0.1, 'warmup_schedule': 'warmup_linear', 'adam_eps': 1e-06, 'vb_dropout': True, 'dropout_p': 0.1, 'dropout_w': 0.0, 'bert_dropout_p': 0.1, 'model_ckpt': 'checkpoints/model_0.pt', 'resume': False, 'have_lr_scheduler': True, 'multi_step_lr': '10,20,30', 'freeze_layers': -1, 'embedding_opt': 0, 'lr_gamma': 0.5, 'bert_l2norm': 0.0, 'scheduler_type': 'ms', 'output_dir': '../output/mt-dnn_assin/bert_base/seed/2018', 'seed': 2018, 'grad_accumulation_step': 1, 'fp16': True, 'fp16_opt_level': 'O2', 'encode_mode': False, 'task_def_list': [{'kd_loss': '<LossCriterion.MseCriterion: 1>', 'loss': '<LossCriterion.MseCriterion: 1>', 'dropout_p': 'None', 'enable_san': 'False', 'split_names': "['train', 'dev', 'test']", 'metric_meta': '(<Metric.Pearson: 3>, <Metric.MSE: 11>)', 'task_type': '<TaskType.Regression: 2>', 'data_type': '<DataFormat.PremiseAndOneHypothesis: 2>', 'n_class': '1', 'label_vocab': 'None', 'self': '{}', '__class__': "<class 'experiments.exp_def.TaskDef'>"}, {'kd_loss': '<LossCriterion.MseCriterion: 1>', 'loss': '<LossCriterion.CeCriterion: 0>', 'dropout_p': 'None', 'enable_san': 'True', 'split_names': "['train', 'dev', 'test']", 'metric_meta': '(<Metric.F1MAC: 9>, <Metric.ACC: 0>)', 'task_type': '<TaskType.Classification: 1>', 'data_type': '<DataFormat.PremiseAndOneHypothesis: 2>', 'n_class': '3', 'label_vocab': '<data_utils.vocab.Vocabulary object at 0x7fc08d1dae10>', 'self': '{}', '__class__': "<class 'experiments.exp_def.TaskDef'>"}, {'kd_loss': '<LossCriterion.MseCriterion: 1>', 'loss': '<LossCriterion.MseCriterion: 1>', 'dropout_p': 'None', 'enable_san': 'False', 'split_names': "['train', 'dev', 'test']", 'metric_meta': '(<Metric.Pearson: 3>, <Metric.MSE: 11>)', 'task_type': '<TaskType.Regression: 2>', 'data_type': '<DataFormat.PremiseAndOneHypothesis: 2>', 'n_class': '1', 'label_vocab': 'None', 'self': '{}', '__class__': "<class 'experiments.exp_def.TaskDef'>"}, {'kd_loss': '<LossCriterion.MseCriterion: 1>', 'loss': '<LossCriterion.CeCriterion: 0>', 'dropout_p': 'None', 'enable_san': 'True', 'split_names': "['train', 'dev', 'test']", 'metric_meta': '(<Metric.F1MAC: 9>, <Metric.ACC: 0>)', 'task_type': '<TaskType.Classification: 1>', 'data_type': '<DataFormat.PremiseAndOneHypothesis: 2>', 'n_class': '2', 'label_vocab': '<data_utils.vocab.Vocabulary object at 0x7fc08d1daf28>', 'self': '{}', '__class__': "<class 'experiments.exp_def.TaskDef'>"}, {'kd_loss': '<LossCriterion.MseCriterion: 1>', 'loss': '<LossCriterion.CeCriterion: 0>', 'dropout_p': 'None', 'enable_san': 'True', 'split_names': "['train', 'dev', 'test']", 'metric_meta': '(<Metric.F1MAC: 9>, <Metric.ACC: 0>)', 'task_type': '<TaskType.Classification: 1>', 'data_type': '<DataFormat.PremiseAndOneHypothesis: 2>', 'n_class': '3', 'label_vocab': '<data_utils.vocab.Vocabulary object at 0x7fc08d1daeb8>', 'self': '{}', '__class__': "<class 'experiments.exp_def.TaskDef'>"}, {'kd_loss': '<LossCriterion.MseCriterion: 1>', 'loss': '<LossCriterion.MseCriterion: 1>', 'dropout_p': 'None', 'enable_san': 'False', 'split_names': "['train', 'dev', 'test']", 'metric_meta': '(<Metric.Pearson: 3>, <Metric.MSE: 11>)', 'task_type': '<TaskType.Regression: 2>', 'data_type': '<DataFormat.PremiseAndOneHypothesis: 2>', 'n_class': '1', 'label_vocab': 'None', 'self': '{}', '__class__': "<class 'experiments.exp_def.TaskDef'>"}]}
+05/11/2020 01:15:56 ####################
+05/11/2020 01:15:56 ############# Gradient Accumulation Info #############
+05/11/2020 01:15:56 number of step: 14390
+05/11/2020 01:15:56 number of grad grad_accumulation step: 1
+05/11/2020 01:15:56 adjusted number of step: 14390
+05/11/2020 01:15:56 ############# Gradient Accumulation Info #############
+I0511 01:15:56.710993 140465941767936 filelock.py:274] Lock 140464981767896 acquired on /root/.cache/torch/transformers/4dad0251492946e18ac39290fcfe91b89d370fee250efe9521476438fe8ca185.7156163d5fdc189c3016baca0775ffce230789d7fa2a42ef516483e4ca884517.lock
+I0511 01:15:56.711916 140465941767936 file_utils.py:444] https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased-config.json not found in cache or force_download set to True, downloading to /root/.cache/torch/transformers/tmpil4lax86
+Downloading:   0%|          | 0.00/433 [00:00<?, ?B/s]Downloading: 100%|██████████| 433/433 [00:00<00:00, 238kB/s]
+I0511 01:15:57.268802 140465941767936 file_utils.py:448] storing https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased-config.json in cache at /root/.cache/torch/transformers/4dad0251492946e18ac39290fcfe91b89d370fee250efe9521476438fe8ca185.7156163d5fdc189c3016baca0775ffce230789d7fa2a42ef516483e4ca884517
+I0511 01:15:57.269016 140465941767936 file_utils.py:451] creating metadata file for /root/.cache/torch/transformers/4dad0251492946e18ac39290fcfe91b89d370fee250efe9521476438fe8ca185.7156163d5fdc189c3016baca0775ffce230789d7fa2a42ef516483e4ca884517
+I0511 01:15:57.270028 140465941767936 filelock.py:318] Lock 140464981767896 released on /root/.cache/torch/transformers/4dad0251492946e18ac39290fcfe91b89d370fee250efe9521476438fe8ca185.7156163d5fdc189c3016baca0775ffce230789d7fa2a42ef516483e4ca884517.lock
+I0511 01:15:57.270418 140465941767936 configuration_utils.py:285] loading configuration file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased-config.json from cache at /root/.cache/torch/transformers/4dad0251492946e18ac39290fcfe91b89d370fee250efe9521476438fe8ca185.7156163d5fdc189c3016baca0775ffce230789d7fa2a42ef516483e4ca884517
+I0511 01:15:57.271333 140465941767936 configuration_utils.py:321] Model config BertConfig {
+  "architectures": [
+    "BertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 0,
+  "type_vocab_size": 2,
+  "vocab_size": 30522
+}
+
+I0511 01:15:57.274673 140465941767936 configuration_utils.py:321] Model config BertConfig {
+  "adam_eps": 1e-06,
+  "answer_att_hidden_size": 128,
+  "answer_att_type": "bilinear",
+  "answer_dropout_p": 0.1,
+  "answer_mem_drop_p": 0.1,
+  "answer_mem_type": 1,
+  "answer_merge_opt": 1,
+  "answer_num_turn": 5,
+  "answer_opt": 0,
+  "answer_rnn_type": "gru",
+  "answer_sum_att_type": "bilinear",
+  "answer_weight_norm_on": false,
+  "architectures": [
+    "BertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "batch_size": 8,
+  "batch_size_eval": 8,
+  "bert_dropout_p": 0.1,
+  "bert_l2norm": 0.0,
+  "bert_model_type": "bert-base-uncased",
+  "cuda": true,
+  "data_dir": "../data/input/en/bert_base_uncased_lower",
+  "data_sort_on": false,
+  "do_lower_case": false,
+  "dropout_p": 0.1,
+  "dropout_w": 0.0,
+  "dump_state_on": false,
+  "embedding_opt": 0,
+  "encode_mode": false,
+  "encoder_type": 1,
+  "epochs": 5,
+  "fp16": true,
+  "fp16_opt_level": "O2",
+  "freeze_layers": -1,
+  "global_grad_clipping": 1.0,
+  "glue_format_on": false,
+  "grad_accumulation_step": 1,
+  "grad_clipping": 0,
+  "have_lr_scheduler": true,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "init_checkpoint": "bert-base-uncased",
+  "init_ratio": 1,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-12,
+  "learning_rate": 5e-05,
+  "log_file": "mt-dnn-train.log",
+  "log_per_updates": 500,
+  "lr_gamma": 0.5,
+  "masked_lm_prob": 0.15,
+  "max_answer_len": 5,
+  "max_position_embeddings": 512,
+  "max_predictions_per_seq": 128,
+  "max_seq_len": 512,
+  "mem_cum_type": "simple",
+  "mix_opt": 0,
+  "mkd_opt": 0,
+  "model_ckpt": "checkpoints/model_0.pt",
+  "model_type": "bert",
+  "momentum": 0,
+  "mtl_opt": 0,
+  "multi_gpu_on": false,
+  "multi_step_lr": "10,20,30",
+  "name": "farmer",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "optimizer": "adamax",
+  "output_dir": "../output/mt-dnn_assin/bert_base/seed/2018",
+  "pad_token_id": 0,
+  "ratio": 0,
+  "resume": false,
+  "save_per_updates": 10000,
+  "save_per_updates_on": false,
+  "scheduler_type": "ms",
+  "seed": 2018,
+  "short_seq_prob": 0.2,
+  "task_def": "../data/task-def/assin.yaml",
+  "task_def_list": [
+    {
+      "__class__": "<class 'experiments.exp_def.TaskDef'>",
+      "data_type": "<DataFormat.PremiseAndOneHypothesis: 2>",
+      "dropout_p": "None",
+      "enable_san": "False",
+      "kd_loss": "<LossCriterion.MseCriterion: 1>",
+      "label_vocab": "None",
+      "loss": "<LossCriterion.MseCriterion: 1>",
+      "metric_meta": "(<Metric.Pearson: 3>, <Metric.MSE: 11>)",
+      "n_class": "1",
+      "self": "{}",
+      "split_names": "['train', 'dev', 'test']",
+      "task_type": "<TaskType.Regression: 2>"
+    },
+    {
+      "__class__": "<class 'experiments.exp_def.TaskDef'>",
+      "data_type": "<DataFormat.PremiseAndOneHypothesis: 2>",
+      "dropout_p": "None",
+      "enable_san": "True",
+      "kd_loss": "<LossCriterion.MseCriterion: 1>",
+      "label_vocab": "<data_utils.vocab.Vocabulary object at 0x7fc08d1dae10>",
+      "loss": "<LossCriterion.CeCriterion: 0>",
+      "metric_meta": "(<Metric.F1MAC: 9>, <Metric.ACC: 0>)",
+      "n_class": "3",
+      "self": "{}",
+      "split_names": "['train', 'dev', 'test']",
+      "task_type": "<TaskType.Classification: 1>"
+    },
+    {
+      "__class__": "<class 'experiments.exp_def.TaskDef'>",
+      "data_type": "<DataFormat.PremiseAndOneHypothesis: 2>",
+      "dropout_p": "None",
+      "enable_san": "False",
+      "kd_loss": "<LossCriterion.MseCriterion: 1>",
+      "label_vocab": "None",
+      "loss": "<LossCriterion.MseCriterion: 1>",
+      "metric_meta": "(<Metric.Pearson: 3>, <Metric.MSE: 11>)",
+      "n_class": "1",
+      "self": "{}",
+      "split_names": "['train', 'dev', 'test']",
+      "task_type": "<TaskType.Regression: 2>"
+    },
+    {
+      "__class__": "<class 'experiments.exp_def.TaskDef'>",
+      "data_type": "<DataFormat.PremiseAndOneHypothesis: 2>",
+      "dropout_p": "None",
+      "enable_san": "True",
+      "kd_loss": "<LossCriterion.MseCriterion: 1>",
+      "label_vocab": "<data_utils.vocab.Vocabulary object at 0x7fc08d1daf28>",
+      "loss": "<LossCriterion.CeCriterion: 0>",
+      "metric_meta": "(<Metric.F1MAC: 9>, <Metric.ACC: 0>)",
+      "n_class": "2",
+      "self": "{}",
+      "split_names": "['train', 'dev', 'test']",
+      "task_type": "<TaskType.Classification: 1>"
+    },
+    {
+      "__class__": "<class 'experiments.exp_def.TaskDef'>",
+      "data_type": "<DataFormat.PremiseAndOneHypothesis: 2>",
+      "dropout_p": "None",
+      "enable_san": "True",
+      "kd_loss": "<LossCriterion.MseCriterion: 1>",
+      "label_vocab": "<data_utils.vocab.Vocabulary object at 0x7fc08d1daeb8>",
+      "loss": "<LossCriterion.CeCriterion: 0>",
+      "metric_meta": "(<Metric.F1MAC: 9>, <Metric.ACC: 0>)",
+      "n_class": "3",
+      "self": "{}",
+      "split_names": "['train', 'dev', 'test']",
+      "task_type": "<TaskType.Classification: 1>"
+    },
+    {
+      "__class__": "<class 'experiments.exp_def.TaskDef'>",
+      "data_type": "<DataFormat.PremiseAndOneHypothesis: 2>",
+      "dropout_p": "None",
+      "enable_san": "False",
+      "kd_loss": "<LossCriterion.MseCriterion: 1>",
+      "label_vocab": "None",
+      "loss": "<LossCriterion.MseCriterion: 1>",
+      "metric_meta": "(<Metric.Pearson: 3>, <Metric.MSE: 11>)",
+      "n_class": "1",
+      "self": "{}",
+      "split_names": "['train', 'dev', 'test']",
+      "task_type": "<TaskType.Regression: 2>"
+    }
+  ],
+  "tensorboard": true,
+  "tensorboard_logdir": "tensorboard_logdir",
+  "test_datasets": [
+    "assin-ptbr-sts",
+    "assin-ptbr-rte",
+    "assin-ptpt-sts",
+    "assin2-rte",
+    "assin-ptpt-rte",
+    "assin2-sts"
+  ],
+  "train_datasets": [
+    "assin-ptbr-sts",
+    "assin-ptbr-rte",
+    "assin-ptpt-sts",
+    "assin2-rte",
+    "assin-ptpt-rte",
+    "assin2-sts"
+  ],
+  "type_vocab_size": 2,
+  "update_bert_opt": 0,
+  "vb_dropout": true,
+  "vocab_size": 30522,
+  "warmup": 0.1,
+  "warmup_schedule": "warmup_linear",
+  "weight_decay": 0
+}
+
+I0511 01:16:01.621341 140465941767936 filelock.py:274] Lock 140464112768112 acquired on /root/.cache/torch/transformers/f2ee78bdd635b758cc0a12352586868bef80e47401abe4c4fcc3832421e7338b.36ca03ab34a1a5d5fa7bc3d03d55c4fa650fed07220e2eeebc06ce58d0e9a157.lock
+I0511 01:16:01.622493 140465941767936 file_utils.py:444] https://cdn.huggingface.co/bert-base-uncased-pytorch_model.bin not found in cache or force_download set to True, downloading to /root/.cache/torch/transformers/tmp7kja59q9
+Downloading:   0%|          | 0.00/440M [00:00<?, ?B/s]Downloading:   0%|          | 33.8k/440M [00:00<28:50, 255kB/s]Downloading:   0%|          | 99.3k/440M [00:00<23:42, 310kB/s]Downloading:   0%|          | 213k/440M [00:00<18:31, 396kB/s] Downloading:   0%|          | 445k/440M [00:00<13:54, 527kB/s]Downloading:   0%|          | 907k/440M [00:00<10:12, 718kB/s]Downloading:   0%|          | 1.87M/440M [00:00<07:21, 994kB/s]Downloading:   1%|          | 3.53M/440M [00:00<05:15, 1.38MB/s]Downloading:   1%|▏         | 6.59M/440M [00:00<03:43, 1.94MB/s]Downloading:   2%|▏         | 9.12M/440M [00:00<02:40, 2.68MB/s]Downloading:   3%|▎         | 11.6M/440M [00:01<01:57, 3.66MB/s]Downloading:   3%|▎         | 13.7M/440M [00:01<01:27, 4.88MB/s]Downloading:   4%|▎         | 16.1M/440M [00:01<01:06, 6.41MB/s]Downloading:   4%|▍         | 18.4M/440M [00:01<00:51, 8.18MB/s]Downloading:   5%|▍         | 20.6M/440M [00:01<00:41, 10.0MB/s]Downloading:   5%|▌         | 22.8M/440M [00:01<00:36, 11.6MB/s]Downloading:   6%|▌         | 24.9M/440M [00:01<00:31, 13.1MB/s]Downloading:   6%|▌         | 26.9M/440M [00:01<00:28, 14.7MB/s]Downloading:   7%|▋         | 28.9M/440M [00:01<00:26, 15.8MB/s]Downloading:   7%|▋         | 30.9M/440M [00:01<00:24, 16.5MB/s]Downloading:   7%|▋         | 32.9M/440M [00:02<00:23, 17.2MB/s]Downloading:   8%|▊         | 35.1M/440M [00:02<00:21, 18.5MB/s]Downloading:   8%|▊         | 37.1M/440M [00:02<00:23, 17.1MB/s]Downloading:   9%|▉         | 39.0M/440M [00:02<00:22, 17.6MB/s]Downloading:   9%|▉         | 41.0M/440M [00:02<00:21, 18.2MB/s]Downloading:  10%|▉         | 43.3M/440M [00:02<00:20, 19.5MB/s]Downloading:  10%|█         | 45.4M/440M [00:02<00:20, 18.8MB/s]Downloading:  11%|█         | 47.5M/440M [00:02<00:20, 19.5MB/s]Downloading:  11%|█         | 49.5M/440M [00:02<00:20, 19.3MB/s]Downloading:  12%|█▏        | 51.4M/440M [00:03<00:20, 19.3MB/s]Downloading:  12%|█▏        | 53.6M/440M [00:03<00:19, 19.8MB/s]Downloading:  13%|█▎        | 55.8M/440M [00:03<00:18, 20.7MB/s]Downloading:  13%|█▎        | 57.9M/440M [00:03<00:18, 20.7MB/s]Downloading:  14%|█▎        | 60.1M/440M [00:03<00:18, 20.8MB/s]Downloading:  14%|█▍        | 62.3M/440M [00:03<00:17, 21.1MB/s]Downloading:  15%|█▍        | 64.4M/440M [00:03<00:18, 20.2MB/s]Downloading:  15%|█▌        | 66.4M/440M [00:03<00:20, 17.8MB/s]Downloading:  16%|█▌        | 68.3M/440M [00:04<00:27, 13.4MB/s]Downloading:  16%|█▌        | 69.8M/440M [00:04<00:37, 9.81MB/s]Downloading:  16%|█▌        | 71.1M/440M [00:04<00:37, 9.85MB/s]Downloading:  17%|█▋        | 72.9M/440M [00:04<00:32, 11.4MB/s]Downloading:  17%|█▋        | 74.3M/440M [00:04<00:30, 11.9MB/s]Downloading:  17%|█▋        | 76.3M/440M [00:04<00:26, 13.5MB/s]Downloading:  18%|█▊        | 77.8M/440M [00:04<00:26, 13.6MB/s]Downloading:  18%|█▊        | 79.3M/440M [00:05<00:32, 11.0MB/s]Downloading:  18%|█▊        | 81.0M/440M [00:05<00:29, 12.3MB/s]Downloading:  19%|█▊        | 82.5M/440M [00:05<00:32, 11.0MB/s]Downloading:  19%|█▉        | 84.4M/440M [00:05<00:27, 12.8MB/s]Downloading:  20%|█▉        | 85.9M/440M [00:05<00:34, 10.3MB/s]Downloading:  20%|█▉        | 87.2M/440M [00:05<00:40, 8.71MB/s]Downloading:  20%|██        | 88.4M/440M [00:05<00:36, 9.56MB/s]Downloading:  20%|██        | 89.5M/440M [00:06<00:46, 7.58MB/s]Downloading:  21%|██        | 91.3M/440M [00:06<00:38, 9.04MB/s]Downloading:  21%|██        | 92.5M/440M [00:06<00:43, 7.92MB/s]Downloading:  21%|██        | 93.4M/440M [00:06<00:41, 8.30MB/s]Downloading:  22%|██▏       | 95.1M/440M [00:06<00:35, 9.78MB/s]Downloading:  22%|██▏       | 96.3M/440M [00:06<00:34, 9.98MB/s]Downloading:  22%|██▏       | 98.3M/440M [00:06<00:29, 11.7MB/s]Downloading:  23%|██▎       | 99.7M/440M [00:06<00:30, 11.3MB/s]Downloading:  23%|██▎       | 101M/440M [00:07<00:45, 7.40MB/s] Downloading:  23%|██▎       | 103M/440M [00:07<00:36, 9.34MB/s]Downloading:  24%|██▍       | 105M/440M [00:07<00:36, 9.07MB/s]Downloading:  24%|██▍       | 106M/440M [00:07<00:35, 9.35MB/s]Downloading:  24%|██▍       | 108M/440M [00:07<00:30, 10.8MB/s]Downloading:  25%|██▍       | 109M/440M [00:07<00:28, 11.5MB/s]Downloading:  25%|██▌       | 111M/440M [00:07<00:25, 12.9MB/s]Downloading:  26%|██▌       | 113M/440M [00:08<00:23, 13.8MB/s]Downloading:  26%|██▌       | 114M/440M [00:08<00:24, 13.3MB/s]Downloading:  26%|██▋       | 116M/440M [00:08<00:25, 12.7MB/s]Downloading:  27%|██▋       | 117M/440M [00:08<00:25, 12.5MB/s]Downloading:  27%|██▋       | 118M/440M [00:08<00:31, 10.1MB/s]Downloading:  27%|██▋       | 120M/440M [00:08<00:28, 11.1MB/s]Downloading:  28%|██▊       | 122M/440M [00:08<00:25, 12.5MB/s]Downloading:  28%|██▊       | 124M/440M [00:08<00:21, 14.6MB/s]Downloading:  29%|██▊       | 126M/440M [00:09<00:20, 15.7MB/s]Downloading:  29%|██▉       | 128M/440M [00:09<00:19, 16.4MB/s]Downloading:  29%|██▉       | 130M/440M [00:09<00:19, 15.9MB/s]Downloading:  30%|██▉       | 132M/440M [00:09<00:18, 17.0MB/s]Downloading:  30%|███       | 134M/440M [00:09<00:20, 15.0MB/s]Downloading:  31%|███       | 135M/440M [00:09<00:25, 12.0MB/s]Downloading:  31%|███▏      | 138M/440M [00:09<00:20, 14.7MB/s]Downloading:  32%|███▏      | 140M/440M [00:09<00:21, 13.8MB/s]Downloading:  32%|███▏      | 142M/440M [00:10<00:21, 14.1MB/s]Downloading:  33%|███▎      | 144M/440M [00:10<00:20, 14.6MB/s]Downloading:  33%|███▎      | 145M/440M [00:10<00:19, 15.5MB/s]Downloading:  33%|███▎      | 147M/440M [00:10<00:19, 14.8MB/s]Downloading:  34%|███▎      | 149M/440M [00:10<00:20, 14.1MB/s]Downloading:  34%|███▍      | 151M/440M [00:10<00:18, 15.7MB/s]Downloading:  35%|███▍      | 152M/440M [00:10<00:19, 14.7MB/s]Downloading:  35%|███▍      | 154M/440M [00:11<00:31, 9.19MB/s]Downloading:  35%|███▌      | 155M/440M [00:11<00:30, 9.46MB/s]Downloading:  35%|███▌      | 156M/440M [00:11<00:37, 7.58MB/s]Downloading:  36%|███▌      | 157M/440M [00:11<00:33, 8.45MB/s]Downloading:  36%|███▌      | 159M/440M [00:11<00:30, 9.33MB/s]Downloading:  36%|███▋      | 160M/440M [00:11<00:28, 9.89MB/s]Downloading:  37%|███▋      | 161M/440M [00:11<00:35, 7.95MB/s]Downloading:  37%|███▋      | 162M/440M [00:12<00:40, 6.89MB/s]Downloading:  37%|███▋      | 164M/440M [00:12<00:32, 8.49MB/s]Downloading:  38%|███▊      | 166M/440M [00:12<00:27, 10.1MB/s]Downloading:  38%|███▊      | 167M/440M [00:12<00:31, 8.74MB/s]Downloading:  39%|███▉      | 171M/440M [00:12<00:23, 11.3MB/s]Downloading:  39%|███▉      | 173M/440M [00:12<00:21, 12.3MB/s]Downloading:  40%|███▉      | 174M/440M [00:12<00:21, 12.6MB/s]Downloading:  40%|████      | 177M/440M [00:13<00:18, 14.2MB/s]Downloading:  40%|████      | 178M/440M [00:13<00:20, 12.7MB/s]Downloading:  41%|████      | 180M/440M [00:13<00:18, 14.3MB/s]Downloading:  41%|████▏     | 182M/440M [00:13<00:17, 15.0MB/s]Downloading:  42%|████▏     | 184M/440M [00:13<00:16, 15.5MB/s]Downloading:  42%|████▏     | 186M/440M [00:13<00:15, 16.4MB/s]Downloading:  43%|████▎     | 188M/440M [00:13<00:14, 17.1MB/s]Downloading:  43%|████▎     | 190M/440M [00:13<00:13, 18.0MB/s]Downloading:  43%|████▎     | 192M/440M [00:13<00:17, 13.9MB/s]Downloading:  44%|████▍     | 194M/440M [00:14<00:15, 15.4MB/s]Downloading:  44%|████▍     | 195M/440M [00:14<00:16, 14.7MB/s]Downloading:  45%|████▍     | 198M/440M [00:14<00:14, 16.2MB/s]Downloading:  45%|████▌     | 199M/440M [00:14<00:17, 14.1MB/s]Downloading:  46%|████▌     | 202M/440M [00:14<00:14, 16.7MB/s]Downloading:  46%|████▋     | 205M/440M [00:14<00:12, 18.3MB/s]Downloading:  47%|████▋     | 207M/440M [00:14<00:12, 18.4MB/s]Downloading:  47%|████▋     | 209M/440M [00:14<00:12, 19.1MB/s]Downloading:  48%|████▊     | 211M/440M [00:15<00:12, 18.6MB/s]Downloading:  48%|████▊     | 213M/440M [00:15<00:11, 19.4MB/s]Downloading:  49%|████▉     | 215M/440M [00:15<00:12, 18.2MB/s]Downloading:  49%|████▉     | 217M/440M [00:15<00:12, 17.4MB/s]Downloading:  50%|████▉     | 219M/440M [00:15<00:13, 16.3MB/s]Downloading:  50%|█████     | 221M/440M [00:15<00:12, 17.5MB/s]Downloading:  51%|█████     | 223M/440M [00:15<00:14, 15.5MB/s]Downloading:  51%|█████     | 225M/440M [00:15<00:13, 16.2MB/s]Downloading:  51%|█████▏    | 227M/440M [00:15<00:13, 16.4MB/s]Downloading:  52%|█████▏    | 228M/440M [00:16<00:17, 11.9MB/s]Downloading:  52%|█████▏    | 230M/440M [00:16<00:18, 11.4MB/s]Downloading:  52%|█████▏    | 231M/440M [00:16<00:21, 9.64MB/s]Downloading:  53%|█████▎    | 232M/440M [00:16<00:24, 8.35MB/s]Downloading:  53%|█████▎    | 233M/440M [00:16<00:22, 9.29MB/s]Downloading:  53%|█████▎    | 234M/440M [00:17<00:31, 6.49MB/s]Downloading:  54%|█████▎    | 236M/440M [00:17<00:26, 7.67MB/s]Downloading:  54%|█████▍    | 237M/440M [00:17<00:24, 8.27MB/s]Downloading:  54%|█████▍    | 238M/440M [00:17<00:24, 8.34MB/s]Downloading:  54%|█████▍    | 239M/440M [00:17<00:20, 9.73MB/s]Downloading:  55%|█████▍    | 241M/440M [00:17<00:19, 10.4MB/s]Downloading:  55%|█████▍    | 242M/440M [00:17<00:18, 10.8MB/s]Downloading:  55%|█████▌    | 244M/440M [00:17<00:16, 12.2MB/s]Downloading:  56%|█████▌    | 245M/440M [00:17<00:19, 10.2MB/s]Downloading:  56%|█████▌    | 246M/440M [00:18<00:18, 10.7MB/s]Downloading:  56%|█████▋    | 248M/440M [00:18<00:15, 12.6MB/s]Downloading:  57%|█████▋    | 250M/440M [00:18<00:17, 10.8MB/s]Downloading:  57%|█████▋    | 251M/440M [00:18<00:19, 9.50MB/s]Downloading:  58%|█████▊    | 254M/440M [00:18<00:16, 11.5MB/s]Downloading:  58%|█████▊    | 255M/440M [00:18<00:15, 12.2MB/s]Downloading:  58%|█████▊    | 257M/440M [00:18<00:13, 13.6MB/s]Downloading:  59%|█████▉    | 259M/440M [00:18<00:11, 15.5MB/s]Downloading:  59%|█████▉    | 261M/440M [00:19<00:12, 14.7MB/s]Downloading:  60%|█████▉    | 263M/440M [00:19<00:13, 13.6MB/s]Downloading:  60%|██████    | 265M/440M [00:19<00:11, 15.2MB/s]Downloading:  61%|██████    | 267M/440M [00:19<00:10, 16.0MB/s]Downloading:  61%|██████    | 268M/440M [00:19<00:13, 12.3MB/s]Downloading:  62%|██████▏   | 272M/440M [00:19<00:11, 15.2MB/s]Downloading:  62%|██████▏   | 274M/440M [00:19<00:09, 17.0MB/s]Downloading:  63%|██████▎   | 276M/440M [00:19<00:09, 18.0MB/s]Downloading:  63%|██████▎   | 278M/440M [00:20<00:08, 18.7MB/s]Downloading:  64%|██████▎   | 281M/440M [00:20<00:08, 19.2MB/s]Downloading:  64%|██████▍   | 283M/440M [00:20<00:08, 18.7MB/s]Downloading:  65%|██████▍   | 285M/440M [00:20<00:08, 19.3MB/s]Downloading:  65%|██████▌   | 287M/440M [00:20<00:07, 20.0MB/s]Downloading:  66%|██████▌   | 289M/440M [00:20<00:07, 20.1MB/s]Downloading:  66%|██████▌   | 291M/440M [00:20<00:07, 18.8MB/s]Downloading:  67%|██████▋   | 293M/440M [00:20<00:08, 18.3MB/s]Downloading:  67%|██████▋   | 295M/440M [00:20<00:07, 19.8MB/s]Downloading:  68%|██████▊   | 298M/440M [00:21<00:07, 19.2MB/s]Downloading:  68%|██████▊   | 299M/440M [00:21<00:08, 17.3MB/s]Downloading:  68%|██████▊   | 301M/440M [00:21<00:11, 12.4MB/s]Downloading:  69%|██████▉   | 305M/440M [00:21<00:08, 15.4MB/s]Downloading:  70%|██████▉   | 308M/440M [00:21<00:07, 17.8MB/s]Downloading:  70%|███████   | 310M/440M [00:21<00:06, 19.4MB/s]Downloading:  71%|███████   | 313M/440M [00:21<00:06, 20.1MB/s]Downloading:  71%|███████▏  | 315M/440M [00:21<00:07, 17.7MB/s]Downloading:  72%|███████▏  | 317M/440M [00:22<00:07, 17.5MB/s]Downloading:  72%|███████▏  | 319M/440M [00:22<00:07, 17.3MB/s]Downloading:  73%|███████▎  | 321M/440M [00:22<00:06, 18.7MB/s]Downloading:  73%|███████▎  | 323M/440M [00:22<00:06, 18.4MB/s]Downloading:  74%|███████▍  | 325M/440M [00:22<00:06, 16.7MB/s]Downloading:  74%|███████▍  | 327M/440M [00:22<00:06, 16.3MB/s]Downloading:  75%|███████▍  | 329M/440M [00:22<00:06, 17.7MB/s]Downloading:  75%|███████▌  | 331M/440M [00:22<00:06, 16.3MB/s]Downloading:  76%|███████▌  | 333M/440M [00:23<00:06, 16.7MB/s]Downloading:  76%|███████▌  | 335M/440M [00:23<00:08, 12.5MB/s]Downloading:  77%|███████▋  | 338M/440M [00:23<00:06, 15.5MB/s]Downloading:  77%|███████▋  | 340M/440M [00:23<00:10, 9.89MB/s]Downloading:  78%|███████▊  | 343M/440M [00:23<00:07, 12.4MB/s]Downloading:  78%|███████▊  | 346M/440M [00:23<00:06, 14.5MB/s]Downloading:  79%|███████▉  | 348M/440M [00:24<00:11, 8.18MB/s]Downloading:  79%|███████▉  | 350M/440M [00:24<00:11, 7.95MB/s]Downloading:  80%|███████▉  | 351M/440M [00:24<00:10, 8.72MB/s]Downloading:  80%|████████  | 353M/440M [00:25<00:08, 10.6MB/s]Downloading:  81%|████████  | 355M/440M [00:25<00:06, 12.3MB/s]Downloading:  81%|████████  | 357M/440M [00:25<00:06, 13.5MB/s]Downloading:  81%|████████▏ | 359M/440M [00:25<00:05, 14.1MB/s]Downloading:  82%|████████▏ | 361M/440M [00:25<00:05, 15.1MB/s]Downloading:  82%|████████▏ | 363M/440M [00:25<00:04, 17.0MB/s]Downloading:  83%|████████▎ | 365M/440M [00:25<00:04, 18.2MB/s]Downloading:  83%|████████▎ | 367M/440M [00:25<00:03, 18.5MB/s]Downloading:  84%|████████▍ | 369M/440M [00:25<00:05, 13.7MB/s]Downloading:  85%|████████▍ | 373M/440M [00:26<00:04, 16.8MB/s]Downloading:  85%|████████▌ | 375M/440M [00:26<00:04, 15.3MB/s]Downloading:  86%|████████▌ | 377M/440M [00:26<00:03, 17.6MB/s]Downloading:  86%|████████▋ | 380M/440M [00:26<00:03, 19.3MB/s]Downloading:  87%|████████▋ | 382M/440M [00:26<00:02, 20.0MB/s]Downloading:  87%|████████▋ | 384M/440M [00:26<00:02, 19.6MB/s]Downloading:  88%|████████▊ | 387M/440M [00:26<00:02, 19.1MB/s]Downloading:  88%|████████▊ | 389M/440M [00:26<00:02, 20.0MB/s]Downloading:  89%|████████▉ | 391M/440M [00:26<00:02, 19.8MB/s]Downloading:  89%|████████▉ | 393M/440M [00:27<00:02, 19.7MB/s]Downloading:  90%|████████▉ | 395M/440M [00:27<00:02, 18.7MB/s]Downloading:  90%|█████████ | 397M/440M [00:27<00:02, 18.7MB/s]Downloading:  91%|█████████ | 399M/440M [00:27<00:02, 17.9MB/s]Downloading:  91%|█████████ | 401M/440M [00:27<00:02, 17.9MB/s]Downloading:  91%|█████████▏| 402M/440M [00:27<00:02, 13.2MB/s]Downloading:  92%|█████████▏| 406M/440M [00:27<00:02, 16.3MB/s]Downloading:  93%|█████████▎| 408M/440M [00:27<00:01, 17.4MB/s]Downloading:  93%|█████████▎| 410M/440M [00:28<00:01, 18.8MB/s]Downloading:  94%|█████████▎| 413M/440M [00:28<00:01, 15.2MB/s]Downloading:  94%|█████████▍| 414M/440M [00:28<00:01, 15.3MB/s]Downloading:  94%|█████████▍| 416M/440M [00:28<00:01, 15.4MB/s]Downloading:  95%|█████████▍| 418M/440M [00:28<00:01, 16.1MB/s]Downloading:  95%|█████████▌| 420M/440M [00:28<00:01, 13.5MB/s]Downloading:  96%|█████████▌| 421M/440M [00:28<00:01, 11.3MB/s]Downloading:  96%|█████████▌| 423M/440M [00:29<00:01, 10.6MB/s]Downloading:  96%|█████████▌| 424M/440M [00:29<00:01, 8.46MB/s]Downloading:  96%|█████████▋| 425M/440M [00:29<00:01, 8.01MB/s]Downloading:  97%|█████████▋| 426M/440M [00:29<00:01, 8.33MB/s]Downloading:  97%|█████████▋| 427M/440M [00:29<00:01, 9.00MB/s]Downloading:  97%|█████████▋| 428M/440M [00:29<00:01, 8.80MB/s]Downloading:  97%|█████████▋| 429M/440M [00:29<00:01, 9.54MB/s]Downloading:  98%|█████████▊| 431M/440M [00:29<00:00, 11.5MB/s]Downloading:  98%|█████████▊| 433M/440M [00:30<00:00, 12.0MB/s]Downloading:  99%|█████████▊| 435M/440M [00:30<00:00, 10.8MB/s]Downloading: 100%|█████████▉| 439M/440M [00:30<00:00, 13.7MB/s]Downloading: 100%|██████████| 440M/440M [00:30<00:00, 14.4MB/s]
+I0511 01:16:32.550468 140465941767936 file_utils.py:448] storing https://cdn.huggingface.co/bert-base-uncased-pytorch_model.bin in cache at /root/.cache/torch/transformers/f2ee78bdd635b758cc0a12352586868bef80e47401abe4c4fcc3832421e7338b.36ca03ab34a1a5d5fa7bc3d03d55c4fa650fed07220e2eeebc06ce58d0e9a157
+I0511 01:16:32.551347 140465941767936 file_utils.py:451] creating metadata file for /root/.cache/torch/transformers/f2ee78bdd635b758cc0a12352586868bef80e47401abe4c4fcc3832421e7338b.36ca03ab34a1a5d5fa7bc3d03d55c4fa650fed07220e2eeebc06ce58d0e9a157
+I0511 01:16:32.552201 140465941767936 filelock.py:318] Lock 140464112768112 released on /root/.cache/torch/transformers/f2ee78bdd635b758cc0a12352586868bef80e47401abe4c4fcc3832421e7338b.36ca03ab34a1a5d5fa7bc3d03d55c4fa650fed07220e2eeebc06ce58d0e9a157.lock
+I0511 01:16:32.552448 140465941767936 modeling_utils.py:617] loading weights file https://cdn.huggingface.co/bert-base-uncased-pytorch_model.bin from cache at /root/.cache/torch/transformers/f2ee78bdd635b758cc0a12352586868bef80e47401abe4c4fcc3832421e7338b.36ca03ab34a1a5d5fa7bc3d03d55c4fa650fed07220e2eeebc06ce58d0e9a157
+Selected optimization level O2:  FP16 training with FP32 batchnorm and FP32 master weights.
+
+Defaults for this optimization level are:
+enabled                : True
+opt_level              : O2
+cast_model_type        : torch.float16
+patch_torch_functions  : False
+keep_batchnorm_fp32    : True
+master_weights         : True
+loss_scale             : dynamic
+Processing user overrides (additional kwargs that are not None)...
+After processing overrides, optimization options are:
+enabled                : True
+opt_level              : O2
+cast_model_type        : torch.float16
+patch_torch_functions  : False
+keep_batchnorm_fp32    : True
+master_weights         : True
+loss_scale             : dynamic
+05/11/2020 01:16:39 
+############# Model Arch of MT-DNN #############
+SANBertNetwork(
+  (dropout_list): ModuleList(
+    (0): DropoutWrapper()
+    (1): DropoutWrapper()
+    (2): DropoutWrapper()
+    (3): DropoutWrapper()
+    (4): DropoutWrapper()
+    (5): DropoutWrapper()
+  )
+  (bert): BertModel(
+    (embeddings): BertEmbeddings(
+      (word_embeddings): Embedding(30522, 768, padding_idx=0)
+      (position_embeddings): Embedding(512, 768)
+      (token_type_embeddings): Embedding(2, 768)
+      (LayerNorm): LayerNorm(torch.Size([768]), eps=1e-12, elementwise_affine=True)
+      (dropout): Dropout(p=0.1)
+    )
+    (encoder): BertEncoder(
+      (layer): ModuleList(
+        (0): BertLayer(
+          (attention): BertAttention(
+            (self): BertSelfAttention(
+              (query): Linear(in_features=768, out_features=768, bias=True)
+              (key): Linear(in_features=768, out_features=768, bias=True)
+              (value): Linear(in_features=768, out_features=768, bias=True)
+              (dropout): Dropout(p=0.1)
+            )
+            (output): BertSelfOutput(
+              (dense): Linear(in_features=768, out_features=768, bias=True)
+              (LayerNorm): LayerNorm(torch.Size([768]), eps=1e-12, elementwise_affine=True)
+              (dropout): Dropout(p=0.1)
+            )
+          )
+          (intermediate): BertIntermediate(
+            (dense): Linear(in_features=768, out_features=3072, bias=True)
+          )
+          (output): BertOutput(
+            (dense): Linear(in_features=3072, out_features=768, bias=True)
+            (LayerNorm): LayerNorm(torch.Size([768]), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1)
+          )
+        )
+        (1): BertLayer(
+          (attention): BertAttention(
+            (self): BertSelfAttention(
+              (query): Linear(in_features=768, out_features=768, bias=True)
+              (key): Linear(in_features=768, out_features=768, bias=True)
+              (value): Linear(in_features=768, out_features=768, bias=True)
+              (dropout): Dropout(p=0.1)
+            )
+            (output): BertSelfOutput(
+              (dense): Linear(in_features=768, out_features=768, bias=True)
+              (LayerNorm): LayerNorm(torch.Size([768]), eps=1e-12, elementwise_affine=True)
+              (dropout): Dropout(p=0.1)
+            )
+          )
+          (intermediate): BertIntermediate(
+            (dense): Linear(in_features=768, out_features=3072, bias=True)
+          )
+          (output): BertOutput(
+            (dense): Linear(in_features=3072, out_features=768, bias=True)
+            (LayerNorm): LayerNorm(torch.Size([768]), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1)
+          )
+        )
+        (2): BertLayer(
+          (attention): BertAttention(
+            (self): BertSelfAttention(
+              (query): Linear(in_features=768, out_features=768, bias=True)
+              (key): Linear(in_features=768, out_features=768, bias=True)
+              (value): Linear(in_features=768, out_features=768, bias=True)
+              (dropout): Dropout(p=0.1)
+            )
+            (output): BertSelfOutput(
+              (dense): Linear(in_features=768, out_features=768, bias=True)
+              (LayerNorm): LayerNorm(torch.Size([768]), eps=1e-12, elementwise_affine=True)
+              (dropout): Dropout(p=0.1)
+            )
+          )
+          (intermediate): BertIntermediate(
+            (dense): Linear(in_features=768, out_features=3072, bias=True)
+          )
+          (output): BertOutput(
+            (dense): Linear(in_features=3072, out_features=768, bias=True)
+            (LayerNorm): LayerNorm(torch.Size([768]), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1)
+          )
+        )
+        (3): BertLayer(
+          (attention): BertAttention(
+            (self): BertSelfAttention(
+              (query): Linear(in_features=768, out_features=768, bias=True)
+              (key): Linear(in_features=768, out_features=768, bias=True)
+              (value): Linear(in_features=768, out_features=768, bias=True)
+              (dropout): Dropout(p=0.1)
+            )
+            (output): BertSelfOutput(
+              (dense): Linear(in_features=768, out_features=768, bias=True)
+              (LayerNorm): LayerNorm(torch.Size([768]), eps=1e-12, elementwise_affine=True)
+              (dropout): Dropout(p=0.1)
+            )
+          )
+          (intermediate): BertIntermediate(
+            (dense): Linear(in_features=768, out_features=3072, bias=True)
+          )
+          (output): BertOutput(
+            (dense): Linear(in_features=3072, out_features=768, bias=True)
+            (LayerNorm): LayerNorm(torch.Size([768]), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1)
+          )
+        )
+        (4): BertLayer(
+          (attention): BertAttention(
+            (self): BertSelfAttention(
+              (query): Linear(in_features=768, out_features=768, bias=True)
+              (key): Linear(in_features=768, out_features=768, bias=True)
+              (value): Linear(in_features=768, out_features=768, bias=True)
+              (dropout): Dropout(p=0.1)
+            )
+            (output): BertSelfOutput(
+              (dense): Linear(in_features=768, out_features=768, bias=True)
+              (LayerNorm): LayerNorm(torch.Size([768]), eps=1e-12, elementwise_affine=True)
+              (dropout): Dropout(p=0.1)
+            )
+          )
+          (intermediate): BertIntermediate(
+            (dense): Linear(in_features=768, out_features=3072, bias=True)
+          )
+          (output): BertOutput(
+            (dense): Linear(in_features=3072, out_features=768, bias=True)
+            (LayerNorm): LayerNorm(torch.Size([768]), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1)
+          )
+        )
+        (5): BertLayer(
+          (attention): BertAttention(
+            (self): BertSelfAttention(
+              (query): Linear(in_features=768, out_features=768, bias=True)
+              (key): Linear(in_features=768, out_features=768, bias=True)
+              (value): Linear(in_features=768, out_features=768, bias=True)
+              (dropout): Dropout(p=0.1)
+            )
+            (output): BertSelfOutput(
+              (dense): Linear(in_features=768, out_features=768, bias=True)
+              (LayerNorm): LayerNorm(torch.Size([768]), eps=1e-12, elementwise_affine=True)
+              (dropout): Dropout(p=0.1)
+            )
+          )
+          (intermediate): BertIntermediate(
+            (dense): Linear(in_features=768, out_features=3072, bias=True)
+          )
+          (output): BertOutput(
+            (dense): Linear(in_features=3072, out_features=768, bias=True)
+            (LayerNorm): LayerNorm(torch.Size([768]), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1)
+          )
+        )
+        (6): BertLayer(
+          (attention): BertAttention(
+            (self): BertSelfAttention(
+              (query): Linear(in_features=768, out_features=768, bias=True)
+              (key): Linear(in_features=768, out_features=768, bias=True)
+              (value): Linear(in_features=768, out_features=768, bias=True)
+              (dropout): Dropout(p=0.1)
+            )
+            (output): BertSelfOutput(
+              (dense): Linear(in_features=768, out_features=768, bias=True)
+              (LayerNorm): LayerNorm(torch.Size([768]), eps=1e-12, elementwise_affine=True)
+              (dropout): Dropout(p=0.1)
+            )
+          )
+          (intermediate): BertIntermediate(
+            (dense): Linear(in_features=768, out_features=3072, bias=True)
+          )
+          (output): BertOutput(
+            (dense): Linear(in_features=3072, out_features=768, bias=True)
+            (LayerNorm): LayerNorm(torch.Size([768]), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1)
+          )
+        )
+        (7): BertLayer(
+          (attention): BertAttention(
+            (self): BertSelfAttention(
+              (query): Linear(in_features=768, out_features=768, bias=True)
+              (key): Linear(in_features=768, out_features=768, bias=True)
+              (value): Linear(in_features=768, out_features=768, bias=True)
+              (dropout): Dropout(p=0.1)
+            )
+            (output): BertSelfOutput(
+              (dense): Linear(in_features=768, out_features=768, bias=True)
+              (LayerNorm): LayerNorm(torch.Size([768]), eps=1e-12, elementwise_affine=True)
+              (dropout): Dropout(p=0.1)
+            )
+          )
+          (intermediate): BertIntermediate(
+            (dense): Linear(in_features=768, out_features=3072, bias=True)
+          )
+          (output): BertOutput(
+            (dense): Linear(in_features=3072, out_features=768, bias=True)
+            (LayerNorm): LayerNorm(torch.Size([768]), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1)
+          )
+        )
+        (8): BertLayer(
+          (attention): BertAttention(
+            (self): BertSelfAttention(
+              (query): Linear(in_features=768, out_features=768, bias=True)
+              (key): Linear(in_features=768, out_features=768, bias=True)
+              (value): Linear(in_features=768, out_features=768, bias=True)
+              (dropout): Dropout(p=0.1)
+            )
+            (output): BertSelfOutput(
+              (dense): Linear(in_features=768, out_features=768, bias=True)
+              (LayerNorm): LayerNorm(torch.Size([768]), eps=1e-12, elementwise_affine=True)
+              (dropout): Dropout(p=0.1)
+            )
+          )
+          (intermediate): BertIntermediate(
+            (dense): Linear(in_features=768, out_features=3072, bias=True)
+          )
+          (output): BertOutput(
+            (dense): Linear(in_features=3072, out_features=768, bias=True)
+            (LayerNorm): LayerNorm(torch.Size([768]), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1)
+          )
+        )
+        (9): BertLayer(
+          (attention): BertAttention(
+            (self): BertSelfAttention(
+              (query): Linear(in_features=768, out_features=768, bias=True)
+              (key): Linear(in_features=768, out_features=768, bias=True)
+              (value): Linear(in_features=768, out_features=768, bias=True)
+              (dropout): Dropout(p=0.1)
+            )
+            (output): BertSelfOutput(
+              (dense): Linear(in_features=768, out_features=768, bias=True)
+              (LayerNorm): LayerNorm(torch.Size([768]), eps=1e-12, elementwise_affine=True)
+              (dropout): Dropout(p=0.1)
+            )
+          )
+          (intermediate): BertIntermediate(
+            (dense): Linear(in_features=768, out_features=3072, bias=True)
+          )
+          (output): BertOutput(
+            (dense): Linear(in_features=3072, out_features=768, bias=True)
+            (LayerNorm): LayerNorm(torch.Size([768]), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1)
+          )
+        )
+        (10): BertLayer(
+          (attention): BertAttention(
+            (self): BertSelfAttention(
+              (query): Linear(in_features=768, out_features=768, bias=True)
+              (key): Linear(in_features=768, out_features=768, bias=True)
+              (value): Linear(in_features=768, out_features=768, bias=True)
+              (dropout): Dropout(p=0.1)
+            )
+            (output): BertSelfOutput(
+              (dense): Linear(in_features=768, out_features=768, bias=True)
+              (LayerNorm): LayerNorm(torch.Size([768]), eps=1e-12, elementwise_affine=True)
+              (dropout): Dropout(p=0.1)
+            )
+          )
+          (intermediate): BertIntermediate(
+            (dense): Linear(in_features=768, out_features=3072, bias=True)
+          )
+          (output): BertOutput(
+            (dense): Linear(in_features=3072, out_features=768, bias=True)
+            (LayerNorm): LayerNorm(torch.Size([768]), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1)
+          )
+        )
+        (11): BertLayer(
+          (attention): BertAttention(
+            (self): BertSelfAttention(
+              (query): Linear(in_features=768, out_features=768, bias=True)
+              (key): Linear(in_features=768, out_features=768, bias=True)
+              (value): Linear(in_features=768, out_features=768, bias=True)
+              (dropout): Dropout(p=0.1)
+            )
+            (output): BertSelfOutput(
+              (dense): Linear(in_features=768, out_features=768, bias=True)
+              (LayerNorm): LayerNorm(torch.Size([768]), eps=1e-12, elementwise_affine=True)
+              (dropout): Dropout(p=0.1)
+            )
+          )
+          (intermediate): BertIntermediate(
+            (dense): Linear(in_features=768, out_features=3072, bias=True)
+          )
+          (output): BertOutput(
+            (dense): Linear(in_features=3072, out_features=768, bias=True)
+            (LayerNorm): LayerNorm(torch.Size([768]), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1)
+          )
+        )
+      )
+    )
+    (pooler): BertPooler(
+      (dense): Linear(in_features=768, out_features=768, bias=True)
+      (activation): Tanh()
+    )
+  )
+  (scoring_list): ModuleList(
+    (0): Linear(in_features=768, out_features=1, bias=True)
+    (1): Linear(in_features=768, out_features=3, bias=True)
+    (2): Linear(in_features=768, out_features=1, bias=True)
+    (3): Linear(in_features=768, out_features=2, bias=True)
+    (4): Linear(in_features=768, out_features=3, bias=True)
+    (5): Linear(in_features=768, out_features=1, bias=True)
+  )
+)
+
+05/11/2020 01:16:39 Total number of params: 109490699
+05/11/2020 01:16:39 At epoch 0
+05/11/2020 01:16:39 Task [ 3] updates[     1] train loss[0.51470] remaining[0:34:10]
+Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 32768.0
+Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 16384.0
+Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 8192.0
+Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 4096.0
+05/11/2020 01:18:22 Task [ 3] updates[   500] train loss[4.21802] remaining[0:08:10]
+05/11/2020 01:20:05 Task [ 1] updates[  1000] train loss[2.62086] remaining[0:06:26]
+05/11/2020 01:21:46 Task [ 3] updates[  1500] train loss[1.94520] remaining[0:04:42]
+05/11/2020 01:23:28 Task [ 0] updates[  2000] train loss[1.57079] remaining[0:02:59]
+Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 4096.0
+05/11/2020 01:25:10 Task [ 5] updates[  2500] train loss[1.33533] remaining[0:01:17]
+predicting 0
+05/11/2020 01:26:29 Task assin-ptbr-sts -- epoch 0 -- Dev Pearson: 74.339
+05/11/2020 01:26:29 Task assin-ptbr-sts -- epoch 0 -- Dev MSE: 10.038
+predicting 0
+predicting 100
+predicting 200
+05/11/2020 01:26:35 [new test scores saved.]
+predicting 0
+05/11/2020 01:26:36 Task assin-ptbr-rte -- epoch 0 -- Dev F1MAC: 52.525
+05/11/2020 01:26:36 Task assin-ptbr-rte -- epoch 0 -- Dev ACC: 84.400
+predicting 0
+predicting 100
+predicting 200
+05/11/2020 01:26:42 [new test scores saved.]
+predicting 0
+05/11/2020 01:26:44 Task assin-ptpt-sts -- epoch 0 -- Dev Pearson: 81.202
+05/11/2020 01:26:44 Task assin-ptpt-sts -- epoch 0 -- Dev MSE: 10.606
+predicting 0
+predicting 100
+predicting 200
+05/11/2020 01:26:50 [new test scores saved.]
+predicting 0
+05/11/2020 01:26:52 Task assin2-rte -- epoch 0 -- Dev F1MAC: 90.199
+05/11/2020 01:26:52 Task assin2-rte -- epoch 0 -- Dev ACC: 90.200
+predicting 0
+predicting 100
+predicting 200
+predicting 300
+05/11/2020 01:26:59 [new test scores saved.]
+predicting 0
+05/11/2020 01:27:00 Task assin-ptpt-rte -- epoch 0 -- Dev F1MAC: 54.359
+05/11/2020 01:27:00 Task assin-ptpt-rte -- epoch 0 -- Dev ACC: 82.600
+predicting 0
+predicting 100
+predicting 200
+05/11/2020 01:27:07 [new test scores saved.]
+predicting 0
+05/11/2020 01:27:08 Task assin2-sts -- epoch 0 -- Dev Pearson: 85.032
+05/11/2020 01:27:08 Task assin2-sts -- epoch 0 -- Dev MSE: 16.447
+predicting 0
+predicting 100
+predicting 200
+predicting 300
+05/11/2020 01:27:15 [new test scores saved.]
+/opt/conda/lib/python3.6/site-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/opt/conda/lib/python3.6/site-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+I0511 01:27:17.166954 140465941767936 model.py:278] model saved to /container/mt-dnn_port/output/mt-dnn_assin/bert_base/seed/2018/model_0.pt
+05/11/2020 01:27:17 At epoch 1
+05/11/2020 01:27:42 Task [ 3] updates[  3000] train loss[1.17728] remaining[0:09:30]
+05/11/2020 01:29:24 Task [ 0] updates[  3500] train loss[1.05902] remaining[0:07:42]
+05/11/2020 01:31:05 Task [ 5] updates[  4000] train loss[0.97014] remaining[0:05:57]
+Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 4096.0
+05/11/2020 01:32:48 Task [ 3] updates[  4500] train loss[0.89313] remaining[0:04:16]
+Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 2048.0
+05/11/2020 01:34:29 Task [ 2] updates[  5000] train loss[0.83116] remaining[0:02:34]
+05/11/2020 01:36:12 Task [ 5] updates[  5500] train loss[0.77932] remaining[0:00:52]
+Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 1024.0
+predicting 0
+05/11/2020 01:37:06 Task assin-ptbr-sts -- epoch 1 -- Dev Pearson: 79.128
+05/11/2020 01:37:06 Task assin-ptbr-sts -- epoch 1 -- Dev MSE: 10.038
+predicting 0
+predicting 100
+predicting 200
+05/11/2020 01:37:11 [new test scores saved.]
+predicting 0
+05/11/2020 01:37:13 Task assin-ptbr-rte -- epoch 1 -- Dev F1MAC: 54.087
+05/11/2020 01:37:13 Task assin-ptbr-rte -- epoch 1 -- Dev ACC: 87.200
+predicting 0
+predicting 100
+predicting 200
+05/11/2020 01:37:19 [new test scores saved.]
+predicting 0
+05/11/2020 01:37:20 Task assin-ptpt-sts -- epoch 1 -- Dev Pearson: 83.857
+05/11/2020 01:37:20 Task assin-ptpt-sts -- epoch 1 -- Dev MSE: 10.606
+predicting 0
+predicting 100
+predicting 200
+05/11/2020 01:37:26 [new test scores saved.]
+predicting 0
+05/11/2020 01:37:28 Task assin2-rte -- epoch 1 -- Dev F1MAC: 94.000
+05/11/2020 01:37:28 Task assin2-rte -- epoch 1 -- Dev ACC: 94.000
+predicting 0
+predicting 100
+predicting 200
+predicting 300
+05/11/2020 01:37:35 [new test scores saved.]
+predicting 0
+05/11/2020 01:37:36 Task assin-ptpt-rte -- epoch 1 -- Dev F1MAC: 68.083
+05/11/2020 01:37:36 Task assin-ptpt-rte -- epoch 1 -- Dev ACC: 86.400
+predicting 0
+predicting 100
+predicting 200
+05/11/2020 01:37:42 [new test scores saved.]
+predicting 0
+05/11/2020 01:37:44 Task assin2-sts -- epoch 1 -- Dev Pearson: 89.095
+05/11/2020 01:37:44 Task assin2-sts -- epoch 1 -- Dev MSE: 16.447
+predicting 0
+predicting 100
+predicting 200
+predicting 300
+05/11/2020 01:37:51 [new test scores saved.]
+/opt/conda/lib/python3.6/site-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+I0511 01:37:52.958221 140465941767936 model.py:278] model saved to /container/mt-dnn_port/output/mt-dnn_assin/bert_base/seed/2018/model_1.pt
+05/11/2020 01:37:52 At epoch 2
+05/11/2020 01:38:37 Task [ 0] updates[  6000] train loss[0.73569] remaining[0:07:55]
+05/11/2020 01:40:05 Task [ 5] updates[  6500] train loss[0.69803] remaining[0:06:19]
+05/11/2020 01:41:24 Task [ 5] updates[  7000] train loss[0.66459] remaining[0:04:38]
+05/11/2020 01:42:54 Task [ 3] updates[  7500] train loss[0.63235] remaining[0:03:16]
+05/11/2020 01:44:37 Task [ 4] updates[  8000] train loss[0.60430] remaining[0:01:54]
+05/11/2020 01:46:21 Task [ 5] updates[  8500] train loss[0.57968] remaining[0:00:24]
+predicting 0
+05/11/2020 01:46:50 Task assin-ptbr-sts -- epoch 2 -- Dev Pearson: 79.289
+05/11/2020 01:46:50 Task assin-ptbr-sts -- epoch 2 -- Dev MSE: 10.038
+predicting 0
+predicting 100
+predicting 200
+05/11/2020 01:46:57 [new test scores saved.]
+predicting 0
+05/11/2020 01:46:58 Task assin-ptbr-rte -- epoch 2 -- Dev F1MAC: 57.616
+05/11/2020 01:46:58 Task assin-ptbr-rte -- epoch 2 -- Dev ACC: 87.400
+predicting 0
+predicting 100
+predicting 200
+05/11/2020 01:47:04 [new test scores saved.]
+predicting 0
+05/11/2020 01:47:06 Task assin-ptpt-sts -- epoch 2 -- Dev Pearson: 84.257
+05/11/2020 01:47:06 Task assin-ptpt-sts -- epoch 2 -- Dev MSE: 10.606
+predicting 0
+predicting 100
+predicting 200
+05/11/2020 01:47:12 [new test scores saved.]
+predicting 0
+05/11/2020 01:47:14 Task assin2-rte -- epoch 2 -- Dev F1MAC: 94.397
+05/11/2020 01:47:14 Task assin2-rte -- epoch 2 -- Dev ACC: 94.400
+predicting 0
+predicting 100
+predicting 200
+predicting 300
+05/11/2020 01:47:21 [new test scores saved.]
+predicting 0
+05/11/2020 01:47:23 Task assin-ptpt-rte -- epoch 2 -- Dev F1MAC: 74.364
+05/11/2020 01:47:23 Task assin-ptpt-rte -- epoch 2 -- Dev ACC: 87.800
+predicting 0
+predicting 100
+predicting 200
+05/11/2020 01:47:29 [new test scores saved.]
+predicting 0
+05/11/2020 01:47:31 Task assin2-sts -- epoch 2 -- Dev Pearson: 90.612
+05/11/2020 01:47:31 Task assin2-sts -- epoch 2 -- Dev MSE: 16.447
+predicting 0
+predicting 100
+predicting 200
+predicting 300
+05/11/2020 01:47:38 [new test scores saved.]
+/opt/conda/lib/python3.6/site-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+I0511 01:47:39.865160 140465941767936 model.py:278] model saved to /container/mt-dnn_port/output/mt-dnn_assin/bert_base/seed/2018/model_2.pt
+05/11/2020 01:47:39 At epoch 3
+05/11/2020 01:48:54 Task [ 3] updates[  9000] train loss[0.55761] remaining[0:08:34]
+05/11/2020 01:50:36 Task [ 4] updates[  9500] train loss[0.53750] remaining[0:06:51]
+05/11/2020 01:52:16 Task [ 1] updates[ 10000] train loss[0.51909] remaining[0:05:05]
+Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 2048.0
+05/11/2020 01:53:58 Task [ 1] updates[ 10500] train loss[0.50047] remaining[0:03:25]
+05/11/2020 01:55:42 Task [ 3] updates[ 11000] train loss[0.48399] remaining[0:01:44]
+05/11/2020 01:57:23 Task [ 2] updates[ 11500] train loss[0.46961] remaining[0:00:02]
+predicting 0
+05/11/2020 01:57:27 Task assin-ptbr-sts -- epoch 3 -- Dev Pearson: 78.548
+05/11/2020 01:57:27 Task assin-ptbr-sts -- epoch 3 -- Dev MSE: 10.038
+predicting 0
+predicting 100
+predicting 200
+05/11/2020 01:57:34 [new test scores saved.]
+predicting 0
+05/11/2020 01:57:35 Task assin-ptbr-rte -- epoch 3 -- Dev F1MAC: 77.298
+05/11/2020 01:57:35 Task assin-ptbr-rte -- epoch 3 -- Dev ACC: 89.200
+predicting 0
+predicting 100
+predicting 200
+05/11/2020 01:57:42 [new test scores saved.]
+predicting 0
+05/11/2020 01:57:43 Task assin-ptpt-sts -- epoch 3 -- Dev Pearson: 84.873
+05/11/2020 01:57:43 Task assin-ptpt-sts -- epoch 3 -- Dev MSE: 10.606
+predicting 0
+predicting 100
+predicting 200
+05/11/2020 01:57:49 [new test scores saved.]
+predicting 0
+05/11/2020 01:57:51 Task assin2-rte -- epoch 3 -- Dev F1MAC: 93.992
+05/11/2020 01:57:51 Task assin2-rte -- epoch 3 -- Dev ACC: 94.000
+predicting 0
+predicting 100
+predicting 200
+predicting 300
+05/11/2020 01:57:58 [new test scores saved.]
+predicting 0
+05/11/2020 01:57:59 Task assin-ptpt-rte -- epoch 3 -- Dev F1MAC: 76.268
+05/11/2020 01:57:59 Task assin-ptpt-rte -- epoch 3 -- Dev ACC: 88.400
+predicting 0
+predicting 100
+predicting 200
+05/11/2020 01:58:06 [new test scores saved.]
+predicting 0
+05/11/2020 01:58:07 Task assin2-sts -- epoch 3 -- Dev Pearson: 91.184
+05/11/2020 01:58:07 Task assin2-sts -- epoch 3 -- Dev MSE: 16.447
+predicting 0
+predicting 100
+predicting 200
+predicting 300
+05/11/2020 01:58:14 [new test scores saved.]
+I0511 01:58:16.068946 140465941767936 model.py:278] model saved to /container/mt-dnn_port/output/mt-dnn_assin/bert_base/seed/2018/model_3.pt
+05/11/2020 01:58:16 At epoch 4
+Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 1024.0
+05/11/2020 01:59:55 Task [ 4] updates[ 12000] train loss[0.45585] remaining[0:08:08]
+05/11/2020 02:01:38 Task [ 1] updates[ 12500] train loss[0.44291] remaining[0:06:27]
+05/11/2020 02:03:21 Task [ 5] updates[ 13000] train loss[0.43022] remaining[0:04:45]
+05/11/2020 02:05:04 Task [ 5] updates[ 13500] train loss[0.41812] remaining[0:03:02]
+05/11/2020 02:06:48 Task [ 5] updates[ 14000] train loss[0.40749] remaining[0:01:20]
+predicting 0
+05/11/2020 02:08:09 Task assin-ptbr-sts -- epoch 4 -- Dev Pearson: 78.342
+05/11/2020 02:08:09 Task assin-ptbr-sts -- epoch 4 -- Dev MSE: 10.038
+predicting 0
+predicting 100
+predicting 200
+05/11/2020 02:08:15 [new test scores saved.]
+predicting 0
+05/11/2020 02:08:16 Task assin-ptbr-rte -- epoch 4 -- Dev F1MAC: 80.632
+05/11/2020 02:08:16 Task assin-ptbr-rte -- epoch 4 -- Dev ACC: 89.200
+predicting 0
+predicting 100
+predicting 200
+05/11/2020 02:08:22 [new test scores saved.]
+predicting 0
+05/11/2020 02:08:24 Task assin-ptpt-sts -- epoch 4 -- Dev Pearson: 84.607
+05/11/2020 02:08:24 Task assin-ptpt-sts -- epoch 4 -- Dev MSE: 10.606
+predicting 0
+predicting 100
+predicting 200
+05/11/2020 02:08:30 [new test scores saved.]
+predicting 0
+05/11/2020 02:08:31 Task assin2-rte -- epoch 4 -- Dev F1MAC: 95.599
+05/11/2020 02:08:31 Task assin2-rte -- epoch 4 -- Dev ACC: 95.600
+predicting 0
+predicting 100
+predicting 200
+predicting 300
+05/11/2020 02:08:38 [new test scores saved.]
+predicting 0
+05/11/2020 02:08:40 Task assin-ptpt-rte -- epoch 4 -- Dev F1MAC: 79.331
+05/11/2020 02:08:40 Task assin-ptpt-rte -- epoch 4 -- Dev ACC: 89.200
+predicting 0
+predicting 100
+predicting 200
+05/11/2020 02:08:46 [new test scores saved.]
+predicting 0
+05/11/2020 02:08:47 Task assin2-sts -- epoch 4 -- Dev Pearson: 91.762
+05/11/2020 02:08:47 Task assin2-sts -- epoch 4 -- Dev MSE: 16.447
+predicting 0
+predicting 100
+predicting 200
+predicting 300
+05/11/2020 02:08:54 [new test scores saved.]
+I0511 02:08:56.242466 140465941767936 model.py:278] model saved to /container/mt-dnn_port/output/mt-dnn_assin/bert_base/seed/2018/model_4.pt
+
+real	53m53.597s
+user	48m56.567s
+sys	4m46.365s
