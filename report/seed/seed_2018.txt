@@ -470,10 +470,20 @@ Acc dist max equal: 0.2035
 Saved evaluation: report/mt-dnn_assin+tweetsent/mt-dnn_base/seed/2018/tweetsent_eval.txt
 
 Saving generated XMLs...
-Traceback (most recent call last):
-  File "assin_xml+eval.py", line 107, in <module>
-    with open(filepath) as f:
-FileNotFoundError: [Errno 2] No such file or directory: 'output/st-dnn/assin-ptbr-rte/mt-dnn_large/seed/2018/assin-ptbr-rte_test_scores_4.json'
+corpus: assin-ptbr
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  92.15%	   0.823
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.833		              0.25
+
+
+Saved evaluation: report/st-dnn/mt-dnn_large/seed/2018/assin-ptbr_eval.txt
 Saving generated XMLs...
 corpus: assin-ptpt
 
