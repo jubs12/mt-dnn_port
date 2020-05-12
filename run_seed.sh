@@ -7,7 +7,7 @@ declare -a types=("base" "large")
 declare -a tasks=("rte" "sts")
 
 
-Initial experiments
+#Initial experiments
 for MODEL in "${models[@]}"; do
     for TYPE in "${types[@]}"; do
         bash st-dnn_loop_seed.sh $MODEL $TYPE $SEED
