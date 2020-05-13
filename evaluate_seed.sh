@@ -32,7 +32,7 @@ bash doc+eval.sh mt-dnn_assin bert-multilingual_base $SEED $DOWNLOAD_FOLDER
 bash doc+eval.sh mt-dnn_assin+tweetsent bert-multilingual_base $SEED $DOWNLOAD_FOLDER
 
 bash doc+eval.sh mt-dnn_assin-ptbr+assin2 bert-multilingual_base $SEED $DOWNLOAD_FOLDER
-bash doc+eval.sh mt-dnn_assin-ptbr+assin2 bert-multilingual_base $SEED $DOWNLOAD_FOLDER
+bash doc+eval.sh mt-dnn_assin2 bert-multilingual_base $SEED $DOWNLOAD_FOLDER
 
 
 python assin_xml+eval.py st-dnn assin-1+2 bert-multilingual_base $SEED $DOWNLOAD_FOLDER
