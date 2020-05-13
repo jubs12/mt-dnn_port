@@ -6,8 +6,6 @@ else
     download_folder=$1
 fi
 
-mkdir $download_folder
-
 pip install xmltodict
 pip install gdown
 

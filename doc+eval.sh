@@ -16,7 +16,7 @@ elif [ "$MODE" = "mt-dnn_assin" ]; then
 elif [ "$MODE" = "mt-dnn_assin-ptbr+assin2" ]; then
     DATASETS=("${assin_ptbr_2[@]}")
 elif [ "$MODE" = "mt-dnn_assin2" ]; then
-    DATASETS=("${assin_2[@]}")
+    DATASETS=("${assin2[@]}")
 elif [ "$MODE" = "st-dnn" ]; then
     DATASETS=("${assin[@]}")
 else
@@ -33,3 +33,4 @@ tweetsent_modes=("st-dnn" "mt-dnn_assin+tweetsent")
 if [[ " ${tweetsent_modes[@]} " =~ " ${MODE} " ]]; then
     python tweetsent_json+eval.py $MODE $PRETRAINED $SEED $DOWNLOAD_FOLDER
 fi
+

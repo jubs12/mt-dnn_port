@@ -971,6 +971,21 @@ Pearson		Mean Squared Error
 
 Saved evaluation: report/mt-dnn_assin-ptbr+assin2/bert-pt_base/seed/2017/assin2_eval.txt
 Saving generated XMLs...
+corpus: assin2
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  89.67%	   0.896
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.845		              0.55
+
+
+Saved evaluation: report/mt-dnn_assin2/bert-pt_base/seed/2017/assin2_eval.txt
+Saving generated XMLs...
 corpus: assin-ptbr
 
 RTE evaluation
@@ -1072,6 +1087,21 @@ Pearson		Mean Squared Error
 
 
 Saved evaluation: report/mt-dnn_assin-ptbr+assin2/bert-pt_large/seed/2017/assin2_eval.txt
+Saving generated XMLs...
+corpus: assin2
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  90.60%	   0.906
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.858		              0.47
+
+
+Saved evaluation: report/mt-dnn_assin2/bert-pt_large/seed/2017/assin2_eval.txt
 Saving generated XMLs...
 corpus: assin-ptbr
 
@@ -1332,35 +1362,20 @@ Pearson		Mean Squared Error
 
 Saved evaluation: report/mt-dnn_assin-ptbr+assin2/bert-multilingual_base/seed/2017/assin2_eval.txt
 Saving generated XMLs...
-corpus: assin-ptbr
-
-RTE evaluation
-Accuracy	Macro F1
---------	--------
-  89.70%	   0.749
-
-Similarity evaluation
-Pearson		Mean Squared Error
--------		------------------
-  0.800		              0.30
-
-
-Saved evaluation: report/mt-dnn_assin-ptbr+assin2/bert-multilingual_base/seed/2017/assin-ptbr_eval.txt
-Saving generated XMLs...
 corpus: assin2
 
 RTE evaluation
 Accuracy	Macro F1
 --------	--------
-  88.52%	   0.885
+  87.50%	   0.875
 
 Similarity evaluation
 Pearson		Mean Squared Error
 -------		------------------
-  0.817		              0.53
+  0.815		              0.57
 
 
-Saved evaluation: report/mt-dnn_assin-ptbr+assin2/bert-multilingual_base/seed/2017/assin2_eval.txt
+Saved evaluation: report/mt-dnn_assin2/bert-multilingual_base/seed/2017/assin2_eval.txt
 Saving generated XMLs...
 corpus: assin-ptbr
 

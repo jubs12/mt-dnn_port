@@ -1,4 +1,4 @@
-corpus: assin-ptbr
+
 
 RTE evaluation
 Accuracy	Macro F1
@@ -12,7 +12,8 @@ Pearson		Mean Squared Error
 
 Evaluation: st-dnn bert_base assin-ptbr
 
-corpus: assin-ptpt
+-------------------------------------------
+
 
 RTE evaluation
 Accuracy	Macro F1
@@ -26,7 +27,8 @@ Pearson		Mean Squared Error
 
 Evaluation: st-dnn bert_base assin-ptpt
 
-corpus: assin2
+-------------------------------------------
+
 
 RTE evaluation
 Accuracy	Macro F1
@@ -40,7 +42,8 @@ Pearson		Mean Squared Error
 
 Evaluation: st-dnn bert_base assin2
 
-corpus: TweetSentBR
+-------------------------------------------
+
 Acc: 0.70798±0.0042
 F1. neg: 0.697±0.009 neu: 0.585±0.006 post: 0.79±0.002
 Acc dist min: 0.2920
@@ -51,7 +54,8 @@ Acc dist max equal: 0.1905
 Evaluation: st-dnn bert_base tweetsent
 
 
-corpus: assin-ptbr
+-------------------------------------------
+
 
 RTE evaluation
 Accuracy	Macro F1
@@ -65,7 +69,8 @@ Pearson		Mean Squared Error
 
 Evaluation: mt-dnn_assin bert_base assin-ptbr
 
-corpus: assin-ptpt
+-------------------------------------------
+
 
 RTE evaluation
 Accuracy	Macro F1
@@ -79,7 +84,8 @@ Pearson		Mean Squared Error
 
 Evaluation: mt-dnn_assin bert_base assin-ptpt
 
-corpus: assin2
+-------------------------------------------
+
 
 RTE evaluation
 Accuracy	Macro F1
@@ -93,7 +99,8 @@ Pearson		Mean Squared Error
 
 Evaluation: mt-dnn_assin bert_base assin2
 
-corpus: assin-ptbr
+-------------------------------------------
+
 
 RTE evaluation
 Accuracy	Macro F1
@@ -107,7 +114,8 @@ Pearson		Mean Squared Error
 
 Evaluation: mt-dnn_assin+tweetsent bert_base assin-ptbr
 
-corpus: assin-ptpt
+-------------------------------------------
+
 
 RTE evaluation
 Accuracy	Macro F1
@@ -121,7 +129,8 @@ Pearson		Mean Squared Error
 
 Evaluation: mt-dnn_assin+tweetsent bert_base assin-ptpt
 
-corpus: assin2
+-------------------------------------------
+
 
 RTE evaluation
 Accuracy	Macro F1
@@ -135,7 +144,8 @@ Pearson		Mean Squared Error
 
 Evaluation: mt-dnn_assin+tweetsent bert_base assin2
 
-corpus: TweetSentBR
+-------------------------------------------
+
 Acc: 0.71222±0.00485
 F1. neg: 0.694±0.007 neu: 0.592±0.007 post: 0.796±0.004
 Acc dist min: 0.2920
@@ -146,7 +156,8 @@ Acc dist max equal: 0.1905
 Evaluation: mt-dnn_assin+tweetsent bert_base tweetsent
 
 
-corpus: assin-ptbr
+-------------------------------------------
+
 
 RTE evaluation
 Accuracy	Macro F1
@@ -160,7 +171,8 @@ Pearson		Mean Squared Error
 
 Evaluation: st-dnn bert_large assin-ptbr
 
-corpus: assin-ptpt
+-------------------------------------------
+
 
 RTE evaluation
 Accuracy	Macro F1
@@ -174,7 +186,8 @@ Pearson		Mean Squared Error
 
 Evaluation: st-dnn bert_large assin-ptpt
 
-corpus: assin2
+-------------------------------------------
+
 
 RTE evaluation
 Accuracy	Macro F1
@@ -188,7 +201,8 @@ Pearson		Mean Squared Error
 
 Evaluation: st-dnn bert_large assin2
 
-corpus: TweetSentBR
+-------------------------------------------
+
 Acc: 0.71302±0.00479
 F1. neg: 0.693±0.005 neu: 0.589±0.012 post: 0.801±0.005
 Acc dist min: 0.2920
@@ -199,7 +213,8 @@ Acc dist max equal: 0.1955
 Evaluation: st-dnn bert_large tweetsent
 
 
-corpus: assin-ptbr
+-------------------------------------------
+
 
 RTE evaluation
 Accuracy	Macro F1
@@ -213,7 +228,8 @@ Pearson		Mean Squared Error
 
 Evaluation: mt-dnn_assin bert_large assin-ptbr
 
-corpus: assin-ptpt
+-------------------------------------------
+
 
 RTE evaluation
 Accuracy	Macro F1
@@ -227,7 +243,8 @@ Pearson		Mean Squared Error
 
 Evaluation: mt-dnn_assin bert_large assin-ptpt
 
-corpus: assin2
+-------------------------------------------
+
 
 RTE evaluation
 Accuracy	Macro F1
@@ -241,7 +258,8 @@ Pearson		Mean Squared Error
 
 Evaluation: mt-dnn_assin bert_large assin2
 
-corpus: assin-ptbr
+-------------------------------------------
+
 
 RTE evaluation
 Accuracy	Macro F1
@@ -255,7 +273,8 @@ Pearson		Mean Squared Error
 
 Evaluation: mt-dnn_assin+tweetsent bert_large assin-ptbr
 
-corpus: assin-ptpt
+-------------------------------------------
+
 
 RTE evaluation
 Accuracy	Macro F1
@@ -269,7 +288,8 @@ Pearson		Mean Squared Error
 
 Evaluation: mt-dnn_assin+tweetsent bert_large assin-ptpt
 
-corpus: assin2
+-------------------------------------------
+
 
 RTE evaluation
 Accuracy	Macro F1
@@ -283,7 +303,8 @@ Pearson		Mean Squared Error
 
 Evaluation: mt-dnn_assin+tweetsent bert_large assin2
 
-corpus: TweetSentBR
+-------------------------------------------
+
 Acc: 0.71862±0.0068
 F1. neg: 0.696±0.01 neu: 0.588±0.011 post: 0.809±0.004
 Acc dist min: 0.2920
@@ -294,7 +315,8 @@ Acc dist max equal: 0.1980
 Evaluation: mt-dnn_assin+tweetsent bert_large tweetsent
 
 
-corpus: assin-ptbr
+-------------------------------------------
+
 
 RTE evaluation
 Accuracy	Macro F1
@@ -308,7 +330,8 @@ Pearson		Mean Squared Error
 
 Evaluation: st-dnn mt-dnn_base assin-ptbr
 
-corpus: assin-ptpt
+-------------------------------------------
+
 
 RTE evaluation
 Accuracy	Macro F1
@@ -322,7 +345,8 @@ Pearson		Mean Squared Error
 
 Evaluation: st-dnn mt-dnn_base assin-ptpt
 
-corpus: assin2
+-------------------------------------------
+
 
 RTE evaluation
 Accuracy	Macro F1
@@ -336,7 +360,8 @@ Pearson		Mean Squared Error
 
 Evaluation: st-dnn mt-dnn_base assin2
 
-corpus: TweetSentBR
+-------------------------------------------
+
 Acc: 0.7169±0.00376
 F1. neg: 0.703±0.008 neu: 0.59±0.005 post: 0.8±0.005
 Acc dist min: 0.2920
@@ -347,7 +372,8 @@ Acc dist max equal: 0.1990
 Evaluation: st-dnn mt-dnn_base tweetsent
 
 
-corpus: assin-ptbr
+-------------------------------------------
+
 
 RTE evaluation
 Accuracy	Macro F1
@@ -361,7 +387,8 @@ Pearson		Mean Squared Error
 
 Evaluation: mt-dnn_assin mt-dnn_base assin-ptbr
 
-corpus: assin-ptpt
+-------------------------------------------
+
 
 RTE evaluation
 Accuracy	Macro F1
@@ -375,7 +402,8 @@ Pearson		Mean Squared Error
 
 Evaluation: mt-dnn_assin mt-dnn_base assin-ptpt
 
-corpus: assin2
+-------------------------------------------
+
 
 RTE evaluation
 Accuracy	Macro F1
@@ -389,7 +417,8 @@ Pearson		Mean Squared Error
 
 Evaluation: mt-dnn_assin mt-dnn_base assin2
 
-corpus: assin-ptbr
+-------------------------------------------
+
 
 RTE evaluation
 Accuracy	Macro F1
@@ -403,7 +432,8 @@ Pearson		Mean Squared Error
 
 Evaluation: mt-dnn_assin+tweetsent mt-dnn_base assin-ptbr
 
-corpus: assin-ptpt
+-------------------------------------------
+
 
 RTE evaluation
 Accuracy	Macro F1
@@ -417,7 +447,8 @@ Pearson		Mean Squared Error
 
 Evaluation: mt-dnn_assin+tweetsent mt-dnn_base assin-ptpt
 
-corpus: assin2
+-------------------------------------------
+
 
 RTE evaluation
 Accuracy	Macro F1
@@ -431,7 +462,8 @@ Pearson		Mean Squared Error
 
 Evaluation: mt-dnn_assin+tweetsent mt-dnn_base assin2
 
-corpus: TweetSentBR
+-------------------------------------------
+
 Acc: 0.71712±0.00469
 F1. neg: 0.707±0.005 neu: 0.586±0.009 post: 0.8±0.003
 Acc dist min: 0.2920
@@ -442,7 +474,8 @@ Acc dist max equal: 0.2025
 Evaluation: mt-dnn_assin+tweetsent mt-dnn_base tweetsent
 
 
-corpus: assin-ptbr
+-------------------------------------------
+
 
 RTE evaluation
 Accuracy	Macro F1
@@ -456,7 +489,8 @@ Pearson		Mean Squared Error
 
 Evaluation: st-dnn mt-dnn_large assin-ptbr
 
-corpus: assin-ptpt
+-------------------------------------------
+
 
 RTE evaluation
 Accuracy	Macro F1
@@ -470,7 +504,8 @@ Pearson		Mean Squared Error
 
 Evaluation: st-dnn mt-dnn_large assin-ptpt
 
-corpus: assin2
+-------------------------------------------
+
 
 RTE evaluation
 Accuracy	Macro F1
@@ -484,7 +519,8 @@ Pearson		Mean Squared Error
 
 Evaluation: st-dnn mt-dnn_large assin2
 
-corpus: TweetSentBR
+-------------------------------------------
+
 Acc: 0.71852±0.00438
 F1. neg: 0.698±0.005 neu: 0.582±0.005 post: 0.811±0.005
 Acc dist min: 0.2920
@@ -495,7 +531,8 @@ Acc dist max equal: 0.1990
 Evaluation: st-dnn mt-dnn_large tweetsent
 
 
-corpus: assin-ptbr
+-------------------------------------------
+
 
 RTE evaluation
 Accuracy	Macro F1
@@ -509,7 +546,8 @@ Pearson		Mean Squared Error
 
 Evaluation: mt-dnn_assin mt-dnn_large assin-ptbr
 
-corpus: assin-ptpt
+-------------------------------------------
+
 
 RTE evaluation
 Accuracy	Macro F1
@@ -523,7 +561,8 @@ Pearson		Mean Squared Error
 
 Evaluation: mt-dnn_assin mt-dnn_large assin-ptpt
 
-corpus: assin2
+-------------------------------------------
+
 
 RTE evaluation
 Accuracy	Macro F1
@@ -537,7 +576,8 @@ Pearson		Mean Squared Error
 
 Evaluation: mt-dnn_assin mt-dnn_large assin2
 
-corpus: assin-ptbr
+-------------------------------------------
+
 
 RTE evaluation
 Accuracy	Macro F1
@@ -551,7 +591,8 @@ Pearson		Mean Squared Error
 
 Evaluation: mt-dnn_assin+tweetsent mt-dnn_large assin-ptbr
 
-corpus: assin-ptpt
+-------------------------------------------
+
 
 RTE evaluation
 Accuracy	Macro F1
@@ -565,7 +606,8 @@ Pearson		Mean Squared Error
 
 Evaluation: mt-dnn_assin+tweetsent mt-dnn_large assin-ptpt
 
-corpus: assin2
+-------------------------------------------
+
 
 RTE evaluation
 Accuracy	Macro F1
@@ -579,7 +621,8 @@ Pearson		Mean Squared Error
 
 Evaluation: mt-dnn_assin+tweetsent mt-dnn_large assin2
 
-corpus: TweetSentBR
+-------------------------------------------
+
 Acc: 0.7215±0.00348
 F1. neg: 0.704±0.006 neu: 0.584±0.01 post: 0.813±0.003
 Acc dist min: 0.2920
@@ -590,7 +633,8 @@ Acc dist max equal: 0.2015
 Evaluation: mt-dnn_assin+tweetsent mt-dnn_large tweetsent
 
 
-corpus: assin-ptbr
+-------------------------------------------
+
 
 RTE evaluation
 Accuracy	Macro F1
@@ -604,7 +648,8 @@ Pearson		Mean Squared Error
 
 Evaluation: st-dnn bert-pt_base assin-ptbr
 
-corpus: assin-ptpt
+-------------------------------------------
+
 
 RTE evaluation
 Accuracy	Macro F1
@@ -618,7 +663,8 @@ Pearson		Mean Squared Error
 
 Evaluation: st-dnn bert-pt_base assin-ptpt
 
-corpus: assin2
+-------------------------------------------
+
 
 RTE evaluation
 Accuracy	Macro F1
@@ -632,7 +678,8 @@ Pearson		Mean Squared Error
 
 Evaluation: st-dnn bert-pt_base assin2
 
-corpus: TweetSentBR
+-------------------------------------------
+
 Acc: 0.7403±0.00429
 F1. neg: 0.733±0.003 neu: 0.614±0.006 post: 0.819±0.006
 Acc dist min: 0.2920
@@ -643,7 +690,8 @@ Acc dist max equal: 0.2144
 Evaluation: st-dnn bert-pt_base tweetsent
 
 
-corpus: assin-ptbr
+-------------------------------------------
+
 
 RTE evaluation
 Accuracy	Macro F1
@@ -657,7 +705,8 @@ Pearson		Mean Squared Error
 
 Evaluation: mt-dnn_assin bert-pt_base assin-ptbr
 
-corpus: assin-ptpt
+-------------------------------------------
+
 
 RTE evaluation
 Accuracy	Macro F1
@@ -671,7 +720,8 @@ Pearson		Mean Squared Error
 
 Evaluation: mt-dnn_assin bert-pt_base assin-ptpt
 
-corpus: assin2
+-------------------------------------------
+
 
 RTE evaluation
 Accuracy	Macro F1
@@ -685,7 +735,8 @@ Pearson		Mean Squared Error
 
 Evaluation: mt-dnn_assin bert-pt_base assin2
 
-corpus: assin-ptbr
+-------------------------------------------
+
 
 RTE evaluation
 Accuracy	Macro F1
@@ -699,7 +750,8 @@ Pearson		Mean Squared Error
 
 Evaluation: mt-dnn_assin+tweetsent bert-pt_base assin-ptbr
 
-corpus: assin-ptpt
+-------------------------------------------
+
 
 RTE evaluation
 Accuracy	Macro F1
@@ -713,7 +765,8 @@ Pearson		Mean Squared Error
 
 Evaluation: mt-dnn_assin+tweetsent bert-pt_base assin-ptpt
 
-corpus: assin2
+-------------------------------------------
+
 
 RTE evaluation
 Accuracy	Macro F1
@@ -727,7 +780,8 @@ Pearson		Mean Squared Error
 
 Evaluation: mt-dnn_assin+tweetsent bert-pt_base assin2
 
-corpus: TweetSentBR
+-------------------------------------------
+
 Acc: 0.7398±0.00255
 F1. neg: 0.731±0.008 neu: 0.609±0.011 post: 0.822±0.002
 Acc dist min: 0.2920
@@ -738,7 +792,8 @@ Acc dist max equal: 0.2095
 Evaluation: mt-dnn_assin+tweetsent bert-pt_base tweetsent
 
 
-corpus: assin-ptbr
+-------------------------------------------
+
 
 RTE evaluation
 Accuracy	Macro F1
@@ -752,7 +807,8 @@ Pearson		Mean Squared Error
 
 Evaluation: st-dnn bert-pt_large assin-ptbr
 
-corpus: assin-ptpt
+-------------------------------------------
+
 
 RTE evaluation
 Accuracy	Macro F1
@@ -766,7 +822,8 @@ Pearson		Mean Squared Error
 
 Evaluation: st-dnn bert-pt_large assin-ptpt
 
-corpus: assin2
+-------------------------------------------
+
 
 RTE evaluation
 Accuracy	Macro F1
@@ -780,7 +837,8 @@ Pearson		Mean Squared Error
 
 Evaluation: st-dnn bert-pt_large assin2
 
-corpus: TweetSentBR
+-------------------------------------------
+
 Acc: 0.7599±0.00352
 F1. neg: 0.752±0.003 neu: 0.622±0.012 post: 0.842±0.004
 Acc dist min: 0.2920
@@ -791,7 +849,8 @@ Acc dist max equal: 0.2184
 Evaluation: st-dnn bert-pt_large tweetsent
 
 
-corpus: assin-ptbr
+-------------------------------------------
+
 
 RTE evaluation
 Accuracy	Macro F1
@@ -805,7 +864,8 @@ Pearson		Mean Squared Error
 
 Evaluation: mt-dnn_assin bert-pt_large assin-ptbr
 
-corpus: assin-ptpt
+-------------------------------------------
+
 
 RTE evaluation
 Accuracy	Macro F1
@@ -819,7 +879,8 @@ Pearson		Mean Squared Error
 
 Evaluation: mt-dnn_assin bert-pt_large assin-ptpt
 
-corpus: assin2
+-------------------------------------------
+
 
 RTE evaluation
 Accuracy	Macro F1
@@ -833,7 +894,8 @@ Pearson		Mean Squared Error
 
 Evaluation: mt-dnn_assin bert-pt_large assin2
 
-corpus: assin-ptbr
+-------------------------------------------
+
 
 RTE evaluation
 Accuracy	Macro F1
@@ -847,7 +909,8 @@ Pearson		Mean Squared Error
 
 Evaluation: mt-dnn_assin+tweetsent bert-pt_large assin-ptbr
 
-corpus: assin-ptpt
+-------------------------------------------
+
 
 RTE evaluation
 Accuracy	Macro F1
@@ -861,7 +924,8 @@ Pearson		Mean Squared Error
 
 Evaluation: mt-dnn_assin+tweetsent bert-pt_large assin-ptpt
 
-corpus: assin2
+-------------------------------------------
+
 
 RTE evaluation
 Accuracy	Macro F1
@@ -875,7 +939,8 @@ Pearson		Mean Squared Error
 
 Evaluation: mt-dnn_assin+tweetsent bert-pt_large assin2
 
-corpus: TweetSentBR
+-------------------------------------------
+
 Acc: 0.7604±0.00254
 F1. neg: 0.759±0.004 neu: 0.623±0.006 post: 0.838±0.002
 Acc dist min: 0.2920
@@ -886,7 +951,8 @@ Acc dist max equal: 0.2189
 Evaluation: mt-dnn_assin+tweetsent bert-pt_large tweetsent
 
 
-corpus: assin-ptbr
+-------------------------------------------
+
 
 RTE evaluation
 Accuracy	Macro F1
@@ -900,7 +966,8 @@ Pearson		Mean Squared Error
 
 Evaluation: mt-dnn_assin-ptbr+assin2 bert-pt_base assin-ptbr
 
-corpus: assin2
+-------------------------------------------
+
 
 RTE evaluation
 Accuracy	Macro F1
@@ -914,7 +981,8 @@ Pearson		Mean Squared Error
 
 Evaluation: mt-dnn_assin-ptbr+assin2 bert-pt_base assin2
 
-corpus: assin-ptbr
+-------------------------------------------
+
 
 RTE evaluation
 Accuracy	Macro F1
@@ -926,8 +994,23 @@ Pearson		Mean Squared Error
 -------		------------------
 0.854±0.002	0.23±0.0
 
+Evaluation: mt-dnn_assin2 bert-pt_base assin2
+
+-------------------------------------------
+
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+90.74±0.44%	0.781±0.014
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+0.84±0.001	0.25±0.01
+
 Evaluation: st-dnn bert-pt_base assin-ptbr
-corpus: assin-ptpt
+
 
 RTE evaluation
 Accuracy	Macro F1
@@ -940,7 +1023,7 @@ Pearson		Mean Squared Error
 0.859	0.46
 
 Evaluation: st-dnn bert-pt_base assin-ptpt
-corpus: assin2
+
 
 RTE evaluation
 Accuracy	Macro F1
@@ -954,20 +1037,21 @@ Pearson		Mean Squared Error
 
 Evaluation: st-dnn bert-pt_base assin2
 
-corpus: assin-ptbr
+-------------------------------------------
+
 
 RTE evaluation
 Accuracy	Macro F1
 --------	--------
-90.74±0.44%	0.781±0.014
+91.98±0.28%	0.814±0.008
 
 Similarity evaluation
 Pearson		Mean Squared Error
 -------		------------------
-0.84±0.001	0.25±0.01
+0.851±0.004	0.22±0.0
 
 Evaluation: st-dnn bert-pt_base assin-ptbr
-corpus: assin2
+
 
 RTE evaluation
 Accuracy	Macro F1
@@ -981,21 +1065,8 @@ Pearson		Mean Squared Error
 
 Evaluation: st-dnn bert-pt_base assin2
 
-corpus: assin-ptbr
+-------------------------------------------
 
-RTE evaluation
-Accuracy	Macro F1
---------	--------
-91.98±0.28%	0.814±0.008
-
-Similarity evaluation
-Pearson		Mean Squared Error
--------		------------------
-0.851±0.004	0.22±0.0
-
-Evaluation: mt-dnn_assin-ptbr+assin2 bert-pt_large assin-ptbr
-
-corpus: assin2
 
 RTE evaluation
 Accuracy	Macro F1
@@ -1007,9 +1078,10 @@ Pearson		Mean Squared Error
 -------		------------------
 0.855±0.003	0.47±0.01
 
-Evaluation: mt-dnn_assin-ptbr+assin2 bert-pt_large assin2
+Evaluation: mt-dnn_assin-ptbr+assin2 bert-pt_large assin-ptbr
 
-corpus: assin-ptbr
+-------------------------------------------
+
 
 RTE evaluation
 Accuracy	Macro F1
@@ -1021,8 +1093,38 @@ Pearson		Mean Squared Error
 -------		------------------
 0.866±0.001	0.2±0.0
 
+Evaluation: mt-dnn_assin-ptbr+assin2 bert-pt_large assin2
+
+-------------------------------------------
+
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+89.41±0.82%	0.698±0.03
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+0.857±0.002	0.21±0.0
+
+Evaluation: mt-dnn_assin2 bert-pt_large assin2
+
+-------------------------------------------
+
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+88.22±0.76%	0.664±0.097
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+0.81±0.003	0.27±0.0
+
 Evaluation: st-dnn bert-pt_large assin-ptbr
-corpus: assin-ptpt
+
 
 RTE evaluation
 Accuracy	Macro F1
@@ -1035,7 +1137,7 @@ Pearson		Mean Squared Error
 0.871	0.40
 
 Evaluation: st-dnn bert-pt_large assin-ptpt
-corpus: assin2
+
 
 RTE evaluation
 Accuracy	Macro F1
@@ -1049,48 +1151,8 @@ Pearson		Mean Squared Error
 
 Evaluation: st-dnn bert-pt_large assin2
 
-corpus: assin-ptbr
+-------------------------------------------
 
-RTE evaluation
-Accuracy	Macro F1
---------	--------
-89.41±0.82%	0.698±0.03
-
-Similarity evaluation
-Pearson		Mean Squared Error
--------		------------------
-0.857±0.002	0.21±0.0
-
-Evaluation: st-dnn bert-pt_large assin-ptbr
-corpus: assin2
-
-RTE evaluation
-Accuracy	Macro F1
---------	--------
-89.67%	0.896
-
-Similarity evaluation
-Pearson		Mean Squared Error
--------		------------------
-0.857±0.002	0.44
-
-Evaluation: st-dnn bert-pt_large assin2
-
-corpus: assin-ptbr
-
-RTE evaluation
-Accuracy	Macro F1
---------	--------
-88.22±0.76%	0.664±0.097
-
-Similarity evaluation
-Pearson		Mean Squared Error
--------		------------------
-0.81±0.003	0.27±0.0
-
-Evaluation: st-dnn bert-multilingual_base assin-ptbr
-
-corpus: assin-ptpt
 
 RTE evaluation
 Accuracy	Macro F1
@@ -1102,9 +1164,23 @@ Pearson		Mean Squared Error
 -------		------------------
 0.836±0.004	0.43±0.01
 
-Evaluation: st-dnn bert-multilingual_base assin-ptpt
+Evaluation: st-dnn bert-pt_large assin-ptbr
 
-corpus: assin2
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+89.67%	0.896
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+0.836±0.004	0.44
+
+Evaluation: st-dnn bert-pt_large assin2
+
+-------------------------------------------
+
 
 RTE evaluation
 Accuracy	Macro F1
@@ -1116,20 +1192,25 @@ Pearson		Mean Squared Error
 -------		------------------
 0.817±0.003	0.54±0.01
 
-Evaluation: st-dnn bert-multilingual_base assin2
+Evaluation: st-dnn bert-multilingual_base assin-ptbr
 
-corpus: TweetSentBR
-Acc: 0.69094±0.00483
-F1. neg: 0.662±0.007 neu: 0.551±0.006 post: 0.792±0.003
-Acc dist min: 0.2920
-Acc dist max: 0.2920
-Acc dist min equal: 0.0955
-Acc dist max equal: 0.1965
-
-Evaluation: st-dnn bert-multilingual_base tweetsent
+-------------------------------------------
 
 
-corpus: assin-ptbr
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+0.69±0.0%	0.662±0.007
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+0.551±0.006	0.79±0.0
+
+Evaluation: st-dnn bert-multilingual_base assin-ptpt
+
+-------------------------------------------
+
 
 RTE evaluation
 Accuracy	Macro F1
@@ -1141,23 +1222,22 @@ Pearson		Mean Squared Error
 -------		------------------
 0.815±0.004	0.27±0.01
 
-Evaluation: mt-dnn_assin bert-multilingual_base assin-ptbr
+Evaluation: st-dnn bert-multilingual_base assin2
 
-corpus: assin-ptpt
+-------------------------------------------
 
-RTE evaluation
-Accuracy	Macro F1
---------	--------
-90.11±0.42%	0.829±0.009
+Acc: 90.11±0.42119
+F1. neg: 0.829±0.009 neu: 0.839±0.002 post: 0.438±0.016
+Acc dist min: 0.2920
+Acc dist max: 0.2920
+Acc dist min equal: 0.0955
+Acc dist max equal: 0.1965
 
-Similarity evaluation
-Pearson		Mean Squared Error
--------		------------------
-0.839±0.002	0.44±0.02
+Evaluation: st-dnn bert-multilingual_base tweetsent
 
-Evaluation: mt-dnn_assin bert-multilingual_base assin-ptpt
 
-corpus: assin2
+-------------------------------------------
+
 
 RTE evaluation
 Accuracy	Macro F1
@@ -1169,9 +1249,10 @@ Pearson		Mean Squared Error
 -------		------------------
 0.813±0.004	0.57±0.01
 
-Evaluation: mt-dnn_assin bert-multilingual_base assin2
+Evaluation: mt-dnn_assin bert-multilingual_base assin-ptbr
 
-corpus: assin-ptbr
+-------------------------------------------
+
 
 RTE evaluation
 Accuracy	Macro F1
@@ -1183,9 +1264,10 @@ Pearson		Mean Squared Error
 -------		------------------
 0.813±0.004	0.27±0.01
 
-Evaluation: mt-dnn_assin+tweetsent bert-multilingual_base assin-ptbr
+Evaluation: mt-dnn_assin bert-multilingual_base assin-ptpt
 
-corpus: assin-ptpt
+-------------------------------------------
+
 
 RTE evaluation
 Accuracy	Macro F1
@@ -1197,9 +1279,10 @@ Pearson		Mean Squared Error
 -------		------------------
 0.838±0.004	0.46±0.02
 
-Evaluation: mt-dnn_assin+tweetsent bert-multilingual_base assin-ptpt
+Evaluation: mt-dnn_assin bert-multilingual_base assin2
 
-corpus: assin2
+-------------------------------------------
+
 
 RTE evaluation
 Accuracy	Macro F1
@@ -1211,11 +1294,42 @@ Pearson		Mean Squared Error
 -------		------------------
 0.816±0.005	0.55±0.02
 
+Evaluation: mt-dnn_assin+tweetsent bert-multilingual_base assin-ptbr
+
+-------------------------------------------
+
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+0.69±0.0%	0.665±0.01
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+0.554±0.013	0.78±0.0
+
+Evaluation: mt-dnn_assin+tweetsent bert-multilingual_base assin-ptpt
+
+-------------------------------------------
+
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+89.07±0.4%	0.742±0.011
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+0.801±0.006	0.29±0.01
+
 Evaluation: mt-dnn_assin+tweetsent bert-multilingual_base assin2
 
-corpus: TweetSentBR
-Acc: 0.68964±0.00386
-F1. neg: 0.665±0.01 neu: 0.554±0.013 post: 0.785±0.004
+-------------------------------------------
+
+Acc: 86.658±2.28371
+F1. neg: 0.866±0.023 neu: 0.816±0.004 post: 0.54±0.019
 Acc dist min: 0.2920
 Acc dist max: 0.2920
 Acc dist min equal: 0.1109
@@ -1224,7 +1338,8 @@ Acc dist max equal: 0.1811
 Evaluation: mt-dnn_assin+tweetsent bert-multilingual_base tweetsent
 
 
-corpus: assin-ptbr
+-------------------------------------------
+
 
 RTE evaluation
 Accuracy	Macro F1
@@ -1238,7 +1353,8 @@ Pearson		Mean Squared Error
 
 Evaluation: mt-dnn_assin-ptbr+assin2 bert-multilingual_base assin-ptbr
 
-corpus: assin2
+-------------------------------------------
+
 
 RTE evaluation
 Accuracy	Macro F1
@@ -1252,35 +1368,8 @@ Pearson		Mean Squared Error
 
 Evaluation: mt-dnn_assin-ptbr+assin2 bert-multilingual_base assin2
 
-corpus: assin-ptbr
+-------------------------------------------
 
-RTE evaluation
-Accuracy	Macro F1
---------	--------
-89.07±0.4%	0.742±0.011
-
-Similarity evaluation
-Pearson		Mean Squared Error
--------		------------------
-0.801±0.006	0.29±0.01
-
-Evaluation: mt-dnn_assin-ptbr+assin2 bert-multilingual_base assin-ptbr
-
-corpus: assin2
-
-RTE evaluation
-Accuracy	Macro F1
---------	--------
-86.66±2.28%	0.866±0.023
-
-Similarity evaluation
-Pearson		Mean Squared Error
--------		------------------
-0.816±0.004	0.54±0.02
-
-Evaluation: mt-dnn_assin-ptbr+assin2 bert-multilingual_base assin2
-
-corpus: assin-ptbr
 
 RTE evaluation
 Accuracy	Macro F1
@@ -1292,8 +1381,23 @@ Pearson		Mean Squared Error
 -------		------------------
 0.826±0.004	0.25±0.01
 
+Evaluation: mt-dnn_assin2 bert-multilingual_base assin2
+
+-------------------------------------------
+
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+88.15±0.5%	0.663±0.06
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+0.807±0.011	0.27±0.01
+
 Evaluation: st-dnn bert-multilingual_base assin-ptbr
-corpus: assin-ptpt
+
 
 RTE evaluation
 Accuracy	Macro F1
@@ -1306,7 +1410,7 @@ Pearson		Mean Squared Error
 0.845	0.44
 
 Evaluation: st-dnn bert-multilingual_base assin-ptpt
-corpus: assin2
+
 
 RTE evaluation
 Accuracy	Macro F1
@@ -1320,29 +1424,3 @@ Pearson		Mean Squared Error
 
 Evaluation: st-dnn bert-multilingual_base assin2
 
-corpus: assin-ptbr
-
-RTE evaluation
-Accuracy	Macro F1
---------	--------
-88.15±0.5%	0.663±0.06
-
-Similarity evaluation
-Pearson		Mean Squared Error
--------		------------------
-0.807±0.011	0.27±0.01
-
-Evaluation: st-dnn bert-multilingual_base assin-ptbr
-corpus: assin2
-
-RTE evaluation
-Accuracy	Macro F1
---------	--------
-87.25%	0.872
-
-Similarity evaluation
-Pearson		Mean Squared Error
--------		------------------
-0.828	0.50
-
-Evaluation: st-dnn bert-multilingual_base assin2
