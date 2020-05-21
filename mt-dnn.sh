@@ -64,7 +64,7 @@ TASK="--train_datasets $TASK_LIST --test_datasets $TASK_LIST"
 TASK_DEF="--task_def ../data/task-def/$TASKS.yaml"
 OUTPUT="--output_dir ../output/mt-dnn_$TASKS/${MODEL}_${TYPE}/"
 
-rm -rf /root/.cache/torch
+#rm -rf /root/.cache/torch
 python prepro_std.py $PREPRO $TASK_DEF
 python train.py $TRAIN $TASK $TASK_DEF $OUTPUT --tensorboard
-rm -rf /root/.cache/torch
+#rm -rf /root/.cache/torch

@@ -48,7 +48,11 @@ else
    exit 127
 fi
 
-rm -rf /root/.cache/torch
+declare -a tasks_cabezudo=("best-pt" "worst-pt" "random-pt")
+if [[ " ${tasks_cabezudo[@]} " =~ " ${TASK} " ]]; then
+        CABEZUDO="--epochs 7 --leaning_rate 0.00002 --batch_size 22 --batch_size_eval 22 --max_seq_len 128"
+fi
+
 python prepro_std.py --task_def ../data/task-def/$TASK.yaml $PREPRO
-python train.py  --task_def ../data/task-def/$TASK.yaml --train_datasets $TASK --test_datasets $TASK --tensorboard $TRAIN --output_dir ../output/st-dnn/$TASK/${MODEL}_${TYPE}/seed/$SEED --seed $SEED --fp16
+python train.py $CABEZUDO  --task_def ../data/task-def/$TASK.yaml --train_datasets $TASK --test_datasets $TASK --tensorboard $TRAIN --output_dir ../output/st-dnn/$TASK/${MODEL}_${TYPE}/seed/$SEED --seed $SEED --fp16
 rm -rf ../output/st-dnn/$TASK/${MODEL}_${TYPE}/seed/$SEED/model_*.pt

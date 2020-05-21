@@ -66,8 +66,8 @@ TASK_DEF="--task_def ../data/task-def/$TASKS.yaml"
 OUTPUT_DIR="../output/mt-dnn_$TASKS/${MODEL}_${TYPE}/seed/$SEED"
 OUTPUT="--output_dir $OUTPUT_DIR"
 
-rm -rf /root/.cache/torch
+#rm -rf /root/.cache/torch
 python prepro_std.py $PREPRO $TASK_DEF
 python train.py $TRAIN $TASK $TASK_DEF $OUTPUT --tensorboard --seed $SEED --fp16
-rm -rf /root/.cache/torch
+#rm -rf /root/.cache/torch
 rm -rf $OUTPUT_DIR/model_*.pt
