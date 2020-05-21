@@ -38,7 +38,19 @@ if pretrained not in pretraineds:
     raise ValueError(f'Incorrect pretrained argument: not in {pretrained}')
 
 pt = ['bert-pt_base', 'bert-multilingual_base', 'bert-pt_large']
-pt_only = ['assin-1+2', 'assin-ptbr+2']
+
+cabezudo = [
+    'best-pt',
+    'random-pt',
+    'worst-pt',
+]
+
+ipr = [
+    'assin-1+2',
+    'assin-ptbr+2',
+]
+
+pt_only = cabezudo + ipr
 
 assin = ['assin2','assin-ptbr','assin-ptpt']
 assin2 = ['assin2']
@@ -65,15 +77,16 @@ elif mode == 'mt-dnn_assin+tweetsent':
         raise ValueError(f'{mode} supports {assin} ASSIN datasets')
 
 #TO DO: ARG PARSE keyword arguments, custom path
-if len(sys.argv)  == 3:
-    rte_filepath = sys.argv[4]
+if dataset in cabezudo:
+    rte_filepath =  f'output/{mode}/{dataset}/{pretrained}/seed/{seed}/{dataset}_test_scores_4.json' if mode == 'st-dnn' \
+    else  f'output/{mode}/{pretrained}/seed/{seed}/{dataset}_test_scores_4.json'
 else: 
     rte_filepath = \
     f'output/{mode}/{dataset}-rte/{pretrained}/seed/{seed}/{dataset}-rte_test_scores_4.json' if mode == 'st-dnn' \
     else  f'output/{mode}/{pretrained}/seed/{seed}/{dataset}-rte_test_scores_4.json'
 
-if len(sys.argv) == 3:
-    rte_filepath = sys.argv[5]
+if dataset in cabezudo:
+    sts_filepath = None
 else: 
     sts_filepath = \
     f'output/{mode}/{dataset}-sts/{pretrained}/seed/{seed}/{dataset}-sts_test_scores_4.json' if mode == 'st-dnn' \
@@ -87,7 +100,13 @@ filepaths = {
 
 output_dir = f'report/{mode}/{pretrained}/seed/{seed}'
 
-tasks = ['rte', 'sts']
+tasks = list()
+if rte_filepath:
+    tasks.append('rte')
+
+if sts_filepath:
+    tasks.append('sts')
+
 scores = dict()
 
 if dataset == 'assin-1+2':
@@ -156,5 +175,5 @@ for corpus in corpora:
     
     eval_file = f'{outpath}/{corpus}_eval.txt'
     with open(eval_file, 'w') as f:
-        f.write(result)
+        f.write(evaluation.stdout.decode('utf-8'))
     print(f'Saved evaluation: {eval_file}')
