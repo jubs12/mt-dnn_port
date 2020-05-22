@@ -2,7 +2,7 @@
 RTE evaluation
 Accuracy	Macro F1
 --------	--------
-  91.80%	   0.846
+  88.55%	   0.761
 
 Similarity evaluation
 Pearson		Mean Squared Error
