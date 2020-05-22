@@ -114,6 +114,8 @@ if dataset == 'assin-1+2':
     corpora = ['assin-ptbr', 'assin-ptpt', 'assin2']
 elif dataset == 'assin-ptbr+2':
     corpora = ['assin-ptbr', 'assin2']
+elif dataset in cabezudo:
+    corpora = ['assin-ptbr', 'assin-ptpt']
 else:
     corpora = [dataset]
 
@@ -143,11 +145,13 @@ for corpus in corpora:
 
         pos = scores['rte']['uids'].index(uid)
 
-        similarity = scores['sts']['scores'][pos]
+        if dataset not in cabezudo:
+            similarity = scores['sts']['scores'][pos]
         entailment_labels = ['Entailment','None','Paraphrase']
         entailment = entailment_labels[scores['rte']['predictions'][pos]]
 
-        xml['entailment-corpus']['pair'][idx]['@similarity'] = round(similarity, 1)
+        if dataset not in cabezudo:
+            xml['entailment-corpus']['pair'][idx]['@similarity'] = round(similarity, 1)
         xml['entailment-corpus']['pair'][idx]['@entailment'] = entailment
 
     result = xmltodict.unparse(xml, pretty = True)
