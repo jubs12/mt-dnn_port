@@ -40,6 +40,7 @@ if pretrained not in pretraineds:
 pt = ['bert-pt_base', 'bert-multilingual_base', 'bert-pt_large']
 
 cabezudo = [
+    'assin1-rte',
     'best-pt',
     'random-pt',
     'worst-pt',
