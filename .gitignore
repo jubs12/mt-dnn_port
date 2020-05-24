@@ -17,6 +17,10 @@ output/st-dnn*/*/*/seed/*/*dev_scores_*.json
 output/mt-dnn*/*/seed/*/grad_norm/*/*dev_scores_*.json
 output/st-dnn*/*/*/seed/*/grad_norm/*/*dev_scores_*.json
 
+output/mt-dnn*/*/seed/*/grad_norm/*/dropout/*/*dev_scores_*.json
+output/st-dnn*/*/*/seed/*/grad_norm/*/dropout/*/*dev_scores_*.json
+
+
 #older testscores
 output/mt-dnn*/*/*test_scores_0.json
 output/st-dnn*/*/*/*test_scores_0.json
@@ -45,6 +49,16 @@ output/mt-dnn*/*/seed/*/grad_norm/*/*test_scores_2.json
 output/st-dnn*/*/*/seed/*/grad_norm/*/*test_scores_2.json
 output/mt-dnn*/*/seed/*/grad_norm/*/*test_scores_3.json
 output/st-dnn*/*/*/seed/*/grad_norm/*/*test_scores_3.json
+
+
+output/mt-dnn*/*/seed/*/grad_norm/*/dropout/*/*test_scores_0.json
+output/st-dnn*/*/*/seed/*/grad_norm/*/dropout/*/*test_scores_0.json
+output/mt-dnn*/*/seed/*/grad_norm/*/dropout/*/*test_scores_1.json
+output/st-dnn*/*/*/seed/*/grad_norm/*/dropout/*/*test_scores_1.json
+output/mt-dnn*/*/seed/*/grad_norm/*/dropout/*/*test_scores_2.json
+output/st-dnn*/*/*/seed/*/grad_norm/*/dropout/*/*test_scores_2.json
+output/mt-dnn*/*/seed/*/grad_norm/*/dropout/*/*test_scores_3.json
+output/st-dnn*/*/*/seed/*/grad_norm/*/dropout/*/*test_scores_3.json
 
 
 #repos
