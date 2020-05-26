@@ -1,0 +1,348 @@
+Saving generated XMLs...
+corpus: assin-ptbr
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  90.00%	   0.764
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  1.000		              0.00
+
+
+Saved evaluation: report/st-dnn/bert-pt_base/seed/2016/assin1-rte/assin-ptbr_eval.txt
+corpus: assin-ptpt
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  90.40%	   0.809
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  1.000		              0.00
+
+
+Saved evaluation: report/st-dnn/bert-pt_base/seed/2016/assin1-rte/assin-ptpt_eval.txt
+Saving generated XMLs...
+corpus: assin-ptbr
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  88.15%	   0.721
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  1.000		              0.00
+
+
+Saved evaluation: report/st-dnn/bert-pt_base/seed/2016/best-pt/assin-ptbr_eval.txt
+corpus: assin-ptpt
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  88.25%	   0.776
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  1.000		              0.00
+
+
+Saved evaluation: report/st-dnn/bert-pt_base/seed/2016/best-pt/assin-ptpt_eval.txt
+Saving generated XMLs...
+corpus: assin-ptbr
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  87.75%	   0.717
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  1.000		              0.00
+
+
+Saved evaluation: report/st-dnn/bert-pt_base/seed/2016/random-pt/assin-ptbr_eval.txt
+corpus: assin-ptpt
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  87.30%	   0.752
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  1.000		              0.00
+
+
+Saved evaluation: report/st-dnn/bert-pt_base/seed/2016/random-pt/assin-ptpt_eval.txt
+Saving generated XMLs...
+corpus: assin-ptbr
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  87.15%	   0.711
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  1.000		              0.00
+
+
+Saved evaluation: report/st-dnn/bert-pt_base/seed/2016/worst-pt/assin-ptbr_eval.txt
+corpus: assin-ptpt
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  87.90%	   0.764
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  1.000		              0.00
+
+
+Saved evaluation: report/st-dnn/bert-pt_base/seed/2016/worst-pt/assin-ptpt_eval.txt
+Saving generated XMLs...
+corpus: assin-ptbr
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  90.20%	   0.798
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  1.000		              0.00
+
+
+Saved evaluation: report/st-dnn/bert-pt_large/seed/2016/assin1-rte/assin-ptbr_eval.txt
+corpus: assin-ptpt
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  90.20%	   0.817
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  1.000		              0.00
+
+
+Saved evaluation: report/st-dnn/bert-pt_large/seed/2016/assin1-rte/assin-ptpt_eval.txt
+Saving generated XMLs...
+corpus: assin-ptbr
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  89.45%	   0.761
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  1.000		              0.00
+
+
+Saved evaluation: report/st-dnn/bert-pt_large/seed/2016/best-pt/assin-ptbr_eval.txt
+corpus: assin-ptpt
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  88.90%	   0.785
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  1.000		              0.00
+
+
+Saved evaluation: report/st-dnn/bert-pt_large/seed/2016/best-pt/assin-ptpt_eval.txt
+Saving generated XMLs...
+corpus: assin-ptbr
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  89.45%	   0.761
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  1.000		              0.00
+
+
+Saved evaluation: report/st-dnn/bert-pt_large/seed/2016/random-pt/assin-ptbr_eval.txt
+corpus: assin-ptpt
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  88.60%	   0.780
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  1.000		              0.00
+
+
+Saved evaluation: report/st-dnn/bert-pt_large/seed/2016/random-pt/assin-ptpt_eval.txt
+Saving generated XMLs...
+corpus: assin-ptbr
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  90.35%	   0.767
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  1.000		              0.00
+
+
+Saved evaluation: report/st-dnn/bert-pt_large/seed/2016/worst-pt/assin-ptbr_eval.txt
+corpus: assin-ptpt
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  89.50%	   0.790
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  1.000		              0.00
+
+
+Saved evaluation: report/st-dnn/bert-pt_large/seed/2016/worst-pt/assin-ptpt_eval.txt
+Saving generated XMLs...
+corpus: assin-ptbr
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  86.75%	   0.546
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  1.000		              0.00
+
+
+Saved evaluation: report/st-dnn/bert-multilingual_base/seed/2016/assin1-rte/assin-ptbr_eval.txt
+corpus: assin-ptpt
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  86.50%	   0.569
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  1.000		              0.00
+
+
+Saved evaluation: report/st-dnn/bert-multilingual_base/seed/2016/assin1-rte/assin-ptpt_eval.txt
+Saving generated XMLs...
+corpus: assin-ptbr
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  85.50%	   0.691
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  1.000		              0.00
+
+
+Saved evaluation: report/st-dnn/bert-multilingual_base/seed/2016/best-pt/assin-ptbr_eval.txt
+corpus: assin-ptpt
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  85.00%	   0.727
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  1.000		              0.00
+
+
+Saved evaluation: report/st-dnn/bert-multilingual_base/seed/2016/best-pt/assin-ptpt_eval.txt
+Saving generated XMLs...
+corpus: assin-ptbr
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  85.70%	   0.690
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  1.000		              0.00
+
+
+Saved evaluation: report/st-dnn/bert-multilingual_base/seed/2016/random-pt/assin-ptbr_eval.txt
+corpus: assin-ptpt
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  85.20%	   0.722
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  1.000		              0.00
+
+
+Saved evaluation: report/st-dnn/bert-multilingual_base/seed/2016/random-pt/assin-ptpt_eval.txt
+Saving generated XMLs...
+corpus: assin-ptbr
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  85.10%	   0.689
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  1.000		              0.00
+
+
+Saved evaluation: report/st-dnn/bert-multilingual_base/seed/2016/worst-pt/assin-ptbr_eval.txt
+corpus: assin-ptpt
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  85.15%	   0.735
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  1.000		              0.00
+
+
+Saved evaluation: report/st-dnn/bert-multilingual_base/seed/2016/worst-pt/assin-ptpt_eval.txt
