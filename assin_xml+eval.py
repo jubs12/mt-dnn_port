@@ -11,7 +11,10 @@ dataset = sys.argv[2]
 pretrained = sys.argv[3]
 seed = sys.argv[4]
 
-download_folder = 'data/dataset' if len(sys.argv) < 6 else sys.argv[5]
+#TO DO: keyword arguments
+
+grad_norm = None if len(sys.argv) < 6 else sys.argv[5]
+download_folder = 'data/dataset' if len(sys.argv) < 7 else sys.argv[6]
 
 modes = [
     'st-dnn',
@@ -77,21 +80,23 @@ elif mode == 'mt-dnn_assin+tweetsent':
     if dataset not in assin:
         raise ValueError(f'{mode} supports {assin} ASSIN datasets')
 
+grad_norm_dir = f'grad_norm/{grad_norm}/' if grad_norm else ''
+
 #TO DO: ARG PARSE keyword arguments, custom path
 if dataset in cabezudo:
-    rte_filepath =  f'output/{mode}/{dataset}/{pretrained}/seed/{seed}/{dataset}_test_scores_4.json' if mode == 'st-dnn' \
-    else  f'output/{mode}/{pretrained}/seed/{seed}/{dataset}_test_scores_4.json'
+    rte_filepath =  f'output/{mode}/{dataset}/{pretrained}/seed/{seed}/{grad_norm_dir}{dataset}_test_scores_4.json' if mode == 'st-dnn' \
+    else  f'output/{mode}/{pretrained}/seed/{seed}/{grad_norm_dir}{dataset}_test_scores_4.json'
 else: 
     rte_filepath = \
-    f'output/{mode}/{dataset}-rte/{pretrained}/seed/{seed}/{dataset}-rte_test_scores_4.json' if mode == 'st-dnn' \
-    else  f'output/{mode}/{pretrained}/seed/{seed}/{dataset}-rte_test_scores_4.json'
+    f'output/{mode}/{dataset}-rte/{pretrained}/seed/{seed}/{grad_norm_dir}{dataset}-rte_test_scores_4.json' if mode == 'st-dnn' \
+    else  f'output/{mode}/{pretrained}/seed/{seed}/{grad_norm_dir}{dataset}-rte_test_scores_4.json'
 
 if dataset in cabezudo:
     sts_filepath = None
 else: 
     sts_filepath = \
-    f'output/{mode}/{dataset}-sts/{pretrained}/seed/{seed}/{dataset}-sts_test_scores_4.json' if mode == 'st-dnn' \
-    else  f'output/{mode}/{pretrained}/seed/{seed}/{dataset}-sts_test_scores_4.json'
+    f'output/{mode}/{dataset}-sts/{pretrained}/seed/{seed}/{grad_norm_dir}{dataset}-sts_test_scores_4.json' if mode == 'st-dnn' \
+    else  f'output/{mode}/{pretrained}/seed/{seed}/{grad_norm_dir}{dataset}-sts_test_scores_4.json'
 
 filepaths = {
     'rte': rte_filepath,
@@ -100,6 +105,7 @@ filepaths = {
 
 
 output_dir = f'report/{mode}/{pretrained}/seed/{seed}'
+output_dir = f'{output_dir}/grad_norm/{grad_norm}' if grad_norm else output_dir
 
 tasks = list()
 if rte_filepath:

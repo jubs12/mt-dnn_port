@@ -3,7 +3,8 @@
 MODE=$1
 PRETRAINED=$2
 SEED=$3
-DOWNLOAD_FOLDER=$4
+GRAD_NORM=$4
+DOWNLOAD_FOLDER=$5
 
 declare -a assin=("assin-ptbr" "assin-ptpt" "assin2")
 declare -a assin_ptbr_2=("assin-ptbr" "assin2")
@@ -25,12 +26,12 @@ else
 fi
 
 for DATASET in "${DATASETS[@]}"; do
-    python assin_xml+eval.py $MODE $DATASET $PRETRAINED $SEED $DOWNLOAD_FOLDER
+    python assin_xml+eval.py $MODE $DATASET $PRETRAINED $SEED $GRAD_NORM $DOWNLOAD_FOLDER
 done
 
 tweetsent_modes=("st-dnn" "mt-dnn_assin+tweetsent")
 
 if [[ " ${tweetsent_modes[@]} " =~ " ${MODE} " ]]; then
-    python tweetsent_json+eval.py $MODE $PRETRAINED $SEED $DOWNLOAD_FOLDER
+    python tweetsent_json+eval.py $MODE $PRETRAINED $SEED $GRAD_NORM $DOWNLOAD_FOLDER
 fi
 

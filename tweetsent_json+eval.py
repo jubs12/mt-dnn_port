@@ -15,7 +15,9 @@ mode = sys.argv[1]
 pretrained = sys.argv[2]
 seed = sys.argv[3]
 
-download_folder = 'data/dataset' if len(sys.argv) < 5 else sys.argv[4]
+grad_norm = None if len(sys.argv) < 6 else sys.argv[5]
+download_folder = 'data/dataset' if len(sys.argv) < 7 else sys.argv[6]
+#TO DO: keyword arguments
 
 modes = [
     'st-dnn',
@@ -39,10 +41,13 @@ if pretrained not in pretraineds:
     raise ValueError(f'Incorrect pretrained argument: not in {pretrained}')
 
 output_dir = f'report/{mode}/{pretrained}/seed/{seed}'
+output_dir = f'{output_dir}/grad_norm/{grad_norm}' if grad_norm else output_dir
+
+grad_norm_dir = f'grad_norm/{grad_norm}/' if grad_norm else ''
 
 filepath = \
-f'output/{mode}/tweetsent/{pretrained}/seed/{seed}/tweetsent_test_scores_4.json' if mode == 'st-dnn' \
-else  f'output/{mode}/{pretrained}/seed/{seed}/tweetsent_test_scores_4.json'
+f'output/{mode}/tweetsent/{pretrained}/seed/{seed}/{grad_norm_dir}tweetsent_test_scores_4.json' if mode == 'st-dnn' \
+else  f'output/{mode}/{pretrained}/seed/{seed}/{grad_norm_dir}tweetsent_test_scores_4.json'
 
 with open(filepath) as f:
     output = json.load(f)
