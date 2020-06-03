@@ -15,8 +15,8 @@ mode = sys.argv[1]
 pretrained = sys.argv[2]
 seed = sys.argv[3]
 
-grad_norm = None if len(sys.argv) < 6 else sys.argv[5]
-download_folder = 'data/dataset' if len(sys.argv) < 7 else sys.argv[6]
+grad_norm = None if len(sys.argv) < 5 else sys.argv[4]
+download_folder = 'data/dataset' if len(sys.argv) < 6 else sys.argv[5]
 #TO DO: keyword arguments
 
 modes = [
