@@ -50,7 +50,7 @@ fi
 
 declare -a tasks_cabezudo=("assin1-rte" "best-pt" "worst-pt" "random-pt")
 if [[ " ${tasks_cabezudo[@]} " =~ " ${TASK} " ]]; then
-	CABEZUDO="--epochs 7 --leaning_rate 0.00002 --batch_size 22 --batch_size_eval 22 --max_seq_len 128"
+	CABEZUDO="--epochs 7 --learning_rate 0.00002 --batch_size 22 --batch_size_eval 22 --max_seq_len 128"
 fi
 
 
