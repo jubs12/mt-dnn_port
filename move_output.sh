@@ -2,7 +2,7 @@ MODE=$1
 
 declare -a grad_norms=("1.0" "2.0" "5.0") 
 declare -a seeds=("2016" "2017" "2018" "2019" "2020")
-declare -a models=("bert-pt" "bert" "mt-dnn")
+declare -a models=("bert-pt")
 declare -a types=("base" "large")
 
 for MODEL in "${models[@]}"; do
