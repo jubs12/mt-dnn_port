@@ -50,7 +50,12 @@ else
    exit 127
 fi
 
+declare -a tasks_cabezudo=("assin1-rte" "best-pt" "worst-pt" "random-pt")
+if [[ " ${tasks_cabezudo[@]} " =~ " ${TASK} " ]]; then
+        CABEZUDO="--epochs 7 --learning_rate 0.00002 --batch_size 22 --batch_size_eval 22 --max_seq_len 128"
+fi
+
 #rm -rf /root/.cache/torch
 python prepro_std.py --task_def ../data/task-def/$TASK.yaml $PREPRO
-python train.py  --task_def ../data/task-def/$TASK.yaml --train_datasets $TASK --test_datasets $TASK --tensorboard $TRAIN --output_dir ../output/st-dnn/$TASK/${MODEL}_${TYPE}/seed/$SEED/grad_norm/$GRAD_NORM/dropout/$DROPOUT --seed $SEED --fp16 --fp16_opt_level O2 --global_grad_clipping $GRAD_NORM --dropout_p $DROPOUT
+python train.py $CABEZUDO --task_def ../data/task-def/$TASK.yaml --train_datasets $TASK --test_datasets $TASK --tensorboard $TRAIN --output_dir ../output/st-dnn/$TASK/${MODEL}_${TYPE}/seed/$SEED/grad_norm/$GRAD_NORM/dropout/$DROPOUT --seed $SEED --fp16 --fp16_opt_level O2 --global_grad_clipping $GRAD_NORM --dropout_p $DROPOUT
 rm -rf ../output/st-dnn/$TASK/${MODEL}_${TYPE}/seed/$SEED/grad_norm/$GRAD_NORM/dropout/$DROPOUT/model_*.pt
