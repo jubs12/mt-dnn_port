@@ -3,7 +3,7 @@
 GRAD_NORM=$1
 
 declare -a tasks=("best-pt" "random-pt" "worst-pt" "assin1-rte")
-declare -a seeds=("2016" "2017" "2019" "2020")
+declare -a seeds=("2016" "2017" "2018" "2019" "2020")
 
 for SEED in "${seeds[@]}"; do
     for TASK in "${tasks[@]}"; do
