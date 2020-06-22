@@ -1,4 +1,4 @@
-{"log_file": "mt-dnn-train.log", "tensorboard": true, "tensorboard_logdir": "tensorboard_logdir", "init_checkpoint": "neuralmind/bert-large-portuguese-cased", "data_dir": "../data/input/pt/bert_large_cased", "data_sort_on": false, "name": "farmer", "task_def": "../data/task-def/assin+tweetsent.yaml", "train_datasets": ["assin-ptbr-sts", "assin-ptbr-rte", "assin-ptpt-sts", "assin2-rte", "assin-ptpt-rte", "assin2-sts", "tweetsent"], "test_datasets": ["assin-ptbr-sts", "assin-ptbr-rte", "assin-ptpt-sts", "assin2-rte", "assin-ptpt-rte", "assin2-sts", "tweetsent"], "glue_format_on": false, "mkd_opt": 0, "update_bert_opt": 0, "multi_gpu_on": false, "mem_cum_type": "simple", "answer_num_turn": 5, "answer_mem_drop_p": 0.1, "answer_att_hidden_size": 128, "answer_att_type": "bilinear", "answer_rnn_type": "gru", "answer_sum_att_type": "bilinear", "answer_merge_opt": 1, "answer_mem_type": 1, "max_answer_len": 5, "answer_dropout_p": 0.1, "answer_weight_norm_on": false, "dump_state_on": false, "answer_opt": 0, "mtl_opt": 0, "ratio": 0, "mix_opt": 0, "max_seq_len": 512, "init_ratio": 1, "encoder_type": 1, "num_hidden_layers": 24, "bert_model_type": "bert-base-uncased", "do_lower_case": false, "masked_lm_prob": 0.15, "short_seq_prob": 0.2, "max_predictions_per_seq": 128, "cuda": true, "log_per_updates": 500, "save_per_updates": 10000, "save_per_updates_on": false, "epochs": 5, "batch_size": 8, "batch_size_eval": 8, "optimizer": "adamax", "grad_clipping": 0, "global_grad_clipping": 1.0, "weight_decay": 0, "learning_rate": 5e-05, "momentum": 0, "warmup": 0.1, "warmup_schedule": "warmup_linear", "adam_eps": 1e-06, "vb_dropout": true, "dropout_p": 0.05, "dropout_w": 0.0, "bert_dropout_p": 0.1, "model_ckpt": "checkpoints/model_0.pt", "resume": false, "have_lr_scheduler": false, "multi_step_lr": "10,20,30", "freeze_layers": -1, "embedding_opt": 0, "lr_gamma": 0.5, "bert_l2norm": 0.0, "scheduler_type": "ms", "output_dir": "../output/mt-dnn_assin+tweetsent/bert-pt_large/seed/2016/grad_norm/1.0/dropout/0.05", "seed": 2016, "grad_accumulation_step": 1, "fp16": true, "fp16_opt_level": "O2", "encode_mode": false, "task_def_list": [{"kd_loss": "<LossCriterion.MseCriterion: 1>", "loss": "<LossCriterion.MseCriterion: 1>", "dropout_p": "None", "enable_san": "False", "split_names": "['train', 'dev', 'test']", "metric_meta": "(<Metric.Pearson: 3>, <Metric.MSE: 11>)", "task_type": "<TaskType.Regression: 2>", "data_type": "<DataFormat.PremiseAndOneHypothesis: 2>", "n_class": "1", "label_vocab": "None", "self": "{}", "__class__": "<class 'experiments.exp_def.TaskDef'>"}, {"kd_loss": "<LossCriterion.MseCriterion: 1>", "loss": "<LossCriterion.CeCriterion: 0>", "dropout_p": "None", "enable_san": "True", "split_names": "['train', 'dev', 'test']", "metric_meta": "(<Metric.F1MAC: 9>, <Metric.ACC: 0>)", "task_type": "<TaskType.Classification: 1>", "data_type": "<DataFormat.PremiseAndOneHypothesis: 2>", "n_class": "3", "label_vocab": "<data_utils.vocab.Vocabulary object at 0x7fb869644f98>", "self": "{}", "__class__": "<class 'experiments.exp_def.TaskDef'>"}, {"kd_loss": "<LossCriterion.MseCriterion: 1>", "loss": "<LossCriterion.MseCriterion: 1>", "dropout_p": "None", "enable_san": "False", "split_names": "['train', 'dev', 'test']", "metric_meta": "(<Metric.Pearson: 3>, <Metric.MSE: 11>)", "task_type": "<TaskType.Regression: 2>", "data_type": "<DataFormat.PremiseAndOneHypothesis: 2>", "n_class": "1", "label_vocab": "None", "self": "{}", "__class__": "<class 'experiments.exp_def.TaskDef'>"}, {"kd_loss": "<LossCriterion.MseCriterion: 1>", "loss": "<LossCriterion.CeCriterion: 0>", "dropout_p": "None", "enable_san": "True", "split_names": "['train', 'dev', 'test']", "metric_meta": "(<Metric.F1MAC: 9>, <Metric.ACC: 0>)", "task_type": "<TaskType.Classification: 1>", "data_type": "<DataFormat.PremiseAndOneHypothesis: 2>", "n_class": "2", "label_vocab": "<data_utils.vocab.Vocabulary object at 0x7fb869644fd0>", "self": "{}", "__class__": "<class 'experiments.exp_def.TaskDef'>"}, {"kd_loss": "<LossCriterion.MseCriterion: 1>", "loss": "<LossCriterion.CeCriterion: 0>", "dropout_p": "None", "enable_san": "True", "split_names": "['train', 'dev', 'test']", "metric_meta": "(<Metric.F1MAC: 9>, <Metric.ACC: 0>)", "task_type": "<TaskType.Classification: 1>", "data_type": "<DataFormat.PremiseAndOneHypothesis: 2>", "n_class": "3", "label_vocab": "<data_utils.vocab.Vocabulary object at 0x7fb869644e80>", "self": "{}", "__class__": "<class 'experiments.exp_def.TaskDef'>"}, {"kd_loss": "<LossCriterion.MseCriterion: 1>", "loss": "<LossCriterion.MseCriterion: 1>", "dropout_p": "None", "enable_san": "False", "split_names": "['train', 'dev', 'test']", "metric_meta": "(<Metric.Pearson: 3>, <Metric.MSE: 11>)", "task_type": "<TaskType.Regression: 2>", "data_type": "<DataFormat.PremiseAndOneHypothesis: 2>", "n_class": "1", "label_vocab": "None", "self": "{}", "__class__": "<class 'experiments.exp_def.TaskDef'>"}, {"kd_loss": "<LossCriterion.MseCriterion: 1>", "loss": "<LossCriterion.CeCriterion: 0>", "dropout_p": "None", "enable_san": "False", "split_names": "['train', 'test']", "metric_meta": "(<Metric.ACC: 0>, <Metric.NoMeanF1: 12>)", "task_type": "<TaskType.Classification: 1>", "data_type": "<DataFormat.PremiseOnly: 1>", "n_class": "3", "label_vocab": "<data_utils.vocab.Vocabulary object at 0x7fb869644ef0>", "self": "{}", "__class__": "<class 'experiments.exp_def.TaskDef'>"}], "output_attentions": false, "output_hidden_states": false, "use_cache": true, "torchscript": false, "use_bfloat16": false, "pruned_heads": {}, "is_encoder_decoder": false, "is_decoder": false, "max_length": 20, "min_length": 0, "do_sample": false, "early_stopping": false, "num_beams": 1, "temperature": 1.0, "top_k": 50, "top_p": 1.0, "repetition_penalty": 1.0, "length_penalty": 1.0, "no_repeat_ngram_size": 0, "bad_words_ids": null, "num_return_sequences": 1, "architectures": ["BertForMaskedLM"], "finetuning_task": null, "id2label": {"0": "LABEL_0", "1": "LABEL_1"}, "label2id": {"LABEL_0": 0, "LABEL_1": 1}, "prefix": null, "bos_token_id": null, "pad_token_id": 0, "eos_token_id": null, "decoder_start_token_id": null, "task_specific_params": null, "xla_device": null, "directionality": "bidi", "model_type": "bert", "output_past": true, "pooler_fc_size": 768, "pooler_num_attention_heads": 12, "pooler_num_fc_layers": 3, "pooler_size_per_head": 128, "pooler_type": "first_token_transform", "vocab_size": 29794, "hidden_size": 1024, "num_attention_heads": 16, "hidden_act": "gelu", "intermediate_size": 4096, "hidden_dropout_prob": 0.1, "attention_probs_dropout_prob": 0.1, "max_position_embeddings": 512, "type_vocab_size": 2, "initializer_range": 0.02, "layer_norm_eps": 1e-12}
+{"log_file": "mt-dnn-train.log", "tensorboard": true, "tensorboard_logdir": "tensorboard_logdir", "init_checkpoint": "neuralmind/bert-large-portuguese-cased", "data_dir": "../data/input/pt/bert_large_cased", "data_sort_on": false, "name": "farmer", "task_def": "../data/task-def/assin+tweetsent.yaml", "train_datasets": ["assin-ptbr-sts", "assin-ptbr-rte", "assin-ptpt-sts", "assin2-rte", "assin-ptpt-rte", "assin2-sts", "tweetsent"], "test_datasets": ["assin-ptbr-sts", "assin-ptbr-rte", "assin-ptpt-sts", "assin2-rte", "assin-ptpt-rte", "assin2-sts", "tweetsent"], "glue_format_on": false, "mkd_opt": 0, "update_bert_opt": 0, "multi_gpu_on": false, "mem_cum_type": "simple", "answer_num_turn": 5, "answer_mem_drop_p": 0.1, "answer_att_hidden_size": 128, "answer_att_type": "bilinear", "answer_rnn_type": "gru", "answer_sum_att_type": "bilinear", "answer_merge_opt": 1, "answer_mem_type": 1, "max_answer_len": 5, "answer_dropout_p": 0.1, "answer_weight_norm_on": false, "dump_state_on": false, "answer_opt": 0, "mtl_opt": 0, "ratio": 0, "mix_opt": 0, "max_seq_len": 512, "init_ratio": 1, "encoder_type": 1, "num_hidden_layers": 24, "bert_model_type": "bert-base-uncased", "do_lower_case": false, "masked_lm_prob": 0.15, "short_seq_prob": 0.2, "max_predictions_per_seq": 128, "cuda": true, "log_per_updates": 500, "save_per_updates": 10000, "save_per_updates_on": false, "epochs": 5, "batch_size": 8, "batch_size_eval": 8, "optimizer": "adamax", "grad_clipping": 0, "global_grad_clipping": 1.0, "weight_decay": 0, "learning_rate": 5e-05, "momentum": 0, "warmup": 0.1, "warmup_schedule": "warmup_linear", "adam_eps": 1e-06, "vb_dropout": true, "dropout_p": 0.05, "dropout_w": 0.0, "bert_dropout_p": 0.1, "model_ckpt": "checkpoints/model_0.pt", "resume": false, "have_lr_scheduler": false, "multi_step_lr": "10,20,30", "freeze_layers": -1, "embedding_opt": 0, "lr_gamma": 0.5, "bert_l2norm": 0.0, "scheduler_type": "ms", "output_dir": "../output/mt-dnn_assin+tweetsent/bert-pt_large/seed/2016/grad_norm/1.0/dropout/0.05", "seed": 2016, "grad_accumulation_step": 1, "fp16": true, "fp16_opt_level": "O2", "encode_mode": false, "task_def_list": [{"kd_loss": "<LossCriterion.MseCriterion: 1>", "loss": "<LossCriterion.MseCriterion: 1>", "dropout_p": "None", "enable_san": "False", "split_names": "['train', 'dev', 'test']", "metric_meta": "(<Metric.Pearson: 3>, <Metric.MSE: 11>)", "task_type": "<TaskType.Regression: 2>", "data_type": "<DataFormat.PremiseAndOneHypothesis: 2>", "n_class": "1", "label_vocab": "None", "self": "{}", "__class__": "<class 'experiments.exp_def.TaskDef'>"}, {"kd_loss": "<LossCriterion.MseCriterion: 1>", "loss": "<LossCriterion.CeCriterion: 0>", "dropout_p": "None", "enable_san": "True", "split_names": "['train', 'dev', 'test']", "metric_meta": "(<Metric.F1MAC: 9>, <Metric.ACC: 0>)", "task_type": "<TaskType.Classification: 1>", "data_type": "<DataFormat.PremiseAndOneHypothesis: 2>", "n_class": "3", "label_vocab": "<data_utils.vocab.Vocabulary object at 0x7fa63c369f60>", "self": "{}", "__class__": "<class 'experiments.exp_def.TaskDef'>"}, {"kd_loss": "<LossCriterion.MseCriterion: 1>", "loss": "<LossCriterion.MseCriterion: 1>", "dropout_p": "None", "enable_san": "False", "split_names": "['train', 'dev', 'test']", "metric_meta": "(<Metric.Pearson: 3>, <Metric.MSE: 11>)", "task_type": "<TaskType.Regression: 2>", "data_type": "<DataFormat.PremiseAndOneHypothesis: 2>", "n_class": "1", "label_vocab": "None", "self": "{}", "__class__": "<class 'experiments.exp_def.TaskDef'>"}, {"kd_loss": "<LossCriterion.MseCriterion: 1>", "loss": "<LossCriterion.CeCriterion: 0>", "dropout_p": "None", "enable_san": "True", "split_names": "['train', 'dev', 'test']", "metric_meta": "(<Metric.F1MAC: 9>, <Metric.ACC: 0>)", "task_type": "<TaskType.Classification: 1>", "data_type": "<DataFormat.PremiseAndOneHypothesis: 2>", "n_class": "2", "label_vocab": "<data_utils.vocab.Vocabulary object at 0x7fa63c369e10>", "self": "{}", "__class__": "<class 'experiments.exp_def.TaskDef'>"}, {"kd_loss": "<LossCriterion.MseCriterion: 1>", "loss": "<LossCriterion.CeCriterion: 0>", "dropout_p": "None", "enable_san": "True", "split_names": "['train', 'dev', 'test']", "metric_meta": "(<Metric.F1MAC: 9>, <Metric.ACC: 0>)", "task_type": "<TaskType.Classification: 1>", "data_type": "<DataFormat.PremiseAndOneHypothesis: 2>", "n_class": "3", "label_vocab": "<data_utils.vocab.Vocabulary object at 0x7fa63c369ef0>", "self": "{}", "__class__": "<class 'experiments.exp_def.TaskDef'>"}, {"kd_loss": "<LossCriterion.MseCriterion: 1>", "loss": "<LossCriterion.MseCriterion: 1>", "dropout_p": "None", "enable_san": "False", "split_names": "['train', 'dev', 'test']", "metric_meta": "(<Metric.Pearson: 3>, <Metric.MSE: 11>)", "task_type": "<TaskType.Regression: 2>", "data_type": "<DataFormat.PremiseAndOneHypothesis: 2>", "n_class": "1", "label_vocab": "None", "self": "{}", "__class__": "<class 'experiments.exp_def.TaskDef'>"}, {"kd_loss": "<LossCriterion.MseCriterion: 1>", "loss": "<LossCriterion.CeCriterion: 0>", "dropout_p": "None", "enable_san": "False", "split_names": "['train', 'test']", "metric_meta": "(<Metric.ACC: 0>, <Metric.NoMeanF1: 12>)", "task_type": "<TaskType.Classification: 1>", "data_type": "<DataFormat.PremiseOnly: 1>", "n_class": "3", "label_vocab": "<data_utils.vocab.Vocabulary object at 0x7fa63c369f98>", "self": "{}", "__class__": "<class 'experiments.exp_def.TaskDef'>"}], "output_attentions": false, "output_hidden_states": false, "use_cache": true, "torchscript": false, "use_bfloat16": false, "pruned_heads": {}, "is_encoder_decoder": false, "is_decoder": false, "max_length": 20, "min_length": 0, "do_sample": false, "early_stopping": false, "num_beams": 1, "temperature": 1.0, "top_k": 50, "top_p": 1.0, "repetition_penalty": 1.0, "length_penalty": 1.0, "no_repeat_ngram_size": 0, "bad_words_ids": null, "num_return_sequences": 1, "architectures": ["BertForMaskedLM"], "finetuning_task": null, "id2label": {"0": "LABEL_0", "1": "LABEL_1"}, "label2id": {"LABEL_0": 0, "LABEL_1": 1}, "prefix": null, "bos_token_id": null, "pad_token_id": 0, "eos_token_id": null, "decoder_start_token_id": null, "task_specific_params": null, "xla_device": null, "directionality": "bidi", "model_type": "bert", "output_past": true, "pooler_fc_size": 768, "pooler_num_attention_heads": 12, "pooler_num_fc_layers": 3, "pooler_size_per_head": 128, "pooler_type": "first_token_transform", "vocab_size": 29794, "hidden_size": 1024, "num_attention_heads": 16, "hidden_act": "gelu", "intermediate_size": 4096, "hidden_dropout_prob": 0.1, "attention_probs_dropout_prob": 0.1, "max_position_embeddings": 512, "type_vocab_size": 2, "initializer_range": 0.02, "layer_norm_eps": 1e-12}
 
 ############# Model Arch of MT-DNN #############
 SANBertNetwork(
@@ -16,8 +16,8 @@ SANBertNetwork(
       (word_embeddings): Embedding(29794, 1024, padding_idx=0)
       (position_embeddings): Embedding(512, 1024)
       (token_type_embeddings): Embedding(2, 1024)
-      (LayerNorm): LayerNorm(torch.Size([1024]), eps=1e-12, elementwise_affine=True)
-      (dropout): Dropout(p=0.1)
+      (LayerNorm): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+      (dropout): Dropout(p=0.1, inplace=False)
     )
     (encoder): BertEncoder(
       (layer): ModuleList(
@@ -27,12 +27,12 @@ SANBertNetwork(
               (query): Linear(in_features=1024, out_features=1024, bias=True)
               (key): Linear(in_features=1024, out_features=1024, bias=True)
               (value): Linear(in_features=1024, out_features=1024, bias=True)
-              (dropout): Dropout(p=0.1)
+              (dropout): Dropout(p=0.1, inplace=False)
             )
             (output): BertSelfOutput(
               (dense): Linear(in_features=1024, out_features=1024, bias=True)
-              (LayerNorm): LayerNorm(torch.Size([1024]), eps=1e-12, elementwise_affine=True)
-              (dropout): Dropout(p=0.1)
+              (LayerNorm): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
             )
           )
           (intermediate): BertIntermediate(
@@ -40,8 +40,8 @@ SANBertNetwork(
           )
           (output): BertOutput(
             (dense): Linear(in_features=4096, out_features=1024, bias=True)
-            (LayerNorm): LayerNorm(torch.Size([1024]), eps=1e-12, elementwise_affine=True)
-            (dropout): Dropout(p=0.1)
+            (LayerNorm): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
           )
         )
         (1): BertLayer(
@@ -50,12 +50,12 @@ SANBertNetwork(
               (query): Linear(in_features=1024, out_features=1024, bias=True)
               (key): Linear(in_features=1024, out_features=1024, bias=True)
               (value): Linear(in_features=1024, out_features=1024, bias=True)
-              (dropout): Dropout(p=0.1)
+              (dropout): Dropout(p=0.1, inplace=False)
             )
             (output): BertSelfOutput(
               (dense): Linear(in_features=1024, out_features=1024, bias=True)
-              (LayerNorm): LayerNorm(torch.Size([1024]), eps=1e-12, elementwise_affine=True)
-              (dropout): Dropout(p=0.1)
+              (LayerNorm): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
             )
           )
           (intermediate): BertIntermediate(
@@ -63,8 +63,8 @@ SANBertNetwork(
           )
           (output): BertOutput(
             (dense): Linear(in_features=4096, out_features=1024, bias=True)
-            (LayerNorm): LayerNorm(torch.Size([1024]), eps=1e-12, elementwise_affine=True)
-            (dropout): Dropout(p=0.1)
+            (LayerNorm): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
           )
         )
         (2): BertLayer(
@@ -73,12 +73,12 @@ SANBertNetwork(
               (query): Linear(in_features=1024, out_features=1024, bias=True)
               (key): Linear(in_features=1024, out_features=1024, bias=True)
               (value): Linear(in_features=1024, out_features=1024, bias=True)
-              (dropout): Dropout(p=0.1)
+              (dropout): Dropout(p=0.1, inplace=False)
             )
             (output): BertSelfOutput(
               (dense): Linear(in_features=1024, out_features=1024, bias=True)
-              (LayerNorm): LayerNorm(torch.Size([1024]), eps=1e-12, elementwise_affine=True)
-              (dropout): Dropout(p=0.1)
+              (LayerNorm): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
             )
           )
           (intermediate): BertIntermediate(
@@ -86,8 +86,8 @@ SANBertNetwork(
           )
           (output): BertOutput(
             (dense): Linear(in_features=4096, out_features=1024, bias=True)
-            (LayerNorm): LayerNorm(torch.Size([1024]), eps=1e-12, elementwise_affine=True)
-            (dropout): Dropout(p=0.1)
+            (LayerNorm): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
           )
         )
         (3): BertLayer(
@@ -96,12 +96,12 @@ SANBertNetwork(
               (query): Linear(in_features=1024, out_features=1024, bias=True)
               (key): Linear(in_features=1024, out_features=1024, bias=True)
               (value): Linear(in_features=1024, out_features=1024, bias=True)
-              (dropout): Dropout(p=0.1)
+              (dropout): Dropout(p=0.1, inplace=False)
             )
             (output): BertSelfOutput(
               (dense): Linear(in_features=1024, out_features=1024, bias=True)
-              (LayerNorm): LayerNorm(torch.Size([1024]), eps=1e-12, elementwise_affine=True)
-              (dropout): Dropout(p=0.1)
+              (LayerNorm): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
             )
           )
           (intermediate): BertIntermediate(
@@ -109,8 +109,8 @@ SANBertNetwork(
           )
           (output): BertOutput(
             (dense): Linear(in_features=4096, out_features=1024, bias=True)
-            (LayerNorm): LayerNorm(torch.Size([1024]), eps=1e-12, elementwise_affine=True)
-            (dropout): Dropout(p=0.1)
+            (LayerNorm): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
           )
         )
         (4): BertLayer(
@@ -119,12 +119,12 @@ SANBertNetwork(
               (query): Linear(in_features=1024, out_features=1024, bias=True)
               (key): Linear(in_features=1024, out_features=1024, bias=True)
               (value): Linear(in_features=1024, out_features=1024, bias=True)
-              (dropout): Dropout(p=0.1)
+              (dropout): Dropout(p=0.1, inplace=False)
             )
             (output): BertSelfOutput(
               (dense): Linear(in_features=1024, out_features=1024, bias=True)
-              (LayerNorm): LayerNorm(torch.Size([1024]), eps=1e-12, elementwise_affine=True)
-              (dropout): Dropout(p=0.1)
+              (LayerNorm): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
             )
           )
           (intermediate): BertIntermediate(
@@ -132,8 +132,8 @@ SANBertNetwork(
           )
           (output): BertOutput(
             (dense): Linear(in_features=4096, out_features=1024, bias=True)
-            (LayerNorm): LayerNorm(torch.Size([1024]), eps=1e-12, elementwise_affine=True)
-            (dropout): Dropout(p=0.1)
+            (LayerNorm): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
           )
         )
         (5): BertLayer(
@@ -142,12 +142,12 @@ SANBertNetwork(
               (query): Linear(in_features=1024, out_features=1024, bias=True)
               (key): Linear(in_features=1024, out_features=1024, bias=True)
               (value): Linear(in_features=1024, out_features=1024, bias=True)
-              (dropout): Dropout(p=0.1)
+              (dropout): Dropout(p=0.1, inplace=False)
             )
             (output): BertSelfOutput(
               (dense): Linear(in_features=1024, out_features=1024, bias=True)
-              (LayerNorm): LayerNorm(torch.Size([1024]), eps=1e-12, elementwise_affine=True)
-              (dropout): Dropout(p=0.1)
+              (LayerNorm): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
             )
           )
           (intermediate): BertIntermediate(
@@ -155,8 +155,8 @@ SANBertNetwork(
           )
           (output): BertOutput(
             (dense): Linear(in_features=4096, out_features=1024, bias=True)
-            (LayerNorm): LayerNorm(torch.Size([1024]), eps=1e-12, elementwise_affine=True)
-            (dropout): Dropout(p=0.1)
+            (LayerNorm): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
           )
         )
         (6): BertLayer(
@@ -165,12 +165,12 @@ SANBertNetwork(
               (query): Linear(in_features=1024, out_features=1024, bias=True)
               (key): Linear(in_features=1024, out_features=1024, bias=True)
               (value): Linear(in_features=1024, out_features=1024, bias=True)
-              (dropout): Dropout(p=0.1)
+              (dropout): Dropout(p=0.1, inplace=False)
             )
             (output): BertSelfOutput(
               (dense): Linear(in_features=1024, out_features=1024, bias=True)
-              (LayerNorm): LayerNorm(torch.Size([1024]), eps=1e-12, elementwise_affine=True)
-              (dropout): Dropout(p=0.1)
+              (LayerNorm): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
             )
           )
           (intermediate): BertIntermediate(
@@ -178,8 +178,8 @@ SANBertNetwork(
           )
           (output): BertOutput(
             (dense): Linear(in_features=4096, out_features=1024, bias=True)
-            (LayerNorm): LayerNorm(torch.Size([1024]), eps=1e-12, elementwise_affine=True)
-            (dropout): Dropout(p=0.1)
+            (LayerNorm): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
           )
         )
         (7): BertLayer(
@@ -188,12 +188,12 @@ SANBertNetwork(
               (query): Linear(in_features=1024, out_features=1024, bias=True)
               (key): Linear(in_features=1024, out_features=1024, bias=True)
               (value): Linear(in_features=1024, out_features=1024, bias=True)
-              (dropout): Dropout(p=0.1)
+              (dropout): Dropout(p=0.1, inplace=False)
             )
             (output): BertSelfOutput(
               (dense): Linear(in_features=1024, out_features=1024, bias=True)
-              (LayerNorm): LayerNorm(torch.Size([1024]), eps=1e-12, elementwise_affine=True)
-              (dropout): Dropout(p=0.1)
+              (LayerNorm): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
             )
           )
           (intermediate): BertIntermediate(
@@ -201,8 +201,8 @@ SANBertNetwork(
           )
           (output): BertOutput(
             (dense): Linear(in_features=4096, out_features=1024, bias=True)
-            (LayerNorm): LayerNorm(torch.Size([1024]), eps=1e-12, elementwise_affine=True)
-            (dropout): Dropout(p=0.1)
+            (LayerNorm): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
           )
         )
         (8): BertLayer(
@@ -211,12 +211,12 @@ SANBertNetwork(
               (query): Linear(in_features=1024, out_features=1024, bias=True)
               (key): Linear(in_features=1024, out_features=1024, bias=True)
               (value): Linear(in_features=1024, out_features=1024, bias=True)
-              (dropout): Dropout(p=0.1)
+              (dropout): Dropout(p=0.1, inplace=False)
             )
             (output): BertSelfOutput(
               (dense): Linear(in_features=1024, out_features=1024, bias=True)
-              (LayerNorm): LayerNorm(torch.Size([1024]), eps=1e-12, elementwise_affine=True)
-              (dropout): Dropout(p=0.1)
+              (LayerNorm): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
             )
           )
           (intermediate): BertIntermediate(
@@ -224,8 +224,8 @@ SANBertNetwork(
           )
           (output): BertOutput(
             (dense): Linear(in_features=4096, out_features=1024, bias=True)
-            (LayerNorm): LayerNorm(torch.Size([1024]), eps=1e-12, elementwise_affine=True)
-            (dropout): Dropout(p=0.1)
+            (LayerNorm): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
           )
         )
         (9): BertLayer(
@@ -234,12 +234,12 @@ SANBertNetwork(
               (query): Linear(in_features=1024, out_features=1024, bias=True)
               (key): Linear(in_features=1024, out_features=1024, bias=True)
               (value): Linear(in_features=1024, out_features=1024, bias=True)
-              (dropout): Dropout(p=0.1)
+              (dropout): Dropout(p=0.1, inplace=False)
             )
             (output): BertSelfOutput(
               (dense): Linear(in_features=1024, out_features=1024, bias=True)
-              (LayerNorm): LayerNorm(torch.Size([1024]), eps=1e-12, elementwise_affine=True)
-              (dropout): Dropout(p=0.1)
+              (LayerNorm): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
             )
           )
           (intermediate): BertIntermediate(
@@ -247,8 +247,8 @@ SANBertNetwork(
           )
           (output): BertOutput(
             (dense): Linear(in_features=4096, out_features=1024, bias=True)
-            (LayerNorm): LayerNorm(torch.Size([1024]), eps=1e-12, elementwise_affine=True)
-            (dropout): Dropout(p=0.1)
+            (LayerNorm): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
           )
         )
         (10): BertLayer(
@@ -257,12 +257,12 @@ SANBertNetwork(
               (query): Linear(in_features=1024, out_features=1024, bias=True)
               (key): Linear(in_features=1024, out_features=1024, bias=True)
               (value): Linear(in_features=1024, out_features=1024, bias=True)
-              (dropout): Dropout(p=0.1)
+              (dropout): Dropout(p=0.1, inplace=False)
             )
             (output): BertSelfOutput(
               (dense): Linear(in_features=1024, out_features=1024, bias=True)
-              (LayerNorm): LayerNorm(torch.Size([1024]), eps=1e-12, elementwise_affine=True)
-              (dropout): Dropout(p=0.1)
+              (LayerNorm): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
             )
           )
           (intermediate): BertIntermediate(
@@ -270,8 +270,8 @@ SANBertNetwork(
           )
           (output): BertOutput(
             (dense): Linear(in_features=4096, out_features=1024, bias=True)
-            (LayerNorm): LayerNorm(torch.Size([1024]), eps=1e-12, elementwise_affine=True)
-            (dropout): Dropout(p=0.1)
+            (LayerNorm): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
           )
         )
         (11): BertLayer(
@@ -280,12 +280,12 @@ SANBertNetwork(
               (query): Linear(in_features=1024, out_features=1024, bias=True)
               (key): Linear(in_features=1024, out_features=1024, bias=True)
               (value): Linear(in_features=1024, out_features=1024, bias=True)
-              (dropout): Dropout(p=0.1)
+              (dropout): Dropout(p=0.1, inplace=False)
             )
             (output): BertSelfOutput(
               (dense): Linear(in_features=1024, out_features=1024, bias=True)
-              (LayerNorm): LayerNorm(torch.Size([1024]), eps=1e-12, elementwise_affine=True)
-              (dropout): Dropout(p=0.1)
+              (LayerNorm): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
             )
           )
           (intermediate): BertIntermediate(
@@ -293,8 +293,8 @@ SANBertNetwork(
           )
           (output): BertOutput(
             (dense): Linear(in_features=4096, out_features=1024, bias=True)
-            (LayerNorm): LayerNorm(torch.Size([1024]), eps=1e-12, elementwise_affine=True)
-            (dropout): Dropout(p=0.1)
+            (LayerNorm): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
           )
         )
         (12): BertLayer(
@@ -303,12 +303,12 @@ SANBertNetwork(
               (query): Linear(in_features=1024, out_features=1024, bias=True)
               (key): Linear(in_features=1024, out_features=1024, bias=True)
               (value): Linear(in_features=1024, out_features=1024, bias=True)
-              (dropout): Dropout(p=0.1)
+              (dropout): Dropout(p=0.1, inplace=False)
             )
             (output): BertSelfOutput(
               (dense): Linear(in_features=1024, out_features=1024, bias=True)
-              (LayerNorm): LayerNorm(torch.Size([1024]), eps=1e-12, elementwise_affine=True)
-              (dropout): Dropout(p=0.1)
+              (LayerNorm): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
             )
           )
           (intermediate): BertIntermediate(
@@ -316,8 +316,8 @@ SANBertNetwork(
           )
           (output): BertOutput(
             (dense): Linear(in_features=4096, out_features=1024, bias=True)
-            (LayerNorm): LayerNorm(torch.Size([1024]), eps=1e-12, elementwise_affine=True)
-            (dropout): Dropout(p=0.1)
+            (LayerNorm): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
           )
         )
         (13): BertLayer(
@@ -326,12 +326,12 @@ SANBertNetwork(
               (query): Linear(in_features=1024, out_features=1024, bias=True)
               (key): Linear(in_features=1024, out_features=1024, bias=True)
               (value): Linear(in_features=1024, out_features=1024, bias=True)
-              (dropout): Dropout(p=0.1)
+              (dropout): Dropout(p=0.1, inplace=False)
             )
             (output): BertSelfOutput(
               (dense): Linear(in_features=1024, out_features=1024, bias=True)
-              (LayerNorm): LayerNorm(torch.Size([1024]), eps=1e-12, elementwise_affine=True)
-              (dropout): Dropout(p=0.1)
+              (LayerNorm): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
             )
           )
           (intermediate): BertIntermediate(
@@ -339,8 +339,8 @@ SANBertNetwork(
           )
           (output): BertOutput(
             (dense): Linear(in_features=4096, out_features=1024, bias=True)
-            (LayerNorm): LayerNorm(torch.Size([1024]), eps=1e-12, elementwise_affine=True)
-            (dropout): Dropout(p=0.1)
+            (LayerNorm): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
           )
         )
         (14): BertLayer(
@@ -349,12 +349,12 @@ SANBertNetwork(
               (query): Linear(in_features=1024, out_features=1024, bias=True)
               (key): Linear(in_features=1024, out_features=1024, bias=True)
               (value): Linear(in_features=1024, out_features=1024, bias=True)
-              (dropout): Dropout(p=0.1)
+              (dropout): Dropout(p=0.1, inplace=False)
             )
             (output): BertSelfOutput(
               (dense): Linear(in_features=1024, out_features=1024, bias=True)
-              (LayerNorm): LayerNorm(torch.Size([1024]), eps=1e-12, elementwise_affine=True)
-              (dropout): Dropout(p=0.1)
+              (LayerNorm): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
             )
           )
           (intermediate): BertIntermediate(
@@ -362,8 +362,8 @@ SANBertNetwork(
           )
           (output): BertOutput(
             (dense): Linear(in_features=4096, out_features=1024, bias=True)
-            (LayerNorm): LayerNorm(torch.Size([1024]), eps=1e-12, elementwise_affine=True)
-            (dropout): Dropout(p=0.1)
+            (LayerNorm): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
           )
         )
         (15): BertLayer(
@@ -372,12 +372,12 @@ SANBertNetwork(
               (query): Linear(in_features=1024, out_features=1024, bias=True)
               (key): Linear(in_features=1024, out_features=1024, bias=True)
               (value): Linear(in_features=1024, out_features=1024, bias=True)
-              (dropout): Dropout(p=0.1)
+              (dropout): Dropout(p=0.1, inplace=False)
             )
             (output): BertSelfOutput(
               (dense): Linear(in_features=1024, out_features=1024, bias=True)
-              (LayerNorm): LayerNorm(torch.Size([1024]), eps=1e-12, elementwise_affine=True)
-              (dropout): Dropout(p=0.1)
+              (LayerNorm): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
             )
           )
           (intermediate): BertIntermediate(
@@ -385,8 +385,8 @@ SANBertNetwork(
           )
           (output): BertOutput(
             (dense): Linear(in_features=4096, out_features=1024, bias=True)
-            (LayerNorm): LayerNorm(torch.Size([1024]), eps=1e-12, elementwise_affine=True)
-            (dropout): Dropout(p=0.1)
+            (LayerNorm): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
           )
         )
         (16): BertLayer(
@@ -395,12 +395,12 @@ SANBertNetwork(
               (query): Linear(in_features=1024, out_features=1024, bias=True)
               (key): Linear(in_features=1024, out_features=1024, bias=True)
               (value): Linear(in_features=1024, out_features=1024, bias=True)
-              (dropout): Dropout(p=0.1)
+              (dropout): Dropout(p=0.1, inplace=False)
             )
             (output): BertSelfOutput(
               (dense): Linear(in_features=1024, out_features=1024, bias=True)
-              (LayerNorm): LayerNorm(torch.Size([1024]), eps=1e-12, elementwise_affine=True)
-              (dropout): Dropout(p=0.1)
+              (LayerNorm): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
             )
           )
           (intermediate): BertIntermediate(
@@ -408,8 +408,8 @@ SANBertNetwork(
           )
           (output): BertOutput(
             (dense): Linear(in_features=4096, out_features=1024, bias=True)
-            (LayerNorm): LayerNorm(torch.Size([1024]), eps=1e-12, elementwise_affine=True)
-            (dropout): Dropout(p=0.1)
+            (LayerNorm): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
           )
         )
         (17): BertLayer(
@@ -418,12 +418,12 @@ SANBertNetwork(
               (query): Linear(in_features=1024, out_features=1024, bias=True)
               (key): Linear(in_features=1024, out_features=1024, bias=True)
               (value): Linear(in_features=1024, out_features=1024, bias=True)
-              (dropout): Dropout(p=0.1)
+              (dropout): Dropout(p=0.1, inplace=False)
             )
             (output): BertSelfOutput(
               (dense): Linear(in_features=1024, out_features=1024, bias=True)
-              (LayerNorm): LayerNorm(torch.Size([1024]), eps=1e-12, elementwise_affine=True)
-              (dropout): Dropout(p=0.1)
+              (LayerNorm): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
             )
           )
           (intermediate): BertIntermediate(
@@ -431,8 +431,8 @@ SANBertNetwork(
           )
           (output): BertOutput(
             (dense): Linear(in_features=4096, out_features=1024, bias=True)
-            (LayerNorm): LayerNorm(torch.Size([1024]), eps=1e-12, elementwise_affine=True)
-            (dropout): Dropout(p=0.1)
+            (LayerNorm): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
           )
         )
         (18): BertLayer(
@@ -441,12 +441,12 @@ SANBertNetwork(
               (query): Linear(in_features=1024, out_features=1024, bias=True)
               (key): Linear(in_features=1024, out_features=1024, bias=True)
               (value): Linear(in_features=1024, out_features=1024, bias=True)
-              (dropout): Dropout(p=0.1)
+              (dropout): Dropout(p=0.1, inplace=False)
             )
             (output): BertSelfOutput(
               (dense): Linear(in_features=1024, out_features=1024, bias=True)
-              (LayerNorm): LayerNorm(torch.Size([1024]), eps=1e-12, elementwise_affine=True)
-              (dropout): Dropout(p=0.1)
+              (LayerNorm): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
             )
           )
           (intermediate): BertIntermediate(
@@ -454,8 +454,8 @@ SANBertNetwork(
           )
           (output): BertOutput(
             (dense): Linear(in_features=4096, out_features=1024, bias=True)
-            (LayerNorm): LayerNorm(torch.Size([1024]), eps=1e-12, elementwise_affine=True)
-            (dropout): Dropout(p=0.1)
+            (LayerNorm): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
           )
         )
         (19): BertLayer(
@@ -464,12 +464,12 @@ SANBertNetwork(
               (query): Linear(in_features=1024, out_features=1024, bias=True)
               (key): Linear(in_features=1024, out_features=1024, bias=True)
               (value): Linear(in_features=1024, out_features=1024, bias=True)
-              (dropout): Dropout(p=0.1)
+              (dropout): Dropout(p=0.1, inplace=False)
             )
             (output): BertSelfOutput(
               (dense): Linear(in_features=1024, out_features=1024, bias=True)
-              (LayerNorm): LayerNorm(torch.Size([1024]), eps=1e-12, elementwise_affine=True)
-              (dropout): Dropout(p=0.1)
+              (LayerNorm): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
             )
           )
           (intermediate): BertIntermediate(
@@ -477,8 +477,8 @@ SANBertNetwork(
           )
           (output): BertOutput(
             (dense): Linear(in_features=4096, out_features=1024, bias=True)
-            (LayerNorm): LayerNorm(torch.Size([1024]), eps=1e-12, elementwise_affine=True)
-            (dropout): Dropout(p=0.1)
+            (LayerNorm): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
           )
         )
         (20): BertLayer(
@@ -487,12 +487,12 @@ SANBertNetwork(
               (query): Linear(in_features=1024, out_features=1024, bias=True)
               (key): Linear(in_features=1024, out_features=1024, bias=True)
               (value): Linear(in_features=1024, out_features=1024, bias=True)
-              (dropout): Dropout(p=0.1)
+              (dropout): Dropout(p=0.1, inplace=False)
             )
             (output): BertSelfOutput(
               (dense): Linear(in_features=1024, out_features=1024, bias=True)
-              (LayerNorm): LayerNorm(torch.Size([1024]), eps=1e-12, elementwise_affine=True)
-              (dropout): Dropout(p=0.1)
+              (LayerNorm): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
             )
           )
           (intermediate): BertIntermediate(
@@ -500,8 +500,8 @@ SANBertNetwork(
           )
           (output): BertOutput(
             (dense): Linear(in_features=4096, out_features=1024, bias=True)
-            (LayerNorm): LayerNorm(torch.Size([1024]), eps=1e-12, elementwise_affine=True)
-            (dropout): Dropout(p=0.1)
+            (LayerNorm): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
           )
         )
         (21): BertLayer(
@@ -510,12 +510,12 @@ SANBertNetwork(
               (query): Linear(in_features=1024, out_features=1024, bias=True)
               (key): Linear(in_features=1024, out_features=1024, bias=True)
               (value): Linear(in_features=1024, out_features=1024, bias=True)
-              (dropout): Dropout(p=0.1)
+              (dropout): Dropout(p=0.1, inplace=False)
             )
             (output): BertSelfOutput(
               (dense): Linear(in_features=1024, out_features=1024, bias=True)
-              (LayerNorm): LayerNorm(torch.Size([1024]), eps=1e-12, elementwise_affine=True)
-              (dropout): Dropout(p=0.1)
+              (LayerNorm): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
             )
           )
           (intermediate): BertIntermediate(
@@ -523,8 +523,8 @@ SANBertNetwork(
           )
           (output): BertOutput(
             (dense): Linear(in_features=4096, out_features=1024, bias=True)
-            (LayerNorm): LayerNorm(torch.Size([1024]), eps=1e-12, elementwise_affine=True)
-            (dropout): Dropout(p=0.1)
+            (LayerNorm): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
           )
         )
         (22): BertLayer(
@@ -533,12 +533,12 @@ SANBertNetwork(
               (query): Linear(in_features=1024, out_features=1024, bias=True)
               (key): Linear(in_features=1024, out_features=1024, bias=True)
               (value): Linear(in_features=1024, out_features=1024, bias=True)
-              (dropout): Dropout(p=0.1)
+              (dropout): Dropout(p=0.1, inplace=False)
             )
             (output): BertSelfOutput(
               (dense): Linear(in_features=1024, out_features=1024, bias=True)
-              (LayerNorm): LayerNorm(torch.Size([1024]), eps=1e-12, elementwise_affine=True)
-              (dropout): Dropout(p=0.1)
+              (LayerNorm): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
             )
           )
           (intermediate): BertIntermediate(
@@ -546,8 +546,8 @@ SANBertNetwork(
           )
           (output): BertOutput(
             (dense): Linear(in_features=4096, out_features=1024, bias=True)
-            (LayerNorm): LayerNorm(torch.Size([1024]), eps=1e-12, elementwise_affine=True)
-            (dropout): Dropout(p=0.1)
+            (LayerNorm): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
           )
         )
         (23): BertLayer(
@@ -556,12 +556,12 @@ SANBertNetwork(
               (query): Linear(in_features=1024, out_features=1024, bias=True)
               (key): Linear(in_features=1024, out_features=1024, bias=True)
               (value): Linear(in_features=1024, out_features=1024, bias=True)
-              (dropout): Dropout(p=0.1)
+              (dropout): Dropout(p=0.1, inplace=False)
             )
             (output): BertSelfOutput(
               (dense): Linear(in_features=1024, out_features=1024, bias=True)
-              (LayerNorm): LayerNorm(torch.Size([1024]), eps=1e-12, elementwise_affine=True)
-              (dropout): Dropout(p=0.1)
+              (LayerNorm): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
             )
           )
           (intermediate): BertIntermediate(
@@ -569,8 +569,8 @@ SANBertNetwork(
           )
           (output): BertOutput(
             (dense): Linear(in_features=4096, out_features=1024, bias=True)
-            (LayerNorm): LayerNorm(torch.Size([1024]), eps=1e-12, elementwise_affine=True)
-            (dropout): Dropout(p=0.1)
+            (LayerNorm): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
           )
         )
       )
