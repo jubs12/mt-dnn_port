@@ -76,7 +76,7 @@
 		<t>E Snowden mostrou bom humor em sua estreia no Twitter.</t>
 		<h>Em sua descrição no Twitter, Snowden diz: "Eu trabalhava para o governo."</h>
 	</pair>
-	<pair entailment="Entailment" id="20" similarity="4.0">
+	<pair entailment="Paraphrase" id="20" similarity="4.0">
 		<t>Eu tive que desistir de muitos papéis bons porque estava ligado a Game of Thrones.</t>
 		<h>Perdi muita coisa porque estava preso a Game of Thrones.</h>
 	</pair>
@@ -508,7 +508,7 @@
 		<t>Ele disse que um outro colaborador da Lava Jato vai esclarecer o assunto.</t>
 		<h>Os dois estão entre os principais delatores da Operação Lava Jato.</h>
 	</pair>
-	<pair entailment="Entailment" id="128" similarity="4.0">
+	<pair entailment="Paraphrase" id="128" similarity="4.0">
 		<t>Lady Gaga irá apresentar uma das categorias do próximo Emmy Awards.</t>
 		<h>Lady Gaga estará presente no próximo Emmy Awards como apresentadora.</h>
 	</pair>
@@ -1228,7 +1228,7 @@
 		<t>O comandante da Unidade de Polícia Pacificadora (UPP) da Coroa será ouvido.</t>
 		<h>O morro tem uma Unidade de Polícia Pacificadora (UPP) desde 2011.</h>
 	</pair>
-	<pair entailment="None" id="308" similarity="4.0">
+	<pair entailment="Entailment" id="308" similarity="4.0">
 		<t>O caso foi encaminhado para o Comitê de Ética, que vai abrir uma investigação formal.</t>
 		<h>Além disso, o Comitê de Ética fará uma investigação formal das denúncias.</h>
 	</pair>
@@ -1284,7 +1284,7 @@
 		<t>Os ucranianos lutarão agora pela sobrevivência na repescagem das eliminatórias da Eurocopa 2016.</t>
 		<h>A Ucrânia terá que disputar a repescagem das Eliminatórias da Eurocopa 2016.</h>
 	</pair>
-	<pair entailment="None" id="322" similarity="3.0">
+	<pair entailment="Entailment" id="322" similarity="3.0">
 		<t>Além dos jornalistas, que morreram no local, a entrevistada da reportagem também ficou ferida.</t>
 		<h>A mulher que estava sendo entrevistada ao vivo não ficou ferida.</h>
 	</pair>
@@ -1564,7 +1564,7 @@
 		<t>Os ingressos custam entre R$ 100 e R$ 650.</t>
 		<h>Os preços dos ingressos variam entre R$ 100 e R$ 650.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="392" similarity="4.75">
+	<pair entailment="Entailment" id="392" similarity="4.75">
 		<t>Mais de um terço da população afirma que frequentaria os estádios caso o horário dos jogos fossem mais cedo.</t>
 		<h>Mais de um terço dos entrevistados disseram que frequentariam mais os estádios se os jogos começassem mais cedo.</h>
 	</pair>
@@ -2004,7 +2004,7 @@
 		<t>O ex-diretor da estatal será levado para a sede da Polícia Federal em Curitiba.</t>
 		<h>O ex-diretor de Internacional da estatal será trazido ainda hoje para Curitiba.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="502" similarity="4.75">
+	<pair entailment="None" id="502" similarity="4.75">
 		<t>Nas últimas 24 horas, mais de 3,3 mil imigrantes entraram na Hungria pela fronteira com a Sérvia.</t>
 		<h>Somente nas últimas 24 horas, mais de 3.225 imigrantes entraram na Hungria vindos da Sérvia.</h>
 	</pair>
@@ -2960,7 +2960,7 @@
 		<t>Deputados e senadores do PSDB e DEM confirmaram que só registrariam presença na sessão depois que o quórum mínimo fosse atingido.</t>
 		<h>Caso o quórum não seja atingido no retorno da sessão, Renan irá encerrá-la.</h>
 	</pair>
-	<pair entailment="None" id="741" similarity="4.25">
+	<pair entailment="Entailment" id="741" similarity="4.25">
 		<t>Aos 9, Daniel Carvalho cruzou da esquerda e Sassá cabeceou.</t>
 		<h>Daniel Carvalho cruzou e Sassá fez o cabeceio.</h>
 	</pair>
@@ -4172,7 +4172,7 @@
 		<t>O novo texto foi aprovado por 323 votos favoráveis, 155 contrários e duas abstenções.</t>
 		<h>A emenda terminou sendo aprovada por 323 votos favoráveis e 155 votos contrários.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1044" similarity="4.25">
+	<pair entailment="Entailment" id="1044" similarity="4.25">
 		<t>Eles teriam sido usados para recrutar gerentes da Caixa para a fraude.</t>
 		<h>Eles eram usados para recrutar gerentes do banco para agir no esquema.</h>
 	</pair>
@@ -4192,7 +4192,7 @@
 		<t>Em fase turbulenta, o zagueiro Piqué perdeu a bola para Nolito no meio de campo.</t>
 		<h>Nolito interceptou passe errado de Piqué cabeceando a bola nas costas do zagueiro.</h>
 	</pair>
-	<pair entailment="None" id="1049" similarity="3.75">
+	<pair entailment="Entailment" id="1049" similarity="3.75">
 		<t>David Luiz, lesionado, será substituído por Marquinhos, seu companheiro no Paris Saint-Germain.</t>
 		<h>Já Marquinhos entra no lugar de David Luiz.</h>
 	</pair>
@@ -4276,7 +4276,7 @@
 		<t>Aí que surgiu o papo “comparações entre Xuxa, Angélica e Mara Maravilha” e Xuxa comentou que não gostava das comparações no passado.</t>
 		<h>Xuxa comentou que não gostava das comparações entre ela, Mara Maravilha e Angélica no passado.</h>
 	</pair>
-	<pair entailment="None" id="1070" similarity="3.75">
+	<pair entailment="Entailment" id="1070" similarity="3.75">
 		<t>Embalado no Brasileirão, o Grêmio vai ter um desfalque importante nas próximas rodadas da competição.</t>
 		<h>O técnico Roger Machado terá um importante desfalque para as próximas partidas do Grêmio.</h>
 	</pair>
@@ -4504,7 +4504,7 @@
 		<t>Para ter direito a 100% do benefício, ela teria de trabalhar mais.</t>
 		<h>A MP não permitia esse curto período de benefício.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1127" similarity="4.25">
+	<pair entailment="Entailment" id="1127" similarity="4.25">
 		<t>O texto restringe ainda a doação de gametas (espermatozóides e óvulos).</t>
 		<h>A resolução também trata da doação de gametas (espermatozoides e óvulos).</h>
 	</pair>
@@ -4576,7 +4576,7 @@
 		<t>A chanceler do México exigiu do embaixador do Egito no país uma investigação e explicação do incidente.</t>
 		<h>Governo do México exige investigação sobre o ocorrido.</h>
 	</pair>
-	<pair entailment="None" id="1145" similarity="3.75">
+	<pair entailment="Entailment" id="1145" similarity="3.75">
 		<t>Segundo o prefeito Nutter, o maquinista já deu seu depoimento à polícia.</t>
 		<h>Ferido no acidente, o maquinista forneceu à Polícia o depoimento ocorrido.</h>
 	</pair>
@@ -4648,7 +4648,7 @@
 		<t>Além de Roma, Hamburgo, na Alemanha, já oficializou a candidatura para os Jogos Olímpicos de 2024.</t>
 		<h>Roma oficializou a candidatura para os Jogos Olímpicos de 2024.</h>
 	</pair>
-	<pair entailment="None" id="1163" similarity="3.75">
+	<pair entailment="Entailment" id="1163" similarity="3.75">
 		<t>As quatro bacias que tiveram ofertas foram Potiguar, Parnaíba, Sergipe-Alagoas e Recôncavo.</t>
 		<h>Apenas Parnaíba, Potiguar, Recôncavo e Sergipe-Alagoas tiveram blocos negociados.</h>
 	</pair>
@@ -4748,7 +4748,7 @@
 		<t>A ação está relacionada a um único conselheiro do Conselho Administrativo de Recursos Fiscais (Carf).</t>
 		<h>As irregularidades no Conselho Administrativo de Recursos Fiscais (Carf) estão sendo investigadas desde 2013.</h>
 	</pair>
-	<pair entailment="Entailment" id="1188" similarity="4.75">
+	<pair entailment="Paraphrase" id="1188" similarity="4.75">
 		<t>Paulinho vem recuperando o seu espaço no Flamengo após a chegada de Oswaldo de Oliveira.</t>
 		<h>Desde a chegada de Oswaldo de Oliveira o atacante Paulinho voltou a viver boa fase no Flamengo.</h>
 	</pair>
@@ -4888,7 +4888,7 @@
 		<t>O The Voice Brasil traz um novo técnico, Michel Teló, na cadeira que era do sertanejo Daniel.</t>
 		<h>O programa The Voice Brasil contou com o novo jurado, Michel Teló no lugar de Daniel.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1223" similarity="4.75">
+	<pair entailment="None" id="1223" similarity="4.75">
 		<t>Com capacidade para 960 presos, a PEL II recebe atualmente 1.250 detentos.</t>
 		<h>A PEL II tem capacidade para 960 detentos, e no momento abriga 1.250 homens.</h>
 	</pair>
@@ -4972,7 +4972,7 @@
 		<t>A Bolívia estreia no dia 8 de outubro, quando enfrenta o Uruguai em La Paz.</t>
 		<h>A Bolívia vai estrear nas Eliminatórias no dia 05 de outubro, contra o Uruguai.</h>
 	</pair>
-	<pair entailment="None" id="1244" similarity="3.0">
+	<pair entailment="Entailment" id="1244" similarity="3.0">
 		<t>Eles assumem os cargos após Dilma anunciar, na semana passada, a reforma ministerial.</t>
 		<h>A reforma ministerial foi anunciada na última sexta-feira (2) pela própria presidenta Dilma.</h>
 	</pair>
@@ -5196,7 +5196,7 @@
 		<t>O Brasil é um dos poucos países em desenvolvimento a assumir uma meta absoluta de redução de emissões.</t>
 		<h>Grupos ambientalistas que acompanham a política climática aplaudiram as metas de redução absoluta do Brasil, mas com ressalvas.</h>
 	</pair>
-	<pair entailment="None" id="1300" similarity="3.5">
+	<pair entailment="Entailment" id="1300" similarity="3.5">
 		<t>Haverá ação educativa com a presença de profissionais da saúde e amostra de produtos com a carga tributária.</t>
 		<h>Haverá exposição de produtos e suas respectivas cargas tributárias.</h>
 	</pair>
@@ -5436,7 +5436,7 @@
 		<t>A Xbox Live é a plataforma online de jogos dos consoles da Microsoft, Xbox One e Xbox 360.</t>
 		<h>As produtoras de outros jogos exclusivos para Xbox One também deram as caras.</h>
 	</pair>
-	<pair entailment="None" id="1360" similarity="3.5">
+	<pair entailment="Entailment" id="1360" similarity="3.5">
 		<t>Trabalho ultimamente com uma linha de quatro, dois volantes e times ofensivos.</t>
 		<h>Os meus últimos trabalhos foram times bem ofensivos.</h>
 	</pair>
@@ -5632,7 +5632,7 @@
 		<t>Já o Fluminense administrou, e fez a festa dos 33 mil presentes ao Maracanã na estreia de Ronaldinho.</t>
 		<h>O Fluminense começou a partida bastante empolgado pela estreia de Ronaldinho.</h>
 	</pair>
-	<pair entailment="None" id="1409" similarity="3.75">
+	<pair entailment="Entailment" id="1409" similarity="3.75">
 		<t>Houve flagrantes de arrastões em cinco pontos da cidade.</t>
 		<h>Os arrastões acontecem em pontos diferentes.</h>
 	</pair>
@@ -5824,7 +5824,7 @@
 		<t>Segundo o MPT, essa é a maior condenação por trabalho escravo feita no Brasil.</t>
 		<h>A decisão representa a maior condenação por trabalho escravo da história da Justiça brasileira.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1457" similarity="4.0">
+	<pair entailment="Entailment" id="1457" similarity="4.0">
 		<t>O governador de Maryland declarou estado de emergência na cidade e chamou a Guarda Nacional.</t>
 		<h>O governo do Estado de Maryland declarou estado de emergência na cidade.</h>
 	</pair>
@@ -5868,7 +5868,7 @@
 		<t>Teve duas chances de quebra no quarto game, mas desperdiçou todas.</t>
 		<h>Chegou perto de uma quebra no quarto game, mas o croata se recuperou e confirmou o serviço.</h>
 	</pair>
-	<pair entailment="None" id="1468" similarity="3.5">
+	<pair entailment="Entailment" id="1468" similarity="3.5">
 		<t>Atualmente, comandava o MS Rural e a previsão do tempo do MSTV 2ª Edição.</t>
 		<h>Recentemente, também passou a apresentar a previsão do tempo no MSTV 2ª Edição.</h>
 	</pair>
@@ -6128,7 +6128,7 @@
 		<t>A parcela complementar para quem ganha acima de R$ 2.800,00 por vínculo será creditada até o dia 22.</t>
 		<h>Uma segunda parcela de R$ 800 será depositada até dia 11 de setembro.</h>
 	</pair>
-	<pair entailment="None" id="1533" similarity="3.5">
+	<pair entailment="Entailment" id="1533" similarity="3.5">
 		<t>A margem de erro máxima é de 2 ponto porcentuais e o grau de confiança da pesquisa é de 95%.</t>
 		<h>A margem de erro é de dois pontos percentuais para mais ou para menos.</h>
 	</pair>
@@ -6180,7 +6180,7 @@
 		<t>Já entre os negros, 50% discordam e 44% concordam com a morte de criminosos.</t>
 		<h>Os entrevistados brancos também mostraram mais aceitação do uso da violência: 53% concordam e 41 discordam.</h>
 	</pair>
-	<pair entailment="None" id="1546" similarity="4.0">
+	<pair entailment="Entailment" id="1546" similarity="4.0">
 		<t>A atriz Grazi Massafera tem surpreendido muito os que não acreditaram em seu potencial como atriz.</t>
 		<h>Grazi Massafera está se tornando uma das grandes atrizes de sua geração.</h>
 	</pair>
@@ -6524,7 +6524,7 @@
 		<t>Com o prêmio principal acumulado em R$ 45 milhões, elas levarão, cada uma, exatos R$ R$ 23.221.167,26.</t>
 		<h>93 apostadores levam o prêmio da Quina no valor de R$ 51.651,09 cada.</h>
 	</pair>
-	<pair entailment="None" id="1632" similarity="4.25">
+	<pair entailment="Entailment" id="1632" similarity="4.25">
 		<t>No entanto, o CEO da Apple, Tim Cook, recusa-se por enquanto a falar publicamente do projeto.</t>
 		<h>O CEO da Apple, Tim Cook, é esquivo quando questionado sobre o assunto.</h>
 	</pair>
@@ -6788,7 +6788,7 @@
 		<t>Em 2014 voltou ao MDA onde permaneceu até assumir a Secretaria-Geral da Presidência da República.</t>
 		<h>No segundo governo da presidenta Dilma Rousseff assumiu a Secretaria-Geral da Presidência da República.</h>
 	</pair>
-	<pair entailment="Entailment" id="1698" similarity="5.0">
+	<pair entailment="Paraphrase" id="1698" similarity="5.0">
 		<t>Ele acabou sendo aplaudido pela maioria da plateia, apesar de vaias terem sido registradas.</t>
 		<h>Ele foi bastante aplaudido pela plateia, mas, também recebeu algumas vaias.</h>
 	</pair>
@@ -6896,11 +6896,11 @@
 		<t>Aos 74 anos, Betty Faria parece não se preocupar mais com o peso de suas declarações.</t>
 		<h>Aos 74 anos, cabelos brancos à mostra, Betty Faria diz adorar a companhia dos netos.</h>
 	</pair>
-	<pair entailment="None" id="1725" similarity="4.75">
+	<pair entailment="Entailment" id="1725" similarity="4.75">
 		<t>O último capítulo de 'Verdades Secretas' vai ao ar nesta sexta-feira, 25.</t>
 		<h>Verdades Secretas termina no dia 25 de setembro, sexta-feira.</h>
 	</pair>
-	<pair entailment="Entailment" id="1726" similarity="4.0">
+	<pair entailment="None" id="1726" similarity="4.0">
 		<t>Este é o segundo assalto sofrido por dom Orani no Rio de Janeiro.</t>
 		<h>Este é o segundo assalto sofrido pelo arcebispo em menos de um ano.</h>
 	</pair>
@@ -7100,7 +7100,7 @@
 		<t>Kátia Abreu participa de missão brasileira na Rússia, jutamente com a presidenta Dilma Rousseff.</t>
 		<h>Kátia Abreu participa de missão brasileira na Rússia desde ontem (7).</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1776" similarity="4.0">
+	<pair entailment="Entailment" id="1776" similarity="4.0">
 		<t>Pizzolato fugiu em 2013, usando o passaporte falso de um irmão morto há mais de 30 anos e ficou foragido na Itália.</t>
 		<h>Um passaporte falso de um irmão morto há mais de 30 anos foi usado por Pizzolato durante o tempo que ficou foragido na Itália.</h>
 	</pair>
@@ -7628,7 +7628,7 @@
 		<t>Felipe está noivo de Melissa, uma pessoa manipuladora e interesseira.</t>
 		<h>Já Melissa, a vilã e noiva de Felipe, aparece já experimentando seu vestido de noiva.</h>
 	</pair>
-	<pair entailment="None" id="1908" similarity="3.0">
+	<pair entailment="Entailment" id="1908" similarity="3.0">
 		<t>Alison, chamado de "Mamute", foi prata no Reino Unido com Emanuel.</t>
 		<h>Emanuel, ao lado de Alison ainda conquistou a medalha de prata em Londres 2012.</h>
 	</pair>
@@ -7716,7 +7716,7 @@
 		<t>Bashar al-Assad apelou também aos sírios para que não desistam de lutar contra o terrorismo no país.</t>
 		<h>Apoiamos o governo sírio na sua luta contra a agressão terrorista.</h>
 	</pair>
-	<pair entailment="None" id="1930" similarity="3.75">
+	<pair entailment="Entailment" id="1930" similarity="3.75">
 		<t>Aloizio Mercadante também participa desta rodada de conversas.</t>
 		<h>O ministro da Casa Civil, Aloizio Mercadante, também está no encontro.</h>
 	</pair>

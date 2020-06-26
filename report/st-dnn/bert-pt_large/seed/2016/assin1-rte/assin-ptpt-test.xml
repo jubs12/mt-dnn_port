@@ -28,7 +28,7 @@
 		<t>Outra grande surpresa foi a eliminação de Venus Williams.</t>
 		<h>Venus Williams, de 35 anos, foi batida por 6-4 e 6-2, em Melbourne.</h>
 	</pair>
-	<pair entailment="Entailment" id="8" similarity="2.75">
+	<pair entailment="None" id="8" similarity="2.75">
 		<t>Criador do Facebook anunciou esta terça-feira o nascimento da filha.</t>
 		<h>Sobre o nascimento da menina, o criador do Facebook não revelou pormenores.</h>
 	</pair>
@@ -304,7 +304,7 @@
 		<t>A decisão do Tribunal Constitucional sobre as subvenções vitalícias foi abordada no debate.</t>
 		<h>Ela esteve entre os deputados que pediram a fiscalização da constitucionalidade do corte às subvenções vitalícias.</h>
 	</pair>
-	<pair entailment="Entailment" id="77" similarity="4.5">
+	<pair entailment="None" id="77" similarity="4.5">
 		<t>A Science4You fechou o ano de 2015 com um crescimento de 70% na faturação em relação ao ano anterior.</t>
 		<h>A Science4you cresceu mais de 70% face ao exercício de 2014.</h>
 	</pair>
@@ -916,7 +916,7 @@
 		<t>O primeiro Pestana CR7 abre no Funchal.</t>
 		<h>Pestana CR7 é igualmente um investimento em Portugal.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="230" similarity="4.25">
+	<pair entailment="Entailment" id="230" similarity="4.25">
 		<t>Ricardo Silva apelou a que todos os condutores façam uma condução livre de álcool.</t>
 		<h>Apela a todos condutores que pratiquem uma condução livre de álcool.</h>
 	</pair>
@@ -1048,7 +1048,7 @@
 		<t>Foi em Lisboa, aliás, que "Portrait Series: I Miguel" começou.</t>
 		<h>"Portrait Series: I Miguel" conta a sua experiência no Congo.</h>
 	</pair>
-	<pair entailment="Entailment" id="263" similarity="2.75">
+	<pair entailment="None" id="263" similarity="2.75">
 		<t>Em todos os doentes foi identificado o vírus influenza A(H1N1)pdm09.</t>
 		<h>A maioria dos vírus subtipados pertence ao subtipo A(H1N1)pdm09.</h>
 	</pair>
@@ -1056,7 +1056,7 @@
 		<t>Contudo, esta parece ser uma resposta da dona da PlayStation às recentes novidades da Xbox.</t>
 		<h>Mas esta parece ser uma resposta à concorrente Xbox.</h>
 	</pair>
-	<pair entailment="Entailment" id="265" similarity="5.0">
+	<pair entailment="None" id="265" similarity="5.0">
 		<t>E a última palavra no assunto será sempre dos clubes.</t>
 		<h>São os clubes que têm a última palavra relativamente a este sistema.</h>
 	</pair>
@@ -1368,7 +1368,7 @@
 		<t>Após ter comido camarão este domingo, Luciana Abreu foi hospitalizada com uma reação alérgica grave.</t>
 		<h>Luciana Abreu foi hospitalizada este domingo.</h>
 	</pair>
-	<pair entailment="Entailment" id="343" similarity="3.25">
+	<pair entailment="Paraphrase" id="343" similarity="3.25">
 		<t>As 16 detenções foram efetuadas após flagrante delito, tendo dado origem a 17 processos-crime.</t>
 		<h>Para além das detenções, em flagrante delito, a ASAE instaurou ainda 17 processos-crime por especulação.</h>
 	</pair>
@@ -1728,7 +1728,7 @@
 		<t>Contratado no último verão ao Real Madrid, Iker Casillas poderá estar de saída do FC Porto.</t>
 		<h>A passagem de Iker Casillas pelo futebol português e pelo FC Porto poderá durar apenas uma época.</h>
 	</pair>
-	<pair entailment="Entailment" id="433" similarity="3.25">
+	<pair entailment="None" id="433" similarity="3.25">
 		<t>Temos limitado a velocidade dos nossos protótipos de veículos em 40km/h por razões meramente de segurança.</t>
 		<h>Nós regulámos a velocidade do nosso protótipo para os 10 quilómetros por hora por motivos de segurança.</h>
 	</pair>
@@ -2840,7 +2840,7 @@
 		<t>José Peseiro, nas bancadas, terá ficado com a certeza de que há muito trabalho a fazer.</t>
 		<h>O novo treinador do FC Porto, José Peseiro, assiste ao jogo nas bancadas.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="711" similarity="4.5">
+	<pair entailment="Entailment" id="711" similarity="4.5">
 		<t>A investigação revela ainda indícios de fraude de diárias de viagens e indenização veicular.</t>
 		<h>Também há indícios de fraude de diárias de viagem e valores de indenização veicular.</h>
 	</pair>
@@ -2880,7 +2880,7 @@
 		<t>Com mais este episódio, Diego Costa poderá agora ser alvo de uma punição por José Mourinho.</t>
 		<h>Mas Diego Costa não vai esperar pela demora.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="721" similarity="5.0">
+	<pair entailment="Entailment" id="721" similarity="5.0">
 		<t>Um suspeito usa um Citroën de matrícula francesa para deslocar-se.</t>
 		<h>Um dos suspeitos conduz um veículo da marca Citroën, com matrícula francesa.</h>
 	</pair>
@@ -3024,7 +3024,7 @@
 		<t>Uma moção de censura só é aprovada por maioria absoluta dos deputados.</t>
 		<h>No caso de uma moção de censura, será precisa uma maioria absoluta  de deputados para ser aprovada.</h>
 	</pair>
-	<pair entailment="Entailment" id="757" similarity="3.0">
+	<pair entailment="None" id="757" similarity="3.0">
 		<t>A solução User &amp; IoT Data Analytics da Ericsson vai estar disponível comercialmente no fim do segundo trimestre de 2016.</t>
 		<h>O Ericsson Networks Software 17A for Massive IoT vai estar disponível comercialmente no último trimestre de 2016.</h>
 	</pair>
@@ -3832,7 +3832,7 @@
 		<t>As eleições presidenciais realizam-se no domingo e Marcelo Rebelo de Sousa é um dos dez candidatos.</t>
 		<h>O técnico português gravou um vídeo de apelo ao voto no seu candidato: Marcelo Rebelo de Sousa.</h>
 	</pair>
-	<pair entailment="Entailment" id="959" similarity="3.5">
+	<pair entailment="None" id="959" similarity="3.5">
 		<t>Está confirmado o primeiro caso de zika numa mulher grávida em Espanha.</t>
 		<h>Uma mulher grávida, de 13 ou 14 semanas, foi diagnosticada com o vírus zika em Espanha.</h>
 	</pair>
@@ -3900,7 +3900,7 @@
 		<t>Em entrevista à Bein Sports, André Villas-Boas não considera voltar ao FC Porto, pelo menos para já.</t>
 		<h>André Villas-Boas descartou o regresso ao FC Porto.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="976" similarity="4.75">
+	<pair entailment="Entailment" id="976" similarity="4.75">
 		<t>Um hospital dinamarquês anunciou o primeiro caso de vírus Zika na Europa.</t>
 		<h>Foi confirmado na Dinamarca o primeiro caso de vírus Zika na Europa.</h>
 	</pair>
@@ -4224,7 +4224,7 @@
 		<t>Nos 11 distritos em aviso amarelo devido ao vento, o alerta dura até às 15:00 de amanha.</t>
 		<h>O aviso amarelo fica em vigor até às 15:00 de amanha.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1057" similarity="4.0">
+	<pair entailment="Entailment" id="1057" similarity="4.0">
 		<t>O cartaz revela, ainda, que a sexta temporada estreia em abril de 2016.</t>
 		<h>O cartaz revela a informação do mês de estreia da sexta temporada.</h>
 	</pair>
@@ -4380,7 +4380,7 @@
 		<t>A pensar no público feminino a Huawei acaba de lançar no mercado português o smartphone Huawei Mate S Pink.</t>
 		<h>Este Huawei Mate S Pink já está nas lojas de Portugal</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1096" similarity="4.25">
+	<pair entailment="Entailment" id="1096" similarity="4.25">
 		<t>A polícia alemã pede às pessoas que evitem multidões e estações de comboio.</t>
 		<h>As autoridades pedem às pessoas que evitem multidões e estações de comboio.</h>
 	</pair>
@@ -4396,7 +4396,7 @@
 		<t>O músico Benjamin Clementine, de 25 anos, venceu um dos mais importantes prémios de música britânicos, o Mercury.</t>
 		<h>Clementine superou outros 11 finalistas para conquistar o prémio.</h>
 	</pair>
-	<pair entailment="Entailment" id="1100" similarity="3.75">
+	<pair entailment="None" id="1100" similarity="3.75">
 		<t>No último debate republicano antes das primárias do New Hampshire, que decorrem na próxima terça-feira, Marco Rubio foi o alvo de todos os adversários.</t>
 		<h>As primárias do New Hampshire decorrem na próxima terça-feira.</h>
 	</pair>
@@ -4600,7 +4600,7 @@
 		<t>O MB Way integra a partir desta quarta-feira os serviços MBNet, anunciou a SIBS.</t>
 		<h>Lançado em outubro de 2015, o serviço MB Way já tem cerca de 70 mil aderentes.</h>
 	</pair>
-	<pair entailment="Entailment" id="1151" similarity="5.0">
+	<pair entailment="Paraphrase" id="1151" similarity="5.0">
 		<t>É simplesmente tempo de passar para um novo desafio.</t>
 		<h>Simplesmente está na hora de procurar novos desafios.</h>
 	</pair>
@@ -5096,7 +5096,7 @@
 		<t>A situação do Real Madrid na Liga Espanhola não é tão preocupante.</t>
 		<h>O treinador do Real Madrid garante que ele tem trabalhado bem e que não está preocupado com a qualidade.</h>
 	</pair>
-	<pair entailment="Entailment" id="1275" similarity="2.75">
+	<pair entailment="None" id="1275" similarity="2.75">
 		<t>O homem refere Córdoba e Toledo e assegura que a antiga Andalusia não será esquecida.</t>
 		<h>De acordo com o mesmo jornal, o homem faz referência às cidades de Córdoba e Toledo.</h>
 	</pair>
@@ -5268,7 +5268,7 @@
 		<t>A esta alteração o treinador do Benfica responde, logo aos 77 minutos, com a substituição de Mitroglou por Jiménez.</t>
 		<h>Raúl Jiménez entrou aos 77 minutos para substituir Mitroglou.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1318" similarity="4.25">
+	<pair entailment="Entailment" id="1318" similarity="4.25">
 		<t>Mais um bom cruzamento do lado direito por parte de Silvio.</t>
 		<h>Sílvio faz um bom cruzamento pela direita.</h>
 	</pair>
@@ -5336,7 +5336,7 @@
 		<t>Braga e o Rio Ave está agendada para as 20horas de quinta-feira, no Estádio Municipal de Braga.</t>
 		<h>Braga e Rio Ave reencontram-se quinta-feira as 20horas, na primeira mão das 'meias' da Taça de Portugal.</h>
 	</pair>
-	<pair entailment="Entailment" id="1335" similarity="3.5">
+	<pair entailment="None" id="1335" similarity="3.5">
 		<t>O médio costa-marfinense Mohamed Coulibaly foi confirmado como o último reforço de inverno do Farense, da Segunda Liga de futebol.</t>
 		<h>O médio Mohamed Coulibaly assinou por ano e meio com o Farense.</h>
 	</pair>
@@ -5604,7 +5604,7 @@
 		<t>Foi nela que Lou Reed se inspirou para escrever o primeiro verso de “Walk on the Wild Side”.</t>
 		<h>A musa inspiradora de Lou Reed na seminal "Walk On The Wild Side" faleceu no passado domingo.</h>
 	</pair>
-	<pair entailment="Entailment" id="1402" similarity="4.25">
+	<pair entailment="None" id="1402" similarity="4.25">
 		<t>A conclusão da partida ficou marcada para as 12:30 desta segunda-feira.</t>
 		<h>A conclusão ficou marcada para as 12h30 da próxima segunda-feira.</h>
 	</pair>
@@ -5996,7 +5996,7 @@
 		<t>Yannick Djaló vai continuar a carreira na Tailândia.</t>
 		<h>Yannick Djaló foi anunciado esta quarta-feira como reforço do Ratchaburi.</h>
 	</pair>
-	<pair entailment="Entailment" id="1500" similarity="4.25">
+	<pair entailment="None" id="1500" similarity="4.25">
 		<t>E para ganhar, temos de fazer um grande jogo, não há outra hipótese.</t>
 		<h>Temos que fazer um jogo magnífico para conseguirmos ganhar.</h>
 	</pair>
@@ -6104,7 +6104,7 @@
 		<t>O Manchester City venceu o Norwich por 2 a 1, neste sábado, no Etihad Stadium, em partida emocionante.</t>
 		<h>O Manchester City enfrentou o Nowrich, no Etihad Stadium.</h>
 	</pair>
-	<pair entailment="Entailment" id="1527" similarity="3.75">
+	<pair entailment="None" id="1527" similarity="3.75">
 		<t>Brahimi arranca e deixa para Aboubakar, que esbarra num adversário.</t>
 		<h>Brahimi deixa para Aboubakar, no lado esquerdo.</h>
 	</pair>
@@ -6300,7 +6300,7 @@
 		<t>Tanto Nápoles como Juventus vão somando vitória consecutivas numa corrida que é cada vez mais a dois.</t>
 		<h>Tanto Nápoles como Juventus estão a atravessar a sua melhor fase da época.</h>
 	</pair>
-	<pair entailment="Entailment" id="1576" similarity="4.0">
+	<pair entailment="None" id="1576" similarity="4.0">
 		<t>Foram realizadas buscas no complexo desportivo do Milan e apreendidos bens de valor superior a 12 milhões de euros.</t>
 		<h>Entre os bens apreendidos estão dinheiro, ações e até propriedades, no valor de 12 milhões de euros.</h>
 	</pair>
@@ -6328,7 +6328,7 @@
 		<t>O City passa a ter 26 pontos, mais um que Arsenal e Leicester e mais dois que Manchester United.</t>
 		<h>O City soma 26 pontos, contra 25 do Arsenal.</h>
 	</pair>
-	<pair entailment="Entailment" id="1583" similarity="4.5">
+	<pair entailment="None" id="1583" similarity="4.5">
 		<t>Igualmente estarão artistas na zona Eletrónica, Palco Vodafone e Rock Street Brasil.</t>
 		<h>Complementam ainda a programação a Tenda Eletrónica, o Palco Vodafone e a Rock Street Brasil.</h>
 	</pair>
@@ -6440,7 +6440,7 @@
 		<t>O concurso desta sexta-feira do Euromilhões apresenta um jackpot de 62 milhões de primeiro prémio.</t>
 		<h>O prémio base do Euromilhões foi crescendo, até aos 62 milhões, em concurso nesta sexta-feira.</h>
 	</pair>
-	<pair entailment="Entailment" id="1611" similarity="3.75">
+	<pair entailment="None" id="1611" similarity="3.75">
 		<t>Os Black Sabbath sentiram-se obrigados a cancelar dois concertos devido ao estado de saúde de Ozzy Osbourne.</t>
 		<h>Devido a uma sinusite de Ozzy Osbourne, os Black Sabbath adiaram alguns concertos da sua digressão.</h>
 	</pair>
@@ -6764,7 +6764,7 @@
 		<t>Sampaio da Nóvoa critica anterior governo e Marcelo Rebelo de Sousa.</t>
 		<h>Marcelo Rebelo de Sousa foi o primeiro candidato presidencial a visitar o hospital de S. José.</h>
 	</pair>
-	<pair entailment="Entailment" id="1692" similarity="2.75">
+	<pair entailment="None" id="1692" similarity="2.75">
 		<t>O Governo quer descer o IVA para os 13% apenas nos alimentos.</t>
 		<h>Posteriormente pode descer o IVA de outros produtos.</h>
 	</pair>
@@ -7224,7 +7224,7 @@
 		<t>No caso, serão a Grécia e a Itália, os dois países abrangidos pelo mecanismo de recolocação.</t>
 		<h>Até ao momento foram recolocadas 159 pessoas a partir de Grécia e Itália.</h>
 	</pair>
-	<pair entailment="Entailment" id="1807" similarity="4.75">
+	<pair entailment="Paraphrase" id="1807" similarity="4.75">
 		<t>Mas o facto de reduzir fortemente a atividade destas hormonas pode ter efeitos secundários nefastos, referem os autores.</t>
 		<h>O que o estudo demonstrou é que a redução drástica da atividade destas hormonas pode ter efeitos secundários nefastos.</h>
 	</pair>
@@ -7460,7 +7460,7 @@
 		<t>Em 2015, o avançado de 31 anos fez 29 jogos e marcou 15 golos no clube chinês.</t>
 		<h>O avançado colombiano, de 28 anos, marcou seis golos em 23 jogos esta temporada.</h>
 	</pair>
-	<pair entailment="Entailment" id="1866" similarity="4.75">
+	<pair entailment="None" id="1866" similarity="4.75">
 		<t>Sheeran é seguido por 16 milhões de pessoas no Twitter e tem 5 milhões e 500 mil seguidores no Instagram.</t>
 		<h>Sheeran possui 16 milhões de seguidores no Twitter e 5,5 milhões de fãs nos Intagram.</h>
 	</pair>
@@ -7840,7 +7840,7 @@
 		<t>O presidente do Rio Ave confirmou a transferência de Marvin Zeegelaar para o Sporting já em janeiro.</t>
 		<h>Marvin Zeegelaar será jogador do Sporting a partir de janeiro.</h>
 	</pair>
-	<pair entailment="Entailment" id="1961" similarity="2.75">
+	<pair entailment="None" id="1961" similarity="2.75">
 		<t>O Barcelona assegurou este sábado uma importante vitória na corrida pelo título, ao bater em Camp Nou o Atlético Madrid.</t>
 		<h>Jogo grande em Camp Nou, este sábado, com o Barcelona a receber o Atlético Madrid.</h>
 	</pair>
@@ -7912,7 +7912,7 @@
 		<t>Em dia de natal, António Costa responde às questões do Jornal de Notícias.</t>
 		<h>António Costa faz a sua primeira mensagem de natal enquanto primeiro-ministro.</h>
 	</pair>
-	<pair entailment="Entailment" id="1979" similarity="3.75">
+	<pair entailment="None" id="1979" similarity="3.75">
 		<t>Os golos do Sporting condicionaram e deitaram por terra essa mesma estratégia.</t>
 		<h>Vínhamos com uma estratégia bem delineada mas os golos do Sporting condicionaram.</h>
 	</pair>
@@ -7948,7 +7948,7 @@
 		<t>O programa define especialidades como otorrino ou competências para os idosos.</t>
 		<h>Temos de definir qual o core de competências e isto tem de ser feito com as escolas.</h>
 	</pair>
-	<pair entailment="Entailment" id="1988" similarity="3.5">
+	<pair entailment="None" id="1988" similarity="3.5">
 		<t>Cruzamento de José Ángel sai diretamente pela linha de fundo.</t>
 		<h>José Ángel faz mais um cruzamento.</h>
 	</pair>

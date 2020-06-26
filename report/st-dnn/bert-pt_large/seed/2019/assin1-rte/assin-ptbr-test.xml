@@ -132,7 +132,7 @@
 		<t>Enquanto isto, não deixar que cães e gatos se aproximem do mamífero.</t>
 		<h>Cães e gatos devem ficar afastados do mamífero.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="34" similarity="4.75">
+	<pair entailment="Entailment" id="34" similarity="4.75">
 		<t>A Microsoft deve apresentar uma nova geração de aparelhos com Windows 10.</t>
 		<h>A Microsoft vai revelar novos dispostivos com Windows 10.</h>
 	</pair>
@@ -240,7 +240,7 @@
 		<t>Desesperado em busca do empate, o Corinthians apostou no goleiro-linha para pressionar os mandantes.</t>
 		<h>Precisando do empate para evitar a prorrogação, o Corinthians partiu para o ataque.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="61" similarity="3.75">
+	<pair entailment="Entailment" id="61" similarity="3.75">
 		<t>A Apple não oferece dinheiro a quem descobre falhas em seus produtos.</t>
 		<h>Não é a Apple que está prometendo o valor para quem descobrir a falha.</h>
 	</pair>
@@ -700,7 +700,7 @@
 		<t>O programa Xuxa Meneghel desta segunda-feira, dia 14, não contará com sua apresentadora.</t>
 		<h>O programa Xuxa Meneghel dessa segunda-feira, 14, foi bem inusitado.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="176" similarity="3.75">
+	<pair entailment="Entailment" id="176" similarity="3.75">
 		<t>A PM precisa de outros atores para fazer seu papel porque o sistema está totalmente desequilibrado.</t>
 		<h>Precisamos de outros atores para fazer esse papel, porque o esquema está desequilibrado.</h>
 	</pair>
@@ -808,7 +808,7 @@
 		<t>O presidente do Senado, Renan Calheiros (PMDB-AL), comemorou a aprovação da PEC da Bengala.</t>
 		<h>A PEC da Bengala será promulgada nesta quinta-feira (7).</h>
 	</pair>
-	<pair entailment="Paraphrase" id="203" similarity="4.0">
+	<pair entailment="Entailment" id="203" similarity="4.0">
 		<t>O ex-jogador Vivinho faleceu aos 54 anos na manhã deste domingo, no Rio de Janeiro.</t>
 		<h>Morreu, na manhã deste domingo, aos 54 anos, o ex-jogador Vivinho.</h>
 	</pair>
@@ -876,7 +876,7 @@
 		<t>Neste sábado à tarde, ocorre o primeiro treinamento em solo cearense.</t>
 		<h>Os dois jogadores não participaram do treinamento deste sábado.</h>
 	</pair>
-	<pair entailment="Entailment" id="220" similarity="4.0">
+	<pair entailment="None" id="220" similarity="4.0">
 		<t>A repórter Alison namorava Chris Hurst, que trabalha na emissora como âncora.</t>
 		<h>A repórter Alison Parker namorava um outro jornalista que trabalha na mesma empresa.</h>
 	</pair>
@@ -1000,7 +1000,7 @@
 		<t>O peruano Guerrero é o único jogador na relação para atuar no futebol brasileiro.</t>
 		<h>O peruano Guerrero, do Flamengo, é o único de seu país especulado para atuar no futebol brasileiro.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="251" similarity="4.75">
+	<pair entailment="Entailment" id="251" similarity="4.75">
 		<t>Depois de concluída a tramitação na Câmara, ela ainda precisa passar pelo Senado.</t>
 		<h>Após concluída a análise pelos deputados, ela precisa passar pelo Senado.</h>
 	</pair>
@@ -1152,7 +1152,7 @@
 		<t>Dos 37 blocos arrematados, 31 são em terra e dois no mar.</t>
 		<h>Na primeira licitação, dos 14 blocos oferecidos seis foram arrematados com cinco propostas.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="289" similarity="4.75">
+	<pair entailment="Entailment" id="289" similarity="4.75">
 		<t>Isso significa que, em um espaço planejado para dez pessoas, há em média hoje 16 presos.</t>
 		<h>Ou seja, a cada espaço concebido para dez detentos, estão 16.</h>
 	</pair>
@@ -2084,7 +2084,7 @@
 		<t>A dedução anual por dependentes, por sua vez, é agora de R$ 2.275,08.</t>
 		<h>Os que recebem menos de R$ 1.903,99 não recolhem imposto de renda.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="522" similarity="4.0">
+	<pair entailment="Entailment" id="522" similarity="4.0">
 		<t>A versão mais básica da Golf Variant é a Comfortline, que sai por R$ 89.690.</t>
 		<h>Vendido nas versões Comfort e Highline, o Golf Variant tem preços a partir de R$ 89.690.</h>
 	</pair>
@@ -2396,7 +2396,7 @@
 		<t>O São Paulo dominou a maior parte do clássico contra o Palmeiras neste domingo, no Morumbi.</t>
 		<h>No clássico paulista da 28ª rodada, nem Palmeiras nem São Paulo.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="600" similarity="4.25">
+	<pair entailment="Entailment" id="600" similarity="4.25">
 		<t>O governo reduziu a previsão de gastos com o PAC em R$ 3,8 bilhões.</t>
 		<h>Com relação ao PAC, haverá uma redução de prevsão de gastos de R$ 3,8 bilhões.</h>
 	</pair>
@@ -2416,7 +2416,7 @@
 		<t>A câmera continuou com 5 megapixels da geração anterior, porém com capacidade de fazer vídeos a 480p e 30 quadros por segundo.</t>
 		<h>A câmera, porém, manteve os mesmos 5 megapixels da geração anterior.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="605" similarity="4.5">
+	<pair entailment="Entailment" id="605" similarity="4.5">
 		<t>De acordo com os dados revisados, em abril comparado a março, houve retração de 0,88%.</t>
 		<h>Em abril, o indicador teve queda de 0,88%, segundo números revisados.</h>
 	</pair>
@@ -2444,7 +2444,7 @@
 		<t>O Android 6.0 (Marshmallow) chegou para os usuários com diversas novidades.</t>
 		<h>Faltam poucos dias para o Google liberar o novo Android 6.0 Marshmallow.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="612" similarity="4.25">
+	<pair entailment="Entailment" id="612" similarity="4.25">
 		<t>Ao longo da história, Vasco e Cruzeiro já se enfrentaram 89 vezes.</t>
 		<h>Cruzeiro e Vasco já travaram duelos equilibrados em  89 competições.</h>
 	</pair>
@@ -2572,7 +2572,7 @@
 		<t>Em Salvador, na rede particular, cada dose pode custar de R$ 200 a R$ 500.</t>
 		<h>Na rede privada, cada dose da vacina pode custar de R$ 600,00 a R$ 900,00.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="644" similarity="4.75">
+	<pair entailment="Entailment" id="644" similarity="4.75">
 		<t>Ele pode ser mergulhado a até um metro de profundidade por até meia hora.</t>
 		<h>Ele pode ficar mergulhado até 1 metro por cerca de 30 minutos.</h>
 	</pair>
@@ -2640,7 +2640,7 @@
 		<t>Está boa a pista, mas precisa de mais alguns retoques para as Olimpíadas.</t>
 		<h>Para o projetista, pistas olímpicas precisam ser mais interessantes do que o habitual.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="661" similarity="4.25">
+	<pair entailment="Entailment" id="661" similarity="4.25">
 		<t>A assessoria de imprensa de Xuxa confirmou a notícia na manhã de domingo (13).</t>
 		<h>A informação foi confirmada pela assessoria de imprensa da apresentadora, neste domingo, 13.</h>
 	</pair>
@@ -2868,7 +2868,7 @@
 		<t>O time visita o Newcastle, às 13h30, em partida válida pela Premier League.</t>
 		<h>O Liverpool terá pela frente o Bournemouth, estreante na Premier League.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="718" similarity="5.0">
+	<pair entailment="Entailment" id="718" similarity="5.0">
 		<t>O irmão mais velho foi detido e indiciado por homicídio involuntário.</t>
 		<h>O irmão mais velho foi preso e acusado de homicídio culposo.</h>
 	</pair>
@@ -2980,7 +2980,7 @@
 		<t>Depois disso, o treinador adiantou que vai tomar uma decisão.</t>
 		<h>Neste caso, a decisão sobre o treinador pode sair apenas em 2016.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="746" similarity="4.75">
+	<pair entailment="Entailment" id="746" similarity="4.75">
 		<t>Mas deve se levar em conta que existem incertezas do número real de celulares pelo planeta.</t>
 		<h>Ainda assim, existem incertezas sobre o número real de celulares circulando pelo planeta.</h>
 	</pair>
@@ -3844,7 +3844,7 @@
 		<t>A quadra teve 53 acertadores, que ganharão o prêmio individual de R$ 7.782,07.</t>
 		<h>Fizeram a Quadra 81 apostadores e cada um receberá o prêmio de R$ 7.341,07.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="962" similarity="3.5">
+	<pair entailment="Entailment" id="962" similarity="3.5">
 		<t>O governo anunciou R$ 64,9 bilhões de corte de gastos e aumento de receita.</t>
 		<h>Ao todo, R$ 64,9 bilhões seja em redução de despesas, seja no aumento de receitas.</h>
 	</pair>
@@ -4136,7 +4136,7 @@
 		<t>O meia Philippe Coutinho foi cortado da seleção brasileira.</t>
 		<h>Philippe Coutinho se lesionou em jogo do Liverpool.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1035" similarity="4.25">
+	<pair entailment="Entailment" id="1035" similarity="4.25">
 		<t>A agência estatal de notícias Xinhua colocou o número de feridos em 50.</t>
 		<h>A agência estatal de notícias Xinhua informou que 48 pessoas ficaram feridas.</h>
 	</pair>
@@ -4504,7 +4504,7 @@
 		<t>Para ter direito a 100% do benefício, ela teria de trabalhar mais.</t>
 		<h>A MP não permitia esse curto período de benefício.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1127" similarity="4.25">
+	<pair entailment="Entailment" id="1127" similarity="4.25">
 		<t>O texto restringe ainda a doação de gametas (espermatozóides e óvulos).</t>
 		<h>A resolução também trata da doação de gametas (espermatozoides e óvulos).</h>
 	</pair>
@@ -4584,7 +4584,7 @@
 		<t>De acorco com a Secretaria de Saúde, a vacina está incorporada no Programa Municipal de Imunização desde 2010.</t>
 		<h>A confirmação é da enfermeira do setor de Imunização da secretaria municipal da Saúde, Carla Müller.</h>
 	</pair>
-	<pair entailment="Entailment" id="1147" similarity="3.0">
+	<pair entailment="None" id="1147" similarity="3.0">
 		<t>No entanto, as investidas ocorreram após uma onda de ataques atribuídos aos militantes do grupo Boko Haram.</t>
 		<h>A cidade já foi atingida por vários ataques atribuídos ao Boko Haram.</h>
 	</pair>
@@ -4816,7 +4816,7 @@
 		<t>O sepultamento dela foi realizado no final da tarde desta quarta, no cemitério Jardim das Palmeiras, na avenida Tamandaré.</t>
 		<h>O sepultamento está previsto para as 17 horas no Cemitério Jardim das Palmeiras.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1205" similarity="4.75">
+	<pair entailment="Entailment" id="1205" similarity="4.75">
 		<t>O feriado prolongado termina e junto com ele as instabilidades dão uma trégua para a Região Sul.</t>
 		<h>As instabilidades sobre a Região Sul cessam após o feriado prolongado.</h>
 	</pair>
@@ -4832,7 +4832,7 @@
 		<t>Street Fighter V terá versões de PC e PS4, e chega às prateleiras físicas e virtuais em 2016.</t>
 		<h>Street Fighter 5 será lançado em 2016 apenas para PS4 e PC.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1209" similarity="5.0">
+	<pair entailment="Entailment" id="1209" similarity="5.0">
 		<t>A presidente informou que até quarta-feira da próxima semana, o governo apresentará a proposta de reforma administrativa.</t>
 		<h>A presidente disse ainda que a reforma administrativa será divulgada até a quarta-feira da próxima semana.</h>
 	</pair>
@@ -5664,7 +5664,7 @@
 		<t>O valor do prêmio principal da loteria Caixa Mega Sena de hoje foi estimado em R$ 39.000.000,00.</t>
 		<h>O valor estimado do prêmio principal da loteria Caixa Quina chegou a R$ 3.000.000,00.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1417" similarity="4.0">
+	<pair entailment="Entailment" id="1417" similarity="4.0">
 		<t>A loira compartilhou com seu fãs no Instagram uma imagem em que aparece mergulhando.</t>
 		<h>A loira usou o Instagram para compartilhar uma foto sua mergulhando.</h>
 	</pair>
@@ -5772,7 +5772,7 @@
 		<t>A organização do Rock And Roll Hall Of Fame já divulgou os artistas indicados para a edição de 2016.</t>
 		<h>A votação já começou e pode ser conferida no site oficial do Rock And Roll Hall Of Fame .</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1444" similarity="4.0">
+	<pair entailment="Entailment" id="1444" similarity="4.0">
 		<t>Após o escanteio, a bola bateu no zagueiro Éder Lima e sobrou para Luisinho completar para o gol.</t>
 		<h>Após cobrança de escanteio, a bola bateu em Éder Lima e sobrou para Luisinho.</h>
 	</pair>
@@ -5972,7 +5972,7 @@
 		<t>Na quinta bateria do dia, Wiggolly Dantas desafiou o australiano Taj Burrow e se deu bem.</t>
 		<h>Na quinta bateria do dia, Wiggolly Dantas enfrentou australiano Taj Burrow.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1494" similarity="5.0">
+	<pair entailment="Entailment" id="1494" similarity="5.0">
 		<t>Uma equipe da Corregedoria Interna da PM também seguiu para o local para apurar a situação.</t>
 		<h>Policiais da Corregedoria Interna da PM foram apurar a situação no local.</h>
 	</pair>
@@ -6156,7 +6156,7 @@
 		<t>Com o aumento, o preço do botijão deve passar para cerca de R$ 50,00.</t>
 		<h>A alta para o consumidor será de cerca de R$ 3 por botijão.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1540" similarity="4.25">
+	<pair entailment="Entailment" id="1540" similarity="4.25">
 		<t>A Conmebol julga que a suspensão é desproporcional e prematura.</t>
 		<h>A entidade considerou a decisão desproporcional e prematura.</h>
 	</pair>
@@ -6236,7 +6236,7 @@
 		<t>As lunetas para observação do Eclipse Total da Lua estarão disponibilizadas para o público nos jardins da casa.</t>
 		<h>O eclipse total da Lua ocorre quando a Lua penetra completamente na umbra.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1560" similarity="4.25">
+	<pair entailment="Entailment" id="1560" similarity="4.25">
 		<t>Os professores que manifestavam recuaram, mas a polícia continuou jogando bombas de efeito moral.</t>
 		<h>Os manifestantes recuaram, mas os policiais continuam jogando bombas de efeito moral.</h>
 	</pair>
@@ -6508,7 +6508,7 @@
 		<t>Romelu Lukaku deixou tudo igual para os anfitriões depois de Danny Ings ter aberto o placar para o Liverpool.</t>
 		<h>O Liverpool anuncia que Brendan Rodgers vai deixar seu cargo com efeito imediato.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1628" similarity="4.75">
+	<pair entailment="Entailment" id="1628" similarity="4.75">
 		<t>Você pode ver a lista completa da suspensão no site da ANS.</t>
 		<h>A lista de planos suspensos está disponível no site da ANS.</h>
 	</pair>
@@ -6984,7 +6984,7 @@
 		<t>Na comparação com maio deste ano, a produção caiu 12,5% (210,4 mil).</t>
 		<h>Os estoques alcançaram 338,8 mil veículos em junho ante 361 mil em maio.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1747" similarity="4.25">
+	<pair entailment="Entailment" id="1747" similarity="4.25">
 		<t>O primeiro tempo foi fraco tecnicamente, com poucas chances de gol.</t>
 		<h>O primeiro tempo da partida não contou com grandes chances de gol.</h>
 	</pair>
@@ -7100,7 +7100,7 @@
 		<t>Kátia Abreu participa de missão brasileira na Rússia, jutamente com a presidenta Dilma Rousseff.</t>
 		<h>Kátia Abreu participa de missão brasileira na Rússia desde ontem (7).</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1776" similarity="4.0">
+	<pair entailment="Entailment" id="1776" similarity="4.0">
 		<t>Pizzolato fugiu em 2013, usando o passaporte falso de um irmão morto há mais de 30 anos e ficou foragido na Itália.</t>
 		<h>Um passaporte falso de um irmão morto há mais de 30 anos foi usado por Pizzolato durante o tempo que ficou foragido na Itália.</h>
 	</pair>
@@ -7480,7 +7480,7 @@
 		<t>Mudanças na motorização também são certas, entre elas, a oferta de um motor 1.5 de três cilindros.</t>
 		<h>Segundo o site TopGear, o Focus RS é equipado de um motor 2.3 Ecoboost de quatro cilindros.</h>
 	</pair>
-	<pair entailment="Entailment" id="1871" similarity="3.5">
+	<pair entailment="None" id="1871" similarity="3.5">
 		<t>Neymar também falou sobre a marca de 100 jogos pelo Barcelona, completada no último domingo.</t>
 		<h>Neymar chegou recentemente à marca de 100 jogos com a camisa do Barcelona.</h>
 	</pair>
@@ -7668,7 +7668,7 @@
 		<t>Segundo Dilma, os profissionais "foram responsáveis" por estreitar as relações entre Brasil e Cuba.</t>
 		<h>Segundo Dilma, essa parceria ajudou a estreitar laços entre Cuba e Brasil.</h>
 	</pair>
-	<pair entailment="None" id="1918" similarity="3.25">
+	<pair entailment="Entailment" id="1918" similarity="3.25">
 		<t>O primeiro chute a gol da equipe paulista veio apenas aos 17 minutos do primeiro tempo.</t>
 		<h>O primeiro chute a gol só saiu quase aos 20 minutos.</h>
 	</pair>
@@ -7692,7 +7692,7 @@
 		<t>Aquilo era um batalhão de polícia, destacou José Mariano Beltrame.</t>
 		<h>O BEP não é um lugar prisional.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1924" similarity="4.0">
+	<pair entailment="Entailment" id="1924" similarity="4.0">
 		<t>A obrigatoriedade do uso do extintor foi estabelecida no Brasil em 1968 e passou a vigorar em 1970.</t>
 		<h>A obrigatoriedade do uso do extintor estava em vigor no Brasil desde 1970.</h>
 	</pair>
@@ -7784,7 +7784,7 @@
 		<t>No segundo tempo, o técnico Doriva tirou Bady para estreia do recém-contratado Cristian.</t>
 		<h>O meio-campista Cristian foi opção da Ponte para esta partida, fazendo sua estreia no segundo tempo.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1947" similarity="5.0">
+	<pair entailment="Entailment" id="1947" similarity="5.0">
 		<t>Para fazer um quilo de queijo, o normal é usar 10 litros de leite.</t>
 		<h>Basicamente são utilizados 10 litros de leite para cada quilo de queijo.</h>
 	</pair>

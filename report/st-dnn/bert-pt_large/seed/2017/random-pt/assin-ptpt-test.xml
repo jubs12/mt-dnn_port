@@ -176,7 +176,7 @@
 		<t>Sem estabilidade política, Portugal tornar-se-á um país ingovernável.</t>
 		<h>O país pode ficar ingovernável.</h>
 	</pair>
-	<pair entailment="Entailment" id="45" similarity="5.0">
+	<pair entailment="Paraphrase" id="45" similarity="5.0">
 		<t>Inalação de fumo leva 16 ao hospital.</t>
 		<h>Dezasseis pessoas receberam tratamento hospitalar por inalação de fumos.</h>
 	</pair>
@@ -552,7 +552,7 @@
 		<t>Filme ultrapassa barreira dos mil milhões de dólares em bilheteira.</t>
 		<h>Em apenas um ano fez cinco mil milhões em bilheteira.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="139" similarity="3.5">
+	<pair entailment="Entailment" id="139" similarity="3.5">
 		<t>Marcelo Rebelo de Sousa concordou imediatamente com a atitude do adversário e mostrou-se disponível para um frente-a-frente com ele.</t>
 		<h>Marcelo Rebelo de Sousa, imediatamente após a saída de Cândido Ferreia, mostrou-se disponível para participar num frente-a-frente.</h>
 	</pair>
@@ -756,7 +756,7 @@
 		<t>A tomada do centro de Ramadi é considerada uma vitória importante na luta contra o Estado Islâmico.</t>
 		<h>A conquista do centro de Ramadi está a ser recebida como uma vitória final.</h>
 	</pair>
-	<pair entailment="None" id="190" similarity="4.25">
+	<pair entailment="Entailment" id="190" similarity="4.25">
 		<t>No total, morreram quatro pescadores, um permanece desaparecido e dois tripulantes foram resgatados com vida.</t>
 		<h>Quatro pessoas morreram, uma está desaparecida e duas foram resgatadas com vida depois deste acidente.</h>
 	</pair>
@@ -972,7 +972,7 @@
 		<t>Os hotéis foram o tipo de alojamento mais procurado pelos portugueses, representando cerca de 96,6%.</t>
 		<h>Os portugueses preferiram os hotéis como o principal meio de alojamento, representando 96,6%.</h>
 	</pair>
-	<pair entailment="None" id="244" similarity="4.0">
+	<pair entailment="Entailment" id="244" similarity="4.0">
 		<t>A companhia aérea brasileira Azul lança a 4 de maio o seu primeiro voo regular para a Europa.</t>
 		<h>O voo inaugural da Azul acontece já a 4 de maio.</h>
 	</pair>
@@ -1264,7 +1264,7 @@
 		<t>O levantamento realizado pelo Human Rights Watch analisou a proteção aos direitos humanos em mais de 90 países.</t>
 		<h>O relatório da Human Rights Watch não passa ao lado da situação em Angola.</h>
 	</pair>
-	<pair entailment="None" id="317" similarity="3.5">
+	<pair entailment="Entailment" id="317" similarity="3.5">
 		<t>No entanto, as transferências ordenadas nas caixas da rede Multibanco vão continuar a ser feitas com base no NIB.</t>
 		<h>A partir de 1 de fevereiro, o uso do NIB vai resumir-se a transferências ordenadas na rede multibanco.</h>
 	</pair>
@@ -1300,7 +1300,7 @@
 		<t>O Climate Change Performance Index (CCPI) é um instrumento que traz maior transparência às políticas climáticas.</t>
 		<h>Portugal caiu 10 lugares abaixo da posição ocupada em 2014 no "Climate Change Performance Index".</h>
 	</pair>
-	<pair entailment="Paraphrase" id="326" similarity="4.0">
+	<pair entailment="Entailment" id="326" similarity="4.0">
 		<t>António Varela, administrador do Banco de Portugal, perdeu cerca de 50 mil euros.</t>
 		<h>O actual administrador do Banco de Portugal terá perdido cerca de 50 mil euros.</h>
 	</pair>
@@ -1412,7 +1412,7 @@
 		<t>A escolha de Serena Williams como Personalidade Desportiva de 2015 pela Sports Illustrated indignou muitos fãs das corridas de cavalos.</t>
 		<h>A revista Sports Illustrated elegeu Serena Williams como a personalidade desportiva de 2015.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="354" similarity="4.0">
+	<pair entailment="Entailment" id="354" similarity="4.0">
 		<t>A notícia foi dada pelo diretor executivo do Facebook, Mark Zuckerberg, e mostra que a rede social é realmente gigante.</t>
 		<h>A notícia foi avançada pelo próprio Facebook e mostra que a rede social é realmente gigante.</h>
 	</pair>
@@ -1804,7 +1804,7 @@
 		<t>A Impresa fechou acordo de três anos com a Vodafone para a distribuição dos seus canais.</t>
 		<h>A Impresa assinou acordo com a Vodafone.</h>
 	</pair>
-	<pair entailment="None" id="452" similarity="4.25">
+	<pair entailment="Entailment" id="452" similarity="4.25">
 		<t>O novo iPhone 5SE deverá ser mais barato e pequeno e será lançado em março ou abril.</t>
 		<h>Este iPhone 5se poderá chegar ao mercado já em Março ou Abril deste ano.</h>
 	</pair>
@@ -2532,7 +2532,7 @@
 		<t>Sampaio da Nóvoa passará o resto do dia no Porto.</t>
 		<h>Sampaio da Nóvoa desta vez não se perdeu em palavras retóricas.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="634" similarity="3.5">
+	<pair entailment="Entailment" id="634" similarity="3.5">
 		<t>O ex-presidente do Banif classifica como desastrosa a venda do banco ao Santander Totta.</t>
 		<h>O antigo presidente do Banif classifica de desastroso o processo de venda do banco.</h>
 	</pair>
@@ -2636,7 +2636,7 @@
 		<t>Falam sobre José Veiga e ligam-lhe o nome a esquemas e negócios estranhos.</t>
 		<h>José Veiga já foi o maior super-agente de futebolistas do mundo.</h>
 	</pair>
-	<pair entailment="None" id="660" similarity="3.25">
+	<pair entailment="Entailment" id="660" similarity="3.25">
 		<t>Vítor de Sousa foi o vice-presidente da Câmara de Braga, quando o município era liderado pelo socialista Mesquita Machado.</t>
 		<h>Vítor de Sousa foi braço-direito de Mesquita Machado, ex-presidente da autarquia de Braga.</h>
 	</pair>
@@ -2904,7 +2904,7 @@
 		<t>Cada um dos grupos que representam os candidatos elege depois os seus delegados.</t>
 		<h>São depois os delegados eleitos por cada partido que vão votar no candidato que vai apresentar-se às presidenciais.</h>
 	</pair>
-	<pair entailment="None" id="727" similarity="2.5">
+	<pair entailment="Entailment" id="727" similarity="2.5">
 		<t>No voo seguiam mais de uma dezena de adeptos ligados à claque azul-e-branca.</t>
 		<h>O voo também tinha passageiros que não faziam parte da claque.</h>
 	</pair>
@@ -3304,7 +3304,7 @@
 		<t>Questionado pelo Económico sobre o adiamento, o BdP não confirmou nem desmentiu.</t>
 		<h>Primeiro-ministro confirma adiamento da venda do banco.</h>
 	</pair>
-	<pair entailment="None" id="827" similarity="3.0">
+	<pair entailment="Entailment" id="827" similarity="3.0">
 		<t>António Costa recebeu a notícia na chegada a Cabo Verde, onde inicia hoje a sua visita oficial.</t>
 		<h>O primeiro-ministro português António Costa vai manter a agenda da visita oficial a Cabo Verde.</h>
 	</pair>
@@ -4380,7 +4380,7 @@
 		<t>A pensar no público feminino a Huawei acaba de lançar no mercado português o smartphone Huawei Mate S Pink.</t>
 		<h>Este Huawei Mate S Pink já está nas lojas de Portugal</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1096" similarity="4.25">
+	<pair entailment="Entailment" id="1096" similarity="4.25">
 		<t>A polícia alemã pede às pessoas que evitem multidões e estações de comboio.</t>
 		<h>As autoridades pedem às pessoas que evitem multidões e estações de comboio.</h>
 	</pair>
@@ -4508,7 +4508,7 @@
 		<t>O candidato Jorge Sequeira não se pronunciou sobre o tema das subvenções vitalícias.</t>
 		<h>Candidata a Belém não compreende regresso das subvenções vitalícias para antigos políticos que não precisem delas.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1128" similarity="3.75">
+	<pair entailment="Entailment" id="1128" similarity="3.75">
 		<t>Mas estragaríamos a surpresa do Android N se partilhassemos os detalhes.</t>
 		<h>Não queremos estragar a surpresa do Android N.</h>
 	</pair>
@@ -5520,7 +5520,7 @@
 		<t>A Nos e a Altice estão interessadas na compra dos direitos televisivos dos jogos do Benfica.</t>
 		<h>MEO, NOS e Vodafone querem direitos televisivos dos jogos.</h>
 	</pair>
-	<pair entailment="Entailment" id="1381" similarity="3.75">
+	<pair entailment="Paraphrase" id="1381" similarity="3.75">
 		<t>Entretanto cumpriu 183 dias de suspensão até ser condenado numa pena de 200 dias de afastamento da PSP.</t>
 		<h>Ficou fora do serviço 183 dias e a acabou condenado a 200 dias de suspensão.</h>
 	</pair>
@@ -5548,7 +5548,7 @@
 		<t>Dora Rodrigues rege um elenco quase exclusivamente português, com 24 solistas, e direcção musical de João Paulo Santos.</t>
 		<h>Dora Rodrigues lidera um vasto elenco quase exclusivamente português.</h>
 	</pair>
-	<pair entailment="None" id="1388" similarity="2.0">
+	<pair entailment="Entailment" id="1388" similarity="2.0">
 		<t>Naturalmente insatisfeito com a derrota frente ao Feirense, José Peseiro está confiante na evolução da equipa.</t>
 		<h>José Peseiro não se mostrou preocupado com a derrota ante o Feirense para a Taça da Liga.</h>
 	</pair>
@@ -5568,7 +5568,7 @@
 		<t>Foi Veiga que intermediou a transferência de Luís Figo do Real Madrid para o Barcelona ou de Zidanne para os merengues.</t>
 		<h>Luís Figo tornava-se pesetero para os catalães e herói para os merengues.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1393" similarity="4.0">
+	<pair entailment="Entailment" id="1393" similarity="4.0">
 		<t>O nigeriano John Obi Mikel confessou que a atmosfera no Chelsea melhorou desde que José Mourinho deixou o clube de Londres.</t>
 		<h>John Obi Mikel diz que o ambiente no Chelsea está mudado desde que o treinador português foi despedido.</h>
 	</pair>
@@ -5820,7 +5820,7 @@
 		<t>Álvaro Barreirinhas Cunhal foi secretário-geral do PCP entre 1961 e 1992.</t>
 		<h>A biografia de Álvaro Cunhal chega às livrarias a 4 de Dezembro.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1456" similarity="4.0">
+	<pair entailment="Entailment" id="1456" similarity="4.0">
 		<t>A atuação de John Grant está marcada para o dia sete de julho no Palco Heiniken.</t>
 		<h>A atuação ficou marcada para o dia 7 de julho, no Palco Heineken.</h>
 	</pair>
@@ -5888,7 +5888,7 @@
 		<t>Estas crianças estão há mais de um mês sem direito a almoço e sem atividades na escola.</t>
 		<h>Os alunos não almoçam na escola.</h>
 	</pair>
-	<pair entailment="Entailment" id="1473" similarity="2.75">
+	<pair entailment="None" id="1473" similarity="2.75">
 		<t>Atualmente, a startup indiana conta com 1,2 milhões de visitas por mês e disponibiliza informação sobre mais de 15.500 restaurantes.</t>
 		<h>A startup indiana está presente em 23 países e disponibiliza informação sobre mais de um milhão de restaurantes.</h>
 	</pair>
@@ -5916,7 +5916,7 @@
 		<t>É um jogo de Taça contra uma equipa que também vai lutar, com ambição legítima.</t>
 		<h>Muitas grandes equipas na Europa são surpreendidas em jogos da Taça.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1480" similarity="5.0">
+	<pair entailment="Entailment" id="1480" similarity="5.0">
 		<t>No próximo ano vão manter-se inalterados os preços dos transportes públicos urbanos de Lisboa e do Porto.</t>
 		<h>As tarifas dos transportes públicos em Lisboa e no Porto vão manter-se inalteradas no próximo ano.</h>
 	</pair>
@@ -5968,7 +5968,7 @@
 		<t>É oficial: está aberta a época de ‘caça’ aos iPhone 6s e iPhone 6s Plus.</t>
 		<h>Não faltam razões para não desejar um iPhone 6s e 6s Plus.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1493" similarity="4.25">
+	<pair entailment="Entailment" id="1493" similarity="4.25">
 		<t>E depois de prolongadas negociações e muito debate interno, o CUP decidiu não apoiar a investidura de Mas.</t>
 		<h>Depois de muitas negociações, o CUP decidiu não apoiar a investidura de Mas.</h>
 	</pair>
@@ -6104,7 +6104,7 @@
 		<t>O Manchester City venceu o Norwich por 2 a 1, neste sábado, no Etihad Stadium, em partida emocionante.</t>
 		<h>O Manchester City enfrentou o Nowrich, no Etihad Stadium.</h>
 	</pair>
-	<pair entailment="None" id="1527" similarity="3.75">
+	<pair entailment="Entailment" id="1527" similarity="3.75">
 		<t>Brahimi arranca e deixa para Aboubakar, que esbarra num adversário.</t>
 		<h>Brahimi deixa para Aboubakar, no lado esquerdo.</h>
 	</pair>
@@ -6436,7 +6436,7 @@
 		<t>Até agora, 21 países, já registraram casos do vírus desde maio.</t>
 		<h>No relatório de outubro, já registrávamos mais de 28 casos em apenas dois meses.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1610" similarity="4.75">
+	<pair entailment="None" id="1610" similarity="4.75">
 		<t>O concurso desta sexta-feira do Euromilhões apresenta um jackpot de 62 milhões de primeiro prémio.</t>
 		<h>O prémio base do Euromilhões foi crescendo, até aos 62 milhões, em concurso nesta sexta-feira.</h>
 	</pair>
@@ -7248,7 +7248,7 @@
 		<t>Jonathan Silva pode regressar à Argentina, para o Boca Juniors, já em Janeiro.</t>
 		<h>Jonathan Silva poderá estar a caminho do Boca Juniors.</h>
 	</pair>
-	<pair entailment="None" id="1813" similarity="4.75">
+	<pair entailment="Entailment" id="1813" similarity="4.75">
 		<t>Rui Rio era um dos convidados do programa "Quadratura do Círculo".</t>
 		<h>Um desses programas é a Quadratura do Círculo, para o qual foi convidado Rui Rio.</h>
 	</pair>
@@ -7384,7 +7384,7 @@
 		<t>Na cobrança, Gameiro cobrou no canto direito mas Blanco novamente voou para fazer uma linda defesa.</t>
 		<h>Na cobrança, Banega bateu com imensa categoria, mas Blanco novamente fez uma defesa espetacular.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1847" similarity="4.75">
+	<pair entailment="Entailment" id="1847" similarity="4.75">
 		<t>Por isso mesmo, Krugman fez questão de separar o caso português do grego.</t>
 		<h>Krugman faz, no entanto, questão de separar os casos de Portugal e da Grécia.</h>
 	</pair>
@@ -7460,7 +7460,7 @@
 		<t>Em 2015, o avançado de 31 anos fez 29 jogos e marcou 15 golos no clube chinês.</t>
 		<h>O avançado colombiano, de 28 anos, marcou seis golos em 23 jogos esta temporada.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1866" similarity="4.75">
+	<pair entailment="Entailment" id="1866" similarity="4.75">
 		<t>Sheeran é seguido por 16 milhões de pessoas no Twitter e tem 5 milhões e 500 mil seguidores no Instagram.</t>
 		<h>Sheeran possui 16 milhões de seguidores no Twitter e 5,5 milhões de fãs nos Intagram.</h>
 	</pair>

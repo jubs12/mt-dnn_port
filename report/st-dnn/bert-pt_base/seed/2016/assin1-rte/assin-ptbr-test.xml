@@ -28,7 +28,7 @@
 		<t>Segundo Lagarde, esse fenômeno deverá levar o FMI a revisar para baixo a previsão de crescimento.</t>
 		<h>Esse fenômeno deve levar o FMI a revisar para baixo as projeções de crescimento.</h>
 	</pair>
-	<pair entailment="Entailment" id="8" similarity="3.0">
+	<pair entailment="None" id="8" similarity="3.0">
 		<t>De acordo com o Corpo de Bombeiros, o acidente aconteceu por volta das 6h30.</t>
 		<h>Segundo os bombeiros, o chamado foi feito às 6h32.</h>
 	</pair>
@@ -60,7 +60,7 @@
 		<t>Os recursos são transferidos para o HU pelo próprio Ministério da Saúde.</t>
 		<h>A partir de agora o município não tem mais recurso para repassar ao HU.</h>
 	</pair>
-	<pair entailment="Entailment" id="16" similarity="3.25">
+	<pair entailment="None" id="16" similarity="3.25">
 		<t>A ex-BBB foi clicada tomando sol na areia e se refrescou com mergulhos no mar.</t>
 		<h>A ex-BBB mostrou o corpo saradíssimo ao tomar banho de mar.</h>
 	</pair>
@@ -276,7 +276,7 @@
 		<t>Mas a gente vive o futebol e sabe o porquê disso.</t>
 		<h>Sabemos da qualidade que tem o Brasil, o berço do futebol.</h>
 	</pair>
-	<pair entailment="Entailment" id="70" similarity="3.5">
+	<pair entailment="None" id="70" similarity="3.5">
 		<t>O Brasil acabou superado pela Croácia por 3 a 1 na repescagem do Grupo Mundial da Copa Davis.</t>
 		<h>O Brasil começou bem o confronto com a Croácia pela repescagem da Copa Davis.</h>
 	</pair>
@@ -508,7 +508,7 @@
 		<t>Ele disse que um outro colaborador da Lava Jato vai esclarecer o assunto.</t>
 		<h>Os dois estão entre os principais delatores da Operação Lava Jato.</h>
 	</pair>
-	<pair entailment="Entailment" id="128" similarity="4.0">
+	<pair entailment="Paraphrase" id="128" similarity="4.0">
 		<t>Lady Gaga irá apresentar uma das categorias do próximo Emmy Awards.</t>
 		<h>Lady Gaga estará presente no próximo Emmy Awards como apresentadora.</h>
 	</pair>
@@ -524,7 +524,7 @@
 		<t>O astro escurece ao entrar no cone de sombra que a Terra projeta no espaço.</t>
 		<h>Às 22h07 a Lua começou a entrar na sombra da Terra.</h>
 	</pair>
-	<pair entailment="Entailment" id="132" similarity="5.0">
+	<pair entailment="Paraphrase" id="132" similarity="5.0">
 		<t>Pode levar pelo menos de quatro a cinco meses até que a criança chegue aos Estados Unidos.</t>
 		<h>Demora ao menos 4 ou 5 meses antes da criança chegar aos Estados Unidos”.</h>
 	</pair>
@@ -728,7 +728,7 @@
 		<t>A empresa admitiu e lamenta profundamente ter forjado os resultados dos testes às emissões poluentes.</t>
 		<h>A empresa é acusada por autoridades americanas de falsificar informações sobre emissões de poluentes.</h>
 	</pair>
-	<pair entailment="Entailment" id="183" similarity="4.0">
+	<pair entailment="None" id="183" similarity="4.0">
 		<t>Cinco americanos enviaram uma câmera GoPro para o espaço em um balão meteorológico em 2013.</t>
 		<h>Em 2013, um grupo de cinco estudantes americanos enviou o balão a partir do Grand Canyon.</h>
 	</pair>
@@ -980,7 +980,7 @@
 		<t>A segunda partida entre as equipes acontece na próxima quinta-feira, às 21h, no Pacaembu.</t>
 		<h>O jogo de volta acontece na próxima quinta-feira, no Pacaembu, às 21h.</h>
 	</pair>
-	<pair entailment="Entailment" id="246" similarity="3.75">
+	<pair entailment="None" id="246" similarity="3.75">
 		<t>Quatro meses após receber alta, Pelé voltou ao Hospital Albert Einstein.</t>
 		<h>O ex-jogador Pelé está internado no hospital Albert Einstein, em São Paulo.</h>
 	</pair>
@@ -2052,7 +2052,7 @@
 		<t>Os primeiros a experimentar os vídeos de perfil são donos de iPhones do Reino Unido e do estado da Califórnia (EUA).</t>
 		<h>Similar às chamadas Live Photos dos novos iPhones, os vídeos de perfil chegam primeiro aos usuários dos EUA e Reino Unido.</h>
 	</pair>
-	<pair entailment="Entailment" id="514" similarity="3.0">
+	<pair entailment="None" id="514" similarity="3.0">
 		<t>O ex-diretor da área internacional da Petrobras mantém negócios particulares com Raul.</t>
 		<h>Ex-funcionário da Petrobras, Raul Schmidt fez carreira na área internacional da estatal.</h>
 	</pair>
@@ -2092,7 +2092,7 @@
 		<t>Além disso, as partidas semifinais da chave masculina também foram afetadas.</t>
 		<h>À tarde, aconteceram jogos pela chave de duplas masculinas (as duas semifinais) e pela chave juvenil.</h>
 	</pair>
-	<pair entailment="Entailment" id="524" similarity="2.75">
+	<pair entailment="None" id="524" similarity="2.75">
 		<t>E Oliveira foi testado com um lance capital aos 40min no segundo tempo.</t>
 		<h>O lance crucial da partida aconteceu aos 40min.</h>
 	</pair>
@@ -2540,7 +2540,7 @@
 		<t>É bem verdade que Argel fez mais do que isso durante a disputa.</t>
 		<h>Tanto que nem o próprio Argel fez questão de disfarçá-los.</h>
 	</pair>
-	<pair entailment="Entailment" id="636" similarity="5.0">
+	<pair entailment="Paraphrase" id="636" similarity="5.0">
 		<t>Já o Xbox 360 passará a ser vendido por R$1.099.</t>
 		<h>Já para o Xbox 360 o novo preço é de R$ 1.099,00.</h>
 	</pair>
@@ -2684,7 +2684,7 @@
 		<t>Nesta sexta-feira foi anunciado o falecimento do piloto Jules Bianchi.</t>
 		<h>O piloto francês de fórmula um Jules Bianchi morreu este sábado.</h>
 	</pair>
-	<pair entailment="Entailment" id="672" similarity="3.25">
+	<pair entailment="None" id="672" similarity="3.25">
 		<t>O caso foi defendido pelo advogado Marcos Motta na quinta-feira, data marcada para o julgamento do recurso.</t>
 		<h>Contratado pela entidade, o advogado Marcos Motta apresentou a defesa na última quinta-feira.</h>
 	</pair>
@@ -2700,7 +2700,7 @@
 		<t>Essa foi a primeira morte da modalidade após a perda do brasileiro Ayrton Senna, em 1994.</t>
 		<h>A última morte havia sido do brasileiro Ayrton Senna.</h>
 	</pair>
-	<pair entailment="Entailment" id="676" similarity="4.0">
+	<pair entailment="None" id="676" similarity="4.0">
 		<t>Esta é a primeira pílula no mercado destinada a aumentar a libido da mulher.</t>
 		<h>A primeira pílula para baixa libido em mulheres sairá à venda nos EUA.</h>
 	</pair>
@@ -3624,7 +3624,7 @@
 		<t>O Sambódromo recebeu o campeonato nacional de tiro com arco no mês de outubro de 2014.</t>
 		<h>A partir desta terça-feira (15), o Sambódromo vai receber o tiro com arco.</h>
 	</pair>
-	<pair entailment="Entailment" id="907" similarity="4.75">
+	<pair entailment="Paraphrase" id="907" similarity="4.75">
 		<t>Nos EUA, o dispositivo mais básico pode ser comprado por a partir de US$ 350.</t>
 		<h>Nos Estados Unidos, o dispositivo mais barato pode ser comprado por US$ 350.</h>
 	</pair>
@@ -3648,7 +3648,7 @@
 		<t>Steve Jobs acertou em cheio em 2010 quando disse que os consumidores não têm tempo para amadorismo.</t>
 		<h>O lançamento brasileiro de Steve Jobs está programado para 21 de janeiro de 2016.</h>
 	</pair>
-	<pair entailment="Entailment" id="913" similarity="3.5">
+	<pair entailment="None" id="913" similarity="3.5">
 		<t>As últimas semanas não estão sendo fáceis para os jogadores do Barcelona, mais um atleta é investigado por sonegação de impostos.</t>
 		<h>Os problemas dos jogadores do Barcelona com os impostos parecem não acabar.</h>
 	</pair>
@@ -4060,7 +4060,7 @@
 		<t>Os candidatos e os partidos não vão mais poder contar com o financiamento das empresas.</t>
 		<h>O que se propõe é o financiamento de pessoas jurídicas a partidos políticos.</h>
 	</pair>
-	<pair entailment="Entailment" id="1016" similarity="3.75">
+	<pair entailment="None" id="1016" similarity="3.75">
 		<t>Pizzolato ainda poderá recorrer à Corte Europeia de Direitos Humanos, em Estrasburgo, na França.</t>
 		<h>A última medida que Pizzolato pode tentar é um recurso na Corte Europeia de Direitos Humanos.</h>
 	</pair>
@@ -4136,7 +4136,7 @@
 		<t>O meia Philippe Coutinho foi cortado da seleção brasileira.</t>
 		<h>Philippe Coutinho se lesionou em jogo do Liverpool.</h>
 	</pair>
-	<pair entailment="Entailment" id="1035" similarity="4.25">
+	<pair entailment="Paraphrase" id="1035" similarity="4.25">
 		<t>A agência estatal de notícias Xinhua colocou o número de feridos em 50.</t>
 		<h>A agência estatal de notícias Xinhua informou que 48 pessoas ficaram feridas.</h>
 	</pair>
@@ -4612,7 +4612,7 @@
 		<t>O irmão do atacante do Barcelona ficou nove horas preso e terá de responder em tribunal sobre o ocorrido.</t>
 		<h>Não é a primeira vez em que o irmão do atacante do Barcelona é detido.</h>
 	</pair>
-	<pair entailment="Entailment" id="1154" similarity="5.0">
+	<pair entailment="None" id="1154" similarity="5.0">
 		<t>Outra regra diz que os médicos também não poderão consultar ou prescrever medicamentos à distância.</t>
 		<h>Além disso, com a resolução o médico não poderá consultar ou prescrever medicamento à distância.</h>
 	</pair>
@@ -5036,7 +5036,7 @@
 		<t>A primeira-ministra alemã participou da comemoração do 25º aniversário da reunificação alemã, no dia 3 deste mês.</t>
 		<h>O dia 3 deste mês marcou a comemoração do 25º aniversário da reunificação alemã.</h>
 	</pair>
-	<pair entailment="Entailment" id="1260" similarity="4.0">
+	<pair entailment="None" id="1260" similarity="4.0">
 		<t>No Salão de Frankfurt, na Alemanha, a Ford faz a estreia dos novos Edge e Ranger.</t>
 		<h>A Ford fez a estreia europeia da nova Ranger esta semana, no Salão de Frankfurt.</h>
 	</pair>
@@ -5104,7 +5104,7 @@
 		<t>Nós votaremos e manteremos os vetos com toda a tranquilidade.</t>
 		<h>A oposição precisa ter essa mesma coerência.</h>
 	</pair>
-	<pair entailment="Entailment" id="1277" similarity="4.5">
+	<pair entailment="Paraphrase" id="1277" similarity="4.5">
 		<t>Nos sete primeiros meses de ano, já foram registrados 1.350.406 casos de dengue.</t>
 		<h>Nos sete primeiros meses deste ano, já foram registrados mais de 1,3 milhões de casos de dengue.</h>
 	</pair>
@@ -5412,7 +5412,7 @@
 		<t>Mas as verificações só podem começar no dia 5.</t>
 		<h>Por volta das 9h, fizemos uma pausa.</h>
 	</pair>
-	<pair entailment="Entailment" id="1354" similarity="4.0">
+	<pair entailment="None" id="1354" similarity="4.0">
 		<t>Foi pênalti, cometido por Zeca, que assumiu depois, e David Braz foi injustamente expulso.</t>
 		<h>Quem foi expulso foi David Braz e não o autor do pênalti.</h>
 	</pair>
@@ -5616,7 +5616,7 @@
 		<t>O Vasco jogou melhor contra Figueirense e Atlético-MG, e nos dois jogos perdeu.</t>
 		<h>Jogamos bem contra Figueirense e Atlético-MG, mas a bola não quis entrar.</h>
 	</pair>
-	<pair entailment="Entailment" id="1405" similarity="3.75">
+	<pair entailment="None" id="1405" similarity="3.75">
 		<t>Quem terá mais motivos para se preocupar agora é o técnico Luis Enrique.</t>
 		<h>O técnico Luis Enrique deve se preocupar com a situação do jogador.</h>
 	</pair>
@@ -6012,7 +6012,7 @@
 		<t>Nesse final de semana, serão realizados 18 procedimentos com uma equipe de 18 profissionais.</t>
 		<h>Neste sábado e domingo, serão realizados 18 procedimentos, com uma equipe de 18 profissionais.</h>
 	</pair>
-	<pair entailment="None" id="1504" similarity="3.25">
+	<pair entailment="Entailment" id="1504" similarity="3.25">
 		<t>Apenas nas últimas cinco sessões, o dólar à vista acumulou valorização de 7,6%.</t>
 		<h>Nas últimas quatro sessões, o dólar acumulou valorização de 6 por cento.</h>
 	</pair>
@@ -6260,7 +6260,7 @@
 		<t>Com o atraso no pagamento, R$ 8 bilhões ficam para o ano que vem.</t>
 		<h>A mudança fará o governo economizar R$ 9 bilhões neste ano.</h>
 	</pair>
-	<pair entailment="Entailment" id="1566" similarity="2.5">
+	<pair entailment="None" id="1566" similarity="2.5">
 		<t>Testemunhas estimam que de 400 a 700 pessoas poderiam estar a bordo da embarcação no momento do naufrágio.</t>
 		<h>Cerca de 400 pessoas já teriam sido resgatadas.</h>
 	</pair>
@@ -6844,7 +6844,7 @@
 		<t>A Ponte Preta teve a primeira chance logo aos dois minutos.</t>
 		<h>Aos 31, a Ponte Preta desperdiçou sua melhor chance na partida.</h>
 	</pair>
-	<pair entailment="Entailment" id="1712" similarity="5.0">
+	<pair entailment="Paraphrase" id="1712" similarity="5.0">
 		<t>Nunca pensei, quando cheguei a Madri, em ficar só um ano ou dois.</t>
 		<h>Em nenhum momento desde que cheguei a Madri pensei em ficar só um ano ou dois.</h>
 	</pair>
@@ -7440,7 +7440,7 @@
 		<t>Este é o 12º evento-teste dos Jogos Olímpicos do Rio e o primeiro no Parque Radical de Deodoro.</t>
 		<h>O Parque Radical de Deodoro enfim recebeu o evento-teste de ciclismo BMX.</h>
 	</pair>
-	<pair entailment="Entailment" id="1861" similarity="2.25">
+	<pair entailment="None" id="1861" similarity="2.25">
 		<t>Essa será a primeira fábrica da Jaguar Land Rover totalmente própria fora do Reino Unido.</t>
 		<h>A Jaguar Land Rover é a maior fabricante de automóveis do Reino Unido.</h>
 	</pair>
@@ -7696,7 +7696,7 @@
 		<t>A obrigatoriedade do uso do extintor foi estabelecida no Brasil em 1968 e passou a vigorar em 1970.</t>
 		<h>A obrigatoriedade do uso do extintor estava em vigor no Brasil desde 1970.</h>
 	</pair>
-	<pair entailment="Entailment" id="1925" similarity="3.75">
+	<pair entailment="None" id="1925" similarity="3.75">
 		<t>Outro fim guardado a sete chaves é o da ex-modelo Larissa (Grazi Massafera).</t>
 		<h>Outro final quase certo é o de Larissa, personagem de Grazi Massafera.</h>
 	</pair>
@@ -7960,7 +7960,7 @@
 		<t>Os três ataques aconteceram no mês sagrado do Ramadã – período de jejum para os muçulmanos.</t>
 		<h>O local estava lotado por conta do Ramadã, mês sagrado para os muçulmanos.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1991" similarity="3.25">
+	<pair entailment="Entailment" id="1991" similarity="3.25">
 		<t>Nem todos os sites protegem as senhas de maneira eficiente e na maior parte dos casos sua senha pode ser capturada por phishing e malware.</t>
 		<h>Na maior parte dos casos de navegação em sites, as senhas são capturadas por phishing e malware.</h>
 	</pair>

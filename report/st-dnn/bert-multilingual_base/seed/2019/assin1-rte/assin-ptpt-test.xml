@@ -40,7 +40,7 @@
 		<t>Uma nova falha no fornecimento levou Portugal a encomendar a vacina contra a tuberculose ao Japão.</t>
 		<h>Portugal teve de encomendar a vacina contra a tuberculose ao Japão, após nova falha no abastecimento.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="11" similarity="4.25">
+	<pair entailment="Entailment" id="11" similarity="4.25">
 		<t>Em média, 68% dos agregados pagaram sobretaxa de 67 cêntimos.</t>
 		<h>Cerca de dois terços dos contribuintes pagaram 67 cêntimos de sobretaxa.</h>
 	</pair>
@@ -332,7 +332,7 @@
 		<t>A Polícia Judiciária de Braga deteve, por suspeitas de corrupção, dois ex-administradores dos Transportes Urbanos.</t>
 		<h>Os cinco arguidos foram detidos pela Polícia Judiciária suspeitos de crimes de corrupção.</h>
 	</pair>
-	<pair entailment="Entailment" id="84" similarity="3.75">
+	<pair entailment="None" id="84" similarity="3.75">
 		<t>Esta operação não está relacionada com a procura de suspeitos de envolvimento nos atentados de Paris.</t>
 		<h>A PSP garante que as operações de busca não estão relacionados com os atentados de Paris.</h>
 	</pair>
@@ -424,7 +424,7 @@
 		<t>Foram colocados à venda esta sexta-feira os bilhetes para os concertos da cantora Adele em Portugal.</t>
 		<h>A venda de bilhetes para os concertos começou na sexta-feira.</h>
 	</pair>
-	<pair entailment="Entailment" id="107" similarity="4.25">
+	<pair entailment="None" id="107" similarity="4.25">
 		<t>A TAP irá concorrer com o comboio e os autocarros, assinala Fernando Pinto.</t>
 		<h>A ideia é competir com o comboio e o autocarro, reconheceu Fernando Pinto.</h>
 	</pair>
@@ -440,7 +440,7 @@
 		<t>A cantora também perdeu o irmão para o cancro, apenas dois dias depois da morte do marido.</t>
 		<h>Dois dias depois, perdeu também o irmão, também para o cancro.</h>
 	</pair>
-	<pair entailment="None" id="111" similarity="4.0">
+	<pair entailment="Entailment" id="111" similarity="4.0">
 		<t>Brahimi e Osvaldo, que estavam lesionados, recuperaram e estão à disposição de Lopetegui.</t>
 		<h>Brahimi e Osvaldo estão de regresso.</h>
 	</pair>
@@ -756,7 +756,7 @@
 		<t>A tomada do centro de Ramadi é considerada uma vitória importante na luta contra o Estado Islâmico.</t>
 		<h>A conquista do centro de Ramadi está a ser recebida como uma vitória final.</h>
 	</pair>
-	<pair entailment="Entailment" id="190" similarity="4.25">
+	<pair entailment="None" id="190" similarity="4.25">
 		<t>No total, morreram quatro pescadores, um permanece desaparecido e dois tripulantes foram resgatados com vida.</t>
 		<h>Quatro pessoas morreram, uma está desaparecida e duas foram resgatadas com vida depois deste acidente.</h>
 	</pair>
@@ -940,7 +940,7 @@
 		<t>Após acordo, Chelsea vai seguir o Campeonato Inglês sem José Mourinho como treinador.</t>
 		<h>Um dos assuntos favoritos do momento é para onde irá José Mourinho.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="236" similarity="4.75">
+	<pair entailment="Entailment" id="236" similarity="4.75">
 		<t>O conselho de uma empresa é onde a diversidade é mais importante.</t>
 		<h>O conselho é uma das partes mais importantes da organização que precisa de diversidade.</h>
 	</pair>
@@ -996,7 +996,7 @@
 		<t>Narciso Miranda vê a pena suspensa se pagar os 35.700 euros que apossou.</t>
 		<h>A pena fica suspensa se Narciso Miranda pagar os 35.700 euros de que se apropriou indevidamente.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="250" similarity="5.0">
+	<pair entailment="Entailment" id="250" similarity="5.0">
 		<t>As Smart Replys vão ficar disponíveis esta semana na versão Android e iOS da aplicação Google Inbox.</t>
 		<h>O Smart Reply deverá chegar ao Google Inbox ainda esta semana, para Android e iOS.</h>
 	</pair>
@@ -1016,7 +1016,7 @@
 		<t>As aulas de inglês vão decorrer em residências, escolas e centros comunitários.</t>
 		<h>As aulas terão lugar em casas, em escolas e em espaços comunitários.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="255" similarity="5.0">
+	<pair entailment="Entailment" id="255" similarity="5.0">
 		<t>Depois que Sanmay disse que decidira dar o dinheiro para caridade, duplicou a oferta.</t>
 		<h>A quantia foi duplicada, já que Sanmay Ved disse que iria doar o dinheiro para caridade.</h>
 	</pair>
@@ -1564,7 +1564,7 @@
 		<t>O Real Madrid tem cinco pontos de diferença para o Barcelona.</t>
 		<h>O campeonato pode ficar ainda mais relançado se mais tarde o Real Madrid derrotar o Villareal.</h>
 	</pair>
-	<pair entailment="Entailment" id="392" similarity="3.25">
+	<pair entailment="None" id="392" similarity="3.25">
 		<t>O Porsche 911 deverá ter sua versão ecológica, com uma configuração híbrida plug-in.</t>
 		<h>Além disso, está prevista uma versão híbrida do Porsche 911.</h>
 	</pair>
@@ -1588,7 +1588,7 @@
 		<t>Este último Defender produzido irá agora integrar a coleção de veículos históricos da Jaguar Land Rover.</t>
 		<h>A história do Land Rover Defender confunde-se com a própria história da Land Rover.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="398" similarity="4.0">
+	<pair entailment="Entailment" id="398" similarity="4.0">
 		<t>O relógio Bellamy parece-se com relógios tradicionais e já está a ser comercializado na China.</t>
 		<h>O Bellamy, o relógio em causa, já está a ser comercializado na China.</h>
 	</pair>
@@ -2188,7 +2188,7 @@
 		<t>O crescimento face a igual período do ano passado ascende a 32,8% e a 6,1% face a Setembro último.</t>
 		<h>Isto corresponde a um crescimento de 21% face ao verificado em igual período do ano passado.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="548" similarity="5.0">
+	<pair entailment="Entailment" id="548" similarity="5.0">
 		<t>Eu estou profundamente orgulhosa de anunciar a inauguração da Fundação Paul Walker no aniversário dele.</t>
 		<h>Estou muito orgulhosa de lançar a Paul Walker Foundation no dia do seu aniversário.</h>
 	</pair>
@@ -2636,7 +2636,7 @@
 		<t>Falam sobre José Veiga e ligam-lhe o nome a esquemas e negócios estranhos.</t>
 		<h>José Veiga já foi o maior super-agente de futebolistas do mundo.</h>
 	</pair>
-	<pair entailment="None" id="660" similarity="3.25">
+	<pair entailment="Entailment" id="660" similarity="3.25">
 		<t>Vítor de Sousa foi o vice-presidente da Câmara de Braga, quando o município era liderado pelo socialista Mesquita Machado.</t>
 		<h>Vítor de Sousa foi braço-direito de Mesquita Machado, ex-presidente da autarquia de Braga.</h>
 	</pair>
@@ -2696,7 +2696,7 @@
 		<t>“El Chapo” estava detido na prisão de alta segurança de Altiplano.</t>
 		<h>Ele está na mesma prisão de alta segurança de onde fugiu em julho do ano passado.</h>
 	</pair>
-	<pair entailment="Entailment" id="675" similarity="4.25">
+	<pair entailment="None" id="675" similarity="4.25">
 		<t>Plant canta no mesmo dia em que também atuam The Chemical Brothers e Pixies.</t>
 		<h>Para o mesmo dia estão confirmados nomes como The Chemical Brothers e Pixies.</h>
 	</pair>
@@ -3148,7 +3148,7 @@
 		<t>O homem foi presente a primeiro interrogatório judicial, tendo-lhe sido aplicada a medida de coação de apresentações periódicas semanais.</t>
 		<h>O suspeito vai ser presente às autoridades judiciárias competentes para eventual aplicação de medidas de coação.</h>
 	</pair>
-	<pair entailment="Entailment" id="788" similarity="1.75">
+	<pair entailment="None" id="788" similarity="1.75">
 		<t>Tanto a CT como o SITE-Norte falaram esta manhã de cerca de 400 trabalhadores que actualmente estão em regime de inactividade.</t>
 		<h>A empresa tem também neste momento cerca de 200 trabalhadores em inactividade.</h>
 	</pair>
@@ -3260,7 +3260,7 @@
 		<t>Estava identificado o adversário, sem ser preciso nomeá-lo, Marcelo Rebelo de Sousa.</t>
 		<h>Matias argumenta que Marcelo Rebelo de Sousa diz “o que for preciso para ganhar votos”.</h>
 	</pair>
-	<pair entailment="Entailment" id="816" similarity="2.25">
+	<pair entailment="None" id="816" similarity="2.25">
 		<t>O vírus é transmitido por um mosquito e não há ainda cura ou vacina.</t>
 		<h>Além disso, não é qualquer mosquito que transmite este vírus.</h>
 	</pair>
@@ -4532,7 +4532,7 @@
 		<t>Eu falo apenas porque me perguntaram e é uma figura pública, nunca falei dele em termos pessoais.</t>
 		<h>Só falei porque me perguntaram, pois é uma figura pública.</h>
 	</pair>
-	<pair entailment="None" id="1134" similarity="4.0">
+	<pair entailment="Entailment" id="1134" similarity="4.0">
 		<t>As 35 horas semanais de trabalho para a função pública entram em vigor a 1 de Julho.</t>
 		<h>As 35 horas entrarão em vigor no próximo dia 1 de Julho.</h>
 	</pair>
@@ -4972,7 +4972,7 @@
 		<t>Segundo o comunicado da PGR, no processo investigam-se também crimes de tráfico de influência e participação económica em negócio.</t>
 		<h>Somam-se ainda as acusações de tráfico de influências, participação económica em negócio e fraude fiscal.</h>
 	</pair>
-	<pair entailment="Entailment" id="1244" similarity="3.5">
+	<pair entailment="None" id="1244" similarity="3.5">
 		<t>A vitória vale três pontos, tivemos bom início de Liga dos Campeões.</t>
 		<h>Queremos começar bem a participação na Liga dos Campeões e já somar três pontos.</h>
 	</pair>
@@ -5996,7 +5996,7 @@
 		<t>Yannick Djaló vai continuar a carreira na Tailândia.</t>
 		<h>Yannick Djaló foi anunciado esta quarta-feira como reforço do Ratchaburi.</h>
 	</pair>
-	<pair entailment="Entailment" id="1500" similarity="4.25">
+	<pair entailment="None" id="1500" similarity="4.25">
 		<t>E para ganhar, temos de fazer um grande jogo, não há outra hipótese.</t>
 		<h>Temos que fazer um jogo magnífico para conseguirmos ganhar.</h>
 	</pair>
@@ -6060,7 +6060,7 @@
 		<t>O site do IMDb refere que Scola realizou 41 filmes ao longo de 40 anos de carreira.</t>
 		<h>O realizador italiano Ettore Scola morreu esta terça-feira aos 84 anos.</h>
 	</pair>
-	<pair entailment="None" id="1516" similarity="4.25">
+	<pair entailment="Entailment" id="1516" similarity="4.25">
 		<t>Mourinho sublinha que não vai tirar qualquer licença sabática.</t>
 		<h>Mourinho não vai tirar um ano sabático.</h>
 	</pair>
@@ -7348,7 +7348,7 @@
 		<t>Não se sabe quantos atiradores terão entrado no hotel, onde chegaram num carro com matrícula diplomática.</t>
 		<h>Os atiradores chegaram ao hotel em carros com matrículas diplomáticas.</h>
 	</pair>
-	<pair entailment="None" id="1838" similarity="4.0">
+	<pair entailment="Entailment" id="1838" similarity="4.0">
 		<t>O Liverpool sofreu, mas conseguiu empatar por 2 a 2 com West Bromwich no Anfield.</t>
 		<h>O Liverpool não foi além de um empate diante do West Bromwich.</h>
 	</pair>
@@ -7920,7 +7920,7 @@
 		<t>Foi um excelente dia para mim e para toda a equipa Yamaha.</t>
 		<h>Esta vitória foi muito importante, tanto para mim como para a Yamaha.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1981" similarity="4.5">
+	<pair entailment="Entailment" id="1981" similarity="4.5">
 		<t>Em relação ao Adrien e ao Gelson, praticamente não treinaram comigo esta semana.</t>
 		<h>Adrien e Gelson não treinaram comigo durante grande parte da semana.</h>
 	</pair>

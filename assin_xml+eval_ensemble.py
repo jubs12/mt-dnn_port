@@ -81,8 +81,8 @@ elif mode == 'mt-dnn_assin+tweetsent':
 
 #TO DO: ARG PARSE keyword arguments, custom path
 if dataset in cabezudo:
-    rte_filepath =  f'output/{mode}/{dataset}/{pretrained}/ensemble/{dataset}_test_scores_4.json' if mode == 'st-dnn' \
-    else  f'output/{mode}/{pretrained}/ensemble/{dataset}_test_scores_4.json'
+    rte_filepath =  f'output/{mode}/{dataset}/{pretrained}/ensemble/{dataset}_test_scores_6.json' if mode == 'st-dnn' \
+    else  f'output/{mode}/{pretrained}/ensemble/{dataset}_test_scores_6.json'
 else: 
     rte_filepath = \
     f'output/{mode}/{dataset}-rte/{pretrained}/ensemble/{dataset}-rte_test_scores_4.json' if mode == 'st-dnn' \

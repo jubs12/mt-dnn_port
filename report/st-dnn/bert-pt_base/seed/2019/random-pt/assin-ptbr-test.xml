@@ -8,7 +8,7 @@
 		<t>Alguns dos novos participantes serão revelados no programa Xuxa Meneghel, que vai ao ar na segunda-feira.</t>
 		<h>Parte dos participantes será anunciada no Programa Xuxa Meneghel.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="3" similarity="4.5">
+	<pair entailment="None" id="3" similarity="4.5">
 		<t>Nesta terça, o Inter revelou que o gringo sofre com uma hérnia de disco.</t>
 		<h>Nesta terça-feira, o departamento médico do clube gaúcho informou que o argentino está com hérnia de disco.</h>
 	</pair>
@@ -48,7 +48,7 @@
 		<t>Já “House of Cards” precisou de três capítulos para convencer os brasileiros de acompanharem a série até o fim.</t>
 		<h>Já "House of Cards" levou três episódios para conquistar o público brasileiro.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="13" similarity="4.5">
+	<pair entailment="Entailment" id="13" similarity="4.5">
 		<t>Por enquanto, vídeos em 360 graus só funcionam na versão web do Facebook e no aplicativo para Android.</t>
 		<h>Os vídeos em 360 graus já estão disponíveis na versão web do Facebook e também no aplicativo para Android.</h>
 	</pair>
@@ -108,7 +108,7 @@
 		<t>Embora o microblog diga que não há limite de texto, ele existe e é de 10 mil caracteres.</t>
 		<h>O limite de 140 caracteres, no entanto, permanece para os tuítes públicos.</h>
 	</pair>
-	<pair entailment="Entailment" id="28" similarity="3.75">
+	<pair entailment="None" id="28" similarity="3.75">
 		<t>Com a narração de Scarlett Johansson como a cobra píton Kaa, o vídeo conta com legendas em português.</t>
 		<h>A cobra Kaa, por exemplo, ganha a voz de Scarlett Johansson.</h>
 	</pair>
@@ -372,7 +372,7 @@
 		<t>Durante o show, após a saída de Chimbinha, Joelma chorou várias vezes.</t>
 		<h>Após sua saída, Joelma se animou e seguiu cantando normalmente.</h>
 	</pair>
-	<pair entailment="Entailment" id="94" similarity="4.0">
+	<pair entailment="None" id="94" similarity="4.0">
 		<t>Letícia era uma das seis pessoas feridas na chacina, que até então contabilizava um total de 18 mortos.</t>
 		<h>Letícia passou a ser a pessoa mais jovem a morrer na chacina.</h>
 	</pair>
@@ -404,7 +404,7 @@
 		<t>Léo Pelé foi vítima de uma fratura no quinto metatarso do pé direito, e não jogará mais este ano.</t>
 		<h>Léo Pelé fraturou o quinto metatarso do pé direito e é baixa para o restante da temporada.</h>
 	</pair>
-	<pair entailment="None" id="102" similarity="4.0">
+	<pair entailment="Entailment" id="102" similarity="4.0">
 		<t>Betty Lago morreu na madrugada deste domingo e não queria que chorassem por ela.</t>
 		<h>Betty Lago morreu na manhã de domingo, no Rio de Janeiro.</h>
 	</pair>
@@ -460,7 +460,7 @@
 		<t>O serviço de streming de músicas do rapper Jay Z, o Tidal , chega hoje ao Brasil.</t>
 		<h>Jay Z não deve gostar da gente.</h>
 	</pair>
-	<pair entailment="Entailment" id="116" similarity="4.25">
+	<pair entailment="None" id="116" similarity="4.25">
 		<t>Nesta quarta, ele recebeu o cargo das mãos de Aloizio Mercadante, deslocado para o Ministério da Educação.</t>
 		<h>Ele substitui Aloizio Mercadante, que passa a ser o ministro da Educação.</h>
 	</pair>
@@ -828,7 +828,7 @@
 		<t>O Banco Central (BC) piorou a projeção para a inflação este ano.</t>
 		<h>A projeção do próprio BC indica inflação em 9%, este ano.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="208" similarity="4.75">
+	<pair entailment="Entailment" id="208" similarity="4.75">
 		<t>A Fifa anunciou que Jérôme Valcke foi afastado da função de secretário-geral da entidade.</t>
 		<h>A Fifa anunciou que Jérôme Valcke deixou o cargo de secretário geral da entidade.</h>
 	</pair>
@@ -1116,7 +1116,7 @@
 		<t>Levy disse ainda que é importante o orçamento federal ter superávit, ou seja, receitas maiores do que despesas.</t>
 		<h>Levy ressaltou a importância do orçamento federal ser superavitário.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="280" similarity="4.75">
+	<pair entailment="Entailment" id="280" similarity="4.75">
 		<t>Mujica evitou comentar sobre eventual participação da presidente Dilma Rousseff em irregularidades.</t>
 		<h>Mujica não quis comentar a possibilidade de Dilma Rousseff estar implicada em malfeitos.</h>
 	</pair>
@@ -1312,7 +1312,7 @@
 		<t>A parcela mensal de abril, explicou Sartori, será paga entre os dias 10 e 11 de maio.</t>
 		<h>O anúncio foi feito nesta sexta-feira (24) pelo governador José Ivo Sartori.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="329" similarity="5.0">
+	<pair entailment="Entailment" id="329" similarity="5.0">
 		<t>A cerimônia, que ocorrerá no Palácio do Planalto, está prevista para ter início às 15h.</t>
 		<h>A cerimônia está prevista para começar às 15h e será realizada no Palácio do Planalto.</h>
 	</pair>
@@ -1448,7 +1448,7 @@
 		<t>O encontro ocorreu após o governo federal anunciar um pacote de corte de gastos.</t>
 		<h>No entanto, as medidas do governo para tentar reequilibrar a economia não ficarão restritas aos cortes de gastos.</h>
 	</pair>
-	<pair entailment="Entailment" id="363" similarity="3.5">
+	<pair entailment="None" id="363" similarity="3.5">
 		<t>O peruano será mesmo o novo centroavante do Rubro-Negro após a disputa da Copa América.</t>
 		<h>O peruano chega para ser o principal nome do ataque rubro-negro.</h>
 	</pair>
@@ -1460,7 +1460,7 @@
 		<t>A Seleção Brasileira treina pela primeira vez em Santiago nesta segunda, às 17h.</t>
 		<h>O Brasil volta a treinar nesta quarta-feira, às 17h, no mesmo local.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="366" similarity="4.25">
+	<pair entailment="Entailment" id="366" similarity="4.25">
 		<t>Morata, Dybala e Khedira marcaram os gols da vitória da Velha Senhora, enquanto Mounier descontou para os visitantes.</t>
 		<h>Os gols da partida foram marcados por Khedira, Morata e Dybala; Mounier descontou para os visitantes.</h>
 	</pair>
@@ -1540,7 +1540,7 @@
 		<t>O número de vitórias de Senna não é o único que Hamilton pode igualar em Singapura.</t>
 		<h>Por esta razão, Hamilton reconhece que uma vitória em Singapura seria especial.</h>
 	</pair>
-	<pair entailment="Entailment" id="386" similarity="3.5">
+	<pair entailment="None" id="386" similarity="3.5">
 		<t>O Brasil é um dos pouco países que obrigava automóveis a ter o extintor.</t>
 		<h>Extintor deixa de ser obrigatório em carros que circulam no Brasil.</h>
 	</pair>
@@ -1652,7 +1652,7 @@
 		<t>Já Obama respondeu dizendo que entendeu a mensagem passada pelo papa.</t>
 		<h>O presidente Obama, por sua vez, deu boas-vindas ao papa.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="414" similarity="5.0">
+	<pair entailment="Entailment" id="414" similarity="5.0">
 		<t>Desse total, apenas 24 informaram que usaram o extintor.</t>
 		<h>Porém, deste total, só 24 disseram ter usado o extintor.</h>
 	</pair>
@@ -1740,7 +1740,7 @@
 		<t>No caso deste projeto já estava no roteiro da diretora Nancy Meyers.</t>
 		<h>A diretora norte-americana Nancy Meyers é craque nas comédias românticas.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="436" similarity="4.25">
+	<pair entailment="Entailment" id="436" similarity="4.25">
 		<t>Ainda no meio-campo, Alex substituti D'Ale e o treinador deve proteger sua zaga com três volantes.</t>
 		<h>No meio-campo, Alex substituti D'Ale e o treinador vai mandar a campo três volantes.</h>
 	</pair>
@@ -1888,7 +1888,7 @@
 		<t>Assim, o primeiro semestre fechou com superávit comercial de US$ 2,222 bilhões.</t>
 		<h>A balança comercial brasileira registrou em junho um superávit de US$ 4,527 bilhões.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="473" similarity="2.75">
+	<pair entailment="Entailment" id="473" similarity="2.75">
 		<t>De acordo com o Hollywood Reporter, a Sony Pictures está desenvolvendo um novo filme de Homens de Preto.</t>
 		<h>Segundo o Hollywood Reporter, uma nova trilogia está sendo desenvolvida pela Sony Pictures.</h>
 	</pair>
@@ -2344,7 +2344,7 @@
 		<t>André, em um pênalti polêmico, converteu, aos 46 minutos do segundo tempo.</t>
 		<h>No fim, André sofreu e converteu um pênalti e decretou o empate.</h>
 	</pair>
-	<pair entailment="Entailment" id="587" similarity="3.5">
+	<pair entailment="None" id="587" similarity="3.5">
 		<t>Na madrugada desta quinta-feira, Gusttavo Lima mostrou que tem disposição em todos os horários.</t>
 		<h>Gusttavo Lima aproveitou a madrugada desta quinta-feira para se exercitar.</h>
 	</pair>
@@ -2428,7 +2428,7 @@
 		<t>No Instagram, a atriz se derreteu ao postar uma foto das filhas durante o parabéns.</t>
 		<h>No Instagram, a atriz compartilhou foto das meninas no momento do parabéns.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="608" similarity="3.5">
+	<pair entailment="Entailment" id="608" similarity="3.5">
 		<t>Entre as ofertas, há oportunidades para alinhador de rodas, telefonista e operador de caixa.</t>
 		<h>Entre as ofertas, há oportunidades para açougueiro, auxiliar de cozinha e telefonista.</h>
 	</pair>
@@ -2500,7 +2500,7 @@
 		<t>A nova produção, “Maze Runner – Prova de Fogo”, é a continuação do suspense, e chega hoje aos cinemas.</t>
 		<h>A sequência “Maze Runner – Prova de Fogo” chega hoje aos cinemas.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="626" similarity="4.25">
+	<pair entailment="Entailment" id="626" similarity="4.25">
 		<t>O Datafolha entrevistou 1.335 pessoas entre 12h e 18h do domingo.</t>
 		<h>O Datafolha ouviu 1.335 entrevistas, entre 12h e 18h.</h>
 	</pair>
@@ -2512,7 +2512,7 @@
 		<t>O próximo confronto será contra o Santos, no próximo domingo, no Maracanã.</t>
 		<h>Goiás e Flamengo voltam a campo no próximo domingo.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="629" similarity="4.25">
+	<pair entailment="None" id="629" similarity="4.25">
 		<t>Inicialmente, o pedido foi encaminhado ao ministro Teori Zavascki, relator dos inquéritos da Lava Jato no STF.</t>
 		<h>Os trechos da delação foram encaminhados primeiro ao relator da Lava Jato no STF, ministro Teori Zavascki.</h>
 	</pair>
@@ -2788,7 +2788,7 @@
 		<t>O prêmio estimado para o próximo concurso é de R$ 3 milhões.</t>
 		<h>O sortudo vai levar um prêmio de mais de R$ 31 milhões.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="698" similarity="5.0">
+	<pair entailment="None" id="698" similarity="5.0">
 		<t>Outros 4281 bilhetes acertaram a quadra e ficarão com R$ 851,65 cada.</t>
 		<h>Outras 4.281 apostas acertaram a quadra e ficarão com R$ 851,65 cada.</h>
 	</pair>
@@ -2968,7 +2968,7 @@
 		<t>Assim que desembarcaram no Aeroporto de Congonhas, Mouche, Cristaldo e Barrios pegaram um taxi rumo à Academia.</t>
 		<h>Cristaldo, Mouche e Barrios passaram por apuros depois de desembarcar no Aeroporto de Congonhas, em São Paulo.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="743" similarity="1.75">
+	<pair entailment="None" id="743" similarity="1.75">
 		<t>Quatro semanas atrás estava em R$ 3,10.</t>
 		<h>Quatro edições antes, estava em US$ 3,20 bilhões.</h>
 	</pair>
@@ -3168,7 +3168,7 @@
 		<t>Temos entre mulheres brancas um desemprego de cerca de 9%, entre as mulheres negras ultrapassa 12%.</t>
 		<h>Segundo Marli, encontrar mulheres negras entre estudantes e professores é ainda mais difícil.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="793" similarity="4.0">
+	<pair entailment="Entailment" id="793" similarity="4.0">
 		<t>A Universidade do Norte do Arizona é pública e tem mais de 25 mil universitários em seu campus de Flagstaff.</t>
 		<h>A Universidade do Norte do Arizona fica na cidade de Flagstaff e possui mais de 25 mil universitários.</h>
 	</pair>
@@ -3440,7 +3440,7 @@
 		<t>O Android 6.0 (Marshmallow) foi apresentado em 29 de setembro.</t>
 		<h>A única atualização que ele chegou a receber foi o Android 5.1 Lollipop.</h>
 	</pair>
-	<pair entailment="Entailment" id="861" similarity="4.0">
+	<pair entailment="None" id="861" similarity="4.0">
 		<t>Pelas suas contas, o prejuízo com o pagamento de propinas pela Petrobras supera os R$ 10 bilhões.</t>
 		<h>Apenas a propina da Petrobras envolveu mais de R$ 10 bilhões.</h>
 	</pair>
@@ -4040,7 +4040,7 @@
 		<t>O motivo foi a promoção do litro da gasolina, comercializado a R$ 3,54 há poucos dias, por R$ 3,09.</t>
 		<h>Em alguns postos o preço do litro da gasolina chegava quase aos R$ 3,40.</h>
 	</pair>
-	<pair entailment="Entailment" id="1011" similarity="4.0">
+	<pair entailment="None" id="1011" similarity="4.0">
 		<t>A atriz Ellen Page escolheu o Festival de Cinema de Toronto para apresentar publicamente a namorada, Samantha Thomas.</t>
 		<h>A atriz compareceu ao Festival de Toronto ao lado de sua namorada, a surfista Samantha Thomas.</h>
 	</pair>
@@ -4156,7 +4156,7 @@
 		<t>O corpo será levado em um caminhão do Corpo de Bombeiros.</t>
 		<h>A cerimônia começará assim que o corpo for liberado.</h>
 	</pair>
-	<pair entailment="Entailment" id="1040" similarity="4.0">
+	<pair entailment="None" id="1040" similarity="4.0">
 		<t>Na volta do intervalo, o jogo passou a ser comandado apenas pelo time de Jorge Sampaoli.</t>
 		<h>A partir daí, o jogo passou a ser comandado pelo time chileno.</h>
 	</pair>
@@ -4220,7 +4220,7 @@
 		<t>A Nike apresentou nesta quarta-feira a nova terceira camisa da Inter de Milão para 2015-16 na cor amarela.</t>
 		<h>O último uniforme da Nike nesta cor foi feito para a Inter em 2003-04.</h>
 	</pair>
-	<pair entailment="Entailment" id="1056" similarity="4.5">
+	<pair entailment="None" id="1056" similarity="4.5">
 		<t>Já em relação a FIFA, as recorrentes críticas do ex-atacante a Joseph Blatter seguem firmes.</t>
 		<h>O ex-atacante ainda não poupou críticas para o presidente da Fifa Joseph Blatter.</h>
 	</pair>
@@ -4504,7 +4504,7 @@
 		<t>Para ter direito a 100% do benefício, ela teria de trabalhar mais.</t>
 		<h>A MP não permitia esse curto período de benefício.</h>
 	</pair>
-	<pair entailment="Entailment" id="1127" similarity="4.25">
+	<pair entailment="None" id="1127" similarity="4.25">
 		<t>O texto restringe ainda a doação de gametas (espermatozóides e óvulos).</t>
 		<h>A resolução também trata da doação de gametas (espermatozoides e óvulos).</h>
 	</pair>
@@ -4532,7 +4532,7 @@
 		<t>O próximo jogo da Ponte Preta é no dia 14, na capital paulista, contra o Palmeiras no Palestra Itália.</t>
 		<h>A Ponte Preta enfrenta o Palmeiras no Palestra Itália.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1134" similarity="4.0">
+	<pair entailment="None" id="1134" similarity="4.0">
 		<t>A menina morreu na madrugada desta segunda-feira (14) em Miami.</t>
 		<h>A criança morreu na madrugada desta segunda-feira, 14, no Hospital Jackson Memorial Medical após parada cardíaca.</h>
 	</pair>
@@ -4640,7 +4640,7 @@
 		<t>No momento, existem 241 deputados no plenário da Câmara.</t>
 		<h>Um total de 184 deputados foram contrários à redução.</h>
 	</pair>
-	<pair entailment="Entailment" id="1161" similarity="3.75">
+	<pair entailment="None" id="1161" similarity="3.75">
 		<t>Os corpos de Purwin e Brel foram transferidos ao Instituto Médico Legal de Medellín para estabelecer as causas da morte.</t>
 		<h>Os corpos dos mortos estão no IML de Medellín para verificar a causa mortis.</h>
 	</pair>
@@ -5808,7 +5808,7 @@
 		<t>Para o próximo ano, a previsão ficou em déficit de US$ 67,60 bilhões.</t>
 		<h>E a expectativa para 2016 ficou em US$ 65 bilhões.</h>
 	</pair>
-	<pair entailment="Entailment" id="1453" similarity="2.75">
+	<pair entailment="None" id="1453" similarity="2.75">
 		<t>Muitos de nós acreditam em extraterrestres e que eles podem estar tentando se comunicar conosco.</t>
 		<h>Isso não quer dizer, porém, que seres extraterrestres estão tentando se comunicar conosco neste exato momento.</h>
 	</pair>
@@ -5948,7 +5948,7 @@
 		<t>Segundo a Infraero, estatal que gerencia o aeroporto, as decolagens foram autorizadas a partir das 6h15.</t>
 		<h>Às 9h10, o aeroporto operava com o auxílio de instrumentos.</h>
 	</pair>
-	<pair entailment="Entailment" id="1488" similarity="3.25">
+	<pair entailment="None" id="1488" similarity="3.25">
 		<t>O valor, no entanto, não aparece na relação de doações recebidas na prestação de contas do candidato.</t>
 		<h>O valor foi declarado somente na prestação de contas final.</h>
 	</pair>
@@ -6180,7 +6180,7 @@
 		<t>Já entre os negros, 50% discordam e 44% concordam com a morte de criminosos.</t>
 		<h>Os entrevistados brancos também mostraram mais aceitação do uso da violência: 53% concordam e 41 discordam.</h>
 	</pair>
-	<pair entailment="Entailment" id="1546" similarity="4.0">
+	<pair entailment="None" id="1546" similarity="4.0">
 		<t>A atriz Grazi Massafera tem surpreendido muito os que não acreditaram em seu potencial como atriz.</t>
 		<h>Grazi Massafera está se tornando uma das grandes atrizes de sua geração.</h>
 	</pair>
@@ -6416,7 +6416,7 @@
 		<t>O Kaká é uma referência assim como foi o Robinho (na Copa América).</t>
 		<h>O Kaká será referência, como já fizemos com o Robinho da outra vez.</h>
 	</pair>
-	<pair entailment="Entailment" id="1605" similarity="3.25">
+	<pair entailment="None" id="1605" similarity="3.25">
 		<t>A reunião está marcada para as 19h, no Palácio da Alvorada, residência oficial da Presidência.</t>
 		<h>O jantar foi no Palácio da Alvorada, residência oficial da presidente da República.</h>
 	</pair>
@@ -6436,7 +6436,7 @@
 		<t>Já se sabia que, naquela noite, o Bope esteve na Rocinha.</t>
 		<h>Minha família andou a mata toda na região da Rocinha.</h>
 	</pair>
-	<pair entailment="Entailment" id="1610" similarity="4.25">
+	<pair entailment="None" id="1610" similarity="4.25">
 		<t>Os candidatos podem conferir os locais de prova no cartão de confirmação de inscrição.</t>
 		<h>Cartão de inscrição informa onde candidato vai fazer a prova.</h>
 	</pair>
@@ -6552,7 +6552,7 @@
 		<t>Na zaga, Matheus Ferraz reaparece depois de cumprir suspensão no posto de Ewerton Páscoa.</t>
 		<h>A boa notícia fica por conta do retorno de Matheus Ferraz, que assume o lugar de Ewerton Páscoa, depois de cumprir suspensão.</h>
 	</pair>
-	<pair entailment="Entailment" id="1639" similarity="3.25">
+	<pair entailment="None" id="1639" similarity="3.25">
 		<t>A bandeira dos EUA já havia sido hasteada em Cuba numa situação muito diferente.</t>
 		<h>Foi hasteada a bandeira dos Estados Unidos na embaixada americana em Cuba.</h>
 	</pair>
@@ -6960,7 +6960,7 @@
 		<t>Ela foi a grande campeã da quarta etapa da competição disputada no Lago Paranoá, em Brasília.</t>
 		<h>E isso ficou provado na etapa de Brasília do Campeonato Brasileiro da modalidade, disputado no Lago Paranoá.</h>
 	</pair>
-	<pair entailment="Entailment" id="1741" similarity="3.5">
+	<pair entailment="None" id="1741" similarity="3.5">
 		<t>O preço do aparelho é R$729,00 a vista ou R$799,00 em parcelas em até 10X.</t>
 		<h>O aparelho será vendido por R$ 729,00 à vista no cartão de crédito ou boleto bancário.</h>
 	</pair>
@@ -7144,7 +7144,7 @@
 		<t>A sanção da regulamentação da PEC das Domésticas será publicada no Diário Oficial desta terça-feira (2).</t>
 		<h>A lei está publicada no Diário Oficial da União desta terça-feira (02).</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1787" similarity="5.0">
+	<pair entailment="Entailment" id="1787" similarity="5.0">
 		<t>Morreu nesta quinta-feira (17) no Rio de Janeiro o diretor de cinema e televisão José Carlos Aranha Manga, 87.</t>
 		<h>Morreu na quinta (17) no Rio de Janeiro, aos 87 anos, o diretor de cinema e televisão Carlos Manga.</h>
 	</pair>
@@ -7180,7 +7180,7 @@
 		<t>A média nacional de vacinação foi 94,4% das crianças de 6 meses a 5 anos incompletos.</t>
 		<h>Pelo menos 95% das crianças de cada estado entre seis meses e cinco anos incompletos precisavam ser vacinadas.</h>
 	</pair>
-	<pair entailment="None" id="1796" similarity="4.0">
+	<pair entailment="Entailment" id="1796" similarity="4.0">
 		<t>Meia do Inter foi diagnosticado com hérnia de disco na última terça-feira e desfalca o Colorado por tempo indeterminado.</t>
 		<h>O meia do Inter teve constatado uma hérnia de disco e vai ficar afastado dos gramados por tempo indeterminado.</h>
 	</pair>
@@ -7208,7 +7208,7 @@
 		<t>Travestis e transexuais interessados em usar o nome social na prova devem fazer o pedido via internet.</t>
 		<h>Travestis e transexuais podem solicitar o uso do nome social no exame.</h>
 	</pair>
-	<pair entailment="Entailment" id="1803" similarity="3.75">
+	<pair entailment="None" id="1803" similarity="3.75">
 		<t>A eleição deste domingo foi a terceira vez que os gregos foram às urnas este ano.</t>
 		<h>Neste domingo (20), os gregos voltaram às urnas.</h>
 	</pair>
@@ -7236,7 +7236,7 @@
 		<t>Os desenvolvedores vão receber uma atualização do MUSE, a ferramenta de criação de temas da Xiaomi.</t>
 		<h>Para os desenvolvedores, a ferramenta MUSE foi o anúncio mais interessante do dia.</h>
 	</pair>
-	<pair entailment="Entailment" id="1810" similarity="3.0">
+	<pair entailment="None" id="1810" similarity="3.0">
 		<t>O líder do partido também já reconheceu a derrota, mas garantiu que este partido está para ficar.</t>
 		<h>O Nova Democracia rapidamente reconheceu a derrota.</h>
 	</pair>
@@ -7576,7 +7576,7 @@
 		<t>A camisa do zagueiro até foi rasgada e arbitragem assinalou falta.</t>
 		<h>Em seguida, a arbitragem assinalou falta de Marcos Júnior sobre Luan.</h>
 	</pair>
-	<pair entailment="Entailment" id="1895" similarity="3.0">
+	<pair entailment="None" id="1895" similarity="3.0">
 		<t>A brasileira Qbex acaba de lançar no mercado os smartphones X-Gold e X-Gray equipados com processador Intel Atom X3.</t>
 		<h>Marca brasileira anuncia a chegada de dois modelos que contarão com um processador Intel Atom X3.</h>
 	</pair>
@@ -7588,7 +7588,7 @@
 		<t>Devem ser imunizadas 256.182 garotas em todo o Estado.</t>
 		<h>Já em Barbacena as garotas serão imunizadas nos postos de saúde e nas escolas.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1898" similarity="4.25">
+	<pair entailment="Entailment" id="1898" similarity="4.25">
 		<t>Ele foi libertado após o pagamento de uma fiança de US$ 20 mil (R$ 80 milhões).</t>
 		<h>Ele foi liberado da prisão após pagar fiança de US$ 20 mil.</h>
 	</pair>
@@ -7820,7 +7820,7 @@
 		<t>FMI e BCE exigem uma série de compromissos fiscais que a Grécia não quer aceitar.</t>
 		<h>FMI e BCE exigem mais corte de gastos e endurecimento na reforma previdenciária.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1956" similarity="4.25">
+	<pair entailment="Entailment" id="1956" similarity="4.25">
 		<t>Segundo a polícia, Fidel Lopez arrancou o intestino da namorada com as próprias mãos.</t>
 		<h>Posteriormente, Fidel arrancou o intestino da namorada com as próprias mãos.</h>
 	</pair>
@@ -7840,7 +7840,7 @@
 		<t>O Chelsea parece ter dispensado a médica Eva Carneiro, segundo o jornal "Daily Mail".</t>
 		<h>A informação foi publicada, nesta terça-feira, pelo jornal "Daily Mail".</h>
 	</pair>
-	<pair entailment="Entailment" id="1961" similarity="2.75">
+	<pair entailment="None" id="1961" similarity="2.75">
 		<t>Dilan substitui o escritor Airton Ortiz, eleito patrono em 2014.</t>
 		<h>O novo patrono recebe o posto das mãos do antecessor, Airton Ortiz.</h>
 	</pair>
@@ -7876,11 +7876,11 @@
 		<t>Os investigadores da Lava Jato não concordam com a devolução dos veículos.</t>
 		<h>Os investigadores da Lava Jato ainda estão apurando as informações.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1970" similarity="4.25">
+	<pair entailment="None" id="1970" similarity="4.25">
 		<t>O mercado possuiu alguns nomes importantes que vamos analisar com calma a partir de agora.</t>
 		<h>O mercado possui, em disponibilidade, alguns nomes importantes que serão contactados.</h>
 	</pair>
-	<pair entailment="None" id="1971" similarity="4.25">
+	<pair entailment="Entailment" id="1971" similarity="4.25">
 		<t>Morreu nesta quinta-feira, 17, o diretor de TV Carlos Manga.</t>
 		<h>Morreu, no Rio de Janeiro, o diretor de TV e cinema Carlos Manga.</h>
 	</pair>

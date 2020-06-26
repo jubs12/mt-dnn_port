@@ -404,7 +404,7 @@
 		<t>Léo Pelé foi vítima de uma fratura no quinto metatarso do pé direito, e não jogará mais este ano.</t>
 		<h>Léo Pelé fraturou o quinto metatarso do pé direito e é baixa para o restante da temporada.</h>
 	</pair>
-	<pair entailment="None" id="102" similarity="4.0">
+	<pair entailment="Entailment" id="102" similarity="4.0">
 		<t>Betty Lago morreu na madrugada deste domingo e não queria que chorassem por ela.</t>
 		<h>Betty Lago morreu na manhã de domingo, no Rio de Janeiro.</h>
 	</pair>
@@ -476,7 +476,7 @@
 		<t>Apesar da preocupação, ele deve pegar o Flamengo, domingo, no Independência.</t>
 		<h>O argentino foi poupado, mas não preocupa para a partida desde domingo.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="120" similarity="3.75">
+	<pair entailment="Entailment" id="120" similarity="3.75">
 		<t>Quanto mais pro Norte, maior a temperatura e o calor e quanto mais pro Sul gaúcho, menor a temperatura e mais ameno o dia.</t>
 		<h>Quanto mais pro Sul gaúcho, menor a temperatura e mais ameno o dia.</h>
 	</pair>
@@ -1216,7 +1216,7 @@
 		<t>As negociações para por fim à rebelião foram suspensas na noite de terça.</t>
 		<h>Autoridades tentam negociar com os presos o fim da rebelião.</h>
 	</pair>
-	<pair entailment="None" id="305" similarity="3.25">
+	<pair entailment="Entailment" id="305" similarity="3.25">
 		<t>Tio avisa a Orlando que a facção precisará de Romero para uma operação.</t>
 		<h>Tio comenta com Orlando que Romero não deverá ser promovido.</h>
 	</pair>
@@ -1336,7 +1336,7 @@
 		<t>As informações podem ser obtidas no site da Honda ou pelo telefone 0800-701-3432.</t>
 		<h>O atendimento pode ser agendado na rede Honda.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="335" similarity="4.5">
+	<pair entailment="Entailment" id="335" similarity="4.5">
 		<t>Bené foi preso em maio deste ano e deixou a cadeia após pagamento de fiança.</t>
 		<h>Bené chegou a ser preso em maio, mas liberado após pagar fiança.</h>
 	</pair>
@@ -1492,7 +1492,7 @@
 		<t>Ele vai continuar em prisão domiciliar até outubro e depois irá para o regime semiaberto por mais um ano.</t>
 		<h>Em outubro de 2016, ele passa a regime aberto.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="374" similarity="3.25">
+	<pair entailment="Entailment" id="374" similarity="3.25">
 		<t>Também pode compartilhar suas experiências e aprender novas funções por meio de sua conexão permanente à internet.</t>
 		<h>O Pepper pode ainda aprender novas funções através da sua conexão permanente com a internet.</h>
 	</pair>
@@ -1976,7 +1976,7 @@
 		<t>Segundo o ministro, Renato Janine, o programa de financiamento estudantil é uma alternativa aos mais pobres.</t>
 		<h>As mudanças foram anunciadas pelo ministro da Educação, Renato Janine Ribeiro.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="495" similarity="4.75">
+	<pair entailment="Entailment" id="495" similarity="4.75">
 		<t>Vale lembrar que, ao que tudo indica, o VR Kit funcionará apenas com smartphones Lumia.</t>
 		<h>Até que se sabe, o VR Kit poderá ser usado somente com smartphones Lumia.</h>
 	</pair>
@@ -2228,7 +2228,7 @@
 		<t>Outro recuo de Sartori foi sobre período de vigência do aumento do ICMS.</t>
 		<h>Piaia votará contra o aumento do ICMS.</h>
 	</pair>
-	<pair entailment="Entailment" id="558" similarity="4.25">
+	<pair entailment="None" id="558" similarity="4.25">
 		<t>Neste ano, pela primeira vez, as vendas de smartphones no Brasil serão menores que no ano anterior.</t>
 		<h>O mercado brasileiro de smartphones teve queda nas vendas pela primeira vez na história.</h>
 	</pair>
@@ -2476,7 +2476,7 @@
 		<t>A segunda etapa começou com a troca de Rudinei por Tinga no Avaí.</t>
 		<h>Na etapa final, o Avaí voltou querendo a vitória.</h>
 	</pair>
-	<pair entailment="Entailment" id="620" similarity="3.75">
+	<pair entailment="None" id="620" similarity="3.75">
 		<t>A USP também teve quatro áreas de conhecimento entre as cem melhores do mundo, mas no quesito número de citações de seus estudos nenhuma uiversidade brasileira conseguiu ficar entre as 300 melhores do mundo.</t>
 		<h>Nenhuma universidade brasileira conseguiu ficar entre as 300 melhores do mundo quando é analisado o número de citações de estudos científicos realizados por elas.</h>
 	</pair>
@@ -2896,7 +2896,7 @@
 		<t>Pelo terceiro ano consecutivo, a Apple é a marca mais valiosa do mundo.</t>
 		<h>Apple e Google mais uma vez superaram o ranking anual da Interbrand das marcas mais valiosas do mundo.</h>
 	</pair>
-	<pair entailment="Entailment" id="725" similarity="3.75">
+	<pair entailment="None" id="725" similarity="3.75">
 		<t>Na sessão desta quarta, várias entidades se manifestaram contra e a favor da descriminalização.</t>
 		<h>Se manifestaram seis entidades a favor da descriminalização e outras cinco contra.</h>
 	</pair>
@@ -3036,7 +3036,7 @@
 		<t>Foi uma noite de recuperação na Vila Belmiro: em primeiro lugar, a volta por cima de Gabriel.</t>
 		<h>Gabriel marcou para o Peixe no primeiro minuto de jogo.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="760" similarity="3.5">
+	<pair entailment="Entailment" id="760" similarity="3.5">
 		<t>Novos usuários podem experimentar o Tidal gratuitamente por um mês.</t>
 		<h>Ainda há a possibilidade de se experimentar de maneira gratuita por um mês o Tidal.</h>
 	</pair>
@@ -4120,7 +4120,7 @@
 		<t>Há dois anos ele lutava contra um câncer no cérebro.</t>
 		<h>Lutava contra um tumor no cérebro há mais de um ano.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1031" similarity="5.0">
+	<pair entailment="Entailment" id="1031" similarity="5.0">
 		<t>Assim, para navegar pelo conteúdo, é preciso apenas girar o rosto.</t>
 		<h>Para navegar pelo conteúdo, basta girar o rosto.</h>
 	</pair>
@@ -4256,7 +4256,7 @@
 		<t>As apresentações fazem parte da turnê de divulgação do álbum V, lançado em setembro de 2014.</t>
 		<h>O grupo tocará músicas do álbum "V", lançado em agosto do ano passado.</h>
 	</pair>
-	<pair entailment="Entailment" id="1065" similarity="5.0">
+	<pair entailment="Paraphrase" id="1065" similarity="5.0">
 		<t>Estou sendo condenado sem haver qualquer evidência de que tenha feito algo errado.</t>
 		<h>Estou sendo condenado sem que exista qualquer evidência de má conduta da minha parte.</h>
 	</pair>
@@ -4540,7 +4540,7 @@
 		<t>O referendo deste domingo concentrará a atenção de economistas, investidores, políticos e cidadãos em todo o mundo.</t>
 		<h>Além disso, alguns já enxergam para além do referendo deste domingo.</h>
 	</pair>
-	<pair entailment="Entailment" id="1136" similarity="2.5">
+	<pair entailment="None" id="1136" similarity="2.5">
 		<t>A ASUS Brasil entrou no mercado de smartphones brasileiro em outubro de 2014.</t>
 		<h>Dois novos smartphones da Asus estão chegando ao mercado brasileiro.</h>
 	</pair>
@@ -4576,7 +4576,7 @@
 		<t>A chanceler do México exigiu do embaixador do Egito no país uma investigação e explicação do incidente.</t>
 		<h>Governo do México exige investigação sobre o ocorrido.</h>
 	</pair>
-	<pair entailment="Entailment" id="1145" similarity="3.75">
+	<pair entailment="None" id="1145" similarity="3.75">
 		<t>Segundo o prefeito Nutter, o maquinista já deu seu depoimento à polícia.</t>
 		<h>Ferido no acidente, o maquinista forneceu à Polícia o depoimento ocorrido.</h>
 	</pair>
@@ -4748,7 +4748,7 @@
 		<t>A ação está relacionada a um único conselheiro do Conselho Administrativo de Recursos Fiscais (Carf).</t>
 		<h>As irregularidades no Conselho Administrativo de Recursos Fiscais (Carf) estão sendo investigadas desde 2013.</h>
 	</pair>
-	<pair entailment="Entailment" id="1188" similarity="4.75">
+	<pair entailment="Paraphrase" id="1188" similarity="4.75">
 		<t>Paulinho vem recuperando o seu espaço no Flamengo após a chegada de Oswaldo de Oliveira.</t>
 		<h>Desde a chegada de Oswaldo de Oliveira o atacante Paulinho voltou a viver boa fase no Flamengo.</h>
 	</pair>
@@ -6088,7 +6088,7 @@
 		<t>Na próxima semana, a CPI irá receber alguns presidentes de federações espalhadas pelo país.</t>
 		<h>Na próxima semana, a CPI realiza audiência pública com presidentes de federações de futebol.</h>
 	</pair>
-	<pair entailment="Entailment" id="1523" similarity="2.25">
+	<pair entailment="None" id="1523" similarity="2.25">
 		<t>Lá, eles entregaram o PLOA ao senador Renan Calheiros.</t>
 		<h>Eles foram recebidos pelo presidente do Senado, Renan Calheiros.</h>
 	</pair>
@@ -6188,7 +6188,7 @@
 		<t>Depois de arguir Janot, Collor deixou a sabatina e o clima no local foi de calmaria.</t>
 		<h>Collor voltou a utilizar a tribuna do Senado para protestar contra Rodrigo Janot.</h>
 	</pair>
-	<pair entailment="None" id="1548" similarity="3.75">
+	<pair entailment="Entailment" id="1548" similarity="3.75">
 		<t>Desde o início de junho, oito pessoas morreram na tentativa de acessar o túnel.</t>
 		<h>Desde o início de junho, 10 pessoas morreram no local.</h>
 	</pair>
@@ -6260,7 +6260,7 @@
 		<t>Com o atraso no pagamento, R$ 8 bilhões ficam para o ano que vem.</t>
 		<h>A mudança fará o governo economizar R$ 9 bilhões neste ano.</h>
 	</pair>
-	<pair entailment="Entailment" id="1566" similarity="2.5">
+	<pair entailment="None" id="1566" similarity="2.5">
 		<t>Testemunhas estimam que de 400 a 700 pessoas poderiam estar a bordo da embarcação no momento do naufrágio.</t>
 		<h>Cerca de 400 pessoas já teriam sido resgatadas.</h>
 	</pair>
@@ -6540,7 +6540,7 @@
 		<t>A primeira missa será celebrada às 7h.</t>
 		<h>Às 7h, aconteceu uma missa para as crianças.</h>
 	</pair>
-	<pair entailment="None" id="1636" similarity="4.25">
+	<pair entailment="Entailment" id="1636" similarity="4.25">
 		<t>O novo vínculo foi homologado nesta quinta-feira e já consta no Boletim Informativo Diário, da CBF.</t>
 		<h>O novo contrato já foi validado pelo Boletim Informativo Diário (BID) da CBF.</h>
 	</pair>
@@ -6552,7 +6552,7 @@
 		<t>Na zaga, Matheus Ferraz reaparece depois de cumprir suspensão no posto de Ewerton Páscoa.</t>
 		<h>A boa notícia fica por conta do retorno de Matheus Ferraz, que assume o lugar de Ewerton Páscoa, depois de cumprir suspensão.</h>
 	</pair>
-	<pair entailment="Entailment" id="1639" similarity="3.25">
+	<pair entailment="None" id="1639" similarity="3.25">
 		<t>A bandeira dos EUA já havia sido hasteada em Cuba numa situação muito diferente.</t>
 		<h>Foi hasteada a bandeira dos Estados Unidos na embaixada americana em Cuba.</h>
 	</pair>
@@ -6884,7 +6884,7 @@
 		<t>A UE não confirmou quem estava na lista, nem a embaixada da Rússia na UE.</t>
 		<h>A UE e Estados membros questionaram repetidamente Moscou sobre a lista.</h>
 	</pair>
-	<pair entailment="None" id="1722" similarity="2.75">
+	<pair entailment="Entailment" id="1722" similarity="2.75">
 		<t>Gabriel Jesus caiu nas graças da torcida palmeirense.</t>
 		<h>Gabriel Jesus fez a alegria de um pequeno palmeirense.</h>
 	</pair>
@@ -7032,7 +7032,7 @@
 		<t>Caso o Google queira recorrer, terá de apresentar recursos no Superior Tribunal de Justiça e no Supremo Tribunal Federal.</t>
 		<h>A empresa poderá recorrer no Superior Tribunal de Justiça.</h>
 	</pair>
-	<pair entailment="Entailment" id="1759" similarity="3.5">
+	<pair entailment="None" id="1759" similarity="3.5">
 		<t>Os líderes falaram com a imprensa após reunião de coordenação política com a presidente Dilma Rousseff.</t>
 		<h>O vice-presidente concedeu entrevista após reunião da coordenação política com a presidente Dilma Rousseff.</h>
 	</pair>
@@ -7876,7 +7876,7 @@
 		<t>Os investigadores da Lava Jato não concordam com a devolução dos veículos.</t>
 		<h>Os investigadores da Lava Jato ainda estão apurando as informações.</h>
 	</pair>
-	<pair entailment="None" id="1970" similarity="4.25">
+	<pair entailment="Entailment" id="1970" similarity="4.25">
 		<t>O mercado possuiu alguns nomes importantes que vamos analisar com calma a partir de agora.</t>
 		<h>O mercado possui, em disponibilidade, alguns nomes importantes que serão contactados.</h>
 	</pair>

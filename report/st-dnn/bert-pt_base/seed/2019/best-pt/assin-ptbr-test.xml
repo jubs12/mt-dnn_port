@@ -8,7 +8,7 @@
 		<t>Alguns dos novos participantes serão revelados no programa Xuxa Meneghel, que vai ao ar na segunda-feira.</t>
 		<h>Parte dos participantes será anunciada no Programa Xuxa Meneghel.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="3" similarity="4.5">
+	<pair entailment="None" id="3" similarity="4.5">
 		<t>Nesta terça, o Inter revelou que o gringo sofre com uma hérnia de disco.</t>
 		<h>Nesta terça-feira, o departamento médico do clube gaúcho informou que o argentino está com hérnia de disco.</h>
 	</pair>
@@ -124,7 +124,7 @@
 		<t>Neste ano, Ricci apitou duas partidas do Grêmio, em ambas o Tricolor saiu vencedor.</t>
 		<h>Curiosamente, apesar do temor de Bolzan, Ricci apitou duas partidas em que o Grêmio saiu vencedor.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="32" similarity="5.0">
+	<pair entailment="Entailment" id="32" similarity="5.0">
 		<t>Esta proposta aborda o aumento persistente dos gastos ao longo dos anos.</t>
 		<h>Essa proposta trata do aumento persistente em despesas ao longo dos anos.</h>
 	</pair>
@@ -324,7 +324,7 @@
 		<t>Ainda sobre os refugiados, a presidente ainda destacou a postura do país relacionada de acolhimento.</t>
 		<h>Dilma ainda destacou que o Brasil está de braços abertos para receber refugiados.</h>
 	</pair>
-	<pair entailment="None" id="82" similarity="3.75">
+	<pair entailment="Entailment" id="82" similarity="3.75">
 		<t>Segundo da PRF, o grupo é suspeito de praticar assaltos na região onde foram presos.</t>
 		<h>A quadrilha, formada por 3 homens, é suspeita de praticar assaltos na região onde foram presos.</h>
 	</pair>
@@ -412,7 +412,7 @@
 		<t>A Xiaomi apresentou, nesta terça-feira, 22, o Mi 4c, seu mais novo smartphone.</t>
 		<h>Por esse preço, o Xiaomi Mi 4c oferece praticamente tudo que você precisa em um smartphone.</h>
 	</pair>
-	<pair entailment="None" id="104" similarity="1.75">
+	<pair entailment="Entailment" id="104" similarity="1.75">
 		<t>A Apple não estava imediatamente disponível para comentários.</t>
 		<h>Os comentários serão publicados após análise.</h>
 	</pair>
@@ -508,7 +508,7 @@
 		<t>Ele disse que um outro colaborador da Lava Jato vai esclarecer o assunto.</t>
 		<h>Os dois estão entre os principais delatores da Operação Lava Jato.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="128" similarity="4.0">
+	<pair entailment="Entailment" id="128" similarity="4.0">
 		<t>Lady Gaga irá apresentar uma das categorias do próximo Emmy Awards.</t>
 		<h>Lady Gaga estará presente no próximo Emmy Awards como apresentadora.</h>
 	</pair>
@@ -536,7 +536,7 @@
 		<t>Com look ousado, Rihanna tropeça ao entrar em van e deixa bumbum à mostra.</t>
 		<h>Rihanna escolhe look ousado e tropeça em seu próprio vestido ao entrar em van.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="135" similarity="5.0">
+	<pair entailment="Entailment" id="135" similarity="5.0">
 		<t>Ele falou que estava à disposição, então o trouxemos para cá.</t>
 		<h>Ele disse que estava à disposição e por isso o trouxemos para cá.</h>
 	</pair>
@@ -596,7 +596,7 @@
 		<t>Para o técnico Eduardo Baptista, o time jogou bem, mas o empate acabou ficando de bom tamanho.</t>
 		<h>Em 12 jogos longe de Pernambuco, os comandados de Eduardo Baptista empataram oito e perderam quatro.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="150" similarity="4.25">
+	<pair entailment="Entailment" id="150" similarity="4.25">
 		<t>O anúncio foi feito após a reunião na capital alemã com seu colega Frank-Walter Steinmeier, ministro de Exterior da Alemanha.</t>
 		<h>A declaração foi dada após conversas com o ministro de Exterior da Alemanha, Frank-Walter Steinmeier.</h>
 	</pair>
@@ -612,7 +612,7 @@
 		<t>Rihanna divulgou o título do seu próximo disco, "Anti", e revelou a capa do álbum.</t>
 		<h>Finalmente Rihanna mostrou ao mundo seu mais novo álbum.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="154" similarity="5.0">
+	<pair entailment="Entailment" id="154" similarity="5.0">
 		<t>Nunca antes um pontífice havia ido ao plenário das Casa Legislativas dos Estados Unidos.</t>
 		<h>Ele será o primeiro papa no plenário da Casa Legislativa dos Estados Unidos.</h>
 	</pair>
@@ -1168,7 +1168,7 @@
 		<t>Segundo o site "Deadline", sua primeira aparição será no sexto episódio, programado para janeiro.</t>
 		<h>Sua primeira aparição está prevista para o sexto episódio.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="293" similarity="3.5">
+	<pair entailment="None" id="293" similarity="3.5">
 		<t>Outros 6845 bilhetes acertam a quadra e levaram R$ 440,56.</t>
 		<h>Outros 21.476 bilhetes fizeram a quadra e vão levar R$ 440,56.</h>
 	</pair>
@@ -1176,7 +1176,7 @@
 		<t>Aposentados e pensionistas, em sua maioria, receberão 50% do valor.</t>
 		<h>Têm direito à gratificação os aposentados, pensionistas e quem está recebendo auxílio-doença.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="295" similarity="3.75">
+	<pair entailment="Entailment" id="295" similarity="3.75">
 		<t>O ator foi a sensação no show dos Hollywood Vampires no Rock in Rio nesta noite de quinta-feira.</t>
 		<h>Ator toca no Rock in Rio com a banda The Hollywood Vampires nesta noite de quinta-feira.</h>
 	</pair>
@@ -1560,7 +1560,7 @@
 		<t>Minha mãe raspou a perna na altura do fêmur e o braço, há suspeita de fratura.</t>
 		<h>Uma mulher quebrou o braço e outra vítima fraturou a perna.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="391" similarity="5.0">
+	<pair entailment="Entailment" id="391" similarity="5.0">
 		<t>Os ingressos custam entre R$ 100 e R$ 650.</t>
 		<h>Os preços dos ingressos variam entre R$ 100 e R$ 650.</h>
 	</pair>
@@ -1740,7 +1740,7 @@
 		<t>No caso deste projeto já estava no roteiro da diretora Nancy Meyers.</t>
 		<h>A diretora norte-americana Nancy Meyers é craque nas comédias românticas.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="436" similarity="4.25">
+	<pair entailment="Entailment" id="436" similarity="4.25">
 		<t>Ainda no meio-campo, Alex substituti D'Ale e o treinador deve proteger sua zaga com três volantes.</t>
 		<h>No meio-campo, Alex substituti D'Ale e o treinador vai mandar a campo três volantes.</h>
 	</pair>
@@ -1888,7 +1888,7 @@
 		<t>Assim, o primeiro semestre fechou com superávit comercial de US$ 2,222 bilhões.</t>
 		<h>A balança comercial brasileira registrou em junho um superávit de US$ 4,527 bilhões.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="473" similarity="2.75">
+	<pair entailment="Entailment" id="473" similarity="2.75">
 		<t>De acordo com o Hollywood Reporter, a Sony Pictures está desenvolvendo um novo filme de Homens de Preto.</t>
 		<h>Segundo o Hollywood Reporter, uma nova trilogia está sendo desenvolvida pela Sony Pictures.</h>
 	</pair>
@@ -2024,7 +2024,7 @@
 		<t>A cantora Gaby Amarantos falou pela primeira vez após a morte da mãe, Elza dos Santos.</t>
 		<h>A cantora Gaby Amarantos publicou um longo texto em sua fanpage sobre a morte de sua mãe, Elza.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="507" similarity="4.75">
+	<pair entailment="Entailment" id="507" similarity="4.75">
 		<t>Sophia Abrahão abandonou os fios ruivos claros e agora exibe cabelos num tom mais escuro, quase vinho.</t>
 		<h>A atriz e cantora Sophia Abrahão trocou o tom ruivo que vinha exibindo por um vermelho mais escuro, quase vinho.</h>
 	</pair>
@@ -2032,7 +2032,7 @@
 		<t>A presidente defendeu que a Justiça, o Ministério Público e a Polícia Federal investiguem a delação de Pessoa.</t>
 		<h>Mas defendeu que tudo seja investigado, inclusive as denúncias que constam da delação.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="509" similarity="3.0">
+	<pair entailment="Entailment" id="509" similarity="3.0">
 		<t>Larry Page, atual presidente-executivo do Google, se tornará o CEO da Alphabet.</t>
 		<h>Larry Page, cofundador do Google, deixará o cargo de CEO.</h>
 	</pair>
@@ -2480,7 +2480,7 @@
 		<t>A USP também teve quatro áreas de conhecimento entre as cem melhores do mundo, mas no quesito número de citações de seus estudos nenhuma uiversidade brasileira conseguiu ficar entre as 300 melhores do mundo.</t>
 		<h>Nenhuma universidade brasileira conseguiu ficar entre as 300 melhores do mundo quando é analisado o número de citações de estudos científicos realizados por elas.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="621" similarity="4.25">
+	<pair entailment="Entailment" id="621" similarity="4.25">
 		<t>Promotoria envia primeira acusação formal contra empresários das duas empresas investigadas na Lava Jato.</t>
 		<h>Esta é a primeira acusação formal contra executivos dessas duas empresas, investigadas na Operação Lava Jato.</h>
 	</pair>
@@ -2572,7 +2572,7 @@
 		<t>Em Salvador, na rede particular, cada dose pode custar de R$ 200 a R$ 500.</t>
 		<h>Na rede privada, cada dose da vacina pode custar de R$ 600,00 a R$ 900,00.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="644" similarity="4.75">
+	<pair entailment="Entailment" id="644" similarity="4.75">
 		<t>Ele pode ser mergulhado a até um metro de profundidade por até meia hora.</t>
 		<h>Ele pode ficar mergulhado até 1 metro por cerca de 30 minutos.</h>
 	</pair>
@@ -2684,7 +2684,7 @@
 		<t>Nesta sexta-feira foi anunciado o falecimento do piloto Jules Bianchi.</t>
 		<h>O piloto francês de fórmula um Jules Bianchi morreu este sábado.</h>
 	</pair>
-	<pair entailment="Entailment" id="672" similarity="3.25">
+	<pair entailment="None" id="672" similarity="3.25">
 		<t>O caso foi defendido pelo advogado Marcos Motta na quinta-feira, data marcada para o julgamento do recurso.</t>
 		<h>Contratado pela entidade, o advogado Marcos Motta apresentou a defesa na última quinta-feira.</h>
 	</pair>
@@ -3844,7 +3844,7 @@
 		<t>A quadra teve 53 acertadores, que ganharão o prêmio individual de R$ 7.782,07.</t>
 		<h>Fizeram a Quadra 81 apostadores e cada um receberá o prêmio de R$ 7.341,07.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="962" similarity="3.5">
+	<pair entailment="Entailment" id="962" similarity="3.5">
 		<t>O governo anunciou R$ 64,9 bilhões de corte de gastos e aumento de receita.</t>
 		<h>Ao todo, R$ 64,9 bilhões seja em redução de despesas, seja no aumento de receitas.</h>
 	</pair>
@@ -4532,7 +4532,7 @@
 		<t>O próximo jogo da Ponte Preta é no dia 14, na capital paulista, contra o Palmeiras no Palestra Itália.</t>
 		<h>A Ponte Preta enfrenta o Palmeiras no Palestra Itália.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1134" similarity="4.0">
+	<pair entailment="None" id="1134" similarity="4.0">
 		<t>A menina morreu na madrugada desta segunda-feira (14) em Miami.</t>
 		<h>A criança morreu na madrugada desta segunda-feira, 14, no Hospital Jackson Memorial Medical após parada cardíaca.</h>
 	</pair>
@@ -4832,7 +4832,7 @@
 		<t>Street Fighter V terá versões de PC e PS4, e chega às prateleiras físicas e virtuais em 2016.</t>
 		<h>Street Fighter 5 será lançado em 2016 apenas para PS4 e PC.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1209" similarity="5.0">
+	<pair entailment="Entailment" id="1209" similarity="5.0">
 		<t>A presidente informou que até quarta-feira da próxima semana, o governo apresentará a proposta de reforma administrativa.</t>
 		<h>A presidente disse ainda que a reforma administrativa será divulgada até a quarta-feira da próxima semana.</h>
 	</pair>
@@ -5172,7 +5172,7 @@
 		<t>Entre os hits que Queen e Adam Lambert cantaram estão Another One Bites The Dust.</t>
 		<h>Uma das música que balançou ainda mais a cidade do Rock foi a Another One Bite The Dust.</h>
 	</pair>
-	<pair entailment="None" id="1294" similarity="4.75">
+	<pair entailment="Entailment" id="1294" similarity="4.75">
 		<t>A nossa missão na Microsoft é empoderar pessoas e organizações para que continuem melhorando.</t>
 		<h>A missão da Microsoft é dar poder a cada pessoa ou organização no mundo para atingir mais objetivos.</h>
 	</pair>
@@ -5284,7 +5284,7 @@
 		<t>A defesa de Pimentel entrou com recurso e o processo está atualmente no Tribunal Superior Eleitoral (TSE).</t>
 		<h>Ainda não há decisão do TSE quanto ao recurso da defesa.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1322" similarity="4.0">
+	<pair entailment="Entailment" id="1322" similarity="4.0">
 		<t>O time treinado por Rafa Benítez assumiu uma postura covarde no segundo tempo e apenas se defendeu.</t>
 		<h>O time voltou do intervalo com uma postura covarde e passou a apenas se defender.</h>
 	</pair>
@@ -5364,7 +5364,7 @@
 		<t>É apenas a constatação de que teremos duas luas cheias acontecendo num mesmo mês.</t>
 		<h>O evento acontece quando ocorrem duas luas cheias no mesmo mês.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1342" similarity="4.25">
+	<pair entailment="Entailment" id="1342" similarity="4.25">
 		<t>Um dos dirigentes, Jeffrey Webb, aceitou de forma voluntária ser extraditado aos Estados Unidos.</t>
 		<h>Jeffrey Webb, ex-vice-presidente da Fifa, pediu para ser extraditado aos EUA.</h>
 	</pair>
@@ -5556,7 +5556,7 @@
 		<t>A sequência foi ao ar na noite de terça-feira (22) e bombou nas redes sociais.</t>
 		<h>Muitos internautas elogiaram a cena e a interpretação da atriz nas redes sociais.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1390" similarity="4.25">
+	<pair entailment="Entailment" id="1390" similarity="4.25">
 		<t>Depois dessa fase, os ingressos restantes serão vendidos pela internet de dezembro de 2015 a setembro de 2016.</t>
 		<h>Os ingressos restantes serão vendidos no site de dezembro, de 2015, até setembro de 2016.</h>
 	</pair>
@@ -5808,7 +5808,7 @@
 		<t>Para o próximo ano, a previsão ficou em déficit de US$ 67,60 bilhões.</t>
 		<h>E a expectativa para 2016 ficou em US$ 65 bilhões.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1453" similarity="2.75">
+	<pair entailment="Entailment" id="1453" similarity="2.75">
 		<t>Muitos de nós acreditam em extraterrestres e que eles podem estar tentando se comunicar conosco.</t>
 		<h>Isso não quer dizer, porém, que seres extraterrestres estão tentando se comunicar conosco neste exato momento.</h>
 	</pair>
@@ -5840,7 +5840,7 @@
 		<t>Uma instabilidade deixou o Facebook fora do ar na tarde desta quinta-feira (24).</t>
 		<h>O Facebook enfrentou instabilidade nesta quinta-feira, 24.</h>
 	</pair>
-	<pair entailment="None" id="1461" similarity="2.0">
+	<pair entailment="Entailment" id="1461" similarity="2.0">
 		<t>Mas não pense que você vai poder dar Super Likes em várias pessoas.</t>
 		<h>O 'Super Like' é como ir até uma pessoa e dizer 'oi'.</h>
 	</pair>
@@ -6352,7 +6352,7 @@
 		<t>Com dores no músculo da coxa, o argentino Lisandro López se tornou mais uma baixa para o treinador.</t>
 		<h>Lisandro López acusou dores musculares na coxa esquerda.</h>
 	</pair>
-	<pair entailment="None" id="1589" similarity="2.25">
+	<pair entailment="Entailment" id="1589" similarity="2.25">
 		<t>Ela terá diversas informações práticas para o usuário.</t>
 		<h>Assim, tudo fica mais simples e prático.</h>
 	</pair>
@@ -6428,7 +6428,7 @@
 		<t>Logo que deu entrada no hospital, ele morreu com traumatismo craniano encefálico, seguido de parada cardiorrespiratória.</t>
 		<h>Pradebom ficou bastante ferido no acidente e apresenta Traumatismo Craniano Encefálico (TCE).</h>
 	</pair>
-	<pair entailment="None" id="1608" similarity="3.5">
+	<pair entailment="Entailment" id="1608" similarity="3.5">
 		<t>Jimmy Carter foi o 39º presidente norte-americano, tendo ocupado o cargo entre 1977 e 1981.</t>
 		<h>Depois de deixar a Casa Branca em 1981, Jimmy Carter permaneceu ativo.</h>
 	</pair>
@@ -6640,7 +6640,7 @@
 		<t>O índice de tecnologia Nasdaq recuou 3,52 por cento, a 4.706 pontos.</t>
 		<h>O S&amp;P 500 recuou 2,11 por cento, a 2.035 pontos.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1661" similarity="3.5">
+	<pair entailment="Entailment" id="1661" similarity="3.5">
 		<t>Outro fenômeno como este só está previsto para acontecer novamente em 2033.</t>
 		<h>Os dois fenômenos naturais só voltarão a acontecer juntos em 2033.</h>
 	</pair>
@@ -6652,7 +6652,7 @@
 		<t>A PF diz ainda que os valores foram recebidos por "empresas de fachada".</t>
 		<h>Os pagamentos ocorriam por meio de empresas de fachada, conforme a PF.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1664" similarity="5.0">
+	<pair entailment="Entailment" id="1664" similarity="5.0">
 		<t>Aquela região tem sido palco de intensas lutas nos últimos dias.</t>
 		<h>A área tem sido cena de uma intensa batalha nos últimos dias.</h>
 	</pair>
@@ -6696,7 +6696,7 @@
 		<t>Estamos monitorando de perto a situação e prontos para ajudar a Grécia, se solicitado.</t>
 		<h>Segundo ela, o FMI está pronto para ajudar o país se for solicitado.</h>
 	</pair>
-	<pair entailment="None" id="1675" similarity="2.75">
+	<pair entailment="Entailment" id="1675" similarity="2.75">
 		<t>Coincidência entre superlua e eclipse só vai se repetir em 2033.</t>
 		<h>Superlua e eclipse total ocorrem ao mesmo tempo.</h>
 	</pair>
@@ -6868,7 +6868,7 @@
 		<t>O que era para ser uma atividade de apenas uma semana, acabou virando um projeto de longo prazo.</t>
 		<h>É um projeto que já acabou porque eu senti que curei.</h>
 	</pair>
-	<pair entailment="None" id="1718" similarity="4.5">
+	<pair entailment="Entailment" id="1718" similarity="4.5">
 		<t>Já Darlan Romani levou medalha de ouro no arremesso de peso com a marca de 20,08 metros.</t>
 		<h>Na prova do arremesso de peso, Darlan Romani superou seus rivais ao atingir a marca de 20,08m</h>
 	</pair>
@@ -6920,7 +6920,7 @@
 		<t>Daniel Ricciardo, da Red Bull, e Kimi Raikkonen, da Ferrari, completaram o pódio.</t>
 		<h>Kimi Raikkonen, da Ferrari, e Daniil Kvyat, da Red Bull, integram o grupo dos quatro primeiros.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1731" similarity="4.0">
+	<pair entailment="Entailment" id="1731" similarity="4.0">
 		<t>Outros três funcionários da obra ficaram feridos, e um continua internado, com fratura no ombro.</t>
 		<h>Outros três funcionários da obra ficaram feridos durante o ocorrido, um segue internado.</h>
 	</pair>
@@ -7100,7 +7100,7 @@
 		<t>Kátia Abreu participa de missão brasileira na Rússia, jutamente com a presidenta Dilma Rousseff.</t>
 		<h>Kátia Abreu participa de missão brasileira na Rússia desde ontem (7).</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1776" similarity="4.0">
+	<pair entailment="Entailment" id="1776" similarity="4.0">
 		<t>Pizzolato fugiu em 2013, usando o passaporte falso de um irmão morto há mais de 30 anos e ficou foragido na Itália.</t>
 		<h>Um passaporte falso de um irmão morto há mais de 30 anos foi usado por Pizzolato durante o tempo que ficou foragido na Itália.</h>
 	</pair>
@@ -7144,7 +7144,7 @@
 		<t>A sanção da regulamentação da PEC das Domésticas será publicada no Diário Oficial desta terça-feira (2).</t>
 		<h>A lei está publicada no Diário Oficial da União desta terça-feira (02).</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1787" similarity="5.0">
+	<pair entailment="Entailment" id="1787" similarity="5.0">
 		<t>Morreu nesta quinta-feira (17) no Rio de Janeiro o diretor de cinema e televisão José Carlos Aranha Manga, 87.</t>
 		<h>Morreu na quinta (17) no Rio de Janeiro, aos 87 anos, o diretor de cinema e televisão Carlos Manga.</h>
 	</pair>
@@ -7472,7 +7472,7 @@
 		<t>O crédito bancário estará disponível no dia 17 deste mês.</t>
 		<h>O crédito da restituição será feito no dia 17 de agosto.</h>
 	</pair>
-	<pair entailment="None" id="1869" similarity="4.0">
+	<pair entailment="Entailment" id="1869" similarity="4.0">
 		<t>O sorteio foi realizado no Caminhão da Sorte em ITAOCARA (RJ).</t>
 		<h>O sorteio foi realizado em Itaocara, interior do Rio de Janeiro.</h>
 	</pair>

@@ -24,7 +24,7 @@
 		<t>John Lennon nasceu em 9 de outubro de 1940 em Liverpool (Reino Unido).</t>
 		<h>Hoje, dia 9 de outubro, John Lennon estaria completando 75 anos.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="7" similarity="4.0">
+	<pair entailment="Entailment" id="7" similarity="4.0">
 		<t>Segundo Lagarde, esse fenômeno deverá levar o FMI a revisar para baixo a previsão de crescimento.</t>
 		<h>Esse fenômeno deve levar o FMI a revisar para baixo as projeções de crescimento.</h>
 	</pair>
@@ -476,7 +476,7 @@
 		<t>Apesar da preocupação, ele deve pegar o Flamengo, domingo, no Independência.</t>
 		<h>O argentino foi poupado, mas não preocupa para a partida desde domingo.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="120" similarity="3.75">
+	<pair entailment="Entailment" id="120" similarity="3.75">
 		<t>Quanto mais pro Norte, maior a temperatura e o calor e quanto mais pro Sul gaúcho, menor a temperatura e mais ameno o dia.</t>
 		<h>Quanto mais pro Sul gaúcho, menor a temperatura e mais ameno o dia.</h>
 	</pair>
@@ -780,7 +780,7 @@
 		<t>Ninguém gosta de sair da Vila Belmiro.</t>
 		<h>Aquela partida da Vila Belmiro foi muito bem disputada.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="196" similarity="3.75">
+	<pair entailment="Entailment" id="196" similarity="3.75">
 		<t>Dos 51 vereadores, 48 estavam presentes e um total surpreendente de 42 votaram a favor da proibição.</t>
 		<h>Dos 48 vereadores presentes, 43 votaram a favor e apenas 1 contra.</h>
 	</pair>
@@ -1084,7 +1084,7 @@
 		<t>Mel exige que Vavá se separe de Janete.</t>
 		<h>Vavá anuncia que quer se separar de Janete.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="272" similarity="2.25">
+	<pair entailment="None" id="272" similarity="2.25">
 		<t>Tem 12 vitórias, cinco empates e quatro derrotas na temporada.</t>
 		<h>Está com 13 vitórias, seis empates e duas derrotas no ano.</h>
 	</pair>
@@ -1116,7 +1116,7 @@
 		<t>Levy disse ainda que é importante o orçamento federal ter superávit, ou seja, receitas maiores do que despesas.</t>
 		<h>Levy ressaltou a importância do orçamento federal ser superavitário.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="280" similarity="4.75">
+	<pair entailment="Entailment" id="280" similarity="4.75">
 		<t>Mujica evitou comentar sobre eventual participação da presidente Dilma Rousseff em irregularidades.</t>
 		<h>Mujica não quis comentar a possibilidade de Dilma Rousseff estar implicada em malfeitos.</h>
 	</pair>
@@ -1152,7 +1152,7 @@
 		<t>Dos 37 blocos arrematados, 31 são em terra e dois no mar.</t>
 		<h>Na primeira licitação, dos 14 blocos oferecidos seis foram arrematados com cinco propostas.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="289" similarity="4.75">
+	<pair entailment="Entailment" id="289" similarity="4.75">
 		<t>Isso significa que, em um espaço planejado para dez pessoas, há em média hoje 16 presos.</t>
 		<h>Ou seja, a cada espaço concebido para dez detentos, estão 16.</h>
 	</pair>
@@ -2004,7 +2004,7 @@
 		<t>O ex-diretor da estatal será levado para a sede da Polícia Federal em Curitiba.</t>
 		<h>O ex-diretor de Internacional da estatal será trazido ainda hoje para Curitiba.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="502" similarity="4.75">
+	<pair entailment="None" id="502" similarity="4.75">
 		<t>Nas últimas 24 horas, mais de 3,3 mil imigrantes entraram na Hungria pela fronteira com a Sérvia.</t>
 		<h>Somente nas últimas 24 horas, mais de 3.225 imigrantes entraram na Hungria vindos da Sérvia.</h>
 	</pair>
@@ -2048,7 +2048,7 @@
 		<t>A jovem rasgará seu vestido de noiva e correrá para a boate.</t>
 		<h>Enquanto Tóia, revoltada, rasga seu vestido de noiva, está rolando uma perseguição policial.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="513" similarity="4.0">
+	<pair entailment="None" id="513" similarity="4.0">
 		<t>Os primeiros a experimentar os vídeos de perfil são donos de iPhones do Reino Unido e do estado da Califórnia (EUA).</t>
 		<h>Similar às chamadas Live Photos dos novos iPhones, os vídeos de perfil chegam primeiro aos usuários dos EUA e Reino Unido.</h>
 	</pair>
@@ -2144,7 +2144,7 @@
 		<t>Teve início nesta semana a segunda etapa da vacinação contra o Papiloma Vírus Humano (HPV).</t>
 		<h>A segunda dose da vacina contra o Papilomavírus Humano (HPV) já é distribuída em Juiz de Fora.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="537" similarity="4.75">
+	<pair entailment="Entailment" id="537" similarity="4.75">
 		<t>"Street Fighter V" tem lançamento previsto para PC e PS4 no começo de 2016.</t>
 		<h>Street Fighter V chega ao PC e PS4 no início de 2016.</h>
 	</pair>
@@ -2344,7 +2344,7 @@
 		<t>André, em um pênalti polêmico, converteu, aos 46 minutos do segundo tempo.</t>
 		<h>No fim, André sofreu e converteu um pênalti e decretou o empate.</h>
 	</pair>
-	<pair entailment="Entailment" id="587" similarity="3.5">
+	<pair entailment="None" id="587" similarity="3.5">
 		<t>Na madrugada desta quinta-feira, Gusttavo Lima mostrou que tem disposição em todos os horários.</t>
 		<h>Gusttavo Lima aproveitou a madrugada desta quinta-feira para se exercitar.</h>
 	</pair>
@@ -2560,7 +2560,7 @@
 		<t>Diogo Barbosa fez boa jogada pela esquerda e cruzou rasteiro para Bruno Henrique.</t>
 		<h>Aos 33 minutos, Diogo passou pela esquerda e cruzou para a área.</h>
 	</pair>
-	<pair entailment="Entailment" id="641" similarity="3.75">
+	<pair entailment="None" id="641" similarity="3.75">
 		<t>Estamos em um momento de inflação elevada e déficit primário, não é adequado medida de estímulo.</t>
 		<h>Estamos com inflação elevada e déficit primário.</h>
 	</pair>
@@ -2980,7 +2980,7 @@
 		<t>Depois disso, o treinador adiantou que vai tomar uma decisão.</t>
 		<h>Neste caso, a decisão sobre o treinador pode sair apenas em 2016.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="746" similarity="4.75">
+	<pair entailment="Entailment" id="746" similarity="4.75">
 		<t>Mas deve se levar em conta que existem incertezas do número real de celulares pelo planeta.</t>
 		<h>Ainda assim, existem incertezas sobre o número real de celulares circulando pelo planeta.</h>
 	</pair>
@@ -3052,7 +3052,7 @@
 		<t>Lambert surpreendeu cantando um sucesso seu, Ghost Town.</t>
 		<h>Você cantou “Ghost Town” pela primeira vez com o Queen.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="764" similarity="4.5">
+	<pair entailment="Entailment" id="764" similarity="4.5">
 		<t>Carlos Miguel Aidar colocará na terça-feira um ponto final em sua passagem como presidente do São Paulo.</t>
 		<h>Carlos Miguel Aidar vai renunciar da presidência do São Paulo na terça-feira.</h>
 	</pair>
@@ -3232,7 +3232,7 @@
 		<t>Uma mulher de 20 anos está em estado crítico após o ataque e uma criança foi levemente ferida.</t>
 		<h>Uma mulher também ficou gravemente ferida no ataque.</h>
 	</pair>
-	<pair entailment="Entailment" id="809" similarity="3.0">
+	<pair entailment="None" id="809" similarity="3.0">
 		<t>Mas fãs de Harry Potter não precisam perder as esperanças.</t>
 		<h>Fãs de Harry Potter nunca receberam suas cartinhas de Hogwarts.</h>
 	</pair>
@@ -3648,7 +3648,7 @@
 		<t>Steve Jobs acertou em cheio em 2010 quando disse que os consumidores não têm tempo para amadorismo.</t>
 		<h>O lançamento brasileiro de Steve Jobs está programado para 21 de janeiro de 2016.</h>
 	</pair>
-	<pair entailment="Entailment" id="913" similarity="3.5">
+	<pair entailment="None" id="913" similarity="3.5">
 		<t>As últimas semanas não estão sendo fáceis para os jogadores do Barcelona, mais um atleta é investigado por sonegação de impostos.</t>
 		<h>Os problemas dos jogadores do Barcelona com os impostos parecem não acabar.</h>
 	</pair>
@@ -4012,7 +4012,7 @@
 		<t>O Corinthians vai ficar até dois meses sem Rildo.</t>
 		<h>Rildo desfalcará o Corinthians por um período de até dois meses.</h>
 	</pair>
-	<pair entailment="Entailment" id="1004" similarity="4.0">
+	<pair entailment="None" id="1004" similarity="4.0">
 		<t>Com o acordo já estabelecido, a Renault deve confirmar nos próximos dias a compra e seu retorno à Fórmula 1.</t>
 		<h>O retorno da Renault à Fórmula 1 está cada vez mais próximo.</h>
 	</pair>
@@ -4060,7 +4060,7 @@
 		<t>Os candidatos e os partidos não vão mais poder contar com o financiamento das empresas.</t>
 		<h>O que se propõe é o financiamento de pessoas jurídicas a partidos políticos.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1016" similarity="3.75">
+	<pair entailment="None" id="1016" similarity="3.75">
 		<t>Pizzolato ainda poderá recorrer à Corte Europeia de Direitos Humanos, em Estrasburgo, na França.</t>
 		<h>A última medida que Pizzolato pode tentar é um recurso na Corte Europeia de Direitos Humanos.</h>
 	</pair>
@@ -4168,7 +4168,7 @@
 		<t>Segundo os profissionais, a sepse não é a infecção que está em todos os locais do organismo.</t>
 		<h>A sepse é uma síndrome caracterizada por resposta grave do organismo a uma infecção.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1043" similarity="4.25">
+	<pair entailment="Entailment" id="1043" similarity="4.25">
 		<t>O novo texto foi aprovado por 323 votos favoráveis, 155 contrários e duas abstenções.</t>
 		<h>A emenda terminou sendo aprovada por 323 votos favoráveis e 155 votos contrários.</h>
 	</pair>
@@ -4364,7 +4364,7 @@
 		<t>Jemma-Louise decidiu usar absorventes internos para continuar os treinos de natação durante o período menstrual.</t>
 		<h>A adolescente começou a usar absorventes internos para os treinos de natação, porém a ideia foi fatal.</h>
 	</pair>
-	<pair entailment="Entailment" id="1092" similarity="5.0">
+	<pair entailment="None" id="1092" similarity="5.0">
 		<t>Perdido em Marte tem estreia no Brasil prevista para o dia 01 de Outubro.</t>
 		<h>“Perdido em Marte” chega aos cinemas brasileiros no dia 1º de outubro.</h>
 	</pair>
@@ -4584,7 +4584,7 @@
 		<t>De acorco com a Secretaria de Saúde, a vacina está incorporada no Programa Municipal de Imunização desde 2010.</t>
 		<h>A confirmação é da enfermeira do setor de Imunização da secretaria municipal da Saúde, Carla Müller.</h>
 	</pair>
-	<pair entailment="Entailment" id="1147" similarity="3.0">
+	<pair entailment="None" id="1147" similarity="3.0">
 		<t>No entanto, as investidas ocorreram após uma onda de ataques atribuídos aos militantes do grupo Boko Haram.</t>
 		<h>A cidade já foi atingida por vários ataques atribuídos ao Boko Haram.</h>
 	</pair>
@@ -5248,7 +5248,7 @@
 		<t>Plutão é surpreendentemente parecido como a Terra nesta questão, e ninguém esperava isso.</t>
 		<h>Neste aspecto, Plutão é surpreendentemente parecido com a Terra.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1313" similarity="3.0">
+	<pair entailment="None" id="1313" similarity="3.0">
 		<t>A inclusão da China foi um fator importante para o aumento nas vendas, como aponta o The Verge.</t>
 		<h>Estes resultados são graças em grande parte à inclusão da China em suas vendas de abertura.</h>
 	</pair>
@@ -5336,7 +5336,7 @@
 		<t>Florence + The Machine já veio para dois festivais antes do Lolla.</t>
 		<h>A programação tem ainda Florence + the Machine, Tame Impala, Snoop Dogg e Mumford &amp; Sons.</h>
 	</pair>
-	<pair entailment="None" id="1335" similarity="3.75">
+	<pair entailment="Entailment" id="1335" similarity="3.75">
 		<t>Walisson e a droga apreendida foram encaminhados para o MPE/AL.</t>
 		<h>A droga e o acusado foram encaminhados para o Ministério Público.</h>
 	</pair>
@@ -5568,7 +5568,7 @@
 		<t>Durante a visita, a Alemanha se comprometeu a desembolsar 100 milhões de euros apenas para o Fundo Amazônia.</t>
 		<h>A Noruega desembolsou, desde 2008, um total de mais de US$ 900 milhões para o Fundo Amazônia.</h>
 	</pair>
-	<pair entailment="Entailment" id="1393" similarity="4.0">
+	<pair entailment="None" id="1393" similarity="4.0">
 		<t>O Programa Xuxa Meneghel na noite passada foi recheado de atrações, quando recebeu Sérgio Malandro.</t>
 		<h>A apresentadora Xuxa Meneghel recebeu Sérgio Malandro na noite passada em seu Programa na Rede Record.</h>
 	</pair>
@@ -6084,7 +6084,7 @@
 		<t>Lucas Pratto recebeu nessa semana a visita da família.</t>
 		<h>Foram sete partidas pelo Campeonato Brasileiro em que Lucas Pratto marcou gol.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1522" similarity="3.75">
+	<pair entailment="Entailment" id="1522" similarity="3.75">
 		<t>Na próxima semana, a CPI irá receber alguns presidentes de federações espalhadas pelo país.</t>
 		<h>Na próxima semana, a CPI realiza audiência pública com presidentes de federações de futebol.</h>
 	</pair>
@@ -6148,7 +6148,7 @@
 		<t>No Brasil, até agosto, 2,5 milhões de meninas de 9 a 11 anos foram vacinadas contra HPV.</t>
 		<h>O Estado de Alagoas dará início na segunda-feira (14) à segunda etapa da vacinação contra o HPV.</h>
 	</pair>
-	<pair entailment="Entailment" id="1538" similarity="3.0">
+	<pair entailment="None" id="1538" similarity="3.0">
 		<t>Para a Loteca, a aposta simples passa a ser de R$ 1 a partir de 18 de maio.</t>
 		<h>Os preços das loterias serão reajustados a partir de maio.</h>
 	</pair>
@@ -6880,7 +6880,7 @@
 		<t>A Câmara dos Deputados vai retomar esta semana as votações em segundo turno da reforma política.</t>
 		<h>Os deputados deverão retomar as votações dos temas aprovados em primeiro turno.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1721" similarity="3.0">
+	<pair entailment="None" id="1721" similarity="3.0">
 		<t>A UE não confirmou quem estava na lista, nem a embaixada da Rússia na UE.</t>
 		<h>A UE e Estados membros questionaram repetidamente Moscou sobre a lista.</h>
 	</pair>
@@ -7652,11 +7652,11 @@
 		<t>Com isso, o Fundo Amazônia estaria trabalhando dentro das principais bacias florestais tropicais do planeta.</t>
 		<h>Cerca de 30% das florestas tropicais que restam no planeta estão localizadas no país.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1914" similarity="5.0">
+	<pair entailment="Entailment" id="1914" similarity="5.0">
 		<t>A vacina contra o HPV consiste em três doses.</t>
 		<h>O esquema vacinal da vacina HPV é de 3 doses.</h>
 	</pair>
-	<pair entailment="Entailment" id="1915" similarity="4.0">
+	<pair entailment="None" id="1915" similarity="4.0">
 		<t>A ferramenta detecta automaticamente sua foto de perfil atual e aplica o filtro por cima.</t>
 		<h>A ferramenta aplica o filtro e faz a troca no perfil do usuário automaticamente.</h>
 	</pair>
@@ -7868,7 +7868,7 @@
 		<t>Na comparação com julho do ano passado, a queda foi de 3,6%, segundo o IBGE.</t>
 		<h>Na comparação com julho do ano passado, a receita teve leve alta de 0,2%.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1968" similarity="4.0">
+	<pair entailment="Entailment" id="1968" similarity="4.0">
 		<t>Um corpo decapitado foi encontrado próximo à fábrica de gás, ao lado de uma bandeira islâmica.</t>
 		<h>Próximo à fábrica foi encontrado um corpo decapitado e a cabeça continha inscrições.</h>
 	</pair>

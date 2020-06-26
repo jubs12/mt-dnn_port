@@ -212,7 +212,7 @@
 		<t>São notícias que são uma tentativa de desestabilização, porque não são verdade, não existem.</t>
 		<h>Não vou comentar, porque se fosse comentar até dava hipótese de isso ser verdade.</h>
 	</pair>
-	<pair entailment="Entailment" id="54" similarity="2.5">
+	<pair entailment="None" id="54" similarity="2.5">
 		<t>A tempestade tropical Alex, que entretanto passou a furacão, aproxima-se rapidamente dos Açores.</t>
 		<h>O furacão 'Alex' já passou a tempestade tropical e já se encontra a norte da Terceira.</h>
 	</pair>
@@ -276,7 +276,7 @@
 		<t>O presidente do Benfica pediu profundas desculpas a todos os adeptos e à direcção do Atlético de Madrid.</t>
 		<h>Já hoje, foi a vez do Atlético Madrid reagir às ocorrências, aceitando as desculpas.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="70" similarity="4.0">
+	<pair entailment="Entailment" id="70" similarity="4.0">
 		<t>A multinacional chinesa Ledman vai patrocinar a II Liga a partir da próxima temporada.</t>
 		<h>A II Liga já tem patrocinador: será a empresa multinacional chinesa Ledman.</h>
 	</pair>
@@ -424,7 +424,7 @@
 		<t>Foram colocados à venda esta sexta-feira os bilhetes para os concertos da cantora Adele em Portugal.</t>
 		<h>A venda de bilhetes para os concertos começou na sexta-feira.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="107" similarity="4.25">
+	<pair entailment="Entailment" id="107" similarity="4.25">
 		<t>A TAP irá concorrer com o comboio e os autocarros, assinala Fernando Pinto.</t>
 		<h>A ideia é competir com o comboio e o autocarro, reconheceu Fernando Pinto.</h>
 	</pair>
@@ -512,7 +512,7 @@
 		<t>Jenson Button e Jessica Michibata separaram-se antes de celebrar o seu primeiro aniversário de casamento.</t>
 		<h>Jenson Button e Jessica Michibata colocaram um ponto final no casamento.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="129" similarity="4.0">
+	<pair entailment="Entailment" id="129" similarity="4.0">
 		<t>A Web Summit ruma a Lisboa entre 7 e 10 de novembro.</t>
 		<h>Em Novembro, vai realizar-se a Web Summit em Lisboa.</h>
 	</pair>
@@ -996,7 +996,7 @@
 		<t>Narciso Miranda vê a pena suspensa se pagar os 35.700 euros que apossou.</t>
 		<h>A pena fica suspensa se Narciso Miranda pagar os 35.700 euros de que se apropriou indevidamente.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="250" similarity="5.0">
+	<pair entailment="Entailment" id="250" similarity="5.0">
 		<t>As Smart Replys vão ficar disponíveis esta semana na versão Android e iOS da aplicação Google Inbox.</t>
 		<h>O Smart Reply deverá chegar ao Google Inbox ainda esta semana, para Android e iOS.</h>
 	</pair>
@@ -1348,7 +1348,7 @@
 		<t>O modo de jogar de Cristiano Ronaldo tem vindo a mudar.</t>
 		<h>O jovem quer seguir os passos de Cristiano Ronaldo.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="338" similarity="4.0">
+	<pair entailment="Entailment" id="338" similarity="4.0">
 		<t>O Hamburgo quer Carlos Mané por empréstimo e com opção de compra no final da época.</t>
 		<h>O Hamburgo pagaria pelo empréstimo até ao final da temporada, ficando ainda com opção de compra.</h>
 	</pair>
@@ -1412,7 +1412,7 @@
 		<t>A escolha de Serena Williams como Personalidade Desportiva de 2015 pela Sports Illustrated indignou muitos fãs das corridas de cavalos.</t>
 		<h>A revista Sports Illustrated elegeu Serena Williams como a personalidade desportiva de 2015.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="354" similarity="4.0">
+	<pair entailment="Entailment" id="354" similarity="4.0">
 		<t>A notícia foi dada pelo diretor executivo do Facebook, Mark Zuckerberg, e mostra que a rede social é realmente gigante.</t>
 		<h>A notícia foi avançada pelo próprio Facebook e mostra que a rede social é realmente gigante.</h>
 	</pair>
@@ -1664,7 +1664,7 @@
 		<t>A empresária é também a segunda maior accionista do BPI.</t>
 		<h>Estes activos passarão a ser detidos não pelo BPI, mas pelos seus accionistas.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="417" similarity="5.0">
+	<pair entailment="Entailment" id="417" similarity="5.0">
 		<t>António Ventinhas recusou-se a comentar a decisão do CSMP.</t>
 		<h>António Ventinhas não quis fazer comentários sobre a decisão do CSMP.</h>
 	</pair>
@@ -1728,7 +1728,7 @@
 		<t>Contratado no último verão ao Real Madrid, Iker Casillas poderá estar de saída do FC Porto.</t>
 		<h>A passagem de Iker Casillas pelo futebol português e pelo FC Porto poderá durar apenas uma época.</h>
 	</pair>
-	<pair entailment="Entailment" id="433" similarity="3.25">
+	<pair entailment="None" id="433" similarity="3.25">
 		<t>Temos limitado a velocidade dos nossos protótipos de veículos em 40km/h por razões meramente de segurança.</t>
 		<h>Nós regulámos a velocidade do nosso protótipo para os 10 quilómetros por hora por motivos de segurança.</h>
 	</pair>
@@ -1924,7 +1924,7 @@
 		<t>Porque Lemmy, tal como o rock e as lendas, não pode morrer.</t>
 		<h>Porque, mesmo regadas a Jack Daniel’s, as lendas nunca morrem.</h>
 	</pair>
-	<pair entailment="Entailment" id="482" similarity="3.0">
+	<pair entailment="None" id="482" similarity="3.0">
 		<t>Chegam os primeiros dias de novembro, o outono é suspenso, o verão regressa.</t>
 		<h>Durante três dias, Deus esqueceu que era outono e o verão regressou.</h>
 	</pair>
@@ -1968,7 +1968,7 @@
 		<t>Um ataque bombista suicida em um edifício governamental no Paquistão matou pelo menos 29 pessoas.</t>
 		<h>Um bombista suicida invadiu um edifício governamental no Paquistão.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="493" similarity="4.75">
+	<pair entailment="Entailment" id="493" similarity="4.75">
 		<t>O Governo anunciou medidas para conter o défice e conseguir cumprir a meta de ficar abaixo dos 3%.</t>
 		<h>O Governo vai avançar com medidas para garantir a meta do défice abaixo dos 3% este ano.</h>
 	</pair>
@@ -2084,7 +2084,7 @@
 		<t>Para tablets iPad, a aplicação do ano é a The Robot Factory, um jogo de robôs para crianças.</t>
 		<h>Já a Robot Factory é uma aplicação pedagógica, que estimula as crianças a desenvolverem robôs.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="522" similarity="3.75">
+	<pair entailment="Entailment" id="522" similarity="3.75">
 		<t>O contrato inclui ainda a possibilidade de Stewart e HBO criarem juntos filmes ou séries de TV.</t>
 		<h>O contrato inclui também a possibilidade de em conjunto serem criados filmes ou séries de televisão.</h>
 	</pair>
@@ -2252,7 +2252,7 @@
 		<t>Aqui está um indício que o lançamento do Oculus Rift, um dispositivo de realidade virtual, está para breve</t>
 		<h>Os Oculus Rift são uma dos projetos de realidade virtual mais aguardados do mercado.</h>
 	</pair>
-	<pair entailment="Entailment" id="564" similarity="4.0">
+	<pair entailment="None" id="564" similarity="4.0">
 		<t>O craque do Real Madrid celebra o 31.º aniversário com festa discreta.</t>
 		<h>O craque do Real Madrid celebra uma data especial: o seu aniversário.</h>
 	</pair>
@@ -2392,7 +2392,7 @@
 		<t>Heidi festejou a data numa discoteca em Nova Iorque ao lado de caras bem conhecidas como Jennifer Lopez e Gigi Hadid.</t>
 		<h>Jennifer Lopez, Gigi Hadid e Nicole Scherzinger não quiseram faltar.</h>
 	</pair>
-	<pair entailment="Entailment" id="599" similarity="5.0">
+	<pair entailment="Paraphrase" id="599" similarity="5.0">
 		<t>Se o Monchi o conseguir contratar, será fantástico.</t>
 		<h>Se Monchi for capaz de contratá-lo, será realmente muito bom.</h>
 	</pair>
@@ -2616,7 +2616,7 @@
 		<t>Apresentador da BBC Terry Wogan morreu este domingo vítima de cancro.</t>
 		<h>Sir Terry Wogan morreu hoje após uma curta, mas corajosa batalha contra o cancro.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="655" similarity="3.5">
+	<pair entailment="None" id="655" similarity="3.5">
 		<t>A conferência de imprensa será transmitida em direto pela NASA TV.</t>
 		<h>A NASA anunciou uma conferência de imprensa especial para esta segunda-feira.</h>
 	</pair>
@@ -3184,11 +3184,11 @@
 		<t>José Pedro Gomes tem estado a promover a sua mais recente comédia, Nome Próprio.</t>
 		<h>O ator José Pedro Gomes está internado, em estado grave e com prognóstico reservado.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="797" similarity="4.0">
+	<pair entailment="Entailment" id="797" similarity="4.0">
 		<t>Esta não foi a primeira vez que um avião da Air India regressa à base por causa de ratos.</t>
 		<h>Este não é o primeiro relato da presença de um rato em um avião da Air India.</h>
 	</pair>
-	<pair entailment="None" id="798" similarity="4.0">
+	<pair entailment="Entailment" id="798" similarity="4.0">
 		<t>A reversão da privatização da TAP está a ser trabalhada.</t>
 		<h>Já se está a negociar a reversão da venda da TAP.</h>
 	</pair>
@@ -3244,7 +3244,7 @@
 		<t>O pedido foi recusado pelo embaixador de Portugal em Paris.</t>
 		<h>Augusto Santos Silva já comentou a polémica entre o cantor Tony Carreira e o embaixador de Portugal em Paris.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="812" similarity="3.25">
+	<pair entailment="None" id="812" similarity="3.25">
 		<t>Jess Glynne foi o seu sexto single, lançado em 2015, que atingiu o primeiro lugar dos tops.</t>
 		<h>Em 2015, lançou o sexto single a atingir o número 1 nos tops - Not Letting Go ft.</h>
 	</pair>
@@ -3388,7 +3388,7 @@
 		<t>Desde 2011 que a patente onde Carl Benz registou o Motorwagen faz parte do Registo da Memória do Mundo.</t>
 		<h>Carl Benz desenvolveu o primeiro automóvel do mundo em 1885.</h>
 	</pair>
-	<pair entailment="Entailment" id="848" similarity="4.0">
+	<pair entailment="None" id="848" similarity="4.0">
 		<t>O FC Porto renovou o contrato com o avançado colombiano Juan Quintero, até 2021.</t>
 		<h>O FC Porto confirmou nesta terça-feira a renovação com Juan Quintero.</h>
 	</pair>
@@ -3460,7 +3460,7 @@
 		<t>Os três grandes iniciam hoje a participação na Taça da Liga 2015-16.</t>
 		<h>Ele não se importa de perder todos os jogos na Taça da Liga.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="866" similarity="4.0">
+	<pair entailment="Entailment" id="866" similarity="4.0">
 		<t>Virgínia e o Kentucky registaram duas mortes cada e Maryland uma vítima mortal.</t>
 		<h>Os estados de Virgínia e Kentucky informaram sobre duas mortes cada um.</h>
 	</pair>
@@ -3700,7 +3700,7 @@
 		<t>A iniciativa é promovida pelo consórcio Centro Internet Segura em colaboração com a Fundação PT, refere informação divulgada pela Fundação .</t>
 		<h>O evento é organizado pelo consórcio Centro Internet Segura e conta com a colaboração da Fundação PT.</h>
 	</pair>
-	<pair entailment="Entailment" id="926" similarity="1.5">
+	<pair entailment="None" id="926" similarity="1.5">
 		<t>Estamos em contato próximo com a IAAF para saber mais sobre o seu processo de reforma.</t>
 		<h>Todos os patrocinadores e parceiros estão envolvidos em nosso processo de reforma.</h>
 	</pair>
@@ -3824,7 +3824,7 @@
 		<t>O PS elegeu este sábado Ana Catarina Mendes para o cargo de secretária-geral adjunta.</t>
 		<h>Ana Catarina Mendes foi eleita secretária-geral adjunta.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="957" similarity="4.25">
+	<pair entailment="Entailment" id="957" similarity="4.25">
 		<t>Almeida Santos foi presidente do PS desde 1992 - era atualmente presidente honorário.</t>
 		<h>Almeida Santos foi Presidente do PS e era agora Presidente Honorário.</h>
 	</pair>
@@ -3900,7 +3900,7 @@
 		<t>Em entrevista à Bein Sports, André Villas-Boas não considera voltar ao FC Porto, pelo menos para já.</t>
 		<h>André Villas-Boas descartou o regresso ao FC Porto.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="976" similarity="4.75">
+	<pair entailment="Entailment" id="976" similarity="4.75">
 		<t>Um hospital dinamarquês anunciou o primeiro caso de vírus Zika na Europa.</t>
 		<h>Foi confirmado na Dinamarca o primeiro caso de vírus Zika na Europa.</h>
 	</pair>
@@ -3920,7 +3920,7 @@
 		<t>Ministro das Finanças reuniu-se, esta terça-feira, com os comissários dos Assuntos Económicos e da Moeda Única.</t>
 		<h>O ministro das Finanças pediu um encontro com os comissários responsáveis pelo euro e supervisão económica e orçamental.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="981" similarity="4.0">
+	<pair entailment="Entailment" id="981" similarity="4.0">
 		<t>Bérard e a sua equipa seguiram 145.456 crianças desde a gestação até aos 10 anos.</t>
 		<h>Foram acompanhadas, desde a gestação até à idade de dez anos, 145.456 crianças.</h>
 	</pair>
@@ -4576,7 +4576,7 @@
 		<t>A OMS confirmou que até à data foram detetados casos do vírus em 25 países e territórios das Américas.</t>
 		<h>Entretanto, em Madrid foi detetado o primeiro caso de uma pessoa infetada com o vírus.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1145" similarity="4.75">
+	<pair entailment="Entailment" id="1145" similarity="4.75">
 		<t>Dani Osvaldo está ligado ao FC Porto até ao fim da temporada.</t>
 		<h>Dani Osvaldo vai deixar o FC Porto no fim da temporada.</h>
 	</pair>
@@ -5180,7 +5180,7 @@
 		<t>José Peseiro é o novo treinador do FC Porto.</t>
 		<h>O FC Porto deveria de ter vergonha de contratar José Peseiro.</h>
 	</pair>
-	<pair entailment="Entailment" id="1296" similarity="4.0">
+	<pair entailment="None" id="1296" similarity="4.0">
 		<t>Pistorius matou a namorada com quatro tiros quando esta se encontrava na casa de banho.</t>
 		<h>Oscar Pistorius terá assassinado a sua namorada com quatro tiros.</h>
 	</pair>
@@ -5424,7 +5424,7 @@
 		<t>Últimos 300 bilhetes para o Vodafone Mexefest disponíveis.</t>
 		<h>Vamos ter entrevistas, atuações e muito mais ao longo dos dois dias do Vodafone Mexefest.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1357" similarity="5.0">
+	<pair entailment="Entailment" id="1357" similarity="5.0">
 		<t>A Universidade de Yale contou com a colaboração da neozelandeza até à sua morte.</t>
 		<h>A neozelandeza trabalhou na Universidade de Yale até ao final da sua vida.</h>
 	</pair>
@@ -5624,7 +5624,7 @@
 		<t>O nível "Tech Gone Bad" está disponível para download gratuito e mostra um desfecho alternativo para o clássico FPS.</t>
 		<h>Tech Gone Bad é um único nível que tem mais de 230 inimigos e dez segredos para serem desvendados.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1407" similarity="2.0">
+	<pair entailment="Entailment" id="1407" similarity="2.0">
 		<t>Vinte e uma pessoas morreram na região de Voronezh, no sudoeste da Rússia, no incêndio de um hospital psiquiátrico.</t>
 		<h>Em Setembro de 2013, 37 pacientes morreram num incêndio de um hospital psiquiátrico no noroeste da Rússia.</h>
 	</pair>
@@ -5888,7 +5888,7 @@
 		<t>Estas crianças estão há mais de um mês sem direito a almoço e sem atividades na escola.</t>
 		<h>Os alunos não almoçam na escola.</h>
 	</pair>
-	<pair entailment="Entailment" id="1473" similarity="2.75">
+	<pair entailment="None" id="1473" similarity="2.75">
 		<t>Atualmente, a startup indiana conta com 1,2 milhões de visitas por mês e disponibiliza informação sobre mais de 15.500 restaurantes.</t>
 		<h>A startup indiana está presente em 23 países e disponibiliza informação sobre mais de um milhão de restaurantes.</h>
 	</pair>
@@ -6100,7 +6100,7 @@
 		<t>A polícia alemã anunciou esta quinta-feira a detenção de dois argelinos, suspeitos de pertencerem ao Estado Islâmico.</t>
 		<h>O suspeito era procurado pelas autoridades argelinas, que acreditam que o homem pertence ao autoproclamado Estado Islâmico.</h>
 	</pair>
-	<pair entailment="Entailment" id="1526" similarity="4.0">
+	<pair entailment="None" id="1526" similarity="4.0">
 		<t>O Manchester City venceu o Norwich por 2 a 1, neste sábado, no Etihad Stadium, em partida emocionante.</t>
 		<h>O Manchester City enfrentou o Nowrich, no Etihad Stadium.</h>
 	</pair>
@@ -6324,7 +6324,7 @@
 		<t>A rede social passou a não assinalar o 4 de fevereiro apenas como dia do seu aniversário.</t>
 		<h>A maior rede social do mundo está a celebrar o seu 12º aniversário.</h>
 	</pair>
-	<pair entailment="Entailment" id="1582" similarity="3.75">
+	<pair entailment="None" id="1582" similarity="3.75">
 		<t>O City passa a ter 26 pontos, mais um que Arsenal e Leicester e mais dois que Manchester United.</t>
 		<h>O City soma 26 pontos, contra 25 do Arsenal.</h>
 	</pair>
@@ -6332,7 +6332,7 @@
 		<t>Igualmente estarão artistas na zona Eletrónica, Palco Vodafone e Rock Street Brasil.</t>
 		<h>Complementam ainda a programação a Tenda Eletrónica, o Palco Vodafone e a Rock Street Brasil.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1584" similarity="4.25">
+	<pair entailment="Entailment" id="1584" similarity="4.25">
 		<t>O médio brasileiro Rafinha, de 19 anos, é reforço do Vitória de Guimarães.</t>
 		<h>O avançado Rafinha, de 19 anos, assinou contrato com o Vitória de Guimarães.</h>
 	</pair>
@@ -6576,7 +6576,7 @@
 		<t>A equipa de neurocirurgia não estava disponível no fim de semana e David Duarte não resistiu a um aneurisma.</t>
 		<h>Não havia equipa de neurocirurgia de urgência para tratar um aneurisma.</h>
 	</pair>
-	<pair entailment="Entailment" id="1645" similarity="4.5">
+	<pair entailment="Paraphrase" id="1645" similarity="4.5">
 		<t>As pessoas estavam a fingir que estavam mortas e estavam tão assustadas.</t>
 		<h>Alguns faziam de conta que estavam mortos, estavam muito assustados.</h>
 	</pair>
@@ -6816,7 +6816,7 @@
 		<t>O Presidente da República recebe esta quarta-feira, 11 de Novembro, o presidente da Assembleia da República, Ferro Rodrigues.</t>
 		<h>O Presidente da República recebe Pedro Passos Coelho às 16h30, um dia antes da habitual reunião semanal.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1705" similarity="4.25">
+	<pair entailment="Entailment" id="1705" similarity="4.25">
 		<t>Kelly Slater, 11 vezes campeão mundial salvou uma mãe e um bebé de morrerem afogados em Waimea, no Havai.</t>
 		<h>Kelly Slater salvou uma mãe e um bebé de morrerem afogados em Waimea Bay, no Havai.</h>
 	</pair>
@@ -6980,7 +6980,7 @@
 		<t>Nélson Oliveira foi agora chamado por Fernando Santos, à principal selecção de Portugal.</t>
 		<h>Fernando Santos chamou Nélson Oliveira.</h>
 	</pair>
-	<pair entailment="Entailment" id="1746" similarity="4.75">
+	<pair entailment="None" id="1746" similarity="4.75">
 		<t>Samaris ocupa no Benfica a posição que já foi de Javi.</t>
 		<h>Na sua posição que foi de Javi, encontrará Samaris.</h>
 	</pair>
@@ -7196,7 +7196,7 @@
 		<t>A banda australiana vai subir ao Palco Heineken dia 07 de julho para apresentar o primeiro longa-duração “Howlin'”.</t>
 		<h>O concerto está marcado para 7 de Julho no Palco Heineken.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1800" similarity="5.0">
+	<pair entailment="Entailment" id="1800" similarity="5.0">
 		<t>O governo canadense espera receber 10.000 refugiados sírios até o fim do ano.</t>
 		<h>Até o fim do ano o Canadá deverá receber 10.000 refugiados sírios.</h>
 	</pair>
@@ -7208,7 +7208,7 @@
 		<t>Agora o site Financial Times avança com a notícia de que a Apple está a desenvolver um dispositivo do género.</t>
 		<h>As fontes anônimas do Financial Times adiantaram ainda que a Microsoft também está ajudando a Apple.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1803" similarity="5.0">
+	<pair entailment="Entailment" id="1803" similarity="5.0">
 		<t>As estimativas indicam que cerca de 500 mil homens norte-americanos com tumores na próstata são tratados com antiandrógenicos.</t>
 		<h>Nos EUA, cerca de 500 mil homens com tumores na próstata recorrem ao tratamento antiandrogénico.</h>
 	</pair>
@@ -7384,7 +7384,7 @@
 		<t>Na cobrança, Gameiro cobrou no canto direito mas Blanco novamente voou para fazer uma linda defesa.</t>
 		<h>Na cobrança, Banega bateu com imensa categoria, mas Blanco novamente fez uma defesa espetacular.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1847" similarity="4.75">
+	<pair entailment="Entailment" id="1847" similarity="4.75">
 		<t>Por isso mesmo, Krugman fez questão de separar o caso português do grego.</t>
 		<h>Krugman faz, no entanto, questão de separar os casos de Portugal e da Grécia.</h>
 	</pair>
@@ -7460,7 +7460,7 @@
 		<t>Em 2015, o avançado de 31 anos fez 29 jogos e marcou 15 golos no clube chinês.</t>
 		<h>O avançado colombiano, de 28 anos, marcou seis golos em 23 jogos esta temporada.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1866" similarity="4.75">
+	<pair entailment="None" id="1866" similarity="4.75">
 		<t>Sheeran é seguido por 16 milhões de pessoas no Twitter e tem 5 milhões e 500 mil seguidores no Instagram.</t>
 		<h>Sheeran possui 16 milhões de seguidores no Twitter e 5,5 milhões de fãs nos Intagram.</h>
 	</pair>
@@ -7476,7 +7476,7 @@
 		<t>O Super Bock Super Rock terá lugar no Parque das Nações, nos dias 14, 15 e 16 de julho.</t>
 		<h>A nova confirmação para o cartaz do Super Bock Super Rock é britânica e chama-se Kwabs.</h>
 	</pair>
-	<pair entailment="Entailment" id="1870" similarity="3.25">
+	<pair entailment="None" id="1870" similarity="3.25">
 		<t>O Governo de António Costa já aprovou hoje o Programa de Governo, que segue ainda esta sexta-feira para o Parlamento.</t>
 		<h>O Programa de Governo foi hoje aprovado no Conselho de Ministros, o primeiro do Governo de António Costa.</h>
 	</pair>
@@ -7540,7 +7540,7 @@
 		<t>Uma equipa de psicólogos do INEM foi enviada para prestar apoio psicológico aos familiares do bebé.</t>
 		<h>Na creche, uma equipa de psicólogos do INEM prestou apoio a crianças e funcionárias.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1886" similarity="3.0">
+	<pair entailment="Entailment" id="1886" similarity="3.0">
 		<t>As fotografias de satélite divulgadas pela agência Associated Press já foram confirmadas por autoridades iraquianas.</t>
 		<h>A confirmação chegou através de imagens de satélite captadas a pedido da agência Associated Press.</h>
 	</pair>
@@ -7788,7 +7788,7 @@
 		<t>Karim Benzema, internacional francês que alinha pelo Real Madrid, terá sido detido para interrogatório.</t>
 		<h>O Real Madrid ganhou ao PSG e Karim Benzema ficou fora do jogo.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1948" similarity="4.75">
+	<pair entailment="Entailment" id="1948" similarity="4.75">
 		<t>De recordar que em junho de 2015, um mês após os incidentes, o comissário Filipe Silva foi suspenso preventivamente.</t>
 		<h>O comissário Filipe Silva ficou suspenso preventivamente logo em junho de 2015, um mês depois dos incidentes.</h>
 	</pair>

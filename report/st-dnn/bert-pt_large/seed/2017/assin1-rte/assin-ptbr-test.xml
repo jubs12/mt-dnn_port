@@ -48,7 +48,7 @@
 		<t>Já “House of Cards” precisou de três capítulos para convencer os brasileiros de acompanharem a série até o fim.</t>
 		<h>Já "House of Cards" levou três episódios para conquistar o público brasileiro.</h>
 	</pair>
-	<pair entailment="Entailment" id="13" similarity="4.5">
+	<pair entailment="Paraphrase" id="13" similarity="4.5">
 		<t>Por enquanto, vídeos em 360 graus só funcionam na versão web do Facebook e no aplicativo para Android.</t>
 		<h>Os vídeos em 360 graus já estão disponíveis na versão web do Facebook e também no aplicativo para Android.</h>
 	</pair>
@@ -476,7 +476,7 @@
 		<t>Apesar da preocupação, ele deve pegar o Flamengo, domingo, no Independência.</t>
 		<h>O argentino foi poupado, mas não preocupa para a partida desde domingo.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="120" similarity="3.75">
+	<pair entailment="Entailment" id="120" similarity="3.75">
 		<t>Quanto mais pro Norte, maior a temperatura e o calor e quanto mais pro Sul gaúcho, menor a temperatura e mais ameno o dia.</t>
 		<h>Quanto mais pro Sul gaúcho, menor a temperatura e mais ameno o dia.</h>
 	</pair>
@@ -624,7 +624,7 @@
 		<t>Esses bolões tem um preço mínimo de aposta de R$ 10.</t>
 		<h>Para a Quadra um total de 53 apostadores receberão o prêmio de R$ 7.782,07 cada.</h>
 	</pair>
-	<pair entailment="Entailment" id="157" similarity="3.5">
+	<pair entailment="Paraphrase" id="157" similarity="3.5">
 		<t>Durante a partida, enquanto perdia para a Bulgária, a seleção brasileira foi vaiada pela torcida italiana.</t>
 		<h>O time brasileiro perdeu para a Bulgária por 3 a 0 e saiu de quadra vaiado pela torcida italiana.</h>
 	</pair>
@@ -1572,7 +1572,7 @@
 		<t>Eles somam 23 pontos perdidos, contra sete dos líderes australianos Mathew Belcher e William Ryan.</t>
 		<h>O croata Tonci Stipanovic é o líder, com quatro pontos perdidos.</h>
 	</pair>
-	<pair entailment="Entailment" id="394" similarity="5.0">
+	<pair entailment="Paraphrase" id="394" similarity="5.0">
 		<t>Os agentes de trânsito deverão fiscalizar os extintores nos veículos em que seu uso é obrigatório.</t>
 		<h>Veículos que seguem obrigados a usar extintor serão fiscalizados por agentes de trânsito.</h>
 	</pair>
@@ -1828,7 +1828,7 @@
 		<t>Os dados se referem ao comparativo com o primeiro trimestre do ano.</t>
 		<h>No 1º trimestre deste ano, o índice foi de 7,9%.</h>
 	</pair>
-	<pair entailment="None" id="458" similarity="4.0">
+	<pair entailment="Entailment" id="458" similarity="4.0">
 		<t>Taylor Swift aparece mais morena em ensaio fotográfico para a revista Vogue.</t>
 		<h>Taylor Swift apareceu com um visual novo na revista Vogue.</h>
 	</pair>
@@ -1920,7 +1920,7 @@
 		<t>A saída da Grécia da zona do euro nunca foi uma opção para mim.</t>
 		<h>A população teme que o país saia da zona do euro.</h>
 	</pair>
-	<pair entailment="Entailment" id="481" similarity="4.0">
+	<pair entailment="None" id="481" similarity="4.0">
 		<t>Os acessos à Vista Chinesa, no Alto da Boa Vista também estão fechadas até às 13h.</t>
 		<h>Os acessos à Vista Chinesa também estão fechados das 5h às 13h.</h>
 	</pair>
@@ -2056,7 +2056,7 @@
 		<t>O ex-diretor da área internacional da Petrobras mantém negócios particulares com Raul.</t>
 		<h>Ex-funcionário da Petrobras, Raul Schmidt fez carreira na área internacional da estatal.</h>
 	</pair>
-	<pair entailment="None" id="515" similarity="3.0">
+	<pair entailment="Entailment" id="515" similarity="3.0">
 		<t>Parece que Paolla Oliveira e Joaquim Lopes não mantiveram a amizade após se separarem, em fevereiro deste ano.</t>
 		<h>Paolla e Joaquim foram casados por 5 anos e se separaram em fevereiro deste ano.</h>
 	</pair>
@@ -2320,7 +2320,7 @@
 		<t>A PEC 443 vincula os salários das carreiras à remuneração de ministro do Supremo Tribunal Federal.</t>
 		<h>Ainda cabe recurso no Supremo Tribunal de Justiça e no Supremo Tribunal Federal.</h>
 	</pair>
-	<pair entailment="Entailment" id="581" similarity="5.0">
+	<pair entailment="Paraphrase" id="581" similarity="5.0">
 		<t>Chimbinha começou a noite tocando sozinho no palco, porque Joelma cantava dos bastidores.</t>
 		<h>Chimbinha deu início ao show tocando sozinho no palco, enquanto Joelma cantava nos bastidores.</h>
 	</pair>
@@ -3532,7 +3532,7 @@
 		<t>O atirador abriu fogo contra uma sala de aula e trocou tiros com a polícia.</t>
 		<h>Ele também foi morto durante o ataque, depois de uma troca de tiros com a polícia.</h>
 	</pair>
-	<pair entailment="None" id="884" similarity="3.75">
+	<pair entailment="Entailment" id="884" similarity="3.75">
 		<t>Jéssica Costa, filha do cantor Leonardo, de 21 anos, está grávida e todo mundo já sabe.</t>
 		<h>Uma grande polêmica cerca a gravidez de Jéssica Costa, a filha do cantor Leonardo.</h>
 	</pair>
@@ -3840,7 +3840,7 @@
 		<t>O técnico Jorginho avaliou que a reação vascaína não pode parar.</t>
 		<h>Para os jogadores, o principal nome da reação vascaína é o técnico Jorginho.</h>
 	</pair>
-	<pair entailment="None" id="961" similarity="3.25">
+	<pair entailment="Paraphrase" id="961" similarity="3.25">
 		<t>A quadra teve 53 acertadores, que ganharão o prêmio individual de R$ 7.782,07.</t>
 		<h>Fizeram a Quadra 81 apostadores e cada um receberá o prêmio de R$ 7.341,07.</h>
 	</pair>
@@ -4044,7 +4044,7 @@
 		<t>A atriz Ellen Page escolheu o Festival de Cinema de Toronto para apresentar publicamente a namorada, Samantha Thomas.</t>
 		<h>A atriz compareceu ao Festival de Toronto ao lado de sua namorada, a surfista Samantha Thomas.</h>
 	</pair>
-	<pair entailment="Entailment" id="1012" similarity="4.0">
+	<pair entailment="None" id="1012" similarity="4.0">
 		<t>O Tricolor abriu o placar aos seis minutos, após cobrança de pênalti de Fred.</t>
 		<h>Na cobrança do pênalti, Fred bateu no canto esquerdo e abriu o placar para o Tricolor.</h>
 	</pair>
@@ -4504,7 +4504,7 @@
 		<t>Para ter direito a 100% do benefício, ela teria de trabalhar mais.</t>
 		<h>A MP não permitia esse curto período de benefício.</h>
 	</pair>
-	<pair entailment="Entailment" id="1127" similarity="4.25">
+	<pair entailment="Paraphrase" id="1127" similarity="4.25">
 		<t>O texto restringe ainda a doação de gametas (espermatozóides e óvulos).</t>
 		<h>A resolução também trata da doação de gametas (espermatozoides e óvulos).</h>
 	</pair>
@@ -4648,7 +4648,7 @@
 		<t>Além de Roma, Hamburgo, na Alemanha, já oficializou a candidatura para os Jogos Olímpicos de 2024.</t>
 		<h>Roma oficializou a candidatura para os Jogos Olímpicos de 2024.</h>
 	</pair>
-	<pair entailment="None" id="1163" similarity="3.75">
+	<pair entailment="Entailment" id="1163" similarity="3.75">
 		<t>As quatro bacias que tiveram ofertas foram Potiguar, Parnaíba, Sergipe-Alagoas e Recôncavo.</t>
 		<h>Apenas Parnaíba, Potiguar, Recôncavo e Sergipe-Alagoas tiveram blocos negociados.</h>
 	</pair>
@@ -6128,7 +6128,7 @@
 		<t>A parcela complementar para quem ganha acima de R$ 2.800,00 por vínculo será creditada até o dia 22.</t>
 		<h>Uma segunda parcela de R$ 800 será depositada até dia 11 de setembro.</h>
 	</pair>
-	<pair entailment="Entailment" id="1533" similarity="3.5">
+	<pair entailment="None" id="1533" similarity="3.5">
 		<t>A margem de erro máxima é de 2 ponto porcentuais e o grau de confiança da pesquisa é de 95%.</t>
 		<h>A margem de erro é de dois pontos percentuais para mais ou para menos.</h>
 	</pair>
@@ -6896,7 +6896,7 @@
 		<t>Aos 74 anos, Betty Faria parece não se preocupar mais com o peso de suas declarações.</t>
 		<h>Aos 74 anos, cabelos brancos à mostra, Betty Faria diz adorar a companhia dos netos.</h>
 	</pair>
-	<pair entailment="None" id="1725" similarity="4.75">
+	<pair entailment="Entailment" id="1725" similarity="4.75">
 		<t>O último capítulo de 'Verdades Secretas' vai ao ar nesta sexta-feira, 25.</t>
 		<h>Verdades Secretas termina no dia 25 de setembro, sexta-feira.</h>
 	</pair>
@@ -7144,7 +7144,7 @@
 		<t>A sanção da regulamentação da PEC das Domésticas será publicada no Diário Oficial desta terça-feira (2).</t>
 		<h>A lei está publicada no Diário Oficial da União desta terça-feira (02).</h>
 	</pair>
-	<pair entailment="Entailment" id="1787" similarity="5.0">
+	<pair entailment="Paraphrase" id="1787" similarity="5.0">
 		<t>Morreu nesta quinta-feira (17) no Rio de Janeiro o diretor de cinema e televisão José Carlos Aranha Manga, 87.</t>
 		<h>Morreu na quinta (17) no Rio de Janeiro, aos 87 anos, o diretor de cinema e televisão Carlos Manga.</h>
 	</pair>
@@ -7420,7 +7420,7 @@
 		<t>Em outro, Thiago Silva meteu a mão na bola de maneira tola, e o Paraguai ganhou pênalti.</t>
 		<h>Thiago Silva havia colocado a mão na bola, dentro da área.</h>
 	</pair>
-	<pair entailment="None" id="1856" similarity="3.5">
+	<pair entailment="Entailment" id="1856" similarity="3.5">
 		<t>Xuxa chamou Rayanne Morais, que não conteve a emoção ao ver a apresentadora e entrou chorando no palco.</t>
 		<h>Por fim, a ex-mulher de Latino entrou no palco chorando ao ver Xuxa.</h>
 	</pair>

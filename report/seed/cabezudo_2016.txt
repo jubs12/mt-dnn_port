@@ -4,7 +4,7 @@ corpus: assin-ptbr
 RTE evaluation
 Accuracy	Macro F1
 --------	--------
-  90.00%	   0.764
+  90.55%	   0.776
 
 Similarity evaluation
 Pearson		Mean Squared Error
@@ -18,7 +18,7 @@ corpus: assin-ptpt
 RTE evaluation
 Accuracy	Macro F1
 --------	--------
-  90.40%	   0.809
+  90.75%	   0.812
 
 Similarity evaluation
 Pearson		Mean Squared Error
@@ -33,7 +33,7 @@ corpus: assin-ptbr
 RTE evaluation
 Accuracy	Macro F1
 --------	--------
-  88.15%	   0.721
+  88.50%	   0.722
 
 Similarity evaluation
 Pearson		Mean Squared Error
@@ -47,7 +47,7 @@ corpus: assin-ptpt
 RTE evaluation
 Accuracy	Macro F1
 --------	--------
-  88.25%	   0.776
+  88.90%	   0.788
 
 Similarity evaluation
 Pearson		Mean Squared Error
@@ -62,7 +62,7 @@ corpus: assin-ptbr
 RTE evaluation
 Accuracy	Macro F1
 --------	--------
-  87.75%	   0.717
+  88.65%	   0.724
 
 Similarity evaluation
 Pearson		Mean Squared Error
@@ -76,7 +76,7 @@ corpus: assin-ptpt
 RTE evaluation
 Accuracy	Macro F1
 --------	--------
-  87.30%	   0.752
+  89.30%	   0.789
 
 Similarity evaluation
 Pearson		Mean Squared Error
@@ -91,7 +91,7 @@ corpus: assin-ptbr
 RTE evaluation
 Accuracy	Macro F1
 --------	--------
-  87.15%	   0.711
+  88.35%	   0.718
 
 Similarity evaluation
 Pearson		Mean Squared Error
@@ -105,7 +105,7 @@ corpus: assin-ptpt
 RTE evaluation
 Accuracy	Macro F1
 --------	--------
-  87.90%	   0.764
+  89.00%	   0.784
 
 Similarity evaluation
 Pearson		Mean Squared Error
@@ -120,7 +120,7 @@ corpus: assin-ptbr
 RTE evaluation
 Accuracy	Macro F1
 --------	--------
-  90.20%	   0.798
+  91.55%	   0.814
 
 Similarity evaluation
 Pearson		Mean Squared Error
@@ -134,7 +134,7 @@ corpus: assin-ptpt
 RTE evaluation
 Accuracy	Macro F1
 --------	--------
-  90.20%	   0.817
+  91.05%	   0.829
 
 Similarity evaluation
 Pearson		Mean Squared Error
@@ -149,7 +149,7 @@ corpus: assin-ptbr
 RTE evaluation
 Accuracy	Macro F1
 --------	--------
-  89.45%	   0.761
+  89.65%	   0.757
 
 Similarity evaluation
 Pearson		Mean Squared Error
@@ -163,7 +163,7 @@ corpus: assin-ptpt
 RTE evaluation
 Accuracy	Macro F1
 --------	--------
-  88.90%	   0.785
+  89.45%	   0.785
 
 Similarity evaluation
 Pearson		Mean Squared Error
@@ -178,7 +178,7 @@ corpus: assin-ptbr
 RTE evaluation
 Accuracy	Macro F1
 --------	--------
-  89.45%	   0.761
+  89.90%	   0.757
 
 Similarity evaluation
 Pearson		Mean Squared Error
@@ -192,7 +192,7 @@ corpus: assin-ptpt
 RTE evaluation
 Accuracy	Macro F1
 --------	--------
-  88.60%	   0.780
+  88.90%	   0.772
 
 Similarity evaluation
 Pearson		Mean Squared Error
@@ -207,7 +207,7 @@ corpus: assin-ptbr
 RTE evaluation
 Accuracy	Macro F1
 --------	--------
-  90.35%	   0.767
+  90.00%	   0.764
 
 Similarity evaluation
 Pearson		Mean Squared Error
@@ -221,7 +221,7 @@ corpus: assin-ptpt
 RTE evaluation
 Accuracy	Macro F1
 --------	--------
-  89.50%	   0.790
+  89.50%	   0.789
 
 Similarity evaluation
 Pearson		Mean Squared Error
@@ -236,7 +236,7 @@ corpus: assin-ptbr
 RTE evaluation
 Accuracy	Macro F1
 --------	--------
-  86.75%	   0.546
+  87.65%	   0.551
 
 Similarity evaluation
 Pearson		Mean Squared Error
@@ -250,7 +250,7 @@ corpus: assin-ptpt
 RTE evaluation
 Accuracy	Macro F1
 --------	--------
-  86.50%	   0.569
+  86.85%	   0.570
 
 Similarity evaluation
 Pearson		Mean Squared Error
@@ -265,7 +265,7 @@ corpus: assin-ptbr
 RTE evaluation
 Accuracy	Macro F1
 --------	--------
-  85.50%	   0.691
+  86.95%	   0.714
 
 Similarity evaluation
 Pearson		Mean Squared Error
@@ -279,7 +279,7 @@ corpus: assin-ptpt
 RTE evaluation
 Accuracy	Macro F1
 --------	--------
-  85.00%	   0.727
+  86.25%	   0.741
 
 Similarity evaluation
 Pearson		Mean Squared Error
@@ -294,7 +294,7 @@ corpus: assin-ptbr
 RTE evaluation
 Accuracy	Macro F1
 --------	--------
-  85.70%	   0.690
+  87.00%	   0.707
 
 Similarity evaluation
 Pearson		Mean Squared Error
@@ -308,7 +308,7 @@ corpus: assin-ptpt
 RTE evaluation
 Accuracy	Macro F1
 --------	--------
-  85.20%	   0.722
+  86.20%	   0.734
 
 Similarity evaluation
 Pearson		Mean Squared Error
@@ -323,7 +323,7 @@ corpus: assin-ptbr
 RTE evaluation
 Accuracy	Macro F1
 --------	--------
-  85.10%	   0.689
+  87.25%	   0.714
 
 Similarity evaluation
 Pearson		Mean Squared Error
@@ -337,7 +337,7 @@ corpus: assin-ptpt
 RTE evaluation
 Accuracy	Macro F1
 --------	--------
-  85.15%	   0.735
+  86.60%	   0.749
 
 Similarity evaluation
 Pearson		Mean Squared Error
@@ -346,3 +346,4 @@ Pearson		Mean Squared Error
 
 
 Saved evaluation: report/st-dnn/bert-multilingual_base/seed/2016/worst-pt/assin-ptpt_eval.txt
+

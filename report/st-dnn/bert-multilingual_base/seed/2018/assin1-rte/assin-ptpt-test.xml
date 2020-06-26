@@ -668,7 +668,7 @@
 		<t>Todas as vítimas apresentaram sintomas neurológicos da síndrome de Guillain-Barré (SGB), que também é associada ao vírus.</t>
 		<h>Este vírus está também associado à síndrome de Guillain-Barré, uma doença neurológica que pode causar paralisia irreversível.</h>
 	</pair>
-	<pair entailment="Entailment" id="168" similarity="4.0">
+	<pair entailment="None" id="168" similarity="4.0">
 		<t>Contará com uma câmara traseira de 8MP e uma frontal de 5MP.</t>
 		<h>No departamento das câmaras, a combinação deverá ser de 8MP e 5MP.</h>
 	</pair>
@@ -756,7 +756,7 @@
 		<t>A tomada do centro de Ramadi é considerada uma vitória importante na luta contra o Estado Islâmico.</t>
 		<h>A conquista do centro de Ramadi está a ser recebida como uma vitória final.</h>
 	</pair>
-	<pair entailment="Entailment" id="190" similarity="4.25">
+	<pair entailment="None" id="190" similarity="4.25">
 		<t>No total, morreram quatro pescadores, um permanece desaparecido e dois tripulantes foram resgatados com vida.</t>
 		<h>Quatro pessoas morreram, uma está desaparecida e duas foram resgatadas com vida depois deste acidente.</h>
 	</pair>
@@ -976,7 +976,7 @@
 		<t>A companhia aérea brasileira Azul lança a 4 de maio o seu primeiro voo regular para a Europa.</t>
 		<h>O voo inaugural da Azul acontece já a 4 de maio.</h>
 	</pair>
-	<pair entailment="Entailment" id="245" similarity="4.25">
+	<pair entailment="None" id="245" similarity="4.25">
 		<t>Perdeu os laterais Danilo e Alex Sandro, mas ganhou Maxi e Layún.</t>
 		<h>Perdeu os laterais mas ganhou o Maxi Pereira e o Laýun.</h>
 	</pair>
@@ -2656,7 +2656,7 @@
 		<t>Há mais de um ano que o FC Porto não perde em casa no campeonato.</t>
 		<h>O FC Porto está a dois pontos do líder e se vencer passa para primeiro do campeonato.</h>
 	</pair>
-	<pair entailment="None" id="665" similarity="4.0">
+	<pair entailment="Entailment" id="665" similarity="4.0">
 		<t>Cristian Tello desvinculou-se esta sexta-feira do FC Porto e já foi confirmado na Fiorentina.</t>
 		<h>O espanhol Cristian Tello já não é jogador do FC Porto.</h>
 	</pair>
@@ -2688,7 +2688,7 @@
 		<t>Na final, Serena Williams vai encontrar a alemã Angelike Kerber, que nunca chegou à última etapa de um Grand Slam.</t>
 		<h>Serena Williams vai enfrentar a alemã Angelike Kerber, que vai estrear-se em finais do Grand Slam.</h>
 	</pair>
-	<pair entailment="Entailment" id="673" similarity="4.0">
+	<pair entailment="None" id="673" similarity="4.0">
 		<t>O "Juntos pelo Sim" venceu e conquistou 62 deputados, mas precisava de 68 para ter maioria absoluta.</t>
 		<h>Faltavam seis deputados para que o "Juntos pelo Sim" alcançasse a maioria absoluta.</h>
 	</pair>
@@ -3424,7 +3424,7 @@
 		<t>A divulgação da lista das passwords fracas mais usadas durante o ano é já uma tradição que vem desde 2011.</t>
 		<h>A empresa SplashData divulgou a lista das 25 passwords mais usadas no ano passado.</h>
 	</pair>
-	<pair entailment="Entailment" id="857" similarity="4.25">
+	<pair entailment="None" id="857" similarity="4.25">
 		<t>Acontece numa altura em que decorrem em Genebra negociações de paz entre o regime e a oposição síria.</t>
 		<h>Governo sírio e principal grupo de oposição estão em Genebra para as negociações de paz.</h>
 	</pair>
@@ -3636,7 +3636,7 @@
 		<t>Talvez por causa dessa expectativa o concerto de Lisboa tenha já esgotado.</t>
 		<h>O concerto esgotou e não estava à espera de que acontecesse tão rapidamente.</h>
 	</pair>
-	<pair entailment="None" id="910" similarity="5.0">
+	<pair entailment="Entailment" id="910" similarity="5.0">
 		<t>Na lista dos 20 clubes mais ricos não surge nenhum clube português.</t>
 		<h>Na lista dos 20 clubes mais ricos não há espaço para equipas portuguesas.</h>
 	</pair>
@@ -3680,7 +3680,7 @@
 		<t>Já sabíamos que o dispositivo não se ligaria diretamente à PlayStation 4, precisando de uma unidade para processar a tecnologia.</t>
 		<h>Esta unidade externa de processamento vai fazer de ponte entre o PlayStation VR e a PlayStation 4.</h>
 	</pair>
-	<pair entailment="None" id="921" similarity="4.0">
+	<pair entailment="Entailment" id="921" similarity="4.0">
 		<t>Lito Vidigal garante que a equipa vai continuar a trabalhar e a concentrar todas as forças no campeonato.</t>
 		<h>Lito Vidigal aponta novamente ao campeonato.</h>
 	</pair>
@@ -5568,7 +5568,7 @@
 		<t>Foi Veiga que intermediou a transferência de Luís Figo do Real Madrid para o Barcelona ou de Zidanne para os merengues.</t>
 		<h>Luís Figo tornava-se pesetero para os catalães e herói para os merengues.</h>
 	</pair>
-	<pair entailment="None" id="1393" similarity="4.0">
+	<pair entailment="Entailment" id="1393" similarity="4.0">
 		<t>O nigeriano John Obi Mikel confessou que a atmosfera no Chelsea melhorou desde que José Mourinho deixou o clube de Londres.</t>
 		<h>John Obi Mikel diz que o ambiente no Chelsea está mudado desde que o treinador português foi despedido.</h>
 	</pair>
@@ -5996,7 +5996,7 @@
 		<t>Yannick Djaló vai continuar a carreira na Tailândia.</t>
 		<h>Yannick Djaló foi anunciado esta quarta-feira como reforço do Ratchaburi.</h>
 	</pair>
-	<pair entailment="Entailment" id="1500" similarity="4.25">
+	<pair entailment="None" id="1500" similarity="4.25">
 		<t>E para ganhar, temos de fazer um grande jogo, não há outra hipótese.</t>
 		<h>Temos que fazer um jogo magnífico para conseguirmos ganhar.</h>
 	</pair>
@@ -6360,7 +6360,7 @@
 		<t>Dave Mirra, um dos atletas mais bem sucedidos dos X-Games, foi encontrado morto, aos 41 anos.</t>
 		<h>Dave Mirra foi encontrado morto – tinha 41 anos.</h>
 	</pair>
-	<pair entailment="Entailment" id="1591" similarity="4.0">
+	<pair entailment="None" id="1591" similarity="4.0">
 		<t>Conforme anunciado previamente, Marcelo Rebelo de Sousa formalizou esta sexta-feira a sua candidatura à Presidência da República.</t>
 		<h>Marcelo Rebelo de Sousa anunciou hoje, em Celorico de Basto, a sua candidatura à Presidência da República.</h>
 	</pair>
@@ -7304,7 +7304,7 @@
 		<t>A decisão conduziu a uma década de guerra civil que fez 200.000 mortos.</t>
 		<h>Esta decisão gerou enfrentamentos durante uma década de guerra civil, que causaram 20.000 mortes.</h>
 	</pair>
-	<pair entailment="Entailment" id="1827" similarity="4.5">
+	<pair entailment="None" id="1827" similarity="4.5">
 		<t>A criança, como não sabia nadar, acabou por morrer por asfixia, enquanto a mãe sobreviveu.</t>
 		<h>A mulher sobreviveu, mas o menor morreu por asfixia porque não sabia nadar.</h>
 	</pair>
@@ -7512,7 +7512,7 @@
 		<t>O Sporting vence o Estoril por 1-0 e soma agora 23 pontos na I Liga.</t>
 		<h>O Sporting venceu este sábado o Estoril-Praia, por 1-0.</h>
 	</pair>
-	<pair entailment="None" id="1879" similarity="4.0">
+	<pair entailment="Entailment" id="1879" similarity="4.0">
 		<t>O médio de 26 anos renovou contrato e tem agora uma cláusula de rescisão de 45 milhões de euros.</t>
 		<h>O valor da sua cláusula de rescisão foi fixado em 45 milhões de euros.</h>
 	</pair>

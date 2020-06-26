@@ -248,7 +248,7 @@
 		<t>As moções de rejeição podem ser entregues até ao momento em que termina o debate do programa de Governo.</t>
 		<h>A aprovação de moções de rejeição ao programa implica a queda do Governo.</h>
 	</pair>
-	<pair entailment="Entailment" id="63" similarity="2.0">
+	<pair entailment="None" id="63" similarity="2.0">
 		<t>Está prevista a redução do défice estrutural.</t>
 		<h>Mais importante é a evolução prevista para o défice estrutural.</h>
 	</pair>
@@ -516,7 +516,7 @@
 		<t>A Web Summit ruma a Lisboa entre 7 e 10 de novembro.</t>
 		<h>Em Novembro, vai realizar-se a Web Summit em Lisboa.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="130" similarity="4.5">
+	<pair entailment="Entailment" id="130" similarity="4.5">
 		<t>Sem estas dotações provisionais, os resultados teriam crescido 13% para 6.566 milhões de euros.</t>
 		<h>Sem as “dotações provisionais”, os lucros teriam crescido 13%.</h>
 	</pair>
@@ -852,7 +852,7 @@
 		<t>A proposta do Executivo é que o salário mínimo nacional chegue aos 600 euros no fim da legislatura.</t>
 		<h>O objectivo é discutir o aumento do salário mínimo nacional para 600 euros ao longo da legislatura.</h>
 	</pair>
-	<pair entailment="Entailment" id="214" similarity="3.75">
+	<pair entailment="Paraphrase" id="214" similarity="3.75">
 		<t>O Supremo Tribunal de Recurso da África do Sul alterou a sentença de Oscar Pistorius de homicídio involuntário para voluntário.</t>
 		<h>O Supremo Tribunal da África do Sul decidiu alterar o veredicto em relação a Oscar Pistorius para homicídio.</h>
 	</pair>
@@ -1056,7 +1056,7 @@
 		<t>Contudo, esta parece ser uma resposta da dona da PlayStation às recentes novidades da Xbox.</t>
 		<h>Mas esta parece ser uma resposta à concorrente Xbox.</h>
 	</pair>
-	<pair entailment="Entailment" id="265" similarity="5.0">
+	<pair entailment="None" id="265" similarity="5.0">
 		<t>E a última palavra no assunto será sempre dos clubes.</t>
 		<h>São os clubes que têm a última palavra relativamente a este sistema.</h>
 	</pair>
@@ -1424,7 +1424,7 @@
 		<t>O relógio inteligente está disponível nas versões Gear S2 e Gear S2 clássico.</t>
 		<h>O Gear S2 estará disponível para experimentação, acompanhado de uma linha de acessórios com um design irresistível.</h>
 	</pair>
-	<pair entailment="Entailment" id="357" similarity="5.0">
+	<pair entailment="Paraphrase" id="357" similarity="5.0">
 		<t>O Governo português "vai apresentar a candidatura de António Guterres a secretário-geral das Nações Unidas".</t>
 		<h>O Governo de Portugal está a preparar a candidatura de António Guterres à liderança da Organização das Nações Unidas (ONU).</h>
 	</pair>
@@ -1564,7 +1564,7 @@
 		<t>O Real Madrid tem cinco pontos de diferença para o Barcelona.</t>
 		<h>O campeonato pode ficar ainda mais relançado se mais tarde o Real Madrid derrotar o Villareal.</h>
 	</pair>
-	<pair entailment="None" id="392" similarity="3.25">
+	<pair entailment="Entailment" id="392" similarity="3.25">
 		<t>O Porsche 911 deverá ter sua versão ecológica, com uma configuração híbrida plug-in.</t>
 		<h>Além disso, está prevista uma versão híbrida do Porsche 911.</h>
 	</pair>
@@ -2420,7 +2420,7 @@
 		<t>Em causa está o aumento dos preços em vésperas da época de descontos.</t>
 		<h>Na véspera dos super-descontos, as lojas aumentaram 10% os preços dos seus produtos.</h>
 	</pair>
-	<pair entailment="Entailment" id="606" similarity="4.75">
+	<pair entailment="Paraphrase" id="606" similarity="4.75">
 		<t>O Centro de Alerta de Tsunami do Pacífico declarou que não era esperado que o tremor provocasse um tsunami.</t>
 		<h>O Centro de Alerta de Tsunamis no Pacífico fez saber que não se espera a formação de um tsunami.</h>
 	</pair>
@@ -2656,7 +2656,7 @@
 		<t>Há mais de um ano que o FC Porto não perde em casa no campeonato.</t>
 		<h>O FC Porto está a dois pontos do líder e se vencer passa para primeiro do campeonato.</h>
 	</pair>
-	<pair entailment="None" id="665" similarity="4.0">
+	<pair entailment="Entailment" id="665" similarity="4.0">
 		<t>Cristian Tello desvinculou-se esta sexta-feira do FC Porto e já foi confirmado na Fiorentina.</t>
 		<h>O espanhol Cristian Tello já não é jogador do FC Porto.</h>
 	</pair>
@@ -3148,7 +3148,7 @@
 		<t>O homem foi presente a primeiro interrogatório judicial, tendo-lhe sido aplicada a medida de coação de apresentações periódicas semanais.</t>
 		<h>O suspeito vai ser presente às autoridades judiciárias competentes para eventual aplicação de medidas de coação.</h>
 	</pair>
-	<pair entailment="None" id="788" similarity="1.75">
+	<pair entailment="Entailment" id="788" similarity="1.75">
 		<t>Tanto a CT como o SITE-Norte falaram esta manhã de cerca de 400 trabalhadores que actualmente estão em regime de inactividade.</t>
 		<h>A empresa tem também neste momento cerca de 200 trabalhadores em inactividade.</h>
 	</pair>
@@ -3832,7 +3832,7 @@
 		<t>As eleições presidenciais realizam-se no domingo e Marcelo Rebelo de Sousa é um dos dez candidatos.</t>
 		<h>O técnico português gravou um vídeo de apelo ao voto no seu candidato: Marcelo Rebelo de Sousa.</h>
 	</pair>
-	<pair entailment="None" id="959" similarity="3.5">
+	<pair entailment="Entailment" id="959" similarity="3.5">
 		<t>Está confirmado o primeiro caso de zika numa mulher grávida em Espanha.</t>
 		<h>Uma mulher grávida, de 13 ou 14 semanas, foi diagnosticada com o vírus zika em Espanha.</h>
 	</pair>
@@ -3988,7 +3988,7 @@
 		<t>O FC Porto defronta este sábado as 18h30 o União da Madeira, em jogo da 9ª jornada da Primeira Liga.</t>
 		<h>O jogo entre União da Madeira e FC Porto esta marcado para as 18h30 deste sábado.</h>
 	</pair>
-	<pair entailment="Entailment" id="998" similarity="4.0">
+	<pair entailment="None" id="998" similarity="4.0">
 		<t>O que importa é o projeto desportivo e o Sporting seria bom para ele.</t>
 		<h>Um clube de Liga dos Campeões, como o Sporting, seria muito bom para ele.</h>
 	</pair>
@@ -5408,7 +5408,7 @@
 		<t>Conselho de Segurança das Nações Unidas reúne de emergência em Nova Iorque neste domingo.</t>
 		<h>Para este domingo está marcada uma reunião de urgência do Conselho de Segurança das Nações Unidas em Nova Iorque.</h>
 	</pair>
-	<pair entailment="None" id="1353" similarity="3.5">
+	<pair entailment="Entailment" id="1353" similarity="3.5">
 		<t>Quem comprou a Uncharted: Nathan Drake Collection pode aceder а beta multi-jogador.</t>
 		<h>Para já, esta versão só está disponível para quem comprou ‘Uncharted: The Nathan Drake Collection’.</h>
 	</pair>
@@ -5660,7 +5660,7 @@
 		<t>Quatro anos depois do concerto em 2012, Bruce Springsteen regressa a Portugal.</t>
 		<h>Bruce Springsteen estará em Portugal com a sua E Street Band para tocar no Rock in Rio-Lisboa.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1416" similarity="4.0">
+	<pair entailment="Entailment" id="1416" similarity="4.0">
 		<t>A ESPN incluiu os treinadores José Mourinho e Jorge Jesus numa votação que decorre no seu site.</t>
 		<h>A ESPN incluiu os dois treinadores numa votação que decorre na sua página online.</h>
 	</pair>
@@ -6300,7 +6300,7 @@
 		<t>Tanto Nápoles como Juventus vão somando vitória consecutivas numa corrida que é cada vez mais a dois.</t>
 		<h>Tanto Nápoles como Juventus estão a atravessar a sua melhor fase da época.</h>
 	</pair>
-	<pair entailment="None" id="1576" similarity="4.0">
+	<pair entailment="Entailment" id="1576" similarity="4.0">
 		<t>Foram realizadas buscas no complexo desportivo do Milan e apreendidos bens de valor superior a 12 milhões de euros.</t>
 		<h>Entre os bens apreendidos estão dinheiro, ações e até propriedades, no valor de 12 milhões de euros.</h>
 	</pair>
@@ -7604,7 +7604,7 @@
 		<t>Júpiter é o primeiro a aparecer em linha, seguido de Marte e depois de Saturno, Vénus e Mercúrio.</t>
 		<h>A última vez que Mercúrio, Vénus, Marte, Júpiter e Saturno se alinharam foi em 2005.</h>
 	</pair>
-	<pair entailment="None" id="1902" similarity="3.0">
+	<pair entailment="Entailment" id="1902" similarity="3.0">
 		<t>Justin Bieber desistiu oficialmente do romance com a cantora Selena Gomez para passar o réveillon ao lado de Hailey Baldwin.</t>
 		<h>Justin Bieber reencontrou novamente o amor ao lado de Hailey Baldwin.</h>
 	</pair>
@@ -7920,7 +7920,7 @@
 		<t>Foi um excelente dia para mim e para toda a equipa Yamaha.</t>
 		<h>Esta vitória foi muito importante, tanto para mim como para a Yamaha.</h>
 	</pair>
-	<pair entailment="Entailment" id="1981" similarity="4.5">
+	<pair entailment="Paraphrase" id="1981" similarity="4.5">
 		<t>Em relação ao Adrien e ao Gelson, praticamente não treinaram comigo esta semana.</t>
 		<h>Adrien e Gelson não treinaram comigo durante grande parte da semana.</h>
 	</pair>
@@ -7948,7 +7948,7 @@
 		<t>O programa define especialidades como otorrino ou competências para os idosos.</t>
 		<h>Temos de definir qual o core de competências e isto tem de ser feito com as escolas.</h>
 	</pair>
-	<pair entailment="Entailment" id="1988" similarity="3.5">
+	<pair entailment="None" id="1988" similarity="3.5">
 		<t>Cruzamento de José Ángel sai diretamente pela linha de fundo.</t>
 		<h>José Ángel faz mais um cruzamento.</h>
 	</pair>

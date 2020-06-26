@@ -108,7 +108,7 @@
 		<t>Embora o microblog diga que não há limite de texto, ele existe e é de 10 mil caracteres.</t>
 		<h>O limite de 140 caracteres, no entanto, permanece para os tuítes públicos.</h>
 	</pair>
-	<pair entailment="None" id="28" similarity="3.75">
+	<pair entailment="Entailment" id="28" similarity="3.75">
 		<t>Com a narração de Scarlett Johansson como a cobra píton Kaa, o vídeo conta com legendas em português.</t>
 		<h>A cobra Kaa, por exemplo, ganha a voz de Scarlett Johansson.</h>
 	</pair>
@@ -420,7 +420,7 @@
 		<t>A TV Record percebeu que começar a novela um pouco mais tarde está atraindo ainda mais audiência.</t>
 		<h>Antes mesmo da novela começar nesta segunda, a Record já estava com 20,3 pontos de audiência.</h>
 	</pair>
-	<pair entailment="Entailment" id="106" similarity="3.5">
+	<pair entailment="None" id="106" similarity="3.5">
 		<t>Lorenzo entrou nos boxes na volta seguinte e não aguentou muito na pista.</t>
 		<h>Na volta seguinte os líderes foram aos boxes, com Lorenzo mantendo a ponta.</h>
 	</pair>
@@ -2520,7 +2520,7 @@
 		<t>007 contra Spectre será lançado no Brasil em 5 de novembro de 2015.</t>
 		<h>O filme será lançado nos Estados Unidos em 6 de novembro de 2015.</h>
 	</pair>
-	<pair entailment="Entailment" id="631" similarity="3.75">
+	<pair entailment="None" id="631" similarity="3.75">
 		<t>A segunda é sempre meio ano após a primeira e a terceira e última dose do ciclo de imunização, 60 meses após a primeira.</t>
 		<h>A terceira, que fecha o ciclo de imunização, deve ser tomada cinco anos após a primeira dose.</h>
 	</pair>
@@ -2584,7 +2584,7 @@
 		<t>Cerca de mil pessoas estão acampadas no pátio da sede do Ministério da Fazenda em Porto Alegre.</t>
 		<h>No Paraná, são cerca de 7 mil famílias acampadas.</h>
 	</pair>
-	<pair entailment="Entailment" id="647" similarity="4.0">
+	<pair entailment="None" id="647" similarity="4.0">
 		<t>O montante não inclui honorários advocatícios, que somam R$ 348 milhões.</t>
 		<h>O montante previsto pela Eletrobras não considera honorários advocatícios.</h>
 	</pair>
@@ -2632,7 +2632,7 @@
 		<t>A entidade prevê superávit de US$ 8 bilhões para a balança neste ano.</t>
 		<h>A balança comercial teve superávit de US$ 2,37 bilhões em julho.</h>
 	</pair>
-	<pair entailment="Entailment" id="659" similarity="3.75">
+	<pair entailment="None" id="659" similarity="3.75">
 		<t>Cirano, o irmão de Xuxa, morreu aos 60 anos, neste sábado, 12 e foi enterrado no domingo no Rio de Janeiro.</t>
 		<h>Cirano Rojabaglia, irmão de Xuxa Meneguel, morreu aos 60 anos, neste sábado, 12.</h>
 	</pair>
@@ -2896,7 +2896,7 @@
 		<t>Pelo terceiro ano consecutivo, a Apple é a marca mais valiosa do mundo.</t>
 		<h>Apple e Google mais uma vez superaram o ranking anual da Interbrand das marcas mais valiosas do mundo.</h>
 	</pair>
-	<pair entailment="Entailment" id="725" similarity="3.75">
+	<pair entailment="None" id="725" similarity="3.75">
 		<t>Na sessão desta quarta, várias entidades se manifestaram contra e a favor da descriminalização.</t>
 		<h>Se manifestaram seis entidades a favor da descriminalização e outras cinco contra.</h>
 	</pair>
@@ -4564,7 +4564,7 @@
 		<t>O aumento da adesão à campanha de vacinação contra o HPV é um desafio para o Ministério da Saúde.</t>
 		<h>As doses da vacina contra HPV continuam disponíveis nas Unidades Básicas de Saúde.</h>
 	</pair>
-	<pair entailment="Entailment" id="1142" similarity="4.25">
+	<pair entailment="None" id="1142" similarity="4.25">
 		<t>Também participaram do Pro-Am os atores Marcos Pasquim e Humberto Martins, dois apaixonados pelo esporte.</t>
 		<h>O Pro-Am do Aberto do Brasil também contou com a participação dos atores Marcos Pasquim e Humberto Martins.</h>
 	</pair>
@@ -5172,7 +5172,7 @@
 		<t>Entre os hits que Queen e Adam Lambert cantaram estão Another One Bites The Dust.</t>
 		<h>Uma das música que balançou ainda mais a cidade do Rock foi a Another One Bite The Dust.</h>
 	</pair>
-	<pair entailment="Entailment" id="1294" similarity="4.75">
+	<pair entailment="None" id="1294" similarity="4.75">
 		<t>A nossa missão na Microsoft é empoderar pessoas e organizações para que continuem melhorando.</t>
 		<h>A missão da Microsoft é dar poder a cada pessoa ou organização no mundo para atingir mais objetivos.</h>
 	</pair>
@@ -5568,7 +5568,7 @@
 		<t>Durante a visita, a Alemanha se comprometeu a desembolsar 100 milhões de euros apenas para o Fundo Amazônia.</t>
 		<h>A Noruega desembolsou, desde 2008, um total de mais de US$ 900 milhões para o Fundo Amazônia.</h>
 	</pair>
-	<pair entailment="Entailment" id="1393" similarity="4.0">
+	<pair entailment="None" id="1393" similarity="4.0">
 		<t>O Programa Xuxa Meneghel na noite passada foi recheado de atrações, quando recebeu Sérgio Malandro.</t>
 		<h>A apresentadora Xuxa Meneghel recebeu Sérgio Malandro na noite passada em seu Programa na Rede Record.</h>
 	</pair>
@@ -5636,7 +5636,7 @@
 		<t>Houve flagrantes de arrastões em cinco pontos da cidade.</t>
 		<h>Os arrastões acontecem em pontos diferentes.</h>
 	</pair>
-	<pair entailment="Entailment" id="1410" similarity="5.0">
+	<pair entailment="None" id="1410" similarity="5.0">
 		<t>Ao todo, 73 apostas acertaram a quina, e levam cerca de R$ 49 mil.</t>
 		<h>A Quina saiu para 73 apostas, que levam R$ 49.031,90 cada.</h>
 	</pair>
@@ -6336,7 +6336,7 @@
 		<t>Eu fiquei muito feliz com as manifestações de carinho.</t>
 		<h>Sempre com muito carinho, dedicação e competência.</h>
 	</pair>
-	<pair entailment="None" id="1585" similarity="3.0">
+	<pair entailment="Entailment" id="1585" similarity="3.0">
 		<t>Mineirinho e Fanning duelarão pelo título na Califórnia ainda nesta sexta-feira.</t>
 		<h>Mineirinho e Fanning já se encontraram em uma final neste ano.</h>
 	</pair>
@@ -6360,7 +6360,7 @@
 		<t>Mais de 720 pessoas ficaram feridas e diversos bombeiros ainda estão desaparecidos.</t>
 		<h>A imprensa internacional avança que morreram sete pessoas e 300 ficaram feridas.</h>
 	</pair>
-	<pair entailment="None" id="1591" similarity="2.5">
+	<pair entailment="Entailment" id="1591" similarity="2.5">
 		<t>Em crimes contra a administração pública, há exigência de que tenham a mais ampla publicidade possível.</t>
 		<h>Em fase de ação penal, a publicidade deve ser ampla.</h>
 	</pair>
@@ -6600,7 +6600,7 @@
 		<t>De quebra, o atacante sueco de 34 anos também se tornou o maior artilheiro do Paris Saint-Germain.</t>
 		<h>Agora, o sueco é o maior artilheiro da história do Paris Saint-Germain.</h>
 	</pair>
-	<pair entailment="Entailment" id="1651" similarity="4.75">
+	<pair entailment="None" id="1651" similarity="4.75">
 		<t>A categoria reivindica aumento salarial e melhores condições de trabalho.</t>
 		<h>Funcionários pedem reajuste salarial e melhores condições de trabalho.</h>
 	</pair>
@@ -7240,7 +7240,7 @@
 		<t>O líder do partido também já reconheceu a derrota, mas garantiu que este partido está para ficar.</t>
 		<h>O Nova Democracia rapidamente reconheceu a derrota.</h>
 	</pair>
-	<pair entailment="None" id="1811" similarity="4.0">
+	<pair entailment="Entailment" id="1811" similarity="4.0">
 		<t>Segundo o Conare, o Brasil tem, hoje, 8.530 sírios na condição de refugiados.</t>
 		<h>Assim, o número de refugiados sirios reconhecidos pelo Conare chega a 8.530 pessoas.</h>
 	</pair>
@@ -7672,7 +7672,7 @@
 		<t>O primeiro chute a gol da equipe paulista veio apenas aos 17 minutos do primeiro tempo.</t>
 		<h>O primeiro chute a gol só saiu quase aos 20 minutos.</h>
 	</pair>
-	<pair entailment="None" id="1919" similarity="3.75">
+	<pair entailment="Entailment" id="1919" similarity="3.75">
 		<t>O pedido, porém, é negado por Alberto Youssef.</t>
 		<h>O doleiro Alberto Youssef nega esta versão.</h>
 	</pair>
@@ -7728,7 +7728,7 @@
 		<t>A embolia pulmonar se dá quando ocorre coágulo em uma artéria pulmonar.</t>
 		<h>A suspeita é de embolia pulmonar, mas o diagnóstico ainda não foi fechado.</h>
 	</pair>
-	<pair entailment="Entailment" id="1933" similarity="3.75">
+	<pair entailment="None" id="1933" similarity="3.75">
 		<t>O voo comercial desapareceu com 239 pessoas a bordo quando fazia a ligação entre Kuala Lumpur e Pequim.</t>
 		<h>O avião Boeing 777 desapareceu enquanto viajava de Kuala Lumpur para Pequim.</h>
 	</pair>
@@ -7876,7 +7876,7 @@
 		<t>Os investigadores da Lava Jato não concordam com a devolução dos veículos.</t>
 		<h>Os investigadores da Lava Jato ainda estão apurando as informações.</h>
 	</pair>
-	<pair entailment="Entailment" id="1970" similarity="4.25">
+	<pair entailment="None" id="1970" similarity="4.25">
 		<t>O mercado possuiu alguns nomes importantes que vamos analisar com calma a partir de agora.</t>
 		<h>O mercado possui, em disponibilidade, alguns nomes importantes que serão contactados.</h>
 	</pair>

@@ -24,7 +24,7 @@
 		<t>John Lennon nasceu em 9 de outubro de 1940 em Liverpool (Reino Unido).</t>
 		<h>Hoje, dia 9 de outubro, John Lennon estaria completando 75 anos.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="7" similarity="4.0">
+	<pair entailment="Entailment" id="7" similarity="4.0">
 		<t>Segundo Lagarde, esse fenômeno deverá levar o FMI a revisar para baixo a previsão de crescimento.</t>
 		<h>Esse fenômeno deve levar o FMI a revisar para baixo as projeções de crescimento.</h>
 	</pair>
@@ -240,7 +240,7 @@
 		<t>Desesperado em busca do empate, o Corinthians apostou no goleiro-linha para pressionar os mandantes.</t>
 		<h>Precisando do empate para evitar a prorrogação, o Corinthians partiu para o ataque.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="61" similarity="3.75">
+	<pair entailment="Entailment" id="61" similarity="3.75">
 		<t>A Apple não oferece dinheiro a quem descobre falhas em seus produtos.</t>
 		<h>Não é a Apple que está prometendo o valor para quem descobrir a falha.</h>
 	</pair>
@@ -508,7 +508,7 @@
 		<t>Ele disse que um outro colaborador da Lava Jato vai esclarecer o assunto.</t>
 		<h>Os dois estão entre os principais delatores da Operação Lava Jato.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="128" similarity="4.0">
+	<pair entailment="Entailment" id="128" similarity="4.0">
 		<t>Lady Gaga irá apresentar uma das categorias do próximo Emmy Awards.</t>
 		<h>Lady Gaga estará presente no próximo Emmy Awards como apresentadora.</h>
 	</pair>
@@ -596,7 +596,7 @@
 		<t>Para o técnico Eduardo Baptista, o time jogou bem, mas o empate acabou ficando de bom tamanho.</t>
 		<h>Em 12 jogos longe de Pernambuco, os comandados de Eduardo Baptista empataram oito e perderam quatro.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="150" similarity="4.25">
+	<pair entailment="Entailment" id="150" similarity="4.25">
 		<t>O anúncio foi feito após a reunião na capital alemã com seu colega Frank-Walter Steinmeier, ministro de Exterior da Alemanha.</t>
 		<h>A declaração foi dada após conversas com o ministro de Exterior da Alemanha, Frank-Walter Steinmeier.</h>
 	</pair>
@@ -700,7 +700,7 @@
 		<t>O programa Xuxa Meneghel desta segunda-feira, dia 14, não contará com sua apresentadora.</t>
 		<h>O programa Xuxa Meneghel dessa segunda-feira, 14, foi bem inusitado.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="176" similarity="3.75">
+	<pair entailment="Entailment" id="176" similarity="3.75">
 		<t>A PM precisa de outros atores para fazer seu papel porque o sistema está totalmente desequilibrado.</t>
 		<h>Precisamos de outros atores para fazer esse papel, porque o esquema está desequilibrado.</h>
 	</pair>
@@ -808,7 +808,7 @@
 		<t>O presidente do Senado, Renan Calheiros (PMDB-AL), comemorou a aprovação da PEC da Bengala.</t>
 		<h>A PEC da Bengala será promulgada nesta quinta-feira (7).</h>
 	</pair>
-	<pair entailment="Paraphrase" id="203" similarity="4.0">
+	<pair entailment="Entailment" id="203" similarity="4.0">
 		<t>O ex-jogador Vivinho faleceu aos 54 anos na manhã deste domingo, no Rio de Janeiro.</t>
 		<h>Morreu, na manhã deste domingo, aos 54 anos, o ex-jogador Vivinho.</h>
 	</pair>
@@ -1084,7 +1084,7 @@
 		<t>Mel exige que Vavá se separe de Janete.</t>
 		<h>Vavá anuncia que quer se separar de Janete.</h>
 	</pair>
-	<pair entailment="Entailment" id="272" similarity="2.25">
+	<pair entailment="None" id="272" similarity="2.25">
 		<t>Tem 12 vitórias, cinco empates e quatro derrotas na temporada.</t>
 		<h>Está com 13 vitórias, seis empates e duas derrotas no ano.</h>
 	</pair>
@@ -1168,7 +1168,7 @@
 		<t>Segundo o site "Deadline", sua primeira aparição será no sexto episódio, programado para janeiro.</t>
 		<h>Sua primeira aparição está prevista para o sexto episódio.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="293" similarity="3.5">
+	<pair entailment="None" id="293" similarity="3.5">
 		<t>Outros 6845 bilhetes acertam a quadra e levaram R$ 440,56.</t>
 		<h>Outros 21.476 bilhetes fizeram a quadra e vão levar R$ 440,56.</h>
 	</pair>
@@ -1228,7 +1228,7 @@
 		<t>O comandante da Unidade de Polícia Pacificadora (UPP) da Coroa será ouvido.</t>
 		<h>O morro tem uma Unidade de Polícia Pacificadora (UPP) desde 2011.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="308" similarity="4.0">
+	<pair entailment="Entailment" id="308" similarity="4.0">
 		<t>O caso foi encaminhado para o Comitê de Ética, que vai abrir uma investigação formal.</t>
 		<h>Além disso, o Comitê de Ética fará uma investigação formal das denúncias.</h>
 	</pair>
@@ -1540,7 +1540,7 @@
 		<t>O número de vitórias de Senna não é o único que Hamilton pode igualar em Singapura.</t>
 		<h>Por esta razão, Hamilton reconhece que uma vitória em Singapura seria especial.</h>
 	</pair>
-	<pair entailment="None" id="386" similarity="3.5">
+	<pair entailment="Entailment" id="386" similarity="3.5">
 		<t>O Brasil é um dos pouco países que obrigava automóveis a ter o extintor.</t>
 		<h>Extintor deixa de ser obrigatório em carros que circulam no Brasil.</h>
 	</pair>
@@ -1920,7 +1920,7 @@
 		<t>A saída da Grécia da zona do euro nunca foi uma opção para mim.</t>
 		<h>A população teme que o país saia da zona do euro.</h>
 	</pair>
-	<pair entailment="Entailment" id="481" similarity="4.0">
+	<pair entailment="None" id="481" similarity="4.0">
 		<t>Os acessos à Vista Chinesa, no Alto da Boa Vista também estão fechadas até às 13h.</t>
 		<h>Os acessos à Vista Chinesa também estão fechados das 5h às 13h.</h>
 	</pair>
@@ -1956,7 +1956,7 @@
 		<t>Por isso, ele criticou a tentativa de se votar apressadamente o projeto do senador José Serra.</t>
 		<h>O senador Roberto Requião (PMDB-PR) estranhou a agilidade para votação do projeto.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="490" similarity="4.0">
+	<pair entailment="Entailment" id="490" similarity="4.0">
 		<t>A presidente dedicou parte do discurso para falar de economia e no final falou de corrupção.</t>
 		<h>No fim do discurso, Dilma falou de corrupção.</h>
 	</pair>
@@ -2024,7 +2024,7 @@
 		<t>A cantora Gaby Amarantos falou pela primeira vez após a morte da mãe, Elza dos Santos.</t>
 		<h>A cantora Gaby Amarantos publicou um longo texto em sua fanpage sobre a morte de sua mãe, Elza.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="507" similarity="4.75">
+	<pair entailment="Entailment" id="507" similarity="4.75">
 		<t>Sophia Abrahão abandonou os fios ruivos claros e agora exibe cabelos num tom mais escuro, quase vinho.</t>
 		<h>A atriz e cantora Sophia Abrahão trocou o tom ruivo que vinha exibindo por um vermelho mais escuro, quase vinho.</h>
 	</pair>
@@ -2516,7 +2516,7 @@
 		<t>Inicialmente, o pedido foi encaminhado ao ministro Teori Zavascki, relator dos inquéritos da Lava Jato no STF.</t>
 		<h>Os trechos da delação foram encaminhados primeiro ao relator da Lava Jato no STF, ministro Teori Zavascki.</h>
 	</pair>
-	<pair entailment="Entailment" id="630" similarity="2.75">
+	<pair entailment="None" id="630" similarity="2.75">
 		<t>007 contra Spectre será lançado no Brasil em 5 de novembro de 2015.</t>
 		<h>O filme será lançado nos Estados Unidos em 6 de novembro de 2015.</h>
 	</pair>
@@ -3028,7 +3028,7 @@
 		<t>Segundo os organizadores, a estrutura dos Jogos Olímpicos não será afetada.</t>
 		<h>Segundo a organização, as salas que ficam atrás das instalações olímpicas serão abertas para economizar.</h>
 	</pair>
-	<pair entailment="Entailment" id="758" similarity="3.0">
+	<pair entailment="None" id="758" similarity="3.0">
 		<t>O corpo de Sofia deverá ser trasladado para o Brasil em breve.</t>
 		<h>O corpo de Sofia será cremado nos Estados Unidos.</h>
 	</pair>
@@ -3052,7 +3052,7 @@
 		<t>Lambert surpreendeu cantando um sucesso seu, Ghost Town.</t>
 		<h>Você cantou “Ghost Town” pela primeira vez com o Queen.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="764" similarity="4.5">
+	<pair entailment="Entailment" id="764" similarity="4.5">
 		<t>Carlos Miguel Aidar colocará na terça-feira um ponto final em sua passagem como presidente do São Paulo.</t>
 		<h>Carlos Miguel Aidar vai renunciar da presidência do São Paulo na terça-feira.</h>
 	</pair>
@@ -3168,7 +3168,7 @@
 		<t>Temos entre mulheres brancas um desemprego de cerca de 9%, entre as mulheres negras ultrapassa 12%.</t>
 		<h>Segundo Marli, encontrar mulheres negras entre estudantes e professores é ainda mais difícil.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="793" similarity="4.0">
+	<pair entailment="Entailment" id="793" similarity="4.0">
 		<t>A Universidade do Norte do Arizona é pública e tem mais de 25 mil universitários em seu campus de Flagstaff.</t>
 		<h>A Universidade do Norte do Arizona fica na cidade de Flagstaff e possui mais de 25 mil universitários.</h>
 	</pair>
@@ -4060,7 +4060,7 @@
 		<t>Os candidatos e os partidos não vão mais poder contar com o financiamento das empresas.</t>
 		<h>O que se propõe é o financiamento de pessoas jurídicas a partidos políticos.</h>
 	</pair>
-	<pair entailment="None" id="1016" similarity="3.75">
+	<pair entailment="Entailment" id="1016" similarity="3.75">
 		<t>Pizzolato ainda poderá recorrer à Corte Europeia de Direitos Humanos, em Estrasburgo, na França.</t>
 		<h>A última medida que Pizzolato pode tentar é um recurso na Corte Europeia de Direitos Humanos.</h>
 	</pair>
@@ -4816,7 +4816,7 @@
 		<t>O sepultamento dela foi realizado no final da tarde desta quarta, no cemitério Jardim das Palmeiras, na avenida Tamandaré.</t>
 		<h>O sepultamento está previsto para as 17 horas no Cemitério Jardim das Palmeiras.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1205" similarity="4.75">
+	<pair entailment="Entailment" id="1205" similarity="4.75">
 		<t>O feriado prolongado termina e junto com ele as instabilidades dão uma trégua para a Região Sul.</t>
 		<h>As instabilidades sobre a Região Sul cessam após o feriado prolongado.</h>
 	</pair>
@@ -4924,7 +4924,7 @@
 		<t>A Holanda receberá a República Checa e Turquia terá pela frente a Islândia, em casa.</t>
 		<h>A Turquia ainda neste sábado visitará a República Checa.</h>
 	</pair>
-	<pair entailment="None" id="1232" similarity="3.25">
+	<pair entailment="Entailment" id="1232" similarity="3.25">
 		<t>Semifinalista em 2013, será a primeira vez que Pennetta disputará a final do US Open.</t>
 		<h>Pennetta ainda não tinha passado das semifinais do US Open.</h>
 	</pair>
@@ -5556,7 +5556,7 @@
 		<t>A sequência foi ao ar na noite de terça-feira (22) e bombou nas redes sociais.</t>
 		<h>Muitos internautas elogiaram a cena e a interpretação da atriz nas redes sociais.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1390" similarity="4.25">
+	<pair entailment="Entailment" id="1390" similarity="4.25">
 		<t>Depois dessa fase, os ingressos restantes serão vendidos pela internet de dezembro de 2015 a setembro de 2016.</t>
 		<h>Os ingressos restantes serão vendidos no site de dezembro, de 2015, até setembro de 2016.</h>
 	</pair>
@@ -5568,7 +5568,7 @@
 		<t>Durante a visita, a Alemanha se comprometeu a desembolsar 100 milhões de euros apenas para o Fundo Amazônia.</t>
 		<h>A Noruega desembolsou, desde 2008, um total de mais de US$ 900 milhões para o Fundo Amazônia.</h>
 	</pair>
-	<pair entailment="Entailment" id="1393" similarity="4.0">
+	<pair entailment="None" id="1393" similarity="4.0">
 		<t>O Programa Xuxa Meneghel na noite passada foi recheado de atrações, quando recebeu Sérgio Malandro.</t>
 		<h>A apresentadora Xuxa Meneghel recebeu Sérgio Malandro na noite passada em seu Programa na Rede Record.</h>
 	</pair>
@@ -5968,7 +5968,7 @@
 		<t>Ao Galo, resta vencer para cancelar a vantagem da Veterana, imposta pelo regulamento.</t>
 		<h>Ao Galo só a vitória interessa para vencer o Campeonato Estadual.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1493" similarity="4.0">
+	<pair entailment="Entailment" id="1493" similarity="4.0">
 		<t>Na quinta bateria do dia, Wiggolly Dantas desafiou o australiano Taj Burrow e se deu bem.</t>
 		<h>Na quinta bateria do dia, Wiggolly Dantas enfrentou australiano Taj Burrow.</h>
 	</pair>
@@ -6156,7 +6156,7 @@
 		<t>Com o aumento, o preço do botijão deve passar para cerca de R$ 50,00.</t>
 		<h>A alta para o consumidor será de cerca de R$ 3 por botijão.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1540" similarity="4.25">
+	<pair entailment="Entailment" id="1540" similarity="4.25">
 		<t>A Conmebol julga que a suspensão é desproporcional e prematura.</t>
 		<h>A entidade considerou a decisão desproporcional e prematura.</h>
 	</pair>
@@ -6528,7 +6528,7 @@
 		<t>No entanto, o CEO da Apple, Tim Cook, recusa-se por enquanto a falar publicamente do projeto.</t>
 		<h>O CEO da Apple, Tim Cook, é esquivo quando questionado sobre o assunto.</h>
 	</pair>
-	<pair entailment="Entailment" id="1633" similarity="4.25">
+	<pair entailment="None" id="1633" similarity="4.25">
 		<t>Trinta dos 38 mortos no resort da cidade de Sousse eram turistas britânicos.</t>
 		<h>Pelo menos 38 pessoas morreram, sendo 30 britânicos.</h>
 	</pair>
@@ -6920,7 +6920,7 @@
 		<t>Daniel Ricciardo, da Red Bull, e Kimi Raikkonen, da Ferrari, completaram o pódio.</t>
 		<h>Kimi Raikkonen, da Ferrari, e Daniil Kvyat, da Red Bull, integram o grupo dos quatro primeiros.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1731" similarity="4.0">
+	<pair entailment="Entailment" id="1731" similarity="4.0">
 		<t>Outros três funcionários da obra ficaram feridos, e um continua internado, com fratura no ombro.</t>
 		<h>Outros três funcionários da obra ficaram feridos durante o ocorrido, um segue internado.</h>
 	</pair>
@@ -6968,7 +6968,7 @@
 		<t>A novela Velho Chico será dividida em três diferentes fases.</t>
 		<h>A novela terá três fases sendo que a primeira se passa em 1968.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1743" similarity="4.25">
+	<pair entailment="Entailment" id="1743" similarity="4.25">
 		<t>A situação de chuva intensa e queda de granizo deve continuar para os próximos dias.</t>
 		<h>Para os próximos dias, a previsão é de chuvas intensas e queda de granizo.</h>
 	</pair>
@@ -7180,7 +7180,7 @@
 		<t>A média nacional de vacinação foi 94,4% das crianças de 6 meses a 5 anos incompletos.</t>
 		<h>Pelo menos 95% das crianças de cada estado entre seis meses e cinco anos incompletos precisavam ser vacinadas.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1796" similarity="4.0">
+	<pair entailment="Entailment" id="1796" similarity="4.0">
 		<t>Meia do Inter foi diagnosticado com hérnia de disco na última terça-feira e desfalca o Colorado por tempo indeterminado.</t>
 		<h>O meia do Inter teve constatado uma hérnia de disco e vai ficar afastado dos gramados por tempo indeterminado.</h>
 	</pair>
@@ -7204,7 +7204,7 @@
 		<t>Apenas os homicídios, com 52 mil ocorrências (89,3%), superam esses números.</t>
 		<h>Os registros apontam que Maceió registrou em 2014 69,5 homicídios para cada 100 mil habitantes.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1802" similarity="4.0">
+	<pair entailment="Entailment" id="1802" similarity="4.0">
 		<t>Travestis e transexuais interessados em usar o nome social na prova devem fazer o pedido via internet.</t>
 		<h>Travestis e transexuais podem solicitar o uso do nome social no exame.</h>
 	</pair>
@@ -7440,7 +7440,7 @@
 		<t>Este é o 12º evento-teste dos Jogos Olímpicos do Rio e o primeiro no Parque Radical de Deodoro.</t>
 		<h>O Parque Radical de Deodoro enfim recebeu o evento-teste de ciclismo BMX.</h>
 	</pair>
-	<pair entailment="Entailment" id="1861" similarity="2.25">
+	<pair entailment="None" id="1861" similarity="2.25">
 		<t>Essa será a primeira fábrica da Jaguar Land Rover totalmente própria fora do Reino Unido.</t>
 		<h>A Jaguar Land Rover é a maior fabricante de automóveis do Reino Unido.</h>
 	</pair>
@@ -7656,7 +7656,7 @@
 		<t>A vacina contra o HPV consiste em três doses.</t>
 		<h>O esquema vacinal da vacina HPV é de 3 doses.</h>
 	</pair>
-	<pair entailment="Entailment" id="1915" similarity="4.0">
+	<pair entailment="None" id="1915" similarity="4.0">
 		<t>A ferramenta detecta automaticamente sua foto de perfil atual e aplica o filtro por cima.</t>
 		<h>A ferramenta aplica o filtro e faz a troca no perfil do usuário automaticamente.</h>
 	</pair>

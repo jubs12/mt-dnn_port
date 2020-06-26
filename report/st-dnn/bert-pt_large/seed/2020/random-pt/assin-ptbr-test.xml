@@ -60,7 +60,7 @@
 		<t>Os recursos são transferidos para o HU pelo próprio Ministério da Saúde.</t>
 		<h>A partir de agora o município não tem mais recurso para repassar ao HU.</h>
 	</pair>
-	<pair entailment="None" id="16" similarity="3.25">
+	<pair entailment="Entailment" id="16" similarity="3.25">
 		<t>A ex-BBB foi clicada tomando sol na areia e se refrescou com mergulhos no mar.</t>
 		<h>A ex-BBB mostrou o corpo saradíssimo ao tomar banho de mar.</h>
 	</pair>
@@ -76,7 +76,7 @@
 		<t>E Snowden mostrou bom humor em sua estreia no Twitter.</t>
 		<h>Em sua descrição no Twitter, Snowden diz: "Eu trabalhava para o governo."</h>
 	</pair>
-	<pair entailment="Entailment" id="20" similarity="4.0">
+	<pair entailment="Paraphrase" id="20" similarity="4.0">
 		<t>Eu tive que desistir de muitos papéis bons porque estava ligado a Game of Thrones.</t>
 		<h>Perdi muita coisa porque estava preso a Game of Thrones.</h>
 	</pair>
@@ -240,7 +240,7 @@
 		<t>Desesperado em busca do empate, o Corinthians apostou no goleiro-linha para pressionar os mandantes.</t>
 		<h>Precisando do empate para evitar a prorrogação, o Corinthians partiu para o ataque.</h>
 	</pair>
-	<pair entailment="Entailment" id="61" similarity="3.75">
+	<pair entailment="Paraphrase" id="61" similarity="3.75">
 		<t>A Apple não oferece dinheiro a quem descobre falhas em seus produtos.</t>
 		<h>Não é a Apple que está prometendo o valor para quem descobrir a falha.</h>
 	</pair>
@@ -400,7 +400,7 @@
 		<t>É uma espécie de empréstimo as chamadas "pedaladas fiscais".</t>
 		<h>Entre elas, estão as manobras que ficaram conhecidas como “pedaladas fiscais”.</h>
 	</pair>
-	<pair entailment="Entailment" id="101" similarity="4.75">
+	<pair entailment="None" id="101" similarity="4.75">
 		<t>Léo Pelé foi vítima de uma fratura no quinto metatarso do pé direito, e não jogará mais este ano.</t>
 		<h>Léo Pelé fraturou o quinto metatarso do pé direito e é baixa para o restante da temporada.</h>
 	</pair>
@@ -948,7 +948,7 @@
 		<t>Estudantes e idosos pagam meia entrada, e crianças de até 6 anos não pagam.</t>
 		<h>Pedestres pagam R$ 13, e estudantes e idosos têm desconto.</h>
 	</pair>
-	<pair entailment="Entailment" id="238" similarity="4.0">
+	<pair entailment="None" id="238" similarity="4.0">
 		<t>Ele possui um teclado removível que se fica ao tablet magneticamente e é carregado via indução, uma tomada a menos.</t>
 		<h>O teclado, vendido separadamente, possui tecnologia de carregamento por indução.</h>
 	</pair>
@@ -1152,7 +1152,7 @@
 		<t>Dos 37 blocos arrematados, 31 são em terra e dois no mar.</t>
 		<h>Na primeira licitação, dos 14 blocos oferecidos seis foram arrematados com cinco propostas.</h>
 	</pair>
-	<pair entailment="Entailment" id="289" similarity="4.75">
+	<pair entailment="Paraphrase" id="289" similarity="4.75">
 		<t>Isso significa que, em um espaço planejado para dez pessoas, há em média hoje 16 presos.</t>
 		<h>Ou seja, a cada espaço concebido para dez detentos, estão 16.</h>
 	</pair>
@@ -2048,7 +2048,7 @@
 		<t>A jovem rasgará seu vestido de noiva e correrá para a boate.</t>
 		<h>Enquanto Tóia, revoltada, rasga seu vestido de noiva, está rolando uma perseguição policial.</h>
 	</pair>
-	<pair entailment="None" id="513" similarity="4.0">
+	<pair entailment="Paraphrase" id="513" similarity="4.0">
 		<t>Os primeiros a experimentar os vídeos de perfil são donos de iPhones do Reino Unido e do estado da Califórnia (EUA).</t>
 		<h>Similar às chamadas Live Photos dos novos iPhones, os vídeos de perfil chegam primeiro aos usuários dos EUA e Reino Unido.</h>
 	</pair>
@@ -2212,7 +2212,7 @@
 		<t>No caso ao auxílio-doença, o prazo varia de 15 dias a 2 anos.</t>
 		<h>INSS vai prorrogar o pagamento de auxílio-doença.</h>
 	</pair>
-	<pair entailment="Entailment" id="554" similarity="3.75">
+	<pair entailment="None" id="554" similarity="3.75">
 		<t>O goleiro Victor rasgou elogios ao ex-companheiro e deixou as portas do clube abertas para Ronaldinho Gaúcho.</t>
 		<h>O goleiro Victor abriu as portas do Atlético-MG para um possível retorno do meia Ronaldinho Gaúcho ao clube.</h>
 	</pair>
@@ -2528,7 +2528,7 @@
 		<t>Delcídio disse que o governo deve enviar ao Congresso a proposta de 0,20 (por cento).</t>
 		<h>A proposta do governo ao Congresso é 0,20 (por cento).</h>
 	</pair>
-	<pair entailment="Paraphrase" id="633" similarity="4.0">
+	<pair entailment="Entailment" id="633" similarity="4.0">
 		<t>Os updates de atualização do sistema operacional são realizados semanalmente com base nos feedbacks dos clientes, tendo passado em cinco anos por 255 atualizações.</t>
 		<h>Com um ciclo de desenvolvimento semanal, o sistema operacional em cinco anos já passou por 255 atualizações.</h>
 	</pair>
@@ -2824,7 +2824,7 @@
 		<t>Roger Machado e Juan Carlos Osorio são dos nomes mais falados neste Campeonato Brasileiro.</t>
 		<h>O técnico pode ter outro retorno nesta quarta-feira.</h>
 	</pair>
-	<pair entailment="Entailment" id="707" similarity="2.75">
+	<pair entailment="None" id="707" similarity="2.75">
 		<t>Tem uma divergência que é entre tratar sobre lucro e tratar sobre aumento de taxa.</t>
 		<h>Tratar sobre lucro é mais difícil, porque você não controla o lucro.</h>
 	</pair>
@@ -3484,7 +3484,7 @@
 		<t>Os peregrinos iniciaram o ritual de apedrejamento de satã nesta quinta-feira, primeiro dia da festa do Adha.</t>
 		<h>Em 2006, mais de 360 peregrinos morreram durante o ritual de apedrejamento.</h>
 	</pair>
-	<pair entailment="Entailment" id="872" similarity="4.0">
+	<pair entailment="None" id="872" similarity="4.0">
 		<t>Nestor Cerveró foi condenado por usar uma empresa de fachada para esconder a compra de um imóvel.</t>
 		<h>MPF acusou Cerveró de criar empresa de fachada para ocultar compra de imóvel.</h>
 	</pair>
@@ -4096,7 +4096,7 @@
 		<t>O Grêmio enfrenta o Cruzeiro no domingo às 16h (horário de Brasília).</t>
 		<h>A partida no Mineirão ocorre no domingo, às 16h, pelo Campeonato Brasileiro.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1025" similarity="3.5">
+	<pair entailment="None" id="1025" similarity="3.5">
 		<t>Na semana, a moeda americana acumulou avanço de 0,26%.</t>
 		<h>Na semana, o dólar acumulou alta de 0,35 por cento.</h>
 	</pair>
@@ -4172,7 +4172,7 @@
 		<t>O novo texto foi aprovado por 323 votos favoráveis, 155 contrários e duas abstenções.</t>
 		<h>A emenda terminou sendo aprovada por 323 votos favoráveis e 155 votos contrários.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1044" similarity="4.25">
+	<pair entailment="Entailment" id="1044" similarity="4.25">
 		<t>Eles teriam sido usados para recrutar gerentes da Caixa para a fraude.</t>
 		<h>Eles eram usados para recrutar gerentes do banco para agir no esquema.</h>
 	</pair>
@@ -4576,7 +4576,7 @@
 		<t>A chanceler do México exigiu do embaixador do Egito no país uma investigação e explicação do incidente.</t>
 		<h>Governo do México exige investigação sobre o ocorrido.</h>
 	</pair>
-	<pair entailment="Entailment" id="1145" similarity="3.75">
+	<pair entailment="None" id="1145" similarity="3.75">
 		<t>Segundo o prefeito Nutter, o maquinista já deu seu depoimento à polícia.</t>
 		<h>Ferido no acidente, o maquinista forneceu à Polícia o depoimento ocorrido.</h>
 	</pair>
@@ -4604,7 +4604,7 @@
 		<t>Nardes garantiu que a análise das irregularidades será estritamente técnica.</t>
 		<h>Adams lembra que a análise do TCU é técnica e não política.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1152" similarity="3.5">
+	<pair entailment="None" id="1152" similarity="3.5">
 		<t>Quem não conseguir alocação terá acesso às vagas remanescentes, a serem divulgadas em novembro.</t>
 		<h>Caso o médico não consiga alocação, terá acesso às vagas remanescentes em outro momento.</h>
 	</pair>
@@ -4832,7 +4832,7 @@
 		<t>Street Fighter V terá versões de PC e PS4, e chega às prateleiras físicas e virtuais em 2016.</t>
 		<h>Street Fighter 5 será lançado em 2016 apenas para PS4 e PC.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1209" similarity="5.0">
+	<pair entailment="Entailment" id="1209" similarity="5.0">
 		<t>A presidente informou que até quarta-feira da próxima semana, o governo apresentará a proposta de reforma administrativa.</t>
 		<h>A presidente disse ainda que a reforma administrativa será divulgada até a quarta-feira da próxima semana.</h>
 	</pair>
@@ -4960,7 +4960,7 @@
 		<t>A cor vermelha é resultado da influência da atmosfera terrestre nos raios de luz.</t>
 		<h>O efeito de mudança da cor tem a ver com o estado da atmosfera terrestre.</h>
 	</pair>
-	<pair entailment="Entailment" id="1241" similarity="2.25">
+	<pair entailment="None" id="1241" similarity="2.25">
 		<t>A menina só conseguiu a viagem para realizar o transplante nos Estados Unidos após várias decisões favoráveis da Justiça.</t>
 		<h>Várias crianças conseguiram decisões favoráveis após a conquista da Sofia.</h>
 	</pair>
@@ -5104,7 +5104,7 @@
 		<t>Nós votaremos e manteremos os vetos com toda a tranquilidade.</t>
 		<h>A oposição precisa ter essa mesma coerência.</h>
 	</pair>
-	<pair entailment="Entailment" id="1277" similarity="4.5">
+	<pair entailment="None" id="1277" similarity="4.5">
 		<t>Nos sete primeiros meses de ano, já foram registrados 1.350.406 casos de dengue.</t>
 		<h>Nos sete primeiros meses deste ano, já foram registrados mais de 1,3 milhões de casos de dengue.</h>
 	</pair>
@@ -5364,7 +5364,7 @@
 		<t>É apenas a constatação de que teremos duas luas cheias acontecendo num mesmo mês.</t>
 		<h>O evento acontece quando ocorrem duas luas cheias no mesmo mês.</h>
 	</pair>
-	<pair entailment="Entailment" id="1342" similarity="4.25">
+	<pair entailment="None" id="1342" similarity="4.25">
 		<t>Um dos dirigentes, Jeffrey Webb, aceitou de forma voluntária ser extraditado aos Estados Unidos.</t>
 		<h>Jeffrey Webb, ex-vice-presidente da Fifa, pediu para ser extraditado aos EUA.</h>
 	</pair>
@@ -5376,7 +5376,7 @@
 		<t>Não vejo a hora de jogar.</t>
 		<h>Já o volante Maicon, que ficou fora dos últimos quatro jogos, também tem retorno garantido.</h>
 	</pair>
-	<pair entailment="Entailment" id="1345" similarity="5.0">
+	<pair entailment="Paraphrase" id="1345" similarity="5.0">
 		<t>A cheia no Guaíba é a terceira maior da história a ser registrada pela Prefeitura de Porto Alegre.</t>
 		<h>Em Porto Alegre, houve a terceira maior cheia do Guaíba já registrada pela prefeitura.</h>
 	</pair>
@@ -5556,7 +5556,7 @@
 		<t>A sequência foi ao ar na noite de terça-feira (22) e bombou nas redes sociais.</t>
 		<h>Muitos internautas elogiaram a cena e a interpretação da atriz nas redes sociais.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1390" similarity="4.25">
+	<pair entailment="Entailment" id="1390" similarity="4.25">
 		<t>Depois dessa fase, os ingressos restantes serão vendidos pela internet de dezembro de 2015 a setembro de 2016.</t>
 		<h>Os ingressos restantes serão vendidos no site de dezembro, de 2015, até setembro de 2016.</h>
 	</pair>
@@ -5616,7 +5616,7 @@
 		<t>O Vasco jogou melhor contra Figueirense e Atlético-MG, e nos dois jogos perdeu.</t>
 		<h>Jogamos bem contra Figueirense e Atlético-MG, mas a bola não quis entrar.</h>
 	</pair>
-	<pair entailment="Entailment" id="1405" similarity="3.75">
+	<pair entailment="None" id="1405" similarity="3.75">
 		<t>Quem terá mais motivos para se preocupar agora é o técnico Luis Enrique.</t>
 		<h>O técnico Luis Enrique deve se preocupar com a situação do jogador.</h>
 	</pair>
@@ -5636,7 +5636,7 @@
 		<t>Houve flagrantes de arrastões em cinco pontos da cidade.</t>
 		<h>Os arrastões acontecem em pontos diferentes.</h>
 	</pair>
-	<pair entailment="Entailment" id="1410" similarity="5.0">
+	<pair entailment="Paraphrase" id="1410" similarity="5.0">
 		<t>Ao todo, 73 apostas acertaram a quina, e levam cerca de R$ 49 mil.</t>
 		<h>A Quina saiu para 73 apostas, que levam R$ 49.031,90 cada.</h>
 	</pair>
@@ -5868,7 +5868,7 @@
 		<t>Teve duas chances de quebra no quarto game, mas desperdiçou todas.</t>
 		<h>Chegou perto de uma quebra no quarto game, mas o croata se recuperou e confirmou o serviço.</h>
 	</pair>
-	<pair entailment="Entailment" id="1468" similarity="3.5">
+	<pair entailment="None" id="1468" similarity="3.5">
 		<t>Atualmente, comandava o MS Rural e a previsão do tempo do MSTV 2ª Edição.</t>
 		<h>Recentemente, também passou a apresentar a previsão do tempo no MSTV 2ª Edição.</h>
 	</pair>
@@ -6084,7 +6084,7 @@
 		<t>Lucas Pratto recebeu nessa semana a visita da família.</t>
 		<h>Foram sete partidas pelo Campeonato Brasileiro em que Lucas Pratto marcou gol.</h>
 	</pair>
-	<pair entailment="Entailment" id="1522" similarity="3.75">
+	<pair entailment="Paraphrase" id="1522" similarity="3.75">
 		<t>Na próxima semana, a CPI irá receber alguns presidentes de federações espalhadas pelo país.</t>
 		<h>Na próxima semana, a CPI realiza audiência pública com presidentes de federações de futebol.</h>
 	</pair>
@@ -6120,7 +6120,7 @@
 		<t>Nada é proibido, mas na seleção brasileira não é local para exposição religiosa ou política.</t>
 		<h>Não tem nada ganho no Brasileiro, completou Elias.</h>
 	</pair>
-	<pair entailment="Entailment" id="1531" similarity="2.5">
+	<pair entailment="None" id="1531" similarity="2.5">
 		<t>O que acontece é que este fenômeno, relativamente raro, acontece quando um mês tem duas luas cheias.</t>
 		<h>O fenômeno é considerado raro porque não acontece todo dia.</h>
 	</pair>
@@ -6640,7 +6640,7 @@
 		<t>O índice de tecnologia Nasdaq recuou 3,52 por cento, a 4.706 pontos.</t>
 		<h>O S&amp;P 500 recuou 2,11 por cento, a 2.035 pontos.</h>
 	</pair>
-	<pair entailment="Entailment" id="1661" similarity="3.5">
+	<pair entailment="Paraphrase" id="1661" similarity="3.5">
 		<t>Outro fenômeno como este só está previsto para acontecer novamente em 2033.</t>
 		<h>Os dois fenômenos naturais só voltarão a acontecer juntos em 2033.</h>
 	</pair>
@@ -7100,7 +7100,7 @@
 		<t>Kátia Abreu participa de missão brasileira na Rússia, jutamente com a presidenta Dilma Rousseff.</t>
 		<h>Kátia Abreu participa de missão brasileira na Rússia desde ontem (7).</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1776" similarity="4.0">
+	<pair entailment="Entailment" id="1776" similarity="4.0">
 		<t>Pizzolato fugiu em 2013, usando o passaporte falso de um irmão morto há mais de 30 anos e ficou foragido na Itália.</t>
 		<h>Um passaporte falso de um irmão morto há mais de 30 anos foi usado por Pizzolato durante o tempo que ficou foragido na Itália.</h>
 	</pair>
@@ -7240,7 +7240,7 @@
 		<t>O líder do partido também já reconheceu a derrota, mas garantiu que este partido está para ficar.</t>
 		<h>O Nova Democracia rapidamente reconheceu a derrota.</h>
 	</pair>
-	<pair entailment="Entailment" id="1811" similarity="4.0">
+	<pair entailment="Paraphrase" id="1811" similarity="4.0">
 		<t>Segundo o Conare, o Brasil tem, hoje, 8.530 sírios na condição de refugiados.</t>
 		<h>Assim, o número de refugiados sirios reconhecidos pelo Conare chega a 8.530 pessoas.</h>
 	</pair>
@@ -7284,7 +7284,7 @@
 		<t>Mesmo assim, o time saiu de campo com bronca da arbitragem de Wilton Pereira Sampaio.</t>
 		<h>Após o jogo no Allianz Parque, sobrou bronca do lado palmeirense ao árbitro Wilton Pereira Sampaio.</h>
 	</pair>
-	<pair entailment="Entailment" id="1822" similarity="3.5">
+	<pair entailment="None" id="1822" similarity="3.5">
 		<t>O Ibovespa fechou a terça-feira na máxima de 54.236,43 pontos, em alta de 2,27%.</t>
 		<h>A Bolsa de Valores de São Paulo fechou em alta nesta terça-feira.</h>
 	</pair>
@@ -7568,7 +7568,7 @@
 		<t>Contentou-se muito quando cantaram junto "Future love paradise" e a já citada "Kiss from a rose".</t>
 		<h>Uma hora depois, entregou ao público "Kiss from a Rose".</h>
 	</pair>
-	<pair entailment="None" id="1893" similarity="4.0">
+	<pair entailment="Entailment" id="1893" similarity="4.0">
 		<t>Os atores Bruna Marquezine, 20, e Maurício Destri, 24, não estão mais juntos.</t>
 		<h>O romance de Bruna Marquezine e Maurício Destri chegou ao fim.</h>
 	</pair>

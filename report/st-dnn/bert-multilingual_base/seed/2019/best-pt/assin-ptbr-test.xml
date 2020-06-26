@@ -24,7 +24,7 @@
 		<t>John Lennon nasceu em 9 de outubro de 1940 em Liverpool (Reino Unido).</t>
 		<h>Hoje, dia 9 de outubro, John Lennon estaria completando 75 anos.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="7" similarity="4.0">
+	<pair entailment="Entailment" id="7" similarity="4.0">
 		<t>Segundo Lagarde, esse fenômeno deverá levar o FMI a revisar para baixo a previsão de crescimento.</t>
 		<h>Esse fenômeno deve levar o FMI a revisar para baixo as projeções de crescimento.</h>
 	</pair>
@@ -132,7 +132,7 @@
 		<t>Enquanto isto, não deixar que cães e gatos se aproximem do mamífero.</t>
 		<h>Cães e gatos devem ficar afastados do mamífero.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="34" similarity="4.75">
+	<pair entailment="Entailment" id="34" similarity="4.75">
 		<t>A Microsoft deve apresentar uma nova geração de aparelhos com Windows 10.</t>
 		<h>A Microsoft vai revelar novos dispostivos com Windows 10.</h>
 	</pair>
@@ -164,11 +164,11 @@
 		<t>O problema afeta tanto usuários da web, quanto quem tenta acessar o Facebook pelo celular.</t>
 		<h>Facebook sai do ar e usuários não conseguem acessar a rede social.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="42" similarity="4.75">
+	<pair entailment="Entailment" id="42" similarity="4.75">
 		<t>Angela Merkel foi a pessoa que tomou a liderança sobre o tema na Europa.</t>
 		<h>Merkel foi a pessoa que assumiu a liderança desta questão na Europa.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="43" similarity="4.25">
+	<pair entailment="Entailment" id="43" similarity="4.25">
 		<t>O pedido inclui os afastamento dos 17 vereadores que votaram pela cassação de Bernal e continuam na Câmara.</t>
 		<h>Também consta no pedido o afastamento dos 17 vereadores que votaram, na época, pela cassação de Bernal.</h>
 	</pair>
@@ -184,7 +184,7 @@
 		<t>Parlamentares da base governista defendem a isenção do tributo para a população que não paga Imposto de Renda.</t>
 		<h>Para diminuir a resistência, os governistas passaram a defender a criação da faixa de isenção para o tributo.</h>
 	</pair>
-	<pair entailment="Entailment" id="47" similarity="4.0">
+	<pair entailment="None" id="47" similarity="4.0">
 		<t>O Kremlin tem sido um aliado constante do regime sírio, mesmo antes do início do conflito.</t>
 		<h>A Rússia é uma aliada do regime do presidente sírio.</h>
 	</pair>
@@ -312,7 +312,7 @@
 		<t>Nunca se combateu a corrupção tão severamente.</t>
 		<h>Dilma afirmou que seu governo está comprometido com o combate à corrupção.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="79" similarity="4.0">
+	<pair entailment="Entailment" id="79" similarity="4.0">
 		<t>No próximo sábado, às 18h30min, o Grêmio encara o Palmeiras no Pacaembu pelo Campeonato Brasileiro.</t>
 		<h>O jogo Grêmio contra o Palmeiras ocorre no sábado, às 18h30min, no Pacaembu.</h>
 	</pair>
@@ -356,7 +356,7 @@
 		<t>Juntamente com a câmera, o grupo enviou um smartphone especial com GPS para poder localizar a GoPro.</t>
 		<h>Um grupo de estudantes recuperou uma câmara GoPro dois anos depois de ter sido lançada ao espaço.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="90" similarity="4.0">
+	<pair entailment="Entailment" id="90" similarity="4.0">
 		<t>Money mascou chiclete e sorriu enquanto o rival cruzava os braços e o fuzilava com o olhar.</t>
 		<h>"Money" mascou chicletes e chegou a dar uma risada.</h>
 	</pair>
@@ -392,7 +392,7 @@
 		<t>A média nacional de 5.487 kg/ha é 0,6% maior que a informada no mês anterior.</t>
 		<h>O rendimento médio aumentou 0,2%, totalizando 5.650 kg/ha.</h>
 	</pair>
-	<pair entailment="Entailment" id="99" similarity="4.25">
+	<pair entailment="None" id="99" similarity="4.25">
 		<t>O Botafogo vai a São Luís na sexta-feira para enfrentar o Sampaio Corrêa, no Castelão, às 21h.</t>
 		<h>Na próxima sexta-feira, o Botafogo vai enfrentar o Sampaio Corrêa, em São Luís (MA).</h>
 	</pair>
@@ -432,7 +432,7 @@
 		<t>O mesmo site diz, no entanto, que Justin Bieber está até gostando da repercussão.</t>
 		<h>Justin Bieber foi mais uma vítima do vazamento de fotos na internet.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="109" similarity="3.25">
+	<pair entailment="Entailment" id="109" similarity="3.25">
 		<t>Antes, Janot fez um discurso breve em que se emocionou ao agradecer o apoio da família.</t>
 		<h>Emocionado, no final do discurso, Janot fez uma breve pausa e agradeceu aos colegas de trabalho.</h>
 	</pair>
@@ -576,7 +576,7 @@
 		<t>Zico quer a presidência da Fifa, e conta com o apoio do senador Romário, embora não o considere um forte candidato.</t>
 		<h>Sobre Zico, Romário não o considera como um forte candidato, mas o apoiaria.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="145" similarity="4.25">
+	<pair entailment="Entailment" id="145" similarity="4.25">
 		<t>O São Paulo, por sua vez, fecha a rodada na quinta posição no Campeonato Brasileiro, com 42 pontos.</t>
 		<h>O São Paulo está na quinta posição no Campeonato Brasileiro, com 42 pontos.</h>
 	</pair>
@@ -596,7 +596,7 @@
 		<t>Para o técnico Eduardo Baptista, o time jogou bem, mas o empate acabou ficando de bom tamanho.</t>
 		<h>Em 12 jogos longe de Pernambuco, os comandados de Eduardo Baptista empataram oito e perderam quatro.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="150" similarity="4.25">
+	<pair entailment="Entailment" id="150" similarity="4.25">
 		<t>O anúncio foi feito após a reunião na capital alemã com seu colega Frank-Walter Steinmeier, ministro de Exterior da Alemanha.</t>
 		<h>A declaração foi dada após conversas com o ministro de Exterior da Alemanha, Frank-Walter Steinmeier.</h>
 	</pair>
@@ -624,7 +624,7 @@
 		<t>Esses bolões tem um preço mínimo de aposta de R$ 10.</t>
 		<h>Para a Quadra um total de 53 apostadores receberão o prêmio de R$ 7.782,07 cada.</h>
 	</pair>
-	<pair entailment="Entailment" id="157" similarity="3.5">
+	<pair entailment="None" id="157" similarity="3.5">
 		<t>Durante a partida, enquanto perdia para a Bulgária, a seleção brasileira foi vaiada pela torcida italiana.</t>
 		<h>O time brasileiro perdeu para a Bulgária por 3 a 0 e saiu de quadra vaiado pela torcida italiana.</h>
 	</pair>
@@ -728,7 +728,7 @@
 		<t>A empresa admitiu e lamenta profundamente ter forjado os resultados dos testes às emissões poluentes.</t>
 		<h>A empresa é acusada por autoridades americanas de falsificar informações sobre emissões de poluentes.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="183" similarity="4.0">
+	<pair entailment="None" id="183" similarity="4.0">
 		<t>Cinco americanos enviaram uma câmera GoPro para o espaço em um balão meteorológico em 2013.</t>
 		<h>Em 2013, um grupo de cinco estudantes americanos enviou o balão a partir do Grand Canyon.</h>
 	</pair>
@@ -744,7 +744,7 @@
 		<t>Uma das lendas da NBA, Moses Malone, de 60 anos, sofreu um ataque cardíaco e morreu neste domingo.</t>
 		<h>A NBA perdeu uma de suas maiores lendas neste domingo.</h>
 	</pair>
-	<pair entailment="Entailment" id="187" similarity="3.25">
+	<pair entailment="None" id="187" similarity="3.25">
 		<t>O filme foi escolhido para ser o representante do Brasil na disputa do Oscar 2016 como melhor filme em língua estrangeira.</t>
 		<h>O filme concorre a uma vaga na categoria Melhor Filme em Língua Estrangeira.</h>
 	</pair>
@@ -800,7 +800,7 @@
 		<t>Clássico você não joga, precisa sentir.</t>
 		<h>É uma partida especial para todos os jogadores, os clássicos são jogos à parte.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="201" similarity="5.0">
+	<pair entailment="Entailment" id="201" similarity="5.0">
 		<t>Além de Luciana Lóssio, o presidente do TSE, Dias Toffoli, precisa apresentar seu voto.</t>
 		<h>Além de Lóssio, falta votar o presidente do tribunal, Dias Toffoli.</h>
 	</pair>
@@ -808,7 +808,7 @@
 		<t>O presidente do Senado, Renan Calheiros (PMDB-AL), comemorou a aprovação da PEC da Bengala.</t>
 		<h>A PEC da Bengala será promulgada nesta quinta-feira (7).</h>
 	</pair>
-	<pair entailment="Paraphrase" id="203" similarity="4.0">
+	<pair entailment="Entailment" id="203" similarity="4.0">
 		<t>O ex-jogador Vivinho faleceu aos 54 anos na manhã deste domingo, no Rio de Janeiro.</t>
 		<h>Morreu, na manhã deste domingo, aos 54 anos, o ex-jogador Vivinho.</h>
 	</pair>
@@ -1020,7 +1020,7 @@
 		<t>A estimativa é que em dois anos a quadrilha tenha produzido cerca de 12 milhões de comprimidos de ecstasy.</t>
 		<h>Em um deles estavam sendo produzido 800 mil comprimidos de ecstasy.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="256" similarity="4.0">
+	<pair entailment="None" id="256" similarity="4.0">
 		<t>Cerca de 400 policiais cumprem 145 mandados em seis estados e no Distrito Federal.</t>
 		<h>Uma equipe de cerca de 400 policiais federais cumprem 145 mandados judiciais.</h>
 	</pair>
@@ -1084,7 +1084,7 @@
 		<t>Mel exige que Vavá se separe de Janete.</t>
 		<h>Vavá anuncia que quer se separar de Janete.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="272" similarity="2.25">
+	<pair entailment="None" id="272" similarity="2.25">
 		<t>Tem 12 vitórias, cinco empates e quatro derrotas na temporada.</t>
 		<h>Está com 13 vitórias, seis empates e duas derrotas no ano.</h>
 	</pair>
@@ -1152,7 +1152,7 @@
 		<t>Dos 37 blocos arrematados, 31 são em terra e dois no mar.</t>
 		<h>Na primeira licitação, dos 14 blocos oferecidos seis foram arrematados com cinco propostas.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="289" similarity="4.75">
+	<pair entailment="Entailment" id="289" similarity="4.75">
 		<t>Isso significa que, em um espaço planejado para dez pessoas, há em média hoje 16 presos.</t>
 		<h>Ou seja, a cada espaço concebido para dez detentos, estão 16.</h>
 	</pair>
@@ -1228,7 +1228,7 @@
 		<t>O comandante da Unidade de Polícia Pacificadora (UPP) da Coroa será ouvido.</t>
 		<h>O morro tem uma Unidade de Polícia Pacificadora (UPP) desde 2011.</h>
 	</pair>
-	<pair entailment="Entailment" id="308" similarity="4.0">
+	<pair entailment="None" id="308" similarity="4.0">
 		<t>O caso foi encaminhado para o Comitê de Ética, que vai abrir uma investigação formal.</t>
 		<h>Além disso, o Comitê de Ética fará uma investigação formal das denúncias.</h>
 	</pair>
@@ -1392,7 +1392,7 @@
 		<t>Dados da Secretaria de Segurança Pública indicam que esta foi a 15ª chacina do ano em São Paulo.</t>
 		<h>A Secretaria da Segurança Pública criou uma força-tarefa para investigar a chacina.</h>
 	</pair>
-	<pair entailment="Entailment" id="349" similarity="3.0">
+	<pair entailment="None" id="349" similarity="3.0">
 		<t>O Alvinegro teve uma ótima chance com Bill, logo nos segundos iniciais.</t>
 		<h>Já no segundo tempo, Bill perdeu uma ótima chance.</h>
 	</pair>
@@ -1460,7 +1460,7 @@
 		<t>A Seleção Brasileira treina pela primeira vez em Santiago nesta segunda, às 17h.</t>
 		<h>O Brasil volta a treinar nesta quarta-feira, às 17h, no mesmo local.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="366" similarity="4.25">
+	<pair entailment="Entailment" id="366" similarity="4.25">
 		<t>Morata, Dybala e Khedira marcaram os gols da vitória da Velha Senhora, enquanto Mounier descontou para os visitantes.</t>
 		<h>Os gols da partida foram marcados por Khedira, Morata e Dybala; Mounier descontou para os visitantes.</h>
 	</pair>
@@ -1492,11 +1492,11 @@
 		<t>Ele vai continuar em prisão domiciliar até outubro e depois irá para o regime semiaberto por mais um ano.</t>
 		<h>Em outubro de 2016, ele passa a regime aberto.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="374" similarity="3.25">
+	<pair entailment="Entailment" id="374" similarity="3.25">
 		<t>Também pode compartilhar suas experiências e aprender novas funções por meio de sua conexão permanente à internet.</t>
 		<h>O Pepper pode ainda aprender novas funções através da sua conexão permanente com a internet.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="375" similarity="3.5">
+	<pair entailment="None" id="375" similarity="3.5">
 		<t>O Santos está próximo da classificação para as semifinais da Copa do Brasil 2015.</t>
 		<h>Mais longe do G4, o Santos pode ficar mais perto das semifinais da Copa do Brasil.</h>
 	</pair>
@@ -1560,7 +1560,7 @@
 		<t>Minha mãe raspou a perna na altura do fêmur e o braço, há suspeita de fratura.</t>
 		<h>Uma mulher quebrou o braço e outra vítima fraturou a perna.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="391" similarity="5.0">
+	<pair entailment="Entailment" id="391" similarity="5.0">
 		<t>Os ingressos custam entre R$ 100 e R$ 650.</t>
 		<h>Os preços dos ingressos variam entre R$ 100 e R$ 650.</h>
 	</pair>
@@ -1676,7 +1676,7 @@
 		<t>O São Paulo nunca foi campeão e tem a chance.</t>
 		<h>Osorio ficou, mas a relação nunca mais foi a mesma.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="420" similarity="4.75">
+	<pair entailment="Entailment" id="420" similarity="4.75">
 		<t>O restaurante do Terraço Itália já confirmou que fechará por alguns dias e que terá de cancelar as reservas.</t>
 		<h>O restaurante do Terraço Itália precisará ficar fechado por alguns dias e as reservas já foram canceladas.</h>
 	</pair>
@@ -1740,7 +1740,7 @@
 		<t>No caso deste projeto já estava no roteiro da diretora Nancy Meyers.</t>
 		<h>A diretora norte-americana Nancy Meyers é craque nas comédias românticas.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="436" similarity="4.25">
+	<pair entailment="Entailment" id="436" similarity="4.25">
 		<t>Ainda no meio-campo, Alex substituti D'Ale e o treinador deve proteger sua zaga com três volantes.</t>
 		<h>No meio-campo, Alex substituti D'Ale e o treinador vai mandar a campo três volantes.</h>
 	</pair>
@@ -1868,7 +1868,7 @@
 		<t>São, ao todo, 15 vitórias, sete empates e sete derrotas, com aproveitamento de 59,7%.</t>
 		<h>Já sem o jogador, foram 17 vitórias, dez empates e cinco derrotas.</h>
 	</pair>
-	<pair entailment="Entailment" id="468" similarity="2.5">
+	<pair entailment="None" id="468" similarity="2.5">
 		<t>Eles estão namorando e Camila está feliz.</t>
 		<h>A Camila está feliz, é uma pessoa que gosta de viver a vida.</h>
 	</pair>
@@ -2000,7 +2000,7 @@
 		<t>O Palmeiras apresentou no início da tarde desta quinta-feira o zagueiro Leandro Almeida, que estava no Coritiba.</t>
 		<h>Novo reforço do Palmeiras, Leandro Almeida não deixou o Coritiba de forma amigável.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="501" similarity="3.75">
+	<pair entailment="None" id="501" similarity="3.75">
 		<t>O ex-diretor da estatal será levado para a sede da Polícia Federal em Curitiba.</t>
 		<h>O ex-diretor de Internacional da estatal será trazido ainda hoje para Curitiba.</h>
 	</pair>
@@ -2024,7 +2024,7 @@
 		<t>A cantora Gaby Amarantos falou pela primeira vez após a morte da mãe, Elza dos Santos.</t>
 		<h>A cantora Gaby Amarantos publicou um longo texto em sua fanpage sobre a morte de sua mãe, Elza.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="507" similarity="4.75">
+	<pair entailment="Entailment" id="507" similarity="4.75">
 		<t>Sophia Abrahão abandonou os fios ruivos claros e agora exibe cabelos num tom mais escuro, quase vinho.</t>
 		<h>A atriz e cantora Sophia Abrahão trocou o tom ruivo que vinha exibindo por um vermelho mais escuro, quase vinho.</h>
 	</pair>
@@ -2072,7 +2072,7 @@
 		<t>A presidente Dilma Rousseff demitiu nesta quarta-feira o ministro da Educação, Renato Janine Ribeiro, durante as negociações da reforma administrativa.</t>
 		<h>A saída de Janine do ministério ocorre em meio às negociações da presidenta Dilma Rousseff para a reforma administrativa.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="519" similarity="4.0">
+	<pair entailment="Entailment" id="519" similarity="4.0">
 		<t>A moeda norte-americana acumula alta de 0,53% em agosto e de 29,49% em 2015.</t>
 		<h>Até o momento, a moeda norte-americana valorizou 0,53% no mês de agosto.</h>
 	</pair>
@@ -2084,7 +2084,7 @@
 		<t>A dedução anual por dependentes, por sua vez, é agora de R$ 2.275,08.</t>
 		<h>Os que recebem menos de R$ 1.903,99 não recolhem imposto de renda.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="522" similarity="4.0">
+	<pair entailment="None" id="522" similarity="4.0">
 		<t>A versão mais básica da Golf Variant é a Comfortline, que sai por R$ 89.690.</t>
 		<h>Vendido nas versões Comfort e Highline, o Golf Variant tem preços a partir de R$ 89.690.</h>
 	</pair>
@@ -2416,7 +2416,7 @@
 		<t>A câmera continuou com 5 megapixels da geração anterior, porém com capacidade de fazer vídeos a 480p e 30 quadros por segundo.</t>
 		<h>A câmera, porém, manteve os mesmos 5 megapixels da geração anterior.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="605" similarity="4.5">
+	<pair entailment="Entailment" id="605" similarity="4.5">
 		<t>De acordo com os dados revisados, em abril comparado a março, houve retração de 0,88%.</t>
 		<h>Em abril, o indicador teve queda de 0,88%, segundo números revisados.</h>
 	</pair>
@@ -2424,7 +2424,7 @@
 		<t>O governador José Ivo Sartori (PMDB), contudo, não estava no palácio.</t>
 		<h>O governador José Ivo Sartori ressaltou a importância da aprovação do projeto.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="607" similarity="4.0">
+	<pair entailment="Entailment" id="607" similarity="4.0">
 		<t>No Instagram, a atriz se derreteu ao postar uma foto das filhas durante o parabéns.</t>
 		<h>No Instagram, a atriz compartilhou foto das meninas no momento do parabéns.</h>
 	</pair>
@@ -2500,7 +2500,7 @@
 		<t>A nova produção, “Maze Runner – Prova de Fogo”, é a continuação do suspense, e chega hoje aos cinemas.</t>
 		<h>A sequência “Maze Runner – Prova de Fogo” chega hoje aos cinemas.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="626" similarity="4.25">
+	<pair entailment="Entailment" id="626" similarity="4.25">
 		<t>O Datafolha entrevistou 1.335 pessoas entre 12h e 18h do domingo.</t>
 		<h>O Datafolha ouviu 1.335 entrevistas, entre 12h e 18h.</h>
 	</pair>
@@ -2516,7 +2516,7 @@
 		<t>Inicialmente, o pedido foi encaminhado ao ministro Teori Zavascki, relator dos inquéritos da Lava Jato no STF.</t>
 		<h>Os trechos da delação foram encaminhados primeiro ao relator da Lava Jato no STF, ministro Teori Zavascki.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="630" similarity="2.75">
+	<pair entailment="Entailment" id="630" similarity="2.75">
 		<t>007 contra Spectre será lançado no Brasil em 5 de novembro de 2015.</t>
 		<h>O filme será lançado nos Estados Unidos em 6 de novembro de 2015.</h>
 	</pair>
@@ -2528,7 +2528,7 @@
 		<t>Delcídio disse que o governo deve enviar ao Congresso a proposta de 0,20 (por cento).</t>
 		<h>A proposta do governo ao Congresso é 0,20 (por cento).</h>
 	</pair>
-	<pair entailment="Paraphrase" id="633" similarity="4.0">
+	<pair entailment="Entailment" id="633" similarity="4.0">
 		<t>Os updates de atualização do sistema operacional são realizados semanalmente com base nos feedbacks dos clientes, tendo passado em cinco anos por 255 atualizações.</t>
 		<h>Com um ciclo de desenvolvimento semanal, o sistema operacional em cinco anos já passou por 255 atualizações.</h>
 	</pair>
@@ -2576,7 +2576,7 @@
 		<t>Ele pode ser mergulhado a até um metro de profundidade por até meia hora.</t>
 		<h>Ele pode ficar mergulhado até 1 metro por cerca de 30 minutos.</h>
 	</pair>
-	<pair entailment="Entailment" id="645" similarity="4.0">
+	<pair entailment="None" id="645" similarity="4.0">
 		<t>Segundo a agência de notícias grega “Amna”, a guarda costeira conseguiu resgatar 13 pessoas da água.</t>
 		<h>Segundo a guarda costeira grega, foram resgatadas com vida 13 pessoas e procuram-se ainda outros sobreviventes.</h>
 	</pair>
@@ -2584,7 +2584,7 @@
 		<t>Cerca de mil pessoas estão acampadas no pátio da sede do Ministério da Fazenda em Porto Alegre.</t>
 		<h>No Paraná, são cerca de 7 mil famílias acampadas.</h>
 	</pair>
-	<pair entailment="Entailment" id="647" similarity="4.0">
+	<pair entailment="None" id="647" similarity="4.0">
 		<t>O montante não inclui honorários advocatícios, que somam R$ 348 milhões.</t>
 		<h>O montante previsto pela Eletrobras não considera honorários advocatícios.</h>
 	</pair>
@@ -2616,7 +2616,7 @@
 		<t>Na terça-feira as autoridades húngaras prenderam 367 refugiados que cruzavam ilegalmente a fronteira com a Sérvia.</t>
 		<h>É esperada uma chegada recorde de refugiados na fronteira húngara com a Sérvia nesta segunda-feira.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="655" similarity="3.75">
+	<pair entailment="None" id="655" similarity="3.75">
 		<t>A Microsoft lançou nesta terça-feira (22/9) o novo Office para PCs e Macs.</t>
 		<h>Nesta terça-feira (22), a Microsoft lançou a versão 2016 do Office para Windows.</h>
 	</pair>
@@ -2632,7 +2632,7 @@
 		<t>A entidade prevê superávit de US$ 8 bilhões para a balança neste ano.</t>
 		<h>A balança comercial teve superávit de US$ 2,37 bilhões em julho.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="659" similarity="3.75">
+	<pair entailment="Entailment" id="659" similarity="3.75">
 		<t>Cirano, o irmão de Xuxa, morreu aos 60 anos, neste sábado, 12 e foi enterrado no domingo no Rio de Janeiro.</t>
 		<h>Cirano Rojabaglia, irmão de Xuxa Meneguel, morreu aos 60 anos, neste sábado, 12.</h>
 	</pair>
@@ -2984,7 +2984,7 @@
 		<t>Mas deve se levar em conta que existem incertezas do número real de celulares pelo planeta.</t>
 		<h>Ainda assim, existem incertezas sobre o número real de celulares circulando pelo planeta.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="747" similarity="4.25">
+	<pair entailment="None" id="747" similarity="4.25">
 		<t>Eles estão presos em caráter temporário na carceragem da Superintendência da PF.</t>
 		<h>Atualmente, eles estão presos na Superintendência da Polícia Federal.</h>
 	</pair>
@@ -3348,7 +3348,7 @@
 		<t>O jogador que teve constatada uma hérnia de disco, segue se recuperando e será baixa mais uma vez.</t>
 		<h>O meia argentino ainda se recupera de um hérnia de disco.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="838" similarity="4.75">
+	<pair entailment="Entailment" id="838" similarity="4.75">
 		<t>O inglês Lewis Hamilton foi forçado a abandonar a corrida neste domingo por conta de problemas de potência em seu carro.</t>
 		<h>Hamilton abandonou a corrida neste domingo por problemas de potência em seu carro.</h>
 	</pair>
@@ -3484,7 +3484,7 @@
 		<t>Os peregrinos iniciaram o ritual de apedrejamento de satã nesta quinta-feira, primeiro dia da festa do Adha.</t>
 		<h>Em 2006, mais de 360 peregrinos morreram durante o ritual de apedrejamento.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="872" similarity="4.0">
+	<pair entailment="Entailment" id="872" similarity="4.0">
 		<t>Nestor Cerveró foi condenado por usar uma empresa de fachada para esconder a compra de um imóvel.</t>
 		<h>MPF acusou Cerveró de criar empresa de fachada para ocultar compra de imóvel.</h>
 	</pair>
@@ -3596,7 +3596,7 @@
 		<t>Scotti Pasquale foi encontrado na capital pernambucana através de comparação de impressões digitais.</t>
 		<h>A identificação dele aconteceu por meio da comparação de impressões digitais.</h>
 	</pair>
-	<pair entailment="Entailment" id="900" similarity="4.25">
+	<pair entailment="None" id="900" similarity="4.25">
 		<t>O projeto de lei está na Presidência da República, para sanção ou veto da presidenta Dilma Rousseff.</t>
 		<h>O texto aguarda decisão da presidenta Dilma Rousseff sobre sanção ou veto.</h>
 	</pair>
@@ -3764,7 +3764,7 @@
 		<t>O Palmeiras chegou a pensar (em contratar Ronaldinho Gaúcho) em janeiro de 2014 ou dezembro de 2013.</t>
 		<h>Atualmente no Fluminense, Ronaldinho Gaúcho esteve perto de vestir a camisa do Palmeiras.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="942" similarity="3.75">
+	<pair entailment="None" id="942" similarity="3.75">
 		<t>Além do goleiro, o Palmeiras havia renovado com o zagueiro Vitor Hugo.</t>
 		<h>Além do goleiro, o zagueiro Vitor Hugo também já renovou seu contrato até dezembro de 2020.</h>
 	</pair>
@@ -3920,11 +3920,11 @@
 		<t>Desde então, foram cinco derrotas e quatro empates contra os principais rivais.</t>
 		<h>Contra o Peixe, são quatro jogos, com três derrotas e um empate.</h>
 	</pair>
-	<pair entailment="Entailment" id="981" similarity="4.0">
+	<pair entailment="None" id="981" similarity="4.0">
 		<t>Alba cruzou da esquerda, Munir completou, e Leno fez ótima defesa.</t>
 		<h>Jordi Alba cruzou da esquerda e Munir completou.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="982" similarity="3.25">
+	<pair entailment="None" id="982" similarity="3.25">
 		<t>A moeda encerrou a semana com alta de 1,95%, cotada a R$ 3,9582.</t>
 		<h>Na véspera, a moeda norte-americana subiu 1,25%, cotada a R$ 3,8822.</h>
 	</pair>
@@ -4052,7 +4052,7 @@
 		<t>O Novo Citroën C4 Picasso representa uma nova era no conceito de bem-estar a bordo.</t>
 		<h>O Novo Citroën C4 Picasso oferece várias opções de modularidade.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1014" similarity="5.0">
+	<pair entailment="None" id="1014" similarity="5.0">
 		<t>Já cortamos aproximadamente dois mil policiais nos últimos oito anos e seis meses.</t>
 		<h>Cortamos quase 2 mil policiais em 8 anos e 6 meses de governo.</h>
 	</pair>
@@ -4136,11 +4136,11 @@
 		<t>O meia Philippe Coutinho foi cortado da seleção brasileira.</t>
 		<h>Philippe Coutinho se lesionou em jogo do Liverpool.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1035" similarity="4.25">
+	<pair entailment="None" id="1035" similarity="4.25">
 		<t>A agência estatal de notícias Xinhua colocou o número de feridos em 50.</t>
 		<h>A agência estatal de notícias Xinhua informou que 48 pessoas ficaram feridas.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1036" similarity="3.25">
+	<pair entailment="None" id="1036" similarity="3.25">
 		<t>A Apple removeu mais de 300 aplicativos infectados com códigos maliciosos da App Store nesta segunda-feira (21).</t>
 		<h>A App Store da Apple foi infectada com um malware no final de semana que estava invadindo aplicativos conhecidos.</h>
 	</pair>
@@ -4256,7 +4256,7 @@
 		<t>As apresentações fazem parte da turnê de divulgação do álbum V, lançado em setembro de 2014.</t>
 		<h>O grupo tocará músicas do álbum "V", lançado em agosto do ano passado.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1065" similarity="5.0">
+	<pair entailment="Entailment" id="1065" similarity="5.0">
 		<t>Estou sendo condenado sem haver qualquer evidência de que tenha feito algo errado.</t>
 		<h>Estou sendo condenado sem que exista qualquer evidência de má conduta da minha parte.</h>
 	</pair>
@@ -4420,7 +4420,7 @@
 		<t>Desde que assumiu o cargo, Obama já foi quatro vezes à África, mas nunca ao Quênia oficialmente.</t>
 		<h>Barack Obama ficará no Quênia até segunda-feira.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1106" similarity="2.75">
+	<pair entailment="None" id="1106" similarity="2.75">
 		<t>Os organizadores estimam que 8 mil pessoas participaram da manifestação.</t>
 		<h>Os organizadores e a polícia não divulgaram uma estimativa de quantas pessoas participaram.</h>
 	</pair>
@@ -4440,7 +4440,7 @@
 		<t>Uma das mudanças já definidas foi a instituição de gratificação para os conselheiros.</t>
 		<h>A gratificação foi instituída por um decreto de Dilma Rousseff.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1111" similarity="4.0">
+	<pair entailment="Entailment" id="1111" similarity="4.0">
 		<t>O crime aconteceu segunda-feira à tarde, dia 7 de setembro, no Butantã, zona oeste de São Paulo.</t>
 		<h>O crime ocorreu na segunda-feira (7), na região do Butantã, zona oeste da capital paulista.</h>
 	</pair>
@@ -4460,7 +4460,7 @@
 		<t>O ministro disse que gastos como a Previdência Social têm sempre que ser avaliados.</t>
 		<h>O ministro também fez questionamentos sobre a sustentabilidade das contas da Previdência Social.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1116" similarity="3.75">
+	<pair entailment="None" id="1116" similarity="3.75">
 		<t>Sofia estava na Unidade de Terapia Intensiva (UTI) do hospital e não reagiu ao tratamento.</t>
 		<h>Ela estava na Unidade de Terapia Intensiva (UTI) do Jackson Memorial Hospital, em Miami.</h>
 	</pair>
@@ -4648,7 +4648,7 @@
 		<t>Além de Roma, Hamburgo, na Alemanha, já oficializou a candidatura para os Jogos Olímpicos de 2024.</t>
 		<h>Roma oficializou a candidatura para os Jogos Olímpicos de 2024.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1163" similarity="3.75">
+	<pair entailment="Entailment" id="1163" similarity="3.75">
 		<t>As quatro bacias que tiveram ofertas foram Potiguar, Parnaíba, Sergipe-Alagoas e Recôncavo.</t>
 		<h>Apenas Parnaíba, Potiguar, Recôncavo e Sergipe-Alagoas tiveram blocos negociados.</h>
 	</pair>
@@ -4664,7 +4664,7 @@
 		<t>O número de estudantes e professores que acessam a internet pelo celular cresceu nos últimos anos no Brasil.</t>
 		<h>A proporção de estudantes e professores no Brasil que usam internet pelo celular aumentou nos últimos anos.</h>
 	</pair>
-	<pair entailment="None" id="1167" similarity="1.75">
+	<pair entailment="Entailment" id="1167" similarity="1.75">
 		<t>Vale notar que Magic Keyboard e o Magic Mouse 2 são inclusos nos novos iMacs.</t>
 		<h>O Magic Mouse passou por uma pequena atualização.</h>
 	</pair>
@@ -4688,7 +4688,7 @@
 		<t>O jogador teve constatada uma hérnia de disco, nas últimas semanas, e segue se recuperando.</t>
 		<h>Com hérnia de disco, o argentino pode até retornar aos treinos leves na semana que vem.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1173" similarity="3.0">
+	<pair entailment="None" id="1173" similarity="3.0">
 		<t>Os três integrantes da tripulação foram identificados como Alan David Purwin, Yimmy Lee Garlam e Carlos Brel.</t>
 		<h>No acidente morreram os americanos Alan David Purwin e Carlos Brel, enquanto Yimmy Lee Garlam ficou ferido.</h>
 	</pair>
@@ -4732,7 +4732,7 @@
 		<t>Minas Gerais foi o que teve a maior variação entre 2013 e 2014.</t>
 		<h>Minas Gerais e São Paulo estão entre os menos violentos.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1184" similarity="3.5">
+	<pair entailment="Entailment" id="1184" similarity="3.5">
 		<t>A Polícia Federal deflagrou a terceira etapa da Operação Zelotes na manhã desta quinta-feira (8/10).</t>
 		<h>A Polícia Federal deflagrou nesta quinta-feira, 8, uma nova etapa da Operação Zelotes.</h>
 	</pair>
@@ -4884,7 +4884,7 @@
 		<t>A partir de hoje, usuários de iPhones, iPads e iPods touch podem migrar para o iOS 9.</t>
 		<h>O iOS 9 traz diversos recursos inéditos para os iPhones, iPads e iPods.</h>
 	</pair>
-	<pair entailment="Entailment" id="1222" similarity="5.0">
+	<pair entailment="None" id="1222" similarity="5.0">
 		<t>O The Voice Brasil traz um novo técnico, Michel Teló, na cadeira que era do sertanejo Daniel.</t>
 		<h>O programa The Voice Brasil contou com o novo jurado, Michel Teló no lugar de Daniel.</h>
 	</pair>
@@ -4896,7 +4896,7 @@
 		<t>O corpo do homem será encaminhado ao Instituto Médico Legal (IML) de Salvador.</t>
 		<h>Uma equipe do Instituto Médico Legal (IML) fez a remoção do corpo de Roberto José.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1225" similarity="4.0">
+	<pair entailment="Entailment" id="1225" similarity="4.0">
 		<t>O ex-comandante do Flamengo chega para substituir Milton Mendes, demitido no fim de setembro pela equipe paranaense.</t>
 		<h>O ex-técnico de Flamengo chega para substituir Milton Mendes, demitido no fim de setembro.</h>
 	</pair>
@@ -4916,7 +4916,7 @@
 		<t>A rede social Facebook passou por uma instabilidade e ficou fora do ar no começo da tarde desta quinta-feira (24).</t>
 		<h>O Facebook ficou fora do ar para os seus usuários na tarde desta quinta-feira (24).</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1230" similarity="4.0">
+	<pair entailment="Entailment" id="1230" similarity="4.0">
 		<t>Os dois líderes tiveram um encontro histórico no Panamá em abril deste ano durante a Cúpula das Américas.</t>
 		<h>Ambos haviam se reunido em abril no Panamá, durante a Cúpula das Américas.</h>
 	</pair>
@@ -4940,7 +4940,7 @@
 		<t>O Real Madrid deixou escapar a chance de liderar o Campeonato Espanhol no dérbi deste domingo, válido pela sétima rodada.</t>
 		<h>O Real Madrid perdeu grande oportunidade de assumir a liderança do Campeonato Espanhol.</h>
 	</pair>
-	<pair entailment="Entailment" id="1236" similarity="4.0">
+	<pair entailment="None" id="1236" similarity="4.0">
 		<t>Estou fazendo esse vídeo aqui para que essa denúncia seja amplamente repercutida na sociedade.</t>
 		<h>Então, eu estou fazendo esse vídeo aqui para que a sociedade fique sabendo.</h>
 	</pair>
@@ -5000,7 +5000,7 @@
 		<t>O Magic Trackpad 2 substitui o Magic Trackpad original, lançado há cerca de cinco anos.</t>
 		<h>O Magic Trackpad 2 é o mais caro, custando 999 reais.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1251" similarity="4.75">
+	<pair entailment="Entailment" id="1251" similarity="4.75">
 		<t>Ronaldínho Gaúcho deu os parabéns ao Grêmio pelos 112 anos, completados nesta terça-feira, dia 15 de setembro.</t>
 		<h>O meio-campista Ronaldinho Gaúcho parabenizou o Grêmio, nesta terça-feira, pelos 112 anos de existência do clube.</h>
 	</pair>
@@ -5104,7 +5104,7 @@
 		<t>Nós votaremos e manteremos os vetos com toda a tranquilidade.</t>
 		<h>A oposição precisa ter essa mesma coerência.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1277" similarity="4.5">
+	<pair entailment="None" id="1277" similarity="4.5">
 		<t>Nos sete primeiros meses de ano, já foram registrados 1.350.406 casos de dengue.</t>
 		<h>Nos sete primeiros meses deste ano, já foram registrados mais de 1,3 milhões de casos de dengue.</h>
 	</pair>
@@ -5116,7 +5116,7 @@
 		<t>Anos depois, Aline e Flávio voltaram a se falar através de uma rede social.</t>
 		<h>Aline e Flávio têm residência fixa em São Paulo.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1280" similarity="4.25">
+	<pair entailment="Entailment" id="1280" similarity="4.25">
 		<t>Estas projeções foram realizadas a partir de entrevistas telefônicas feitas ao longo do dia de domingo.</t>
 		<h>As projeções foram feitas durante entrevistas telefônicas ao longo do dia de hoje.</h>
 	</pair>
@@ -5436,7 +5436,7 @@
 		<t>A Xbox Live é a plataforma online de jogos dos consoles da Microsoft, Xbox One e Xbox 360.</t>
 		<h>As produtoras de outros jogos exclusivos para Xbox One também deram as caras.</h>
 	</pair>
-	<pair entailment="Entailment" id="1360" similarity="3.5">
+	<pair entailment="None" id="1360" similarity="3.5">
 		<t>Trabalho ultimamente com uma linha de quatro, dois volantes e times ofensivos.</t>
 		<h>Os meus últimos trabalhos foram times bem ofensivos.</h>
 	</pair>
@@ -5456,7 +5456,7 @@
 		<t>Jens Stoltenberg vê escalada inquietante da atividade militar russa na Síria.</t>
 		<h>Na Síria, temos visto uma escalada preocupante das atividades de militares russos.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1365" similarity="2.5">
+	<pair entailment="None" id="1365" similarity="2.5">
 		<t>Judeu ultraortodoxo suspeito de atacar seis pessoas já havia sido preso em 2005 por crime semelhante.</t>
 		<h>Yishai Schlissel, judeu ultraortodoxo, havia sido libertado três semanas atrás.</h>
 	</pair>
@@ -5580,7 +5580,7 @@
 		<t>Não está claro como será o produto, disse o Re/code.</t>
 		<h>As informações são do site de tecnologia Re/Code.</h>
 	</pair>
-	<pair entailment="Entailment" id="1396" similarity="3.75">
+	<pair entailment="None" id="1396" similarity="3.75">
 		<t>O calendário de reposição de aulas não está definido, e deve ser decidido em cada universidade.</t>
 		<h>Ainda não está definido como será o calendário para a reposição das aulas perdidas.</h>
 	</pair>
@@ -5616,7 +5616,7 @@
 		<t>O Vasco jogou melhor contra Figueirense e Atlético-MG, e nos dois jogos perdeu.</t>
 		<h>Jogamos bem contra Figueirense e Atlético-MG, mas a bola não quis entrar.</h>
 	</pair>
-	<pair entailment="Entailment" id="1405" similarity="3.75">
+	<pair entailment="None" id="1405" similarity="3.75">
 		<t>Quem terá mais motivos para se preocupar agora é o técnico Luis Enrique.</t>
 		<h>O técnico Luis Enrique deve se preocupar com a situação do jogador.</h>
 	</pair>
@@ -5668,7 +5668,7 @@
 		<t>A loira compartilhou com seu fãs no Instagram uma imagem em que aparece mergulhando.</t>
 		<h>A loira usou o Instagram para compartilhar uma foto sua mergulhando.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1418" similarity="3.75">
+	<pair entailment="None" id="1418" similarity="3.75">
 		<t>Uma mulher de 30 anos morreu ao ficar presa pelo mecanismo de uma escada rolante.</t>
 		<h>Uma mulher morreu numa escada rolante num centro comercial, na China.</h>
 	</pair>
@@ -5708,7 +5708,7 @@
 		<t>Após o voto de Mendes, o ministro Luiz Fachin seria o próximo a votar.</t>
 		<h>O recurso é relatado pelo ministro Gilmar Mendes.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1428" similarity="3.5">
+	<pair entailment="None" id="1428" similarity="3.5">
 		<t>Nas últimas cinco sessões, incluindo essa, a divisa já acumulou alta de 6,17 por cento.</t>
 		<h>Nas últimas quatro sessões, o dólar acumulou valorização de 6 por cento.</h>
 	</pair>
@@ -5772,7 +5772,7 @@
 		<t>A organização do Rock And Roll Hall Of Fame já divulgou os artistas indicados para a edição de 2016.</t>
 		<h>A votação já começou e pode ser conferida no site oficial do Rock And Roll Hall Of Fame .</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1444" similarity="4.0">
+	<pair entailment="Entailment" id="1444" similarity="4.0">
 		<t>Após o escanteio, a bola bateu no zagueiro Éder Lima e sobrou para Luisinho completar para o gol.</t>
 		<h>Após cobrança de escanteio, a bola bateu em Éder Lima e sobrou para Luisinho.</h>
 	</pair>
@@ -5800,7 +5800,7 @@
 		<t>A proposta ainda será apresentada à presidente Dilma Rousseff, que terá de aprovar a medida.</t>
 		<h>Na sexta-feira a proposta foi encaminhada à presidente Dilma Roussef.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1451" similarity="3.5">
+	<pair entailment="Entailment" id="1451" similarity="3.5">
 		<t>Com isso, a taxa volta para o maior nível desde agosto de 2006, de 14,25 por cento.</t>
 		<h>A taxa de 14,25% é o maior nível dos últimos nove anos.</h>
 	</pair>
@@ -5824,7 +5824,7 @@
 		<t>Segundo o MPT, essa é a maior condenação por trabalho escravo feita no Brasil.</t>
 		<h>A decisão representa a maior condenação por trabalho escravo da história da Justiça brasileira.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1457" similarity="4.0">
+	<pair entailment="Entailment" id="1457" similarity="4.0">
 		<t>O governador de Maryland declarou estado de emergência na cidade e chamou a Guarda Nacional.</t>
 		<h>O governo do Estado de Maryland declarou estado de emergência na cidade.</h>
 	</pair>
@@ -5960,7 +5960,7 @@
 		<t>O número representa queda de 0,39% no total de trabalhadores formais em comparação ao mês anterior.</t>
 		<h>Pelo terceiro mês consecutivo os empregos com carteira assinada no Paraná fecharam em queda.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1491" similarity="2.75">
+	<pair entailment="None" id="1491" similarity="2.75">
 		<t>Uma comissão especial, que deverá ser criada em até cinco sessões, irá analisar o processo.</t>
 		<h>O relatório da comissão deverá ser concluído em cinco sessões da Casa e precisará ser analisado em plenário.</h>
 	</pair>
@@ -6004,7 +6004,7 @@
 		<t>Ainda não há informações sobre as outras duas vítimas.</t>
 		<h>A Defesa Civil afirma que outras pessoas podem ainda estar soterradas na região.</h>
 	</pair>
-	<pair entailment="None" id="1502" similarity="2.75">
+	<pair entailment="Entailment" id="1502" similarity="2.75">
 		<t>Em Novo Hamburgo, bastaram aproximadamente cinco minutos de chuva de granizo para danificar os telhados de mais de 500 casas.</t>
 		<h>Em Novo Hamburgo, a chuva de granizo durou cerca de 20 minutos.</h>
 	</pair>
@@ -6084,7 +6084,7 @@
 		<t>Lucas Pratto recebeu nessa semana a visita da família.</t>
 		<h>Foram sete partidas pelo Campeonato Brasileiro em que Lucas Pratto marcou gol.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1522" similarity="3.75">
+	<pair entailment="None" id="1522" similarity="3.75">
 		<t>Na próxima semana, a CPI irá receber alguns presidentes de federações espalhadas pelo país.</t>
 		<h>Na próxima semana, a CPI realiza audiência pública com presidentes de federações de futebol.</h>
 	</pair>
@@ -6176,7 +6176,7 @@
 		<t>O Barcelona tem uma preocupação para o próximo jogo do Campeonato Espanhol.</t>
 		<h>O Barcelona vai conseguindo manter 100% de aproveitamento após três rodadas do Campeonato Espanhol.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1545" similarity="2.5">
+	<pair entailment="None" id="1545" similarity="2.5">
 		<t>Já entre os negros, 50% discordam e 44% concordam com a morte de criminosos.</t>
 		<h>Os entrevistados brancos também mostraram mais aceitação do uso da violência: 53% concordam e 41 discordam.</h>
 	</pair>
@@ -6188,7 +6188,7 @@
 		<t>Depois de arguir Janot, Collor deixou a sabatina e o clima no local foi de calmaria.</t>
 		<h>Collor voltou a utilizar a tribuna do Senado para protestar contra Rodrigo Janot.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1548" similarity="3.75">
+	<pair entailment="None" id="1548" similarity="3.75">
 		<t>Desde o início de junho, oito pessoas morreram na tentativa de acessar o túnel.</t>
 		<h>Desde o início de junho, 10 pessoas morreram no local.</h>
 	</pair>
@@ -6216,7 +6216,7 @@
 		<t>Os bombeiros ofereceram lonas para as famílias destes bairros que tiveram as casas destelhadas por causa do temporal.</t>
 		<h>Alguns moradores ligaram para pedir lona para as casas destelhadas.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1555" similarity="4.0">
+	<pair entailment="Entailment" id="1555" similarity="4.0">
 		<t>Para Vaccari, a pena é de 15 anos e 4 meses pelos crimes de corrupção passiva.</t>
 		<h>João Vaccari foi condenado a 15 e 4 meses anos de prisão por corrupção.</h>
 	</pair>
@@ -6364,7 +6364,7 @@
 		<t>Em crimes contra a administração pública, há exigência de que tenham a mais ampla publicidade possível.</t>
 		<h>Em fase de ação penal, a publicidade deve ser ampla.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1592" similarity="3.0">
+	<pair entailment="Entailment" id="1592" similarity="3.0">
 		<t>A onda expansiva das explosões chegou a ser sentida a até dez quilômetros de distância.</t>
 		<h>A primeira explosão foi sentida a vários quilômetros de distância do local.</h>
 	</pair>
@@ -6524,7 +6524,7 @@
 		<t>Com o prêmio principal acumulado em R$ 45 milhões, elas levarão, cada uma, exatos R$ R$ 23.221.167,26.</t>
 		<h>93 apostadores levam o prêmio da Quina no valor de R$ 51.651,09 cada.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1632" similarity="4.25">
+	<pair entailment="None" id="1632" similarity="4.25">
 		<t>No entanto, o CEO da Apple, Tim Cook, recusa-se por enquanto a falar publicamente do projeto.</t>
 		<h>O CEO da Apple, Tim Cook, é esquivo quando questionado sobre o assunto.</h>
 	</pair>
@@ -6548,7 +6548,7 @@
 		<t>Na mesma sessão, os parlamentares decidiram manter o voto obrigatório para as eleições do país.</t>
 		<h>No entanto, os parlamentares decidiram que a nova data já valerá em 2018.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1638" similarity="3.75">
+	<pair entailment="Entailment" id="1638" similarity="3.75">
 		<t>Na zaga, Matheus Ferraz reaparece depois de cumprir suspensão no posto de Ewerton Páscoa.</t>
 		<h>A boa notícia fica por conta do retorno de Matheus Ferraz, que assume o lugar de Ewerton Páscoa, depois de cumprir suspensão.</h>
 	</pair>
@@ -6580,7 +6580,7 @@
 		<t>O Palmeiras está embalado no Campeonato Brasileiro.</t>
 		<h>O Palmeiras tem o ataque mais eficiente do Brasil.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1646" similarity="3.75">
+	<pair entailment="None" id="1646" similarity="3.75">
 		<t>O Twitter efetivou Jack Dorsey como CEO da empresa, nesta segunda-feira.</t>
 		<h>O Twitter finalmente anunciou quem será o seu CEO em tempo integral.</h>
 	</pair>
@@ -6780,7 +6780,7 @@
 		<t>O mandatário rubro-negro, porém, chegou a negar qualquer acordo com o técnico.</t>
 		<h>O mandatário rubro-negro confessou que já havia procurado Falcão em outra oportunidade, mas que não houve acordo.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1696" similarity="3.5">
+	<pair entailment="Entailment" id="1696" similarity="3.5">
 		<t>Os ataques em série também deixaram seis pessoas feridas.</t>
 		<h>Sete pessoas ficaram feridas nos ataques, sendo três mulheres.</h>
 	</pair>
@@ -6788,7 +6788,7 @@
 		<t>Em 2014 voltou ao MDA onde permaneceu até assumir a Secretaria-Geral da Presidência da República.</t>
 		<h>No segundo governo da presidenta Dilma Rousseff assumiu a Secretaria-Geral da Presidência da República.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1698" similarity="5.0">
+	<pair entailment="Entailment" id="1698" similarity="5.0">
 		<t>Ele acabou sendo aplaudido pela maioria da plateia, apesar de vaias terem sido registradas.</t>
 		<h>Ele foi bastante aplaudido pela plateia, mas, também recebeu algumas vaias.</h>
 	</pair>
@@ -6916,7 +6916,7 @@
 		<t>Velozes &amp; Furiosos 8 tem estreia prevista para abril de 2017.</t>
 		<h>A Universal Studios pode adiar a data de estreia de Velozes e Furiosos 8.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1730" similarity="3.25">
+	<pair entailment="None" id="1730" similarity="3.25">
 		<t>Daniel Ricciardo, da Red Bull, e Kimi Raikkonen, da Ferrari, completaram o pódio.</t>
 		<h>Kimi Raikkonen, da Ferrari, e Daniil Kvyat, da Red Bull, integram o grupo dos quatro primeiros.</h>
 	</pair>
@@ -6944,7 +6944,7 @@
 		<t>Houve um intenso confronto e os suspeitos fugiram.</t>
 		<h>Ainda não há informação sobre a identificação dos quatro suspeitos.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1737" similarity="4.75">
+	<pair entailment="Entailment" id="1737" similarity="4.75">
 		<t>Ele defendeu a adoção pelo governo federal de medidas que ajudem na manutenção dos empregos da indústria.</t>
 		<h>Ele pede ações federais que ajudem na manutenção dos empregos da indústria.</h>
 	</pair>
@@ -6984,7 +6984,7 @@
 		<t>Na comparação com maio deste ano, a produção caiu 12,5% (210,4 mil).</t>
 		<h>Os estoques alcançaram 338,8 mil veículos em junho ante 361 mil em maio.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1747" similarity="4.25">
+	<pair entailment="Entailment" id="1747" similarity="4.25">
 		<t>O primeiro tempo foi fraco tecnicamente, com poucas chances de gol.</t>
 		<h>O primeiro tempo da partida não contou com grandes chances de gol.</h>
 	</pair>
@@ -7100,7 +7100,7 @@
 		<t>Kátia Abreu participa de missão brasileira na Rússia, jutamente com a presidenta Dilma Rousseff.</t>
 		<h>Kátia Abreu participa de missão brasileira na Rússia desde ontem (7).</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1776" similarity="4.0">
+	<pair entailment="Entailment" id="1776" similarity="4.0">
 		<t>Pizzolato fugiu em 2013, usando o passaporte falso de um irmão morto há mais de 30 anos e ficou foragido na Itália.</t>
 		<h>Um passaporte falso de um irmão morto há mais de 30 anos foi usado por Pizzolato durante o tempo que ficou foragido na Itália.</h>
 	</pair>
@@ -7144,7 +7144,7 @@
 		<t>A sanção da regulamentação da PEC das Domésticas será publicada no Diário Oficial desta terça-feira (2).</t>
 		<h>A lei está publicada no Diário Oficial da União desta terça-feira (02).</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1787" similarity="5.0">
+	<pair entailment="Entailment" id="1787" similarity="5.0">
 		<t>Morreu nesta quinta-feira (17) no Rio de Janeiro o diretor de cinema e televisão José Carlos Aranha Manga, 87.</t>
 		<h>Morreu na quinta (17) no Rio de Janeiro, aos 87 anos, o diretor de cinema e televisão Carlos Manga.</h>
 	</pair>
@@ -7152,7 +7152,7 @@
 		<t>Mara Maravilha, Amaral e Rayanne Moraes estiveram no palco e, mesmo assim, a audiência não subiu.</t>
 		<h>Mara Maravilha, Rayanne Morais e Amaral já estão garantidos como peões.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1789" similarity="2.5">
+	<pair entailment="None" id="1789" similarity="2.5">
 		<t>Isso se traduziu na forte alta das taxas dos contratos futuros de juros.</t>
 		<h>Isso se traduziu na forte alta do dólar ante o real durante todo o dia.</h>
 	</pair>
@@ -7208,7 +7208,7 @@
 		<t>Travestis e transexuais interessados em usar o nome social na prova devem fazer o pedido via internet.</t>
 		<h>Travestis e transexuais podem solicitar o uso do nome social no exame.</h>
 	</pair>
-	<pair entailment="None" id="1803" similarity="3.75">
+	<pair entailment="Entailment" id="1803" similarity="3.75">
 		<t>A eleição deste domingo foi a terceira vez que os gregos foram às urnas este ano.</t>
 		<h>Neste domingo (20), os gregos voltaram às urnas.</h>
 	</pair>
@@ -7236,7 +7236,7 @@
 		<t>Os desenvolvedores vão receber uma atualização do MUSE, a ferramenta de criação de temas da Xiaomi.</t>
 		<h>Para os desenvolvedores, a ferramenta MUSE foi o anúncio mais interessante do dia.</h>
 	</pair>
-	<pair entailment="Entailment" id="1810" similarity="3.0">
+	<pair entailment="None" id="1810" similarity="3.0">
 		<t>O líder do partido também já reconheceu a derrota, mas garantiu que este partido está para ficar.</t>
 		<h>O Nova Democracia rapidamente reconheceu a derrota.</h>
 	</pair>
@@ -7440,7 +7440,7 @@
 		<t>Este é o 12º evento-teste dos Jogos Olímpicos do Rio e o primeiro no Parque Radical de Deodoro.</t>
 		<h>O Parque Radical de Deodoro enfim recebeu o evento-teste de ciclismo BMX.</h>
 	</pair>
-	<pair entailment="Entailment" id="1861" similarity="2.25">
+	<pair entailment="None" id="1861" similarity="2.25">
 		<t>Essa será a primeira fábrica da Jaguar Land Rover totalmente própria fora do Reino Unido.</t>
 		<h>A Jaguar Land Rover é a maior fabricante de automóveis do Reino Unido.</h>
 	</pair>
@@ -7468,7 +7468,7 @@
 		<t>Ele também já teve seus direitos de distribuição cedidos para mais de 20 países.</t>
 		<h>O longa foi comercializado para 22 países.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1868" similarity="4.25">
+	<pair entailment="None" id="1868" similarity="4.25">
 		<t>O crédito bancário estará disponível no dia 17 deste mês.</t>
 		<h>O crédito da restituição será feito no dia 17 de agosto.</h>
 	</pair>
@@ -7656,7 +7656,7 @@
 		<t>A vacina contra o HPV consiste em três doses.</t>
 		<h>O esquema vacinal da vacina HPV é de 3 doses.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1915" similarity="4.0">
+	<pair entailment="None" id="1915" similarity="4.0">
 		<t>A ferramenta detecta automaticamente sua foto de perfil atual e aplica o filtro por cima.</t>
 		<h>A ferramenta aplica o filtro e faz a troca no perfil do usuário automaticamente.</h>
 	</pair>
@@ -7792,7 +7792,7 @@
 		<t>A base aliada na Câmara, de acordo com um parlamentar governista, está "inadministrável".</t>
 		<h>O governo tem uma base parlamentar de 400 deputados.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1949" similarity="4.0">
+	<pair entailment="Entailment" id="1949" similarity="4.0">
 		<t>Pizzolato foi condenado em 2012 por corrupção passiva, peculato e lavagem de dinheiro.</t>
 		<h>Ele cumprirá pena pelos crimes de lavagem de dinheiro, corrupção passiva e peculato.</h>
 	</pair>
@@ -7820,7 +7820,7 @@
 		<t>FMI e BCE exigem uma série de compromissos fiscais que a Grécia não quer aceitar.</t>
 		<h>FMI e BCE exigem mais corte de gastos e endurecimento na reforma previdenciária.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1956" similarity="4.25">
+	<pair entailment="Entailment" id="1956" similarity="4.25">
 		<t>Segundo a polícia, Fidel Lopez arrancou o intestino da namorada com as próprias mãos.</t>
 		<h>Posteriormente, Fidel arrancou o intestino da namorada com as próprias mãos.</h>
 	</pair>
@@ -7848,7 +7848,7 @@
 		<t>Ele é senador, tem imunidade parlamentar, porque não abre mão da imunidade a abre as contas dele.</t>
 		<h>Na ocasião, o dirigente pediu que o senador abrisse mal de sua imunidade parlamentar e mostrasse suas contas.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1963" similarity="4.0">
+	<pair entailment="Entailment" id="1963" similarity="4.0">
 		<t>Ainda assim, a moeda norte-americana marcou em setembro a terceira alta mensal consecutiva, movimento que deve continuar nos próximos meses.</t>
 		<h>Mesmo assim, o dólar terminou setembro com a terceira alta mensal consecutiva.</h>
 	</pair>
@@ -7860,7 +7860,7 @@
 		<t>A estreia do técnico acontecerá diante da Ponte Preta, neste sábado às 21h, em Campinas.</t>
 		<h>O novo comandante fará sua estreia contra a Ponte Preta, no próximo sábado, em Campinas.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1966" similarity="4.75">
+	<pair entailment="Entailment" id="1966" similarity="4.75">
 		<t>Juntas, as duas companhias serão capazes de oferecer mais de 450 destinos e seis mil voos diários.</t>
 		<h>As empresas podem oferecer juntas 450 destinos e mais de 6 mil voos diários.</h>
 	</pair>
@@ -7964,7 +7964,7 @@
 		<t>Nem todos os sites protegem as senhas de maneira eficiente e na maior parte dos casos sua senha pode ser capturada por phishing e malware.</t>
 		<h>Na maior parte dos casos de navegação em sites, as senhas são capturadas por phishing e malware.</h>
 	</pair>
-	<pair entailment="Paraphrase" id="1992" similarity="4.5">
+	<pair entailment="Entailment" id="1992" similarity="4.5">
 		<t>O valor médio do metro quadrado dos imóveis anunciados nas 20 cidades em julho foi de 7.614 reais.</t>
 		<h>O preço médio do metro quadrado nas 20 cidades pesquisadas foi de R$ 7.614.</h>
 	</pair>
