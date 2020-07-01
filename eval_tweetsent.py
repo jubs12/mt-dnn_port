@@ -42,15 +42,19 @@ if mode not in modes:
 if pretrained not in pretraineds:
     raise ValueError(f'Incorrect pretrained argument: not in {pretrained}')
 
-output_dir = f'report/{mode}/{pretrained}/seed/{seed}'
+output_dir = f'report/{test_dir}{mode}/{pretrained}'
 output_dir = f'{output_dir}/seed/{seed}' if seed else output_dir
 output_dir = f'{output_dir}/grad_norm/{grad_norm}' if grad_norm else output_dir
 
+seed_dir = f'seed/{seed}/' if seed else ''
 grad_norm_dir = f'grad_norm/{grad_norm}/' if grad_norm else ''
 
+ensemble_dir = f'ensemble/' if ensemble_mode else ''
+test_dir = f'test/' if test_mode else ''
+
 filepath = \
-f'output/{mode}/tweetsent/{pretrained}/{seed_dir}{grad_norm_dir}tweetsent_test_scores_4.json' if mode == 'st-dnn' \
-else  f'output/{mode}/{pretrained}/{seed_dir}{grad_norm_dir}tweetsent_test_scores_4.json'
+f'output/{test_mode}{mode}/tweetsent/{pretrained}/{ensemble_dir}{seed_dir}{grad_norm_dir}tweetsent_test_scores_4.json' if mode == 'st-dnn' \
+else  f'output/{test_mode}{mode}/{pretrained}/{ensemble_dir}{seed_dir}{grad_norm_dir}tweetsent_test_scores_4.json'
 
 with open(filepath) as f:
     output = json.load(f)

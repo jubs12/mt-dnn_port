@@ -5,7 +5,6 @@ import sys
 
 import xmltodict
 
-##### get file from mt-dnn_port repo
 mode = sys.argv[1]
 dataset = sys.argv[2]
 pretrained = sys.argv[3]
@@ -86,22 +85,23 @@ elif mode == 'mt-dnn_assin+tweetsent':
 seed_dir = f'seed/{seed}/' if seed else ''
 grad_norm_dir = f'grad_norm/{grad_norm}/' if grad_norm else ''
 
-ensemble_dir = f'ensemble/' if seed else ''
+ensemble_dir = f'ensemble/' if ensemble_mode else ''
+test_dir = f'test/' if test_mode else ''
 
 if dataset in cabezudo:
-    rte_filepath =  f'output/{mode}/{dataset}/{pretrained}/{ensemble_dir}{seed_dir}{grad_norm_dir}{dataset}_test_scores_6.json' if mode == 'st-dnn' \
-    else  f'output/{mode}/{pretrained}/{ensemble_dir}{seed_dir}{grad_norm_dir}{dataset}_test_scores_6.json'
+    rte_filepath =  f'output/{test_mode}{mode}/{dataset}/{pretrained}/{ensemble_dir}{seed_dir}{grad_norm_dir}{dataset}_test_scores_6.json' if mode == 'st-dnn' \
+    else  f'output/{test_mode}{mode}/{pretrained}/{ensemble_dir}{seed_dir}{grad_norm_dir}{dataset}_test_scores_6.json'
 else: 
     rte_filepath = \
-    f'output/{mode}/{dataset}-rte/{pretrained}/{ensemble_dir}{seed_dir}{grad_norm_dir}{dataset}-rte_test_scores_4.json' if mode == 'st-dnn' \
-    else  f'output/{mode}/{pretrained}/{ensemble_dir}{seed_dir}{grad_norm_dir}{dataset}-rte_test_scores_4.json'
+    f'output/{test_mode}{mode}/{dataset}-rte/{pretrained}/{ensemble_dir}{seed_dir}{grad_norm_dir}{dataset}-rte_test_scores_4.json' if mode == 'st-dnn' \
+    else  f'output/{test_mode}{mode}/{pretrained}/{ensemble_dir}{seed_dir}{grad_norm_dir}{dataset}-rte_test_scores_4.json'
 
 if dataset in cabezudo:
     sts_filepath = None
 else: 
     sts_filepath = \
-    f'output/{mode}/{dataset}-sts/{pretrained}/{ensemble_dir}{seed_dir}{grad_norm_dir}{dataset}-sts_test_scores_4.json' if mode == 'st-dnn' \
-    else  f'output/{mode}/{pretrained}/{ensemble_dir}{seed_dir}{grad_norm_dir}{dataset}-sts_test_scores_4.json'
+    f'output/{test_mode}{mode}/{dataset}-sts/{pretrained}/{ensemble_dir}{seed_dir}{grad_norm_dir}{dataset}-sts_test_scores_4.json' if mode == 'st-dnn' \
+    else  f'output/{test_mode}{mode}/{pretrained}/{ensemble_dir}{seed_dir}{grad_norm_dir}{dataset}-sts_test_scores_4.json'
 
 filepaths = {
     'rte': rte_filepath,
@@ -109,11 +109,11 @@ filepaths = {
 }
 
 
-output_dir = f'report/{mode}/{pretrained}/'
+output_dir = f'report/{test_dir}{mode}/{pretrained}'
 output_dir = f'{output_dir}/seed/{seed}' if seed else output_dir
 output_dir = f'{output_dir}/grad_norm/{grad_norm}' if grad_norm else output_dir
 
-output_dir = f'{output_dir}/ensemble' if ensemble else output_dir
+output_dir = f'{output_dir}/ensemble' if ensemble_mode else output_dir
 
 tasks = list()
 if rte_filepath:

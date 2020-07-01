@@ -4,6 +4,8 @@ MODEL=$1
 TYPE=$2
 TASK=$3
 
+SEED_OR_MODE=$4
+
 cd mt-dnn
 
 echo "Preparing train arguments"
@@ -48,11 +50,25 @@ else
    exit 127
 fi
 
+IS_NUMERIC='^[0-9]+$'
+if [ $SEED_OR_MODE =~ $IS_NUMERIC ] ; then
+    SEED=$SEED_OR_MODE
+    GRAD_NORM=$5
+    DROPOUT=$6
+    MODE_ARGS="--seed $SEED --fp16 --fp16_opt_level O2  --global_grad_clipping $GRAD_NORM --dropout_p $DROPOUT"
+elif [ "$SEED_OR_MODE" = "--test" ]; then
+    TEST_DIR='test/'
+else
+   echo "invalid option">&2
+   exit 127
+fi
+
 declare -a tasks_cabezudo=("assin1-rte" "best-pt" "worst-pt" "random-pt")
 if [[ " ${tasks_cabezudo[@]} " =~ " ${TASK} " ]]; then
 	CABEZUDO="--epochs 7 --learning_rate 0.00002 --batch_size 22 --batch_size_eval 22 --max_seq_len 128"
 fi
 
+OUTPUT="--output_dir ../output/${TEST_DIR}st-dnn/$TASK/${MODEL}_${TYPE}/"
 
 python prepro_std.py --task_def ../data/task-def/$TASK.yaml $PREPRO
-python train.py $CABEZUDO   --task_def ../data/task-def/$TASK.yaml --train_datasets $TASK --test_datasets $TASK --tensorboard $TRAIN --output_dir ../output/st-dnn/$TASK/${MODEL}_${TYPE}/
+python train.py $CABEZUDO --task_def ../data/task-def/$TASK.yaml --train_datasets $TASK --test_datasets $TASK --tensorboard $TRAIN $OUTPUT $MODE_ARGS
