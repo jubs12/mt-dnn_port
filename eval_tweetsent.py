@@ -17,6 +17,7 @@ pretrained = sys.argv[2]
 seed = None if len(sys.argv) < 4 else sys.argv[3]
 grad_norm = None if len(sys.argv) < 5 else sys.argv[4]
 download_folder = 'data/dataset' if len(sys.argv) < 6 else sys.argv[5]
+download_folder = 'data/dataset' if len(sys.argv) < 7 else sys.argv[6]
 
 test_mode = True if len(sys.argv) == 4 and sys.argv[3] == '--test' else False
 ensemble_mode = True if len(sys.argv) == 4 and sys.argv[3] == '--ensemble' else False
@@ -45,16 +46,18 @@ if pretrained not in pretraineds:
 output_dir = f'report/{test_dir}{mode}/{pretrained}'
 output_dir = f'{output_dir}/seed/{seed}' if seed else output_dir
 output_dir = f'{output_dir}/grad_norm/{grad_norm}' if grad_norm else output_dir
+output_dir = f'{output_dir}/dropout/{dropout}' if dropout else output_dir
 
 seed_dir = f'seed/{seed}/' if seed else ''
 grad_norm_dir = f'grad_norm/{grad_norm}/' if grad_norm else ''
+dropout_dir = f'dropout/{dropout}/' if dropout else ''
 
 ensemble_dir = f'ensemble/' if ensemble_mode else ''
 test_dir = f'test/' if test_mode else ''
 
 filepath = \
-f'output/{test_mode}{mode}/tweetsent/{pretrained}/{ensemble_dir}{seed_dir}{grad_norm_dir}tweetsent_test_scores_4.json' if mode == 'st-dnn' \
-else  f'output/{test_mode}{mode}/{pretrained}/{ensemble_dir}{seed_dir}{grad_norm_dir}tweetsent_test_scores_4.json'
+f'output/{test_mode}{mode}/tweetsent/{pretrained}/{ensemble_dir}{seed_dir}{grad_norm_dir}{dropout_dir}tweetsent_test_scores_4.json' if mode == 'st-dnn' \
+else  f'output/{test_mode}{mode}/{pretrained}/{ensemble_dir}{seed_dir}{grad_norm_dir}{dropout_dir}tweetsent_test_scores_4.json'
 
 with open(filepath) as f:
     output = json.load(f)
