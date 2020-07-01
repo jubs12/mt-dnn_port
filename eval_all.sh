@@ -37,3 +37,16 @@ bash doc+eval_ensemble.sh mt-dnn_assin2 bert-multilingual_base$DOWNLOAD_FOLDER
 python assin_xml+eval_ensemble.py st-dnn assin-1+2 bert-multilingual_base$DOWNLOAD_FOLDER
 python assin_xml+eval_ensemble.py st-dnn assin-ptbr+2 bert-multilingual_base$DOWNLOAD_FOLDER
 
+#Cabezudo experiments with bert-pt base
+for TYPE in "${types[@]}"; do
+    python assin_xml+eval_ensemble.py st-dnn assin1-rte bert-pt_$TYPE $DOWNLOAD_FOLDER
+    python assin_xml+eval_ensemble.py st-dnn best-pt bert-pt_$TYPE $DOWNLOAD_FOLDER
+    python assin_xml+eval_ensemble.py st-dnn random-pt bert-pt_$TYPE $DOWNLOAD_FOLDER
+    python assin_xml+eval_ensemble.py st-dnn worst-pt bert-pt_$TYPE $DOWNLOAD_FOLDER
+done
+
+python assin_xml+eval_ensemble.py st-dnn assin1-rte bert-multilingual_base $DOWNLOAD_FOLDER
+python assin_xml+eval_ensemble.py st-dnn best-pt bert-multilingual_base $DOWNLOAD_FOLDER
+python assin_xml+eval_ensemble.py st-dnn random-pt bert-multilingual_base $DOWNLOAD_FOLDER
+python assin_xml+eval_ensemble.py st-dnn worst-pt bert-multilingual_base $DOWNLOAD_FOLDER
+

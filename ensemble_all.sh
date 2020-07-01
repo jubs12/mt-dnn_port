@@ -41,3 +41,19 @@ python ensemble.py "st-dnn"/assin-1+2-rte bert-multilingual_base
 python ensemble.py "st-dnn"/assin-1+2-sts bert-multilingual_base
 python ensemble.py "st-dnn"/assin-ptbr+2-rte bert-multilingual_base
 python ensemble.py "st-dnn"/assin-ptbr+2-sts bert-multilingual_base
+
+#Cabezudo experiments
+for MODEL in "${models[@]}"; do
+    python ensemble.py "st-dnn"/assin1-rte "bert-pt_base"
+    python ensemble.py "st-dnn"/best-pt "bert-pt_base"
+    python ensemble.py "st-dnn"/random-pt "bert-pt_base"
+    python ensemble.py "st-dnn"/worst-pt "bert-pt_base"
+        python ensemble.py "st-dnn"/assin1-rte "bert-pt_large"
+    python ensemble.py "st-dnn"/best-pt "bert-pt_large"
+    python ensemble.py "st-dnn"/random-pt "bert-pt_large"
+    python ensemble.py "st-dnn"/worst-pt "bert-pt_large"
+    python ensemble.py "st-dnn"/assin1-rte "bert-multilingual_base"
+    python ensemble.py "st-dnn"/best-pt "bert-multilingual_base"
+    python ensemble.py "st-dnn"/random-pt "bert-multilingual_base"
+    python ensemble.py "st-dnn"/worst-pt "bert-multilingual_base"
+done
