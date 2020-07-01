@@ -15,7 +15,8 @@ dropout = None if len(sys.argv) < 7 else sys.argv[6]
 download_folder = 'data/dataset' if len(sys.argv) < 8 else sys.argv[7]
 
 test_mode = True if len(sys.argv) == 5 and sys.argv[4] == '--test' else False
-ensemble_mode = True if len(sys.argv) == 5 and sys.argv[4] == '--ensemble' else False
+ensemble_mode = True if len(
+    sys.argv) == 5 and sys.argv[4] == '--ensemble' else False
 
 seed = None if test_mode or ensemble_mode else seed
 
@@ -25,16 +26,16 @@ modes = [
     'mt-dnn_assin-ptbr+assin2',
     'mt-dnn_assin',
     'mt-dnn_assin+tweetsent',
-    ]
+]
 
 pretraineds = [
-    'bert_base', 
-    'bert-pt_base', 
-    'mt-dnn_base', 
-    'bert-multilingual_base', 
-    'bert_large', 
-    'bert-pt_large', 
-    'mt-dnn_large',    
+    'bert_base',
+    'bert-pt_base',
+    'mt-dnn_base',
+    'bert-multilingual_base',
+    'bert_large',
+    'bert-pt_large',
+    'mt-dnn_large',
 ]
 
 if mode not in modes:
@@ -59,14 +60,14 @@ ipr = [
 
 pt_only = cabezudo + ipr
 
-assin = ['assin2','assin-ptbr','assin-ptpt']
+assin = ['assin2', 'assin-ptbr', 'assin-ptpt']
 assin2 = ['assin2']
 assin_ptbr_2 = assin2 + ['assin-ptbr']
 
 st_dnn_datasets = assin + pt_only
 
 if mode == 'st-dnn':
-    if pretrained not in pt and dataset in pt_only :
+    if pretrained not in pt and dataset in pt_only:
         raise ValueError(f'{pt_only} only in {pt} models')
     elif dataset not in st_dnn_datasets:
         raise ValueError(f'{mode} supports {st_dnn_datasets} ASSIN datasets')
@@ -91,19 +92,19 @@ ensemble_dir = f'ensemble/' if ensemble_mode else ''
 test_dir = f'test/' if test_mode else ''
 
 if dataset in cabezudo:
-    rte_filepath =  f'output/{test_mode}{mode}/{dataset}/{pretrained}/{ensemble_dir}{seed_dir}{grad_norm_dir}{dropout_dir}{dataset}_test_scores_6.json' if mode == 'st-dnn' \
-    else  f'output/{test_mode}{mode}/{pretrained}/{ensemble_dir}{seed_dir}{grad_norm_dir}{dropout_dir}{dataset}_test_scores_6.json'
-else: 
+    rte_filepath = f'output/{test_mode}{mode}/{dataset}/{pretrained}/{ensemble_dir}{seed_dir}{grad_norm_dir}{dropout_dir}{dataset}_test_scores_6.json' if mode == 'st-dnn' \
+        else f'output/{test_mode}{mode}/{pretrained}/{ensemble_dir}{seed_dir}{grad_norm_dir}{dropout_dir}{dataset}_test_scores_6.json'
+else:
     rte_filepath = \
-    f'output/{test_mode}{mode}/{dataset}-rte/{pretrained}/{ensemble_dir}{seed_dir}{grad_norm_dir}{dropout_dir}{dataset}-rte_test_scores_4.json' if mode == 'st-dnn' \
-    else  f'output/{test_mode}{mode}/{pretrained}/{ensemble_dir}{seed_dir}{grad_norm_dir}{dropout_dir}{dataset}-rte_test_scores_4.json'
+        f'output/{test_mode}{mode}/{dataset}-rte/{pretrained}/{ensemble_dir}{seed_dir}{grad_norm_dir}{dropout_dir}{dataset}-rte_test_scores_4.json' if mode == 'st-dnn' \
+        else f'output/{test_mode}{mode}/{pretrained}/{ensemble_dir}{seed_dir}{grad_norm_dir}{dropout_dir}{dataset}-rte_test_scores_4.json'
 
 if dataset in cabezudo:
     sts_filepath = None
-else: 
+else:
     sts_filepath = \
-    f'output/{test_mode}{mode}/{dataset}-sts/{pretrained}/{ensemble_dir}{seed_dir}{grad_norm_dir}{dropout_dir}{dataset}-sts_test_scores_4.json' if mode == 'st-dnn' \
-    else  f'output/{test_mode}{mode}/{pretrained}/{ensemble_dir}{seed_dir}{grad_norm_dir}{dropout_dir}{dataset}-sts_test_scores_4.json'
+        f'output/{test_mode}{mode}/{dataset}-sts/{pretrained}/{ensemble_dir}{seed_dir}{grad_norm_dir}{dropout_dir}{dataset}-sts_test_scores_4.json' if mode == 'st-dnn' \
+        else f'output/{test_mode}{mode}/{pretrained}/{ensemble_dir}{seed_dir}{grad_norm_dir}{dropout_dir}{dataset}-sts_test_scores_4.json'
 
 filepaths = {
     'rte': rte_filepath,
@@ -136,8 +137,10 @@ elif dataset in cabezudo:
 else:
     corpora = [dataset]
 
+
 def is_data_augmentation(corpora, mode):
     return len(corpora) >= 2 and mode == 'st-dnn'
+
 
 print('Saving generated XMLs...')
 for corpus in corpora:
@@ -152,7 +155,7 @@ for corpus in corpora:
 
     for idx, item in enumerate(xml['entailment-corpus']['pair']):
         uid = xml['entailment-corpus']['pair'][idx]['@id']
-        if is_data_augmentation(corpora, mode): 
+        if is_data_augmentation(corpora, mode):
             displacement = {
                 'assin-ptbr': 10000,
                 'assin-ptpt': 20000,
@@ -164,18 +167,18 @@ for corpus in corpora:
 
         if dataset not in cabezudo:
             similarity = scores['sts']['scores'][pos]
-        entailment_labels = ['Entailment','None','Paraphrase']
+        entailment_labels = ['Entailment', 'None', 'Paraphrase']
         entailment = entailment_labels[scores['rte']['predictions'][pos]]
 
         if dataset not in cabezudo:
-            xml['entailment-corpus']['pair'][idx]['@similarity'] = round(similarity, 1)
+            xml['entailment-corpus']['pair'][idx]['@similarity'] = round(
+                similarity, 1)
         xml['entailment-corpus']['pair'][idx]['@entailment'] = entailment
 
-    result = xmltodict.unparse(xml, pretty = True)
+    result = xmltodict.unparse(xml, pretty=True)
     outpath = f'{output_dir}/{dataset}' if is_data_augmentation(corpora, mode) \
-    else output_dir 
-         
-    
+        else output_dir
+
     if not path.exists(outpath):
         makedirs(outpath)
 
@@ -185,16 +188,16 @@ for corpus in corpora:
 
     gold_file = f'{download_folder}/{corpus}-test.xml'
     system_file = xml_file
-    cmd = ['python', 
-           'assin/assin-eval.py', 
-           gold_file, 
+    cmd = ['python',
+           'assin/assin-eval.py',
+           gold_file,
            system_file
-           ] 
+           ]
     evaluation = run(cmd, stdout=PIPE, stderr=PIPE)
     print(f'corpus: {corpus}')
     print(evaluation.stdout.decode('utf-8'))
     print(evaluation.stderr.decode('utf-8'))
-    
+
     eval_file = f'{outpath}/{corpus}_eval.txt'
     with open(eval_file, 'w') as f:
         f.write(evaluation.stdout.decode('utf-8'))
