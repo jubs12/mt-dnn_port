@@ -51,8 +51,8 @@ Acc: 0.70798±0.0042
 F1. neg: 0.697±0.009 neu: 0.585±0.006 post: 0.79±0.002
 Acc dist min: 0.2920
 Acc dist max: 0.2920
-Acc dist min equal: 0.0955
-Acc dist max equal: 0.1965
+Acc dist min equal: 0.0905
+Acc dist max equal: 0.2015
 
 Evaluation: st-dnn bert_base tweetsent
 
@@ -112,7 +112,7 @@ Evaluation: mt-dnn_assin bert_base assin2
 RTE evaluation
 Accuracy	Macro F1
 --------	--------
-  88.47±0.33±0.01%	   0.727±0.015
+  88.47±0.35%	   0.727±0.015
 
 Similarity evaluation
 Pearson		Mean Squared Error
@@ -160,8 +160,8 @@ Acc: 0.71222±0.00485
 F1. neg: 0.694±0.007 neu: 0.592±0.007 post: 0.796±0.004
 Acc dist min: 0.2920
 Acc dist max: 0.2920
-Acc dist min equal: 0.0975
-Acc dist max equal: 0.1945
+Acc dist min equal: 0.1030
+Acc dist max equal: 0.1891
 
 Evaluation: mt-dnn_assin+tweetsent bert_base tweetsent
 
@@ -221,8 +221,8 @@ Acc: 0.71302±0.00479
 F1. neg: 0.693±0.005 neu: 0.589±0.012 post: 0.801±0.005
 Acc dist min: 0.2920
 Acc dist max: 0.2920
-Acc dist min equal: 0.0945
-Acc dist max equal: 0.1975
+Acc dist min equal: 0.0960
+Acc dist max equal: 0.1960
 
 Evaluation: st-dnn bert_large tweetsent
 
@@ -330,8 +330,8 @@ Acc: 0.71862±0.0068
 F1. neg: 0.696±0.01 neu: 0.588±0.011 post: 0.809±0.004
 Acc dist min: 0.2920
 Acc dist max: 0.2920
-Acc dist min equal: 0.0970
-Acc dist max equal: 0.1950
+Acc dist min equal: 0.0975
+Acc dist max equal: 0.1945
 
 Evaluation: mt-dnn_assin+tweetsent bert_large tweetsent
 
@@ -391,8 +391,8 @@ Acc: 0.7169±0.00376
 F1. neg: 0.703±0.008 neu: 0.59±0.005 post: 0.8±0.005
 Acc dist min: 0.2920
 Acc dist max: 0.2920
-Acc dist min equal: 0.0925
-Acc dist max equal: 0.1995
+Acc dist min equal: 0.0836
+Acc dist max equal: 0.2085
 
 Evaluation: st-dnn mt-dnn_base tweetsent
 
@@ -468,7 +468,7 @@ Evaluation: mt-dnn_assin+tweetsent mt-dnn_base assin-ptbr
 RTE evaluation
 Accuracy	Macro F1
 --------	--------
-  90.2±0.42%	   0.827±0.005±0.01
+  90.2±0.42%	   0.824±0.01
 
 Similarity evaluation
 Pearson		Mean Squared Error
@@ -500,8 +500,8 @@ Acc: 0.71712±0.00469
 F1. neg: 0.707±0.005 neu: 0.586±0.009 post: 0.8±0.003
 Acc dist min: 0.2920
 Acc dist max: 0.2920
-Acc dist min equal: 0.0896
-Acc dist max equal: 0.2025
+Acc dist min equal: 0.0905
+Acc dist max equal: 0.2015
 
 Evaluation: mt-dnn_assin+tweetsent mt-dnn_base tweetsent
 
@@ -561,8 +561,8 @@ Acc: 0.71852±0.00438
 F1. neg: 0.698±0.005 neu: 0.582±0.005 post: 0.811±0.005
 Acc dist min: 0.2920
 Acc dist max: 0.2920
-Acc dist min equal: 0.0970
-Acc dist max equal: 0.1950
+Acc dist min equal: 0.0896
+Acc dist max equal: 0.2025
 
 Evaluation: st-dnn mt-dnn_large tweetsent
 
@@ -622,7 +622,7 @@ Evaluation: mt-dnn_assin mt-dnn_large assin2
 RTE evaluation
 Accuracy	Macro F1
 --------	--------
-  92.65±0.26%	   0.842±0.006
+  92.65±0.25±0.01%	   0.842±0.006
 
 Similarity evaluation
 Pearson		Mean Squared Error
@@ -670,8 +670,8 @@ Acc: 0.7215±0.00348
 F1. neg: 0.704±0.006 neu: 0.584±0.01 post: 0.813±0.003
 Acc dist min: 0.2920
 Acc dist max: 0.2920
-Acc dist min equal: 0.0900
-Acc dist max equal: 0.2020
+Acc dist min equal: 0.0970
+Acc dist max equal: 0.1950
 
 Evaluation: mt-dnn_assin+tweetsent mt-dnn_large tweetsent
 
@@ -731,8 +731,8 @@ Acc: 0.7403±0.00429
 F1. neg: 0.733±0.003 neu: 0.614±0.006 post: 0.819±0.006
 Acc dist min: 0.2920
 Acc dist max: 0.2920
-Acc dist min equal: 0.0876
-Acc dist max equal: 0.2045
+Acc dist min equal: 0.0791
+Acc dist max equal: 0.2129
 
 Evaluation: st-dnn bert-pt_base tweetsent
 
@@ -765,7 +765,7 @@ Accuracy	Macro F1
 Similarity evaluation
 Pearson		Mean Squared Error
 -------		------------------
-  0.854±0.002		              0.42±0.02
+  0.845±0.011		              0.42±0.02
 
 Evaluation: mt-dnn_assin bert-pt_base assin-ptpt
 
@@ -776,7 +776,7 @@ Evaluation: mt-dnn_assin bert-pt_base assin-ptpt
 RTE evaluation
 Accuracy	Macro F1
 --------	--------
-  89.79±0.54±0.03%	   0.898±0.006
+  89.79±0.59%	   0.898±0.006
 
 Similarity evaluation
 Pearson		Mean Squared Error
@@ -840,8 +840,8 @@ Acc: 0.7398±0.00255
 F1. neg: 0.731±0.008 neu: 0.609±0.011 post: 0.822±0.002
 Acc dist min: 0.2920
 Acc dist max: 0.2920
-Acc dist min equal: 0.0831
-Acc dist max equal: 0.2090
+Acc dist min equal: 0.0791
+Acc dist max equal: 0.2129
 
 Evaluation: mt-dnn_assin+tweetsent bert-pt_base tweetsent
 
@@ -901,8 +901,8 @@ Acc: 0.7599±0.00352
 F1. neg: 0.752±0.003 neu: 0.622±0.012 post: 0.842±0.004
 Acc dist min: 0.2920
 Acc dist max: 0.2920
-Acc dist min equal: 0.0806
-Acc dist max equal: 0.2114
+Acc dist min equal: 0.0781
+Acc dist max equal: 0.2139
 
 Evaluation: st-dnn bert-pt_large tweetsent
 
@@ -930,7 +930,7 @@ Evaluation: mt-dnn_assin bert-pt_large assin-ptbr
 RTE evaluation
 Accuracy	Macro F1
 --------	--------
-  92.98±0.4%	   0.869±0.011
+  92.98±0.4%	   0.868±0.005±0.011
 
 Similarity evaluation
 Pearson		Mean Squared Error
@@ -1010,8 +1010,8 @@ Acc: 0.7604±0.00254
 F1. neg: 0.759±0.004 neu: 0.623±0.006 post: 0.838±0.002
 Acc dist min: 0.2920
 Acc dist max: 0.2920
-Acc dist min equal: 0.0711
-Acc dist max equal: 0.2209
+Acc dist min equal: 0.0766
+Acc dist max equal: 0.2154
 
 Evaluation: mt-dnn_assin+tweetsent bert-pt_large tweetsent
 
@@ -1257,7 +1257,7 @@ Evaluation: st-dnn bert-pt_large assin-ptbr+2 assin-ptbr
 RTE evaluation
 Accuracy	Macro F1
 --------	--------
-  90.14±0.44±0.01%	   0.901±0.005
+  90.14±0.44%	   0.901±0.005
 
 Similarity evaluation
 Pearson		Mean Squared Error
@@ -1321,8 +1321,8 @@ Acc: 0.69094±0.00483
 F1. neg: 0.662±0.007 neu: 0.551±0.006 post: 0.792±0.003
 Acc dist min: 0.2920
 Acc dist max: 0.2920
-Acc dist min equal: 0.1085
-Acc dist max equal: 0.1836
+Acc dist min equal: 0.1025
+Acc dist max equal: 0.1896
 
 Evaluation: st-dnn bert-multilingual_base tweetsent
 
@@ -1430,8 +1430,8 @@ Acc: 0.68964±0.00386
 F1. neg: 0.665±0.01 neu: 0.554±0.013 post: 0.785±0.004
 Acc dist min: 0.2920
 Acc dist max: 0.2920
-Acc dist min equal: 0.1010
-Acc dist max equal: 0.1910
+Acc dist min equal: 0.1025
+Acc dist max equal: 0.1896
 
 Evaluation: mt-dnn_assin+tweetsent bert-multilingual_base tweetsent
 
@@ -1560,4 +1560,3 @@ Pearson		Mean Squared Error
   0.791±0.074		              0.53±0.06
 
 Evaluation: st-dnn bert-multilingual_base assin-ptbr+2 assin2
-

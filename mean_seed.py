@@ -2,7 +2,7 @@ from copy import copy
 import numpy as np
 import re
 import os
-from typing import Iterable
+from typing import Iterable, List
 from pprint import pprint
 
 assin_report = \
@@ -84,28 +84,23 @@ def get_report(filepath: str):
     return report
 
 
-def get_report_mean(scores_lst: List[list])
+def get_report_mean(scores_lst: List[list], sample):
+    scores_arr = np.array(scores_lst).astype(np.float32)
+    scores_mean = np.mean(scores_arr, axis=0).round(decimals=5)
+    scores_std = np.std(scores_arr, axis=0).round(decimals=5)
 
+    sample = re.sub('Saved evaluation:', 'Evaluation:', sample)
+    sample = re.sub('report/', '', sample)
+    sample = re.sub('seed/\d*/', '', sample)
+    sample = re.sub('_eval.txt', '', sample)
+    sample = re.sub('/', ' ', sample)
+    sample = re.sub('Saving generated XMLs...', '', sample)
 
-scores_arr = np.array(scores_lst).astype(np.float32)
-scores_mean = np.mean(scores_arr, axis=0).round(decimals=5)
-scores_std = np.std(scores_arr, axis=0).round(decimals=5)
-
-sample = copy(report)
-sample = re.sub('Saved evaluation:', 'Evaluation:', sample)
-sample = re.sub('report/', '', sample)
-sample = re.sub('seed/.*/', '', sample)
-sample = re.sub('_eval.txt', '', sample)
-sample = re.sub('/', ' ', sample)
-sample = re.sub('Saving generated XMLs...', '', sample)
-
-tasks = tuple(get_tasks(sample))
-tasks_mean = tuple(map(set_metrics, tasks, scores_mean, scores_std))
-report_mean = "\n-------------------------------------------\n".join(
-    tasks_mean)
-
-return report_mean
-
+    tasks = tuple(get_tasks(sample))
+    tasks_mean = tuple(map(set_metrics, tasks, scores_mean, scores_std))
+    report_mean = "\n-------------------------------------------\n".join(
+        tasks_mean)
+    return report_mean
 
 def save_text(txt: str, outpath: str):
     with open(outpath, 'w') as f:
@@ -131,5 +126,11 @@ def main():
 
         assert len(scores) == len(scores_lst[0])
 
+    sample = copy(report)
     report_mean = get_report_mean(scores_lst, sample)
-    save_text(report_mean, f'{path}/{outfile}')
+    outpath = f'{path}/{outfile}'
+    print(f'Saving mean in {outpath}')
+    save_text(report_mean, outpath)
+
+if __name__ == '__main__':
+    main()
