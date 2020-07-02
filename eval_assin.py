@@ -14,9 +14,9 @@ grad_norm = None if len(sys.argv) < 6 else sys.argv[5]
 dropout = None if len(sys.argv) < 7 else sys.argv[6]
 download_folder = 'data/dataset' if len(sys.argv) < 8 else sys.argv[7]
 
-test_mode = True if len(sys.argv) == 5 and sys.argv[4] == '--test' else False
+test_mode = True if len(sys.argv) == 5 and sys.argv[4] == '--test' else None
 ensemble_mode = True if len(
-    sys.argv) == 5 and sys.argv[4] == '--ensemble' else False
+    sys.argv) == 5 and sys.argv[4] == '--ensemble' else None
 
 seed = None if test_mode or ensemble_mode else seed
 
@@ -92,25 +92,24 @@ ensemble_dir = f'ensemble/' if ensemble_mode else ''
 test_dir = f'test/' if test_mode else ''
 
 if dataset in cabezudo:
-    rte_filepath = f'output/{test_mode}{mode}/{dataset}/{pretrained}/{ensemble_dir}{seed_dir}{grad_norm_dir}{dropout_dir}{dataset}_test_scores_6.json' if mode == 'st-dnn' \
-        else f'output/{test_mode}{mode}/{pretrained}/{ensemble_dir}{seed_dir}{grad_norm_dir}{dropout_dir}{dataset}_test_scores_6.json'
+    rte_filepath = f'output/{test_dir}{mode}/{dataset}/{pretrained}/{ensemble_dir}{seed_dir}{grad_norm_dir}{dropout_dir}{dataset}_test_scores_6.json' if mode == 'st-dnn' \
+        else f'output/{test_dir}{mode}/{pretrained}/{ensemble_dir}{seed_dir}{grad_norm_dir}{dropout_dir}{dataset}_test_scores_6.json'
 else:
     rte_filepath = \
-        f'output/{test_mode}{mode}/{dataset}-rte/{pretrained}/{ensemble_dir}{seed_dir}{grad_norm_dir}{dropout_dir}{dataset}-rte_test_scores_4.json' if mode == 'st-dnn' \
-        else f'output/{test_mode}{mode}/{pretrained}/{ensemble_dir}{seed_dir}{grad_norm_dir}{dropout_dir}{dataset}-rte_test_scores_4.json'
+        f'output/{test_dir}{mode}/{dataset}-rte/{pretrained}/{ensemble_dir}{seed_dir}{grad_norm_dir}{dropout_dir}{dataset}-rte_test_scores_4.json' if mode == 'st-dnn' \
+        else f'output/{test_dir}{mode}/{pretrained}/{ensemble_dir}{seed_dir}{grad_norm_dir}{dropout_dir}{dataset}-rte_test_scores_4.json'
 
 if dataset in cabezudo:
     sts_filepath = None
 else:
     sts_filepath = \
-        f'output/{test_mode}{mode}/{dataset}-sts/{pretrained}/{ensemble_dir}{seed_dir}{grad_norm_dir}{dropout_dir}{dataset}-sts_test_scores_4.json' if mode == 'st-dnn' \
-        else f'output/{test_mode}{mode}/{pretrained}/{ensemble_dir}{seed_dir}{grad_norm_dir}{dropout_dir}{dataset}-sts_test_scores_4.json'
+        f'output/{test_dir}{mode}/{dataset}-sts/{pretrained}/{ensemble_dir}{seed_dir}{grad_norm_dir}{dropout_dir}{dataset}-sts_test_scores_4.json' if mode == 'st-dnn' \
+        else f'output/{test_dir}{mode}/{pretrained}/{ensemble_dir}{seed_dir}{grad_norm_dir}{dropout_dir}{dataset}-sts_test_scores_4.json'
 
 filepaths = {
     'rte': rte_filepath,
     'sts': sts_filepath,
 }
-
 
 output_dir = f'report/{test_dir}{mode}/{pretrained}'
 output_dir = f'{output_dir}/seed/{seed}' if seed else output_dir
