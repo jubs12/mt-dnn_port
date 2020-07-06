@@ -52,7 +52,7 @@
 		<t>Quatro pessoas estão andando através da neve espessa e o sol está se pondo</t>
 		<h>Ninguém está atravessando a neve da linda paisagem nevada</h>
 	</pair>
-	<pair entailment="None" id="13" similarity="2.5">
+	<pair entailment="None" id="13" similarity="2.4">
 		<t>Um bebê está animando outro bebê</t>
 		<h>Um bebê está espirrando e assustando outro bebê</h>
 	</pair>
@@ -76,7 +76,7 @@
 		<t>Um cachorro branco de coleira está andando na água</t>
 		<h>Um homem sem camisa está jogando futebol em um gramado</h>
 	</pair>
-	<pair entailment="None" id="19" similarity="3.8">
+	<pair entailment="None" id="19" similarity="3.7">
 		<t>Dois meninos gêmeos pré-adolescentes estão duelando com varas</t>
 		<h>Dois meninos gêmeos pré-adolescentes estão brincando com cartas</h>
 	</pair>
@@ -348,7 +348,7 @@
 		<t>Uma mulher está cortando um limão</t>
 		<h>Um homem está cortando um limão</h>
 	</pair>
-	<pair entailment="None" id="87" similarity="3.3">
+	<pair entailment="None" id="87" similarity="3.2">
 		<t>Uma mulher está pilotando uma moto aquática</t>
 		<h>Uma mulher está pilotando uma moto para água</h>
 	</pair>
@@ -456,7 +456,7 @@
 		<t>Uma mulher está cortando batatas</t>
 		<h>Não tem nenhuma mulher cortando batatas</h>
 	</pair>
-	<pair entailment="Entailment" id="114" similarity="4.7">
+	<pair entailment="Entailment" id="114" similarity="4.8">
 		<t>Uma menina de idade está sentada em um banco e está vestindo uma jaqueta cinza e calça preta</t>
 		<h>A menina está sentada em um banco e está usando uma jaqueta cinza e calça preta</h>
 	</pair>
@@ -660,7 +660,7 @@
 		<t>Um cara e uma mulher estão dando um aperto de mãos</t>
 		<h>Duas pessoas estão dando um aperto de mãos</h>
 	</pair>
-	<pair entailment="Entailment" id="165" similarity="5.1">
+	<pair entailment="Entailment" id="165" similarity="5.0">
 		<t>O cara está despejando um pouco de óleo nos tomates</t>
 		<h>Um pouco de óleo está sendo derramado sobre os tomates por um cara</h>
 	</pair>
@@ -680,7 +680,7 @@
 		<t>Uma mulher está fatiando manteiga</t>
 		<h>Tofu está sendo fatiado por uma mulher</h>
 	</pair>
-	<pair entailment="Entailment" id="170" similarity="4.1">
+	<pair entailment="Entailment" id="170" similarity="4.0">
 		<t>A mulher está cozinhando ovos em uma panela vermelha</t>
 		<h>A mulher está cozinhando algo</h>
 	</pair>
@@ -736,7 +736,7 @@
 		<t>Várias pessoas estão cantando</t>
 		<h>Tem gente fazendo música</h>
 	</pair>
-	<pair entailment="None" id="184" similarity="4.1">
+	<pair entailment="Entailment" id="184" similarity="4.1">
 		<t>Um cachorro de pelagem dourada está nadando pela água</t>
 		<h>Um cachorro está nadando em um lago e o sol está brilhando nele</h>
 	</pair>
@@ -1000,7 +1000,7 @@
 		<t>Um homem está escalando, pausando e calculando a rota</t>
 		<h>Um homem está escalando, parando e calculando a rota</h>
 	</pair>
-	<pair entailment="Entailment" id="250" similarity="4.4">
+	<pair entailment="Entailment" id="250" similarity="4.5">
 		<t>O panda está correndo</t>
 		<h>Um urso panda está se movendo rapidamente</h>
 	</pair>
@@ -1016,7 +1016,7 @@
 		<t>Um cachorro está correndo na praia e perseguindo uma bola</t>
 		<h>Um cachorro está correndo na areia e perseguindo uma bola</h>
 	</pair>
-	<pair entailment="None" id="254" similarity="3.9">
+	<pair entailment="None" id="254" similarity="4.0">
 		<t>Uma pessoa, que está de topless e com uma mochila, está em frente a uma pilha de pedras e nuvens estão ao fundo</t>
 		<h>O homem está de pé em uma montanha rochosa e nuvens cinzas estão ao fundo</h>
 	</pair>
@@ -1112,7 +1112,7 @@
 		<t>O homem está montando um cavalo perto de um riacho</t>
 		<h>Um cavalo está sendo montado por uma pessoa</h>
 	</pair>
-	<pair entailment="None" id="278" similarity="3.7">
+	<pair entailment="None" id="278" similarity="3.8">
 		<t>O piloto de motocross está usando calça azul e preta</t>
 		<h>Um motociclista com uma jaqueta azul, calças pretas e um capacete branco está estacionando na terra e pessoas não estão olhando</h>
 	</pair>
@@ -1316,7 +1316,7 @@
 		<t>Um menino pequenino em uma camisa, que é amarela, está rindo na praia</t>
 		<h>Um menino está vestindo roupa amarela e está rindo</h>
 	</pair>
-	<pair entailment="None" id="329" similarity="3.8">
+	<pair entailment="None" id="329" similarity="3.9">
 		<t>Não há nenhuma pessoa andando de bicicleta</t>
 		<h>Uma pessoa está andando de bicicleta</h>
 	</pair>
@@ -1724,7 +1724,7 @@
 		<t>Não tem nenhuma menina aplicando maquiagem em seu rosto</t>
 		<h>Uma menina está aplicando maquiagem em seu rosto</h>
 	</pair>
-	<pair entailment="Entailment" id="431" similarity="4.6">
+	<pair entailment="Entailment" id="431" similarity="4.7">
 		<t>Uma menina de uniforme está tocando a flauta com uma banda</t>
 		<h>Uma menina em uma banda está tocando a flauta</h>
 	</pair>
@@ -2452,7 +2452,7 @@
 		<t>Um cachorro está reunindo um bando de ovelhas brancas em uma fazenda empoeirada</t>
 		<h>Um cão pastor está dispersando um rebanho de ovelhas</h>
 	</pair>
-	<pair entailment="Entailment" id="613" similarity="4.9">
+	<pair entailment="Entailment" id="613" similarity="4.8">
 		<t>Um cara está encaixando um silenciador em uma pistola</t>
 		<h>Um cara está colocando um silenciador na arma</h>
 	</pair>
@@ -2480,7 +2480,7 @@
 		<t>Ninguém está parado no oceano e observando o pôr-do-sol</t>
 		<h>Duas pessoas estão vadeando pela água</h>
 	</pair>
-	<pair entailment="Entailment" id="620" similarity="4.3">
+	<pair entailment="Entailment" id="620" similarity="4.2">
 		<t>Um cachorro, que tem pelagem castanha e branca, está segurando uma bola de beisebol na boca</t>
 		<h>Um cachorro castanho e branco está segurando uma bola</h>
 	</pair>
@@ -2692,7 +2692,7 @@
 		<t>Um cara está disparando com uma espingarda</t>
 		<h>Um cara está disparando uma arma</h>
 	</pair>
-	<pair entailment="None" id="673" similarity="2.4">
+	<pair entailment="None" id="673" similarity="2.3">
 		<t>Uma pessoa está segurando um gambá</t>
 		<h>Uma pessoa está fritando carne em uma frigideira</h>
 	</pair>
@@ -2704,7 +2704,7 @@
 		<t>Um homem está falando no rádio com outro homem</t>
 		<h>Um homem está conversando</h>
 	</pair>
-	<pair entailment="None" id="676" similarity="3.0">
+	<pair entailment="None" id="676" similarity="3.1">
 		<t>Um bebê está falando</t>
 		<h>Um menino está dizendo alguma coisa</h>
 	</pair>
@@ -2728,7 +2728,7 @@
 		<t>Um homem está adicionando pedaços de manteiga a uma tigela de misturas</t>
 		<h>Pedaços de manteiga estão sendo adicionados à batedeira</h>
 	</pair>
-	<pair entailment="None" id="682" similarity="2.9">
+	<pair entailment="None" id="682" similarity="2.8">
 		<t>Um grupo de pessoas está dançando em um concerto</t>
 		<h>Um grupo de pessoas está marchando</h>
 	</pair>
@@ -2808,7 +2808,7 @@
 		<t>Ovos estão sendo fervidos pela senhora</t>
 		<h>Uma senhora está fervendo ovos</h>
 	</pair>
-	<pair entailment="None" id="702" similarity="2.5">
+	<pair entailment="None" id="702" similarity="2.4">
 		<t>Uma pessoa está cortando alho em pedaços com uma faca</t>
 		<h>Alguém está colocando ingredientes em uma wok</h>
 	</pair>
@@ -2824,7 +2824,7 @@
 		<t>Uma senhora está disparando um rifle</t>
 		<h>Uma senhora está disparando uma arma</h>
 	</pair>
-	<pair entailment="None" id="706" similarity="2.3">
+	<pair entailment="None" id="706" similarity="2.4">
 		<t>Um cachorro está latindo para uma bola</t>
 		<h>Um gato está nadando atrás de uma bola de tênis</h>
 	</pair>
@@ -2856,7 +2856,7 @@
 		<t>Um menino está pulando de uma plataforma e dois outros meninos estão de pé e assistindo</t>
 		<h>O menino está saltando da plataforma e outros meninos estão olhando</h>
 	</pair>
-	<pair entailment="Entailment" id="714" similarity="4.2">
+	<pair entailment="Entailment" id="714" similarity="4.1">
 		<t>Um homem está tocando o teclado em um parque</t>
 		<h>Alguém está tocando teclado</h>
 	</pair>
@@ -2976,7 +2976,7 @@
 		<t>Um homem de roupa indiana e henna em sua mão está passando por burocracia</t>
 		<h>Uma mulher está vestindo uma camisa colorida e muita joia</h>
 	</pair>
-	<pair entailment="Entailment" id="744" similarity="4.6">
+	<pair entailment="Entailment" id="744" similarity="4.7">
 		<t>Dois cachorros estão correndo e tentando pegar uma bola de futebol de campo</t>
 		<h>Dois cachorros estão correndo e tentando pegar uma bola</h>
 	</pair>
@@ -2992,7 +2992,7 @@
 		<t>Um cachorro está parado ao lado de uma montanha</t>
 		<h>Um cachorro está parado em uma montanha</h>
 	</pair>
-	<pair entailment="None" id="748" similarity="2.6">
+	<pair entailment="None" id="748" similarity="2.7">
 		<t>Um grupo de estudantes de uniforme está ignorando a frente da turma</t>
 		<h>Uma sala de aula cheia de estudantes está olhando na mesma direção dentro de uma estrutura de bambu</h>
 	</pair>
@@ -3264,7 +3264,7 @@
 		<t>Três meninos estão ajoelhados próximos uns aos outros em frente a uma bola</t>
 		<h>Alguns meninos estão ajoelhados na frente de uma bola</h>
 	</pair>
-	<pair entailment="None" id="816" similarity="4.1">
+	<pair entailment="None" id="816" similarity="4.0">
 		<t>Uma pessoa está realizando truques em uma motocicleta</t>
 		<h>O artista está enganando uma pessoa em uma moto</h>
 	</pair>
@@ -3320,7 +3320,7 @@
 		<t>Um chefe está preparando alguma comida</t>
 		<h>Comida está sendo preparada por um chefe</h>
 	</pair>
-	<pair entailment="None" id="830" similarity="2.0">
+	<pair entailment="None" id="830" similarity="2.1">
 		<t>Uma grande multidão de roupas de frio está se afastando de uma câmera</t>
 		<h>Dois homens, uma mulher e dois meninos jovens estão parados na frente de um grande grupo de pessoas do lado de fora de um prédio</h>
 	</pair>
@@ -3352,7 +3352,7 @@
 		<t>Meninos pequenos estão brincando em uma fonte de água na frente de muitas pessoas</t>
 		<h>As crianças estão brincando em uma fonte na frente de várias pessoas</h>
 	</pair>
-	<pair entailment="None" id="838" similarity="4.1">
+	<pair entailment="None" id="838" similarity="4.2">
 		<t>Um homem está dançando no teto</t>
 		<h>Um grande cantor está dançando no teto</h>
 	</pair>
@@ -3596,7 +3596,7 @@
 		<t>Um homem está vestindo um uniforme esportivo e está correndo campo abaixo</t>
 		<h>O jogador negro está fazendo uma jogada para o jogador branco perto do final de um campo roxo</h>
 	</pair>
-	<pair entailment="None" id="899" similarity="3.2">
+	<pair entailment="None" id="899" similarity="3.1">
 		<t>Duas pessoas estão olhando para uma estátua de ouro</t>
 		<h>Duas pessoas estão ignorando a estátua de ouro próxima</h>
 	</pair>
@@ -3644,7 +3644,7 @@
 		<t>Um casal está sentado em um pátio e está encarando o oceano</t>
 		<h>Duas pessoas estão olhando para o mar</h>
 	</pair>
-	<pair entailment="None" id="911" similarity="3.6">
+	<pair entailment="None" id="911" similarity="3.5">
 		<t>Uma jovem menina está de pé em uma perna</t>
 		<h>Uma menina jovem está em pé nas duas pernas</h>
 	</pair>
@@ -3736,7 +3736,7 @@
 		<t>A criança está brincando com brinquedos ao ar livre</t>
 		<h>A criança está brincando com brinquedos em uma área coberta</h>
 	</pair>
-	<pair entailment="Entailment" id="934" similarity="4.6">
+	<pair entailment="Entailment" id="934" similarity="4.5">
 		<t>Uma menina está fritando alguma comida</t>
 		<h>Uma pessoa está fritando comida</h>
 	</pair>
@@ -3960,7 +3960,7 @@
 		<t>Muitas pessoas estão andando na estrada ao lado de uma cachoeira, que é bonita</t>
 		<h>As pessoas estão andando na estrada ao lado de uma bela cachoeira</h>
 	</pair>
-	<pair entailment="Entailment" id="990" similarity="4.7">
+	<pair entailment="Entailment" id="990" similarity="4.6">
 		<t>Um veterano está mostrando diferentes coisas de uma guerra para algumas pessoas</t>
 		<h>Algumas coisas de uma guerra estão sendo mostradas para algumas pessoas por um veterano</h>
 	</pair>
@@ -4004,7 +4004,7 @@
 		<t>O cachorro castanho está cheirando o rabo de um cachorro pequenino preto</t>
 		<h>Não tem nenhum cachorro grande castanho e um cachorro cinza pequenino parados em uma superfície rochosa</h>
 	</pair>
-	<pair entailment="Entailment" id="1001" similarity="4.4">
+	<pair entailment="Entailment" id="1001" similarity="4.5">
 		<t>Um cachorro branco com manchas beges está disparando por um campo</t>
 		<h>Um cachorro manchado está correndo por um campo</h>
 	</pair>
@@ -4108,7 +4108,7 @@
 		<t>Um cachorro, que é preto, está correndo na grama</t>
 		<h>Um cachorro preto está correndo na grama</h>
 	</pair>
-	<pair entailment="None" id="1027" similarity="3.4">
+	<pair entailment="None" id="1027" similarity="3.3">
 		<t>Algumas crianças não estão brincando no parquinho</t>
 		<h>O menino e a menina estão brincando na academia ao ar livre</h>
 	</pair>
@@ -4528,7 +4528,7 @@
 		<t>Um cara está escalando uma parede rochosa e outro cara está segurando uma corda</t>
 		<h>Um cara está escalando uma parede feita de pedra e outro cara está segurando a corda</h>
 	</pair>
-	<pair entailment="None" id="1132" similarity="3.6">
+	<pair entailment="None" id="1132" similarity="3.7">
 		<t>Um homem está olhando para o horizonte e pessoas estão andando por entre prédios atrás dele</t>
 		<h>Uma mulher está olhando para a distância e pessoas estão andando entre os prédios atrás</h>
 	</pair>
@@ -4540,7 +4540,7 @@
 		<t>Um cara jovem está pegando uma motocicleta de motocross para cima de um morro de terra</t>
 		<h>Um cara jovem está empurrando uma bicicleta de motocross para cima de um morro de terra</h>
 	</pair>
-	<pair entailment="Entailment" id="1135" similarity="4.8">
+	<pair entailment="Entailment" id="1135" similarity="4.9">
 		<t>A senhora e o homem estão viajando de carro</t>
 		<h>A senhora e o homem estão viajando de automóvel</h>
 	</pair>
@@ -4876,7 +4876,7 @@
 		<t>A mulher não está passeando o cachorro</t>
 		<h>A mulher está passeando com o cachorro</h>
 	</pair>
-	<pair entailment="Entailment" id="1219" similarity="4.6">
+	<pair entailment="Entailment" id="1219" similarity="4.5">
 		<t>Um homem, duas mulheres e duas meninas estão andando na praia</t>
 		<h>Cinco pessoas estão andando na praia</h>
 	</pair>
@@ -4952,7 +4952,7 @@
 		<t>Um homem está fatiando manteiga</t>
 		<h>Uma mulher está fatiando tofu</h>
 	</pair>
-	<pair entailment="None" id="1238" similarity="3.2">
+	<pair entailment="None" id="1238" similarity="3.1">
 		<t>Um menino pequeno está vestindo uma regata amarela e está rindo</t>
 		<h>Um menino pequeno está sem camisa e está sério</h>
 	</pair>
@@ -5024,7 +5024,7 @@
 		<t>Um homem está usando um capacete de proteção e dançando</t>
 		<h>O homem está dançando</h>
 	</pair>
-	<pair entailment="None" id="1256" similarity="1.8">
+	<pair entailment="None" id="1256" similarity="1.9">
 		<t>Um homem está remando um barco</t>
 		<h>Um homem está atirando com uma arma de fogo</h>
 	</pair>
@@ -5372,7 +5372,7 @@
 		<t>Uma menina está fritando comida</t>
 		<h>Alguns alimentos estão sendo fritos por uma pessoa</h>
 	</pair>
-	<pair entailment="Entailment" id="1343" similarity="5.1">
+	<pair entailment="Entailment" id="1343" similarity="5.0">
 		<t>Um homem sem camisa está segurando uma bola de futebol</t>
 		<h>Uma bola de futebol está sendo segurada por um homem sem camisa</h>
 	</pair>
@@ -5444,7 +5444,7 @@
 		<t>Um cachorro branco e um cachorro preto estão correndo lado a lado na grama verde</t>
 		<h>Um cachorro, que tem pelagem preta, e um cachorro branco estão correndo na grama</h>
 	</pair>
-	<pair entailment="None" id="1361" similarity="3.8">
+	<pair entailment="None" id="1361" similarity="3.9">
 		<t>Um cachorro preto e branco está carregando uma grande vara na grama verde</t>
 		<h>Um cachorro preto e branco com um galho grande está correndo no campo</h>
 	</pair>
@@ -5736,7 +5736,7 @@
 		<t>Um cachorro, que é branco, está em pé nas folhas caídas</t>
 		<h>Um cachorro está parado em cima das folhas caídas</h>
 	</pair>
-	<pair entailment="None" id="1434" similarity="3.5">
+	<pair entailment="None" id="1434" similarity="3.4">
 		<t>Um homem oriental e duas mulheres estão voltando suas costas para a câmera</t>
 		<h>Um grupo de pessoas está de pé junto e olhando a câmera</h>
 	</pair>
@@ -5748,7 +5748,7 @@
 		<t>Os jogadores estão manobrando a bola de futebol de campo</t>
 		<h>Os jogadores estão manobrando a bola</h>
 	</pair>
-	<pair entailment="None" id="1437" similarity="4.2">
+	<pair entailment="None" id="1437" similarity="4.1">
 		<t>Uma menina pequenina de brinquedo está em um carrinho de brinquedo</t>
 		<h>Uma criança está sentada em um carro de brinquedo vermelho e amarelo</h>
 	</pair>
@@ -6156,7 +6156,7 @@
 		<t>Uma senhora está descascando uma batata</t>
 		<h>Uma batata está sendo descascada por uma senhora</h>
 	</pair>
-	<pair entailment="None" id="1539" similarity="1.0">
+	<pair entailment="None" id="1539" similarity="1.1">
 		<t>Um homem está tocando um violino</t>
 		<h>O bebê está rindo e andando</h>
 	</pair>
@@ -6164,7 +6164,7 @@
 		<t>Não tem nenhuma criança de laranja brincando ao ar livre com uma bola de neve</t>
 		<h>Uma criança de laranja está brincando com uma bola de neve</h>
 	</pair>
-	<pair entailment="None" id="1541" similarity="3.8">
+	<pair entailment="None" id="1541" similarity="3.7">
 		<t>O homem jovem está praticando escalada</t>
 		<h>Uma parede rochosa é escalada por um homem de chapéu roxo com as mãos nuas</h>
 	</pair>
@@ -6228,7 +6228,7 @@
 		<t>Um bebê está tocando um violão</t>
 		<h>Um menino pequeno está cantando e tocando o violão</h>
 	</pair>
-	<pair entailment="None" id="1557" similarity="4.2">
+	<pair entailment="None" id="1557" similarity="4.1">
 		<t>Alguns meninos estão pulando de uma plataforma</t>
 		<h>Um menino está pulando de uma plataforma e dois outros meninos estão de pé e assistindo</h>
 	</pair>
@@ -6328,7 +6328,7 @@
 		<t>Um adolescente está nadando na piscina</t>
 		<h>O adolescente está molhado</h>
 	</pair>
-	<pair entailment="None" id="1582" similarity="2.1">
+	<pair entailment="None" id="1582" similarity="2.0">
 		<t>O homem está despejando pepinos fatiados na água</t>
 		<h>Não tem nenhum homem cozinhando uma cobra</h>
 	</pair>
@@ -6352,7 +6352,7 @@
 		<t>Um grupo de pessoas está equipado com equipamentos de segurança</t>
 		<h>Um grupo de pessoas está equipado com equipamento usado para proteção</h>
 	</pair>
-	<pair entailment="None" id="1588" similarity="3.4">
+	<pair entailment="None" id="1588" similarity="3.3">
 		<t>Um cachorro preto e branco está segurando uma bola de beisebol em sua boca</t>
 		<h>Um cachorro castanho e branco está soltando a bola de beisebol de sua boca</h>
 	</pair>
@@ -6536,7 +6536,7 @@
 		<t>Uma mulher está fatiando uma cebola</t>
 		<h>Uma mulher está fatiando uma batata</h>
 	</pair>
-	<pair entailment="None" id="1634" similarity="3.2">
+	<pair entailment="None" id="1634" similarity="3.3">
 		<t>Uma pessoa está escrevendo</t>
 		<h>Os escritos são sobre uma pessoa desenhando</h>
 	</pair>
@@ -6580,7 +6580,7 @@
 		<t>Os garotos estão de pé na frente do carro, que está queimando</t>
 		<h>Os meninos estão de pé na frente do carro em chamas</h>
 	</pair>
-	<pair entailment="None" id="1645" similarity="3.9">
+	<pair entailment="None" id="1645" similarity="3.8">
 		<t>Um cachorro está correndo ao lado de uma cerca por um caminho de terra</t>
 		<h>Um cachorro está sentado perto de uma cerca em um caminho de terra</h>
 	</pair>
@@ -6820,7 +6820,7 @@
 		<t>Um garoto e uma menina em trajes de banho estão usando boias em seus braços</t>
 		<h>Um menino e uma menina de trajes de banho estão usando boias de braço</h>
 	</pair>
-	<pair entailment="Entailment" id="1705" similarity="4.3">
+	<pair entailment="Entailment" id="1705" similarity="4.2">
 		<t>Um capacete preto está sendo usado por um homem que está empurrando uma bicicleta</t>
 		<h>Um homem está usando capacete preto</h>
 	</pair>
@@ -6932,7 +6932,7 @@
 		<t>Os espetos estão sendo colocados em uma prateleira por uma senhora</t>
 		<h>Uma senhora está colocando espetos em uma prateleira</h>
 	</pair>
-	<pair entailment="Entailment" id="1733" similarity="4.2">
+	<pair entailment="Entailment" id="1733" similarity="4.3">
 		<t>O cara está distraidamente comendo uma banana perto de uma árvore</t>
 		<h>Um cara está comendo uma banana</h>
 	</pair>
@@ -7116,7 +7116,7 @@
 		<t>Um menino está rapidamente descendo um escorregador íngreme</t>
 		<h>Uma criança está rapidamente descendo um escorregador íngreme</h>
 	</pair>
-	<pair entailment="None" id="1779" similarity="1.1">
+	<pair entailment="None" id="1779" similarity="1.2">
 		<t>Uma pessoa não está fatiando algumas cebolas</t>
 		<h>Um hamster está cantando</h>
 	</pair>
@@ -7212,7 +7212,7 @@
 		<t>Alguns homens estão lutando</t>
 		<h>Não tem homens lutando</h>
 	</pair>
-	<pair entailment="None" id="1803" similarity="3.8">
+	<pair entailment="None" id="1803" similarity="3.7">
 		<t>O cachorro castanho está cheirando o rabo de um cachorro pequenino preto</t>
 		<h>O cachorro castanho não está cheirando o rabo de um cachorro preto pequenino</h>
 	</pair>
@@ -7260,7 +7260,7 @@
 		<t>Não tem nenhum homem espirrando com uma pistola de água dentro da boca de um cachorro</t>
 		<h>Uma pessoa está picando uma cebola</h>
 	</pair>
-	<pair entailment="None" id="1815" similarity="2.9">
+	<pair entailment="None" id="1815" similarity="3.0">
 		<t>Vários meninos estão pulando em um trampolim</t>
 		<h>Um homem está dando mortais em um trampolim</h>
 	</pair>
@@ -7508,7 +7508,7 @@
 		<t>Um grupo de homens está jogando futebol de campo na praia</t>
 		<h>Um grupo de meninos não está jogando futebol de campo na praia</h>
 	</pair>
-	<pair entailment="Entailment" id="1877" similarity="4.8">
+	<pair entailment="Entailment" id="1877" similarity="4.7">
 		<t>O cozinheiro está polvilhando queijo na pizza</t>
 		<h>O homem está polvilhando queijo na pizza</h>
 	</pair>
@@ -7572,7 +7572,7 @@
 		<t>Um pequeno cachorro preto está perseguindo um pequeno cachorro castanho</t>
 		<h>Não tem nenhum cachorro preto pequeno perseguindo um cachorro pequeno castanho</h>
 	</pair>
-	<pair entailment="None" id="1893" similarity="1.3">
+	<pair entailment="None" id="1893" similarity="1.4">
 		<t>O homem não está tocando bateria</t>
 		<h>Um homem está despejando produto de limpeza na pia</h>
 	</pair>
@@ -7624,7 +7624,7 @@
 		<t>O homem está fazendo exercícios</t>
 		<h>Dois homens estão lutando boxe</h>
 	</pair>
-	<pair entailment="None" id="1906" similarity="1.0">
+	<pair entailment="None" id="1906" similarity="1.1">
 		<t>Algumas cebolas estão sendo cortadas por uma pessoa</t>
 		<h>Um hamster está cantando</h>
 	</pair>
@@ -7832,7 +7832,7 @@
 		<t>Um policial está sentado em uma motocicleta</t>
 		<h>Um policial está desmontando de uma moto</h>
 	</pair>
-	<pair entailment="None" id="1958" similarity="2.1">
+	<pair entailment="None" id="1958" similarity="2.2">
 		<t>Duas mulheres jovens de braços cruzados estão olhando para a tela</t>
 		<h>Não tem nenhuma mulher com cabelo preto parada na frente de uma parede de madeira</h>
 	</pair>
@@ -7872,7 +7872,7 @@
 		<t>Um cão pastor está agrupando um rebanho de ovelhas</t>
 		<h>O cachorro pastor está agrupando um rebanho de animais</h>
 	</pair>
-	<pair entailment="None" id="1968" similarity="2.8">
+	<pair entailment="None" id="1968" similarity="2.9">
 		<t>Uma jovem mulher de topless está coberta de tinta</t>
 		<h>Uma multidão nua com pinturas de corpo está andando na frente de uma senhora</h>
 	</pair>
@@ -7928,7 +7928,7 @@
 		<t>Um pequenino cachorro está deitado em uma cama</t>
 		<h>Um cachorro pequenino está deitado debaixo da cama</h>
 	</pair>
-	<pair entailment="Entailment" id="1982" similarity="4.6">
+	<pair entailment="Entailment" id="1982" similarity="4.5">
 		<t>Uma bola colorida está sendo pega por um cachorro em pleno ar</t>
 		<h>O cachorro está pegando uma bola em pleno ar</h>
 	</pair>
@@ -8088,7 +8088,7 @@
 		<t>Uma pizza está sendo comida por um cara</t>
 		<h>Um cara está comendo uma pizza</h>
 	</pair>
-	<pair entailment="None" id="2022" similarity="3.6">
+	<pair entailment="None" id="2022" similarity="3.5">
 		<t>Várias pessoas jovens estão posando para uma foto e segurando cervejas</t>
 		<h>Bebidas estão sendo seguradas por pessoas apontando para a câmera</h>
 	</pair>
@@ -8228,7 +8228,7 @@
 		<t>Um cachorro caramelo está espirrando água no banco de um rio</t>
 		<h>Um cachorro caramelo está espirrando água na margem de uma lagoa</h>
 	</pair>
-	<pair entailment="Entailment" id="2057" similarity="4.7">
+	<pair entailment="Entailment" id="2057" similarity="4.8">
 		<t>A menina, que é pequena, está cuidadosamente fazendo um rabo de cavalo em seu cabelo</t>
 		<h>A menina, que é pequena, está penteando o cabelo em um rabo de cavalo</h>
 	</pair>
@@ -8500,7 +8500,7 @@
 		<t>Uma pessoa negra de topless está empacotando uma pilha de pedras e uma frente de nuvens está ao fundo</t>
 		<h>Uma pessoa de topless com uma mochila está em frente a uma pilha de pedras e nuvens estão ao fundo</h>
 	</pair>
-	<pair entailment="None" id="2125" similarity="1.1">
+	<pair entailment="None" id="2125" similarity="1.2">
 		<t>Um homem está trabalhando no laptop</t>
 		<h>O homem está alimentando a cobra com um animal</h>
 	</pair>
@@ -8752,7 +8752,7 @@
 		<t>Um cara está picando rapidamente os cogumelos com uma faca</t>
 		<h>Um homem está picando alguns cogumelos com uma faca</h>
 	</pair>
-	<pair entailment="None" id="2188" similarity="3.5">
+	<pair entailment="None" id="2188" similarity="3.6">
 		<t>Um homem está cortando pedaços de manteiga em uma tigela de mistura</t>
 		<h>Não tem nenhum homem cortando pedaços de manteiga em uma tigela de misturar</h>
 	</pair>
@@ -8780,7 +8780,7 @@
 		<t>Os médicos estão curando um homem</t>
 		<h>O médico está ajudando o paciente</h>
 	</pair>
-	<pair entailment="None" id="2195" similarity="1.3">
+	<pair entailment="None" id="2195" similarity="1.4">
 		<t>Uma cebola está sendo fatiada por uma pessoa</t>
 		<h>Alguém está segurando um ouriço</h>
 	</pair>
@@ -8916,7 +8916,7 @@
 		<t>Um peixe está caçando uma tartaruga no mar</t>
 		<h>Uma tartaruga de mar está procurando peixes</h>
 	</pair>
-	<pair entailment="None" id="2229" similarity="2.9">
+	<pair entailment="None" id="2229" similarity="3.0">
 		<t>Uma cachoeira está fluindo em uma piscina rasa</t>
 		<h>As pessoas não estão andando na estrada ao lado de uma bela cachoeira</h>
 	</pair>
@@ -9004,7 +9004,7 @@
 		<t>O menino pequeno com cabelo castanho está pulando de uma cadeira marrom para o chão</t>
 		<h>Um menino está pulando de uma cadeira</h>
 	</pair>
-	<pair entailment="Entailment" id="2251" similarity="4.4">
+	<pair entailment="Entailment" id="2251" similarity="4.3">
 		<t>Um ciclista está segurando uma bicicleta sobre sua cabeça num dia ensolarado</t>
 		<h>Uma bicicleta está sendo segurada por um ciclista sobre sua cabeça</h>
 	</pair>
@@ -9088,7 +9088,7 @@
 		<t>Uma senhora está batucando seus dedos nervosamente</t>
 		<h>Uma senhora está batucando seus dedos</h>
 	</pair>
-	<pair entailment="Entailment" id="2272" similarity="4.0">
+	<pair entailment="Entailment" id="2272" similarity="3.9">
 		<t>O piano está sendo tocado por alguém</t>
 		<h>Uma pessoa está tocando um teclado</h>
 	</pair>
@@ -9368,7 +9368,7 @@
 		<t>Uma menina está batucando seus dedos nervosamente</t>
 		<h>Uma pessoa está batucando seus dedos</h>
 	</pair>
-	<pair entailment="None" id="2342" similarity="2.5">
+	<pair entailment="None" id="2342" similarity="2.4">
 		<t>Um menino próximo de alguns baldes de trapos está segurando um objeto</t>
 		<h>Uma criança jovem negra está esperando na beira de um corpo d'água próximo de alguns baldes</h>
 	</pair>
@@ -9420,7 +9420,7 @@
 		<t>O cara está conversando no telefone</t>
 		<h>O cara está falando no telefone</h>
 	</pair>
-	<pair entailment="None" id="2355" similarity="4.4">
+	<pair entailment="None" id="2355" similarity="4.5">
 		<t>Um homem está arrumando o jardim</t>
 		<h>Um homem está aparando um gramado</h>
 	</pair>
@@ -9600,7 +9600,7 @@
 		<t>O homem está de pé na água na base da cachoeira</t>
 		<h>O homem está de pé em um corpo de água perto de uma cachoeira</h>
 	</pair>
-	<pair entailment="None" id="2400" similarity="3.1">
+	<pair entailment="None" id="2400" similarity="3.0">
 		<t>Um homem está segurando um pequenino animal em uma mão</t>
 		<h>Um homem está escondendo um macaco pequenino</h>
 	</pair>

@@ -4,7 +4,7 @@ corpus: assin-ptbr
 RTE evaluation
 Accuracy	Macro F1
 --------	--------
-  86.20%	   0.538
+  86.05%	   0.536
 
 Similarity evaluation
 Pearson		Mean Squared Error
@@ -34,7 +34,7 @@ corpus: assin2
 RTE evaluation
 Accuracy	Macro F1
 --------	--------
-  87.54%	   0.875
+  87.62%	   0.875
 
 Similarity evaluation
 Pearson		Mean Squared Error
@@ -52,7 +52,7 @@ Acc dist max: 0.2920
 Acc dist min equal: 0.0930
 Acc dist max equal: 0.1990
 
-Saved evaluation: report/st-dnn/bert_base/ensemble//tweetsent_eval.txt
+Saved evaluation: report/st-dnn/bert_base/ensemble/tweetsent_eval.txt
 
 Saving generated XMLs...
 corpus: assin-ptbr
@@ -153,7 +153,7 @@ Acc dist max: 0.2920
 Acc dist min equal: 0.0950
 Acc dist max equal: 0.1970
 
-Saved evaluation: report/mt-dnn_assin+tweetsent/bert_base/ensemble//tweetsent_eval.txt
+Saved evaluation: report/mt-dnn_assin+tweetsent/bert_base/ensemble/tweetsent_eval.txt
 
 Saving generated XMLs...
 corpus: assin-ptbr
@@ -209,7 +209,7 @@ Acc dist max: 0.2920
 Acc dist min equal: 0.0876
 Acc dist max equal: 0.2045
 
-Saved evaluation: report/st-dnn/bert_large/ensemble//tweetsent_eval.txt
+Saved evaluation: report/st-dnn/bert_large/ensemble/tweetsent_eval.txt
 
 Saving generated XMLs...
 corpus: assin-ptbr
@@ -310,7 +310,7 @@ Acc dist max: 0.2920
 Acc dist min equal: 0.0940
 Acc dist max equal: 0.1980
 
-Saved evaluation: report/mt-dnn_assin+tweetsent/bert_large/ensemble//tweetsent_eval.txt
+Saved evaluation: report/mt-dnn_assin+tweetsent/bert_large/ensemble/tweetsent_eval.txt
 
 Saving generated XMLs...
 corpus: assin-ptbr
@@ -318,7 +318,7 @@ corpus: assin-ptbr
 RTE evaluation
 Accuracy	Macro F1
 --------	--------
-  90.70%	   0.799
+  90.75%	   0.799
 
 Similarity evaluation
 Pearson		Mean Squared Error
@@ -333,7 +333,7 @@ corpus: assin-ptpt
 RTE evaluation
 Accuracy	Macro F1
 --------	--------
-  90.45%	   0.836
+  90.40%	   0.834
 
 Similarity evaluation
 Pearson		Mean Squared Error
@@ -348,7 +348,7 @@ corpus: assin2
 RTE evaluation
 Accuracy	Macro F1
 --------	--------
-  89.62%	   0.896
+  89.58%	   0.896
 
 Similarity evaluation
 Pearson		Mean Squared Error
@@ -360,13 +360,13 @@ Saved evaluation: report/st-dnn/mt-dnn_base/ensemble/assin2_eval.txt
 Saving generated JSON...
 corpus: TweetSentBR
 Acc: 0.7249
-F1. neg: 0.708 neu: 0.597 post: 0.811
+F1. neg: 0.706 neu: 0.598 post: 0.811
 Acc dist min: 0.2920
 Acc dist max: 0.2920
-Acc dist min equal: 0.0891
-Acc dist max equal: 0.2030
+Acc dist min equal: 0.0896
+Acc dist max equal: 0.2025
 
-Saved evaluation: report/st-dnn/mt-dnn_base/ensemble//tweetsent_eval.txt
+Saved evaluation: report/st-dnn/mt-dnn_base/ensemble/tweetsent_eval.txt
 
 Saving generated XMLs...
 corpus: assin-ptbr
@@ -467,7 +467,7 @@ Acc dist max: 0.2920
 Acc dist min equal: 0.0886
 Acc dist max equal: 0.2035
 
-Saved evaluation: report/mt-dnn_assin+tweetsent/mt-dnn_base/ensemble//tweetsent_eval.txt
+Saved evaluation: report/mt-dnn_assin+tweetsent/mt-dnn_base/ensemble/tweetsent_eval.txt
 
 Saving generated XMLs...
 corpus: assin-ptbr
@@ -523,7 +523,7 @@ Acc dist max: 0.2920
 Acc dist min equal: 0.0915
 Acc dist max equal: 0.2005
 
-Saved evaluation: report/st-dnn/mt-dnn_large/ensemble//tweetsent_eval.txt
+Saved evaluation: report/st-dnn/mt-dnn_large/ensemble/tweetsent_eval.txt
 
 Saving generated XMLs...
 corpus: assin-ptbr
@@ -624,7 +624,7 @@ Acc dist max: 0.2920
 Acc dist min equal: 0.0900
 Acc dist max equal: 0.2020
 
-Saved evaluation: report/mt-dnn_assin+tweetsent/mt-dnn_large/ensemble//tweetsent_eval.txt
+Saved evaluation: report/mt-dnn_assin+tweetsent/mt-dnn_large/ensemble/tweetsent_eval.txt
 
 Saving generated XMLs...
 corpus: assin-ptbr
@@ -680,7 +680,7 @@ Acc dist max: 0.2920
 Acc dist min equal: 0.0781
 Acc dist max equal: 0.2139
 
-Saved evaluation: report/st-dnn/bert-pt_base/ensemble//tweetsent_eval.txt
+Saved evaluation: report/st-dnn/bert-pt_base/ensemble/tweetsent_eval.txt
 
 Saving generated XMLs...
 corpus: assin-ptbr
@@ -781,7 +781,7 @@ Acc dist max: 0.2920
 Acc dist min equal: 0.0761
 Acc dist max equal: 0.2159
 
-Saved evaluation: report/mt-dnn_assin+tweetsent/bert-pt_base/ensemble//tweetsent_eval.txt
+Saved evaluation: report/mt-dnn_assin+tweetsent/bert-pt_base/ensemble/tweetsent_eval.txt
 
 Saving generated XMLs...
 corpus: assin-ptbr
@@ -837,7 +837,7 @@ Acc dist max: 0.2920
 Acc dist min equal: 0.0716
 Acc dist max equal: 0.2204
 
-Saved evaluation: report/st-dnn/bert-pt_large/ensemble//tweetsent_eval.txt
+Saved evaluation: report/st-dnn/bert-pt_large/ensemble/tweetsent_eval.txt
 
 Saving generated XMLs...
 corpus: assin-ptbr
@@ -938,7 +938,7 @@ Acc dist max: 0.2920
 Acc dist min equal: 0.0697
 Acc dist max equal: 0.2224
 
-Saved evaluation: report/mt-dnn_assin+tweetsent/bert-pt_large/ensemble//tweetsent_eval.txt
+Saved evaluation: report/mt-dnn_assin+tweetsent/bert-pt_large/ensemble/tweetsent_eval.txt
 
 Saving generated XMLs...
 corpus: assin-ptbr
@@ -1228,7 +1228,7 @@ Acc dist max: 0.2920
 Acc dist min equal: 0.0965
 Acc dist max equal: 0.1955
 
-Saved evaluation: report/st-dnn/bert-multilingual_base/ensemble//tweetsent_eval.txt
+Saved evaluation: report/st-dnn/bert-multilingual_base/ensemble/tweetsent_eval.txt
 
 Saving generated XMLs...
 corpus: assin-ptbr
@@ -1329,7 +1329,7 @@ Acc dist max: 0.2920
 Acc dist min equal: 0.0980
 Acc dist max equal: 0.1940
 
-Saved evaluation: report/mt-dnn_assin+tweetsent/bert-multilingual_base/ensemble//tweetsent_eval.txt
+Saved evaluation: report/mt-dnn_assin+tweetsent/bert-multilingual_base/ensemble/tweetsent_eval.txt
 
 Saving generated XMLs...
 corpus: assin-ptbr
@@ -1448,3 +1448,351 @@ Pearson		Mean Squared Error
 
 
 Saved evaluation: report/st-dnn/bert-multilingual_base/ensemble/assin-ptbr+2/assin2_eval.txt
+Saving generated XMLs...
+corpus: assin-ptbr
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  90.95%	   0.795
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  1.000		              0.00
+
+
+Saved evaluation: report/st-dnn/bert-pt_base/ensemble/assin1-rte/assin-ptbr_eval.txt
+corpus: assin-ptpt
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  91.05%	   0.821
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  1.000		              0.00
+
+
+Saved evaluation: report/st-dnn/bert-pt_base/ensemble/assin1-rte/assin-ptpt_eval.txt
+Saving generated XMLs...
+corpus: assin-ptbr
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  88.40%	   0.718
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  1.000		              0.00
+
+
+Saved evaluation: report/st-dnn/bert-pt_base/ensemble/best-pt/assin-ptbr_eval.txt
+corpus: assin-ptpt
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  88.85%	   0.785
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  1.000		              0.00
+
+
+Saved evaluation: report/st-dnn/bert-pt_base/ensemble/best-pt/assin-ptpt_eval.txt
+Saving generated XMLs...
+corpus: assin-ptbr
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  88.55%	   0.723
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  1.000		              0.00
+
+
+Saved evaluation: report/st-dnn/bert-pt_base/ensemble/random-pt/assin-ptbr_eval.txt
+corpus: assin-ptpt
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  89.35%	   0.790
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  1.000		              0.00
+
+
+Saved evaluation: report/st-dnn/bert-pt_base/ensemble/random-pt/assin-ptpt_eval.txt
+Saving generated XMLs...
+corpus: assin-ptbr
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  88.35%	   0.721
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  1.000		              0.00
+
+
+Saved evaluation: report/st-dnn/bert-pt_base/ensemble/worst-pt/assin-ptbr_eval.txt
+corpus: assin-ptpt
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  88.85%	   0.778
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  1.000		              0.00
+
+
+Saved evaluation: report/st-dnn/bert-pt_base/ensemble/worst-pt/assin-ptpt_eval.txt
+Saving generated XMLs...
+corpus: assin-ptbr
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  91.40%	   0.806
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  1.000		              0.00
+
+
+Saved evaluation: report/st-dnn/bert-pt_large/ensemble/assin1-rte/assin-ptbr_eval.txt
+corpus: assin-ptpt
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  91.35%	   0.834
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  1.000		              0.00
+
+
+Saved evaluation: report/st-dnn/bert-pt_large/ensemble/assin1-rte/assin-ptpt_eval.txt
+Saving generated XMLs...
+corpus: assin-ptbr
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  89.50%	   0.756
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  1.000		              0.00
+
+
+Saved evaluation: report/st-dnn/bert-pt_large/ensemble/best-pt/assin-ptbr_eval.txt
+corpus: assin-ptpt
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  89.30%	   0.781
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  1.000		              0.00
+
+
+Saved evaluation: report/st-dnn/bert-pt_large/ensemble/best-pt/assin-ptpt_eval.txt
+Saving generated XMLs...
+corpus: assin-ptbr
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  89.70%	   0.758
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  1.000		              0.00
+
+
+Saved evaluation: report/st-dnn/bert-pt_large/ensemble/random-pt/assin-ptbr_eval.txt
+corpus: assin-ptpt
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  88.80%	   0.769
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  1.000		              0.00
+
+
+Saved evaluation: report/st-dnn/bert-pt_large/ensemble/random-pt/assin-ptpt_eval.txt
+Saving generated XMLs...
+corpus: assin-ptbr
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  90.00%	   0.763
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  1.000		              0.00
+
+
+Saved evaluation: report/st-dnn/bert-pt_large/ensemble/worst-pt/assin-ptbr_eval.txt
+corpus: assin-ptpt
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  89.75%	   0.798
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  1.000		              0.00
+
+
+Saved evaluation: report/st-dnn/bert-pt_large/ensemble/worst-pt/assin-ptpt_eval.txt
+Saving generated XMLs...
+corpus: assin-ptbr
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  90.10%	   0.769
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  1.000		              0.00
+
+
+Saved evaluation: report/st-dnn/bert-multilingual_base/ensemble/assin1-rte/assin-ptbr_eval.txt
+corpus: assin-ptpt
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  89.95%	   0.808
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  1.000		              0.00
+
+
+Saved evaluation: report/st-dnn/bert-multilingual_base/ensemble/assin1-rte/assin-ptpt_eval.txt
+Saving generated XMLs...
+corpus: assin-ptbr
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  87.00%	   0.716
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  1.000		              0.00
+
+
+Saved evaluation: report/st-dnn/bert-multilingual_base/ensemble/best-pt/assin-ptbr_eval.txt
+corpus: assin-ptpt
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  86.50%	   0.746
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  1.000		              0.00
+
+
+Saved evaluation: report/st-dnn/bert-multilingual_base/ensemble/best-pt/assin-ptpt_eval.txt
+Saving generated XMLs...
+corpus: assin-ptbr
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  87.10%	   0.716
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  1.000		              0.00
+
+
+Saved evaluation: report/st-dnn/bert-multilingual_base/ensemble/random-pt/assin-ptbr_eval.txt
+corpus: assin-ptpt
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  86.50%	   0.741
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  1.000		              0.00
+
+
+Saved evaluation: report/st-dnn/bert-multilingual_base/ensemble/random-pt/assin-ptpt_eval.txt
+Saving generated XMLs...
+corpus: assin-ptbr
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  87.25%	   0.714
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  1.000		              0.00
+
+
+Saved evaluation: report/st-dnn/bert-multilingual_base/ensemble/worst-pt/assin-ptbr_eval.txt
+corpus: assin-ptpt
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  86.55%	   0.749
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  1.000		              0.00
+
+
+Saved evaluation: report/st-dnn/bert-multilingual_base/ensemble/worst-pt/assin-ptpt_eval.txt
