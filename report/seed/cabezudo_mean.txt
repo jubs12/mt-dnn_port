@@ -1,4 +1,5 @@
 
+
 RTE evaluation
 Accuracy	Macro F1
 --------	--------
@@ -7,9 +8,9 @@ Accuracy	Macro F1
 Similarity evaluation
 Pearson		Mean Squared Error
 -------		------------------
-  1.0±0.0		              0.0±0.0
+  1.0±0.0	   0.0±0.0
 
-Evaluation: st-dnn bert-pt_base  assin1-rte assin-ptbr
+Evaluation: st-dnn bert-pt_base assin1-rte assin-ptbr
 
 -------------------------------------------
 
@@ -22,40 +23,9 @@ Accuracy	Macro F1
 Similarity evaluation
 Pearson		Mean Squared Error
 -------		------------------
-  1.0±0.0		              0.0±0.0
+  1.0±0.0	   0.0±0.0
 
-Evaluation: st-dnn bert-pt_base  assin1-rte assin-ptpt
-
-
--------------------------------------------
-
-
-RTE evaluation
-Accuracy	Macro F1
---------	--------
-  88.37±0.22%	   0.724±0.0±0.05
-
-Similarity evaluation
-Pearson		Mean Squared Error
--------		------------------
-  1.0±0.0		              0.0±0.0
-
-Evaluation: st-dnn bert-pt_base  best-pt assin-ptbr
-
--------------------------------------------
-
-
-RTE evaluation
-Accuracy	Macro F1
---------	--------
-  88.82±0.14%	   0.779±0.0±0.06
-
-Similarity evaluation
-Pearson		Mean Squared Error
--------		------------------
-  1.0±0.0		              0.0±0.0
-
-Evaluation: st-dnn bert-pt_base  best-pt assin-ptpt
+Evaluation: st-dnn bert-pt_base assin1-rte assin-ptpt
 
 
 -------------------------------------------
@@ -64,14 +34,45 @@ Evaluation: st-dnn bert-pt_base  best-pt assin-ptpt
 RTE evaluation
 Accuracy	Macro F1
 --------	--------
-  88.24±0.28%	   0.718±0.0±0.05
+  88.37±0.22%	   0.724±0.005
 
 Similarity evaluation
 Pearson		Mean Squared Error
 -------		------------------
-  1.0±0.0		              0.0±0.0
+  1.0±0.0	   0.0±0.0
 
-Evaluation: st-dnn bert-pt_base  random-pt assin-ptbr
+Evaluation: st-dnn bert-pt_base best-pt assin-ptbr
+
+-------------------------------------------
+
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  88.82±0.14%	   0.779±0.006
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  1.0±0.0	   0.0±0.0
+
+Evaluation: st-dnn bert-pt_base best-pt assin-ptpt
+
+
+-------------------------------------------
+
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  88.24±0.28%	   0.718±0.005
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  1.0±0.0	   0.0±0.0
+
+Evaluation: st-dnn bert-pt_base random-pt assin-ptbr
 
 -------------------------------------------
 
@@ -84,9 +85,9 @@ Accuracy	Macro F1
 Similarity evaluation
 Pearson		Mean Squared Error
 -------		------------------
-  1.0±0.0		              0.0±0.0
+  1.0±0.0	   0.0±0.0
 
-Evaluation: st-dnn bert-pt_base  random-pt assin-ptpt
+Evaluation: st-dnn bert-pt_base random-pt assin-ptpt
 
 
 -------------------------------------------
@@ -100,25 +101,9 @@ Accuracy	Macro F1
 Similarity evaluation
 Pearson		Mean Squared Error
 -------		------------------
-  1.0±0.0		              0.0±0.0
+  1.0±0.0	   0.0±0.0
 
-Evaluation: st-dnn bert-pt_base  worst-pt assin-ptbr
-
--------------------------------------------
-
-
-RTE evaluation
-Accuracy	Macro F1
---------	--------
-  88.61±0.27%	   0.775±0.0±0.06
-
-Similarity evaluation
-Pearson		Mean Squared Error
--------		------------------
-  1.0±0.0		              0.0±0.0
-
-Evaluation: st-dnn bert-pt_base  worst-pt assin-ptpt
-
+Evaluation: st-dnn bert-pt_base worst-pt assin-ptbr
 
 -------------------------------------------
 
@@ -126,29 +111,14 @@ Evaluation: st-dnn bert-pt_base  worst-pt assin-ptpt
 RTE evaluation
 Accuracy	Macro F1
 --------	--------
-  91.01±0.35%	   0.801±0.0±0.09
+  88.61±0.27%	   0.775±0.006
 
 Similarity evaluation
 Pearson		Mean Squared Error
 -------		------------------
-  1.0±0.0		              0.0±0.0
+  1.0±0.0	   0.0±0.0
 
-Evaluation: st-dnn bert-pt_large  assin1-rte assin-ptbr
-
--------------------------------------------
-
-
-RTE evaluation
-Accuracy	Macro F1
---------	--------
-  91.09±0.21%	   0.832±0.0±0.05
-
-Similarity evaluation
-Pearson		Mean Squared Error
--------		------------------
-  1.0±0.0		              0.0±0.0
-
-Evaluation: st-dnn bert-pt_large  assin1-rte assin-ptpt
+Evaluation: st-dnn bert-pt_base worst-pt assin-ptpt
 
 
 -------------------------------------------
@@ -157,14 +127,14 @@ Evaluation: st-dnn bert-pt_large  assin1-rte assin-ptpt
 RTE evaluation
 Accuracy	Macro F1
 --------	--------
-  89.98±0.22%	   0.764±0.0±0.08
+  91.01±0.35%	   0.801±0.009
 
 Similarity evaluation
 Pearson		Mean Squared Error
 -------		------------------
-  1.0±0.0		              0.0±0.0
+  1.0±0.0	   0.0±0.0
 
-Evaluation: st-dnn bert-pt_large  best-pt assin-ptbr
+Evaluation: st-dnn bert-pt_large assin1-rte assin-ptbr
 
 -------------------------------------------
 
@@ -172,14 +142,14 @@ Evaluation: st-dnn bert-pt_large  best-pt assin-ptbr
 RTE evaluation
 Accuracy	Macro F1
 --------	--------
-  89.53±0.22%	   0.789±0.0±0.03
+  91.09±0.21%	   0.832±0.005
 
 Similarity evaluation
 Pearson		Mean Squared Error
 -------		------------------
-  1.0±0.0		              0.0±0.0
+  1.0±0.0	   0.0±0.0
 
-Evaluation: st-dnn bert-pt_large  best-pt assin-ptpt
+Evaluation: st-dnn bert-pt_large assin1-rte assin-ptpt
 
 
 -------------------------------------------
@@ -188,14 +158,45 @@ Evaluation: st-dnn bert-pt_large  best-pt assin-ptpt
 RTE evaluation
 Accuracy	Macro F1
 --------	--------
-  90.01±0.2%	   0.76±0.0±0.07
+  89.98±0.22%	   0.764±0.008
 
 Similarity evaluation
 Pearson		Mean Squared Error
 -------		------------------
-  1.0±0.0		              0.0±0.0
+  1.0±0.0	   0.0±0.0
 
-Evaluation: st-dnn bert-pt_large  random-pt assin-ptbr
+Evaluation: st-dnn bert-pt_large best-pt assin-ptbr
+
+-------------------------------------------
+
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  89.53±0.22%	   0.789±0.003
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  1.0±0.0	   0.0±0.0
+
+Evaluation: st-dnn bert-pt_large best-pt assin-ptpt
+
+
+-------------------------------------------
+
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  90.01±0.2%	   0.76±0.007
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  1.0±0.0	   0.0±0.0
+
+Evaluation: st-dnn bert-pt_large random-pt assin-ptbr
 
 -------------------------------------------
 
@@ -208,9 +209,9 @@ Accuracy	Macro F1
 Similarity evaluation
 Pearson		Mean Squared Error
 -------		------------------
-  1.0±0.0		              0.0±0.0
+  1.0±0.0	   0.0±0.0
 
-Evaluation: st-dnn bert-pt_large  random-pt assin-ptpt
+Evaluation: st-dnn bert-pt_large random-pt assin-ptpt
 
 
 -------------------------------------------
@@ -224,9 +225,9 @@ Accuracy	Macro F1
 Similarity evaluation
 Pearson		Mean Squared Error
 -------		------------------
-  1.0±0.0		              0.0±0.0
+  1.0±0.0	   0.0±0.0
 
-Evaluation: st-dnn bert-pt_large  worst-pt assin-ptbr
+Evaluation: st-dnn bert-pt_large worst-pt assin-ptbr
 
 -------------------------------------------
 
@@ -239,9 +240,9 @@ Accuracy	Macro F1
 Similarity evaluation
 Pearson		Mean Squared Error
 -------		------------------
-  1.0±0.0		              0.0±0.0
+  1.0±0.0	   0.0±0.0
 
-Evaluation: st-dnn bert-pt_large  worst-pt assin-ptpt
+Evaluation: st-dnn bert-pt_large worst-pt assin-ptpt
 
 
 -------------------------------------------
@@ -255,9 +256,9 @@ Accuracy	Macro F1
 Similarity evaluation
 Pearson		Mean Squared Error
 -------		------------------
-  1.0±0.0		              0.0±0.0
+  1.0±0.0	   0.0±0.0
 
-Evaluation: st-dnn bert-multilingual_base  assin1-rte assin-ptbr
+Evaluation: st-dnn bert-multilingual_base assin1-rte assin-ptbr
 
 -------------------------------------------
 
@@ -270,9 +271,9 @@ Accuracy	Macro F1
 Similarity evaluation
 Pearson		Mean Squared Error
 -------		------------------
-  1.0±0.0		              0.0±0.0
+  1.0±0.0	   0.0±0.0
 
-Evaluation: st-dnn bert-multilingual_base  assin1-rte assin-ptpt
+Evaluation: st-dnn bert-multilingual_base assin1-rte assin-ptpt
 
 
 -------------------------------------------
@@ -286,25 +287,9 @@ Accuracy	Macro F1
 Similarity evaluation
 Pearson		Mean Squared Error
 -------		------------------
-  1.0±0.0		              0.0±0.0
+  1.0±0.0	   0.0±0.0
 
-Evaluation: st-dnn bert-multilingual_base  best-pt assin-ptbr
-
--------------------------------------------
-
-
-RTE evaluation
-Accuracy	Macro F1
---------	--------
-  86.73±0.4%	   0.75±0.0±0.08
-
-Similarity evaluation
-Pearson		Mean Squared Error
--------		------------------
-  1.0±0.0		              0.0±0.0
-
-Evaluation: st-dnn bert-multilingual_base  best-pt assin-ptpt
-
+Evaluation: st-dnn bert-multilingual_base best-pt assin-ptbr
 
 -------------------------------------------
 
@@ -312,29 +297,14 @@ Evaluation: st-dnn bert-multilingual_base  best-pt assin-ptpt
 RTE evaluation
 Accuracy	Macro F1
 --------	--------
-  86.5±0.38%	   0.699±0.0±0.05
+  86.73±0.4%	   0.75±0.008
 
 Similarity evaluation
 Pearson		Mean Squared Error
 -------		------------------
-  1.0±0.0		              0.0±0.0
+  1.0±0.0	   0.0±0.0
 
-Evaluation: st-dnn bert-multilingual_base  random-pt assin-ptbr
-
--------------------------------------------
-
-
-RTE evaluation
-Accuracy	Macro F1
---------	--------
-  86.59±0.32%	   0.744±0.0±0.07
-
-Similarity evaluation
-Pearson		Mean Squared Error
--------		------------------
-  1.0±0.0		              0.0±0.0
-
-Evaluation: st-dnn bert-multilingual_base  random-pt assin-ptpt
+Evaluation: st-dnn bert-multilingual_base best-pt assin-ptpt
 
 
 -------------------------------------------
@@ -343,14 +313,14 @@ Evaluation: st-dnn bert-multilingual_base  random-pt assin-ptpt
 RTE evaluation
 Accuracy	Macro F1
 --------	--------
-  86.68±0.52%	   0.707±0.0±0.09
+  86.5±0.38%	   0.699±0.005
 
 Similarity evaluation
 Pearson		Mean Squared Error
 -------		------------------
-  1.0±0.0		              0.0±0.0
+  1.0±0.0	   0.0±0.0
 
-Evaluation: st-dnn bert-multilingual_base  worst-pt assin-ptbr
+Evaluation: st-dnn bert-multilingual_base random-pt assin-ptbr
 
 -------------------------------------------
 
@@ -358,12 +328,42 @@ Evaluation: st-dnn bert-multilingual_base  worst-pt assin-ptbr
 RTE evaluation
 Accuracy	Macro F1
 --------	--------
-  86.81±0.25%	   0.752±0.0±0.08
+  86.59±0.32%	   0.744±0.007
 
 Similarity evaluation
 Pearson		Mean Squared Error
 -------		------------------
-  1.0±0.0		              0.0±0.0
+  1.0±0.0	   0.0±0.0
 
-Evaluation: st-dnn bert-multilingual_base  worst-pt assin-ptpt
+Evaluation: st-dnn bert-multilingual_base random-pt assin-ptpt
 
+
+-------------------------------------------
+
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  86.68±0.52%	   0.707±0.009
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  1.0±0.0	   0.0±0.0
+
+Evaluation: st-dnn bert-multilingual_base worst-pt assin-ptbr
+
+-------------------------------------------
+
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  86.81±0.25%	   0.752±0.008
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  1.0±0.0	   0.0±0.0
+
+Evaluation: st-dnn bert-multilingual_base worst-pt assin-ptpt
