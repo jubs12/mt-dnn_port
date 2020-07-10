@@ -1,0 +1,6 @@
+Acc: 0.7010
+F1. neg: 0.686 neu: 0.579 post: 0.781
+Acc dist min: 0.2920
+Acc dist max: 0.2920
+Acc dist min equal: 0.0995
+Acc dist max equal: 0.1925

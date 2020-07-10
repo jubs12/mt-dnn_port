@@ -1,0 +1,1798 @@
+Saving generated XMLs...
+corpus: assin-ptbr
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  85.80%	   0.530
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.777		              0.33
+
+
+Saved evaluation: report/st-dnn/bert_base/seed/2020/grad_norm/5.0/dropout/0.3/assin-ptbr_eval.txt
+Saving generated XMLs...
+corpus: assin-ptpt
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  87.10%	   0.773
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.797		              0.52
+
+
+Saved evaluation: report/st-dnn/bert_base/seed/2020/grad_norm/5.0/dropout/0.3/assin-ptpt_eval.txt
+Saving generated XMLs...
+corpus: assin2
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  88.07%	   0.880
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.836		              0.60
+
+
+Saved evaluation: report/st-dnn/bert_base/seed/2020/grad_norm/5.0/dropout/0.3/assin2_eval.txt
+Saving generated JSON...
+corpus: TweetSentBR
+Acc: 0.7065
+F1. neg: 0.689 neu: 0.583 post: 0.791
+Acc dist min: 0.2920
+Acc dist max: 0.2920
+Acc dist min equal: 0.0985
+Acc dist max equal: 0.1935
+
+Saved evaluation: report/st-dnn/bert_base/seed/2020/grad_norm/5.0/dropout/0.3/tweetsent_eval.txt
+
+Saving generated XMLs...
+corpus: assin-ptbr
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  88.45%	   0.744
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.782		              0.33
+
+
+Saved evaluation: report/mt-dnn_assin/bert_base/seed/2020/grad_norm/5.0/dropout/0.3/assin-ptbr_eval.txt
+Saving generated XMLs...
+corpus: assin-ptpt
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  88.20%	   0.800
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.796		              0.54
+
+
+Saved evaluation: report/mt-dnn_assin/bert_base/seed/2020/grad_norm/5.0/dropout/0.3/assin-ptpt_eval.txt
+Saving generated XMLs...
+corpus: assin2
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  87.30%	   0.872
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.819		              0.68
+
+
+Saved evaluation: report/mt-dnn_assin/bert_base/seed/2020/grad_norm/5.0/dropout/0.3/assin2_eval.txt
+Saving generated XMLs...
+corpus: assin-ptbr
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  88.30%	   0.717
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.774		              0.34
+
+
+Saved evaluation: report/mt-dnn_assin+tweetsent/bert_base/seed/2020/grad_norm/5.0/dropout/0.3/assin-ptbr_eval.txt
+Saving generated XMLs...
+corpus: assin-ptpt
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  88.40%	   0.789
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.802		              0.52
+
+
+Saved evaluation: report/mt-dnn_assin+tweetsent/bert_base/seed/2020/grad_norm/5.0/dropout/0.3/assin-ptpt_eval.txt
+Saving generated XMLs...
+corpus: assin2
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  86.68%	   0.866
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.812		              0.66
+
+
+Saved evaluation: report/mt-dnn_assin+tweetsent/bert_base/seed/2020/grad_norm/5.0/dropout/0.3/assin2_eval.txt
+Saving generated JSON...
+corpus: TweetSentBR
+Acc: 0.7124
+F1. neg: 0.695 neu: 0.586 post: 0.797
+Acc dist min: 0.2920
+Acc dist max: 0.2920
+Acc dist min equal: 0.1000
+Acc dist max equal: 0.1920
+
+Saved evaluation: report/mt-dnn_assin+tweetsent/bert_base/seed/2020/grad_norm/5.0/dropout/0.3/tweetsent_eval.txt
+
+Saving generated XMLs...
+corpus: assin-ptbr
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  88.05%	   0.706
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.793		              0.31
+
+
+Saved evaluation: report/st-dnn/bert_large/seed/2020/grad_norm/5.0/dropout/0.3/assin-ptbr_eval.txt
+Saving generated XMLs...
+corpus: assin-ptpt
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  87.95%	   0.780
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.810		              0.49
+
+
+Saved evaluation: report/st-dnn/bert_large/seed/2020/grad_norm/5.0/dropout/0.3/assin-ptpt_eval.txt
+Saving generated XMLs...
+corpus: assin2
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  88.97%	   0.889
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.838		              0.53
+
+
+Saved evaluation: report/st-dnn/bert_large/seed/2020/grad_norm/5.0/dropout/0.3/assin2_eval.txt
+Saving generated JSON...
+corpus: TweetSentBR
+Acc: 0.7179
+F1. neg: 0.707 neu: 0.586 post: 0.804
+Acc dist min: 0.2920
+Acc dist max: 0.2920
+Acc dist min equal: 0.0920
+Acc dist max equal: 0.2000
+
+Saved evaluation: report/st-dnn/bert_large/seed/2020/grad_norm/5.0/dropout/0.3/tweetsent_eval.txt
+
+Saving generated XMLs...
+corpus: assin-ptbr
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  89.45%	   0.748
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.808		              0.29
+
+
+Saved evaluation: report/mt-dnn_assin/bert_large/seed/2020/grad_norm/5.0/dropout/0.3/assin-ptbr_eval.txt
+Saving generated XMLs...
+corpus: assin-ptpt
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  88.85%	   0.791
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.822		              0.47
+
+
+Saved evaluation: report/mt-dnn_assin/bert_large/seed/2020/grad_norm/5.0/dropout/0.3/assin-ptpt_eval.txt
+Saving generated XMLs...
+corpus: assin2
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  89.50%	   0.895
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.834		              0.52
+
+
+Saved evaluation: report/mt-dnn_assin/bert_large/seed/2020/grad_norm/5.0/dropout/0.3/assin2_eval.txt
+Saving generated XMLs...
+corpus: assin-ptbr
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  89.40%	   0.747
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.793		              0.32
+
+
+Saved evaluation: report/mt-dnn_assin+tweetsent/bert_large/seed/2020/grad_norm/5.0/dropout/0.3/assin-ptbr_eval.txt
+Saving generated XMLs...
+corpus: assin-ptpt
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  89.15%	   0.791
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.822		              0.47
+
+
+Saved evaluation: report/mt-dnn_assin+tweetsent/bert_large/seed/2020/grad_norm/5.0/dropout/0.3/assin-ptpt_eval.txt
+Saving generated XMLs...
+corpus: assin2
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  89.09%	   0.891
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.828		              0.55
+
+
+Saved evaluation: report/mt-dnn_assin+tweetsent/bert_large/seed/2020/grad_norm/5.0/dropout/0.3/assin2_eval.txt
+Saving generated JSON...
+corpus: TweetSentBR
+Acc: 0.7174
+F1. neg: 0.698 neu: 0.573 post: 0.812
+Acc dist min: 0.2920
+Acc dist max: 0.2920
+Acc dist min equal: 0.0955
+Acc dist max equal: 0.1965
+
+Saved evaluation: report/mt-dnn_assin+tweetsent/bert_large/seed/2020/grad_norm/5.0/dropout/0.3/tweetsent_eval.txt
+
+Saving generated XMLs...
+corpus: assin-ptbr
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  90.20%	   0.787
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.811		              0.26
+
+
+Saved evaluation: report/st-dnn/mt-dnn_base/seed/2020/grad_norm/5.0/dropout/0.3/assin-ptbr_eval.txt
+Saving generated XMLs...
+corpus: assin-ptpt
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  89.75%	   0.821
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.828		              0.47
+
+
+Saved evaluation: report/st-dnn/mt-dnn_base/seed/2020/grad_norm/5.0/dropout/0.3/assin-ptpt_eval.txt
+Saving generated XMLs...
+corpus: assin2
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  89.62%	   0.896
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.852		              0.45
+
+
+Saved evaluation: report/st-dnn/mt-dnn_base/seed/2020/grad_norm/5.0/dropout/0.3/assin2_eval.txt
+Saving generated JSON...
+corpus: TweetSentBR
+Acc: 0.7184
+F1. neg: 0.707 neu: 0.591 post: 0.799
+Acc dist min: 0.2920
+Acc dist max: 0.2920
+Acc dist min equal: 0.0841
+Acc dist max equal: 0.2080
+
+Saved evaluation: report/st-dnn/mt-dnn_base/seed/2020/grad_norm/5.0/dropout/0.3/tweetsent_eval.txt
+
+Saving generated XMLs...
+corpus: assin-ptbr
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  91.05%	   0.810
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.817		              0.27
+
+
+Saved evaluation: report/mt-dnn_assin/mt-dnn_base/seed/2020/grad_norm/5.0/dropout/0.3/assin-ptbr_eval.txt
+Saving generated XMLs...
+corpus: assin-ptpt
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  90.30%	   0.830
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.825		              0.46
+
+
+Saved evaluation: report/mt-dnn_assin/mt-dnn_base/seed/2020/grad_norm/5.0/dropout/0.3/assin-ptpt_eval.txt
+Saving generated XMLs...
+corpus: assin2
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  90.32%	   0.903
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.845		              0.53
+
+
+Saved evaluation: report/mt-dnn_assin/mt-dnn_base/seed/2020/grad_norm/5.0/dropout/0.3/assin2_eval.txt
+Saving generated XMLs...
+corpus: assin-ptbr
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  90.65%	   0.784
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.814		              0.27
+
+
+Saved evaluation: report/mt-dnn_assin+tweetsent/mt-dnn_base/seed/2020/grad_norm/5.0/dropout/0.3/assin-ptbr_eval.txt
+Saving generated XMLs...
+corpus: assin-ptpt
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  90.00%	   0.819
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.829		              0.43
+
+
+Saved evaluation: report/mt-dnn_assin+tweetsent/mt-dnn_base/seed/2020/grad_norm/5.0/dropout/0.3/assin-ptpt_eval.txt
+Saving generated XMLs...
+corpus: assin2
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  90.28%	   0.903
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.840		              0.49
+
+
+Saved evaluation: report/mt-dnn_assin+tweetsent/mt-dnn_base/seed/2020/grad_norm/5.0/dropout/0.3/assin2_eval.txt
+Saving generated JSON...
+corpus: TweetSentBR
+Acc: 0.7184
+F1. neg: 0.698 neu: 0.593 post: 0.802
+Acc dist min: 0.2920
+Acc dist max: 0.2920
+Acc dist min equal: 0.0975
+Acc dist max equal: 0.1945
+
+Saved evaluation: report/mt-dnn_assin+tweetsent/mt-dnn_base/seed/2020/grad_norm/5.0/dropout/0.3/tweetsent_eval.txt
+
+Saving generated XMLs...
+corpus: assin-ptbr
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  91.40%	   0.808
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.831		              0.24
+
+
+Saved evaluation: report/st-dnn/mt-dnn_large/seed/2020/grad_norm/5.0/dropout/0.3/assin-ptbr_eval.txt
+Saving generated XMLs...
+corpus: assin-ptpt
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  91.60%	   0.855
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.841		              0.42
+
+
+Saved evaluation: report/st-dnn/mt-dnn_large/seed/2020/grad_norm/5.0/dropout/0.3/assin-ptpt_eval.txt
+Saving generated XMLs...
+corpus: assin2
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  90.28%	   0.903
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.856		              0.44
+
+
+Saved evaluation: report/st-dnn/mt-dnn_large/seed/2020/grad_norm/5.0/dropout/0.3/assin2_eval.txt
+Saving generated JSON...
+corpus: TweetSentBR
+Acc: 0.7134
+F1. neg: 0.698 neu: 0.575 post: 0.804
+Acc dist min: 0.2920
+Acc dist max: 0.2920
+Acc dist min equal: 0.0940
+Acc dist max equal: 0.1980
+
+Saved evaluation: report/st-dnn/mt-dnn_large/seed/2020/grad_norm/5.0/dropout/0.3/tweetsent_eval.txt
+
+Saving generated XMLs...
+corpus: assin-ptbr
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  92.85%	   0.841
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.837		              0.26
+
+
+Saved evaluation: report/mt-dnn_assin/mt-dnn_large/seed/2020/grad_norm/5.0/dropout/0.3/assin-ptbr_eval.txt
+Saving generated XMLs...
+corpus: assin-ptpt
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  90.90%	   0.828
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.844		              0.45
+
+
+Saved evaluation: report/mt-dnn_assin/mt-dnn_large/seed/2020/grad_norm/5.0/dropout/0.3/assin-ptpt_eval.txt
+Saving generated XMLs...
+corpus: assin2
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  91.01%	   0.910
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.852		              0.49
+
+
+Saved evaluation: report/mt-dnn_assin/mt-dnn_large/seed/2020/grad_norm/5.0/dropout/0.3/assin2_eval.txt
+Saving generated XMLs...
+corpus: assin-ptbr
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  92.70%	   0.837
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.825		              0.27
+
+
+Saved evaluation: report/mt-dnn_assin+tweetsent/mt-dnn_large/seed/2020/grad_norm/5.0/dropout/0.3/assin-ptbr_eval.txt
+Saving generated XMLs...
+corpus: assin-ptpt
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  91.00%	   0.832
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.849		              0.43
+
+
+Saved evaluation: report/mt-dnn_assin+tweetsent/mt-dnn_large/seed/2020/grad_norm/5.0/dropout/0.3/assin-ptpt_eval.txt
+Saving generated XMLs...
+corpus: assin2
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  90.44%	   0.904
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.850		              0.48
+
+
+Saved evaluation: report/mt-dnn_assin+tweetsent/mt-dnn_large/seed/2020/grad_norm/5.0/dropout/0.3/assin2_eval.txt
+Saving generated JSON...
+corpus: TweetSentBR
+Acc: 0.7164
+F1. neg: 0.704 neu: 0.584 post: 0.804
+Acc dist min: 0.2920
+Acc dist max: 0.2920
+Acc dist min equal: 0.0970
+Acc dist max equal: 0.1950
+
+Saved evaluation: report/mt-dnn_assin+tweetsent/mt-dnn_large/seed/2020/grad_norm/5.0/dropout/0.3/tweetsent_eval.txt
+
+Saving generated XMLs...
+corpus: assin-ptbr
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  90.60%	   0.784
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.833		              0.27
+
+
+Saved evaluation: report/st-dnn/bert-pt_base/seed/2020/grad_norm/5.0/dropout/0.3/assin-ptbr_eval.txt
+Saving generated XMLs...
+corpus: assin-ptpt
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  90.90%	   0.822
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.849		              0.47
+
+
+Saved evaluation: report/st-dnn/bert-pt_base/seed/2020/grad_norm/5.0/dropout/0.3/assin-ptpt_eval.txt
+Saving generated XMLs...
+corpus: assin2
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  87.95%	   0.879
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.832		              0.57
+
+
+Saved evaluation: report/st-dnn/bert-pt_base/seed/2020/grad_norm/5.0/dropout/0.3/assin2_eval.txt
+Saving generated JSON...
+corpus: TweetSentBR
+Acc: 0.7393
+F1. neg: 0.732 neu: 0.613 post: 0.815
+Acc dist min: 0.2920
+Acc dist max: 0.2920
+Acc dist min equal: 0.0811
+Acc dist max equal: 0.2109
+
+Saved evaluation: report/st-dnn/bert-pt_base/seed/2020/grad_norm/5.0/dropout/0.3/tweetsent_eval.txt
+
+Saving generated XMLs...
+corpus: assin-ptbr
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  92.10%	   0.823
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.835		              0.25
+
+
+Saved evaluation: report/mt-dnn_assin/bert-pt_base/seed/2020/grad_norm/5.0/dropout/0.3/assin-ptbr_eval.txt
+Saving generated XMLs...
+corpus: assin-ptpt
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  92.05%	   0.849
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.858		              0.38
+
+
+Saved evaluation: report/mt-dnn_assin/bert-pt_base/seed/2020/grad_norm/5.0/dropout/0.3/assin-ptpt_eval.txt
+Saving generated XMLs...
+corpus: assin2
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  89.22%	   0.892
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.832		              0.61
+
+
+Saved evaluation: report/mt-dnn_assin/bert-pt_base/seed/2020/grad_norm/5.0/dropout/0.3/assin2_eval.txt
+Saving generated XMLs...
+corpus: assin-ptbr
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  91.85%	   0.809
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.836		              0.25
+
+
+Saved evaluation: report/mt-dnn_assin+tweetsent/bert-pt_base/seed/2020/grad_norm/5.0/dropout/0.3/assin-ptbr_eval.txt
+Saving generated XMLs...
+corpus: assin-ptpt
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  92.00%	   0.840
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.846		              0.42
+
+
+Saved evaluation: report/mt-dnn_assin+tweetsent/bert-pt_base/seed/2020/grad_norm/5.0/dropout/0.3/assin-ptpt_eval.txt
+Saving generated XMLs...
+corpus: assin2
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  90.07%	   0.900
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.845		              0.57
+
+
+Saved evaluation: report/mt-dnn_assin+tweetsent/bert-pt_base/seed/2020/grad_norm/5.0/dropout/0.3/assin2_eval.txt
+Saving generated JSON...
+corpus: TweetSentBR
+Acc: 0.7418
+F1. neg: 0.739 neu: 0.605 post: 0.822
+Acc dist min: 0.2920
+Acc dist max: 0.2920
+Acc dist min equal: 0.0756
+Acc dist max equal: 0.2164
+
+Saved evaluation: report/mt-dnn_assin+tweetsent/bert-pt_base/seed/2020/grad_norm/5.0/dropout/0.3/tweetsent_eval.txt
+
+Saving generated XMLs...
+corpus: assin-ptbr
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  91.20%	   0.782
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.851		              0.21
+
+
+Saved evaluation: report/st-dnn/bert-pt_large/seed/2020/grad_norm/5.0/dropout/0.3/assin-ptbr_eval.txt
+Saving generated XMLs...
+corpus: assin-ptpt
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  91.15%	   0.832
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.853		              0.42
+
+
+Saved evaluation: report/st-dnn/bert-pt_large/seed/2020/grad_norm/5.0/dropout/0.3/assin-ptpt_eval.txt
+Saving generated XMLs...
+corpus: assin2
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  89.95%	   0.899
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.860		              0.43
+
+
+Saved evaluation: report/st-dnn/bert-pt_large/seed/2020/grad_norm/5.0/dropout/0.3/assin2_eval.txt
+Saving generated JSON...
+corpus: TweetSentBR
+Acc: 0.7652
+F1. neg: 0.764 neu: 0.620 post: 0.846
+Acc dist min: 0.2920
+Acc dist max: 0.2920
+Acc dist min equal: 0.0746
+Acc dist max equal: 0.2174
+
+Saved evaluation: report/st-dnn/bert-pt_large/seed/2020/grad_norm/5.0/dropout/0.3/tweetsent_eval.txt
+
+Saving generated XMLs...
+corpus: assin-ptbr
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  92.75%	   0.838
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.859		              0.23
+
+
+Saved evaluation: report/mt-dnn_assin/bert-pt_large/seed/2020/grad_norm/5.0/dropout/0.3/assin-ptbr_eval.txt
+Saving generated XMLs...
+corpus: assin-ptpt
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  92.45%	   0.850
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.869		              0.38
+
+
+Saved evaluation: report/mt-dnn_assin/bert-pt_large/seed/2020/grad_norm/5.0/dropout/0.3/assin-ptpt_eval.txt
+Saving generated XMLs...
+corpus: assin2
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  90.85%	   0.908
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.859		              0.55
+
+
+Saved evaluation: report/mt-dnn_assin/bert-pt_large/seed/2020/grad_norm/5.0/dropout/0.3/assin2_eval.txt
+Saving generated XMLs...
+corpus: assin-ptbr
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  92.35%	   0.826
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.853		              0.22
+
+
+Saved evaluation: report/mt-dnn_assin+tweetsent/bert-pt_large/seed/2020/grad_norm/5.0/dropout/0.3/assin-ptbr_eval.txt
+Saving generated XMLs...
+corpus: assin-ptpt
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  93.00%	   0.872
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.859		              0.40
+
+
+Saved evaluation: report/mt-dnn_assin+tweetsent/bert-pt_large/seed/2020/grad_norm/5.0/dropout/0.3/assin-ptpt_eval.txt
+Saving generated XMLs...
+corpus: assin2
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  90.52%	   0.905
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.855		              0.57
+
+
+Saved evaluation: report/mt-dnn_assin+tweetsent/bert-pt_large/seed/2020/grad_norm/5.0/dropout/0.3/assin2_eval.txt
+Saving generated JSON...
+corpus: TweetSentBR
+Acc: 0.7557
+F1. neg: 0.753 neu: 0.620 post: 0.834
+Acc dist min: 0.2920
+Acc dist max: 0.2920
+Acc dist min equal: 0.0761
+Acc dist max equal: 0.2159
+
+Saved evaluation: report/mt-dnn_assin+tweetsent/bert-pt_large/seed/2020/grad_norm/5.0/dropout/0.3/tweetsent_eval.txt
+
+Saving generated XMLs...
+corpus: assin-ptbr
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  90.60%	   0.759
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.834		              0.26
+
+
+Saved evaluation: report/mt-dnn_assin-ptbr+assin2/bert-pt_base/seed/2020/grad_norm/5.0/dropout/0.3/assin-ptbr_eval.txt
+Saving generated XMLs...
+corpus: assin2
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  88.81%	   0.888
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.838		              0.59
+
+
+Saved evaluation: report/mt-dnn_assin-ptbr+assin2/bert-pt_base/seed/2020/grad_norm/5.0/dropout/0.3/assin2_eval.txt
+Saving generated XMLs...
+corpus: assin2
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  89.13%	   0.891
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.835		              0.58
+
+
+Saved evaluation: report/mt-dnn_assin2/bert-pt_base/seed/2020/grad_norm/5.0/dropout/0.3/assin2_eval.txt
+Saving generated XMLs...
+corpus: assin-ptbr
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  91.35%	   0.808
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.855		              0.24
+
+
+Saved evaluation: report/st-dnn/bert-pt_base/seed/2020/grad_norm/5.0/dropout/0.3/assin-1+2/assin-ptbr_eval.txt
+corpus: assin-ptpt
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  91.35%	   0.843
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.854		              0.50
+
+
+Saved evaluation: report/st-dnn/bert-pt_base/seed/2020/grad_norm/5.0/dropout/0.3/assin-1+2/assin-ptpt_eval.txt
+corpus: assin2
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  88.68%	   0.887
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.844		              0.58
+
+
+Saved evaluation: report/st-dnn/bert-pt_base/seed/2020/grad_norm/5.0/dropout/0.3/assin-1+2/assin2_eval.txt
+Saving generated XMLs...
+corpus: assin-ptbr
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  89.85%	   0.769
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.842		              0.24
+
+
+Saved evaluation: report/st-dnn/bert-pt_base/seed/2020/grad_norm/5.0/dropout/0.3/assin-ptbr+2/assin-ptbr_eval.txt
+corpus: assin2
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  88.32%	   0.883
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.846		              0.53
+
+
+Saved evaluation: report/st-dnn/bert-pt_base/seed/2020/grad_norm/5.0/dropout/0.3/assin-ptbr+2/assin2_eval.txt
+Saving generated XMLs...
+corpus: assin-ptbr
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  92.40%	   0.822
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.853		              0.23
+
+
+Saved evaluation: report/mt-dnn_assin-ptbr+assin2/bert-pt_large/seed/2020/grad_norm/5.0/dropout/0.3/assin-ptbr_eval.txt
+Saving generated XMLs...
+corpus: assin2
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  90.56%	   0.905
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.855		              0.45
+
+
+Saved evaluation: report/mt-dnn_assin-ptbr+assin2/bert-pt_large/seed/2020/grad_norm/5.0/dropout/0.3/assin2_eval.txt
+Saving generated XMLs...
+corpus: assin2
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  89.83%	   0.898
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.857		              0.49
+
+
+Saved evaluation: report/mt-dnn_assin2/bert-pt_large/seed/2020/grad_norm/5.0/dropout/0.3/assin2_eval.txt
+Saving generated XMLs...
+corpus: assin-ptbr
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  92.20%	   0.836
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.868		              0.20
+
+
+Saved evaluation: report/st-dnn/bert-pt_large/seed/2020/grad_norm/5.0/dropout/0.3/assin-1+2/assin-ptbr_eval.txt
+corpus: assin-ptpt
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  92.50%	   0.861
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.869		              0.41
+
+
+Saved evaluation: report/st-dnn/bert-pt_large/seed/2020/grad_norm/5.0/dropout/0.3/assin-1+2/assin-ptpt_eval.txt
+corpus: assin2
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  91.01%	   0.910
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.861		              0.42
+
+
+Saved evaluation: report/st-dnn/bert-pt_large/seed/2020/grad_norm/5.0/dropout/0.3/assin-1+2/assin2_eval.txt
+Saving generated XMLs...
+corpus: assin-ptbr
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  91.20%	   0.785
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.857		              0.21
+
+
+Saved evaluation: report/st-dnn/bert-pt_large/seed/2020/grad_norm/5.0/dropout/0.3/assin-ptbr+2/assin-ptbr_eval.txt
+corpus: assin2
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  90.73%	   0.907
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.859		              0.42
+
+
+Saved evaluation: report/st-dnn/bert-pt_large/seed/2020/grad_norm/5.0/dropout/0.3/assin-ptbr+2/assin2_eval.txt
+Saving generated XMLs...
+corpus: assin-ptbr
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  89.10%	   0.752
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.805		              0.28
+
+
+Saved evaluation: report/st-dnn/bert-multilingual_base/seed/2020/grad_norm/5.0/dropout/0.3/assin-ptbr_eval.txt
+Saving generated XMLs...
+corpus: assin-ptpt
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  89.65%	   0.812
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.838		              0.39
+
+
+Saved evaluation: report/st-dnn/bert-multilingual_base/seed/2020/grad_norm/5.0/dropout/0.3/assin-ptpt_eval.txt
+Saving generated XMLs...
+corpus: assin2
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  87.87%	   0.879
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.808		              0.51
+
+
+Saved evaluation: report/st-dnn/bert-multilingual_base/seed/2020/grad_norm/5.0/dropout/0.3/assin2_eval.txt
+Saving generated JSON...
+corpus: TweetSentBR
+Acc: 0.6935
+F1. neg: 0.677 neu: 0.554 post: 0.785
+Acc dist min: 0.2920
+Acc dist max: 0.2920
+Acc dist min equal: 0.0945
+Acc dist max equal: 0.1975
+
+Saved evaluation: report/st-dnn/bert-multilingual_base/seed/2020/grad_norm/5.0/dropout/0.3/tweetsent_eval.txt
+
+Saving generated XMLs...
+corpus: assin-ptbr
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  89.75%	   0.776
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.816		              0.28
+
+
+Saved evaluation: report/mt-dnn_assin/bert-multilingual_base/seed/2020/grad_norm/5.0/dropout/0.3/assin-ptbr_eval.txt
+Saving generated XMLs...
+corpus: assin-ptpt
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  90.40%	   0.829
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.843		              0.41
+
+
+Saved evaluation: report/mt-dnn_assin/bert-multilingual_base/seed/2020/grad_norm/5.0/dropout/0.3/assin-ptpt_eval.txt
+Saving generated XMLs...
+corpus: assin2
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  88.15%	   0.881
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.811		              0.58
+
+
+Saved evaluation: report/mt-dnn_assin/bert-multilingual_base/seed/2020/grad_norm/5.0/dropout/0.3/assin2_eval.txt
+Saving generated XMLs...
+corpus: assin-ptbr
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  89.55%	   0.775
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.808		              0.28
+
+
+Saved evaluation: report/mt-dnn_assin+tweetsent/bert-multilingual_base/seed/2020/grad_norm/5.0/dropout/0.3/assin-ptbr_eval.txt
+Saving generated XMLs...
+corpus: assin-ptpt
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  89.55%	   0.818
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.841		              0.45
+
+
+Saved evaluation: report/mt-dnn_assin+tweetsent/bert-multilingual_base/seed/2020/grad_norm/5.0/dropout/0.3/assin-ptpt_eval.txt
+Saving generated XMLs...
+corpus: assin2
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  87.34%	   0.873
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.814		              0.56
+
+
+Saved evaluation: report/mt-dnn_assin+tweetsent/bert-multilingual_base/seed/2020/grad_norm/5.0/dropout/0.3/assin2_eval.txt
+Saving generated JSON...
+corpus: TweetSentBR
+Acc: 0.6920
+F1. neg: 0.663 neu: 0.582 post: 0.778
+Acc dist min: 0.2920
+Acc dist max: 0.2920
+Acc dist min equal: 0.1070
+Acc dist max equal: 0.1851
+
+Saved evaluation: report/mt-dnn_assin+tweetsent/bert-multilingual_base/seed/2020/grad_norm/5.0/dropout/0.3/tweetsent_eval.txt
+
+Saving generated XMLs...
+corpus: assin-ptbr
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  89.25%	   0.727
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.807		              0.28
+
+
+Saved evaluation: report/mt-dnn_assin-ptbr+assin2/bert-multilingual_base/seed/2020/grad_norm/5.0/dropout/0.3/assin-ptbr_eval.txt
+Saving generated XMLs...
+corpus: assin2
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  86.40%	   0.864
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.806		              0.58
+
+
+Saved evaluation: report/mt-dnn_assin-ptbr+assin2/bert-multilingual_base/seed/2020/grad_norm/5.0/dropout/0.3/assin2_eval.txt
+Saving generated XMLs...
+corpus: assin2
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  87.13%	   0.871
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.810		              0.57
+
+
+Saved evaluation: report/mt-dnn_assin2/bert-multilingual_base/seed/2020/grad_norm/5.0/dropout/0.3/assin2_eval.txt
+Saving generated XMLs...
+corpus: assin-ptbr
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  91.45%	   0.823
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.830		              0.25
+
+
+Saved evaluation: report/st-dnn/bert-multilingual_base/seed/2020/grad_norm/5.0/dropout/0.3/assin-1+2/assin-ptbr_eval.txt
+corpus: assin-ptpt
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  90.40%	   0.837
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.845		              0.45
+
+
+Saved evaluation: report/st-dnn/bert-multilingual_base/seed/2020/grad_norm/5.0/dropout/0.3/assin-1+2/assin-ptpt_eval.txt
+corpus: assin2
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  87.58%	   0.876
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.832		              0.49
+
+
+Saved evaluation: report/st-dnn/bert-multilingual_base/seed/2020/grad_norm/5.0/dropout/0.3/assin-1+2/assin2_eval.txt
+Saving generated XMLs...
+corpus: assin-ptbr
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  89.35%	   0.751
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.815		              0.26
+
+
+Saved evaluation: report/st-dnn/bert-multilingual_base/seed/2020/grad_norm/5.0/dropout/0.3/assin-ptbr+2/assin-ptbr_eval.txt
+corpus: assin2
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  86.76%	   0.867
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.825		              0.50
+
+
+Saved evaluation: report/st-dnn/bert-multilingual_base/seed/2020/grad_norm/5.0/dropout/0.3/assin-ptbr+2/assin2_eval.txt
+Saving generated XMLs...
+corpus: assin-ptbr
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  90.30%	   0.781
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  1.000		              0.00
+
+
+Saved evaluation: report/st-dnn/bert-pt_base/seed/2020/grad_norm/5.0/dropout/0.3/assin1-rte/assin-ptbr_eval.txt
+corpus: assin-ptpt
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  90.75%	   0.824
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  1.000		              0.00
+
+
+Saved evaluation: report/st-dnn/bert-pt_base/seed/2020/grad_norm/5.0/dropout/0.3/assin1-rte/assin-ptpt_eval.txt
+Saving generated XMLs...
+corpus: assin-ptbr
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  87.90%	   0.717
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  1.000		              0.00
+
+
+Saved evaluation: report/st-dnn/bert-pt_base/seed/2020/grad_norm/5.0/dropout/0.3/best-pt/assin-ptbr_eval.txt
+corpus: assin-ptpt
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  88.90%	   0.781
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  1.000		              0.00
+
+
+Saved evaluation: report/st-dnn/bert-pt_base/seed/2020/grad_norm/5.0/dropout/0.3/best-pt/assin-ptpt_eval.txt
+Saving generated XMLs...
+corpus: assin-ptbr
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  88.45%	   0.726
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  1.000		              0.00
+
+
+Saved evaluation: report/st-dnn/bert-pt_base/seed/2020/grad_norm/5.0/dropout/0.3/random-pt/assin-ptbr_eval.txt
+corpus: assin-ptpt
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  89.05%	   0.781
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  1.000		              0.00
+
+
+Saved evaluation: report/st-dnn/bert-pt_base/seed/2020/grad_norm/5.0/dropout/0.3/random-pt/assin-ptpt_eval.txt
+Saving generated XMLs...
+corpus: assin-ptbr
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  87.90%	   0.722
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  1.000		              0.00
+
+
+Saved evaluation: report/st-dnn/bert-pt_base/seed/2020/grad_norm/5.0/dropout/0.3/worst-pt/assin-ptbr_eval.txt
+corpus: assin-ptpt
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  88.85%	   0.785
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  1.000		              0.00
+
+
+Saved evaluation: report/st-dnn/bert-pt_base/seed/2020/grad_norm/5.0/dropout/0.3/worst-pt/assin-ptpt_eval.txt
+Saving generated XMLs...
+corpus: assin-ptbr
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  91.10%	   0.804
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  1.000		              0.00
+
+
+Saved evaluation: report/st-dnn/bert-pt_large/seed/2020/grad_norm/5.0/dropout/0.3/assin1-rte/assin-ptbr_eval.txt
+corpus: assin-ptpt
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  90.85%	   0.826
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  1.000		              0.00
+
+
+Saved evaluation: report/st-dnn/bert-pt_large/seed/2020/grad_norm/5.0/dropout/0.3/assin1-rte/assin-ptpt_eval.txt
+Saving generated XMLs...
+corpus: assin-ptbr
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  89.95%	   0.771
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  1.000		              0.00
+
+
+Saved evaluation: report/st-dnn/bert-pt_large/seed/2020/grad_norm/5.0/dropout/0.3/best-pt/assin-ptbr_eval.txt
+corpus: assin-ptpt
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  89.25%	   0.792
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  1.000		              0.00
+
+
+Saved evaluation: report/st-dnn/bert-pt_large/seed/2020/grad_norm/5.0/dropout/0.3/best-pt/assin-ptpt_eval.txt
+Saving generated XMLs...
+corpus: assin-ptbr
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  90.05%	   0.764
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  1.000		              0.00
+
+
+Saved evaluation: report/st-dnn/bert-pt_large/seed/2020/grad_norm/5.0/dropout/0.3/random-pt/assin-ptbr_eval.txt
+corpus: assin-ptpt
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  89.35%	   0.794
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  1.000		              0.00
+
+
+Saved evaluation: report/st-dnn/bert-pt_large/seed/2020/grad_norm/5.0/dropout/0.3/random-pt/assin-ptpt_eval.txt
+Saving generated XMLs...
+corpus: assin-ptbr
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  89.75%	   0.751
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  1.000		              0.00
+
+
+Saved evaluation: report/st-dnn/bert-pt_large/seed/2020/grad_norm/5.0/dropout/0.3/worst-pt/assin-ptbr_eval.txt
+corpus: assin-ptpt
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  89.60%	   0.796
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  1.000		              0.00
+
+
+Saved evaluation: report/st-dnn/bert-pt_large/seed/2020/grad_norm/5.0/dropout/0.3/worst-pt/assin-ptpt_eval.txt
+Saving generated XMLs...
+corpus: assin-ptbr
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  89.20%	   0.758
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  1.000		              0.00
+
+
+Saved evaluation: report/st-dnn/bert-multilingual_base/seed/2020/grad_norm/5.0/dropout/0.3/assin1-rte/assin-ptbr_eval.txt
+corpus: assin-ptpt
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  89.65%	   0.819
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  1.000		              0.00
+
+
+Saved evaluation: report/st-dnn/bert-multilingual_base/seed/2020/grad_norm/5.0/dropout/0.3/assin1-rte/assin-ptpt_eval.txt
+Saving generated XMLs...
+corpus: assin-ptbr
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  86.60%	   0.705
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  1.000		              0.00
+
+
+Saved evaluation: report/st-dnn/bert-multilingual_base/seed/2020/grad_norm/5.0/dropout/0.3/best-pt/assin-ptbr_eval.txt
+corpus: assin-ptpt
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  87.50%	   0.767
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  1.000		              0.00
+
+
+Saved evaluation: report/st-dnn/bert-multilingual_base/seed/2020/grad_norm/5.0/dropout/0.3/best-pt/assin-ptpt_eval.txt
+Saving generated XMLs...
+corpus: assin-ptbr
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  86.05%	   0.701
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  1.000		              0.00
+
+
+Saved evaluation: report/st-dnn/bert-multilingual_base/seed/2020/grad_norm/5.0/dropout/0.3/random-pt/assin-ptbr_eval.txt
+corpus: assin-ptpt
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  86.85%	   0.750
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  1.000		              0.00
+
+
+Saved evaluation: report/st-dnn/bert-multilingual_base/seed/2020/grad_norm/5.0/dropout/0.3/random-pt/assin-ptpt_eval.txt
+Saving generated XMLs...
+corpus: assin-ptbr
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  86.75%	   0.713
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  1.000		              0.00
+
+
+Saved evaluation: report/st-dnn/bert-multilingual_base/seed/2020/grad_norm/5.0/dropout/0.3/worst-pt/assin-ptbr_eval.txt
+corpus: assin-ptpt
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  87.05%	   0.757
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  1.000		              0.00
+
+
+Saved evaluation: report/st-dnn/bert-multilingual_base/seed/2020/grad_norm/5.0/dropout/0.3/worst-pt/assin-ptpt_eval.txt
