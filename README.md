@@ -19,7 +19,6 @@ cd mt-dnn_port/
 bash prepare.sh
 ```
 
-
 ## Training
 
 MT-DNN was trained on Google Cloud VM, n1-standard-8, using [mt-dnn container on Docker](https://github.com/namisan/mt-dnn/tree/f444fe9109d5a9980c9d825a24576c8d873bdf33 "MT-DNN repository").  
@@ -54,19 +53,29 @@ assin-ptbr+assin2, assin2 are available only for Portuguese embeddings: bert-pt 
 bash mt-dnn.sh {MODEL} {TYPE} {TASK}
 ```
 
-## Translation
+# Evaluation
+Run eval.sh choosing: 
+
+- MODEL from bert-pt, bert, bert-multilingual or mt-dnn
+- TYPE from base, large (there is no bert-large-multilingual)
+- TASK from:
+  - st-dnn/assin2-rte, st-dnn/assin2-sts, st-dnn/assin-ptpt-rte, st-dnn/assin-ptpt-sts, st-dnn/assin-ptbr-rte, st-dnn/assin-ptpt-sts or st-dnn/tweetsent
+  - mt-dnn_assin, mt-dnn_assin+tweetsent, mt-dnn_assin-ptbr+assin2, mt-dnn_assin2
+
+st-dnn/assin-ptbr+2, st-dnn/assin-1+2 (data augmentation tasks) are available only for Portuguese embeddings: bert-pt and bert-multilingual
+
+mt-dnn_assin-ptbr+assin2, mt-dnn_assin2 are available only for Portuguese embeddings: bert-pt and bert-multilingual
+
+```bash
+bash eval.sh {MODE} {MODEL}_{TYPE}
+```
+
+# Translation
 
 Translation related codes are available in translate and convert folders. 
 
 Assin dataset translation was  imported from [ruanchaves/assin](https://github.com/ruanchaves/assin/blob/master/sources/dictionary.json) .
 
+#  Results
 
-
-##  Results
-
-- Evaluations and scores in reports folder
-- Evaluation scripts eval_assin.ipynb and  eval_tensorboard.ipynb
-- Model output in output folder
-- Assin_xml and tweetsent_json convert model output to answers for evaluation scripts.
-- Pretrained models links in pretrained_models.md
-- [Tensorboard interactive training graphs](https://colab.research.google.com/drive/14hWbFTv3PsIaVCgk8gqW3pxh_l6_Ap8v) displaying time x dev evaluation.
+Evaluations and scores are in reports folder
