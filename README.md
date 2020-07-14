@@ -21,10 +21,6 @@ bash prepare.sh
 
 ## Training
 
-MT-DNN was trained on Google Cloud VM, n1-standard-8, using [mt-dnn container on Docker](https://github.com/namisan/mt-dnn/tree/f444fe9109d5a9980c9d825a24576c8d873bdf33 "MT-DNN repository").  
-
-ST-DNN was executed in Google Colaboratory.
-
 ###  ST-DNN
 Run st-dnn.ipynb chosing: 
 
