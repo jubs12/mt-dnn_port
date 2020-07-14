@@ -4,6 +4,8 @@ MODEL=$1
 TYPE=$2
 TASKS=$3
 
+SEED_OR_MODE=$4
+
 cd mt-dnn
 
 echo "Preparing train arguments"
@@ -60,11 +62,29 @@ else
    exit 127
 fi
 
+IS_NUMERIC='^[0-9]+$'
+if [[ $SEED_OR_MODE =~ $IS_NUMERIC ]] ; then
+    SEED=$SEED_OR_MODE
+    GRAD_NORM=$5
+    DROPOUT=$6
+    MODE_ARGS="--seed $SEED --fp16 --fp16_opt_level O2  --global_grad_clipping $GRAD_NORM --dropout_p $DROPOUT"
+    DROPOUT_DIR="seed/${SEED}/grad_norm/${GRAD_NORM}/dropout/${DROPOUT}"
+elif [ "$SEED_OR_MODE" = "--test" ]; then
+    TEST_DIR='test/'
+elif [ "$SEED_OR_MODE" != "" ]; then
+   echo "invalid option">&2
+   exit 127
+fi
+
+OUTPUT_DIR="../output/${TEST_DIR}mt-dnn_$TASKS/${MODEL}_${TYPE}/${DROPOUT_DIR}"
+
 TASK="--train_datasets $TASK_LIST --test_datasets $TASK_LIST"
 TASK_DEF="--task_def ../data/task-def/$TASKS.yaml"
-OUTPUT="--output_dir ../output/mt-dnn_$TASKS/${MODEL}_${TYPE}/"
+OUTPUT="--output_dir ${OUTPUT_DIR}"
 
-rm -rf /root/.cache/torch
 python prepro_std.py $PREPRO $TASK_DEF
-python train.py $TRAIN $TASK $TASK_DEF $OUTPUT --tensorboard
-rm -rf /root/.cache/torch
+python train.py $TRAIN $TASK $TASK_DEF $OUTPUT --tensorboard $MODE_ARGS
+
+if ! [[ "$SEED_OR_MODE" = "" ]]; then
+    rm -rf $OUTPUT_DIR/model_*.pt
+fi

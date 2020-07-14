@@ -2,9 +2,24 @@
 output/mt-dnn*/*/model_*.pt
 output/st-dnn*/*/*/model_*.pt
 
+output/mt-dnn*/*/seed/*/model_*.pt
+output/st-dnn*/*/*/seed/*/model_*.pt
+
+
 #dev scores
 output/mt-dnn*/*/*dev_scores_*.json
 output/st-dnn*/*/*/*dev_scores_*.json
+
+output/mt-dnn*/*/seed/*/*dev_scores_*.json
+output/st-dnn*/*/*/seed/*/*dev_scores_*.json
+
+
+output/mt-dnn*/*/seed/*/grad_norm/*/*dev_scores_*.json
+output/st-dnn*/*/*/seed/*/grad_norm/*/*dev_scores_*.json
+
+output/mt-dnn*/*/seed/*/grad_norm/*/dropout/*/*dev_scores_*.json
+output/st-dnn*/*/*/seed/*/grad_norm/*/dropout/*/*dev_scores_*.json
+
 
 #older testscores
 output/mt-dnn*/*/*test_scores_0.json
@@ -16,20 +31,50 @@ output/st-dnn*/*/*/*test_scores_2.json
 output/mt-dnn*/*/*test_scores_3.json
 output/st-dnn*/*/*/*test_scores_3.json
 
-#mt-dnn repo
-mt-dnn/
+output/mt-dnn*/*/seed/*/*test_scores_0.json
+output/st-dnn*/*/*/seed/*/*test_scores_0.json
+output/mt-dnn*/*/seed/*/*test_scores_1.json
+output/st-dnn*/*/*/seed/*/*test_scores_1.json
+output/mt-dnn*/*/seed/*/*test_scores_2.json
+output/st-dnn*/*/*/seed/*/*test_scores_2.json
+output/mt-dnn*/*/seed/*/*test_scores_3.json
+output/st-dnn*/*/*/seed/*/*test_scores_3.json
 
-#assin repo
+
+output/mt-dnn*/*/seed/*/grad_norm/*/*test_scores_0.json
+output/st-dnn*/*/*/seed/*/grad_norm/*/*test_scores_0.json
+output/mt-dnn*/*/seed/*/grad_norm/*/*test_scores_1.json
+output/st-dnn*/*/*/seed/*/grad_norm/*/*test_scores_1.json
+output/mt-dnn*/*/seed/*/grad_norm/*/*test_scores_2.json
+output/st-dnn*/*/*/seed/*/grad_norm/*/*test_scores_2.json
+output/mt-dnn*/*/seed/*/grad_norm/*/*test_scores_3.json
+output/st-dnn*/*/*/seed/*/grad_norm/*/*test_scores_3.json
+
+
+output/mt-dnn*/*/seed/*/grad_norm/*/dropout/*/*test_scores_0.json
+output/st-dnn*/*/*/seed/*/grad_norm/*/dropout/*/*test_scores_0.json
+output/mt-dnn*/*/seed/*/grad_norm/*/dropout/*/*test_scores_1.json
+output/st-dnn*/*/*/seed/*/grad_norm/*/dropout/*/*test_scores_1.json
+output/mt-dnn*/*/seed/*/grad_norm/*/dropout/*/*test_scores_2.json
+output/st-dnn*/*/*/seed/*/grad_norm/*/dropout/*/*test_scores_2.json
+output/mt-dnn*/*/seed/*/grad_norm/*/dropout/*/*test_scores_3.json
+output/st-dnn*/*/*/seed/*/grad_norm/*/dropout/*/*test_scores_3.json
+
+
+#repos
+mt-dnn
 assin
+tweetsentbr
 
-#tweetsentbr datasets
+#raw assin1 temporary files
+data/dataset/._assin*
+
+#Tweetsent raw dataset
+data/dataset/tweetSentBR*
+
+#tweetsentbr formatted datasets
 data/input/*/tweetsent*
 
-#dataset
-data/dataset
-
-#colab temporary files
-._assin*
 
 #Preprocessed data
 data/input/*/bert*
