@@ -63,6 +63,7 @@ st-dnn/assin-ptbr+2, st-dnn/assin-1+2 (data augmentation tasks) are available on
 mt-dnn_assin-ptbr+assin2, mt-dnn_assin2 are available only for Portuguese embeddings: bert-pt and bert-multilingual
 
 ```bash
+bash prepare_eval.sh
 bash eval.sh {MODE} {MODEL}_{TYPE}
 ```
 
