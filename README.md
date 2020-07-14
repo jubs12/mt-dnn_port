@@ -50,7 +50,7 @@ bash mt-dnn.sh {MODEL} {TYPE} {TASK}
 ```
 
 # Evaluation
-Run eval.sh choosing: 
+Run prepare_eval.sh and eval.sh choosing: 
 
 - MODEL from bert-pt, bert, bert-multilingual or mt-dnn
 - TYPE from base, large (there is no bert-large-multilingual)
