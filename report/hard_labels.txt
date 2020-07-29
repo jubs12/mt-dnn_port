@@ -1,0 +1,494 @@
+corpus: assin2 hard label
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  80.45%	   0.794
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.773		              0.85
+
+Saved evaluation: report/st-dnn/bert_base/assin2_hard_label_eval.txt
+
+
+corpus: assin2 hard label
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  77.24%	   0.762
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.762		              0.84
+
+Saved evaluation: report/mt-dnn_assin/bert_base/assin2_hard_label_eval.txt
+
+
+corpus: assin2 hard label
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  78.85%	   0.778
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.770		              0.76
+
+Saved evaluation: report/mt-dnn_assin+tweetsent/bert_base/assin2_hard_label_eval.txt
+
+
+corpus: assin2 hard label
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  80.36%	   0.793
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.774		              0.77
+
+Saved evaluation: report/st-dnn/bert_large/assin2_hard_label_eval.txt
+
+
+corpus: assin2 hard label
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  83.29%	   0.819
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.778		              0.72
+
+Saved evaluation: report/mt-dnn_assin/bert_large/assin2_hard_label_eval.txt
+
+
+corpus: assin2 hard label
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  82.81%	   0.815
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.782		              0.68
+
+Saved evaluation: report/mt-dnn_assin+tweetsent/bert_large/assin2_hard_label_eval.txt
+
+
+corpus: assin2 hard label
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  83.00%	   0.819
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.798		              0.62
+
+Saved evaluation: report/st-dnn/mt-dnn_base/assin2_hard_label_eval.txt
+
+
+corpus: assin2 hard label
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  84.04%	   0.829
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.791		              0.69
+
+Saved evaluation: report/mt-dnn_assin/mt-dnn_base/assin2_hard_label_eval.txt
+
+
+corpus: assin2 hard label
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  83.00%	   0.818
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.792		              0.64
+
+Saved evaluation: report/mt-dnn_assin+tweetsent/mt-dnn_base/assin2_hard_label_eval.txt
+
+
+corpus: assin2 hard label
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  84.32%	   0.833
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.811		              0.58
+
+Saved evaluation: report/st-dnn/mt-dnn_large/assin2_hard_label_eval.txt
+
+
+corpus: assin2 hard label
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  86.31%	   0.852
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.799		              0.61
+
+Saved evaluation: report/mt-dnn_assin/mt-dnn_large/assin2_hard_label_eval.txt
+
+
+corpus: assin2 hard label
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  85.08%	   0.838
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.804		              0.61
+
+Saved evaluation: report/mt-dnn_assin+tweetsent/mt-dnn_large/assin2_hard_label_eval.txt
+
+
+corpus: assin2 hard label
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  80.17%	   0.793
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.782		              0.76
+
+Saved evaluation: report/st-dnn/bert-pt_base/assin2_hard_label_eval.txt
+
+
+corpus: assin2 hard label
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  82.44%	   0.813
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.765		              0.75
+
+Saved evaluation: report/mt-dnn_assin/bert-pt_base/assin2_hard_label_eval.txt
+
+
+corpus: assin2 hard label
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  81.11%	   0.800
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.764		              0.76
+
+Saved evaluation: report/mt-dnn_assin+tweetsent/bert-pt_base/assin2_hard_label_eval.txt
+
+
+corpus: assin2 hard label
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  81.87%	   0.808
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.794		              0.64
+
+Saved evaluation: report/st-dnn/bert-pt_large/assin2_hard_label_eval.txt
+
+
+corpus: assin2 hard label
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  83.66%	   0.826
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.798		              0.69
+
+Saved evaluation: report/mt-dnn_assin/bert-pt_large/assin2_hard_label_eval.txt
+
+
+corpus: assin2 hard label
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  85.17%	   0.841
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.798		              0.64
+
+Saved evaluation: report/mt-dnn_assin+tweetsent/bert-pt_large/assin2_hard_label_eval.txt
+
+
+corpus: assin2 hard label
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  81.30%	   0.802
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.772		              0.70
+
+Saved evaluation: report/mt-dnn_assin-ptbr+assin2/bert-pt_base/assin2_hard_label_eval.txt
+
+
+corpus: assin2 hard label
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  81.40%	   0.804
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.766		              0.84
+
+Saved evaluation: report/mt-dnn_assin2/bert-pt_base/assin2_hard_label_eval.txt
+
+
+corpus: assin2 hard label
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  83.38%	   0.823
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.789		              0.68
+
+Saved evaluation: report/st-dnn/bert-pt_base/assin-1+2//assin2_hard_label_eval.txt
+
+
+corpus: assin2 hard label
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  82.34%	   0.813
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.790		              0.71
+
+Saved evaluation: report/st-dnn/bert-pt_base/assin-ptbr+2//assin2_hard_label_eval.txt
+
+
+corpus: assin2 hard label
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  83.29%	   0.821
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.792		              0.64
+
+Saved evaluation: report/mt-dnn_assin-ptbr+assin2/bert-pt_large/assin2_hard_label_eval.txt
+
+
+corpus: assin2 hard label
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  82.91%	   0.819
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.801		              0.67
+
+Saved evaluation: report/mt-dnn_assin2/bert-pt_large/assin2_hard_label_eval.txt
+
+
+corpus: assin2 hard label
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  84.23%	   0.832
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.790		              0.58
+
+Saved evaluation: report/st-dnn/bert-pt_large/assin-1+2//assin2_hard_label_eval.txt
+
+
+corpus: assin2 hard label
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  82.25%	   0.812
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.787		              0.62
+
+Saved evaluation: report/st-dnn/bert-pt_large/assin-ptbr+2//assin2_hard_label_eval.txt
+
+
+corpus: assin2 hard label
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  77.24%	   0.759
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.743		              0.75
+
+Saved evaluation: report/st-dnn/bert-multilingual_base/assin2_hard_label_eval.txt
+
+
+corpus: assin2 hard label
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  80.83%	   0.793
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.716		              0.82
+
+Saved evaluation: report/mt-dnn_assin/bert-multilingual_base/assin2_hard_label_eval.txt
+
+
+corpus: assin2 hard label
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  82.25%	   0.808
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.741		              0.77
+
+Saved evaluation: report/mt-dnn_assin+tweetsent/bert-multilingual_base/assin2_hard_label_eval.txt
+
+
+corpus: assin2 hard label
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  72.52%	   0.709
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.738		              0.74
+
+Saved evaluation: report/mt-dnn_assin-ptbr+assin2/bert-multilingual_base/assin2_hard_label_eval.txt
+
+
+corpus: assin2 hard label
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  80.93%	   0.792
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.725		              0.78
+
+Saved evaluation: report/mt-dnn_assin2/bert-multilingual_base/assin2_hard_label_eval.txt
+
+
+corpus: assin2 hard label
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  80.93%	   0.797
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.756		              0.65
+
+Saved evaluation: report/st-dnn/bert-multilingual_base/assin-1+2//assin2_hard_label_eval.txt
+
+
+corpus: assin2 hard label
+
+RTE evaluation
+Accuracy	Macro F1
+--------	--------
+  78.94%	   0.776
+
+Similarity evaluation
+Pearson		Mean Squared Error
+-------		------------------
+  0.753		              0.68
+
+Saved evaluation: report/st-dnn/bert-multilingual_base/assin-ptbr+2//assin2_hard_label_eval.txt
+
