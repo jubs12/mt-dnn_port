@@ -105,12 +105,12 @@ corpus: assin-ptbr
 RTE evaluation
 Accuracy	Macro F1
 --------	--------
-  88.30%	   0.727
+  89.20%	   0.764
 
 Similarity evaluation
 Pearson		Mean Squared Error
 -------		------------------
-  0.780		              0.32
+  0.777		              0.33
 
 
 Saved evaluation: report/mt-dnn_assin+tweetsent/bert_base/seed/2016/grad_norm/1.0/dropout/0.1/assin-ptbr_eval.txt
@@ -120,12 +120,12 @@ corpus: assin-ptpt
 RTE evaluation
 Accuracy	Macro F1
 --------	--------
-  87.65%	   0.776
+  88.70%	   0.808
 
 Similarity evaluation
 Pearson		Mean Squared Error
 -------		------------------
-  0.798		              0.51
+  0.803		              0.52
 
 
 Saved evaluation: report/mt-dnn_assin+tweetsent/bert_base/seed/2016/grad_norm/1.0/dropout/0.1/assin-ptpt_eval.txt
@@ -135,23 +135,23 @@ corpus: assin2
 RTE evaluation
 Accuracy	Macro F1
 --------	--------
-  58.13%	   0.579
+  87.70%	   0.877
 
 Similarity evaluation
 Pearson		Mean Squared Error
 -------		------------------
-  0.822		              0.61
+  0.823		              0.60
 
 
 Saved evaluation: report/mt-dnn_assin+tweetsent/bert_base/seed/2016/grad_norm/1.0/dropout/0.1/assin2_eval.txt
 Saving generated JSON...
 corpus: TweetSentBR
-Acc: 0.7114
-F1. neg: 0.699 neu: 0.586 post: 0.794
+Acc: 0.7090
+F1. neg: 0.693 neu: 0.582 post: 0.793
 Acc dist min: 0.2920
 Acc dist max: 0.2920
-Acc dist min equal: 0.0920
-Acc dist max equal: 0.2000
+Acc dist min equal: 0.0945
+Acc dist max equal: 0.1975
 
 Saved evaluation: report/mt-dnn_assin+tweetsent/bert_base/seed/2016/grad_norm/1.0/dropout/0.1/tweetsent_eval.txt
 

@@ -38,7 +38,7 @@ Accuracy	Macro F1
 Similarity evaluation
 Pearson		Mean Squared Error
 -------		------------------
-  0.771		              0.82
+  0.770		              0.82
 
 Saved evaluation: report/mt-dnn_assin+tweetsent/bert_base/ensemble/assin2_hard_label_eval.txt
 
@@ -491,4 +491,5 @@ Pearson		Mean Squared Error
   0.768		              0.64
 
 Saved evaluation: report/st-dnn/bert-multilingual_base/ensemble/assin-ptbr+2/assin2_hard_label_eval.txt
+
 

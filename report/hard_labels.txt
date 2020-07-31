@@ -310,7 +310,7 @@ Pearson		Mean Squared Error
 -------		------------------
   0.789		              0.68
 
-Saved evaluation: report/st-dnn/bert-pt_base/assin-1+2//assin2_hard_label_eval.txt
+Saved evaluation: report/st-dnn/bert-pt_base//assin-1+2/assin2_hard_label_eval.txt
 
 
 corpus: assin2 hard label
@@ -325,7 +325,7 @@ Pearson		Mean Squared Error
 -------		------------------
   0.790		              0.71
 
-Saved evaluation: report/st-dnn/bert-pt_base/assin-ptbr+2//assin2_hard_label_eval.txt
+Saved evaluation: report/st-dnn/bert-pt_base//assin-ptbr+2/assin2_hard_label_eval.txt
 
 
 corpus: assin2 hard label
@@ -370,7 +370,7 @@ Pearson		Mean Squared Error
 -------		------------------
   0.790		              0.58
 
-Saved evaluation: report/st-dnn/bert-pt_large/assin-1+2//assin2_hard_label_eval.txt
+Saved evaluation: report/st-dnn/bert-pt_large//assin-1+2/assin2_hard_label_eval.txt
 
 
 corpus: assin2 hard label
@@ -385,7 +385,7 @@ Pearson		Mean Squared Error
 -------		------------------
   0.787		              0.62
 
-Saved evaluation: report/st-dnn/bert-pt_large/assin-ptbr+2//assin2_hard_label_eval.txt
+Saved evaluation: report/st-dnn/bert-pt_large//assin-ptbr+2/assin2_hard_label_eval.txt
 
 
 corpus: assin2 hard label
@@ -475,7 +475,7 @@ Pearson		Mean Squared Error
 -------		------------------
   0.756		              0.65
 
-Saved evaluation: report/st-dnn/bert-multilingual_base/assin-1+2//assin2_hard_label_eval.txt
+Saved evaluation: report/st-dnn/bert-multilingual_base//assin-1+2/assin2_hard_label_eval.txt
 
 
 corpus: assin2 hard label
@@ -490,5 +490,7 @@ Pearson		Mean Squared Error
 -------		------------------
   0.753		              0.68
 
-Saved evaluation: report/st-dnn/bert-multilingual_base/assin-ptbr+2//assin2_hard_label_eval.txt
+Saved evaluation: report/st-dnn/bert-multilingual_base//assin-ptbr+2/assin2_hard_label_eval.txt
+
+
 

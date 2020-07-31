@@ -105,7 +105,7 @@ corpus: assin-ptbr
 RTE evaluation
 Accuracy	Macro F1
 --------	--------
-  89.35%	   0.756
+  89.35%	   0.755
 
 Similarity evaluation
 Pearson		Mean Squared Error
@@ -120,7 +120,7 @@ corpus: assin-ptpt
 RTE evaluation
 Accuracy	Macro F1
 --------	--------
-  88.65%	   0.791
+  88.90%	   0.796
 
 Similarity evaluation
 Pearson		Mean Squared Error
@@ -135,7 +135,7 @@ corpus: assin2
 RTE evaluation
 Accuracy	Macro F1
 --------	--------
-  87.34%	   0.873
+  87.38%	   0.873
 
 Similarity evaluation
 Pearson		Mean Squared Error
@@ -146,12 +146,12 @@ Pearson		Mean Squared Error
 Saved evaluation: report/mt-dnn_assin+tweetsent/bert_base/ensemble/assin2_eval.txt
 Saving generated JSON...
 corpus: TweetSentBR
-Acc: 0.7229
-F1. neg: 0.707 neu: 0.609 post: 0.800
+Acc: 0.7224
+F1. neg: 0.706 neu: 0.609 post: 0.800
 Acc dist min: 0.2920
 Acc dist max: 0.2920
-Acc dist min equal: 0.0950
-Acc dist max equal: 0.1970
+Acc dist min equal: 0.0955
+Acc dist max equal: 0.1965
 
 Saved evaluation: report/mt-dnn_assin+tweetsent/bert_base/ensemble/tweetsent_eval.txt
 
@@ -1796,3 +1796,4 @@ Pearson		Mean Squared Error
 
 
 Saved evaluation: report/st-dnn/bert-multilingual_base/ensemble/worst-pt/assin-ptpt_eval.txt
+
