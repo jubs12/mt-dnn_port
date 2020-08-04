@@ -138,7 +138,8 @@ def box_plot(df):
     )
 
     fig, graph = plt.subplots()
-    fig.subplots_adjust(right=0.65)
+    size = fig.get_size_inches()
+    fig.set_size_inches(size[0]*2.25, size[1]*1.5)
 
     handle_text = range(1, df.shape[1]+1)
     labels = df.columns.values
@@ -170,9 +171,9 @@ def draw_blox_plot(scores_dict_lst: List[dict], task_name: str, models_lang: str
     fig, graph = box_plot(df)
     graph.set_title(graph_title)
     graph.set_ylabel(ylabel)
-    #fig.tight_layout()
-    #plt.savefig(f'boxplot/{task_name}_{models_lang}.png')
-    plt.show()
+    fig.tight_layout()
+    plt.savefig(f'boxplot/{task_name}_{models_lang}_{metric_idx}.png')
+    #plt.show()
 
 
 def main():
