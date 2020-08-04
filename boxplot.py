@@ -67,7 +67,7 @@ def get_metric(task: str, task_name: str, metric_idx: int) -> tuple:
 def get_evals(report: str, task_name: str, model_set: set):
     tasks = re.split('corpus.*|Saving generated XMLs...', report)
     tasks = [task for task in tasks
-             if task_name in task and any(model in task for model in model_set)]
+             if f'{task_name}_eval.txt' in task and any(model in task for model in model_set)]
     pattern = re.compile(r'report/(.*?/.*?)/.*/dropout/\d+\.\d+(/*.*)/.*?txt')
     evals = {re.search(pattern, task).group(1) + re.search(pattern, task).group(2): task
              for task in tasks}
@@ -97,7 +97,6 @@ def get_scores_dict(filepath: str, task_name: str, metric_idx: int, model_set: s
 
         evals = {key: value for key, value in evals.items()
                     if not any(model in key for model in cabezudo)}
-
 
     scores = {key: get_metric(value, task_name, metric_idx)
               for key, value in evals.items()}
@@ -161,7 +160,7 @@ def box_plot(df):
     return fig, graph
 
 
-def draw_blox_plot(scores_dict_lst: List[dict], task_name: str, metric_idx: int, graph_title: str):
+def draw_blox_plot(scores_dict_lst: List[dict], task_name: str, models_lang: str, metric_idx: int, graph_title: str):
     xlabel = "Aproaches"
     ylabel = get_metric_name(metric_idx, is_assin(task_name))
 
@@ -171,6 +170,8 @@ def draw_blox_plot(scores_dict_lst: List[dict], task_name: str, metric_idx: int,
     fig, graph = box_plot(df)
     graph.set_title(graph_title)
     graph.set_ylabel(ylabel)
+    #fig.tight_layout()
+    #plt.savefig(f'boxplot/{task_name}_{models_lang}.png')
     plt.show()
 
 
@@ -200,7 +201,7 @@ def main():
         path) if re.search(pattern, filename)]
     scores_dict_lst = [get_scores_dict(
         f'{path}/{filename}', task_name, metric_idx, model_set) for filename in files]
-    draw_blox_plot(scores_dict_lst, task_name, metric_idx, graph_title)
+    draw_blox_plot(scores_dict_lst, task_name, models_lang, metric_idx, graph_title)
 
 
 if __name__ == '__main__':
