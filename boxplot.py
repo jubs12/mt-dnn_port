@@ -115,8 +115,8 @@ def adjust_legend(graph, labels, handle_text):
                          fontsize=fontsize,
                          ha="center",
                          va="center",
-                         color=tup[1],
-                         fontweight="bold",
+                         #color=tup[1],
+                         #fontweight="bold",
                          alpha=1,
                    )
                 return [tx]
@@ -143,13 +143,12 @@ def box_plot(df):
 
     handle_text = range(1, df.shape[1]+1)
     labels = df.columns.values
-    color_palette=sns.cubehelix_palette(len(labels), gamma=0.8,light=0.75, dark=0)
+    color_palette=sns.cubehelix_palette(len(labels), dark=0.2)
 
     graph = sns.boxplot(data=df,
-                        sym="",
                         palette=color_palette,
-                        boxprops=dict(alpha=.3),
                         showmeans=True,
+                        boxprops=dict(alpha=0.5),
                         meanprops=dict(
                                        alpha=1,
                                        markerfacecolor='black',
@@ -157,8 +156,6 @@ def box_plot(df):
                                        markersize=10,
                                       ),
     )
-    graph = sns.swarmplot(data=df, palette=color_palette)
-
     adjust_legend(graph, labels, handle_text)
 
     return fig, graph
@@ -169,7 +166,7 @@ def draw_blox_plot(scores_dict_lst: List[dict], task_name: str, metric_idx: int,
     ylabel = get_metric_name(metric_idx, is_assin(task_name))
 
     df = pd.DataFrame(scores_dict_lst)
-    print(df.columns)
+    print(df.shape)
 
     fig, graph = box_plot(df)
     graph.set_title(graph_title)
