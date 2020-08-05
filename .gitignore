@@ -78,3 +78,9 @@ data/input/*/tweetsent*
 
 #Preprocessed data
 data/input/*/bert*
+
+#eval hard labels
+single-sent.xml
+
+#re-do experiments
+redo.sh
