@@ -438,12 +438,12 @@ corpus: assin2 hard label
 RTE evaluation
 Accuracy	Macro F1
 --------	--------
-  81.59%	   0.800
+  81.68%	   0.801
 
 Similarity evaluation
 Pearson		Mean Squared Error
 -------		------------------
-  0.744		              0.74
+  0.743		              0.74
 
 Saved evaluation: report/mt-dnn_assin-ptbr+assin2/bert-multilingual_base/ensemble/assin2_hard_label_eval.txt
 
@@ -488,7 +488,7 @@ Accuracy	Macro F1
 Similarity evaluation
 Pearson		Mean Squared Error
 -------		------------------
-  0.768		              0.64
+  0.766		              0.65
 
 Saved evaluation: report/st-dnn/bert-multilingual_base/ensemble/assin-ptbr+2/assin2_hard_label_eval.txt
 

@@ -7,4 +7,4 @@ Accuracy	Macro F1
 Similarity evaluation
 Pearson		Mean Squared Error
 -------		------------------
-  0.785		              0.30
+  0.816		              0.26

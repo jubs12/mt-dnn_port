@@ -1352,7 +1352,7 @@ corpus: assin2
 RTE evaluation
 Accuracy	Macro F1
 --------	--------
-  88.48%	   0.885
+  88.52%	   0.885
 
 Similarity evaluation
 Pearson		Mean Squared Error
@@ -1444,7 +1444,7 @@ Accuracy	Macro F1
 Similarity evaluation
 Pearson		Mean Squared Error
 -------		------------------
-  0.837		              0.47
+  0.836		              0.47
 
 
 Saved evaluation: report/st-dnn/bert-multilingual_base/ensemble/assin-ptbr+2/assin2_eval.txt
@@ -1796,4 +1796,3 @@ Pearson		Mean Squared Error
 
 
 Saved evaluation: report/st-dnn/bert-multilingual_base/ensemble/worst-pt/assin-ptpt_eval.txt
-
