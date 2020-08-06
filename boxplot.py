@@ -31,6 +31,31 @@ tweetsent_metrics = [
     'F1. pos',
 ]
 
+models_dict = {
+    'bert_base': 'bert_base',
+    'bert_large': 'bert_large',
+    'mt-dnn_base': 'mt-dnn_base',
+    'mt-dnn_large': 'mt-dnn_large',
+    'bert-multilingual_base': 'bert-multilingual_base',
+    'bert-pt_base': 'bert-pt_base',
+    'bert-pt_large': 'bert-pt_large',
+}
+
+
+approaches_dict = {
+    'st-dnn': 'st-dnn',
+    'mt-dnn_assin': 'mt-dnn_assin',
+    'mt-dnn_assin+tweetsent': 'mt-dnn_assin+tweetsent',
+    'mt-dnn_assin-ptbr+assin2': 'mt-dnn_assin-ptbr+assin2',
+    'mt-dnn_assin2': 'mt-dnn_assin2',
+    'st-dnn/assin-1+2': 'st-dnn/assin-1+2',
+    'st-dnn/assin-ptbr+2': 'st-dnn/assin-ptbr+2',
+    'st-dnn/assin1-rte': 'st-dnn/assin1-rte',
+    'st-dnn/best-pt': 'st-dnn/best-pt',
+    'st-dnn/random-pt': 'st-dnn/random-pt',
+    'st-dnn/worst-pt': 'st-dnn/worst-pt',
+}
+
 
 def is_assin(task_name: str):
     return 'assin' in task_name
@@ -70,7 +95,8 @@ def get_evals(report: str, task_name: str, model_set: set):
              if f'{task_name}_eval.txt' in task and any(model in task for model in model_set)]
 
     evals = {model: dict() for model in model_set}
-    pattern = re.compile(r'report/(.*?)/(.*?)/.*/dropout/\d+\.\d+(/*.*)/.*?txt')
+    pattern = re.compile(
+        r'report/(.*?)/(.*?)/.*/dropout/\d+\.\d+(/*.*)/.*?txt')
     for task in tasks:
         mode, model, extra = re.search(pattern, task).groups()
         evals[model].update({mode + extra: task})
@@ -86,89 +112,90 @@ def get_report(filepath: str):
     return report
 
 
-def get_scores_dict(filepath: str, task_name: str, metric_idx: int, model_set: set, cabezudo: bool):
+def get_scores_dict(filepath: str, model_set: set, task_name: str, metric_idx: int, models_lang: str, cabezudo: bool):
     report = get_report(filepath)
     evals = get_evals(report, task_name, model_set)
     scores = dict()
 
-
-    if task_name.startswith('assin'):
+    if task_name.startswith('assin-') and models_lang == 'pt':
         cabezudo_approaches = {
-                    'st-dnn/assin1-rte',
-                    'st-dnn/best-pt',
-                    'st-dnn/random-pt',
-                    'st-dnn/worst-pt',
-            }
+            'st-dnn/assin1-rte',
+            'st-dnn/best-pt',
+            'st-dnn/random-pt',
+            'st-dnn/worst-pt',
+        }
 
         approaches = set(list(evals.values())[0].keys())
         remove_approaches = cabezudo_approaches if metric_idx >= 2 or cabezudo == False else approaches - cabezudo_approaches
 
-    for model in evals:
-        for approach in remove_approaches:
-            evals[model].pop(approach)
+        for model in evals:
+            for approach in remove_approaches:
+                evals[model].pop(approach)
 
     for model in evals:
         scores[model] = {key: get_metric(value, task_name, metric_idx)
-                  for key, value in evals[model].items()}
+                         for key, value in evals[model].items()}
 
     return scores
 
-def get_models_scores_dict(files: List[str], task_name: str, metric_idx: int, model_set: set, cabezudo: bool):
-        scores_dict_lst = [get_scores_dict(filepath, task_name, metric_idx, model_set, cabezudo)
-                            for filepath in files]
 
-        models_scores_dict = dict()
-        for model in model_set:
-            models_scores_dict[model] = [scores[model] for scores in scores_dict_lst]
+def get_models_scores_dict(files: List[str], model_set: set, task_name: str, metric_idx: int, models_lang: str, cabezudo: bool):
+    scores_dict_lst = [get_scores_dict(filepath, model_set, task_name, metric_idx, models_lang, cabezudo)
+                       for filepath in files]
 
+    models_scores_dict = dict()
+    for model in model_set:
+        models_scores_dict[model] = [scores[model]
+                                     for scores in scores_dict_lst]
 
-        return models_scores_dict
+    return models_scores_dict
 
 
 def adjust_legend(graphs, labels, handle_text):
     class TextHandler(HandlerBase):
-            def create_artists(self, legend, tup ,xdescent, ydescent,
-                                width, height, fontsize,trans):
-                tx = Text(
-                         width/2.,
-                         height/2,
-                         tup[0],
-                         fontsize=fontsize,
-                         ha="center",
-                         va="center",
-                         #color=tup[1],
-                         #fontweight="bold",
-                         alpha=1,
-                   )
-                return [tx]
+        def create_artists(self, legend, tup, xdescent, ydescent,
+                           width, height, fontsize, trans):
+            tx = Text(
+                width/2.,
+                height/2,
+                tup[0],
+                fontsize=fontsize,
+                ha="center",
+                va="center",
+                # color=tup[1],
+                # fontweight="bold",
+                alpha=1,
+            )
+            return [tx]
 
     for graph in graphs:
         graph.set_xticklabels(handle_text)
 
-    handles = [(l, a.get_facecolor()) for l, a in zip(handle_text, graphs[0].artists)]
+    handles = [(l, a.get_facecolor())
+               for l, a in zip(handle_text, graphs[0].artists)]
 
     graph.legend(handles,
                  labels,
                  bbox_to_anchor=(1, 1),
-                 handler_map={tuple : TextHandler()}
+                 handler_map={tuple: TextHandler()}
                  )
+
 
 def box_plot(dfs):
     sns.set(
-            font='Open Sans',
-            context="paper",
-            style="whitegrid",
+        font='Open Sans',
+        context="paper",
+        style="whitegrid",
     )
 
     fig, graphs = plt.subplots(1, len(dfs))
     size = fig.get_size_inches()
     fig.set_size_inches(size[0]*2, size[1])
 
-    labels = dfs[0].columns.values
+    labels = [approaches_dict[label] for label in dfs[0].columns.values]
     handle_text = range(1, 1 + len(labels))
 
-
-    color_palette=sns.cubehelix_palette(len(labels), dark=0.2)
+    color_palette = sns.cubehelix_palette(len(labels), dark=0.2)
 
     for idx, df in enumerate(dfs):
         sns.boxplot(ax=graphs[idx],
@@ -177,18 +204,18 @@ def box_plot(dfs):
                     showmeans=True,
                     boxprops=dict(alpha=0.5),
                     meanprops=dict(
-                                   alpha=1,
-                                   markerfacecolor='black',
-                                   markeredgecolor='black',
-                                   markersize=10,
-                                  ),
-)
+            alpha=1,
+            markerfacecolor='black',
+            markeredgecolor='black',
+            markersize=10,
+        ),
+        )
     adjust_legend(graphs, labels, handle_text)
 
     return fig, graphs
 
 
-def draw_blox_plot(model_scores_dict: Dict[str, list], task_name: str, models_lang: str, metric_idx: int):
+def draw_blox_plot(model_scores_dict: Dict[str, list], task_name: str, metric_idx: int, models_lang: str, cabezudo: bool):
     xlabel = "Aproaches"
     ylabel = get_metric_name(metric_idx, is_assin(task_name))
 
@@ -200,32 +227,34 @@ def draw_blox_plot(model_scores_dict: Dict[str, list], task_name: str, models_la
 
     fig, graphs = box_plot(dfs)
     for idx, graph in enumerate(graphs):
-        graph.set_title(dfs[idx].name)
+        graph.set_title(models_dict[dfs[idx].name])
         graph.set_ylabel(ylabel)
 
-    #fig.tight_layout()
-    #plt.savefig(f'boxplot/{task_name}_{models_lang}_{metric_idx}.png')
-    plt.show()
+    fig.tight_layout()
+
+    filename = f'{task_name}_{models_lang}_cabezudo' if cabezudo else f'{task_name}_{models_lang}_{metric_idx}'
+    plt.savefig(f'boxplot/{filename}.png')
 
 
 def main():
     path = 'report/seed'
     models = {
-        'en':{
-             'mt-dnn_base',
-             'bert_base',
-             'bert_large',
-             'mt-dnn_large',
+        'en': {
+            'mt-dnn_base',
+            'bert_base',
+            'bert_large',
+            'mt-dnn_large',
         },
-        'pt':{
+        'pt': {
             'bert-multilingual_base',
             'bert-pt_base',
             'bert-pt_large',
         }
     }
 
-    task_name, models_lang, metric_idx = sys.argv[1:4] 
-    cabezudo = True if len(sys.argv) == 5 and sys.argv[4] == '--cabezudo' else False
+    task_name, models_lang, metric_idx = sys.argv[1:4]
+    cabezudo = True if len(
+        sys.argv) == 5 and sys.argv[4] == '--cabezudo' else False
 
     metric_idx = int(metric_idx)
     model_set = models[models_lang]
@@ -233,8 +262,10 @@ def main():
     pattern = re.compile(r'\d\d\d\d_.*_.*.txt')
     files = [f'{path}/{filename}' for filename in os.listdir(
         path) if re.search(pattern, filename)]
-    models_scores_dict = get_models_scores_dict(files, task_name, metric_idx, model_set, cabezudo)
-    draw_blox_plot(models_scores_dict, task_name, models_lang, metric_idx)
+    models_scores_dict = get_models_scores_dict(
+        files, model_set, task_name, metric_idx, models_lang, cabezudo)
+    draw_blox_plot(models_scores_dict, task_name,
+                   metric_idx, models_lang, cabezudo)
 
 
 if __name__ == '__main__':
