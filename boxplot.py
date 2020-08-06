@@ -73,8 +73,7 @@ def get_evals(report: str, task_name: str, model_set: set):
     pattern = re.compile(r'report/(.*?)/(.*?)/.*/dropout/\d+\.\d+(/*.*)/.*?txt')
     for task in tasks:
         mode, model, extra = re.search(pattern, task).groups()
-        approach = mode + extra
-        evals[model].update({approach: task})
+        evals[model].update({mode + extra: task})
 
     return evals
 
@@ -87,22 +86,26 @@ def get_report(filepath: str):
     return report
 
 
-def get_scores_dict(filepath: str, task_name: str, metric_idx: int, model_set: set):
+def get_scores_dict(filepath: str, task_name: str, metric_idx: int, model_set: set, cabezudo: bool):
     report = get_report(filepath)
     evals = get_evals(report, task_name, model_set)
     scores = dict()
 
-    if task_name.startswith('assin') and metric_idx >= 2:
-        cabezudo = {
-                    'assin1-rte',
-                    'best-pt',
-                    'random-pt',
-                    'worst-pt',
-        }
 
-        for model in evals:
-            evals[model] = {key: value for key, value in evals[model].items()
-                            if not any(model in key for model in cabezudo)}
+    if task_name.startswith('assin'):
+        cabezudo_approaches = {
+                    'st-dnn/assin1-rte',
+                    'st-dnn/best-pt',
+                    'st-dnn/random-pt',
+                    'st-dnn/worst-pt',
+            }
+
+        approaches = set(list(evals.values())[0].keys())
+        remove_approaches = cabezudo_approaches if metric_idx >= 2 or cabezudo == False else approaches - cabezudo_approaches
+
+    for model in evals:
+        for approach in remove_approaches:
+            evals[model].pop(approach)
 
     for model in evals:
         scores[model] = {key: get_metric(value, task_name, metric_idx)
@@ -110,8 +113,8 @@ def get_scores_dict(filepath: str, task_name: str, metric_idx: int, model_set: s
 
     return scores
 
-def get_models_scores_dict(files: List[str], task_name: str, metric_idx: int, model_set: set):
-        scores_dict_lst = [get_scores_dict(filepath, task_name, metric_idx, model_set)
+def get_models_scores_dict(files: List[str], task_name: str, metric_idx: int, model_set: set, cabezudo: bool):
+        scores_dict_lst = [get_scores_dict(filepath, task_name, metric_idx, model_set, cabezudo)
                             for filepath in files]
 
         models_scores_dict = dict()
@@ -199,7 +202,8 @@ def draw_blox_plot(model_scores_dict: Dict[str, list], task_name: str, models_la
     for idx, graph in enumerate(graphs):
         graph.set_title(dfs[idx].name)
         graph.set_ylabel(ylabel)
-    fig.tight_layout()
+
+    #fig.tight_layout()
     #plt.savefig(f'boxplot/{task_name}_{models_lang}_{metric_idx}.png')
     plt.show()
 
@@ -220,7 +224,8 @@ def main():
         }
     }
 
-    task_name, models_lang, metric_idx = sys.argv[1:]
+    task_name, models_lang, metric_idx = sys.argv[1:4] 
+    cabezudo = True if len(sys.argv) == 5 and sys.argv[4] == '--cabezudo' else False
 
     metric_idx = int(metric_idx)
     model_set = models[models_lang]
@@ -228,7 +233,7 @@ def main():
     pattern = re.compile(r'\d\d\d\d_.*_.*.txt')
     files = [f'{path}/{filename}' for filename in os.listdir(
         path) if re.search(pattern, filename)]
-    models_scores_dict = get_models_scores_dict(files, task_name, metric_idx, model_set)
+    models_scores_dict = get_models_scores_dict(files, task_name, metric_idx, model_set, cabezudo)
     draw_blox_plot(models_scores_dict, task_name, models_lang, metric_idx)
 
 
