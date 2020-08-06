@@ -3,7 +3,7 @@ import os
 import sys
 import pprint
 
-from typing import Iterable, List
+from typing import List, Dict
 
 import numpy as np
 import pandas as pd
@@ -68,9 +68,13 @@ def get_evals(report: str, task_name: str, model_set: set):
     tasks = re.split('corpus.*|Saving generated XMLs...', report)
     tasks = [task for task in tasks
              if f'{task_name}_eval.txt' in task and any(model in task for model in model_set)]
-    pattern = re.compile(r'report/(.*?/.*?)/.*/dropout/\d+\.\d+(/*.*)/.*?txt')
-    evals = {re.search(pattern, task).group(1) + re.search(pattern, task).group(2): task
-             for task in tasks}
+
+    evals = {model: dict() for model in model_set}
+    pattern = re.compile(r'report/(.*?)/(.*?)/.*/dropout/\d+\.\d+(/*.*)/.*?txt')
+    for task in tasks:
+        mode, model, extra = re.search(pattern, task).groups()
+        approach = mode + extra
+        evals[model].update({approach: task})
 
     return evals
 
@@ -86,6 +90,7 @@ def get_report(filepath: str):
 def get_scores_dict(filepath: str, task_name: str, metric_idx: int, model_set: set):
     report = get_report(filepath)
     evals = get_evals(report, task_name, model_set)
+    scores = dict()
 
     if task_name.startswith('assin') and metric_idx >= 2:
         cabezudo = {
@@ -95,15 +100,29 @@ def get_scores_dict(filepath: str, task_name: str, metric_idx: int, model_set: s
                     'worst-pt',
         }
 
-        evals = {key: value for key, value in evals.items()
-                    if not any(model in key for model in cabezudo)}
+        for model in evals:
+            evals[model] = {key: value for key, value in evals[model].items()
+                            if not any(model in key for model in cabezudo)}
 
-    scores = {key: get_metric(value, task_name, metric_idx)
-              for key, value in evals.items()}
+    for model in evals:
+        scores[model] = {key: get_metric(value, task_name, metric_idx)
+                  for key, value in evals[model].items()}
 
     return scores
 
-def adjust_legend(graph, labels, handle_text):
+def get_models_scores_dict(files: List[str], task_name: str, metric_idx: int, model_set: set):
+        scores_dict_lst = [get_scores_dict(filepath, task_name, metric_idx, model_set)
+                            for filepath in files]
+
+        models_scores_dict = dict()
+        for model in model_set:
+            models_scores_dict[model] = [scores[model] for scores in scores_dict_lst]
+
+
+        return models_scores_dict
+
+
+def adjust_legend(graphs, labels, handle_text):
     class TextHandler(HandlerBase):
             def create_artists(self, legend, tup ,xdescent, ydescent,
                                 width, height, fontsize,trans):
@@ -120,9 +139,10 @@ def adjust_legend(graph, labels, handle_text):
                    )
                 return [tx]
 
-    graph.set_xticklabels(handle_text)
-    label_dict = dict(zip(handle_text, labels))
-    handles = [(l, a.get_facecolor()) for l, a in zip(handle_text, graph.artists)]
+    for graph in graphs:
+        graph.set_xticklabels(handle_text)
+
+    handles = [(l, a.get_facecolor()) for l, a in zip(handle_text, graphs[0].artists)]
 
     graph.legend(handles,
                  labels,
@@ -130,50 +150,58 @@ def adjust_legend(graph, labels, handle_text):
                  handler_map={tuple : TextHandler()}
                  )
 
-def box_plot(df):
+def box_plot(dfs):
     sns.set(
             font='Open Sans',
             context="paper",
             style="whitegrid",
     )
 
-    fig, graph = plt.subplots()
+    fig, graphs = plt.subplots(1, len(dfs))
     size = fig.get_size_inches()
-    fig.set_size_inches(size[0]*2.25, size[1]*1.5)
+    fig.set_size_inches(size[0]*2, size[1])
 
-    handle_text = range(1, df.shape[1]+1)
-    labels = df.columns.values
+    labels = dfs[0].columns.values
+    handle_text = range(1, 1 + len(labels))
+
+
     color_palette=sns.cubehelix_palette(len(labels), dark=0.2)
 
-    graph = sns.boxplot(data=df,
-                        palette=color_palette,
-                        showmeans=True,
-                        boxprops=dict(alpha=0.5),
-                        meanprops=dict(
-                                       alpha=1,
-                                       markerfacecolor='black',
-                                       markeredgecolor='black',
-                                       markersize=10,
-                                      ),
-    )
-    adjust_legend(graph, labels, handle_text)
+    for idx, df in enumerate(dfs):
+        sns.boxplot(ax=graphs[idx],
+                    data=df,
+                    palette=color_palette,
+                    showmeans=True,
+                    boxprops=dict(alpha=0.5),
+                    meanprops=dict(
+                                   alpha=1,
+                                   markerfacecolor='black',
+                                   markeredgecolor='black',
+                                   markersize=10,
+                                  ),
+)
+    adjust_legend(graphs, labels, handle_text)
 
-    return fig, graph
+    return fig, graphs
 
 
-def draw_blox_plot(scores_dict_lst: List[dict], task_name: str, models_lang: str, metric_idx: int, graph_title: str):
+def draw_blox_plot(model_scores_dict: Dict[str, list], task_name: str, models_lang: str, metric_idx: int):
     xlabel = "Aproaches"
     ylabel = get_metric_name(metric_idx, is_assin(task_name))
 
-    df = pd.DataFrame(scores_dict_lst)
-    print(df.shape)
+    dfs = list()
+    for model, scores in model_scores_dict.items():
+        df = pd.DataFrame(scores)
+        df.name = model
+        dfs.append(df)
 
-    fig, graph = box_plot(df)
-    graph.set_title(graph_title)
-    graph.set_ylabel(ylabel)
+    fig, graphs = box_plot(dfs)
+    for idx, graph in enumerate(graphs):
+        graph.set_title(dfs[idx].name)
+        graph.set_ylabel(ylabel)
     fig.tight_layout()
-    plt.savefig(f'boxplot/{task_name}_{models_lang}_{metric_idx}.png')
-    #plt.show()
+    #plt.savefig(f'boxplot/{task_name}_{models_lang}_{metric_idx}.png')
+    plt.show()
 
 
 def main():
@@ -186,23 +214,22 @@ def main():
              'mt-dnn_large',
         },
         'pt':{
-            'multilingual',
+            'bert-multilingual_base',
             'bert-pt_base',
             'bert-pt_large',
         }
     }
 
-    task_name, models_lang, metric_idx, graph_title = sys.argv[1:]
+    task_name, models_lang, metric_idx = sys.argv[1:]
 
     metric_idx = int(metric_idx)
     model_set = models[models_lang]
 
     pattern = re.compile(r'\d\d\d\d_.*_.*.txt')
-    files = [filename for filename in os.listdir(
+    files = [f'{path}/{filename}' for filename in os.listdir(
         path) if re.search(pattern, filename)]
-    scores_dict_lst = [get_scores_dict(
-        f'{path}/{filename}', task_name, metric_idx, model_set) for filename in files]
-    draw_blox_plot(scores_dict_lst, task_name, models_lang, metric_idx, graph_title)
+    models_scores_dict = get_models_scores_dict(files, task_name, metric_idx, model_set)
+    draw_blox_plot(models_scores_dict, task_name, models_lang, metric_idx)
 
 
 if __name__ == '__main__':
