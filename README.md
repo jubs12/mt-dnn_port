@@ -44,7 +44,7 @@ Run scripts/mt-dnn.sh chosing:
 assin-ptbr+assin2, assin2 are available only for Portuguese embeddings: bert-pt and bert-multilingual
 
 ```bash
-bash mt-dnn.sh {MODEL} {TYPE} {TASK}
+bash scripts/mt-dnn.sh {MODEL} {TYPE} {TASK}
 ```
 
 # Evaluation
