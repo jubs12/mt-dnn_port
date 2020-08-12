@@ -1,3 +1,5 @@
+#!/bin/bash
+
 echo "Entering mt-dnn repository"
 git clone https://github.com/namisan/mt-dnn
 cd mt-dnn

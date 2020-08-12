@@ -1,3 +1,5 @@
+#!/bin/bash
+
 MODE=$1
 MODEL_TYPE=$2
 INNER_FOLDER=$3
