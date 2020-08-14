@@ -14,11 +14,11 @@
 
 ### Pearson
 
-![](black_and_white/assin1_ptbr_rte_pearson.png)
+![](black_and_white/assin1_ptbr_sts_pearson.png)
 
 ### MSE
 
-![](black_and_white/assin1_ptbr_rte_mse.png)
+![](black_and_white/assin1_ptbr_sts_mse.png)
 
 # ASSIN 1 (pt-PT)
 
@@ -36,11 +36,11 @@
 
 ### Pearson
 
-![](black_and_white/assin1_ptpt_rte_pearson.png)
+![](black_and_white/assin1_ptpt_sts_pearson.png)
 
 ### MSE
 
-![](black_and_white/assin1_ptpt_rte_mse.png)
+![](black_and_white/assin1_ptpt_sts_mse.png)
 
 # ASSIN 2
 
@@ -58,29 +58,29 @@
 
 ### Pearson
 
-![](black_and_white/assin2_rte_pearson.png)
+![](black_and_white/assin2_sts_pearson.png)
 
 ### MSE
 
-![](black_and_white/assin2_rte_mse.png)
+![](black_and_white/assin2_sts_mse.png)
 
 # TweetSentBR
 
 ### Acc
 
-![](black_and_white/assin2_rte_acc.png)
+![](black_and_white/tweetsent_acc.png)
 
 ### F1, negative
 
-![](black_and_white/assin2_rte_f1neg.png)
+![](black_and_white/tweetsent_f1neg.png)
 
 ### F1, neutral
 
-![](black_and_white/assin2_rte_f1neu.png)
+![](black_and_white/tweetsent_f1neu.png)
 
 ### F1, positive
 
-![](black_and_white/assin2_rte_f1pos.png)
+![](black_and_white/tweetsent_f1pos.png)
 
 # Cabezudo et al.
 
